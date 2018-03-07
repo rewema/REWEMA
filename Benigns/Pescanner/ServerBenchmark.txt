@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    34816 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     3f97dacae6a3a54a7335693254fbfb83
+SHA1:    abb46344005740758fe23766406900c4e0e24893
+ssdeep:  384:HvP96urlRlCJmtZV/FI7uT98k4C303A4TK99a8wfHA9Lk24jXPlI7sa3og4QqQ7N:9lzCTU9P4C303AaR5Hw2XPMZSyLx+em
+Date:    0x4ED9A0F1 [Sat Dec  3 04:09:21 2011 UTC]
+EP:      0x40932e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x13762 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc440   0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc9a8   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xc130   0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xc9c0   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x7334       0x7400       5.458191    
+.sdata     0xa000       0x77         0x200        1.723027    
+.rsrc      0xc000       0xbb0        0xc00        2.832785    
+.reloc     0xe000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.0.0
+InternalName: ServerBenchmark.exe
+FileVersion: 1.0.0.0
+Comments: BurnIn processing
+ProductName: Server Benchmark/Burn In
+ProductVersion: 1.0.0.0
+FileDescription: ServerBenchmark
+OriginalFilename: ServerBenchmark.exe
+

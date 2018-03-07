@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    173512 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     65c0f9ae99eccca7c5c3cefa7ed80904
+SHA1:    41f8b3b28ee74461e7182d39b79748d7a69b703c
+ssdeep:  3072:UQBWhkPlevo+HhFgDteGolAHSQ3f1BUK+YUHFlFVT6mr1m2P3AtpFvi:CkPlyH6tolYvNBqDFomrX3Wq
+Date:    0x591D55BE [Thu May 18 08:05:18 2017 UTC]
+EP:      0x40501a .text 0/7
+CRC:     Claimed: 0x302f5, Actual: 0x302f5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2b490  0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2b0a0  0x3ef    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+CreateServiceW
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1b9e1      0x1ba00      6.633172    
+.rdata     0x1d000      0x9bdc       0x9c00       5.432142    
+.data      0x27000      0x1974       0xa00        2.504555    
+.gfids     0x29000      0xe4         0x200        1.146828    
+.tls       0x2a000      0x9          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x2b000      0x7b8        0x800        4.689351    
+.reloc     0x2c000      0x166c       0x1800       6.491472    
+
+Version info
+================================================================================
+LegalCopyright: License: MPL 2
+InternalName: 
+FileVersion: 53.0.3
+CompanyName: Mozilla Foundation
+BuildID: 20170518000419
+LegalTrademarks: Mozilla
+Comments: 
+ProductName: Firefox
+ProductVersion: 53.0.3
+FileDescription: 
+OriginalFilename: maintenanceservice.exe
+Translation: 0x0000 0x04b0
+

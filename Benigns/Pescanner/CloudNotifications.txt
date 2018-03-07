@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    56320 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     308ca81243f6b6c7b1559e82f7a91a3f
+SHA1:    8bf53b550fa5ee34434bedfd0e4abded6e8e0de7
+ssdeep:  1536:bX+FgVG8DGJ4vCuMoUT5WXwyS2f14ualHtsjS2sG7NZzC3bj0jPdRk8:j+CVR7vCJTwO2Z7NZC3+fk8
+Date:    0x5789907A [Sat Jul 16 01:40:10 2016 UTC]
+EP:      0x407650 .text 0/7
+CRC:     Claimed: 0x13a7d, Actual: 0x13a7d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xef48   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0xe9e8   0x55c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe620   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe150   0x4cf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8340       0x8400       6.219760    
+.imrsiv    0xa000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0xb000       0x5c4        0x200        2.346828    
+.idata     0xc000       0xf64        0x1000       5.123839    
+.didat     0xd000       0x68         0x200        1.010761    
+.rsrc      0xe000       0x1020       0x1200       4.152035    
+.reloc     0x10000      0x8a8        0xa00        6.190077    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CloudNotifications
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Cloud notifications
+OriginalFilename: CloudNotifications.exe
+Translation: 0x0409 0x04b0
+

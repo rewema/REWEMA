@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    82944 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e2777edfd7bb03cbd3ba15606427f4fa
+SHA1:    650ec8b906903888a7438b8d2f078a1bde7f677a
+ssdeep:  1536:4+UuS9yefhRhK1r+77qThuFIbIoaDqkEH1V+/tk4kW0bOuUnFM:4+U39y03hE+771O01SUy470iuUC
+Date:    0x57899158 [Sat Jul 16 01:43:52 2016 UTC]
+EP:      0x4108d0 .text 0/6
+CRC:     Claimed: 0x14d15, Actual: 0x14d15 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x16490  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x160b0  0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10c78      0x10e00      6.212578    
+.data      0x12000      0x5a8        0x200        2.523937    
+.idata     0x13000      0x150e       0x1600       5.166101    
+.didat     0x15000      0x18         0x200        0.219439    [SUSPICIOUS]
+.rsrc      0x16000      0x558        0x600        3.050156    
+.reloc     0x17000      0x100c       0x1200       6.384640    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dmclient.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Feedback SIUF Deployment Manager Client
+OriginalFilename: dmclient.exe
+Translation: 0x0409 0x04b0
+

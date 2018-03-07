@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    381208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7271a4d33bfd96bce52703b2b40fe260
+SHA1:    ce11ac82f1f0ef11ce769e1d4624405869bea6f9
+ssdeep:  6144:wlIg5qn7/nzG/1VDkflIEiXXXbtCzzFPSalCS0gqt3cNs/8r:wKgqnrzuiIfXXXBCzzFPSCCSRqtsF
+Date:    0x57898D8D [Sat Jul 16 01:27:41 2016 UTC]
+EP:      0x421030 .text 0/6
+CRC:     Claimed: 0x68054, Actual: 0x68054 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x572a0  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x52418  0x4ace   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x56ee8  0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x52160  0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+CreateProcessW
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4b3bc      0x4b400      6.438302    
+.data      0x4d000      0xecc        0x800        1.826252    
+.idata     0x4e000      0x2ec2       0x3000       5.538865    
+.didat     0x51000      0x13c        0x200        2.123865    
+.rsrc      0x52000      0x5390       0x5400       3.850767    
+.reloc     0x58000      0x5a0c       0x5c00       6.795852    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: services.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Services and Controller app
+OriginalFilename: services.exe
+Translation: 0x0409 0x04b0
+

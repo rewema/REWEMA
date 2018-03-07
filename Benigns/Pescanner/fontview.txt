@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    114176 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     41f2c4bcf495e8130fa93d7a641476cd
+SHA1:    4269c1a08d0f2a1aa7bdac55e0fd98459cd3a472
+ssdeep:  3072:TCmokEeNJjWRkOtHxtt3EOL2QvIsitSYVF:TCmokEiWRRZzqGY
+Date:    0x5789911A [Sat Jul 16 01:42:50 2016 UTC]
+EP:      0x405e10 .text 0/5
+CRC:     Claimed: 0x1e664, Actual: 0x1e664 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1e0a0  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa7c8   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xae30   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb118   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb240   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc0e8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc990   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xcef8   0xd2b6   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1a1b0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c758  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d800  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1dc68  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x1dd00  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0xa330   0x493    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x585c       0x5a00       6.317639    
+.data      0x7000       0xffc        0x400        0.562933    [SUSPICIOUS]
+.idata     0x8000       0x11cc       0x1200       5.235243    
+.rsrc      0xa000       0x14178      0x14200      7.159824    [SUSPICIOUS]
+.reloc     0x1f000      0x6e0        0x800        6.223967    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: fontview
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Font Viewer
+OriginalFilename: FONTVIEW.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    575027 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4d77f928a85bcc327849caaf342fbbf3
+SHA1:    9f00d949f3ee4c142f4419f3e37563c4012eaf04
+ssdeep:  12288:NfmyLymX93oXPh2WfZh3+xi2Sz4gOtdR4gnH6B1b1Msp5g5Ks:Nfme9X93MhRTh2DgaqYH67b1Myg5x
+Date:    0x3DF0C489 [Fri Dec  6 15:38:49 2002 UTC]
+EP:      0x403e64 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x8dceb [SUSPICIOUS]
+Packers: Nullsoft Install System v2.0b2, v2.0b3
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3a1178 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a1460 0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a1560 0x15c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a16c0 0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a1788 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3a17e8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5b4c       0x5c00       6.421949    
+.rdata     0x7000       0x1080       0x1200       4.945890    
+.data      0x9000       0x3977c8     0x400        4.923280    
+.rsrc      0x3a1000     0x1000       0x800        3.303112    
+

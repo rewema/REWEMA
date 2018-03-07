@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    41984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f476798c66eb597676e12f824021d610
+SHA1:    d69b77c315c66202a0fcc2b08e608d9ffebb4175
+ssdeep:  768:Ld59Zsa/Oq/WSqg5/96mZK3f9TkegWDkho9:ZKa2qx5hoSMk29
+Date:    0x57898E8B [Sat Jul 16 01:31:55 2016 UTC]
+EP:      0x406c40 .text 0/5
+CRC:     Claimed: 0x19263, Actual: 0x19263 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc228   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0xb870   0xdc     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xb950   0x277    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0xbbc8   0x65c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xb4a8   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb1e0   0x2c3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7244       0x7400       6.047946    
+.data      0x9000       0x574        0x200        1.850443    
+.idata     0xa000       0xcfc        0xe00        5.098278    
+.rsrc      0xb000       0x1310       0x1400       4.454805    
+.reloc     0xd000       0x7f0        0x800        6.667041    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sdchange.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Remote Assistance SD Server
+OriginalFilename: sdchange.exe
+Translation: 0x0409 0x04b0
+

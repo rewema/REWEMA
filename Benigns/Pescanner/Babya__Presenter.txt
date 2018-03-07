@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    126976 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0587f36f418bc1008c0a27c81bdf9f3a
+SHA1:    e7e05993dc4e473aabf214c354319908deaf9257
+ssdeep:  1536:K+ZgITRhvJMbsvZ/G5ruAkGlF9wwUpGMF8MHEeefkkU4Y0FW:ZZJnJMaUuAvWp8M3
+Date:    0x4025B3D2 [Sun Feb  8 03:58:10 2004 UTC]
+EP:      0x4010e4 .text 0/3
+CRC:     Claimed: 0x28d51, Actual: 0x28d51 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x233c8  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x233b4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x230f0  0x2c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c548      0x1d000      5.367334    
+.data      0x1e000      0x4f98       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x23000      0x6b0        0x1000       1.384259    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: (C) Babya Software Group, 2004
+InternalName: Babya  Presenter
+FileVersion: 1.00
+CompanyName: Babya Software Group
+ProductName: Babya  Presenter
+ProductVersion: 1.00
+OriginalFilename: Babya  Presenter.exe
+

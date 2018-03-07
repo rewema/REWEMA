@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ea68bd55d2c2d87600b7a1c2fd94ddd2
+SHA1:    6fe81f76abcbb32160e39875449a6005886b2cfe
+ssdeep:  384:P6cTaZSKIRUhGwisRNWmlS9thtjzEdLySTVb+arCBlZuW1EWRj8r:iWaZoqhGwi/tPX2FQDBlZbRS
+Date:    0x408278E0 [Sun Apr 18 12:47:28 2004 UTC]
+EP:      0x401811 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x14576 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa060   0x51c    LANG_CZECH   SUBLANG_DEFAULT          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4b7c       0x5000       6.367697    
+.rdata     0x6000       0x8bc        0x1000       3.487066    
+.data      0x7000       0x2768       0x2000       2.542655    
+.rsrc      0xa000       0x580        0x1000       1.417608    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2004, Petr Vacek
+PrivateBuild: 
+InternalName: xColSet1
+FileVersion: 1, 0, 0, 1
+LIMITS: 
+CompanyName: 
+BUILD NUMBER: 23
+LegalTrademarks: 
+Comments: generates batch files for Colgen1 alpha package
+ProductName: dummy Colgen1 package setup
+SpecialBuild: 
+GN-VN entries: TYPE=FILE_UTIL, coder= Blue Eagle
+SPECS VER: Colgen 1 - support just rev 1
+FileDescription: xColSet1 - generates batch files for Colgen1 alpha package
+OriginalFilename: xColSet1.exe
+ProductVersion: 1, 0, 0, 1
+Translation: 0x0809 0x04e4
+

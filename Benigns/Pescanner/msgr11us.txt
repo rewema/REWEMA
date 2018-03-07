@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    439704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d30525a286a12a4ec47aef441c682039
+SHA1:    28d49db2b13cedd1c26e1d42b9acb0b247276732
+ssdeep:  6144:vp97WMXl1BoUrqziSVMcOD7/M9lkOirS1DkhnWCXRzzh2OUknbIsyGD4eXTf6t23:3BboUrjcOk9NirSrC1zhHpnbxyTeqp9s
+Date:    0x4F47E34F [Fri Feb 24 19:21:51 2012 UTC]
+EP:      0x4036ae .text 0/6
+CRC:     Claimed: 0x771e8, Actual: 0x771e8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xac208  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xae7b0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xaf658  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xaf758  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xaf878  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xaf8d8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 48x48, 256-colors
+RT_VERSION         0xaf900  0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xafb40  0x2d3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcess
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x69ce       0x6a00       6.490163    
+.rdata     0x8000       0x1ee2       0x2000       5.353249    
+.data      0xa000       0x3e93c      0x200        1.400100    
+.ndata     0x49000      0x63000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0xac000      0x3e18       0x4000       4.827418    
+.reloc     0xb0000      0xd3a        0xe00        5.840221    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2010 Yahoo! Inc.
+FileDescription: Yahoo! Messenger Suite Install Bootstrapper Setup
+FileVersion: 2012.05.30.01
+CompanyName: Yahoo! Inc.
+Translation: 0x0409 0x04e4
+

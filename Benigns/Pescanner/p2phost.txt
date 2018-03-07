@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    152064 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     32dee5d6b7e38027723972192ceede88
+SHA1:    7f2f85be3b3f7141fc9693b5050d7f5311efee82
+ssdeep:  3072:UH1TxngSxKrT+lhEBYd0AGTH41P5l19V6JORBxy:YiSzUnq13DVOO
+Date:    0x4A5BC99C [Mon Jul 13 23:56:12 2009 UTC]
+EP:      0x100e7df .text 0/4
+CRC:     Claimed: 0x290c3, Actual: 0x290c3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x24eb8  0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x248a8  0x282    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x19090  0x1b2a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1d350  0x1d68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1f0b8  0x3878   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22930  0x1864   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x24198  0x710    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17a40  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17b68  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x180d0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x18568  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x18690  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x18bf8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1abc0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1aea8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1afd0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b878  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1bde0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ce88  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x18538  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x19060  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x1d2f0  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 16-colors
+RT_VERSION         0x24b30  0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x17560  0x4de    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14714      0x14800      6.516504    
+.data      0x16000      0xd84        0x800        5.574936    
+.rsrc      0x17000      0xdfc0       0xe000       5.465371    
+.reloc     0x25000      0x1d72       0x1e00       4.839723    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: p2phost.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: People Near Me
+OriginalFilename: p2phost.exe
+Translation: 0x0409 0x04b0
+

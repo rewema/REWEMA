@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    378568 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     edc2aefb9dc0a0fb680d83d1fde336c1
+SHA1:    a25b4fb41617f93696d4f80f8be037a8d920743c
+ssdeep:  6144:E5qWoagH78nMMmmt0fSoD7TyqE5W6qNoJPN:E5q8gb8Imt0LDviaIF
+Date:    0x5797C9E9 [Tue Jul 26 20:36:57 2016 UTC]
+EP:      0x41afde .text 0/6
+CRC:     Claimed: 0x620ee, Actual: 0x620ee 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x590a0  0x458    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x594f8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+CreateProcessA
+CreateProcessW
+OpenProcessToken
+CreateProcessAsUserW
+CreateProcessAsUserA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x310d0      0x31200      6.508472    
+.rdata     0x33000      0x1fc02      0x1fe00      5.040453    
+.data      0x53000      0x4528       0x2200       4.213508    
+.c2r       0x58000      0xb4         0x200        1.474731    
+.rsrc      0x59000      0x678        0x800        3.501145    
+.reloc     0x5a000      0x478c       0x4800       6.425521    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2014 Microsoft Corporation
+InternalName: appvlp
+FileVersion: 5.0.10346.0
+CompanyName: Microsoft Corporation
+PrivateBuild: 50sp3Servicing (by sftbuild on MBAMR02BLD01)
+LegalTrademarks: Microsoft\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Application Virtualization (App-V)
+ProductVersion: 5.0.10346.0
+FileDescription: appvlp
+OriginalFilename: appvlp.exe
+Translation: 0x0409 0x04b0
+

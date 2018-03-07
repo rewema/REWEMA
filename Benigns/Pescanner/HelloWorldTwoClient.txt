@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4096 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     9a1d19bd9ac2600adf46371c86ab541e
+SHA1:    4987769fa45171f39b8ea9a83feb0c4b44faf935
+ssdeep:  48:6HjciVoXoxAxveRZrveiZPJn1tGqIs2bo0IspOPul/I02X3Kq:kG4xAxveR1TJnDeswxIiu02
+Date:    0x403F751F [Fri Feb 27 16:49:35 2004 UTC]
+EP:      0x40267e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x102af [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x684        0x800        4.192066    
+.rsrc      0x4000       0x360        0x400        2.705464    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: HelloWorldTwoClient.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: HelloWorldTwoClient.exe
+

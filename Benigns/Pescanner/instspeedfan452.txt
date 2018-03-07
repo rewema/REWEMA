@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3086696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9b62520616b647979ad053dffa80311c
+SHA1:    babeb8bdd47d51e5bb7f66b9197aa0a1b9f3a2aa
+ssdeep:  49152:pJAZvThICXI+X/w5zcnTdSljPWHb59XUmisH5VdEPF63gO8FsAA:pJAZvThIqXqzYTYLWnisP2PF63gxtA
+Date:    0x4B1AE3C1 [Sat Dec  5 22:50:41 2009 UTC]
+EP:      0x4030cb .text 0/5
+CRC:     Claimed: 0x300689, Actual: 0x300689 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2c298  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c900  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2cbe8  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2cca0  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2cde4  0x13c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2cf20  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d020  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d13c  0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d200  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2d260  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_MANIFEST        0x2d274  0x46c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x58d2       0x5a00       6.433100    
+.rdata     0x7000       0x1190       0x1200       5.179764    
+.data      0x9000       0x1af78      0x400        4.617802    
+.ndata     0x24000      0x8000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x2c000      0x16e0       0x1800       4.182129    
+

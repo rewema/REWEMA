@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     050ff837f386b75e1bf2826c3410acd9
+SHA1:    49659c70c07bd1c8f1410c52c12061eeeba13115
+ssdeep:  768:RzrB12Ceql8hknveTEd39qXeckl5xfpYpbO9J:RfBLD88GiNgeDOdaJ
+Date:    0x49A0672D [Sat Feb 21 20:42:21 2009 UTC]
+EP:      0x40a33e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1362a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xc0a0   0x2cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xc370   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8344       0x9000       5.169534    
+.rsrc      0xc000       0x560        0x1000       1.862342    
+.reloc     0xe000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright 2009
+Assembly Version: 1.0.3339.39070
+InternalName: WinGui.exe
+FileVersion: 1.0.3339.39070
+ProductName: WinGui
+ProductVersion: 1.0.3339.39070
+FileDescription: WinGui
+OriginalFilename: WinGui.exe
+

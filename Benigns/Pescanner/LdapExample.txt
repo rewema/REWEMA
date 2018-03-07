@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6656 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     540b4d0d48b0ffac2878e3f6770696b1
+SHA1:    6358724b4173f8d42dc50e612342aa3982cbff61
+ssdeep:  48:6yVJ3CwqyLPc6p6xl4zGD1Rxv2ICn51Y/ucJqzse4cDsPgAV/kQ93OPtUlRu0edx:dJlVLPtp6xlcKli1Y/uKVL/lky1u0eR
+Date:    0x41ADF0A6 [Wed Dec  1 16:26:14 2004 UTC]
+EP:      0x11002a8e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x10266 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4430   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4718   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4840   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa94        0xc00        4.709863    
+.rsrc      0x4000       0x868        0xa00        2.940100    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1796.30020
+InternalName: LdapExample.exe
+FileVersion: 1.0.1796.30020
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1796.30020
+FileDescription:  
+OriginalFilename: LdapExample.exe
+

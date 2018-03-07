@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    27648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     232229587089a8f50d32867e33d4e277
+SHA1:    a60295450d4a8488be0b4d7bdff2fdc6ab7000d6
+ssdeep:  768:LmylUcLf+XiQuFZr4ySSRZAgYTox5Ve9:LB+cLfwHu34ynZAgYTox5Ve
+Date:    0x57898FD2 [Sat Jul 16 01:37:22 2016 UTC]
+EP:      0x403c30 .text 0/6
+CRC:     Claimed: 0x15276, Actual: 0x15276 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9950   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x94d0   0x47d    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C program text, with CRLF line terminators
+RT_VERSION         0x9100   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4250       0x4400       5.971871    
+.imrsiv    0x6000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x7000       0x440        0x200        2.004687    
+.idata     0x8000       0xf12        0x1000       5.143796    
+.rsrc      0x9000       0xa28        0xc00        4.164939    
+.reloc     0xa000       0x56c        0x600        6.138900    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DmNotificationBroker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DmNotificationBroker
+OriginalFilename: DmNotificationBroker.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1818624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2ff965e28d7e675e52fa17b06b9d5342
+SHA1:    6eb073a7f3cfab2b49759bebdc042f175cabc03d
+ssdeep:  12288:rHiDMajnxa68KfcmRNH465EKRNH4kWp5mCc0F6M6B0s9N0X5eB6ZV0:EZ1RN46bRN4k00R020k0Xnz0
+Date:    0x4119A931 [Wed Aug 11 05:05:53 2004 UTC]
+EP:      0x5937fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1c6c4b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1945f8 0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1a4e20 0x94a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1ae2c8 0x5488   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1b3750 0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1b7978 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1b9f20 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1bafc8 0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1bb950 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1bbdb8 0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x194238 0x3c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x191804     0x192000     5.524552    
+.rsrc      0x194000     0x27e30      0x28000      4.048960    
+.reloc     0x1bc000     0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.9.0.0
+InternalName: GmailerXP.exe
+FileVersion: 0.9.0.0
+CompanyName: migraineheartache
+LegalTrademarks: Gmail is a registered trademark of Google Inc.
+Comments: Application to interface with Gmail.
+ProductName: GmailerXP
+ProductVersion: 0.9.0.0
+FileDescription: GmailerXP
+OriginalFilename: GmailerXP.exe
+

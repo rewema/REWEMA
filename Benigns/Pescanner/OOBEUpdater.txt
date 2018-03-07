@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    34144 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7e2e10bc1eb794f993ba38b35da4b6d2
+SHA1:    dbf09b1726106629ea6f639a7986048d2a8ee3ba
+ssdeep:  384:VImq0QyI/oP+xghpdJhKbFa4xDhTPmEoFeXFGvDXQ51EKV1AFfWWxW5f1FgDBRJD:671y0oP+xghpETVGvU/Kxi41PN+KV7
+Date:    0x59266EA2 [Thu May 25 05:41:54 2017 UTC]
+EP:      0x404cb0 .text 0/5
+CRC:     Claimed: 0xfcbe, Actual: 0xfcbe 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8450   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80a0   0x3ae    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x44d4       0x4600       6.278528    
+.data      0x6000       0x4b4        0x200        0.395833    [SUSPICIOUS]
+.idata     0x7000       0x904        0xa00        4.714734    
+.rsrc      0x8000       0x7f8        0x800        4.609659    
+.reloc     0x9000       0x42c        0x600        5.260776    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: OobeUpdater
+FileVersion: 10.0.14393.1232 (rs1_release_inmarket.170524-1857)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.1232
+FileDescription: OobeUpdater
+OriginalFilename: OobeUpdater.exe
+Translation: 0x0409 0x04b0
+

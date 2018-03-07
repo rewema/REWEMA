@@ -1,0 +1,75 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4513173 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1dca95c60f595f615428c804e6d68a41
+SHA1:    3afefb10ac15efb2c90be334e17f0fc8133cddc9
+ssdeep:  98304:/kepjFhirZr0fNWPOsbeqqaq7CYcd+N9Jl9vvUGcsy:PirSKDqTus9py
+Date:    0x49126FBE [Thu Nov  6 04:17:02 2008 UTC]
+EP:      0x4079bf .text 0/4
+CRC:     Claimed: 0x2a704, Actual: 0x44f960 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x82700L => This program cannot be run in DOS mode
+   0xc071aL => This program cannot be run in DOS mode
+   0xdb736L => This program cannot be run in DOS mode
+   0xfc751L => This program cannot be run in DOS mode
+   0x11c76eL => This program cannot be run in DOS mode
+   0x1c3788L => This program cannot be run in DOS mode
+   0x1e17a5L => This program cannot be run in DOS mode
+   0x1f77c0L => This program cannot be run in DOS mode
+   0x2147dbL => This program cannot be run in DOS mode
+   0x2307f8L => This program cannot be run in DOS mode
+   0x254813L => This program cannot be run in DOS mode
+   0x26e824L => This program cannot be run in DOS mode
+   0x2b9837L => This program cannot be run in DOS mode
+   0x30684aL => This program cannot be run in DOS mode
+   0x36585dL => This program cannot be run in DOS mode
+   0x3b3870L => This program cannot be run in DOS mode
+   0x40388dL => This program cannot be run in DOS mode
+   0x4208a9L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1e190  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1ea38  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x1f2e0  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1f848  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1fdb0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_VERSION         0x1fdd4  0x484    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x20258  0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1438e      0x15000      6.545145    
+.rdata     0x16000      0x3bea       0x4000       5.377407    
+.data      0x1a000      0x3920       0x2000       2.221931    
+.rsrc      0x1e000      0x22b0       0x3000       4.596800    
+
+Version info
+================================================================================
+LegalCopyright: (C) DBViewer Ltd
+InternalName: v1.0
+FileVersion: v1.0
+CompanyName: DBViewer Ltd
+LegalTrademarks: 
+Comments: DBViewer
+ProductName: DBViewer
+ProductVersion: v1.0
+FileDescription: DBViewer
+OriginalFilename: E:\temp\codes\FLOW Viewe
+Translation: 0x0000 0x04b0
+

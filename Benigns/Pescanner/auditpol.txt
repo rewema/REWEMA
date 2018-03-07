@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29696 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     214e0ea1f7f7c27c82d23f183f9d23f1
+SHA1:    d19837afe4a9f8631e6f68d1a354e072aea89388
+ssdeep:  768:Aay2Mii5gL4cu7yp+RKSCIbEIbMhfdy3vf7aG:HdfTLg++RxCubady3vf7
+Date:    0x57899111 [Sat Jul 16 01:42:41 2016 UTC]
+EP:      0x404a20 .text 0/5
+CRC:     Claimed: 0x123d1, Actual: 0x123d1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9738   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9398   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x47f8       0x4800       6.055002    
+.data      0x6000       0x96c        0x600        2.770858    
+.idata     0x7000       0x10cc       0x1200       4.842644    
+.rsrc      0x9000       0x800        0x800        4.353904    
+.reloc     0xa000       0x628        0x800        5.740197    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: auditpol
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Audit Policy Program
+OriginalFilename: AUDITPOL.EXE
+Translation: 0x0409 0x04b0
+

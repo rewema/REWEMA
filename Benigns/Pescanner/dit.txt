@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1331290 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     700bf6b577ab5692e36b5996164272e6
+SHA1:    1c96f2f028f6c2781e66efb09b09d473c7c082a7
+ssdeep:  24576:ozFASrZQw+FoH+FwLf3WzeP4zuha3k/JTcDLM5tV1qwCM2XYJ+:ozTwLamagzeODLM5tLCjk+
+Date:    0x4C592CB9 [Wed Aug  4 09:02:49 2010 UTC]
+EP:      0x40934a .text 0/4
+CRC:     Claimed: 0x14c088, Actual: 0x14c088 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BFS                0x100f0  0x133e18 LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x144250 0x364    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x143f08 0x345    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xaf50       0xb000       6.559170    
+.rdata     0xc000       0x1e58       0x2000       5.123486    
+.data      0xe000       0x18b4       0x2000       2.595287    
+.rsrc      0x10000      0x1345b8     0x135000     7.991603    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Shareware
+InternalName: dit.exe
+FileVersion: 0.0.0.0
+CompanyName: 
+LegalTrademarks: 
+Comments: for more info visit my web site - http://sharontools.com or send email to - sharonsaa@gmail.com
+ProductName: Sharon Saadon
+ProductVersion: 1.2.0.0
+FileDescription: 
+OriginalFilename: dit.exe
+

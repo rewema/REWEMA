@@ -1,0 +1,77 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3610714 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     619e2cf7733153d5985a0b6b0ee21910
+SHA1:    c7ac3749f6036788b48f5fd0d5ccf9f586167973
+ssdeep:  49152:+/euKdXx5tsqtybX+/36jolQ1hfIkD9d5VGoTE+jep/V:+mldbGcv/36bFg
+Date:    0x48D01CFB [Tue Sep 16 20:54:19 2008 UTC]
+EP:      0x53c08c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x375dfa [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x166348L => Join
+   0x17e046L => join
+   0x17e06eL => join
+   0x160838L => msg
+   0x1797a8L => Notice
+   0x1625fcL => QUIT
+   0x1670e8L => Quit
+   0x179b0bL => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PICKLE             0x1f9b30 0x8      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1ff688 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1ff7d8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1ff928 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_ICON            0x1f9b38 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1fa0a0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fa948 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fb7f0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1fbc58 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fcd00 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x1ff7c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x1ff910 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x1ffa60 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x1ff2a8 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x1f93d0 0x760    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1ff308 0x37d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherA
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x159d05     0x15a000     6.641561    
+.rdata     0x15b000     0x35e38      0x36000      6.098891    
+.data      0x191000     0x67b44      0x42000      2.129721    
+.rsrc      0x1f9000     0x6a78       0x7000       3.210081    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 0.0.2.0
+CompanyName: 
+Country: 
+ProductName: 
+ProductVersion: 
+FileDescription: 
+Release: Alpha
+OriginalFilename: THCP.exe
+

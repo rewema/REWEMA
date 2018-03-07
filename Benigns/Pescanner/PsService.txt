@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    188584 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     02fe68328f96fee688da5885eb4c3cf0
+SHA1:    0db6b656ab0505903bc47f47e63e3451a93f41e1
+ssdeep:  3072:Ubk+b/Lx7nourckixvwRzDW/ZUFiasDkLsIJxw0umJPFpWE0XoK:9CtRXWiJiTm56oK
+Date:    0x5772A8FA [Tue Jun 28 16:42:34 2016 UTC]
+EP:      0x407f52 .text 0/4
+CRC:     Claimed: 0x2e127, Actual: 0x2e127 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2f0a0  0x364    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2f408  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18504      0x18600      6.592232    
+.rdata     0x1a000      0xf538       0xf600       4.390106    
+.data      0x2a000      0x431c       0x1c00       2.597297    
+.rsrc      0x2f000      0x588        0x600        3.882826    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001-2010 Mark Russinovich
+InternalName: PsService
+FileVersion: 2.25
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals psservice
+ProductVersion: 2.25
+FileDescription: Service information and configuration utility
+OriginalFilename: psservice.exe
+Translation: 0x0409 0x04b0
+

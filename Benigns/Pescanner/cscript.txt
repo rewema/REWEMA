@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    144384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f87e44a2c205faa3be76d9462d5125bb
+SHA1:    3a1497e1855e45206e55f9efcd9b6035ae7fbfa8
+ssdeep:  3072:i1pu3f81O70OOLx8oNJ2qdygAs4KdGxBpyqTxt3DW:yIX7NiW0AJBplTe
+Date:    0x578990D2 [Sat Jul 16 01:41:38 2016 UTC]
+EP:      0x406730 .text 0/5
+CRC:     Claimed: 0x2dd6b, Actual: 0x2dd6b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x243e8  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0x1d1b8  0x50cc   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cb38  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22288  0x96     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22320  0x1c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22508  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x224e0  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x234c8  0xca6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x24170  0x172    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x242e8  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x23158  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22538  0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x226e8  0x4c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22ba8  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22f40  0x212    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_STRING          0x233c0  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x23468  0x5e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1ce20  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x1ce38  0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x1c490  0x6a1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17a58      0x17c00      6.196650    
+.data      0x19000      0x4c0        0x200        1.755144    
+.idata     0x1a000      0x11fc       0x1200       5.594167    
+.rsrc      0x1c000      0x84d0       0x8600       4.343593    
+.reloc     0x25000      0x18f0       0x1a00       6.534688    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: cscript.exe
+FileVersion: 5.812.10240.16384
+CompanyName: Microsoft Corporation
+ProductName: Microsoft \xae Windows Script Host
+ProductVersion: 5.812.10240.16384
+FileDescription: Microsoft \xae Console Based Script Host
+OriginalFilename: cscript.exe
+Translation: 0x0409 0x04b0
+

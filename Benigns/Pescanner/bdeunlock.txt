@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    279408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     344b8133bfd5ada9276c6d7a03c2757c
+SHA1:    85c3d87fbb64c9ddbc903c7d78c3b2ef465934cc
+ssdeep:  6144:RhmL7rmqUtLdJJ1wKwb6U1xBnjWNJpvVs7nyatGt+SYFmW22/5w:XmL+qmTHwKwZ1rcPH+S+e
+Date:    0x57898F74 [Sat Jul 16 01:35:48 2016 UTC]
+EP:      0x426050 .text 0/6
+CRC:     Claimed: 0x4ac5b, Actual: 0x4ac5b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x43788  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x42288  0x14ff   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_ICON            0x2ccd0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d338  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d620  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d808  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d930  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e7d8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f080  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f748  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2fcb0  0xe0d4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x3dd88  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40330  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x413d8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x41d60  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x421c8  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x2c910  0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2c420  0x4ec    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x262ba      0x26400      6.482474    
+.imrsiv    0x28000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x29000      0x638        0x400        3.002904    
+.idata     0x2a000      0x17bc       0x1800       5.727929    
+.rsrc      0x2c000      0x17870      0x17a00      7.154130    [SUSPICIOUS]
+.reloc     0x44000      0x18cc       0x1a00       6.644759    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BDEUNLOCK
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 10.0.14393.0
+FileDescription: BitLocker Unlock
+OriginalFilename: BDEUNLOCK.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    27648 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bedca072dabcc4ee3c6fcb4d23b62048
+SHA1:    81893f4258cf426b3cdee85c700a45e80225513a
+ssdeep:  384:5bScVObH9uosE2UJhD5wvPVlOXlZkGf7TrSTCTcXEWmU4/CS1SiIfVsoWkJxWZiO:FZ6hDOvPfOVZko7uCTi4/CS1SJaS
+Date:    0x57898ED4 [Sat Jul 16 01:33:08 2016 UTC]
+EP:      0x405460 .text 0/5
+CRC:     Claimed: 0x14f88, Actual: 0x14f88 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8760   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x80f0   0x2a6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4bcc       0x4c00       5.891186    
+.data      0x6000       0x408        0x200        0.708392    [SUSPICIOUS]
+.idata     0x7000       0xa9c        0xc00        4.508275    
+.rsrc      0x8000       0x828        0xa00        3.740176    
+.reloc     0x9000       0x3f0        0x400        6.529534    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dnscacheugc.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DNSCache Unattend Generic Command
+OriginalFilename: dnscacheugc.exe
+Translation: 0x0409 0x04b0
+

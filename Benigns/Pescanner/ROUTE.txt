@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     47f84be121a0120dd6ff2cc2bda65694
+SHA1:    de0e34b833f60e2e14f98b7baa8d72a900e83a66
+ssdeep:  384:QeFhDOFH6yH1feFvIhXh2pTOQ4qHl8ZpZCKWn0WQ7:Qx9Neyz2pygl8pZCL
+Date:    0x57899137 [Sat Jul 16 01:43:19 2016 UTC]
+EP:      0x403590 .text 0/5
+CRC:     Claimed: 0x52a4, Actual: 0x52a4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x6760   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x63c8   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60f0   0x2d4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2bec       0x2c00       6.344837    
+.data      0x4000       0x43c        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0xb28        0xc00        4.695662    
+.rsrc      0x6000       0x828        0xa00        3.774717    
+.reloc     0x7000       0x290        0x400        4.941204    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: route.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCP/IP Route Command
+OriginalFilename: route.exe
+Translation: 0x0409 0x04b0
+

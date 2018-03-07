@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2756168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3845e05a90b72223ed7eb185853b20e7
+SHA1:    741b6c69852c50252ec6b7b3f90ffdefb02b5ffd
+ssdeep:  49152:ELnrw3BbGDVn5fZTBlg7tcK/uwtAAXzBxKWioHRWBuMpRxnT4wzaeSxA:ELnQqDV5fZ9let1WyAuz+axWBpRnTJ2s
+Date:    0x567F796C [Sun Dec 27 05:38:52 2015 UTC]
+EP:      0x40324f .text 0/5
+CRC:     Claimed: 0x2a817f, Actual: 0x2a817f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x343a0  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34a08  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36fb0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x38058  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x38f00  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x397a8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x39d10  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x3a178  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a298  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a3f0  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a5f0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a6e8  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a788  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3a878  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x3a8d8  0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3ac20  0x3b3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c4a       0x5e00       6.410764    
+.rdata     0x7000       0x115e       0x1200       5.142548    
+.data      0x9000       0x1b078      0x600        4.225220    
+.ndata     0x25000      0xf000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x34000      0x6fd8       0x7000       5.795450    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1995-2017 mIRC Co. Ltd.
+Internal Name: mirc749
+CompanyName: mIRC Co. Ltd.
+LegalTrademarks: mIRC\xae is a Registered Trademark of mIRC Co. Ltd.
+ProductName: mIRC
+ProductVersion: 7.49
+FileDescription: mIRC
+Original File Name: mirc749.exe
+FileVersion: 7.49
+Translation: 0x0409 0x0000
+

@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    122880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5839457a2a45fbfdaf1423acee24f27f
+SHA1:    5563b76c486858f41f9339b8cb97c42f782b98a9
+ssdeep:  1536:nlRJS9ye2IaF3JUhUGzXCq3KE5y29IWze+YXM9aE:nlPS9ye2vA28Sq3KE5z9vqXqaE
+Date:    0x3C07EE6A [Fri Nov 30 20:39:06 2001 UTC]
+EP:      0x406cae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x29322 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0xe780   0x3e8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_BITMAP          0xeb68   0xe060   LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ICON            0xc880   0x2e8    LANG_SPANISH SUBLANG_SPANISH          data
+RT_ICON            0xcb68   0x128    LANG_SPANISH SUBLANG_SPANISH          GLS_BINARY_LSB_FIRST
+RT_ICON            0xccb8   0x2e8    LANG_SPANISH SUBLANG_SPANISH          data
+RT_ICON            0xcfa0   0x128    LANG_SPANISH SUBLANG_SPANISH          GLS_BINARY_LSB_FIRST
+RT_ICON            0xd0f0   0x2e8    LANG_SPANISH SUBLANG_SPANISH          data
+RT_ICON            0xd3d8   0x128    LANG_SPANISH SUBLANG_SPANISH          GLS_BINARY_LSB_FIRST
+RT_ICON            0xd528   0x2e8    LANG_SPANISH SUBLANG_SPANISH          data
+RT_ICON            0xd810   0x128    LANG_SPANISH SUBLANG_SPANISH          GLS_BINARY_LSB_FIRST
+RT_ICON            0xdd68   0x2e8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ICON            0xe050   0x128    LANG_SPANISH SUBLANG_SPANISH_MODERN   GLS_BINARY_LSB_FIRST
+RT_MENU            0xe1a0   0x13a    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_MENU            0xd960   0x8c     LANG_SPANISH SUBLANG_SPANISH          data
+RT_DIALOG          0xe2e0   0x1fc    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xe4e0   0x1dc    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xe6c0   0xba     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xd9f0   0x104    LANG_SPANISH SUBLANG_SPANISH          data
+RT_DIALOG          0xdaf8   0x178    LANG_SPANISH SUBLANG_SPANISH          data
+RT_DIALOG          0xdc70   0xf8     LANG_SPANISH SUBLANG_SPANISH          data
+RT_STRING          0x1d070  0x36     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1cfc0  0xae     LANG_SPANISH SUBLANG_SPANISH          data
+RT_STRING          0x1d9d0  0x130    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1db00  0x2bc    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d0a8  0x40     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d1c0  0x280    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d548  0x7a     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d130  0x8e     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d440  0x104    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d0e8  0x46     LANG_SPANISH SUBLANG_SPANISH_MODERN   DBase 3 data file (5505112 records)
+RT_STRING          0x1d5c8  0x128    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d6f0  0x240    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x1d930  0x9e     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ACCELERATOR     0x1cbe8  0x68     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_ICON      0xe178   0x22     LANG_SPANISH SUBLANG_SPANISH_MODERN   MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xcc90   0x22     LANG_SPANISH SUBLANG_SPANISH          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xd0c8   0x22     LANG_SPANISH SUBLANG_SPANISH          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xd500   0x22     LANG_SPANISH SUBLANG_SPANISH          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xd938   0x22     LANG_SPANISH SUBLANG_SPANISH          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1cc50  0x36c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+None               0x1cbc8  0x1c     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6715       0x7000       5.785600    
+.rdata     0x8000       0x29e4       0x3000       4.353345    
+.data      0xb000       0xa04        0x1000       3.604274    
+.rsrc      0xc000       0x11dc0      0x12000      3.602350    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: NetbiosScan
+FileVersion: 1, 4, 0, 1
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Aplicaci\xf3n NetbiosScan
+SpecialBuild: 
+ProductVersion: 1, 4, 0, 1
+FileDescription: Aplicaci\xf3n MFC NetbiosScan
+OriginalFilename: NetbiosScan.EXE
+Translation: 0x0c0a 0x04b0
+

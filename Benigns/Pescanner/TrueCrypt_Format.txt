@@ -1,0 +1,171 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1612240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f3680f5cda048b996d566990b3c830c3
+SHA1:    4be5ad02d3b42cef90a9e19520e260177d418d5e
+ssdeep:  24576:gRXN9O2QcBMU/yBVn212ittDZMX9aa1eL+6BDmXdzMdq/kHUsKTv:yVQem2oittyX9BM680dzMdqCmT
+Date:    0x4E5F7D89 [Thu Sep  1 12:41:45 2011 UTC]
+EP:      0x470c3f .text 0/4
+CRC:     Claimed: 0x18a683, Actual: 0x18a683 
+
+Signature scans
+================================================================================
+YARA: irc
+   0xd893aL => MSG
+   0xdb487L => notice
+   0xde050L => notice
+   0xde12bL => notice
+   0xde1a3L => notice
+   0xe1033L => notice
+   0xe1119L => notice
+   0xe1b64L => notice
+   0xe1d22L => notice
+   0xe287fL => notice
+   0x9455fL => part
+   0xd8402L => PART
+   0xdb240L => PART
+   0xdb31aL => PART
+   0xdb7a3L => part
+   0xdcebdL => part
+   0xddc11L => part
+   0xddf4dL => part
+   0xe0d22L => part
+   0xe156fL => PART
+   0xe86eaL => PART
+   0xea2eaL => PART
+   0xf57c1L => part
+   0xf5af3L => part
+   0xf5e89L => part
+   0xf60adL => part
+   0x8f325L => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BIN                0xe7248  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xe7448  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xe7648  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xe7848  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xe7a48  0x7fe    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+BIN                0xe8248  0x47c8   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+BIN                0xeca10  0x2e65   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+BIN                0xef878  0x339d   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+BIN                0xf2c18  0x2ee8   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+BIN                0xf5b00  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xf5d00  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xf5f00  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xf6100  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 boot sector, code offset 0x1e
+BIN                0xf6300  0x4a74   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+BIN                0xfad74  0x3115   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+BIN                0xfde8c  0x3642   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+BIN                0x1014d0 0x3194   LANG_ENGLISH SUBLANG_ENGLISH_US       gzip compressed data, from NTFS filesystem (NT), max compression
+HEADER             0x104664 0x1a09   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C++ program text, with CRLF line terminators
+HEADER             0x106070 0x1dff   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C++ program text, with CRLF line terminators
+TEXT               0x107e70 0x9972   LANG_ENGLISH SUBLANG_ENGLISH_US       Rich Text Format data, version 1, ANSI
+TYPELIB            0x1117e4 0x1198   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+XML                0x11297c 0x3e5e0  LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+RT_BITMAP          0x150f5c 0x28a68  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1799c4 0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x179cec 0x4810   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x17e4fc 0x28750  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a6c4c 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a6d74 0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a70dc 0x748    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a7824 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a84cc 0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1aa174 0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1aa4dc 0x748    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1aac24 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ab8cc 0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ad574 0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ad8dc 0x748    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ae024 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1aeccc 0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b0974 0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b0b24 0x220    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b0d44 0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b0e5c 0x1c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b101c 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b1104 0x424    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b1528 0x62e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b1b58 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b1bb8 0xa2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b1c5c 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b1d4c 0x16a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b1eb8 0x194    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b204c 0x214    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b2260 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b2314 0x2d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b25e8 0x3aa    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b2994 0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b2a58 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b2b0c 0x28c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b2d98 0x2e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b3078 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b3118 0xd2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b31ec 0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b3308 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b33a8 0x238    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b35e0 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b3694 0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b37d4 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b3854 0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b3c28 0x578    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b41a0 0x49c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b463c 0x1da    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b4818 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b48d0 0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b49d0 0x208    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b4bd8 0x640    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b5218 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b5278 0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b5390 0x1b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b5544 0x1b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b56fc 0x35c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b5a58 0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b5b1c 0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b5ec8 0x1e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1b60a8 0xd6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b6180 0x32     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1b61b4 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x1b6200 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x1b6240 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_VERSION         0x1b6280 0x28c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x1b650c 0x371    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceA
+OpenProcessToken
+CreateServiceA
+ShellExecuteW
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8d676      0x8d800      6.649386    
+.rdata     0x8f000      0x2267c      0x22800      6.389118    
+.data      0xb2000      0x33240      0x6e00       4.798553    
+.rsrc      0xe6000      0xd0880      0xd0a00      6.751519    
+
+Version info
+================================================================================
+FileVersion: 7.1
+CompanyName: TrueCrypt Foundation
+LegalTrademarks: TrueCrypt
+ProductName: TrueCrypt
+ProductVersion: 7.1
+FileDescription: TrueCrypt Format
+OriginalFilename: TrueCrypt Format.exe
+Translation: 0x0409 0x04b0
+

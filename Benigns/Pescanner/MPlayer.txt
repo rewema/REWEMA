@@ -1,0 +1,103 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8031232 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     50dc6aaf180c8ad1b553fe6f573e39a2
+SHA1:    7bf3f4896941c057bfd48f751d15cd108e57ae22
+ssdeep:  196608:+ruZ5j+zyqv3cN7ncWYQqb324nLIBU/cMais9vWWw3s5hfyM6gBSVE:Iqj+zyqvsN7ncWYImtNrblO
+Date:    0x448DB659 [Mon Jun 12 18:45:45 2006 UTC]
+EP:      0x401270 .text 0/7
+CRC:     Claimed: 0x7aeda5, Actual: 0x7aeda5 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x68bfa1L => deflate
+   0x68bfc3L => Jean-loup Gailly
+   0x5fb4d0L => inflate
+   0x61d1ddL => inflate
+   0x61d2a3L => inflate
+   0x61d2bfL => inflate
+   0x68e0c1L => inflate
+   0x68e0e3L => Mark Adler
+YARA: irc
+   0x6af49cL => join
+   0x6af4e6L => join
+   0x6af506L => join
+   0x5cffb8L => msg
+   0x5d0992L => msg
+   0x6ba19dL => MSG
+   0x5e5320L => Nick
+   0x5eb4fdL => Nick
+   0x5eb552L => Nick
+   0x5eb808L => Nick
+   0x5eb913L => Nick
+   0x5eb95fL => Nick
+   0x5ebdedL => Nick
+   0x5ebe31L => Nick
+   0x5ebe6fL => Nick
+   0x5ebef6L => Nick
+   0x5ebfa0L => Nick
+   0x5ec531L => Nick
+   0x5f9e87L => Nick
+   0x5a08ebL => Notice
+   0x60ce1cL => notice
+   0x691458L => Notice
+   0x692f0aL => Notice
+   0x693dd3L => NOTICE
+   0x6a9578L => Notice
+   0x5d8920L => part
+   0x5d8964L => part
+   0x5d89f4L => part
+   0x5d8a7cL => part
+   0x5dd25fL => part
+   0x5fcd83L => Part
+   0x5fd0b7L => PART
+   0x608cbfL => part
+   0x669319L => part
+   0x66c0d5L => part
+   0x579b95L => quit
+   0x5d16ebL => Quit
+   0x5e3a3bL => quit
+   0x6039beL => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8fb0fc 0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x8fc724 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x8fc738 0x430    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x573a90     0x573c00     6.512752    
+.rodata    0x575000     0x2b30       0x2c00       6.091223    
+.data      0x578000     0x58b40      0x58c00      3.881599    
+.rdata     0x5d1000     0x1d53e0     0x1d5400     7.058612    [SUSPICIOUS]
+.bss       0x7a7000     0x1505b0     0x0          0.000000    [SUSPICIOUS]
+.idata     0x8f8000     0x227c       0x2400       5.056180    
+.rsrc      0x8fb000     0x1b68       0x1c00       2.987088    
+
+Version info
+================================================================================
+LegalCopyright:  (C) 2000-2004 MPlayer Team
+InternalName: Counter Counter
+FileVersion: 1.0pre8-3.4.2
+CompanyName: 
+Comments: MPlayer is distributed under the terms of the GNU General Public License Version 2. Source code is available at http://www.mplayerhq.hu
+ProductName: MPlayer - The Movie Player
+ProductVersion: 1.0pre8-3.4.2
+FileDescription: MPlayer - Movie Player
+OriginalFilename: mplayer.exe
+Translation: 0x0000 0x04b0
+

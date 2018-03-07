@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    303104 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7f631b87f44073f929aed8dbebab5db9
+SHA1:    7c403a9ed31fb4892afc8b9777a456c4564c9b6e
+ssdeep:  6144:v8ygfz7aDeIbvhyKkAmlhWo9g9fhbG7+v6sFuHv/xogXaNTFjdrZ7dY1FtzlmhZH:vcrODx5kTnp9gN67xogMTFjBE0ZH
+Date:    0x4E1C92A6 [Tue Jul 12 18:29:58 2011 UTC]
+EP:      0x42ecce .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x54cea [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4d1e0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4d308  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d5f0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4dc58  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4dd08  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4de38  0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4e168  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x4e1c8  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x34391      0x35000      6.631447    
+.rdata     0x36000      0x108be      0x11000      6.310148    
+.data      0x47000      0x5aa4       0x1000       2.455020    
+.rsrc      0x4d000      0x14e0       0x2000       2.350461    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997-2011 Simon Tatham.
+InternalName: Plink
+FileVersion: Release 0.61
+CompanyName: Simon Tatham
+ProductName: PuTTY suite
+ProductVersion: Release 0.61
+FileDescription: Command-line SSH, Telnet, and Rlogin client
+OriginalFilename: Plink
+Translation: 0x0809 0x04b0
+

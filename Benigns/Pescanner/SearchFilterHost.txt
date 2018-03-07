@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    182784 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     230dec57ccbc0cb4bdc07f6e84c07ade
+SHA1:    ca0a9ecaf9b4c9bae1ea62bdae74cd2cb00d132e
+ssdeep:  3072:JNdwn48Shkcb4RR2ZGCVWGN1ihk6kvtfGq0ev3U5WNezsS:t4Wh54RRGGCVW/rkR10efUKe
+Date:    0x5789909E [Sat Jul 16 01:40:46 2016 UTC]
+EP:      0x409f40 .text 0/6
+CRC:     Claimed: 0x3071a, Actual: 0x3071a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x19c38  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a2a0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a588  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a770  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a898  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b740  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1bfe8  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c6b0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cc18  0xd2d5   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x29ef0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c498  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d540  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dec8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2e330  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x19890  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x19370  0x51d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13b24      0x13c00      6.055993    
+.data      0x15000      0x710        0x200        2.536529    
+.idata     0x16000      0x1932       0x1a00       5.089500    
+.didat     0x18000      0x20         0x200        0.249130    [SUSPICIOUS]
+.rsrc      0x19000      0x153f0      0x15400      7.074666    [SUSPICIOUS]
+.reloc     0x2f000      0x16dc       0x1800       6.469808    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SearchFilterHost.exe
+FileVersion: 7.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Windows\xae Search
+ProductVersion: 7.0.14393.0
+FileDescription: Microsoft Windows Search Filter Host
+OriginalFilename: SearchFilterHost.exe
+Translation: 0x0409 0x04b0
+

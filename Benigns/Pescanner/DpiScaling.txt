@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    77824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c145cd6dfc84c0461086a97b73c01e55
+SHA1:    2e16c4f1fba948a41221ee32fdf4c3dfa55692c5
+ssdeep:  1536:9T2GG91OwxgwYfPSqlGv+BNXNvuZS36EDtAZ7jz6dTdMQiMtYwJjDR8F:5EOwNMSqoKXNvuZAFDqXzlzQfR8
+Date:    0x57899138 [Sat Jul 16 01:43:20 2016 UTC]
+EP:      0x4017e0 .text 0/5
+CRC:     Claimed: 0x21cff, Actual: 0x21cff 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14fb8  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x47d8   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e40   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5128   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5250   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x60f8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69a0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6f08   0xa1b1   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x110c0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13668  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14710  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14b78  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x14c10  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4330   0x4a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe14        0x1000       5.343270    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x5d4        0x600        4.561414    
+.rsrc      0x4000       0x11090      0x11200      7.305018    [SUSPICIOUS]
+.reloc     0x16000      0x150        0x200        4.725108    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DpiScaling
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Display Control Panel
+OriginalFilename: DPISCALING.EXE
+Translation: 0x0409 0x04b0
+

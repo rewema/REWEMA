@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8d1b750238d9eb0ba7dca00ec51073fe
+SHA1:    98bfef30c936d0f15a6d117c4421bf18fea30c10
+ssdeep:  768:eBuB3QCe1YBo6gtZU/q0Xgedekspe9idXV:yuBACeua6gUrgSRs8idXV
+Date:    0x5789912F [Sat Jul 16 01:43:11 2016 UTC]
+EP:      0x405770 .text 0/5
+CRC:     Claimed: 0x17967, Actual: 0x17967 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xa0c0   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9988   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9c70   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9dc0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x9d98   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xa0a8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x95d0   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9210   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x50ac       0x5200       5.993807    
+.data      0x7000       0xf44        0x200        0.665963    [SUSPICIOUS]
+.idata     0x8000       0xdba        0xe00        5.233663    
+.rsrc      0x9000       0x11a8       0x1200       4.182109    
+.reloc     0xb000       0x7a0        0x800        6.608054    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DIALER.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Windows Phone Dialer
+OriginalFilename: DIALER.EXE
+Translation: 0x0409 0x04b0
+

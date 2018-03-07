@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ed4e52ad39139423133bb49c697689d7
+SHA1:    1abb15356364a1e84686c8760288b77c67e7e0b5
+ssdeep:  384:WcxJWYOEW4izAmBsGCyrjxmlxc3yyA1iqarh6oIKWI7aP:xo4QAHGFNyF1x8h6opWh
+Date:    0x43BD3643 [Thu Jan  5 15:07:47 2006 UTC]
+EP:      0x401ce0 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x13d62 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0xa710   0x1a8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x8a20   0x17d8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa1f8   0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8240   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x8788   0x296    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x8540   0x246    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x8528   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xa460   0x2b0    LANG_NEUTRAL SUBLANG_DEFAULT          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x355e       0x4000       5.861547    
+.rdata     0x5000       0xafa        0x1000       4.143739    
+.data      0x6000       0xafc        0x1000       1.397496    
+.global    0x7000       0x4          0x1000       0.000000    
+.rsrc      0x8000       0x28b8       0x3000       2.535825    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Grame 1996
+InternalName: msEcho32
+FileVersion: 1.0
+CompanyName: GRAME
+ProductName: GRAME msEcho32
+ProductVersion: 1.0
+FileDescription: MidiShare Echo
+OriginalFilename: msEcho32.exe
+Translation: 0x0000 0x04b0
+

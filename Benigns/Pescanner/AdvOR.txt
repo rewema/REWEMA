@@ -1,0 +1,207 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10768384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0e4af704e2432d4c20344e3e958762eb
+SHA1:    04839cd6ca750dc3767d30aa8bccb26cdf2d6635
+ssdeep:  196608:q6RfGQYatacQrJjQh5CjL64I97Kj5MdeK1xXzxGMv1rHxXslaSyCBfQ/M3WC:ZzYata79jQh+qrtMF
+Date:    0x2        [Thu Jan  1 00:00:02 1970 UTC] [SUSPICIOUS]
+EP:      0x401300 .text 0/9
+CRC:     Claimed: 0xa53dee, Actual: 0xa53dee 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x94fb1fL => deflate
+   0x94fcf4L => deflate
+   0x97db69L => deflate
+   0x985921L => deflate
+   0x9d4c0dL => deflate
+   0x985944L => Jean-loup Gailly
+   0x9865a1L => inflate
+   0x9d4c20L => inflate
+   0x985959L => Mark Adler
+   0x9865c4L => Mark Adler
+   0x935b86L => OpenSSL
+   0x935ba5L => OpenSSL
+   0x965d9bL => OpenSSL
+   0x97096dL => OpenSSL
+   0x971225L => OpenSSL
+   0x97127aL => OpenSSL
+   0x97136fL => OpenSSL
+   0x971986L => OpenSSL
+   0x9855d3L => OpenSSL
+   0x98560cL => OpenSSL
+   0x990e54L => OpenSSL
+   0x9978e5L => OpenSSL
+   0x997c33L => OpenSSL
+   0x997d40L => OpenSSL
+   0x9980c3L => OpenSSL
+   0x998153L => OpenSSL
+   0x9983d3L => OpenSSL
+   0x998461L => OpenSSL
+   0x99898eL => OpenSSL
+   0x998a40L => OpenSSL
+   0x998b11L => OpenSSL
+   0x99e1b5L => OpenSSL
+   0x99e813L => OpenSSL
+   0x9a157cL => OpenSSL
+   0x9b4290L => OpenSSL
+   0x9b46f8L => OpenSSL
+   0x9bfbe6L => OpenSSL
+   0x9cba49L => OpenSSL
+   0x9ccf58L => OpenSSL
+YARA: irc
+   0x958b2dL => join
+   0x983e59L => join
+   0x9dd8aaL => join
+   0x361d2dL => MSg
+   0x945719L => msg
+   0x9470afL => msg
+   0x947199L => msg
+   0x94cadfL => msg
+   0x950482L => msg
+   0x950668L => msg
+   0x95136cL => msg
+   0x95eee7L => msg
+   0x960437L => msg
+   0x980d55L => msg
+   0x980d5aL => msg
+   0x984639L => msg
+   0x9850c0L => msg
+   0x98b6f8L => msg
+   0x98f107L => msg
+   0x991099L => msg
+   0x9910a2L => msg
+   0x9910ffL => msg
+   0x991107L => msg
+   0x991193L => msg
+   0x99119bL => msg
+   0x99121bL => msg
+   0x991223L => msg
+   0x991d67L => msg
+   0x9a5bafL => msg
+   0x9cc9bfL => MSG
+   0x9cc9dfL => msg
+   0x9ccbcfL => msg
+   0x935874L => Nick
+   0x935986L => notice
+   0x935a0aL => notice
+   0x94d055L => NOTICE
+   0x94d6daL => NOTICE
+   0x94eb13L => NOTICE
+   0x9548feL => Notice
+   0x970dfcL => notice
+   0x9a593eL => Notice
+   0x9b82f7L => Notice
+   0x9ce90dL => notice
+   0x22b9L => part
+   0x956a85L => part
+   0x96a8bbL => part
+   0x96fb97L => part
+   0x96fbacL => part
+   0x979072L => part
+   0x97f676L => part
+   0x9820e3L => PART
+   0x982556L => part
+   0x997e90L => PART
+   0x94e17dL => QUIT
+
+
+TLS callbacks
+================================================================================
+    0xc16800
+    0xc167b0
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xa3a9a0 0x4c8    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_ICON            0xa3ae68 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa3d410 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa3f9b8 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa41f60 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa42c08 0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa42f88 0x424    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa433b0 0x288    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa43638 0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa43988 0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa43b80 0x1fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa43d80 0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa440a8 0x1ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa44278 0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa445c8 0x17c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa44748 0x1ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa448f8 0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa44ca0 0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa44fc8 0x738    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa45700 0x876    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa45f78 0x53c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa464b8 0x7ae    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa46c68 0xa8e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa476f8 0x9de    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa480d8 0x72e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa48808 0x1ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa489f8 0xd5a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa49758 0x104    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa49860 0x920    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4a180 0x402    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4a588 0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4a720 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4a780 0x2e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4aa68 0x2d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4ad40 0x7a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4b4e8 0x22a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4b718 0x332    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4ba50 0x49e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4bef0 0x1378   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4d268 0x24a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4d4b8 0xb68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa4e020 0x7da    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0xa4e800 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0xa4e818 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xa4e830 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xa4e848 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xa4e860 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xa4e878 0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateRemoteThread
+OpenProcess
+ReadProcessMemory
+VirtualAllocEx
+WriteProcessMemory
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x922d8c     0x923000     5.715554    
+.data      0x924000     0x20b1c      0x20c00      4.292076    
+.rdata     0x945000     0xa0f58      0xa1000      6.003226    
+.eh_fram   0x9e6000     0x47960      0x47a00      4.926919    
+.bss       0xa2e000     0x6380       0x0          0.000000    [SUSPICIOUS]
+.idata     0xa35000     0x2970       0x2a00       5.293136    
+.CRT       0xa38000     0x18         0x200        0.098004    [SUSPICIOUS]
+.tls       0xa39000     0x20         0x200        0.224820    [SUSPICIOUS]
+.rsrc      0xa3a000     0x14b70      0x14c00      4.049704    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 by Albu Cristian, 2009-2017
+InternalName: AdvOR
+FileVersion: 0.3.1.3
+CompanyName: Albu Cristian
+ProductName: Advanced Onion Router
+ProductVersion: 0.3.1.3
+FileDescription: Advanced Onion Router
+OriginalFilename: AdvOR.exe
+Translation: 0xffff 0x0000
+

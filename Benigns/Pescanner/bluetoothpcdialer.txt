@@ -1,0 +1,75 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4615845 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f4a1610d3e431a715baf92c65153a21c
+SHA1:    982c4ec89ca937c6d5b22e684c4b6e7f66715495
+ssdeep:  98304:C1DPBLIS/U7q8QCdA/oDyHOWig6GX3yJzb1oMmoauf:C1rBLIS/URQYAtczb1VmM
+Date:    0x4626BFD3 [Thu Apr 19 01:03:15 2007 UTC]
+EP:      0x42996c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x467bfa [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+GIF                0x4756c  0x5890   LANG_NEUTRAL SUBLANG_NEUTRAL          GIF image data, version 89a, 175 x 312
+GIF                0x4cdfc  0x6592   LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 175 x 312
+RT_CURSOR          0x53390  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_ICON            0x534c4  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x53b2c  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x53e14  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x53f3c  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x54de4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5568c  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x55bf4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5819c  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x59244  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x596ac  0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x597e4  0x1ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x599d0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x59ac8  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x59b90  0xf2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x59c84  0x7c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x59d00  0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x59d70  0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x59e3c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x59e50  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x59ed4  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5a20c  0x378    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+CreateProcessA
+WriteProcessMemory
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x34252      0x35000      6.524218    
+.rdata     0x36000      0x6d26       0x7000       4.774246    
+.data      0x3d000      0x9d04       0x6000       3.141905    
+.rsrc      0x47000      0x13584      0x14000      7.477800    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2007 Macrovision Corporation
+InternalName: Setup
+FileVersion: 3.10.000
+CompanyName: BlueShareware.com      
+Internal Build Number: 62562
+ProductName: BluetoothPCDi
+ProductVersion: 3.10
+FileDescription: Setup Launcher
+OriginalFilename: Setup.exe
+Translation: 0x0409 0x04b0
+

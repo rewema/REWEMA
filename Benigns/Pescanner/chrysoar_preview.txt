@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ad69f41970bb0115d288bddecd351858
+SHA1:    4cda964e5b72c523c2cc15a1d6c03742b1e3ed80
+ssdeep:  192:LeZTr+++++UtUJ28vOpDu4txzUbi8IIGncGak9y:La/+++++nNOpSsxzU+8mncP
+Date:    0x40B2476E [Mon May 24 19:05:18 2004 UTC]
+EP:      0x11003b7e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xad81 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6448   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6730   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6858   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x32c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1b84       0x1c00       5.279850    
+.sdata     0x4000       0xb0         0x200        2.464800    
+.rsrc      0x6000       0x880        0xa00        2.989325    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1605.34811
+InternalName: Project Chrysaor.exe
+FileVersion: 1.0.1605.34811
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1605.34811
+FileDescription:  
+OriginalFilename: Project Chrysaor.exe
+

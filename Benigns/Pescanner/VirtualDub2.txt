@@ -1,0 +1,194 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1218114 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     87134fa86d219a9643de2fff096a1b1d
+SHA1:    d4a2f420ec890dfbf457e7a01385b9ec92530c10
+ssdeep:  24576:UGgVlZvabYHC9JQ74phiH+33wKullZ1eTOFc44uv/qRN8iHkOXIrk3nWwh:U5TcU4ppncxY8uNIrkXWM
+Date:    0x3DAD67C5 [Wed Oct 16 13:21:09 2002 UTC]
+EP:      0x4b479f .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x12f26f [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+STUFF              0x424b68 0xad18   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII English text, with CRLF line terminators
+STUFF              0x42f880 0x16d    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII English text, with CRLF line terminators
+STUFF              0x42f9f0 0x293    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+STUFF              0x42fc88 0x2078   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x432400 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4326e8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x432838 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x432978 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x432ab8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x432bf8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x432d38 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x432dc8 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x432e58 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x432f98 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4330d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x433218 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x433358 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x433498 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4335d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x413b50 0x1312   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x414e68 0xfc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x414f68 0x9ae    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x415918 0x4ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x415dc8 0x1ee    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x415fb8 0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x416040 0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x416068 0x210    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41cf88 0x30a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x416278 0x216    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x416490 0x50a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4169a0 0x2e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x416c88 0x4a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x417128 0x7e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x417910 0x1ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x417ad0 0x13c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x417c10 0x4b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4180c8 0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x418468 0x52e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x418998 0x5a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x418f40 0x13a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x419080 0x276    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4192f8 0x31c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x419618 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x419700 0x358    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x419a58 0x9a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x419af8 0x1ae    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x419ca8 0x660    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41a308 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41a5d8 0xca     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41a6a8 0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41a7f8 0x40a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41ac08 0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41ad30 0x156    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41e958 0x45e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41ae88 0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41afa8 0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41b268 0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41b390 0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41b3e8 0x696    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41ba80 0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41be68 0x24c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41c0b8 0x276    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x422b48 0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41c3f8 0x20e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41c608 0x6fa    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41cd08 0x280    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41d298 0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41d5e0 0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41d888 0xca     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41d958 0x104    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41da60 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41db18 0x4ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41dfe8 0x58e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41e578 0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41e8a0 0xb2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41edb8 0x27e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41f038 0x340    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41f378 0x23e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41f5b8 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41f898 0x4ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41fd88 0x456    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4201e0 0x1e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4203c8 0x682    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x420a50 0x20e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x420c60 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x420f30 0x16a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4210a0 0x268    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x421308 0x104    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x421410 0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4216d0 0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x421728 0x39e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x421ac8 0x206    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x421cd0 0x2be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x421f90 0x232    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4221c8 0x180    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x422348 0xec     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x422438 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x422518 0x292    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4227b0 0xf4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4228a8 0x13a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4229e8 0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41c330 0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x422c70 0x242    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x422eb8 0x230    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4230e8 0xbe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4231a8 0xa5a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x423c08 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x423e08 0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x423f60 0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4240c0 0xa2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x424168 0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x424410 0x756    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x433718 0x36     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x433750 0x352    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x433aa8 0x71a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x4341c8 0x49a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x434668 0x4fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x434b68 0x6ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x435238 0x250    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x435f98 0x5c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x435488 0x166    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x4355f0 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x4356e8 0x5f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x435ce0 0x2b6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x431d00 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x431e28 0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (40045 records)
+RT_GROUP_ICON      0x432810 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x432960 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x432aa0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x432be0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x432d20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x432db0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x432e40 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x432f80 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4330c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x433200 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x433340 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x433480 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4335c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x433700 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x431ed0 0x530    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd2d22      0xd2e00      6.710799    
+.rdata     0xd4000      0x292b6      0x29400      5.861524    
+.data      0xfe000      0x312575     0x8800       3.933879    
+.tls       0x411000     0xf8         0x200        0.000000    
+.rsrc      0x412000     0x24560      0x24600      4.722657    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1999-2002 by Avery Lee, All Rights Reserved.
+InternalName: VirtualDubMpg2
+FileVersion: 1.4.10.mpg2
+CompanyName: Please suggest one.  I haven't come up with a good one yet.
+PrivateBuild: Private builds are ones that don't work.
+LegalTrademarks: Naah, I don't like them.
+Comments: Await the rebirth of the Phoenix.
+ProductName: VirtualDubMpg2
+SpecialBuild: Optimized release build
+ProductVersion: 1.4.10.mpg2
+FileDescription: VirtualDub video processing tool
+OriginalFilename: VirtualDub.exe
+Translation: 0x0409 0x04b0
+

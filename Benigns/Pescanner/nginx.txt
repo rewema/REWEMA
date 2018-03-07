@@ -1,0 +1,93 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1441792 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8a2c231e4a405445e849d848fcf0f819
+SHA1:    680d2e153b76262a52a42a7dbb85b1ae69621d1a
+ssdeep:  24576:MmKEppz9F88FEYjIL8J8MxB5WTGUd5uEWMP1iDmiZp8TIsrp:Z/F8ojIaHL7KbREpp8Tn
+Date:    0x4D074F67 [Tue Dec 14 11:05:11 2010 UTC]
+EP:      0x4ef6fd .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x16dbd9 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x11cf45L => msg
+   0x104d80L => notice
+   0x11d206L => Notice
+   0x12c164L => NOTICE
+   0x134f20L => Notice
+   0x10fe36L => part
+   0x114d62L => part
+   0x117c06L => part
+   0x117e0aL => part
+   0x11800aL => part
+   0x118460L => part
+   0x118577L => part
+   0x1185c3L => part
+   0x118d50L => part
+   0x118d7aL => part
+   0x118e26L => part
+   0x11edf6L => part
+   0x120184L => part
+   0x12035fL => part
+   0x126970L => part
+   0x129530L => part
+   0x129aa6L => part
+   0x12a1b5L => part
+   0x131051L => part
+   0x131080L => part
+   0x1311b0L => part
+   0x133584L => part
+   0x1335c8L => part
+   0x1335f1L => part
+   0x134a21L => part
+   0x1350ddL => part
+   0x13720dL => part
+   0x137293L => part
+   0x1372bcL => part
+   0x1372e4L => part
+   0x137401L => part
+   0x139431L => part
+   0x13be3cL => part
+   0x104588L => quit
+   0x104c2cL => quit
+   0x10749bL => quit
+   0x107b33L => quit
+   0x107e67L => quit
+YARA: spam
+   0x112465L => rcpt to:
+   0x112479L => mail from:
+   0x112dc4L => EHLO 
+   0x112e70L => EHLO 
+   0x10df52L => from: 
+   0x1128d2L => From: 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x16b110 0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16b440 0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16b570 0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x16b620 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 48x48, 2-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x102db8     0x103000     6.594384    
+.rdata     0x104000     0x3e6c8      0x3f000      6.117438    
+.data      0x143000     0x2721c      0x1c000      4.655742    
+.rsrc      0x16b000     0x650        0x1000       1.420230    
+

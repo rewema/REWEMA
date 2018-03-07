@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    260976 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     03ca4e59b10aff8f2257dcfaf13cd309
+SHA1:    59940526e8d8e305177f530427a093408b86e29a
+ssdeep:  3072:MoIMqinw5xma9hlW4QpocZGwkvVHEXUkAtGQNmtyQk84:MoIMq1ma9DW4QVZGnvGQN2kP
+Date:    0x44E25527 [Tue Aug 15 23:13:43 2006 UTC]
+EP:      0x409013 .text 0/4
+CRC:     Claimed: 0x4a980, Actual: 0x4a980 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x3fc90  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3f020  0xc70    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c120  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c408  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c530  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3cbc8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3cec8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d770  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3dd00  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3dfe8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3e138  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e420  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3e570  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e858  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3e980  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x3c058  0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x3c0d0  0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3bbf8  0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ba68  0x190    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3bd68  0xce     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3be38  0x21c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3b7b0  0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       Applesoft BASIC program data
+RT_STRING          0x3fde0  0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 49 icons, 1x, 50-colors
+RT_STRING          0x3fe30  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3fe90  0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x3f018  0x8      LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file with memo(s) (1081 records)
+RT_GROUP_CURSOR    0x3fdc8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x3ceb0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x3cb98  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x3e110  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x3e548  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x3dcd8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x3efe8  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16bb2      0x17000      6.582168    
+.rdata     0x18000      0x365e       0x4000       5.263387    
+.data      0x1c000      0x1e4f0      0x1d000      5.340155    
+.rsrc      0x3b000      0x4ee0       0x5000       3.582046    
+

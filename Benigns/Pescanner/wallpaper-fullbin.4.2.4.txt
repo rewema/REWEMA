@@ -1,0 +1,126 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3391351 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     10a7694ecd7c0b17c00d7a87f0948632
+SHA1:    087d68f11aab80218bdf435eff381bc7d600df09
+ssdeep:  98304:0kZIPPHfAQuCpbp2FD+hmap5E10KhClgXr:0kuHfYubpS5R1jh2gb
+Date:    0x4DA4A3BD [Tue Apr 12 19:10:53 2011 UTC]
+EP:      0x410ace .text 0/4
+CRC:     Claimed: 0x6a7b5, Actual: 0x33cfce [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x21ce1L => deflate
+   0x2172aL => Jean-loup Gailly
+   0x21d03L => Jean-loup Gailly
+   0x21f11L => inflate
+   0x2173fL => Mark Adler
+   0x21f33L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TXT                0x36054  0x71f    LANG_ENGLISH SUBLANG_ENGLISH_US       ISO-8859 English text, with very long lines, with CRLF line terminators
+RT_CURSOR          0x36774  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x368a8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3695c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x36a90  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x36b44  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x36c78  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x36d2c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x36e60  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x36f14  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x37048  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x370fc  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x37230  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37364  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x37498  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x375cc  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37700  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37834  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37968  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37a9c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37bd0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37d04  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x37e38  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x37f6c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x380a0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x381d4  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x38308  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x383bc  0x2d5ca  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x65988  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x65a40  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x65b84  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x66a2c  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x672d4  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6783c  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x686e4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68f8c  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x694f4  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x69758  0x1d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6992c  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x69a14  0x1a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x69bb8  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x69d14  0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69d48  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69dcc  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69df8  0x184    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69f7c  0x124    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x6a0a0  0x4e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6a588  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6a7ec  0x2da    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6aac8  0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6ab54  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6ac00  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6ace0  0x4a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6b188  0x228    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6b3b0  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x6b3dc  0x42     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x6b420  0x18     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (58114 records)
+RT_GROUP_CURSOR    0x6b438  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b45c  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b480  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b4a4  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b4c8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b4ec  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b510  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b524  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b538  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b54c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b560  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b574  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b588  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b59c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b5b0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b5c4  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b5d8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b5ec  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b600  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6b614  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x6b628  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x6b658  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 48x48, 256-colors
+RT_MANIFEST        0x6b688  0x2e1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_MANIFEST        0x6b96c  0x2ff    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII English text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x20313      0x20400      6.701587    
+.rdata     0x22000      0x5b6c       0x5c00       5.590784    
+.data      0x28000      0xcea4       0x2c00       3.317543    
+.rsrc      0x35000      0x36c6c      0x36e00      3.136549    
+

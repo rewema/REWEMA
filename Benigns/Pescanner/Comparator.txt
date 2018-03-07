@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    242176 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     72bd8d6f3da403c58af53bc0e3893552
+SHA1:    f1ca9922bc03a2894759c0384e62f245c36d7134
+ssdeep:  3072:BSXoszOKZser8sCPlYQHxeCle+fM7+GAktqreXMeN88hpqoa:BSXosiKZsk5Cc3+GAuueXhTpn
+Date:    0x499EC34A [Fri Feb 20 14:50:50 2009 UTC]
+EP:      0x43c6be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x47a39 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x3e0a0  0x2c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x3e368  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3a6c4      0x3a800      5.574679    
+.rsrc      0x3e000      0x558        0x600        3.945345    
+.reloc     0x40000      0xc          0x200        0.098004    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 9.0.0.0
+InternalName: Comparator.exe
+FileVersion: 9.0.0.0
+CompanyName: NFI
+ProductName: Comparator
+ProductVersion: 9.0.0.0
+FileDescription: Comparator
+OriginalFilename: Comparator.exe
+

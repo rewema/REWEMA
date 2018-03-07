@@ -1,0 +1,76 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1224336 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4eb014e2afaa2f3b6e19b05c167ce2c8
+SHA1:    b50347b4a4335f005ec5360b7b1373074ae4eaed
+ssdeep:  24576:Im5qVdbOITvuEYPjHQIgMA+/lKWg2keCjUFvaKlv+4VcD:4VwITvuEYPj/gMb/bgNjUNNlrc
+Date:    0x57E8F48C [Mon Sep 26 10:12:28 2016 UTC]
+EP:      0x44f606 .text 0/5
+CRC:     Claimed: 0x1354f3, Actual: 0x1354f3 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x844eeL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+EXE                0x894a0  0x1800   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+PNG                0x8aca0  0x648c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 332 x 83, 8-bit/color RGBA, non-interlaced
+PNG                0x9112c  0x812    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 111 x 10, 8-bit/color RGBA, non-interlaced
+XML                0x91940  0x8de    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+XML                0x92220  0x513    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+ZIPRES             0x92734  0x2b4b6  LANG_ENGLISH SUBLANG_ENGLISH_US       Zip archive data, at least v2.0 to extract
+RT_ICON            0xbdbec  0x161f3  LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xd3de0  0xed4d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xe2b30  0xb068   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xedb98  0x668f   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xf4228  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x104a50 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x115278 0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1194a0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11d6c8 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x11e770 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x120d18 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x121180 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x122228 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x122bb0 0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 256-colors
+RT_GROUP_ICON      0x122c0c 0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 256-colors
+RT_VERSION         0x122c74 0x8c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x123538 0x486    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6b4c2      0x6b600      6.609785    
+.rdata     0x6d000      0x158c2      0x15a00      4.828199    
+.data      0x83000      0x5f7c       0x2c00       3.787637    
+.rsrc      0x89000      0x9a9c0      0x9aa00      7.425338    [SUSPICIOUS]
+.reloc     0x124000     0x7d5e       0x7e00       5.585429    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2016 Wondershare Corporation                                
+ProductVersion: 7.8.9
+ProductName: Wondershare Filmora (CPC)
+FileVersion: 1,5,2,0                                                                  
+FileDescription: wondershare-filmora-(cpc)_setup_full1901.exe
+Translation: 0x0409 0x04b0
+

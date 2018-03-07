@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    96920 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 Mono/.Net assembly
+MD5:     108b0780bc031a29f68bf5ec69301da9
+SHA1:    534634b045c21a7c6c916a1f52358dcfdd9be427
+ssdeep:  1536:bwgu1lOltfSwtw9Yjtdg+u/NfeA78DgvEB7eR:bwgJHJxdTOWA78DgvEh+
+Date:    0x575A142D [Fri Jun 10 01:13:17 2016 UTC]
+EP:      0x414c46 .text 0/3
+CRC:     Claimed: 0x21c68, Actual: 0x21c68 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x16090  0x394    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x16434  0x482    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x12c4c      0x12e00      5.520187    
+.rsrc      0x16000      0x8bc        0xa00        4.357910    
+.reloc     0x18000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+Assembly Version: 4.0.0.0
+InternalName: EdmGen.exe
+FileVersion: 4.6.1586.0
+CompanyName: Microsoft Corporation
+Comments: EdmGen.exe
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: EdmGen.exe
+OriginalFilename: EdmGen.exe
+

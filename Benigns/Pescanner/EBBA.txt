@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     c9d515a4176f6f6b25aaab024fc9c8b6
+SHA1:    f651a6af5d1aab8be27f86562ab259826269c22d
+ssdeep:  384:c+AgmhphJXVvTa4iL+L9L6ubPs15Ylccccjcccccccy2ZZGUXOvUXOmEXO8EGRZ5:fChtQP15o2Z0nhTkHHHUXsGRpx15
+Date:    0x40717388 [Mon Apr  5 14:56:08 2004 UTC]
+EP:      0x4098fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc15c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa3e8   0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xb490   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xa0e8   0x2fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x7904       0x8000       5.645881    
+.rsrc      0xa000       0x14a8       0x2000       3.252691    
+.reloc     0xc000       0xc          0x1000       0.009845    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1556.28684
+InternalName: EBBA.exe
+FileVersion: 1.0.1556.28684
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1556.28684
+FileDescription:  
+OriginalFilename: EBBA.exe
+

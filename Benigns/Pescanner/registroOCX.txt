@@ -1,0 +1,101 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    430592 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     398d89da644c88a78beafcce2775a5ba
+SHA1:    02e3cd548ade940d524036720f099f4263ddc7d9
+ssdeep:  12288:kNWZxB3ZctIuFbzcj+2jR7UsTGFYKQU4NfwOPLv:k2TSLFbz5LFc3PL
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x45a57c CODE 0/8
+CRC:     Claimed: 0x7998b, Actual: 0x6f8f7 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x6aad8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6ac0c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6ad40  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6ae74  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6afa8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6b0dc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6b210  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6b344  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6b514  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6b6f8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6b8c8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6ba98  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6bc68  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6be38  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6c008  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6c1d8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6c3a8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6c578  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x6c660  0x2e8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ICON            0x6c948  0x128    LANG_SPANISH SUBLANG_SPANISH_MODERN   GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x6ca70  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6cac4  0xac     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6cb70  0x478    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6cfe8  0x17c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6d164  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7274574 records)
+RT_STRING          0x6d24c  0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x6d384  0x398    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6d71c  0x3f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6db14  0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6ded0  0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x6e2a0  0xf4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6e394  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x6e458  0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6e738  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6ea94  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x6ed48  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x6ed58  0x258    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x6efb0  0x7b5    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x6f768  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x6f77c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x6f790  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x6f7a4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x6f7b8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x6f7cc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x6f7e0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x6f7f4  0x22     LANG_SPANISH SUBLANG_SPANISH_MODERN   MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6f818  0x3a4    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x595fc      0x59600      6.525754    
+DATA       0x5b000      0x1160       0x1200       3.941742    
+BSS        0x5d000      0xcb9        0x0          0.000000    [SUSPICIOUS]
+.idata     0x5e000      0x2216       0x2400       4.886440    
+.tls       0x61000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x62000      0x18         0x200        0.199108    [SUSPICIOUS]
+.reloc     0x63000      0x6400       0x6400       6.669357    
+.rsrc      0x6a000      0x6a52       0x5c00       4.417077    
+
+Version info
+================================================================================
+LegalCopyright: AjpdSoft
+InternalName: AjpdSoft Registro de OCX y DLL
+FileVersion: 2.2.4.35
+CompanyName: AjpdSoft
+LegalTrademarks: AjpdSoft
+Comments: http://www.ajpdsoft.com
+ProductName: AjpdSoft Registro de OCX y DLL
+ProductVersion: 1.0.0.0
+FileDescription: AjpdSoft Registro de OCX y DLL
+OriginalFilename: registroOCX.exe
+Translation: 0x0c0a 0x04e4
+

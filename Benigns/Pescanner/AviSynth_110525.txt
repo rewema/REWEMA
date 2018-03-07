@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5082084 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     13fddf73e5a59a2203a38c3c6b41635a
+SHA1:    d6d4151b21303b386f6ac79eabb15dde88857be7
+ssdeep:  98304:KIi/Vci9jwfnwKMbivuFLeKPsc77skzM/puZ6hnmz:Gtci98PM2veLeqnfskzASCM
+Date:    0x481C71EA [Sat May  3 14:08:42 2008 UTC]
+EP:      0x432540 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x4e1965 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2e460  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33464  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33750  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x2eed8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2ef90  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f0b0  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f208  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f410  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f508  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f5a8  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f698  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f750  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f870  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f9c8  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fbd0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fcc8  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fd68  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       OS9/68K module:
+RT_GROUP_ICON      0x3387c  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x338a4  0x320    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x33bc8  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x2d000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x2e000      0x5000       0x4800       7.847172    [SUSPICIOUS]
+.rsrc      0x33000      0x1000       0x1000       4.425983    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2000-2011 Ben Rudiak-Gould and others
+FileVersion: 2.6.0.2
+CompanyName: The Public
+Comments: Homepage: http://www.avisynth.org
+ProductName: Avisynth 2.6
+ProductVersion: 2.6.0
+FileDescription: Avisynth installer
+OriginalFilename: AviSynth_110525.exe
+Translation: 0x0000 0x04e4
+

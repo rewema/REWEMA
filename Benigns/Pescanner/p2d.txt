@@ -1,0 +1,108 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    903168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     71ec274dd7ff8219c15ba35afb62bbab
+SHA1:    380d8178b5da189d5648a0fbb62646345a2dd2f9
+ssdeep:  12288:KMsCO490lbc/+gqu3of9+B48JQM97be9Ah4iIDO1:F79MZu3VF3f2b
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x48c4ac CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xeb593 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xa0c58  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa0d8c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa0ec0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa0ff4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa1128  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa125c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa1390  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa14c4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa1694  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa1878  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa1a48  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa1c18  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa1de8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa1fb8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa2188  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa2358  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa2528  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa26f8  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa27e0  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa2878  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa2910  0x95b0   LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_DIALOG          0xabec0  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xabf14  0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xac2d8  0x278    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0xac550  0x200    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xac750  0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xac848  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xacb80  0x140    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xaccc0  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xacda8  0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7274574 records)
+RT_STRING          0xacee0  0x3e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xad2c8  0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xad698  0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xada54  0x424    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xade78  0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xadf68  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7078005 records)
+RT_STRING          0xae040  0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xae2b4  0x3e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xae694  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xaea1c  0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xaecf4  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0xaed04  0x2b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xaefb4  0x237c2  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd2778  0xf488   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xe1c00  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xe1c14  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xe1c28  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xe1c3c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xe1c50  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xe1c64  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xe1c78  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0xe1c8c  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_VERSION         0xe1ca0  0x364    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_MANIFEST        0xe2004  0x245    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x8b544      0x8b600      6.515863    
+DATA       0x8d000      0x1830       0x1a00       3.800888    
+BSS        0x8f000      0xd11        0x0          0.000000    [SUSPICIOUS]
+.idata     0x90000      0x2572       0x2600       4.995128    
+.tls       0x93000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x94000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x95000      0xa608       0xa800       6.653558    
+.rsrc      0xa0000      0x42400      0x42400      3.793454    
+
+Version info
+================================================================================
+LegalCopyright: GPL v2
+InternalName: DSP2D
+FileVersion: 1.0.9.4
+CompanyName: Kravtsov Konstantin Ivanovich
+LegalTrademarks: Djvu-Spec
+Comments: Converts pdf to djvu
+ProductName: DjVu-Spec Pdf2DjVu Converter
+ProductVersion: 1.0.9.4
+FileDescription: Pdf 2 DjVu Converter
+OriginalFilename: p2d.exe
+Translation: 0x0419 0x04e3
+

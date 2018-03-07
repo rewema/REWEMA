@@ -1,0 +1,75 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    162304 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f219ac11c7a5b0e5e8c56d51531a84e6
+SHA1:    d003f7242e09dfe409bfab4aab4a67dbd3b9c106
+ssdeep:  3072:Tk1gIeUZ4SvqZA+btl9tzOuQz+VcRYpD9wJ6LRVX00WGPGQcE9SSRiELCJ5:XIeUCSvqK+b/OuQz+VcRYpDm89VE0WGr
+Date:    0x646E6148 [Wed May 24 19:11:04 2023 UTC] [SUSPICIOUS]
+EP:      0x401280 .text 0/9
+CRC:     Claimed: 0x34886, Actual: 0x34886 
+
+Signature scans
+================================================================================
+YARA: spam
+   0x23ab2L => RCPT TO:
+   0x23ac7L => RCPT TO:
+   0x23ad9L => RCPT TO:
+   0x23a6eL => MAIL FROM:
+   0x23a85L => MAIL FROM:
+   0x23a99L => MAIL FROM:
+   0x23d68L => SMTP server
+   0x23d7aL => SMTP server
+   0x23d94L => SMTP server
+   0x23db4L => SMTP server
+   0x23a73L => FROM: 
+   0x23b56L => From: 
+   0x23b68L => From: 
+   0x23b8cL => Subject: 
+   0x23c34L => Content-Disposition: attachment;
+
+
+TLS callbacks
+================================================================================
+    0x41a260
+    0x41a210
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3b0fc  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3b3e4  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x3b3f8  0x2d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1fa84      0x1fc00      6.069857    
+.data      0x21000      0x42c        0x600        1.874135    
+.rdata     0x22000      0x48bc       0x4a00       5.644019    
+.eh_fram   0x27000      0xf58        0x1000       4.803516    
+.bss       0x28000      0xf3b0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x38000      0xd8c        0xe00        5.092831    
+.CRT       0x39000      0x18         0x200        0.114463    [SUSPICIOUS]
+.tls       0x3a000      0x20         0x200        0.231158    [SUSPICIOUS]
+.rsrc      0x3b000      0x6d0        0x800        3.171078    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1991 - 2017 FMail developers
+InternalName: ftools
+FileVersion: 2.0.1.4
+CompanyName: FMail GPL
+ProductName: FMail
+ProductVersion: 2.0
+FileDescription: FTools: FMail util
+OriginalFilename: FToolsW32.exe
+Translation: 0x0413 0x04e4
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38912 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     89abd6a482445e2cb887f1fa02f60f28
+SHA1:    c9117aeacea838e19d82a9e8763673c707e8805c
+ssdeep:  768:lMjJi5mR30Ekoj8Rlvf/ux4VpLG9Z59ob4J1xnSVa4:lDtojslvuupy9Z5mBa4
+Date:    0x57899025 [Sat Jul 16 01:38:45 2016 UTC]
+EP:      0x404230 .text 0/6
+CRC:     Claimed: 0x161fc, Actual: 0x161fc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xddb8   0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xc658   0x13c2   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xda20   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc160   0x4f1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x57c4       0x5800       5.954751    
+.data      0x7000       0x1e19       0x200        1.159441    
+.idata     0x9000       0x1160       0x1200       4.955464    
+.didat     0xb000       0x58         0x200        0.644028    [SUSPICIOUS]
+.rsrc      0xc000       0x1ea8       0x2000       4.133955    
+.reloc     0xe000       0x584        0x600        6.347631    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dwm.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Desktop Window Manager
+OriginalFilename: dwm.exe
+Translation: 0x0409 0x04b0
+

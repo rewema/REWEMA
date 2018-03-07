@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    31232 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     5c945fe71011f3b6c46c87291b2d5679
+SHA1:    f1d1a68583f338efa54fb640ec0225742c9b9f90
+ssdeep:  768:3+NzSuxv1SrORMK6xRiNhQosCPLZjKoX4V/R/qK4:czzx1SrRcgo3woX4V/R+
+Date:    0x4BCE9479 [Wed Apr 21 06:00:25 2010 UTC]
+EP:      0x408fbe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xcebe [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa0a0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xa388   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6fc4       0x7000       5.681575    
+.rsrc      0xa000       0x578        0x600        3.995811    
+.reloc     0xc000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9   2006
+Assembly Version: 1.0.0.0
+InternalName: ClickOrder.exe
+FileVersion: 1.0.0.0
+CompanyName:  
+ProductName: ClickOrder
+ProductVersion: 1.0.0.0
+FileDescription: ClickOrder
+OriginalFilename: ClickOrder.exe
+

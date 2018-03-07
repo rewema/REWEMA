@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    55296 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     c5a28f44f47524452c188ed74e754095
+SHA1:    a53eab93d544c278ba065c3da26508c80e8aab6e
+ssdeep:  768:bvLfPdgShY2ialKHTiPgnwJIxOaCIVCiGRORizS91PDnyw:bvLndg6YbHOonwJIsJIsa9Dny
+Date:    0x57898D98 [Sat Jul 16 01:27:52 2016 UTC]
+EP:      0x409e00 .text 0/6
+CRC:     Claimed: 0x1ac00, Actual: 0x1ac00 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x10800  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf7a0   0x48a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xfc30   0x982    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x105b8  0x242    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xf440   0x360    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf1a0   0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9764       0x9800       5.847461    
+.data      0xb000       0x1c40       0x200        0.240445    [SUSPICIOUS]
+.idata     0xd000       0xd34        0xe00        5.144104    
+.didat     0xe000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0xf000       0x18d0       0x1a00       3.678766    
+.reloc     0x11000      0xe5c        0x1000       6.241219    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: expand
+FileVersion: 5.00 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 5.00
+FileDescription: LZ Expansion Utility
+OriginalFilename: expand
+Translation: 0x0409 0x04b0
+

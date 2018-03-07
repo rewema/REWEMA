@@ -1,0 +1,121 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4431295 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     aba1256aee141c12de56928c4e5fb996
+SHA1:    5b8b99efc8982c27e47ae6019f96ad6ee276cfb6
+ssdeep:  49152:7A5Rls57qk6ue23PSW4VbVN9aQUEnjSLqesCWlaXAFwCSC6YTpwgFHGPuFYxeWYs:+ns5Gs6ZVhN9aQF9uWdFwk4
+Date:    0x4002B597 [Mon Jan 12 14:56:23 2004 UTC]
+EP:      0x401000 .text 0/8
+CRC:     Claimed: 0x43bd7a, Actual: 0x43bd7a 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x1a01a1L => deflate
+   0x427819L => deflate
+   0x427829L => deflate
+   0x427837L => deflate
+   0x430fadL => deflate
+   0x1a01c3L => Jean-loup Gailly
+   0x1a6fe1L => inflate
+   0x37966dL => inflate
+   0x427a8fL => inflate
+   0x427aa3L => inflate
+   0x427ab3L => inflate
+   0x427ac9L => inflate
+   0x427adeL => inflate
+   0x427af6L => inflate
+   0x427b11L => inflate
+   0x427b20L => inflate
+   0x427b2fL => inflate
+   0x427b42L => inflate
+   0x427b8aL => inflate
+   0x427b9eL => inflate
+   0x427bb5L => inflate
+   0x427bcaL => inflate
+   0x430474L => inflate
+   0x43191eL => inflate
+   0x1a7003L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x224de8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x224f1c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x225050 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x225184 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x2252b8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x2253ec 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x225520 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x225654 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x225788 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x2258bc 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x2259f0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x225b24 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x225c58 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x225d8c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x225ec0 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x225f80 0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x226278 0x6c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2262e4 0x268    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22654c 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x226834 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x22695c 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x226a84 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x226d6c 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x226e94 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x226fbc 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2270e4 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x22720c 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x227334 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x22745c 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x227510 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x227524 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x227538 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x22754c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x227560 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x227574 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x227588 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x22759c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x2275b0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x2275c4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x2275d8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x2275ec 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x227600 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x227614 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x227628 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x22763c 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x227660 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x227674 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x227688 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x2276ac 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x2276c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x2276d4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e9334     0x1e9400     6.394195    
+.data      0x1eb000     0x17624      0x17800      5.122161    
+.rdata     0x203000     0xf94        0x1000       4.350411    
+.bss       0x204000     0x1bff0      0x0          0.000000    [SUSPICIOUS]
+.idata     0x220000     0x3f6c       0x4000       5.213286    
+.rsrc      0x224000     0x36e8       0x3800       3.500215    
+.stab      0x228000     0x53f34      0x54000      3.518747    
+.stabstr   0x27c000     0x9a66d      0x9a800      5.522696    
+

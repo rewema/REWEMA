@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    228192 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bb80f38ca9cf8223a52963895201eff0
+SHA1:    4cc8c64f9cd93ca1c1c5cd93e94711fec4ec1a08
+ssdeep:  3072:i75uF5WefCmKWgjJv2xM1D0O0ryf0J8qOzr+4KiWtuo0aWXnr149BZ:2wF5nKi3CD0TyfW8qiKuWtuomryjZ
+Date:    0x57898DF3 [Sat Jul 16 01:29:23 2016 UTC]
+EP:      0x421350 .text 0/5
+CRC:     Claimed: 0x43ee8, Actual: 0x43ee8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x349a0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x319e0  0x4aa    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x31e90  0x274    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x32108  0x8a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x329b0  0xd2     LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_STRING          0x32a88  0x2e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x32d70  0x9a6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x33718  0x7aa    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x33ec8  0xad6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x2d9e0  0x3ffc   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2d640  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2d310  0x329    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x27e18      0x28000      5.971264    
+.data      0x29000      0x1d94       0x1800       4.814672    
+.idata     0x2b000      0x1570       0x1600       5.520752    
+.rsrc      0x2d000      0x7a98       0x7c00       3.568266    
+.reloc     0x35000      0x2adc       0x2c00       6.635277    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dism
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Dism Image Servicing Utility
+OriginalFilename: DISM.EXE
+Translation: 0x0409 0x04b0
+

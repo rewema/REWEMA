@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    634880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     acc07a1cdce177a74ac91d5d7829c8a6
+SHA1:    2a89eb518aaed76e8d4b241b98740b24576ae9e0
+ssdeep:  6144:ocHZeDRJ/LDX7hyt+0vRCggkr7Q+i80cbHEFkmbHQYcngYjbHA+LMdkAzPgm7sQ4:o2eDzzhW+0vRCginakwODQ/
+Date:    0x41F307C8 [Sun Jan 23 02:11:20 2005 UTC]
+EP:      0x499c1e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xa93f2 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x84050L => msg
+   0x7f912L => nick
+   0x7e86aL => Part
+   0x7e5eeL => Ping
+   0x7e484L => Chat
+   0x81cdfL => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9a438  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x9a7a0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x9a0e8  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x97c24      0x98000      6.035892    
+.rsrc      0x9a000      0x7b8        0x1000       1.339746    
+.reloc     0x9c000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa92002 Matt Zyzik
+Assembly Version: 0.5.0.0
+InternalName: FileScope.exe
+FileVersion: 0.5.0.0
+CompanyName: MediaMesh, LLC.
+LegalTrademarks:  
+Comments: P2P Client
+ProductName: FileScope
+ProductVersion: 0.5.0.0
+FileDescription: FileScope
+OriginalFilename: FileScope.exe
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25088 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     98e0e72f1de169db1e2d85c4d93a011c
+SHA1:    dab503edf518e58c03827ad4ef312702a0f37398
+ssdeep:  384:OOA2Uq5LZ/IrP3RngxYk+w3sEXMF/XJtWi9uCHXjaTwnutDfmf1NupvAWfwWxR:OYlLZEhgxzdcFeehtMuf1Nupp
+Date:    0x57899180 [Sat Jul 16 01:44:32 2016 UTC]
+EP:      0x404170 .text 0/5
+CRC:     Claimed: 0x14dd2, Actual: 0x14dd2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8760   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a8   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2b6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x38a4       0x3a00       6.277436    
+.data      0x5000       0x1a90       0x800        2.531020    
+.idata     0x7000       0xaa6        0xc00        4.594207    
+.rsrc      0x8000       0x828        0xa00        3.739549    
+.reloc     0x9000       0x4f4        0x600        6.016941    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AT.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Schedule service command line interface
+OriginalFilename: AT.EXE
+Translation: 0x0409 0x04b0
+

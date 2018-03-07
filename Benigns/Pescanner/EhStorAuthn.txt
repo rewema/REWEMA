@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    120832 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cf4ca1bb022bf8c53fd8e02a9e783c78
+SHA1:    f6da68b6a7b78781d31a8a9c7f249b34c0c1a66f
+ssdeep:  1536:cqxyzyCaU4o9edlBYGYhveomgPHA5kG9mQ7N6wMkNaAYG5n8s:aaUmDBY5hvxPxQZDFcZIZ
+Date:    0x57898F05 [Sat Jul 16 01:33:57 2016 UTC]
+EP:      0x409b70 .text 0/5
+CRC:     Claimed: 0x25c68, Actual: 0x25c68 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1ec70  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xd980   0x442    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe1b0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe498   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe680   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe7a8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf050   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf718   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xfce0   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10348  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10630  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10818  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x10940  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x117e8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12090  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12758  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12cc0  0x7aa9   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1a770  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cd18  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ddc0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e748  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xfc80   0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x1ebb0  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0xddc8   0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd580   0x3f9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x981d       0x9a00       6.228030    
+.data      0xb000       0x41c        0x200        0.256865    [SUSPICIOUS]
+.idata     0xc000       0xdc8        0xe00        5.186286    
+.rsrc      0xd000       0x11d68      0x11e00      6.203859    
+.reloc     0x1f000      0xb88        0xc00        6.693981    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EhStorAuthn.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Enhanced Storage Authentication Program
+OriginalFilename: EhStorAuthn.exe
+Translation: 0x0409 0x04b0
+

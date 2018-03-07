@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15872 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6507525bee407c12a6fedd99caff55b8
+SHA1:    7d38e52e7868f11e16b8b63ba353a4e31c988cab
+ssdeep:  192:LBpWlv/IgDR1fr91v0Q6kmX3g/ZlGTa8xnDyJkRoz+j2DjMc1VSPk/vfWpjW3J:LBpWNvDvr6lXQ/QvfazxSsPWpjW5
+Date:    0x5789918B [Sat Jul 16 01:44:43 2016 UTC]
+EP:      0x402480 .text 0/6
+CRC:     Claimed: 0x13606, Actual: 0x13606 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6368   0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60a0   0x2c5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e94       0x2000       5.696763    
+.data      0x3000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x988        0xa00        4.904822    
+.didat     0x5000       0xc          0x200        0.114463    [SUSPICIOUS]
+.rsrc      0x6000       0x750        0x800        4.122173    
+.reloc     0x7000       0x248        0x400        4.447896    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: mpnotify.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows NT Multiple Provider Notification Application
+OriginalFilename: mpnotify.exe
+Translation: 0x0409 0x04b0
+

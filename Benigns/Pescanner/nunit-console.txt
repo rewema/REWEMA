@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5120 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     5a83dc67a0aafd0e9b96e45f03cf640e
+SHA1:    76941f4a49d539687d3ff495553dedd14cc3459c
+ssdeep:  48:6F+pe9EfAjKPvFJKhPEtsPihmBdXwT7QzJ7KnQJ0h49SfbNtm:bSdWPSh8t2zJ7KQmvzNt
+Date:    0x501DA46A [Sat Aug  4 22:38:34 2012 UTC]
+EP:      0x40267e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xfc3c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x4bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4560   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x684        0x800        4.380570    
+.rsrc      0x4000       0x750        0x800        3.945851    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (C) 2002-2012 Charlie Poole.
+Copyright (C) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov.
+Copyright (C) 2000-2002 Philip Craig.
+All Rights Reserved.
+Assembly Version: 2.6.1.12217
+InternalName: nunit-console.exe
+FileVersion: 2.6.1.12217
+CompanyName: NUnit.org
+LegalTrademarks: NUnit is a trademark of NUnit.org
+ProductName: NUnit
+ProductVersion: 2.6.1.12217
+FileDescription: NUnit-Console
+OriginalFilename: nunit-console.exe
+

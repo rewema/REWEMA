@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    434176 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9c3ce2152aa59883209337194a7f9801
+SHA1:    41e548871535ac496c365e75537457c6077dad41
+ssdeep:  6144:plGpdz5PDv+2N5lFGdfvbSmPj1wUvp1p4qIY0DQoQGHrIAML3sWKE1gJAoOHGdGe:wdd6Jj7OQoQCIAMwE1iOHGdGe
+Date:    0x3DB72EA7 [Wed Oct 23 23:20:07 2002 UTC]
+EP:      0x402be8 .text 0/3
+CRC:     Claimed: 0x79ee2, Actual: 0x79ee2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6856c  0x1428   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x68044  0x528    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6739c  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x6736c  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 40x40, 256-colors
+RT_VERSION         0x67150  0x21c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x64614      0x65000      5.541186    
+.data      0x66000      0xef0        0x1000       0.000000    
+.rsrc      0x67000      0x2994       0x3000       2.872804    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: NStats
+FileVersion: 1.00.0052
+CompanyName: Zippy LLC
+ProductName: NStats
+ProductVersion: 1.00.0052
+OriginalFilename: NStats.exe
+

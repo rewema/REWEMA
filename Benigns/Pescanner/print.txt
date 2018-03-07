@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14848 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4069cd49daf015aedf61bf092c4a3e1e
+SHA1:    d533fb346b8b9b8fcbb2df3496f9a561e1c345dc
+ssdeep:  192:oKQl/nVyJiwKWjYplI7U/aNXqBXT4CDmlSlLtf05T8k9W8UW6:oK8/Vmio7U/aNXqF41lSlJfS9W8UW
+Date:    0x57898EAD [Sat Jul 16 01:32:29 2016 UTC]
+EP:      0x402310 .text 0/5
+CRC:     Claimed: 0x106d9, Actual: 0x106d9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5710   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5390   0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19f4       0x1a00       5.736946    
+.data      0x3000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0xdd8        0xe00        5.350846    
+.rsrc      0x5000       0x7d8        0x800        4.276626    
+.reloc     0x6000       0x2cc        0x400        5.297741    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Print
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Print Utility
+OriginalFilename: Print.Exe
+Translation: 0x0409 0x04b0
+

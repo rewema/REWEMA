@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1166184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     768ac4bb395e640719d97ab20519d40c
+SHA1:    d5418b0c6562549d4b03800ddd762b84c3b47ce1
+ssdeep:  24576:6p7tJmGUGa5VT25haI0OnaXhBrBBq7AzUNieUPpkLrw7YnKobra63:CJxUG0VT2SOnaD+PNjjYOKy3
+Date:    0x539AD86F [Fri Jun 13 10:54:39 2014 UTC]
+EP:      0x46ab9a .text 0/5
+CRC:     Claimed: 0x12279e, Actual: 0x12279e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+VBS                0xda2e8  0x135a   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0xdb644  0x1aa23  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xf6068  0xaa63   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x100acc 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1112f4 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11551c 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x117ac4 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x118b6c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x118fd4 0x4c     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_GROUP_ICON      0x119020 0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 256-colors
+RT_VERSION         0x119088 0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x119390 0x26e    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+ReadProcessMemory
+OpenProcessToken
+CreateProcessAsUserW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xae41c      0xae600      6.419714    
+.rdata     0xb0000      0x22736      0x22800      4.866258    
+.data      0xd3000      0x6a54       0x2c00       4.530287    
+.rsrc      0xda000      0x3f600      0x3f600      7.353031    [SUSPICIOUS]
+.reloc     0x11a000     0x7cd0       0x7e00       6.509493    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2013 Baidu, Inc. All rights reserved.
+InternalName: Baidu Antivirus
+FileVersion: 4,4,4,73449
+CompanyName: Baidu, Inc.
+ProductName: Baidu Antivirus
+ProductVersion: 4,4,4,73449
+FileDescription: Baidu Antivirus Feedback Application
+Translation: 0x0409 0x04b0
+

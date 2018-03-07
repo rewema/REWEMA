@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    73216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     996f83e516552ca3b51445bb994a6d38
+SHA1:    56fc6ba49195dedf735e6ce1b03ab36d72334f66
+ssdeep:  1536:hKTg6tZkYVxqdE5NLt3mZCSRCxDka6tg7N4G:IsixsE5b3mZCwC1AtgZ4G
+Date:    0x35895E6D [Thu Jun 18 18:37:33 1998 UTC] [SUSPICIOUS]
+EP:      0x4080c0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x18f1a [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x13d68  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14050  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x13838  0x43c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x13c78  0xea     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x141a0  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14238  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14278  0x2f2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14570  0x3e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14958  0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14af8  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14c50  0x20c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14e60  0x4ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x15330  0x72     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x153a8  0x132    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x14178  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x13390  0x4a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa9f5       0xaa00       6.376435    
+.rdata     0xc000       0x1a52       0x1c00       5.148749    
+.data      0xe000       0x4678       0x2e00       1.724464    
+.rsrc      0x13000      0x24e0       0x2600       3.539453    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1987-1998 Microsoft Corp.
+InternalName: ST6UNST.EXE
+FileVersion: 6.00.8169
+CompanyName: Microsoft Corporation
+LegalTrademarks: Microsoft\xae is a registered trademark of Microsoft Corporation.  Windows(TM) is a trademark of Microsoft Corporation.
+Comments: June 18, 1998
+ProductName: Microsoft\xae Visual Basic for Windows
+ProductVersion: 6.00.8169
+FileDescription: Visual Basic Setup Toolkit Uninstaller
+OriginalFilename: ST6UNST.DLL
+Translation: 0x0409 0x04b0
+

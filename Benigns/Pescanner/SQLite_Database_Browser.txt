@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2490368 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     19b78d2c34f68734b33f64b65e2a6c47
+SHA1:    1e95d4ca0e2c6557314dfd2ee57ae0e3f0dd0ec5
+ssdeep:  49152:u5R8bI4c09UaOHCytUjWEBKGc6KJ/zqmjvuTKTXITKKjyK+Mhf67w04T:u52jc0DrytUpc15qbmLITKK76
+Date:    0x445A055A [Thu May  4 13:44:58 2006 UTC]
+EP:      0x58b02e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x260d22 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x225351L => deflate
+   0x225373L => Jean-loup Gailly
+   0x2522c9L => inflate
+   0x2522ebL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x261120 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x261408 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x261530 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2623d8 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18cead     0x18d000     6.642195    
+.rdata     0x18e000     0xcdda6      0xce000      6.504623    
+.data      0x25c000     0x4080       0x2000       3.910118    
+.rsrc      0x261000     0x1408       0x2000       2.674392    
+

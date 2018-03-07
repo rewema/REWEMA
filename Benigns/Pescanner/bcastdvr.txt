@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    491520 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8f54b2e550e579ee46dedd92d931d488
+SHA1:    5bed67007dffe56eea7307059f02e6f7490fdedf
+ssdeep:  12288:Y4pWBnw/BzhFjvi251RKMVdbOYbbiHVpWRE:fpWBnwZzLjK251RrV1DQVpW
+Date:    0x578990D7 [Sat Jul 16 01:41:43 2016 UTC]
+EP:      0x466700 .text 0/6
+CRC:     Claimed: 0x79f34, Actual: 0x79f34 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x75240  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x750a0  0x19e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+ReadProcessMemory
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6d694      0x6d800      6.527319    
+.data      0x6f000      0x12c4       0xc00        4.539306    
+.idata     0x71000      0x2914       0x2a00       5.368086    
+.didat     0x74000      0xc          0x200        0.098004    [SUSPICIOUS]
+.rsrc      0x75000      0x5f8        0x600        4.167341    
+.reloc     0x76000      0x6598       0x6600       6.783583    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Broadcast DVR server
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Broadcast DVR server
+OriginalFilename: bcastdvr.exe
+Translation: 0x0409 0x04b0
+

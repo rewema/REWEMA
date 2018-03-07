@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    117920 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f10231df28521535fdf2191eaec343c6
+SHA1:    2ed03ba6ef4be5913bf352741ee89b220cd3ff2c
+ssdeep:  1536:WBv3x9Vekx04khrFvUIn8igQQ54H6S98x4v62R43cnXnxsWjcdvS3M9SwREBse3A:E/7orZPtQZszn48uvgM9SwEVTD0
+Date:    0x56A8AAE2 [Wed Jan 27 11:32:50 2016 UTC]
+EP:      0x404256 .text 0/4
+CRC:     Claimed: 0x21e97, Actual: 0x21e97 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x1d0a0  0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1d3b8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd704       0xd800       6.671577    
+.rdata     0xf000       0x9956       0x9a00       5.206795    
+.data      0x19000      0x3008       0x1200       3.476341    
+.rsrc      0x1d000      0x538        0x600        3.762929    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2013-2015 Mark Russinovich
+InternalName: regjump
+FileVersion: 1.1
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Regjump
+ProductVersion: 1.1
+FileDescription: Jumps in Regedit
+OriginalFilename: regjump.exe
+Translation: 0x0409 0x04b0
+

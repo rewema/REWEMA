@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2b6e59da406c3099982026a04145bd2d
+SHA1:    4af360703ccd54c4b380180f2a0f4c54b03579d0
+ssdeep:  384:TWp9U2Heq2lTdeWjyGHiwWXOUWwL3UXOMNes63HIb5Hz7U3oyZPAI:IY/j9yWOkXO1Hyz7U3oAPV
+Date:    0x440FB895 [Thu Mar  9 05:09:41 2006 UTC]
+EP:      0x4079be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xe791 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x84a8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8790   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x88b8   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x8118   0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x59c4       0x6000       5.315455    
+.rsrc      0x8000       0x8e0        0x1000       2.181480    
+.reloc     0xa000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2259.15591
+InternalName: Xmulator.InterconnectionTopologies.FCube.exe
+FileVersion: 1.0.2259.15591
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2259.15591
+FileDescription:  
+OriginalFilename: Xmulator.InterconnectionTopologies.FCube.exe
+

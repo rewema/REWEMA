@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    334848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     7fbe860f886f8ad02fe01862a8d19e22
+SHA1:    4563779a8949a9539b13692c2faaf90b24f5cf79
+ssdeep:  6144:hO7RomxSKERD/5z20/CmZc3qaHT/fwQht2EHMtM9cjI3qaHT9z20/CmNsK6:hOVszYTHTgsTHT9zoL
+Date:    0x413B6E33 [Sun Sep  5 19:51:15 2004 UTC]
+EP:      0x402000 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x5919d [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x4d84aL => Join
+   0x4ec9eL => msg
+   0x4fb84L => nick
+   0x4388eL => quit
+   0x4dbb3L => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x54058  0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x513f8      0x51400      5.938352    
+.rsrc      0x54000      0x344        0x400        2.670039    
+.reloc     0x56000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x007f 0x04b0
+LegalCopyright:  
+InternalName: DCSharpHub
+FileVersion:  
+CompanyName:  
+LegalTrademarks:  
+Comments: A Direct Connect Hub written in CSharp
+ProductName:  
+ProductVersion:  
+FileDescription: DCSharpHub
+OriginalFilename: DCSharpHub.exe
+

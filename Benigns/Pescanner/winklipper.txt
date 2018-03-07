@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    201367 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2134270e6aa019f8ccc209c479574c9c
+SHA1:    31e994350b04447253e722bd2246affc58c7f3c8
+ssdeep:  6144:3uHIU3SCXOvfvt1FGo0pjx2EbeNsvEhr12rGuyqVvo/PIO6dJ:eoUiffvTYoUx2EbemMhp2rNvo/PIO2J
+Date:    0x44DF14F2 [Sun Aug 13 12:02:58 2006 UTC]
+EP:      0x4795d0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x3ff12 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7a3bc  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x7e5e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7e714  0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_MENU            0x74830  0x50     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x74880  0xfc     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x74980  0x226    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x74ba8  0x67c    LANG_ENGLISH SUBLANG_ENGLISH_UK       DOS executable (COM)
+RT_STRING          0x75228  0x3de    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x75608  0x5c0    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x75bc8  0x532    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x76100  0x428    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x7e840  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x7e858  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x7e870  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x7e888  0x13c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MANIFEST        0x7e9c8  0x274    LANG_ENGLISH SUBLANG_ENGLISH_UK       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x4e000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x4f000      0x2b000      0x2a800      7.925425    [SUSPICIOUS]
+.rsrc      0x7a000      0x5000       0x5000       5.165536    
+
+Version info
+================================================================================
+FileVersion: 3, 2, 0, 1
+FileDescription: 
+Translation: 0x0809 0x04b0
+

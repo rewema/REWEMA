@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    42664 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 Mono/.Net assembly
+MD5:     2e1769d781835ff9c7c4daf9fedd2f71
+SHA1:    2262972b5fe0c81dda349c5adb669600b493d07e
+ssdeep:  384:ybCcz0r0/gTMHfOdByYoaKJ9Yl6dnPU3SERztmbqCJstdMardz/JikPZ+1sPZocs:LczihQ/Odc36Iq8RMgTzYmfvizOREBVm
+Date:    0x575A141C [Fri Jun 10 01:13:00 2016 UTC]
+EP:      0x4078ba .text 0/3
+CRC:     Claimed: 0x101a1, Actual: 0x101a1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8090   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8468   0x494    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x58c0       0x5a00       5.006429    
+.rsrc      0x8000       0x900        0xa00        4.325940    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: AddInUtil.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: AddInUtil.exe
+OriginalFilename: AddInUtil.exe
+Translation: 0x0409 0x04b0
+

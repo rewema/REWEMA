@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    92672 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     734b175ac9b29720606a63a80109739d
+SHA1:    5685adb56047ef3e9b89f63799ec270fc6ad8bd2
+ssdeep:  768:wgxrcWzDjjTufzB6y0MziDSbdNsn4FOBkStBW1:/xrcWzDjjTOzB6y0csSbug0Y1
+Date:    0x57899155 [Sat Jul 16 01:43:49 2016 UTC]
+EP:      0x403e10 .text 0/5
+CRC:     Claimed: 0x18fd7, Actual: 0x18fd7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x189a8  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x74f8   0xc828   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13d20  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x159c8  0x16a6   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x17070  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18118  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x18580  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0x185d0  0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7240   0x2b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x368c       0x3800       6.005400    
+.data      0x5000       0x394        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0x8e0        0xa00        4.412338    
+.rsrc      0x7000       0x11a78      0x11c00      2.749276    
+.reloc     0x19000      0x4d4        0x600        5.863158    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WSCollect.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: This tool collects Windows Store log files
+OriginalFilename: WSCollect.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    379904 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f2284dfe0892921dffe09aa1b754954c
+SHA1:    a2b34dfbcfb63a34bf1df8cf5ffb9707cd189160
+ssdeep:  6144:Pu5MOfV+Am4GhSJbVrOctOC7eKbOg7Ckd:Pu51wT4GhSJ1OctOC7e+7Nd
+Date:    0x578990F2 [Sat Jul 16 01:42:10 2016 UTC]
+EP:      0x454ce0 .text 0/5
+CRC:     Claimed: 0x63ef1, Actual: 0x63ef1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7e748  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x7e398  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7e0f0  0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x548a4      0x54a00      6.287179    
+.data      0x56000      0x24348      0x1200       1.732496    
+.idata     0x7b000      0x2194       0x2200       5.422773    
+.rsrc      0x7e000      0x818        0xa00        3.729211    
+.reloc     0x7f000      0x3e78       0x4000       6.752256    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TraceRpt.Exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Event Trace Report Tool
+OriginalFilename: TraceRpt.Exe
+Translation: 0x0409 0x04b0
+

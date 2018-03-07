@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1908803 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8cb2cbcf4d36929344d6e5d60bf378f8
+SHA1:    b3f8b36e7fd31b5abd9182fdb6415862751212ab
+ssdeep:  24576:1OT6H7gAOdcaEt5CO/kzSyuCG4EJ42zXmWD1MPchg:166H7gAYcr3yu0EJ42z2WD1Bg
+Date:    0x40891298 [Fri Apr 23 12:56:56 2004 UTC]
+EP:      0x476646 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x1dfb1b [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1bc220 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1bcac8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x1bcae0 0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb9840      0xba000      4.182357    
+.rdata     0xbb000      0xdf5f1      0xe0000      4.976513    
+.data      0x19b000     0x15be0      0x16000      4.246464    
+.idata     0x1b1000     0xa975       0xb000       5.344571    
+.rsrc      0x1bc000     0x11c9       0x2000       1.923139    
+.reloc     0x1be000     0x13e72      0x14000      6.131189    
+
+Version info
+================================================================================
+LegalCopyright: Copyright ? 2004
+InternalName: SketchBoard
+FileVersion: 1, 9, 7, 1
+CompanyName:  MangoByte
+PrivateBuild: 
+LegalTrademarks: 
+Comments: pojchara@asa.or.th
+ProductName:   SketchBoard
+SpecialBuild: 
+ProductVersion: 1, 9, 7, 1
+FileDescription: SketchBoard
+OriginalFilename: SketchBoard.exe
+Translation: 0x0409 0x04b0
+

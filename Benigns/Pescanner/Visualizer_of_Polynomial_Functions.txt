@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    121344 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e14cdad5959cdf5875cbb0b713180772
+SHA1:    44d928a6d24b5ff34a5fab92221123bf174e62ca
+ssdeep:  1536:Y2fMyQODBRr584Gc5Mc1QRzkJR5IOZUaaC0j8mNr5JB/4ucOTafIjzOqsUrY:YY78G5bQRIJcO6Ppj8mN/B/4u4R5
+Date:    0x5048ACB3 [Thu Sep  6 14:01:23 2012 UTC]
+EP:      0x41ec9e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x224e1 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x200a0  0x380    LANG_NEUTRAL SUBLANG_NEUTRAL          8086 relocatable (Microsoft)
+RT_MANIFEST        0x20420  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1cca4      0x1ce00      5.686019    
+.rsrc      0x20000      0x610        0x800        3.411975    
+.reloc     0x22000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2012
+Assembly Version: 1.0.0.0
+InternalName: Visualizer of Polynomial Functions.exe
+FileVersion: 1.0.0.0
+ProductName: Visualizer of Polynomial Functions
+ProductVersion: 1.0.0.0
+FileDescription: Visualizer of Polynomial Functions
+OriginalFilename: Visualizer of Polynomial Functions.exe
+

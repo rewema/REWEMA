@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ce2b8db66ef8b70b137faa4579be92c8
+SHA1:    2817e155528a285c43e952d6fce05b89ce57f185
+ssdeep:  192:1W9YWA8JXhq3L+L5PMjl92cI8GEGzx1MNSWUrqI6kqrh0LVTAWkRy28:EYeJX43L+Lq2Z8GEG7MNerB6ELP28
+Date:    0x43EF3788 [Sun Feb 12 13:26:32 2006 UTC]
+EP:      0x4047fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x15b81 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6428   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6710   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6838   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2804       0x3000       4.933390    
+.rsrc      0x6000       0x860        0x1000       2.049264    
+.reloc     0x8000       0xc          0x1000       0.009845    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2234.30496
+InternalName: TfgLogic.exe
+FileVersion: 1.0.2234.30496
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2234.30496
+FileDescription:  
+OriginalFilename: TfgLogic.exe
+

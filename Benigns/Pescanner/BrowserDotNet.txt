@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    339968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     481bbfe6d890ced0c8d980a8a459a9af
+SHA1:    f4acf223d5ae766b99fa03fbddefd9f5adf0d607
+ssdeep:  6144:J/bKiDN7s1ohrwnPO5MooMciIrt/rXJKVk:J/bdzxwPO5tWiIp/rXcV
+Date:    0x454B364B [Fri Nov  3 12:30:03 2006 UTC]
+EP:      0x45083e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x58d3f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x54468  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x54d10  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x540e8  0x37c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4e844      0x4f000      6.331743    
+.sdata     0x52000      0xc4         0x1000       0.479067    [SUSPICIOUS]
+.rsrc      0x54000      0xd28        0x1000       2.698499    
+.reloc     0x56000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 CUA Office Project 2006
+Assembly Version: 1.0.0.0
+InternalName: BrowserDotNet.exe
+FileVersion: 1.0.0.0
+CompanyName: CUA Office Project
+ProductName: CUA Office Web Browser 7 Beta
+ProductVersion: 1.0.0.0
+FileDescription: CUA Office Web Browser 7 Beta
+OriginalFilename: BrowserDotNet.exe
+

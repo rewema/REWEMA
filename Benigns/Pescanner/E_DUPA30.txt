@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    325600 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     668748f25f5872153d0c586e34acbd90
+SHA1:    5dccb3ebec033d6b35b9fe1c4d22fbd30d86ce43
+ssdeep:  6144:oe8TpdFxg18zFv78xt3G+CbAxTi4QnAfBU2xe/GL:CrNv7yS0Ti4Qnq1xhL
+Date:    0x4AADF91F [Mon Sep 14 08:04:47 2009 UTC]
+EP:      0x41edd0 .text 0/4
+CRC:     Claimed: 0x5bba4, Actual: 0x5bba4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4f558  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4fac0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50390  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x508f8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x50368  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x511a0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x511c8  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4f1f0  0x363    LANG_JAPANESE SUBLANG_DEFAULT          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+InternetReadFile
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x374b5      0x38000      6.620545    
+.rdata     0x39000      0xd630       0xe000       4.585174    
+.data      0x47000      0x7078       0x4000       3.243753    
+.rsrc      0x4f000      0x24f0       0x3000       3.517561    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) SEIKO EPSON CORP. 2009
+InternalName: E_DUPA30.EXE
+FileVersion: 3, 3, 0, 0
+CompanyName: SEIKO EPSON CORPORATION
+ProductName: EPSON Driver Update
+ProductVersion: 3, 3, 0, 0
+FileDescription: EPSON Driver Update
+OriginalFilename: E_DUPA30.EXE
+Translation: 0x0000 0x04b0
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fe20610799f0204e0301d04fd1c61839
+SHA1:    3a076bb083344d8a4e24d5c9503469ea85801e13
+ssdeep:  192:u2ubbQuWid0InM/xQuwGVHOL9xkmUQtOOqFy1X0kg0iMUB5HY3cfUBv:yfJBnM2uwcEImZXS0iMUY3
+Date:    0x37ECB360 [Sat Sep 25 11:34:56 1999 UTC] [SUSPICIOUS]
+EP:      0x1002a50 .text 0/3
+CRC:     Claimed: 0xb4c4, Actual: 0xb4c4 
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5220   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5508   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x5658   0x10a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x5768   0x59a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6308   0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x5630   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x5d08   0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x6010   0x2f7    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x25b0       0x2600       5.881015    
+.data      0x4000       0x220        0x200        2.608722    
+.rsrc      0x5000       0x1350       0x1400       3.681186    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1996
+InternalName: CpuStrese
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: CpuStrese Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: CpuStrese MFC Application
+OriginalFilename: CpuStres.EXE
+Translation: 0x0409 0x04b0
+

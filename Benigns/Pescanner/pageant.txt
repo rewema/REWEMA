@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    139264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5905df65edfbea7d0b47789ef03bc43c
+SHA1:    91db0a2a774cda16a1077712dc9eab8174366c64
+ssdeep:  3072:2BK7rb9R8vcmuuVVVXCK4hNORZkOVqtYtXRmeCRDMiwU:2BK7rb9R83uuVzX2j9OVqt/ki
+Date:    0x4E1C929C [Tue Jul 12 18:29:48 2011 UTC]
+EP:      0x412aee .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2ffb2 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x20390  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x204b8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x207a0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20e08  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x20eb8  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20fe8  0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21378  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x214a0  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x21578  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x216b0  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x217c8  0x166    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x21930  0xcc8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x21318  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x21550  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x225f8  0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x22900  0x4ce    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x168d0      0x17000      6.732080    
+.rdata     0x18000      0x5f76       0x6000       6.782166    
+.data      0x1e000      0x1e5c       0x1000       1.228951    
+.rsrc      0x20000      0x2dd0       0x3000       3.688889    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997-2011 Simon Tatham.
+InternalName: Pageant
+FileVersion: Release 0.61
+CompanyName: Simon Tatham
+ProductName: PuTTY suite
+ProductVersion: Release 0.61
+FileDescription: PuTTY SSH authentication agent
+OriginalFilename: Pageant
+Translation: 0x0809 0x04b0
+

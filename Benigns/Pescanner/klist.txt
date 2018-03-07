@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32256 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     31edaefb67ca2def614d6093537cadeb
+SHA1:    91a1b03d2b395aa1f56a72262600c98d65873d44
+ssdeep:  768:mQ8Fci4n+BT1svLd6ExJzUd2Kinmlom1ta9asafsqvNLuAH:Cyd6s1mlMqv1uA
+Date:    0x57899153 [Sat Jul 16 01:43:47 2016 UTC]
+EP:      0x406120 .text 0/5
+CRC:     Claimed: 0x153ee, Actual: 0x153ee 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9478   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x90b0   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5a04       0x5c00       6.104813    
+.data      0x7000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x8000       0xe1e        0x1000       4.712830    
+.rsrc      0x9000       0x540        0x600        2.993020    
+.reloc     0xa000       0x570        0x600        6.373822    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: klist.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Tool for managing the Kerberos ticket cache
+OriginalFilename: klist.exe
+Translation: 0x0409 0x04b0
+

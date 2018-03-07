@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    96056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     34d296afc913e302953c70463ef09a48
+SHA1:    d442072c6a0c078106ccf928ab53a7b70eaa5640
+ssdeep:  1536:sPQplvSXD20QxiM3qzf2W7638JifM0o8iOfabbMi8LNndzp0TuJr:sP2e/ETaFJi5FiOfabkLlJp0Tu1
+Date:    0x51A7AD5C [Thu May 30 19:49:48 2013 UTC]
+EP:      0x40236d .text 0/4
+CRC:     Claimed: 0x1b237, Actual: 0x1b237 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x18178  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x182a0  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x182d0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x182e4  0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x185f8  0x1fa    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1174a      0x11800      6.598590    
+.rdata     0x13000      0x2bfc       0x2c00       5.613465    
+.data      0x16000      0x18a4       0xe00        2.399422    
+.rsrc      0x18000      0x7f4        0x800        4.180892    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) Hewlett-Packard 2007
+InternalName: hpwuSchd
+FileVersion: 80, 1, 1, 0
+CompanyName: Hewlett-Packard
+ProductName:  hpwuSchd Application
+ProductVersion: 80, 1, 1, 0
+FileDescription: hpwuSchd Application
+OriginalFilename: hpwuSchd.exe
+Translation: 0x0409 0x04b0
+

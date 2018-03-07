@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1233730 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f698772797de100f3ce23799e14f4623
+SHA1:    9e5b7836af28231f92fe0f4c82a9bf855a107a06
+ssdeep:  24576:CmOLkflWHlTFgfpMHJ3p4M1ETHVju0mWCHh+Kzjw/7OgWE8lM:rOLkf0lTFgfpMHJ3G1THViiclwSXEiM
+Date:    0x46FE4A19 [Sat Sep 29 12:50:33 2007 UTC]
+EP:      0x40325d .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x136139 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2f4f0  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2fb58  0xa068   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x39bc0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a228  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a510  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3a638  0x12428  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ca60  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d908  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e1b0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4e718  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x90740  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x92ce8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x93d90  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x941f8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x942b0  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x943d0  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x94528  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x94728  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x94820  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x948c0  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x949b0  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 12 icons, 16-colors
+RT_VERSION         0x94a60  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x94cc0  0x2dd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x595e       0x5a00       6.449718    
+.rdata     0x7000       0x1190       0x1200       5.180946    
+.data      0x9000       0x1b038      0x400        5.049898    
+.ndata     0x25000      0xa000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x2f000      0x65fa0      0x66000      4.748851    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2006-2007 wiRe
+ProductName: VisualCube Setup
+FileDescription: Installer for VisualCube.
+FileVersion: 1.2.0.0
+CompanyName: http://www.visualcube.org/
+Translation: 0x0409 0x0000
+

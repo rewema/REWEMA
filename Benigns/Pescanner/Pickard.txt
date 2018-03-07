@@ -1,0 +1,116 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    455168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     12106749b853cd59798ac85802864b23
+SHA1:    00e9228a57e7318ddf455ac73818e38b9c45d658
+ssdeep:  12288:Ge5+mN1cWfvX2cgkKFsB71S6AxecSQLCT5HSIEa:GeYmIGX2N2wJ
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4f3b20 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x7b3ae [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xb3fa8  0x134    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_CURSOR          0xb40dc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xb4210  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xb4344  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          Linux/i386 PC Screen Font v1 data, 512 characters, Unicode directory,
+RT_CURSOR          0xb4478  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xb45ac  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xb46e0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xb4814  0x134    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_CURSOR          0xb4948  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb4a7c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          COM executable for DOS
+RT_BITMAP          0xb4c4c  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb4e30  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5000  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb51d0  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb53a0  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5570  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5740  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5910  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5ae0  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5cb0  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5d98  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5e30  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb5ec8  0x928    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0xb67f0  0x928    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0xb7118  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf4fac  0x468    LANG_ITALIAN SUBLANG_ITALIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0xf5418  0x988    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0xf5da4  0x10a8   LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0xf6e50  0x25a8   LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0xf93fc  0x4228   LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0xfd628  0x5488   LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0x102ab4 0x94a8   LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0x10bf60 0x10828  LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0xdef40  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdef94  0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdf2a4  0x4b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdf758  0x1e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdf938  0x198    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdfad0  0x158    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdfc28  0x328    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdff50  0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe0024  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe0198  0x1b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe0350  0x49c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe07ec  0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe0b9c  0x3a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe0f44  0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe134c  0x160    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe14ac  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe1598  0x20c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe17a4  0x404    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe1ba8  0x33c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe1ee4  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xe2198  0x40     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xe21d8  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xe21e8  0x410    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xe25f8  0xd5e8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xefbe0  0x14     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_CURSOR    0xefbf4  0x14     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_CURSOR    0xefc08  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xefc1c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xefc30  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xefc44  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          ISO-8859 text, with no line terminators
+RT_GROUP_CURSOR    0xefc58  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xefc6c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xefc80  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x11c78c 0x76     LANG_ITALIAN SUBLANG_ITALIAN          MS Windows icon resource - 8 icons, 16x16, 256-colors
+RT_VERSION         0x11c808 0x258    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x11ca64 0x245    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0xad000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0xae000      0x46000      0x45e00      7.921171    [SUSPICIOUS]
+.rsrc      0xf4000      0x29000      0x29000      4.126782    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 1.0.0.0
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 1.0.0.0
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

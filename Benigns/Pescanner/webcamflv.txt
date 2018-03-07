@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    154624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bf12f05833da7cebc4d5cfdebd4f7d9a
+SHA1:    9d46c21df08d455971b6be990ad060c4960771b8
+ssdeep:  3072:MRng5V48do2hOWLQdJNV4/PNiax7xw5Pi/uBlZ5M/t/9:MRng5VGLePND7w5Pi2cVV
+Date:    0x4F53BB93 [Sun Mar  4 18:59:31 2012 UTC]
+EP:      0x40f285 .text 0/4
+CRC:     Claimed: 0x26aba, Actual: 0x26aba 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x293b8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x296a0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x297c8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2a670  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2a958  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2aa80  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ad68  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2ae90  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x2bd38  0xf2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2be2c  0x220    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2c04c  0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x2c090  0x10     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2c0a0  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x2c0d0  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x2c100  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_MANIFEST        0x2c124  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c76c      0x1c800      6.595787    
+.rdata     0x1e000      0x4388       0x4400       5.645747    
+.data      0x23000      0x5318       0x1800       3.280849    
+.rsrc      0x29000      0x3280       0x3400       4.478029    
+

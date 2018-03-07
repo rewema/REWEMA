@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    465408 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     0dacb835a2f7c6796f70eede38723cb6
+SHA1:    fd544fa00c08658c24d79ecd4f1a15336a42372b
+ssdeep:  6144:qWPkJ/Ud/C5YAiL9kTmKf1bvb19AoWw8tdJYJU3:q2kJ/8KJBj19AoWHJYJU3
+Date:    0x509A87C6 [Wed Nov  7 16:09:42 2012 UTC]
+EP:      0x461a54 .itext 1/10 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x72e51 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x7a370  0x90     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7a400  0x440    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7a840  0x3a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7abe8  0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7afac  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7b294  0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x7b364  0xa0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7471216 records)
+RT_STRING          0x7b404  0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7b6f0  0x490    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7bb80  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7beb8  0x2a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x7c15c  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x7c16c  0x490    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x7c5fc  0x2      LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file
+RT_VERSION         0x7c600  0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5fdf4      0x5fe00      6.248161    
+.itext     0x61000      0xcc0        0xe00        5.839323    
+.data      0x62000      0x3d18       0x3e00       5.526956    
+.bss       0x66000      0x5044       0x0          0.000000    [SUSPICIOUS]
+.idata     0x6c000      0x1190       0x1200       4.898504    
+.didata    0x6e000      0x1d4        0x200        3.199663    
+.tls       0x6f000      0x14         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x70000      0x18         0x200        0.190489    [SUSPICIOUS]
+.reloc     0x71000      0x8c00       0x8c00       6.604978    
+.rsrc      0x7a000      0x2a00       0x2a00       3.813962    
+
+Version info
+================================================================================
+LegalCopyright: Dloneranger freeware
+InternalName: WavNormalize
+FileVersion: 1.0.0.0
+CompanyName: Dloneranger
+Comments: Freeware, do what you want with it
+ProductVersion: 1.0.0.0
+FileDescription: WavNormalize
+Translation: 0x0409 0x04e4
+

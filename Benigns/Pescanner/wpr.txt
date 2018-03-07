@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    174080 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     dc73c1c7203e0cd139d61d7fb67aa5e8
+SHA1:    d5890107167ed4a7767779ca29ce6d06c231d343
+ssdeep:  3072:HF89LypCfU9pmHurhWbNzBlZxEg+sKJ8olXRzZ:l85jOEfzP+j8C
+Date:    0x5789913A [Sat Jul 16 01:43:22 2016 UTC]
+EP:      0x41deb0 .text 0/5
+CRC:     Claimed: 0x355ff, Actual: 0x355ff 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x28e58  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x29f00  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_RCDATA          0x2a390  0x8dd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_MESSAGETABLE    0x288b0  0x5a8    LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_GROUP_ICON      0x2a368  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_VERSION         0x284e8  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x28220  0x2c8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x23c4c      0x23e00      6.280825    
+.data      0x25000      0x6d4        0x200        3.373441    
+.idata     0x26000      0x1712       0x1800       5.165606    
+.rsrc      0x28000      0x2c70       0x2e00       5.210608    
+.reloc     0x2b000      0x1d14       0x1e00       6.584829    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2015 Microsoft Corporation. All rights reserved.
+InternalName: WPR.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft Windows Performance Recorder
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Windows Performance Recorder
+OriginalFilename: WPR.exe
+Translation: 0x0409 0x04b0
+

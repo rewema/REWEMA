@@ -1,0 +1,41 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    196096 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8aa98031128ef0c81d34207e3c60d003
+SHA1:    182164292e382455f00349625dd5fd1e41dcc0c8
+ssdeep:  3072:4Jw8KYg5zA5GsMYSxSJiN/vGss9kTBf9pAXAtPOYQwT:4035iMhL/vGsbTBl2wOsT
+Date:    0x49819995 [Thu Jan 29 11:57:09 2009 UTC]
+EP:      0x40b7ee .text 0/4
+CRC:     Claimed: 0x390fc, Actual: 0x390fc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x34178  0xa08    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x34b80  0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x34d20  0x204    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x34f24  0x25a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x35180  0x114    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x35294  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x234df      0x23600      6.601823    
+.rdata     0x25000      0x9c10       0x9e00       6.809355    
+.data      0x2f000      0x44a4       0x1200       2.448430    
+.rsrc      0x34000      0x13f0       0x1400       4.552431    
+

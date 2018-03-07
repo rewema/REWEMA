@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     cdc24538694d8743b0c83e1583edf48b
+SHA1:    b5889b6e08cc51242456cfe4040ec129e403feef
+ssdeep:  96:O4AHSh168x5paegg3/B8M2OQDiPTgGTDxIyHW00:CM5pSyT23iPTgGTDiyG
+Date:    0x4329E55C [Thu Sep 15 21:19:24 2005 UTC]
+EP:      0x402c9e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc788 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4478   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4760   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4888   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xca4        0x1000       4.621889    
+.rsrc      0x4000       0x8b0        0x1000       2.128484    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2084.40182
+InternalName: SwfDotNet.IO.Samples.Jpeg2Swf.exe
+FileVersion: 1.0.2084.40182
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2084.40182
+FileDescription:  
+OriginalFilename: SwfDotNet.IO.Samples.Jpeg2Swf.exe
+

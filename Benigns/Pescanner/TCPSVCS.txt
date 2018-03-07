@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10752 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     988751d8ff4cd39b5438a1c01d15c691
+SHA1:    a78d89378494e62fee5484488e3ae5d72f8d8157
+ssdeep:  192:OVF0o+wdXP6XxpT3+tkbrpc1XIJsp1tGK0WN/W:OVF0oDV6XxtSkvXJspF0WN/W
+Date:    0x57899181 [Sat Jul 16 01:44:33 2016 UTC]
+EP:      0x401a50 .text 0/5
+CRC:     Claimed: 0x126c2, Actual: 0x126c2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5388   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50a0   0x2e3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x107c       0x1200       5.488602    
+.data      0x3000       0x3c0        0x200        0.296026    [SUSPICIOUS]
+.idata     0x4000       0x78c        0x800        4.598960    
+.rsrc      0x5000       0x738        0x800        4.176450    
+.reloc     0x6000       0x1c4        0x200        5.747819    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TCPSVCS.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCP/IP Services Application
+OriginalFilename: TCPSVCS.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38912 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bdfabedacd6f18b5efb14b7529f3ed3e
+SHA1:    b7202cf005748d0815a2f8b0bd1b2e681cb6c5e2
+ssdeep:  384:iNSiAPodzI5YIucEBYQD1CRigGmjdR8dkdXS+bExM4GHvCEBJpLH81RCyE3WuLV6:9/iPciYQ8R/dRhdigBJlHYRCyYDVHJ
+Date:    0x4A5BC5F9 [Mon Jul 13 23:40:41 2009 UTC]
+EP:      0x1001ece .text 0/4
+CRC:     Claimed: 0x10cd9, Actual: 0x10cd9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xae68   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4828   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e90   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5178   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x52a0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6148   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69f0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6f58   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9500   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa5a8   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xaa10   0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0xaa98   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4300   0x525    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c94       0x1e00       6.059282    
+.data      0x3000       0x39c        0x200        0.549947    [SUSPICIOUS]
+.rsrc      0x4000       0x6f40       0x7000       5.558471    
+.reloc     0xb000       0x2d4        0x400        3.388389    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AdapterTroubleshooter
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Troubleshoot Display Adapter
+OriginalFilename: AdapterTroubleshooter.exe
+Translation: 0x0409 0x04b0
+

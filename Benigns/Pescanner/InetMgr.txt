@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    125440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a3ec399b6060de87eef9f736d86235dd
+SHA1:    ee3983dc767fc110ac7ef3e3aa97694dab7867c1
+ssdeep:  3072:qMyP40w3oh7PR3i3RLchg5O++FL034Xt:qMywtoJFihLt3A+
+Date:    0x4A5BCD0B [Tue Jul 14 00:10:51 2009 UTC]
+EP:      0x1001be5 .text 0/4
+CRC:     Claimed: 0x1fd9f, Actual: 0x1fd9f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1fb98  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43d0   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4a38   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d20   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f08   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5030   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5ed8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6780   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e48   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x73b0   0x13b8e  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1af40  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d4e8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e590  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ef18  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1f380  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x1f828  0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1f440  0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c0c       0x1e00       6.145609    
+.data      0x3000       0x694        0x400        5.838752    
+.rsrc      0x4000       0x1bc70      0x1be00      7.565011    [SUSPICIOUS]
+.reloc     0x20000      0x55a        0x600        2.255813    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: InetMgr.exe
+FileVersion: 7.5.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Internet Information Services
+ProductVersion: 7.5.7600.16385
+FileDescription: IIS Manager
+OriginalFilename: InetMgr.exe
+Translation: 0x0000 0x04b0
+

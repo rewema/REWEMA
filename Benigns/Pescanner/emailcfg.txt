@@ -1,0 +1,75 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    229376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8b1bfb4d578f8b7324978f4a1efb8657
+SHA1:    593848b8be0354ea73308decbd22188dcc7df650
+ssdeep:  3072:Qcl0z0G8gYxv5OAu8VsJoODnkSelCP72FjDLidXZZHSSJto8bRycQb:Q7zFYxv5OmV4oODnoVNIFJPy
+Date:    0x3FF1BEED [Tue Dec 30 18:07:41 2003 UTC]
+EP:      0x40b73e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x449ae [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x39b00  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x39c38  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x39d18  0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3a3e8  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3a4a0  0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3a610  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x38e08  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x396c8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x399b0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x38610  0x17a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x38790  0x2e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a300  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a758  0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a7a0  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a828  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a858  0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a9a8  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3b220  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3af40  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3ae90  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bbf8  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3b4c8  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3b990  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bcd8  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_GROUP_CURSOR    0x39cf0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x396b0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x39ad8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x38a70  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x241bb      0x25000      6.544893    
+.rdata     0x26000      0x8e24       0x9000       4.760768    
+.data      0x2f000      0x86e8       0x5000       2.451403    
+.rsrc      0x38000      0x3d08       0x4000       3.557973    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2003
+InternalName: emailcfg
+FileVersion: 1, 0, 0, 5
+CompanyName: Every Design Consultancy Ltd
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: emailcfg Application
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 5
+FileDescription: emailcfg MFC Application
+OriginalFilename: emailcfg.EXE
+Translation: 0x0409 0x04b0
+

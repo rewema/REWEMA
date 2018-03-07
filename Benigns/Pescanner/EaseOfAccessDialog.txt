@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    280064 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1913fd496caff87b409fac35cd876274
+SHA1:    dc76f421554dae9cc2049b8616598365663b6620
+ssdeep:  6144:6r22Dqx/wcWoNOj+jn6uFz2LJGRg4kLNnei36cw2:72Dqx40nFCdUcN
+Date:    0x578990AB [Sat Jul 16 01:40:59 2016 UTC]
+EP:      0x40b2c0 .text 0/5
+CRC:     Claimed: 0x44707, Actual: 0x44707 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x460d0  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x16670  0xdb2    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x13a10  0x8df    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x142f0  0x8df    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x14bd0  0x8df    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x154b0  0x8df    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x15d90  0x8df    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_ICON            0x17428  0x16e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18b10  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19578  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19be0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19ec8  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a0b0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a1d8  0x2ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ce80  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e4a8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f350  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fbf8  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x202c0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x20828  0x137c0  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x33fe8  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d490  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x416b8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43c60  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44d08  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x45690  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x45af8  0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 19 icons, 96x96, 16-colors
+RT_VERSION         0x13630  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x45c08  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+CreateProcessW
+OpenProcess
+VirtualAllocEx
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc6c4       0xc800       6.109714    
+.data      0xe000       0x8f0        0x600        2.729445    
+.idata     0xf000       0x3400       0x3400       5.770780    
+.rsrc      0x13000      0x331b0      0x33200      7.028802    [SUSPICIOUS]
+.reloc     0x47000      0xdf0        0xe00        6.671443    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EaseOfAccessDialog.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Ease of Access Dialog Host
+OriginalFilename: EaseOfAccessDialog.exe
+Translation: 0x0409 0x04b0
+

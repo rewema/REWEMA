@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4206958 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     20ff64faa76acb88cada0d7827b58dc2
+SHA1:    5a5ceaa4b8e49cc0d069f006a0d0177ecbedf6e3
+ssdeep:  98304:+KWzdKoKeCyG8TCNc2XZL/lzyDP/XhU09V+l+S3v0rHSo2w:+hzdKcS8i9XRpSHy8+T3v0rZ2w
+Date:    0x394A6B24 [Fri Jun 16 18:00:04 2000 UTC]
+EP:      0x4084a7 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x40e92d [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1a540  0xcd50   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x27290  0xfc0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18c78  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x18da0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x19308  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x195f0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x28250  0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x188a0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x18938  0xbe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x18aa8  0xd6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x189f8  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x18628  0x272    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x18540  0xe2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x18be8  0x90     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x18b80  0x62     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x283f0  0x632    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28a28  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28ff8  0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28bd0  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28c90  0x366    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29118  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x291b0  0x58     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x19e98  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x19ed8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1067a      0x11000      6.466927    
+.rdata     0x12000      0x17e8       0x2000       4.616388    
+.data      0x14000      0x3cfc       0x2000       2.424574    
+.rsrc      0x18000      0x11208      0x12000      3.754118    
+
+Version info
+================================================================================
+LegalCopyright: 1999-2001 TECH-SCIENCE GmbH
+InternalName: stub32i.exe                                                 
+FileVersion: 1.8.0.1225
+CompanyName: TECH-SCIENCE
+Comments: 
+ProductName: COM Wiz
+ProductVersion: 1.8.0.1225
+FileDescription: 
+OriginalFilename: stub32i.exe                                                 
+Translation: 0x0409 0x04b0
+

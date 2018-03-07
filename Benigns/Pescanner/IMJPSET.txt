@@ -1,0 +1,74 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    130560 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2cfe665ac75fd411be685ca81bf3ca3c
+SHA1:    590d992010176b40a476c11a19a2bd394e1beee0
+ssdeep:  3072:8+RLSoA+1o2kxapkyV4CopKKq/YH67IkK2NLPcxB:8Nb+q2SS74+KtmIku
+Date:    0x578990E3 [Sat Jul 16 01:41:55 2016 UTC]
+EP:      0x40cef0 .text 0/6
+CRC:     Claimed: 0x1fe75, Actual: 0x1fe75 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+UIFILE             0x16cc0  0x11b0   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+WEVT_TEMPLATE      0x166c8  0x262    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x181f8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x184e0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x18608  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x194b0  0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a058  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a900  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1afc8  0x608    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b5d0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1bb38  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e0e0  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fb48  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20bf0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21578  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21c30  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x22530  0xa2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22168  0x64     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x225d8  0x578    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x221d0  0x35a    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_MESSAGETABLE    0x16550  0x178    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_GROUP_ICON      0x22098  0xca     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 14 icons, 32x32, 16-colors
+RT_VERSION         0x16930  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x17e70  0x387    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe100       0xe200       6.261465    
+.data      0x10000      0xc50        0x400        1.644277    
+.idata     0x11000      0x3486       0x3600       5.630456    
+.didat     0x15000      0xc          0x200        0.094098    [SUSPICIOUS]
+.rsrc      0x16000      0xcb50       0xcc00       5.675339    
+.reloc     0x23000      0xf20        0x1000       6.557221    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: IMJPSET.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft IME
+OriginalFilename: IMJPSET.exe
+Translation: 0x0000 0x04b0
+

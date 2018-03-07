@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     c8d3a2b267f1cdc2b6019810b07e22eb
+SHA1:    59b6b1ed2bb42003a3cf46e33ea3ee055697fabd
+ssdeep:  384:cX2Xa6JQHH+yh+yh+yh+yh+yh+yh+Q5N+yh+yh+yh+yh+yh+yh+lpSEdu5i3f+2Q:o9h9h9h9h9h9hH9h9h9h9h9h9hmT4UrQ
+Date:    0x3DD94C46 [Mon Nov 18 20:23:34 2002 UTC]
+EP:      0x1100620e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1513d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa418   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa700   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa828   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa118   0x2fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4214       0x4400       5.323180    
+.sdata     0x8000       0xaa         0x200        2.394185    
+.rsrc      0xa000       0x850        0xa00        2.918210    
+.reloc     0xc000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1052.27704
+InternalName: chgpw.exe
+FileVersion: 1.0.1052.27704
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1052.27704
+FileDescription:  
+OriginalFilename: chgpw.exe
+

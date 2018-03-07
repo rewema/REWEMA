@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    47136 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b3fa428197881adf33e0acf633f2b638
+SHA1:    cf3480ea6174e1201f09585187bbcab0d4aa1a9b
+ssdeep:  768:r3ag5p6JbhJl60gfZVNqFQA9WQ4dczasbteNMdg:uw03Jl/g1D7czaug
+Date:    0x409394E4 [Sat May  1 12:15:32 2004 UTC]
+EP:      0x401219 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xea14 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1c954c 0xf18    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1ca464 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1ca544 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1ca624 0xf18    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1cb53c 0xf18    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1cc454 0xf18    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1cd36c 0xf18    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c9250 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1c9538 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x1ce284 0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4758       0x4758       6.080100    
+.bss       0x6000       0x1c0678     0x0          0.000000    [SUSPICIOUS]
+.data      0x1c7000     0x61c        0x61c        5.212396    
+.idata     0x1c8000     0xc38        0xc38        5.044223    
+.rsrc      0x1c9000     0x5578       0x5578       4.548406    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2003 DaloozaSoft
+InternalName: ASW
+FileVersion: 2.0
+CompanyName: DaloozaSoft
+ProductName: AutoScriptWriter
+ProductVersion: 2.0
+FileDescription: Automatic AutoIt Script Writer
+OriginalFilename: AutoScriptWriter.exe
+Translation: 0x0409 0x04b0
+

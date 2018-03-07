@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     13caa003e788146681aa7d17d4712985
+SHA1:    2af622698922b1f49ee908683bf3a446bb0dd7a3
+ssdeep:  192:RHsW+33e7B7tNdylPXXIkBT/RGMWqigc1XnPSAWB7W:WWq+jNdypXNl/RrhyP1WB7W
+Date:    0x578991A5 [Sat Jul 16 01:45:09 2016 UTC]
+EP:      0x401eb0 .text 0/5
+CRC:     Claimed: 0x8a84, Actual: 0x8a84 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5060   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14e4       0x1600       5.814414    
+.data      0x3000       0x3a0        0x200        0.296026    [SUSPICIOUS]
+.idata     0x4000       0x67a        0x800        4.171793    
+.rsrc      0x5000       0x420        0x600        2.470851    
+.reloc     0x6000       0x1c4        0x200        5.882053    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RemotePosWorker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Remote Pos Driver Worker
+OriginalFilename: RemotePosWorker.exe
+Translation: 0x0409 0x04b0
+

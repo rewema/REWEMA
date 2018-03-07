@@ -1,0 +1,346 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3280384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3f8a0bd46fb73e194849cd2312d53972
+SHA1:    b5ecffc172d4c25b8b52d02d9d5e68d13a3f4c81
+ssdeep:  49152:qbz5tyd0msnRDy79SSc0QAhAmOwFy7TZXXZnC9:qS0mweDAuyxHE9
+Date:    0x542E78FB [Fri Oct  3 10:22:51 2014 UTC]
+EP:      0x69ea3c .itext 1/10 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x32ad49 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x2a04c1L => deflate
+   0x2a04e3L => Jean-loup Gailly
+   0x2a1085L => inflate
+   0x2a04f8L => Mark Adler
+   0x2a10a7L => Mark Adler
+   0x31eaa7L => OpenSSL
+YARA: irc
+   0xe49dL => Msg
+   0xe5bfL => Msg
+   0xe68cL => Msg
+   0x16b75L => Msg
+   0x16babL => Msg
+   0x16d00L => Msg
+   0x16d50L => Msg
+   0x3948dL => Msg
+   0x394cdL => Msg
+   0x453a9L => Msg
+   0x453e9L => Msg
+   0x4ada3L => Msg
+   0x4ade3L => Msg
+   0x4c32dL => Msg
+   0x4c36dL => Msg
+   0x4d8a8L => Msg
+   0x4d8e8L => Msg
+   0x50d5bL => Msg
+   0x50d9bL => Msg
+   0x5dd3bL => Msg
+   0x5dd7bL => Msg
+   0x5ef7cL => Msg
+   0x5efbcL => Msg
+   0x601adL => Msg
+   0x601edL => Msg
+   0x61617L => Msg
+   0x61657L => Msg
+   0x628b2L => Msg
+   0x628f2L => Msg
+   0x639fbL => Msg
+   0x63a3bL => Msg
+   0x64e93L => Msg
+   0x64ed3L => Msg
+   0x6f273L => Msg
+   0x6f2b3L => Msg
+   0x7de5fL => Msg
+   0x7de9fL => Msg
+   0x7f7c0L => Msg
+   0x7f800L => Msg
+   0x80d0cL => Msg
+   0x80d4cL => Msg
+   0x822ebL => Msg
+   0x8232bL => Msg
+   0x857d5L => Msg
+   0x85815L => Msg
+   0x896c9L => Msg
+   0x89709L => Msg
+   0x8acaaL => Msg
+   0x8aceaL => Msg
+   0x8d4b6L => Msg
+   0x8d4f6L => Msg
+   0x8f0f1L => Msg
+   0x8f131L => Msg
+   0x909deL => Msg
+   0x90a1eL => Msg
+   0x97c3bL => Msg
+   0x97c7bL => Msg
+   0xa0c58L => Msg
+   0xa0c98L => Msg
+   0xb16bcL => Msg
+   0xb16fcL => Msg
+   0xb298bL => Msg
+   0xb29cbL => Msg
+   0xb43adL => Msg
+   0xb43edL => Msg
+   0xba94dL => Msg
+   0xba98dL => Msg
+   0xc7570L => Msg
+   0xc75eeL => Msg
+   0xd863aL => msg
+   0xe9049L => Msg
+   0xe94c2L => Msg
+   0xe9516L => Msg
+   0xeb38aL => Msg
+   0xec074L => Msg
+   0x131fbaL => Msg
+   0x131ffaL => Msg
+   0x15309cL => Msg
+   0x1530dcL => Msg
+   0x15883cL => Msg
+   0x15887cL => Msg
+   0x159f08L => Msg
+   0x159f48L => Msg
+   0x15b561L => Msg
+   0x15b5a1L => Msg
+   0x161081L => Msg
+   0x1610c1L => Msg
+   0x16c1e7L => Msg
+   0x16c227L => Msg
+   0x16d443L => Msg
+   0x16d483L => Msg
+   0x16e72eL => Msg
+   0x16e76eL => Msg
+   0x16fc2aL => Msg
+   0x16fc6aL => Msg
+   0x170f3eL => Msg
+   0x170f7eL => Msg
+   0x1827c4L => Msg
+   0x1827fbL => Msg
+   0x186b17L => Msg
+   0x186b4eL => Msg
+   0x1a2a7cL => Msg
+   0x1a2abcL => Msg
+   0x263e23L => Msg
+   0x263e63L => Msg
+   0x2650abL => Msg
+   0x2650ebL => Msg
+   0x2731c4L => Msg
+   0x273204L => Msg
+   0x27455eL => Msg
+   0x27459eL => Msg
+   0x275ba1L => Msg
+   0x275be1L => Msg
+   0x276e39L => Msg
+   0x276e79L => Msg
+   0x278121L => Msg
+   0x278161L => Msg
+   0x27977cL => Msg
+   0x2797bcL => Msg
+   0x27ab08L => Msg
+   0x27ab48L => Msg
+   0x31f34eL => notice
+   0x14b789L => Part
+   0x14b7ccL => Part
+   0x1504d2L => Part
+   0x150573L => Part
+   0x1505f0L => Part
+   0x150678L => Part
+   0x15071bL => Part
+   0x1507a1L => Part
+   0x15082fL => Part
+   0x1508cdL => Part
+   0x150951L => Part
+   0x1509e7L => Part
+   0x150a8dL => Part
+   0x150be5L => Part
+   0x150c5dL => Part
+   0x150df9L => Part
+   0x150e76L => Part
+   0x150f07L => Part
+   0x150f92L => Part
+   0x151117L => Part
+   0x151285L => Part
+   0x151407L => Part
+   0x151484L => Part
+   0x151515L => Part
+   0x151677L => Part
+   0x1517e5L => Part
+   0x151876L => Part
+   0x1519d9L => Part
+   0x151b61L => Part
+   0x151c04L => Part
+   0x151c8aL => Part
+   0x151d14L => Part
+   0x22bc8dL => Part
+   0x22bd2eL => Part
+   0x22bdabL => Part
+   0x22be33L => Part
+   0x22bed6L => Part
+   0x22bf5cL => Part
+   0x22bfeaL => Part
+   0x22c088L => Part
+   0x22c10cL => Part
+   0x22c1a2L => Part
+   0x22c248L => Part
+   0x22c3a1L => Part
+   0x22c419L => Part
+   0x22c5bdL => Part
+   0x22c63aL => Part
+   0x22c6cbL => Part
+   0x22c756L => Part
+   0x22c8e1L => Part
+   0x22ca6cL => Part
+   0x22caf6L => Part
+   0x22cc80L => Part
+   0x22cd21L => Part
+   0x22cd99L => Part
+   0x22cf03L => Part
+   0x22d073L => Part
+   0x22d207L => Part
+   0x22d284L => Part
+   0x22d315L => Part
+   0x22d3a3L => Part
+   0x22d43fL => Part
+   0x22d5b4L => Part
+   0x22d71dL => Part
+   0x22d89dL => Part
+   0x22d92eL => Part
+   0x22daceL => Part
+   0x22db4bL => Part
+   0x22dbdcL => Part
+   0x22dc6eL => Part
+   0x22dcf8L => Part
+   0x22dd58L => Part
+   0x22dee7L => Part
+   0x2393acL => Part
+   0x31f173L => PART
+   0x223742L => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+VCLSTYLE           0x310204 0x15492  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x325698 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3257cc 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x325900 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x325a34 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x325b68 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x325c9c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x325dd0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x325f04 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x326038 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x326208 0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3263ec 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3265bc 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x32678c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x32695c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x326b2c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x326cfc 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x326ecc 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x32709c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x32726c 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3278d4 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x327bbc 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x327ce4 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x328b8c 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x329434 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x32999c 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x32bf44 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x32cfec 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x32d974 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x32dddc 0x234    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32e010 0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32e1f8 0x430    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32e628 0x410    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32ea38 0x3ac    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x32ede4 0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0x32f108 0x320    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32f428 0x4a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32f8c8 0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32fc54 0x398    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x32ffec 0x2ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x330298 0x3b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x33064c 0x494    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x330ae0 0x36c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x330e4c 0x434    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x331280 0x188    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6553710 records)
+RT_STRING          0x331408 0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x3314dc 0x114    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x3315f0 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x3318d8 0x418    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x331cf0 0x348    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x332038 0x474    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x3324ac 0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x332838 0x5e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x332e1c 0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x3331b8 0x340    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x3334f8 0x3d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x3338d0 0x26c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x333b3c 0xb8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x333bf4 0x9c     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x333c90 0x374    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x334004 0x400    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x334404 0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x334714 0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x334a48 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x334a58 0xf20    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x335978 0x2      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x33597c 0x1100   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x336a7c 0x4108   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x33ab84 0x362    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x33aee8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x33aefc 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x33af10 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x33af24 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x33af38 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x33af4c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x33af60 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x33af74 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x33af88 0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x33b01c 0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_HTML            0x33b3c8 0x47a8   LANG_ENGLISH SUBLANG_ENGLISH_AUS      HTML document text
+RT_HTML            0x33fb70 0x492    LANG_ENGLISH SUBLANG_ENGLISH_AUS      ASCII C program text, with CRLF line terminators
+RT_HTML            0x340004 0x22e    LANG_ENGLISH SUBLANG_ENGLISH_AUS      PNG image data, 32 x 32, 8-bit/color RGB, interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x29a394     0x29a400     6.358421    
+.itext     0x29c000     0x2b08       0x2c00       6.104226    
+.data      0x29f000     0x1022c      0x10400      6.349912    
+.bss       0x2b0000     0x19158      0x0          0.000000    [SUSPICIOUS]
+.idata     0x2ca000     0x37dc       0x3800       5.235794    
+.didata    0x2ce000     0x94c        0xa00        4.051451    
+.tls       0x2cf000     0x4c         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x2d0000     0x18         0x200        0.195869    [SUSPICIOUS]
+.reloc     0x2d1000     0x3dc7c      0x3de00      6.692868    
+.rsrc      0x30f000     0x31400      0x31400      6.978344    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002-2014 John Buoro, VirtualObjectives
+InternalName: SendSMTP
+FileVersion: 2.16.1.1
+CompanyName: VirtualObjectives
+URL: http://www.VirtualObjectives.com.au/
+LegalTrademarks: All Rights Reserved
+ProductName: SendSMTP
+ProductVersion: 2.16.1.1
+FileDescription: SendSMTP
+OriginalFilename: SendSMTP.exe
+Translation: 0x0c09 0x04e4
+

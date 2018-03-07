@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    136704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     041163aa7eec6fd06f0fe21df97e06ad
+SHA1:    0034fc5db714d40434ea491bab87acf40cbf39ec
+ssdeep:  3072:0uN6yStTOeiRfzqlY0qyh7bBmNLPAVgca0Udkz2zAAFG:0uYlXuf50qyhoAVgca0UdDzAAF
+Date:    0x57899106 [Sat Jul 16 01:42:30 2016 UTC]
+EP:      0x41b830 .text 0/6
+CRC:     Claimed: 0x2ee50, Actual: 0x2ee50 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x22d48  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x227d0  0x572    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x22428  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x22160  0x2c6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c890      0x1ca00      6.118577    
+.data      0x1e000      0x614        0x200        0.964036    [SUSPICIOUS]
+.idata     0x1f000      0x1978       0x1a00       5.292387    
+.didat     0x21000      0x17c        0x200        2.537342    
+.rsrc      0x22000      0xe38        0x1000       4.002150    
+.reloc     0x23000      0x1920       0x1a00       6.721153    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WinDeploy
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Deployment Loader
+OriginalFilename: WinDeploy.exe
+Translation: 0x0409 0x04b0
+

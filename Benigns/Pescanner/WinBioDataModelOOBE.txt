@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    47104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f3b63392cf32ca4e442a7332dc11319a
+SHA1:    d435ae41adbfaf05d7b95076246f32488010f655
+ssdeep:  768:JIzmurgwI8PGrL28RgtPVmhZ96ERkY21Lb71r4Vurs:JIzcwIdGRNk796ERTILbl4Vurs
+Date:    0x57899166 [Sat Jul 16 01:44:06 2016 UTC]
+EP:      0x4091e0 .text 0/5
+CRC:     Claimed: 0x199ab, Actual: 0x199ab 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xc548   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0a0   0x4a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8b4c       0x8c00       6.287733    
+.data      0xa000       0x498        0x200        0.285782    [SUSPICIOUS]
+.idata     0xb000       0xe86        0x1000       4.769104    
+.rsrc      0xc000       0x918        0xa00        4.439497    
+.reloc     0xd000       0xae4        0xc00        6.346805    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WinBioDataModel OOBE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: WinBioDataModel OOBE
+OriginalFilename: WinBioDataModelOOBE.exe
+Translation: 0x0409 0x04b0
+

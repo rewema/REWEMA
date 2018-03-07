@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    180224 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e3e45b3e9556cb787e939a9951d45d49
+SHA1:    6023f2d4fa2d85ce44f8f66728abffba5a153823
+ssdeep:  3072:WarCYmIVbaFkMaeTLzX5ITfeSr9VBw1w0/Rf6bElcasmRHpoB/dQ7H/S1+g1kljQ:nOYhbaFkdgjUeSr9W9/Rf6bElcasmRHv
+Date:    0x3D181B88 [Tue Jun 25 07:28:08 2002 UTC]
+EP:      0x409632 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x31da7 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2a930  0x4a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x29600  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x298e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x29a38  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x29d20  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x29e70  0x63c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2a520  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2adf8  0xee     LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_STRING          0x2aee8  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2be20  0x14c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2af70  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2aff0  0x296    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2b390  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2b740  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2b6d0  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2b288  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2b5f0  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2afa8  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0x2ba68  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2bb30  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2bd28  0x86     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2bdb0  0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x2a4b0  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x29a10  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x29e48  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2a638  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x2add0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c3b0      0x1d000      6.138772    
+.rdata     0x1e000      0x9fc6       0xa000       5.578205    
+.data      0x28000      0xa8c        0x1000       2.593955    
+.rsrc      0x29000      0x2f70       0x3000       3.757614    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2000
+InternalName: testpgl
+FileVersion: 1, 0, 0, 6
+CompanyName: 
+LegalTrademarks: 
+ProductName: testpgl Application
+ProductVersion: 1, 0, 0, 6
+FileDescription: testpgl MFC Application
+OriginalFilename: testpgl.EXE
+Translation: 0x0409 0x04b0
+

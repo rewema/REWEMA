@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    169864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bf03a57b7ed07a62056702d772ba0f6c
+SHA1:    9e85d79ee4a172d475e290b61373b06bc2849d8f
+ssdeep:  1536:vnBclh7rlBFyxDLGmWV91m25bcns68hmRWrm8osQrkT2uAEKc2l0oPKG+ss5K0vj:vBQlBuCjyaX6Vk/YpPKG+L5K0v120953
+Date:    0x4D6DF011 [Wed Mar  2 07:21:53 2011 UTC]
+EP:      0x2e00e44c .text 0/4
+CRC:     Claimed: 0x326d6, Actual: 0x326d6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x28d10  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28ff8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x28c60  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x28bb8  0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29148  0x6c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29808  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29868  0xfc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29968  0x2f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29d08  0xce     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29dd8  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29e88  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29c58  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29cc8  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x29f20  0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29ee8  0x32     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x29120  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x286f8  0x4bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x28410  0x2e6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x23041      0x23200      6.544073    
+.data      0x25000      0x2f7c       0x1400       3.705920    
+.rsrc      0x28000      0x1f48       0x2000       3.860025    
+.reloc     0x2a000      0x1574       0x1600       6.578135    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2010 Microsoft Corporation.  All rights reserved.
+InternalName: OARPMANY
+FileVersion: 14.0.6022.1000
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Office 2010
+ProductVersion: 14.0.6022.1000
+FileDescription: Microsoft Office update uninstall exe
+OriginalFilename: OARPMANY.exe
+Translation: 0x0000 0x04e4
+

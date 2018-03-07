@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    587776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d49b6a24b175d6377ad62e9c6690e75b
+SHA1:    4c8a22ccf76c3587474ad54e04dedc9d75754db5
+ssdeep:  6144:QRT99mOdaa5s/8Vuc5H3AdKy9HGeofJgDEvr6slnCUGw/xIRLtxIRLuovZO7:QhVyPjmNwzaoo
+Date:    0x5789906E [Sat Jul 16 01:39:58 2016 UTC]
+EP:      0x4137f0 .text 0/5
+CRC:     Claimed: 0x9a588, Actual: 0x9a588 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x904b0  0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x505e0  0x1fd    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+WAVE               0x507e0  0xb6ae   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+WAVE               0x5be90  0xf32a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+WAVE               0x6b1c0  0xde36   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+WAVE               0x78ff8  0x174b8  LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+WEVT_TEMPLATE      0x1c0e8  0xb3e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x4f7a8  0xe38    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cc28  0x16e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e310  0xde8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f0f8  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fb60  0x9c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20528  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20b90  0x4c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21058  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21340  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21528  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x21650  0x2ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x242f8  0x1bc8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25ec0  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x274e8  0x1418   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28900  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x297a8  0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2a350  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2abf8  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2b2c0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2b828  0x79a4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x331d0  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c678  0x5488   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x41b00  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x45d28  0x3a48   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x49770  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4bd18  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d780  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e828  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f1b0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4f618  0x18e    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 28 icons, 96x96, 16-colors
+RT_VERSION         0x1bd40  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1b880  0x4bf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14a80      0x14c00      6.322753    
+.data      0x16000      0xc8c        0x800        3.022274    
+.idata     0x17000      0x32bc       0x3400       5.772286    
+.rsrc      0x1b000      0x755c8      0x75600      4.874778    
+.reloc     0x91000      0x15b4       0x1600       6.743531    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: osk.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Accessibility On-Screen Keyboard
+OriginalFilename: osk.exe
+Translation: 0x0409 0x04b0
+

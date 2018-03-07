@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    724992 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7b38143a929cfd306a29b33da166e521
+SHA1:    b7e4897d264a3690c6de5f51ada87cdb9b15ddb2
+ssdeep:  12288:sxNSWzRlVEVqeYEY+2eHnuAHDZRdXlIX6kUASfN3LgNxbk5C:SdRlVEVqeY9+2eHueDMXT7p
+Date:    0x4A5BC63C [Mon Jul 13 23:41:48 2009 UTC]
+EP:      0x102e002 .text 0/4
+CRC:     Claimed: 0xbb250, Actual: 0xbb250 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xaec48  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x93820  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x93e88  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x94170  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x94298  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x95140  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x959e8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x95f50  0x11c26  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xa7b78  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaa120  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xab1c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xab630  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xae878  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x93380  0x499    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xab6c8  0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x83cf6      0x83e00      6.292916    
+.data      0x85000      0xd644       0x8a00       4.395020    
+.rsrc      0x93000      0x1bd38      0x1be00      7.489768    [SUSPICIOUS]
+.reloc     0xaf000      0x83a2       0x8400       5.097957    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: freecell.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for FreeCell Game
+OriginalFilename: freecell.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    126976 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     fd9f6453e62ea9a67ea20236445d161f
+SHA1:    faca29cee37ce3be9a6b50ef1bd96f3b084f0941
+ssdeep:  3072:dyp7iWvhH9ZC8eMKnvedRJAfxwsZ4gRTp:AvhH9ZCkKnuifTZHR
+Date:    0x57898EAE [Sat Jul 16 01:32:30 2016 UTC]
+EP:      0x419e10 .text 0/6
+CRC:     Claimed: 0x29753, Actual: 0x29753 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x21730  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x213a0  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x210f0  0x2ae    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a168      0x1a200      6.317884    
+.data      0x1c000      0x1244       0xe00        3.544577    
+.idata     0x1e000      0x1bf8       0x1c00       5.439714    
+.didat     0x20000      0x2c         0x200        0.322738    [SUSPICIOUS]
+.rsrc      0x21000      0x7f8        0x800        4.343679    
+.reloc     0x22000      0x149c       0x1600       6.567653    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: fsutil.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: fsutil.exe
+OriginalFilename: fsutil.exe
+Translation: 0x0409 0x04b0
+

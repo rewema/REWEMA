@@ -1,0 +1,84 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    174968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f4cd850fdab64ffbbcc249374ba17f5b
+SHA1:    90f1abcbf60e24a03407f049ccf67bc25a945ac5
+ssdeep:  1536:SNxHRK4LGVq5ZrmjZ4KWWdkmVnTA6uv5RwA9YlHaeX:SHs+5ZrmjZ4KXE2sA
+Date:    0x44E267E3 [Wed Aug 16 00:33:39 2006 UTC]
+EP:      0x407a98 .text 0/4
+CRC:     Claimed: 0x36cd2, Actual: 0x36cd2 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x29998  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28810  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x28950  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x29210  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x29350  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x29490  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x295d0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x29710  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x29850  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x28690  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x287a8  0x66     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x27bd0  0x160    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x27a38  0x194    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x27d30  0xd2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x27e08  0x42a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x28238  0x8e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x27740  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       Applesoft BASIC program data
+RT_DIALOG          0x282c8  0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x29990  0x8      LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file with memo(s) (1081 records)
+RT_GROUP_CURSOR    0x29ad0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x291f8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x28938  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x29338  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x29478  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x295b8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x296f8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x29838  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x29978  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x29ae8  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x283f0  0x29a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6f18       0x7000       6.337596    
+.rdata     0x8000       0x298e       0x3000       4.329378    
+.data      0xb000       0x1ba34      0x1b000      5.270462    
+.rsrc      0x27000      0x2e88       0x3000       4.130942    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002-2005 Bryce Cogswell
+InternalName: AccessEnum
+FileVersion: 1.32
+CompanyName: Sysinternals - www.sysinternals.com
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Sysinternals AccessEnum
+SpecialBuild: 
+ProductVersion: 1.32
+FileDescription: AccessEnum
+OriginalFilename: AccessEnum.exe
+Translation: 0x0409 0x04b0
+

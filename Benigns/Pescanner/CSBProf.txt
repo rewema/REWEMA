@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    225280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7cbbe70fc823d40cb2c39006ee1516ce
+SHA1:    039888bdc25d63cff8d2451a1a5a5d6ad96b7931
+ssdeep:  6144:4RV5JbhDzzzvmgcdldJFlJ5pFKqi++m2Wyq/CP7L3jjzEkg8NpO5xlXVC1O+H33A:4RV5JbhDzzzvmgcdldJFlJ5pFKqi++mc
+Date:    0x4397B83D [Thu Dec  8 04:36:13 2005 UTC]
+EP:      0x41d238 .text 0/4
+CRC:     Claimed: 0x44b67, Actual: 0x44b67 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2f890  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2f9b8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2ff20  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x30288  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30570  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30e18  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31ac0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x31f28  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x328b0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33958  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x35f00  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 16x16, 16-colors
+RT_VERSION         0x2f300  0x58c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x35f98  0x20b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e394      0x1f000      6.034645    
+.rdata     0x20000      0xcc28       0xd000       5.155468    
+.data      0x2d000      0x17f4       0x2000       2.932438    
+.rsrc      0x2f000      0x71a8       0x8000       5.516157    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04e4
+LegalCopyright: Copyright(c) 2005 Corel Corporation
+InternalName: CSBProf
+FileVersion: 3.0.0.576
+CompanyName: Corel Corporation
+Built on: Wed 12/07/2005 22:23:19.20
+LegalTrademarks: Corel, CorelDRAW, Corel DESIGNER, Corel R.A.V.E., Corel PHOTO-PAINT, CorelTRACE and Corel CAPTURE are trademarks or registered trademarks of Corel Corporation and/or its subsidiaries in Canada, the U.S. and/or other countries.
+ProductName: Corel Common Framework
+Language Build ID: 0
+ProductVersion: 3.0.0.576
+FileDescription: Corel Service Bureau Profiler
+OriginalFilename: CSBProf.exe
+

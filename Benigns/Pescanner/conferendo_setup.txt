@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10728040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3bfc3c322f5c1404613e8752db976404
+SHA1:    0285a78159dcb3c65c96bf04cfbebfa73bfabbfb
+ssdeep:  196608:3xhg7gAp1ibIlGKpU7/lu9LTwdyy4Lx2npvkVtExwEXN3ZdbB:hU1p19lGKpU0lTq6e5cid3ZdB
+Date:    0x53BCF615 [Wed Jul  9 07:58:13 2014 UTC]
+EP:      0x4113bc .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0xa4276f, Actual: 0xa4276f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c50c  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c974  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d2fc  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e3a4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2094c  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24b74  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e01c  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e844  0x25228  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x63a6c  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xa5a94  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xa5afc  0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa5bd0  0xa4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0xa5c74  0x2ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa5f20  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa626c  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa6500  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0xae7e8  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0xae7f8  0x150    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xae948  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xae974  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 256-colors
+RT_VERSION         0xae9f8  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xaeeec  0x5e8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf12c       0xf200       6.391483    
+.itext     0x11000      0xb44        0xc00        5.732071    
+.data      0x12000      0xc88        0xe00        2.246313    
+.bss       0x13000      0x56b4       0x0          0.000000    [SUSPICIOUS]
+.idata     0x19000      0xdd0        0xe00        4.971882    
+.tls       0x1a000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1b000      0x18         0x200        0.204488    [SUSPICIOUS]
+.rsrc      0x1c000      0x934d4      0x93600      2.827886    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2010-2011 TrueConf LLC. All rights reserved.                                                      
+FileVersion: 6.6.0.1131          
+CompanyName: TrueConf                                                    
+Comments: This installation was built with Inno Setup.
+ProductName: Conferendo                                                  
+ProductVersion: 6.6.0.1131                                        
+FileDescription: Conferendo Setup                                            
+Translation: 0x0000 0x04b0
+

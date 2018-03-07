@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4608 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fdd20d95300e5d8292f305a7af402bd5
+SHA1:    73a9324bd7420fccbc67f67e4c76146abac701a1
+ssdeep:  48:6z4G4M17/iRtVjnV7Ro8gIN0KBC+RAJVwCsQsMzaRGfw9tu9/Hh1HyPhJs2OPul6:sXl12RtFvFE+Rgywzawfw9s9sx0B
+Date:    0x403F751B [Fri Feb 27 16:49:31 2004 UTC]
+EP:      0x40295e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x8ba3 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x964        0xa00        4.762954    
+.rsrc      0x4000       0x338        0x400        2.569517    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: transsrv.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: transsrv.exe
+

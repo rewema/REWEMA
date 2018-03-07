@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    470016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     dbe5adf60508e37d0eb2fa4a0449d53b
+SHA1:    16adba0df7bb33f3a30e8323b44c9031cf6ab80b
+ssdeep:  12288:/qMCiySofyDwEpT/gjjEey7rD/K++tQOOJH4EU9QR6WliUCQtz5nxOqufAu8G4bw:0EwQRnliUC4uIu8G4bpUza5vUKtvzAJN
+Date:    0x5789901D [Sat Jul 16 01:38:37 2016 UTC]
+EP:      0x444810 .text 0/6
+CRC:     Claimed: 0x7f0ca, Actual: 0x7f0ca 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WEVT_TEMPLATE      0x7e940  0x2b2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x7e780  0x1c0    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_VERSION         0x7e3e8  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7e150  0x295    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6945c      0x69600      6.466866    
+.data      0x6b000      0xe88c       0x600        3.842286    
+.idata     0x7a000      0x2830       0x2a00       5.401552    
+.didat     0x7d000      0x1c         0x200        0.267013    [SUSPICIOUS]
+.rsrc      0x7e000      0xbf8        0xc00        4.099816    
+.reloc     0x7f000      0x5234       0x5400       6.675376    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ImeBroker.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft IME
+OriginalFilename: ImeBroker.exe
+Translation: 0x0000 0x04b0
+

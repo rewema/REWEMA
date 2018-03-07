@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14368 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     71e128e297a3817f8396a5b862c1ea01
+SHA1:    83eb0b50548f8d89c1c97c6767f66b0cdc584d9c
+ssdeep:  384:a2ThT/hzIM9YdEG9eFKIr5OSO7JIIPxmm:vThZIM+95DJwm
+Date:    0x43DD4FA2 [Sun Jan 29 23:28:34 2006 UTC]
+EP:      0x401219 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x497c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x60f0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x63d8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x63ec   0x2c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ReadProcessMemory
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d2c       0x1d2c       6.049859    
+.bss       0x3000       0x168        0x0          0.000000    [SUSPICIOUS]
+.data      0x4000       0x458        0x458        4.537347    
+.idata     0x5000       0x78c        0x78c        4.561868    
+.rsrc      0x6000       0x6b0        0x6b0        4.476693    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2003 DaloozaSoft
+InternalName: AU3_Spy
+FileVersion: 1.0
+CompanyName: DaloozaSoft
+ProductName: AU3_Spy
+ProductVersion: 1.0
+FileDescription: AutoIt3 Window Info Spy
+OriginalFilename: AU3_Spy.exe
+Translation: 0x0409 0x04b0
+

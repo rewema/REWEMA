@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    18432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     0bba6dd4aea2833d354dd4d6ebc8c4d8
+SHA1:    f6394f2fda9e66cb1871a265fa427784711ab813
+ssdeep:  384:i0nMzx5wsTEUIiIXSmaKv0/bNx2Xh6fwWvMWP:fr8DWC
+Date:    0x4BA4FE8A [Sat Mar 20 16:57:46 2010 UTC]
+EP:      0x405d3e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x6eca [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x60a0   0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x63d8   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3d44       0x3e00       5.333869    
+.rsrc      0x6000       0x5c8        0x600        4.098218    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2009
+Assembly Version: 1.0.0.0
+InternalName: GrammarConverter.exe
+FileVersion: 1.0.0.0
+CompanyName: Microsoft
+ProductName: GrammarConverter
+ProductVersion: 1.0.0.0
+FileDescription: GrammarConverter
+OriginalFilename: GrammarConverter.exe
+

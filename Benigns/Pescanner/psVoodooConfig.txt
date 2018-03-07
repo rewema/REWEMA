@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4232dac50466d7558c5baf4ffaeadcd4
+SHA1:    6cf4804f429c73e8c6efbf2d712dadd77b10234e
+ssdeep:  384:Pitzok6qFgtqWdneWIj9p+yaJ0oZHvtmJBrKp+yaJVMThOP6lkZtfub7krfOoFw:PitzPQRlJI5AT0oZHvkJAATVkhOyC077
+Date:    0x4DBE7074 [Mon May  2 08:51:00 2011 UTC]
+EP:      0x4027ec .text 0/4
+CRC:     Claimed: 0x13e30, Actual: 0x13e30 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7298   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x7580   0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x76a8   0x12e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x77d8   0x262    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x7a3c   0x40c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x7e48   0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7e88   0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x7eac   0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8158   0x254    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+None               0x83ac   0x11     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x20ca       0x2200       5.827363    
+.rdata     0x4000       0x1c04       0x1e00       4.737201    
+.data      0x6000       0x5b0        0x200        3.600768    
+.rsrc      0x7000       0x13c0       0x1400       4.083365    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2008
+InternalName: config
+FileVersion: 0, 13, 0, 0
+ProductName: config Application
+ProductVersion: 0, 13, 0, 0
+FileDescription: config MFC Application
+OriginalFilename: config.EXE
+Translation: 0x0409 0x04b0
+

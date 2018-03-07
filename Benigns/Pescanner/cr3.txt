@@ -1,0 +1,106 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11778048 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2e8d4a63946e2d0390f4c38273d2a82a
+SHA1:    409ffa9bf34fbfd303bd83a7bbf3ad568b556d1b
+ssdeep:  196608:QuzJy7Bso8akBqMhJsv6tWKFdu9CZZmb:QnkB/hJsv6tWKFdu9CK
+Date:    0x55938751 [Wed Jul  1 06:23:13 2015 UTC]
+EP:      0xb60910 .text 0/7
+CRC:     Claimed: 0x0, Actual: 0xb3c866 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x808449L => deflate
+   0x8fab08L => deflate
+   0x8fb0e2L => deflate
+   0x97f189L => deflate
+   0xacbb63L => deflate
+   0x80846bL => Jean-loup Gailly
+   0x97f1abL => Jean-loup Gailly
+   0x808511L => inflate
+   0x9f9911L => inflate
+   0xacbc2cL => inflate
+   0x808533L => Mark Adler
+   0x97f1c0L => Mark Adler
+   0x9f9933L => Mark Adler
+YARA: irc
+   0x811af6L => JOIN
+   0x8123c7L => join
+   0x81241eL => join
+   0x81247aL => join
+   0x812487L => join
+   0x8130efL => join
+   0x815678L => JOIN
+   0x8156a1L => JOIN
+   0x8156c0L => JOIN
+   0x81578cL => JOIN
+   0x81583dL => JOIN
+   0x81585fL => JOIN
+   0x81590fL => JOIN
+   0x8159e2L => JOIN
+   0x815a0bL => JOIN
+   0x815a2aL => JOIN
+   0x815a98L => JOIN
+   0x815b02L => JOIN
+   0x815b24L => JOIN
+   0x81e56bL => Join
+   0x8f831bL => join
+   0x827300L => msg
+   0x8b2eccL => MSG
+   0x8b34b8L => msg
+   0x96cbabL => MSG
+   0x96cdc4L => MSG
+   0x7f01ccL => NOTICE
+   0x7f3a28L => Notice
+   0x7d1af4L => part
+   0x8124f2L => part
+   0x881b38L => part
+   0x8f59f8L => QUIT
+   0x8f6c74L => quit
+   0x92a763L => quit
+   0x978b26L => Quit
+   0x9795a1L => quit
+   0x99b0cbL => QUIT
+   0x9a2233L => quit
+YARA: spam
+   0x99a893L => casino
+   0x8b18edL => from: 
+   0x8b272dL => from: 
+   0x7acb01L => subject: 
+   0x8e1d74L => Postcard
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xb2d100 0x5488   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xb32588 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_MANIFEST        0xb325a0 0x27e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+ShellExecuteW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7a9d44     0x7a9e00     6.531331    
+.rdata     0x7ab000     0x3245fc     0x324600     6.568556    
+.data      0xad0000     0x5a008      0x1ea00      4.815317    
+.qtmetad   0xb2b000     0x454        0x600        3.718370    
+_RDATA     0xb2c000     0x124        0x200        3.517932    
+.rsrc      0xb2d000     0x5820       0x5a00       4.224689    
+.reloc     0xb33000     0x483b8      0x48400      6.582227    
+

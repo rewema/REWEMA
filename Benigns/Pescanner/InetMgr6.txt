@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22528 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1090f44f12402baad7398630f48e79c8
+SHA1:    70a7f04df7c7c5ddb2ef0db3e95b7f7ceb0be9b0
+ssdeep:  384:TdP18B6KWs7DHRRVK3YOnApt0YsNkP67Ww15:ZdBEDHRvK3YOApLsUg5
+Date:    0x4A5BCD35 [Tue Jul 14 00:11:33 2009 UTC]
+EP:      0x1001c04 .text 0/4
+CRC:     Claimed: 0xd4dc, Actual: 0xd4dc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x74a8   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4448   0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x60f0   0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6d98   0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x7100   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 48x48, 256-colors
+RT_VERSION         0x7130   0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x41e0   0x268    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1688       0x1800       6.090328    
+.data      0x3000       0xac4        0x200        0.299051    [SUSPICIOUS]
+.rsrc      0x4000       0x3578       0x3600       5.163861    
+.reloc     0x8000       0x234        0x400        3.096538    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: InetMgr6
+FileVersion: 7.5.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Internet Information Services
+ProductVersion: 7.5.7600.16385
+FileDescription: IIS Admin Program
+OriginalFilename: InetMgr6.EXE
+Translation: 0x0409 0x04b0
+

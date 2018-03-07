@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    421888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     0961bac205d7b9f16fcbfe156ebae622
+SHA1:    41b235b27d51ec47e342b55e2d5009ca855ec4d5
+ssdeep:  6144:5ms6ZqWv111111dp11111t11111I111p111kgJ511H11j011111CA111L1OY11AC:5aZqWw1tBbedeKGdu
+Date:    0x47028C9E [Tue Oct  2 18:23:26 2007 UTC]
+EP:      0x110635ce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x7698f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x64500  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x64a68  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x65310  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x661b8  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0x64148  0x3b8    LANG_NEUTRAL SUBLANG_NEUTRAL          COM executable for DOS
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x615d4      0x62000      5.450609    
+.rsrc      0x64000      0x21e8       0x3000       2.168092    
+.reloc     0x68000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2006 The University of Melbourne
+Assembly Version: 1.0.6.24103
+InternalName: Alchemi.Console.exe
+FileVersion: 1.0.6.24103
+CompanyName: http://www.alchemi.net
+Comments: .NET Grid Computing Framework
+ProductName: Alchemi
+ProductVersion: 1.0.6
+FileDescription: Alchemi Console
+OriginalFilename: Alchemi.Console.exe
+

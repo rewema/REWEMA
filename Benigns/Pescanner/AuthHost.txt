@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    117280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     eb5b6ca3c4555374692d16e4fb4062a8
+SHA1:    460fcb343a24f20e38f1025fff33a3f991686d57
+ssdeep:  1536:cEvJk6dUCe+jo+YvMWZ+j2bywM18hJwjXGLcdy9FBBQ+8P5f:ccJrcmoxJJcdEFBBQ1Rf
+Date:    0x57899047 [Sat Jul 16 01:39:19 2016 UTC]
+EP:      0x4123d0 .text 0/7
+CRC:     Claimed: 0x2ab0f, Actual: 0x2ab0f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1d868  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x1b7c0  0x20a6   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1b420  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x1b160  0x2c0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x144a4      0x14600      6.336009    
+.imrsiv    0x16000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x17000      0x5d4        0x200        2.411144    
+.idata     0x18000      0x11d2       0x1200       5.275016    
+.didat     0x1a000      0xf8         0x200        1.794077    
+.rsrc      0x1b000      0x2958       0x2a00       4.097643    
+.reloc     0x1e000      0x187c       0x1a00       6.594260    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AuthHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft AuthHost
+OriginalFilename: AuthHost.exe
+Translation: 0x0409 0x04b0
+

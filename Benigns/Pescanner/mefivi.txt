@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    94208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3f58d977a97fc1a4b8dcfcfbab68afcb
+SHA1:    76c3316f4d420af9f8cb6c928ff24e1687fbfa13
+ssdeep:  1536:pD89cHnTWFI8tOyDmEI271TXRGUv+kT8CyD0N3dSoNHpy8TXog:pDVWqaRwm1XN4ND0hdSoNHA8X
+Date:    0x399A8AE4 [Wed Aug 16 12:36:52 2000 UTC]
+EP:      0x40470f .text 0/4
+CRC:     Claimed: 0x205aa, Actual: 0x205aa 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MENU            0x13358  0x146    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x134a0  0xf4     LANG_ENGLISH SUBLANG_ENGLISH_US       Applesoft BASIC program data
+RT_DIALOG          0x13598  0x1a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x175e0  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x17878  0x16e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x179e8  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x17620  0x132    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x17758  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x17798  0xdc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x17b00  0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_ACCELERATOR     0x13310  0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x13740  0x3c7d   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII English text, with CRLF line terminators
+RT_VERSION         0x173c0  0x21a    LANG_ENGLISH SUBLANG_ENGLISH_US       ARC archive data, uncompressed
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xae50       0xb000       6.620891    
+.rdata     0xc000       0x38aa       0x4000       4.722109    
+.data      0x10000      0x276c       0x2000       1.917344    
+.rsrc      0x13000      0x4b50       0x5000       4.825683    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000 Alexander Bartolich
+InternalName: mefivi
+FileVersion: 0.1.1
+ProductName: mefivi
+FileDescription: Metafile Viewer
+OriginalFilename: mefivi.exe
+

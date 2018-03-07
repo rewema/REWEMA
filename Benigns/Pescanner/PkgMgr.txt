@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    201728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2486bab47040d32ac5baeacb9dd4977e
+SHA1:    545c8e7a7507c6fcaebeba52b9d808bde16021e1
+ssdeep:  3072:E8rLENnKKphw6s4RTQcWl4SBQC1TjmQ6lmTwBhlWGq:XrL8nRccM1QCVmz4Tw
+Date:    0x57898DE4 [Sat Jul 16 01:29:08 2016 UTC]
+EP:      0x42a540 .text 0/5
+CRC:     Claimed: 0x34388, Actual: 0x34388 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MESSAGETABLE    0x2e740  0xf34    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2e398  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e0f0  0x2a5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2a4e0      0x2a600      6.006620    
+.data      0x2c000      0x498        0x200        1.978906    
+.idata     0x2d000      0xff0        0x1000       5.336241    
+.rsrc      0x2e000      0x1678       0x1800       3.613956    
+.reloc     0x30000      0x3fec       0x4000       6.615239    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: PkgMgr.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Package Manager
+OriginalFilename: PkgMgr.exe
+Translation: 0x0409 0x04b0
+

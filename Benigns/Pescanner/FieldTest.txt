@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4096 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     34e462988a9743fd8aed47f38d50a6e2
+SHA1:    1e5a328c9e535f57ef07dd4fd9bc3d8570e87666
+ssdeep:  48:6LqLiSgK1gvy3VoXOxzcMuChTzdaVZln1t9b/8e/ndu1Js2OPulB0osKq:uKqSG+xQMHhInD93oD0o
+Date:    0x403F7520 [Fri Feb 27 16:49:36 2004 UTC]
+EP:      0x40275e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2ad8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x764        0x800        4.602080    
+.rsrc      0x4000       0x338        0x400        2.579825    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: FieldTest.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: FieldTest.exe
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    30208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bad0ea2d88113da8f319bd9a991ce090
+SHA1:    80500c3a180c03b28418fa30fbf79ce1cf35ab32
+ssdeep:  768:NYDhe6vhfg9CcoCvzGrLQijvOse4TbZ/nZp7sOuFl8D:NOheqpCnogijGsBTRfuFl8D
+Date:    0x57899135 [Sat Jul 16 01:43:17 2016 UTC]
+EP:      0x405990 .text 0/5
+CRC:     Claimed: 0x13d91, Actual: 0x13d91 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9848   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x94b0   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x3ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5344       0x5400       6.482592    
+.data      0x7000       0x4c4        0x200        0.359927    [SUSPICIOUS]
+.idata     0x8000       0xa44        0xc00        4.570892    
+.rsrc      0x9000       0x910        0xa00        4.228547    
+.reloc     0xa000       0x504        0x600        6.032162    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: extrac32.exe
+FileVersion: 5.00 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 5.00
+FileDescription: Microsoft\xae CAB File Extract Utility
+OriginalFilename: extrac32.exe
+Translation: 0x0409 0x04b0
+

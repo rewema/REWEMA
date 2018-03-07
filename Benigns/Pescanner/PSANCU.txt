@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    560928 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     132705450a5f2cf3a978fa725d808009
+SHA1:    6e37215e7527ab73e8d00919de10f7e8d266b9f9
+ssdeep:  12288:YTsgFus4TErGi3EHmPyAhy+FepuZUAad6EN+B8b/vq:YlfDSsPk+QuZUP6ENk8Lvq
+Date:    0x57A42C0F [Fri Aug  5 06:02:55 2016 UTC]
+EP:      0x444623 .text 0/5
+CRC:     Claimed: 0x90523, Actual: 0x90523 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+NDKRES             0x8217c  0x125    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with no line terminators
+RT_VERSION         0x822a4  0x33c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_MANIFEST        0x825e0  0x35a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+RT_MANIFEST        0x8293c  0x273    LANG_SPANISH SUBLANG_SPANISH_MODERN   XML  document text
+None               0x82bb0  0x1aa    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x64332      0x64400      6.581214    
+.rdata     0x66000      0x1408e      0x14200      5.181010    
+.data      0x7b000      0x6844       0x2600       4.524967    
+.rsrc      0x82000      0xd5c        0xe00        5.874795    
+.reloc     0x83000      0x842e       0x8600       5.593175    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Panda 2016
+InternalName: PSANInstall
+FileVersion: 4.0.0.758
+CompanyName: Panda Security, S.L.
+PrivateBuild: Retail_2016
+Comments: 
+ProductName: UA Platform
+ProductVersion: 4.0.0.0
+FileDescription: Panda Security Application CU
+OriginalFilename: PSANInstall.exe
+Translation: 0x0c0a 0x04b0
+

@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    493056 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     99e821319cc0ede772bd968b65d24b71
+SHA1:    b3f4275162ab3341ff715052c693fd35a536d166
+ssdeep:  12288:tQjNYU6oWoC+gv2oY78wUUzYo3kaon2FbmX3qyMzS8FZZZq9O4n:ajNrWoC+guoY7V5cekz2kX3xMzS8FZZG
+Date:    0x5789903E [Sat Jul 16 01:39:10 2016 UTC]
+EP:      0x45a9c0 .text 0/5
+CRC:     Claimed: 0x840d6, Actual: 0x840d6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x74460  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x740b0  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6a61c      0x6a800      6.135456    
+.data      0x6c000      0x3678       0x3200       4.764352    
+.idata     0x70000      0x3878       0x3a00       5.694995    
+.rsrc      0x74000      0x528        0x600        2.948760    
+.reloc     0x75000      0x666c       0x6800       6.643534    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dsregcmd.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DSREG commandline tool
+OriginalFilename: dsregcmd.exe
+Translation: 0x0409 0x04b0
+

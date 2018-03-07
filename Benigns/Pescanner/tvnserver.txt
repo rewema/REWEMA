@@ -1,0 +1,99 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2487808 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f6812296b66798b0cea9625e9b7f9afc
+SHA1:    f43ff3e5b9e4b82af43ba59fafd818545a1ecbd4
+ssdeep:  49152:SLvr+OawsBX1fEDXZyAeU6vcvrrJ4DrmEw:SLvr+OawsBX1foXZyA3YcX
+Date:    0x4E1BB0CB [Tue Jul 12 02:26:19 2011 UTC]
+EP:      0x4e7b73 .text 1/7
+CRC:     Claimed: 0x0, Actual: 0x262833 [SUSPICIOUS]
+Packers: Microsoft Visual C++ V8.0 (Debug)
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x20d9b9L => deflate
+   0x20d9dbL => Jean-loup Gailly
+   0x217a31L => inflate
+   0x217a53L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x329c80 0x2482   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x32f048 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x32f330 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x32f480 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x32f768 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x32f8b8 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x32fba0 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_MENU            0x32c108 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32cec0 0x7b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32d7e8 0x89a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32e088 0x212    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32c920 0x5a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32d670 0x174    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32c808 0x112    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32e7d8 0x164    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32e500 0x2d6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32c690 0x172    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32e940 0x410    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32e2a0 0x25e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32c240 0x450    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32ed50 0x2f6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x32ffe8 0x7a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x330790 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x330a60 0x372    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x330dd8 0x79c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x331578 0x554    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x331ad0 0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x32fcc8 0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x32f458 0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x32f890 0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x32fcf0 0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x329930 0x34e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+OpenProcessToken
+StartServiceCtrlDispatcherW
+CreateProcessAsUserW
+StartServiceW
+CreateServiceW
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.textbss   0x1000       0xe1ae5      0x0          0.000000    [SUSPICIOUS]
+.text      0xe3000      0x1d7eeb     0x1d8000     5.522692    
+.rdata     0x2bb000     0x6040a      0x60600      4.364714    
+.data      0x31c000     0x9f30       0x7800       4.253080    
+.idata     0x326000     0x28e0       0x2a00       4.779634    
+.rsrc      0x329000     0xa9c9       0xaa00       3.931490    
+.reloc     0x334000     0x11e3e      0x12000      6.086955    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2008-2011 GlavSoft LLC.
+InternalName: tvnserver
+FileVersion: 2.0.3.0
+CompanyName: GlavSoft LLC.
+ProductName: TightVNC
+ProductVersion: 2.0.3.0
+FileDescription: TightVNC Server for Windows
+OriginalFilename: tvnserver.exe
+Translation: 0x0409 0x04e2
+

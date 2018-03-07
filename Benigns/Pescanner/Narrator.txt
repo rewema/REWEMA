@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    314880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3c88e37d69cb7b846b27511d48ac3bb6
+SHA1:    7c94b7c6f278f595d63aa7e17864bc246efede7c
+ssdeep:  6144:wWpXsX3EiHLkeIemfIQFgZKUVaLWFqQWJ:wYcHEiHL+gAuVaiF
+Date:    0x578990CA [Sat Jul 16 01:41:30 2016 UTC]
+EP:      0x4218b0 .text 0/5
+CRC:     Claimed: 0x50bc8, Actual: 0x50bc8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4bd38  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x4a698  0x9dd    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x46fc0  0x36d7   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+UIFILE             0x4b078  0xcbf    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+WAVE               0x44480  0x2b3c   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 22050 Hz
+RT_ICON            0x2f9f8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2fb20  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x30088  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30270  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30938  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30c20  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x314c8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31b30  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x329d8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x32e40  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x337c8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34870  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36e18  0xd223   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_GROUP_ICON      0x44040  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 16x16, 16-colors
+RT_VERSION         0x44100  0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2f4d0  0x526    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x25c9c      0x25e00      6.248992    
+.data      0x27000      0xbcc        0x800        3.183379    
+.idata     0x28000      0x6076       0x6200       5.820427    
+.rsrc      0x2f000      0x1ce28      0x1d000      7.082082    [SUSPICIOUS]
+.reloc     0x4c000      0x3130       0x3200       6.731653    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SR.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Screen Reader
+OriginalFilename: SR.exe
+Translation: 0x0409 0x04b0
+

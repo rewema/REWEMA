@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     0dc205ab9301caf6d53cad8cfa56650f
+SHA1:    d36d10b0c3be45d87b41984134b322e5081a5c81
+ssdeep:  384:ZtixDGoq4/wRAspXmMt81SyVs37l/+EXYQctGT/DVlmCWWrqYWa:OxRoAspXmE81SYYstiPxTq
+Date:    0x57898EB6 [Sat Jul 16 01:32:38 2016 UTC]
+EP:      0x403bd0 .text 0/5
+CRC:     Claimed: 0x1001e, Actual: 0x1001e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8730   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2a6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x32b4       0x3400       5.871526    
+.data      0x5000       0x38c        0x200        0.467573    [SUSPICIOUS]
+.idata     0x6000       0x1132       0x1200       5.347131    
+.rsrc      0x8000       0x7f8        0x800        4.329282    
+.reloc     0x9000       0x430        0x600        5.336588    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: fc
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DOS 5 File Compare Utility
+OriginalFilename: FC.EXE
+Translation: 0x0409 0x04b0
+

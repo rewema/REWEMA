@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1703936 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     73be0bd72a122c6a2d77f0e44d77c5e4
+SHA1:    71d1193b6ba2e8e12b706c6f7ea2aebee1b6f13e
+ssdeep:  49152:DIxKcyoakr+NlRn0CZGjU6dWgvtDVOa3p:DIxKNoBydlGQ6dWE
+Date:    0x51C11AA6 [Wed Jun 19 02:42:46 2013 UTC]
+EP:      0x545d6e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1a6055 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x148a78 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x148ee0 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x149f88 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x14c530 0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x150758 0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x160f80 0x42028  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1a2fa8 0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x148220 0x858    LANG_NEUTRAL SUBLANG_NEUTRAL          Applesoft BASIC program data
+RT_MANIFEST        0x1a3008 0x98b    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x143d74     0x143e00     7.912873    [SUSPICIOUS]
+.sdata     0x146000     0x138        0x200        3.048099    
+.rsrc      0x148000     0x5b998      0x5ba00      4.394354    
+.reloc     0x1a4000     0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright Paul D Pruitt \xa9  2013
+Assembly Version: 0.5.0.1
+InternalName: Savvy Repair for Microsoft Office.exe
+FileVersion: 0.5.0.1
+CompanyName: S2 Services
+Comments: Savvy Repair for Microsoft Office Recovery is a simple GUI app which opens many corrupt MS Word files that Microsoft Word cannot. This project uses zip.exe from the InfoZip project, 7zip.exe from the 7zip project, xmllint.exe from the Libxml2 project and trunc.exe from the trunc project.
+ProductName: Savvy Repair for Microsoft Office Recovery is a simple GUI app which opens many corrupt Microsoft Office DOCX, XLSX or PPTX files that Microsoft Word cannot. This project uses zip.exe from the InfoZip project, 7zip.exe from the 7zip project, xmllint.exe from the Libxml2 project and trunc.exe from the trunc project.
+ProductVersion: 0.5.0.1
+FileDescription: Savvy Repair for Microsoft Office
+OriginalFilename: Savvy Repair for Microsoft Office.exe
+

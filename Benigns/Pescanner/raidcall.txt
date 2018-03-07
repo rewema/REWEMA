@@ -1,0 +1,167 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4152744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     142c990fc0f747297d53a9641b7c1966
+SHA1:    bae9913582705f38584c0f9078b03fc4ce333130
+ssdeep:  98304:GO3TmEOxnTkTo8TSSldJpxOlgO9268SjH4vZoM3v+RLhoz0qpZQtdtUzN2VL:R6chBjIoz0QZWsu
+Date:    0x575F7D8F [Tue Jun 14 03:44:15 2016 UTC]
+EP:      0x5de020 .text 0/4
+CRC:     Claimed: 0x40465a, Actual: 0x40465a 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x31ae3fL => join
+   0x317a6cL => msg
+   0x3499e9L => msg
+   0x36773dL => msg
+   0x367944L => msg
+   0x367991L => msg
+   0x3679cfL => msg
+   0x367a21L => msg
+   0x368080L => msg
+   0x368089L => MSG
+   0x3680a0L => msg
+   0x3680a9L => MSG
+   0x3680b8L => msg
+   0x3680c1L => MSG
+   0x3680d8L => msg
+   0x3680e1L => MSG
+   0x368251L => msg
+   0x2f6d25L => nick
+   0x2f6d60L => nick
+   0x318f09L => nick
+   0x319029L => nick
+   0x349caaL => Notice
+   0x358354L => NOTICE
+   0x3605d4L => Notice
+   0x367c34L => NOTICE
+   0x342602L => part
+   0x3426f2L => part
+   0x34563aL => part
+   0x345903L => part
+   0x345a4fL => part
+   0x345ae0L => part
+   0x3461a6L => part
+   0x346462L => part
+   0x34ad94L => part
+   0x34adf0L => part
+   0x34bcf2L => part
+   0x34bdf3L => part
+   0x351e0dL => part
+   0x351e40L => part
+   0x351f70L => part
+   0x352562L => part
+   0x352f16L => part
+   0x352f5cL => part
+   0x35334cL => part
+   0x353374L => part
+   0x3554c4L => part
+   0x355509L => part
+   0x356637L => part
+   0x356660L => part
+   0x35cc11L => part
+   0x35ccdcL => part
+   0x35ce0dL => part
+   0x3601cfL => part
+   0x3601f8L => part
+   0x360228L => part
+   0x362981L => part
+   0x3633c1L => part
+   0x3685feL => Ping
+   0x368692L => Ping
+   0x368fa8L => ping
+   0x369008L => Ping
+   0x3694c0L => ping
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x4231a8 0x10ac   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x424270 0x10ac   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x425338 0x25ac   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x4278e8 0x10ac   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x41e8f0 0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x41ed70 0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x41f1f0 0x10a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x420298 0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x420728 0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x420ba8 0x10a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x421c68 0x10a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x422d28 0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x428af0 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42b098 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42c140 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x42ce08 0x1ee    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x4289c0 0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41e8b0 0x40     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x42cab0 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42cff8 0x286    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x42d5a0 0x5c     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x42d280 0x25e    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x42d4e0 0xc0     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x42cd88 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42cae0 0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42ccd8 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42cdb8 0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x42c5d8 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x425320 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_CURSOR    0x424258 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_CURSOR    0x428998 0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_ICON      0x42c5a8 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x41ed58 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x41f1d8 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x420700 0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x420b90 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x421c50 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x422d10 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x423190 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_VERSION         0x42c608 0x324    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_MANIFEST        0x42c930 0x17e    LANG_NEUTRAL SUBLANG_DEFAULT          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+WinExec
+OpenProcess
+CreateRemoteThread
+ReadProcessMemory
+WriteProcessMemory
+VirtualAllocEx
+OpenProcessToken
+ShellExecuteExW
+ShellExecuteW
+HttpSendRequestW
+InternetConnectW
+InternetReadFile
+HttpSendRequestExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2f1726     0x2f2000     6.687447    
+.rdata     0x2f3000     0xd0b47      0xd1000      5.387116    
+.data      0x3c4000     0x594b0      0x21000      5.435354    
+.rsrc      0x41e000     0xf600       0x10000      3.703054    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2009-2010 RAIDCALL.COM, All rights reserved
+FileVersion: 1.0.3150.5
+CompanyName: RAIDCALL.COM
+Comments: Powered by Team Raidcall.
+ProductName: raidcall
+ProductVersion: 1.0.3150.5
+FileDescription: Raidcall
+OriginalFilename: raidcall.exe
+Translation: 0x0400 0x04e4
+

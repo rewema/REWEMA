@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    92160 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ba536f08f9f3cc762b0429085d88f83d
+SHA1:    9342d2af2d540d3eb1f715f673e46ef9e114f354
+ssdeep:  1536:f41cQCSnKsYCWeeu5fIyAIjVhiIhTMbnhJNN0I+iKWR1sokDlVt2wVm:f41cUnK1CWeeudkIjVhHhTMjtbsoUvJm
+Date:    0x4A5BC62B [Mon Jul 13 23:41:31 2009 UTC]
+EP:      0x1002865 .text 0/4
+CRC:     Claimed: 0x23919, Actual: 0x23919 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x17828  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5b90   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x61f8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x64e0   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6608   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x74b0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7d58   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x82c0   0xba17   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x13cd8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16280  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17328  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x17790  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x5800   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x5350   0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ed4       0x3000       5.944971    
+.data      0x4000       0x60c        0x400        2.547291    
+.rsrc      0x5000       0x12900      0x12a00      7.106978    [SUSPICIOUS]
+.reloc     0x18000      0x44c        0x600        3.859858    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bckgzm.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Internet Backgammon
+OriginalFilename: bckgzm.exe
+Translation: 0x0409 0x04b0
+

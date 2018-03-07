@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1511473 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4e8727457ef3222b7cac5d77345ebd79
+SHA1:    5f9e08aa35b25ccd5ec64de11d81ade3f5273f04
+ssdeep:  24576:kwQlekQPocVdXxtCFChtK/xAVnEj0dYFHjpjrMBmVFcGHnWgQAaBdWnyLJInfvJz:RQlqPocVdXxtxtKAnG9rMBmaBdWnyLJ2
+Date:    0x469E4FF6 [Wed Jul 18 17:37:58 2007 UTC]
+EP:      0x401280 .text 0/5
+CRC:     Claimed: 0x1782ea, Actual: 0x1782ea 
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xfad71L => deflate
+   0x10de3cL => deflate
+   0x10df6fL => deflate
+   0x14599cL => deflate
+   0x1459acL => deflate
+   0x1459baL => deflate
+   0x166cebL => deflate
+   0xfad93L => Jean-loup Gailly
+   0xfae81L => inflate
+   0x10db6cL => inflate
+   0x10dc0fL => inflate
+   0x1459f1L => inflate
+   0x1459ffL => inflate
+   0x167a22L => inflate
+   0xfaea3L => Mark Adler
+
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xea004      0xea200      6.301408    
+.data      0xec000      0x12c0       0x1400       3.192967    
+.rdata     0xee000      0x136dc      0x13800      6.082622    
+.bss       0x102000     0x8bb0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x10b000     0x2b9c       0x2c00       5.314515    
+

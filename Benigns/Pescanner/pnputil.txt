@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    183808 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     50e68d12406bc99d7ade1ca0b1f439cd
+SHA1:    f60339cfca84eb80f7d359fc8415baf3ac2864e8
+ssdeep:  3072:5EM+3kS+P8+A9yY2HYOY2HF2ABg7s6PiYOMR696OvzQocgfdsyanI+d:JAktk9+LF2Au4oGK1
+Date:    0x578990F4 [Sat Jul 16 01:42:12 2016 UTC]
+EP:      0x427f10 .text 0/6
+CRC:     Claimed: 0x3706e, Actual: 0x3706e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2e7a0  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2e380  0x41c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e0f0  0x28b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x27c64      0x27e00      6.401080    
+.data      0x29000      0xc64        0x200        1.568971    
+.idata     0x2a000      0x23de       0x2400       5.518930    
+.didat     0x2d000      0x28         0x200        0.322738    [SUSPICIOUS]
+.rsrc      0x2e000      0x868        0xa00        3.767402    
+.reloc     0x2f000      0x19cc       0x1a00       6.724773    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: pnputil.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft PnP Utility - Tool to add, delete, export, and enumerate driver packages.
+OriginalFilename: pnputil.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    163840 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     cbe30b3b3191532b725e2c3a6f77260f
+SHA1:    93cba5f85640ecc88e5ea4e521f91d324429e5fd
+ssdeep:  3072:tHv+mOWhBrk06wHGJ+/fen88ST3WqGA4i3C:tHv+ml6we+/ferST3R
+Date:    0x40DF38D1 [Sun Jun 27 21:14:57 2004 UTC]
+EP:      0x110233de .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2d5dc [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x26488  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x28130  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x260e8  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x213e4      0x22000      5.703866    
+.sdata     0x24000      0x7f         0x1000       0.311568    [SUSPICIOUS]
+.rsrc      0x26000      0x2148       0x3000       4.180106    
+.reloc     0x2a000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: :)
+Assembly Version: 0.5.1639.29248
+InternalName: cdrtoolsFE.exe
+FileVersion: 0.5.1639.29248
+CompanyName: Scorpio Designs
+LegalTrademarks: :)
+Comments: Front End for cdrtools
+ProductName: cdrtoolsFE
+ProductVersion: 0.5.1639.29248
+FileDescription: cdrtools Front End
+OriginalFilename: cdrtoolsFE.exe
+

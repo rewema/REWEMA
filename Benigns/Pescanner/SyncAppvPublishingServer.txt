@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    75104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 Mono/.Net assembly
+MD5:     530f1c307ffe1b73cc920bb996cbc258
+SHA1:    ca7e6a859ef4a3a38daa7cbb10db05601e9d90cd
+ssdeep:  768:1h/NBKor72wXIQoR+uW5E9f5z55DaDeS3W/01P4phoDCW:7rKUIXf55zLDaDtgEPbR
+Date:    0x5789881F [Sat Jul 16 01:04:31 2016 UTC]
+EP:      0x411626 .text 0/3
+CRC:     Claimed: 0x1481d, Actual: 0x1481d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x12090  0x3ea    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x1248c  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xf62c       0xf800       5.839494    
+.rsrc      0x12000      0x67c        0x800        3.598028    
+.reloc     0x14000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: SyncAppvPublishingServer.exe
+FileVersion: 10.0.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft (R) Windows (R) Operating System
+ProductVersion: 10.0.14393.0
+FileDescription:  
+OriginalFilename: SyncAppvPublishingServer.exe
+

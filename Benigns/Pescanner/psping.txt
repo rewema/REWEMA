@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    255648 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     829bf469365fe504c673d8b7be7d3436
+SHA1:    c4ccd065f6d551a01de86599e36bf90390e101cd
+ssdeep:  3072:V1y63csr3eyNV51ZausurQZfjW1IP5wtXsS+gIJZpgvWZcnvTFrLVnmfe+EF:V1bcsr3eyTZIyaP5csSz8Orpnnv
+Date:    0x5772C87D [Tue Jun 28 18:57:01 2016 UTC]
+EP:      0x4115cc .text 0/5
+CRC:     Claimed: 0x4106e, Actual: 0x4106e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x3d0a0  0x364    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3d408  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22877      0x22a00      6.568096    
+.rdata     0x24000      0xc360       0xc400       4.443925    
+.data      0x31000      0xb3dc       0x8e00       4.126734    
+.rsrc      0x3d000      0x588        0x600        3.892528    
+.reloc     0x3e000      0x2004       0x2200       6.472540    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2012-2016 Mark Russinovich
+InternalName: PsPing
+FileVersion: 2.10
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals PsPing
+ProductVersion: 2.10
+FileDescription: PsPing - ping, latency, bandwidth measurement utility
+OriginalFilename: psping.exe
+Translation: 0x0409 0x04b0
+

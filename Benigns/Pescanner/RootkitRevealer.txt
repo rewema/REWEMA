@@ -1,0 +1,101 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    334720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ee738fe9bcdd605821002cec8c7206db
+SHA1:    d39e8a3fe92adc7d7fbc5293edf8a7b965484a59
+ssdeep:  3072:9wUjnavdsrBd7o54RJ1Gf1eQWNswtU5bYKx0b4Ilgz9t8NLBs3Rvhp04gbCfl:9f4Qd7BRTGteQ2elrzvxf04gql
+Date:    0x44E255AA [Tue Aug 15 23:15:54 2006 UTC]
+EP:      0x415f33 .text 0/5
+CRC:     Claimed: 0x5954a, Actual: 0x5954a 
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x46afeL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x52460  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x52180  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x52268  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x52098  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x51fb0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x51b10  0x4a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ed30  0x7d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f500  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4f650  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4f790  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4fa78  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4fba0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50238  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50520  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x50648  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x50be0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50ec8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x51018  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x51158  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x51440  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x51590  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x52350  0x10a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4ea30  0x2fe    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4e8a8  0x186    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x52970  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x52598  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x4f628  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 31x26, 256-colors
+RT_GROUP_ICON      0x51140  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x50208  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x4f778  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x50ff0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x51568  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x50bb0  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x51af8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x525b0  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4c810  0x29b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0x4cab0  0x1df4   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (native) Intel 80386 32-bit
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+StartServiceW
+CreateServiceW
+StartServiceCtrlDispatcherW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22965      0x23000      6.556706    
+.rdata     0x24000      0x3c24       0x4000       5.037803    
+.data      0x28000      0x23150      0x1e000      5.327329    
+.rsrc      0x4c000      0x69d0       0x7000       4.661468    
+.reloc     0x53000      0x281a       0x3000       5.814164    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005-2006 Bryce Cogswell and Mark Russinovich
+InternalName: 
+FileVersion: 1.70
+CompanyName: Sysinternals - www.sysinternals.com
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Sysinternals Rootkitrevealer
+SpecialBuild: 
+ProductVersion: 1.70
+FileDescription: Rootkit detection utility
+OriginalFilename: 
+Translation: 0x0409 0x04b0
+

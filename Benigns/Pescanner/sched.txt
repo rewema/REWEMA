@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    226768 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     239b3506318d4a3c0cd8fe5671cbbfb7
+SHA1:    8b972a1350c1c93bcb241807157c4285a7d0f9ad
+ssdeep:  3072:mWif1xY/0g5hiKL4GNLfYGnAwLFDVFM6++2tF/3B8EMhr64S0gb5xaxRr:3itxYshGdAGn1LFDPMTJYhr64Fg8
+Date:    0x58DA7BCC [Tue Mar 28 15:05:48 2017 UTC]
+EP:      0x4126a0 .text 0/6
+CRC:     Claimed: 0x46dcc, Actual: 0x46dcc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1d2e0  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1d408  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1d970  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1dc58  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1e500  0xb6d0   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x29bd0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x2a038  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2a9c0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2ba68  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2e010  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x32238  0x92     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 10 icons, 16x16, 16-colors
+RT_VERSION         0x322d0  0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x32648  0x3eb    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13825      0x13a00      6.379259    
+.rdata     0x15000      0x5d12       0x5e00       4.713752    
+.data      0x1b000      0xfe4        0xc00        3.996105    
+.didat     0x1c000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x1d000      0x15a38      0x15c00      7.397610    [SUSPICIOUS]
+.reloc     0x33000      0x187c       0x1a00       6.525336    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2014 AVG Technologies CZ, s.r.o.
+InternalName: sched.exe
+FileVersion: 17.3.3443.0
+CompanyName: AVG Technologies CZ, s.r.o.
+ProductName: AVG Internet Security System 
+ProductVersion: 17.3.3443.0
+FileDescription: AVG Antivirus Boot-time Scanner Scheduler
+OriginalFilename: sched.exe
+Translation: 0x0409 0x04e4
+

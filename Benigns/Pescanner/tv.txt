@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3fb57dd52755b894bd7b8c834778afb1
+SHA1:    d52ebe56845ff5d6379099536cce3e394b852ae1
+ssdeep:  384:/TLjuUNlLy+4SDR0vYSnKw3wqq71iMh4:/7uMNyWd4fgT71iG
+Date:    0x56F77634 [Sun Mar 27 05:57:08 2016 UTC]
+EP:      0x4012b4 .text 0/3
+CRC:     Claimed: 0xd6af, Actual: 0xd6af 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6438   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6310   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x62ec   0x24     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6120   0x1cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x37bc       0x4000       5.147371    
+.data      0x5000       0xa2c        0x1000       0.000000    
+.rsrc      0x6000       0x720        0x1000       1.869735    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+ProductVersion: 1.00
+InternalName: tv
+FileVersion: 1.00
+OriginalFilename: tv.exe
+ProductName: Project2
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16896 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3dd8bc9920faabc1af29d231a75a89de
+SHA1:    587924e4dd5c4a5e3ef32f105792329106a704e1
+ssdeep:  384:aq+MZoM9OeXsUuWoHfYdwotgnzvWZRWKo:BFZoqZwYdbtgnzONo
+Date:    0x5789918B [Sat Jul 16 01:44:43 2016 UTC]
+EP:      0x402950 .text 0/5
+CRC:     Claimed: 0xef10, Actual: 0xef10 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6350   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60a0   0x2aa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x243c       0x2600       5.774602    
+.data      0x4000       0x3b8        0x200        0.926280    [SUSPICIOUS]
+.idata     0x5000       0x820        0xa00        4.262228    
+.rsrc      0x6000       0x700        0x800        4.003775    
+.reloc     0x7000       0x2c4        0x400        5.144241    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: icsunattend.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ICS Unattend Utility
+OriginalFilename: icsunattend.exe
+Translation: 0x0409 0x04b0
+

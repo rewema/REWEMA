@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    47104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5c354f6ba0df7d01b2cb5cf08140b67e
+SHA1:    f2da0a2c771d1e65f77af7ac2629c421ca5e1e06
+ssdeep:  768:D4TqHPEiucKt9XCUdfFPbeLi1VsODF3QU7e2Yc58PlUNyvNy9PcuIDxEp:D4T+PEJcKt9XdFBVfr7d8eCJuIDK
+Date:    0x57899142 [Sat Jul 16 01:43:30 2016 UTC]
+EP:      0x409100 .text 0/5
+CRC:     Claimed: 0x1a515, Actual: 0x1a515 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xdb08   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd808   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xdaf0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xd450   0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd180   0x2cf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x89ac       0x8a00       6.501635    
+.data      0xa000       0x3d0        0x200        0.717843    [SUSPICIOUS]
+.idata     0xb000       0x10b6       0x1200       5.132673    
+.rsrc      0xd000       0xbe0        0xc00        4.367053    
+.reloc     0xe000       0x938        0xa00        6.532701    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CMDL32
+FileVersion: 7.2.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft(R) Connection Manager
+ProductVersion: 7.2.14393.0
+FileDescription: Microsoft Connection Manager Auto-Download
+OriginalFilename: CMDL32.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     949aa59606c166eb96aa545a41b2a304
+SHA1:    5f78a0f7dddfc6a22f94bb5a63d01170834fc099
+ssdeep:  768:aZXTTTTyPZKWQH0On0opgFJWX6Z4RmNDxXzyHC+GJHDpntV7:aFTTTTyRHAn0oppM4wDXyC7JNnv
+Date:    0x4B637CB8 [Sat Jan 30 00:26:32 2010 UTC]
+EP:      0x40e6fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x19579 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x10058  0x340    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xc704       0xd000       7.116960    [SUSPICIOUS]
+.rsrc      0x10000      0x398        0x1000       0.946944    [SUSPICIOUS]
+.reloc     0x12000      0xc          0x1000       0.009845    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2010
+Assembly Version: 0.0.5.0
+InternalName: csharpirc.exe
+FileVersion: 0.0.5.0
+CompanyName: Jeremiah Holt
+Comments: IRC Client written in C Sharp
+ProductName: csharpirc
+ProductVersion: 0.0.5.0
+FileDescription: CSharpIRC
+OriginalFilename: csharpirc.exe
+

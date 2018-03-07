@@ -1,0 +1,114 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4550056 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     283434f046ed00f9bfc5c52145d2b5c6
+SHA1:    d6f1a9c40a8d7bdf3172fa5072d8d772070b359b
+ssdeep:  24576:5D2xzuIdSFINkm4O1kRanr9LBfmsv8tVKlMe8NIq0Epvq9RCSMDY0thlXlaW5zau:5tK/zuk2vZmIc/htvoduiHzV8aFm4
+Date:    0x4B24EEE3 [Sun Dec 13 13:40:51 2009 UTC]
+EP:      0x401758 .text 0/4
+CRC:     Claimed: 0x462df8, Actual: 0x462df8 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x3df7bdL => join
+   0xfd02bL => msg
+   0x194b33L => msg
+   0x1951aeL => msg
+   0x198d23L => msg
+   0x19a19bL => msg
+   0x1c9bffL => msg
+   0x1cbb6dL => msg
+   0x1cbbe2L => msg
+   0x1cd698L => msg
+   0x1cd72bL => msg
+   0x1ce2aeL => msg
+   0x1ce466L => msg
+   0x1ce473L => msg
+   0x2efaceL => msg
+   0x364d15L => msg
+   0x434ef4L => msg
+   0x439010L => msg
+   0x1e699L => notice
+   0x2f273fL => Notice
+   0x36798fL => Notice
+   0x1d5f92L => part
+   0x1d73e8L => part
+   0x1e7d21L => part
+   0x3198f3L => part
+   0x31bf75L => part
+   0x31dd8cL => part
+   0x38ea0fL => part
+   0x39105bL => part
+   0x392e33L => part
+   0x32d59bL => QUIT
+   0x32d758L => QUIT
+   0x32d97cL => quit
+   0x32d9c2L => quit
+   0x32df5fL => QUIT
+   0x3a22bcL => QUIT
+   0x3a2479L => QUIT
+   0x3a26aeL => quit
+   0x3a26f4L => quit
+   0x3a2cf4L => QUIT
+YARA: spam
+   0x336d71L => RCPT TO:
+   0x3abc33L => RCPT TO:
+   0x335ba9L => MAIL FROM:
+   0x3aaa1bL => MAIL FROM:
+   0x33081bL => EHLO 
+   0x3a55edL => EHLO 
+   0x357264L => From: 
+   0x3cb176L => From: 
+   0x35b69aL => Subject: 
+   0x3cf444L => Subject: 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PHP                0x4350   0x43b51a LANG_NEUTRAL SUBLANG_NEUTRAL          data
+PHP                0x43f86c 0x6f     LANG_FRENCH  SUBLANG_FRENCH           PHP script text
+RT_ICON            0x43f8dc 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x440784 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x4408ac 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x440f74 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x4414dc 0x5c14   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x4470f0 0xc828   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x453918 0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4555c0 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x456268 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x456bf0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x457058 0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 8 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x4570d0 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x4570f4 0x354    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x457448 0x256    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcb4        0xe00        5.703303    
+.rdata     0x2000       0xa4a        0xc00        4.553200    
+.data      0x3000       0x42c        0x200        0.937407    [SUSPICIOUS]
+.rsrc      0x4000       0x4536a0     0x453800     3.214938    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2010-2015 SysCo systemes de communication sa
+InternalName: multiotp.exe
+FileVersion: 4.3.2.6
+CompanyName:  
+ProductName: multiOTP open source
+ProductVersion: 4.3.2.6
+FileDescription: multiOTP open source - http://www.multiOTP.net
+OriginalFilename: multiotp.exe
+Translation: 0x0000 0x04b0
+

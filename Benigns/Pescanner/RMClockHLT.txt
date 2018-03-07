@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61952 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4f4ae0a89868d8aa33258d021a286eb9
+SHA1:    f373aef9ba4d793b22a8e5815a08a985235a2280
+ssdeep:  768:HVZofExSBeGObELHqikDuw7WiPX6LAR5zZU9iz:HuIFGFLPkDuw7Pyc5zNz
+Date:    0x47C82431 [Fri Feb 29 15:26:41 2008 UTC]
+EP:      0x401328 .text 0/4
+CRC:     Claimed: 0x153f3, Actual: 0x153f3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc220   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd0c8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd970   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xded8   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10480  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11528  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x11990  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x119ec  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x11db0  0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x63b4       0x6400       6.647422    
+.rdata     0x8000       0x1b78       0x1c00       5.531181    
+.data      0xa000       0x187c       0xe00        2.373555    
+.rsrc      0xc000       0x5e08       0x6000       4.376145    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004-2007 NGO Science Center "RightMark"
+InternalName: RMClockHLT
+FileVersion: 2, 3, 0, 0
+CompanyName: NGO Science Center "RightMark"
+ProductName: RightMark CPU Clock Utility HLT command loop
+ProductVersion: 2, 3, 0, 0
+FileDescription: RightMark CPU Clock Utility HLT command loop
+OriginalFilename: RMClockHLT.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    59904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6a5652f56daeb3aae2071cae30980424
+SHA1:    41c533f064b4a57bf089450d821807ece2b207af
+ssdeep:  1536:lnrbZk2RQcElTQVrhFFSWqinbsaw+FhQz9:NbvRQU0WdAD
+Date:    0x57898D8B [Sat Jul 16 01:27:39 2016 UTC]
+EP:      0x409690 .text 0/5
+CRC:     Claimed: 0x1bfc3, Actual: 0x1bfc3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0xd820   0x3f3    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+REGISTRY           0xdc18   0x981    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0xe5a0   0x1404   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xd450   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd190   0x2b9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9d7c       0x9e00       6.271633    
+.data      0xb000       0x5f8        0x200        2.227159    
+.idata     0xc000       0xc74        0xe00        4.932805    
+.rsrc      0xd000       0x29a8       0x2a00       5.013418    
+.reloc     0x10000      0xc5c        0xe00        6.350531    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TSWbPrxy
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Remote Desktop Services Web Proxy
+OriginalFilename: TSWbPrxy.exe
+Translation: 0x0409 0x04b0
+

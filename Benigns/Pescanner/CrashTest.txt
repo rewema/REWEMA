@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fc77a70dace16213e82d505a852160ba
+SHA1:    a721bb9948d4aa3a59faf1c885df8653a03958fd
+ssdeep:  384:JhS4u7Wk6F/ojg1m/SF65L0iAkCW9nW9PpW9svW9Dx5t3cXdaDaLiJJ0CzdbcrAt:JhC75LrK2/byZ2TEKtx
+Date:    0x44211A89 [Wed Mar 22 09:36:09 2006 UTC]
+EP:      0x1100d5ee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x19564 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xe398   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe680   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe7a8   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xe118   0x27c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xb5f4       0xc000       5.248497    
+.rsrc      0xe000       0x7d0        0x1000       1.932045    
+.reloc     0x10000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2272.19084
+InternalName: CrashTest.exe
+FileVersion: 1.0.2272.19084
+ProductVersion: 1.0.2272.19084
+FileDescription:  
+OriginalFilename: CrashTest.exe
+

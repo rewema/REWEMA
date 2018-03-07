@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    729088 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     07ded6e23421f9b7b8c179222f8eec01
+SHA1:    b9d2a5cfd5ccc496d1a6a0eee94148709e6e1bc8
+ssdeep:  12288:G/M1G/13pPHTAmrA5+Ku9xqcgjzqy2g7P3lFZAY+qy2g7P3lFZAY:GHlTfBxwb3lFub3lF
+Date:    0x46508894 [Sun May 20 17:42:44 2007 UTC]
+EP:      0x45f94e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xb7b2d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x603c8  0x28708  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x88ad0  0x28708  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xb11d8  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 256-colors
+RT_VERSION         0x60118  0x2b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5d954      0x5e000      7.267995    [SUSPICIOUS]
+.rsrc      0x60000      0x51200      0x52000      5.997338    
+.reloc     0xb2000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2696.17482
+InternalName: Oraman.exe
+FileVersion: 1.0.2696.17482
+ProductName: Oraman
+ProductVersion: 1.0.2696.17482
+FileDescription: Oraman
+OriginalFilename: Oraman.exe
+

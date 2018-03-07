@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1029120 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ed133322cd43b105a8dfc9ddb150b823
+SHA1:    6a30faf6f612a7776a730e3007278cd470bb9bad
+ssdeep:  24576:HdT//o2+PxTNs+WHBhS6Qu4xylJlH14W1LU:x/BcNgBh713lv1
+Date:    0x52F7B91F [Sun Feb  9 17:21:35 2014 UTC]
+EP:      0x4e3c2e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xff5fe [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xe408c  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xe4518  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe55e4  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe7bb0  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xebdfc  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xfc660  0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 16x16, 256-colors
+RT_VERSION         0xfc6e8  0x49c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xfcbc0  0x536    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xe1c34      0xe1e00      7.853567    [SUSPICIOUS]
+.rsrc      0xe4000      0x190f6      0x19200      3.984740    
+.reloc     0xfe000      0xc          0x200        0.098004    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright Josh Cell Softwares Corporation, All Rights Reserved.
+Assembly Version: 1.1.0.0
+InternalName: ZotacWinUSBMaker.exe
+FileVersion: 1.1.0.0
+CompanyName: Josh Cell Softwares Corporation
+LegalTrademarks: Josh Cell Softwares
+Comments: An application to create a bootable Windows installer.
+ProductName: WinUSB Maker ZOTAC Edition
+ProductVersion: 1.1.0.0
+FileDescription: ZOTAC WinUSB Maker
+OriginalFilename: ZotacWinUSBMaker.exe
+

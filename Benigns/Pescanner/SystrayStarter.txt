@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    118784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     45d56702e379a41355480a1f95fcae57
+SHA1:    3982accd24a77c73517b4235ccbec416226ccf97
+ssdeep:  1536:rY5wBSo2yT1p/JTy8rzOewvnXy0OkISksgFdVa+PewoIOiw6sNtckXa:oobFy8rpYn35kscaCoIOHjtcS
+Date:    0x3A217971 [Sun Nov 26 20:58:25 2000 UTC]
+EP:      0x402234 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x257ac [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x1c878  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1c9b0  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1ca90  0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1d160  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1d218  0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1d388  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c578  0x2e8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_MENU            0x1c550  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1d078  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d4d0  0x3c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d510  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d558  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d5e0  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d610  0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d760  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1dfd8  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1dcf8  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1dc48  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e9b0  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e280  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e748  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1ea90  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_GROUP_CURSOR    0x1ca68  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x1c860  0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xfcee       0x10000      6.493233    
+.rdata     0x11000      0x47ac       0x5000       4.406530    
+.data      0x16000      0x57e0       0x4000       1.174745    
+.rsrc      0x1c000      0x2ac0       0x3000       3.535135    
+

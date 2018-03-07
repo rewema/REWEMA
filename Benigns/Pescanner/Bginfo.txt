@@ -1,0 +1,93 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2074776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7202186c59906afb6e58e3a43c741e6d
+SHA1:    06b854987504675422576a4330df18c9fc26c356
+ssdeep:  49152:Hcmw2lLbQJuiOOO9JOLeOBWUjY1d6HUTKbSllWdHVscpstG3V3of5p7hqz:8mEOOO9JOCCfY1dYUTASlu1natG3Vqe
+Date:    0x5955A9A4 [Fri Jun 30 01:30:12 2017 UTC]
+EP:      0x533ae8 .text 0/5
+CRC:     Claimed: 0x1fd0f1, Actual: 0x1fd0f1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+DLL                0x1c8d70 0x1d44c  LANG_ENGLISH SUBLANG_ENGLISH_US       Rich Text Format data, version 1, unknown character set
+RT_MANIFEST        0x1e6f30 0x4ef    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_CURSOR          0x1c78d0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1e64c0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c7a20 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c7d20 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c8020 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c88c8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c8bd8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x1c73a0 0x4da    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x1c7880 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4580 0x18e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c41b0 0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4710 0x742    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c5130 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c5f28 0x400    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c5548 0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c5e10 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3b00 0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c6a48 0x3c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c6328 0x71a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4e58 0x2d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c5ec8 0x5e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3e48 0x362    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c5b48 0x2c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c5660 0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c6e10 0x2de    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c70f0 0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e6f00 0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e6e80 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e6eb0 0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e6e18 0x62     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x1c8d18 0x58     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x1c7a08 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x1c8bb0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x1c8008 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1c7d08 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1c8d00 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x1e61c0 0x2fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1e6928 0x4ef    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+StartServiceA
+StartServiceCtrlDispatcherA
+CreateServiceA
+CreateProcessAsUserA
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1589c6     0x158a00     6.534580    
+.rdata     0x15a000     0x551e0      0x55200      5.300057    
+.data      0x1b0000     0x1211c      0x6200       4.708850    
+.rsrc      0x1c3000     0x24420      0x24600      5.333417    
+.reloc     0x1e8000     0x1e03c      0x1e200      6.511606    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000-2017 Mark Russinovich
+InternalName: BGInfo
+FileVersion: 4.22
+CompanyName: Sysinternals
+ProductName: BGInfo
+ProductVersion: 4.22
+FileDescription: BGInfo - Wallpaper text configurator
+OriginalFilename: Bginfo.exe
+Translation: 0x0409 0x04b0
+

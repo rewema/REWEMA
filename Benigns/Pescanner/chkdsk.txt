@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4aca6ddb910ee361dbb8d9a24bf4a517
+SHA1:    6a08860b79a1552bca5612cd28b1c75eb016f893
+ssdeep:  384:zpyYxYtvrKp9IScM05G4FhGFXaJ0MVc+NCWSFRhWljg:zYYS1rO9ISwMQ0v+qR0j
+Date:    0x57898E8C [Sat Jul 16 01:31:56 2016 UTC]
+EP:      0x403d80 .text 0/5
+CRC:     Claimed: 0x6315, Actual: 0x6315 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8730   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x31fc       0x3200       5.725981    
+.data      0x5000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0x1334       0x1400       5.342605    
+.rsrc      0x8000       0x7f8        0x800        4.328368    
+.reloc     0x9000       0x49c        0x600        5.768469    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: chkdsk
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Check Disk Utility
+OriginalFilename: CHKDSK.EXE
+Translation: 0x0409 0x04b0
+

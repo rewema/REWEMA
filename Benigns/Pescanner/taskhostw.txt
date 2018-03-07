@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    72848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3f82f7372e1e522ff3accc6b6562fcbc
+SHA1:    4175a71c4ce84840dbd9d007d471064e5c0c4104
+ssdeep:  1536:+3EK/XQRTpAm80c92xQmPKchl2JXKi4XaU38KkMcrPcno6:+3EK/XqTpAm8eC0Ka2Jai4Xa62ruo6
+Date:    0x57899052 [Sat Jul 16 01:39:30 2016 UTC]
+EP:      0x407330 .text 0/6
+CRC:     Claimed: 0x178ad, Actual: 0x178ad 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x12810  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x12450  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x120f0  0x359    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc284       0xc400       6.234487    
+.data      0xe000       0x578        0x200        3.311739    
+.idata     0xf000       0x13a6       0x1400       5.135432    
+.didat     0x11000      0x64         0x200        0.806382    [SUSPICIOUS]
+.rsrc      0x12000      0x8d8        0xa00        4.125630    
+.reloc     0x13000      0xcd0        0xe00        6.469954    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: taskhostw.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for Windows Tasks
+OriginalFilename: taskhostw.exe
+Translation: 0x0409 0x04b0
+

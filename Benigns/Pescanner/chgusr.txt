@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19968 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     54e490eabbd2cb8bfeae7c8452b7a19f
+SHA1:    dc9a439991b295f5b6479bc28855d8ce45bde090
+ssdeep:  384:sbxjIs9CKbUj5Moqd1a7sXJAB0t9NzbaQzMMdOiWsVW2J:slZ5b4WpAB0rvO4h
+Date:    0x57898D8A [Sat Jul 16 01:27:38 2016 UTC]
+EP:      0x4037b0 .text 0/5
+CRC:     Claimed: 0xa5b5, Actual: 0xa5b5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7758   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a8   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2b5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ecc       0x3000       6.149703    
+.data      0x4000       0x1648       0x200        1.123898    
+.idata     0x6000       0x822        0xa00        4.382554    
+.rsrc      0x7000       0x820        0xa00        3.730738    
+.reloc     0x8000       0x320        0x400        5.634955    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: chgusr
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Change INI File Mapping Utility
+OriginalFilename: chgusr.exe
+Translation: 0x0409 0x04b0
+

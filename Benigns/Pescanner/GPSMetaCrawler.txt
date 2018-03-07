@@ -1,0 +1,251 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2643456 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d0c65cade73b3eee0a87f9a631369250
+SHA1:    ea9c3c4173e143882ab20b82fd095a5e05404395
+ssdeep:  49152:tiuqZIVK+7e2YUvi4+vCudiysQynNTPTRz341fm:tJfVFbfvi4+vCudiHYu
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x5ffd6c CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x285cae [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x201bb3L => deflate
+   0x201bd5L => Jean-loup Gailly
+   0x202739L => inflate
+   0x20275bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x261a4c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x261b80 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x261cb4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x261de8 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x261f1c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x262050 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x262184 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x2622b8 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x2623ec 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x262520 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x262654 0x134    LANG_ITALIAN SUBLANG_ITALIAN          AmigaOS bitmap font
+RT_CURSOR          0x262788 0x134    LANG_ITALIAN SUBLANG_ITALIAN          AmigaOS bitmap font
+RT_CURSOR          0x2628bc 0x134    LANG_ITALIAN SUBLANG_ITALIAN          AmigaOS bitmap font
+RT_CURSOR          0x2629f0 0x134    LANG_ITALIAN SUBLANG_ITALIAN          AmigaOS bitmap font
+RT_CURSOR          0x262b24 0x134    LANG_ITALIAN SUBLANG_ITALIAN          PCX ver. 2.5 image data
+RT_CURSOR          0x262c58 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x262d8c 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x262ec0 0x134    LANG_ITALIAN SUBLANG_ITALIAN          PCX ver. 2.5 image data
+RT_CURSOR          0x262ff4 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x263128 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26325c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x263390 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x263444 0x134    LANG_ITALIAN SUBLANG_ITALIAN          PCX ver. 2.5 image data
+RT_CURSOR          0x263578 0x134    LANG_ITALIAN SUBLANG_ITALIAN          PCX ver. 2.5 image data
+RT_CURSOR          0x2636ac 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x2637e0 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26448c 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x2645c0 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26526c 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x2653a0 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26604c 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x266180 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          AmigaOS bitmap font
+RT_CURSOR          0x266e2c 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x266f60 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x267c0c 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x267d40 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x2689ec 0x134    LANG_ITALIAN SUBLANG_ITALIAN          DBase 3 data file (40 records)
+RT_CURSOR          0x268b20 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          DBase 3 data file (40 records)
+RT_CURSOR          0x2697cc 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x269900 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26a5ac 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26a6e0 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26b38c 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26b4c0 0x134    LANG_ITALIAN SUBLANG_ITALIAN          DBase 3 index file
+RT_CURSOR          0x26b5f4 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26c2a0 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26c3d4 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26d080 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26d1b4 0xcac    LANG_ITALIAN SUBLANG_ITALIAN          DBase 3 index file
+RT_CURSOR          0x26de60 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26df94 0x134    LANG_ITALIAN SUBLANG_ITALIAN          AmigaOS bitmap font
+RT_CURSOR          0x26e0c8 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26e1fc 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26e330 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26e464 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x26e598 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0x26e6cc 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26e89c 0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26ea80 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26ec50 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26ee20 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26eff0 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26f1c0 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26f390 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26f560 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26f730 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26f900 0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x26f9c0 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x26faa0 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x26fb80 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26fbdc 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26fc38 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26fc94 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26fcf0 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26fd4c 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26fe84 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x26ffbc 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2700f4 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x27022c 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x270364 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x27049c 0x104    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2705a0 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2706d8 0x104    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2707dc 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x270914 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x2709f4 0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x270ab4 0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x270b74 0xe8     LANG_ITALIAN SUBLANG_ITALIAN          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x270c5c 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x270d44 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x270e2c 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x270f0c 0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x270fcc 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x2710ac 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x271194 0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x271254 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x271334 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2738dc 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x273930 0x50     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x273980 0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2739c0 0x194    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x273b54 0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x273ebc 0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2742c4 0x3dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2746a0 0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2749c4 0x31c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x274ce0 0x444    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x275124 0x4ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2755d0 0x3b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x275988 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x275df0 0x3dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2761cc 0x4c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x27668c 0x5dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x276c68 0x1fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x276e64 0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x277214 0x1f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x277404 0x1c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2775c4 0xdc     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x2776a0 0x448    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x277ae8 0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x277be0 0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x277cd8 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x277e00 0x3f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2781f0 0x3d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2785c8 0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x278998 0x3d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x278d6c 0x250    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x278fbc 0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2790a8 0x1dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x279284 0x3ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x279670 0x3f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x279a64 0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x279d70 0x328    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x27a098 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x27a0a8 0x84c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x27a8f4 0x4ff9   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x27f8f0 0x42ee   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x283be0 0x52e1   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x288ec4 0x3aa1   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x28c968 0x4e12   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x29177c 0x4795   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x295f14 0x494    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2963a8 0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x29676c 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296790 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2967b4 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2967d8 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2967fc 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296820 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296844 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296868 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x29688c 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2968a0 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2968c4 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2968e8 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x29690c 0x22     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296930 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296944 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296958 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x29696c 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296980 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296994 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2969a8 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x2969bc 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x2969d0 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x2969e4 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x2969f8 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296a0c 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296a20 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296a34 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296a48 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296a5c 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296a70 0x22     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296a94 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296aa8 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296abc 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296ad0 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296ae4 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296af8 0x14     LANG_NEUTRAL SUBLANG_SYS_DEFAULT      Lotus 1-2-3
+RT_GROUP_CURSOR    0x296b0c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296b20 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296b34 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296b48 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296b5c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296b70 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x296b84 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x296b98 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x296bac 0x33c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x296ee8 0x2f0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x1feddc     0x1fee00     6.598914    
+DATA       0x200000     0x321cc      0x32200      7.234634    [SUSPICIOUS]
+BSS        0x233000     0xdb7d       0x0          0.000000    [SUSPICIOUS]
+.idata     0x241000     0x2dd2       0x2e00       5.021708    
+.tls       0x244000     0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x245000     0x18         0x200        0.186583    [SUSPICIOUS]
+.reloc     0x246000     0x18e44      0x19000      6.702893    
+.rsrc      0x25f000     0x38200      0x38200      4.684494    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: GPSMetaCrawler
+FileVersion: 1.0.0.0
+CompanyName: MK Design
+LegalTrademarks: 
+Comments: Search and Get Metadata + GPS
+ProductName: GPSMetaCrawler
+ProductVersion: 1.0.0.0
+FileDescription: Search and Get Metadata
+OriginalFilename: GPSMetaCrawler
+Translation: 0x0409 0x04e4
+

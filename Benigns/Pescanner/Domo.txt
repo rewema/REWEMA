@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     8c710364857f15712b99f88166281b4b
+SHA1:    751c5aa5bda2187e154201c91443c7924665a5d9
+ssdeep:  192:5uwHbnxho1deXiTzKEz+dlLBYs7I/QPhcQPbgIe:vbnc8XUmyc97pxbVe
+Date:    0x3E54F919 [Thu Feb 20 15:49:45 2003 UTC]
+EP:      0x403f2e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x107d5 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4418   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4700   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4828   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x2fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1f34       0x2000       5.435590    
+.rsrc      0x4000       0x850        0x1000       2.025163    
+.reloc     0x6000       0xc          0x1000       0.012639    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1146.19492
+InternalName: Domo.exe
+FileVersion: 1.0.1146.19492
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1146.19492
+FileDescription:  
+OriginalFilename: Domo.exe
+

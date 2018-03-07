@@ -1,0 +1,135 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2425496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c04382d4a3d6532e4b60fbf057860854
+SHA1:    e66e5c06af9653125717fa428c2f1ab6419cd6d5
+ssdeep:  24576:TU963E+oLOJ7Ef9QYsPp5gIqlr/u/hUPgFOiy6s09w:1ELY7OCYsPp5gvrm/hJta
+Date:    0x562EB3A3 [Mon Oct 26 23:13:39 2015 UTC]
+EP:      0x434dac .text 0/5
+CRC:     Claimed: 0x25b3a9, Actual: 0x25b3a9 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0xc4deeL => This program cannot be run in DOS mode
+   0x1a0f5eL => This program cannot be run in DOS mode
+   0x1ff286L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x3d5238 0x4a6a0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit
+BINRES             0x29ada0 0x13a498 LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (GUI) Mono/.Net assembly
+RT_CURSOR          0x29a508 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x255058 0x2a98   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x26cff0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x26fa90 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x272530 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x274fd0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x277a70 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x27a510 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x27cfb0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x27fa50 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2824f0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x284f90 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x257af0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x287a30 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x28a4d0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x28cf70 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x28fa10 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2924b0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x294f50 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2979f0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x25a590 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x25d030 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x25fad0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x262570 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x265010 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x267ab0 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x26a550 0x2a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x254960 0x6f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24e1e0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24e4c8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x24e5f0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24ee98 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x24f400 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2504a8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x250970 0x6f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x251060 0x16     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x251078 0x156    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x2511d0 0xd2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x2512a8 0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x2512e8 0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x251968 0x1fa    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x252758 0x504    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x253678 0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x251b68 0x79c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x253f18 0x6ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x252c60 0x30e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x252308 0x44c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2537a8 0x214    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2533c0 0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x252f70 0x44c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x253e90 0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2539c0 0x114    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x253ad8 0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2545c8 0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x254748 0x218    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x254678 0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x251328 0x640    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41fe78 0x9e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x420068 0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41fa28 0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41f8d8 0x14c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41fa68 0xb2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41fb20 0x150    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41fc70 0x186    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41fdf8 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41ffc0 0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x4200b0 0x30e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41ff18 0xa4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x29a490 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x29a640 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x250910 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 16-colors
+RT_VERSION         0x29a658 0x32c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x29a988 0x415    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ReadProcessMemory
+OpenProcessToken
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4962c      0x49800      6.536498    
+.rdata     0x4b000      0x184ce      0x18600      4.690639    
+.data      0x64000      0x1e8600     0x14e00      1.665999    
+.rsrc      0x24d000     0x1d33c0     0x1d3400     5.912328    
+.reloc     0x421000     0x4298       0x4400       6.718275    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2007-2015 Mark Russinovich
+InternalName: ADInsight
+FileVersion: 1.20.0.0
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: ADInsight
+ProductVersion: 1.20.0.0
+FileDescription: Active directory LDAP monitor
+OriginalFilename: ADInsight
+Translation: 0x0409 0x04b0
+

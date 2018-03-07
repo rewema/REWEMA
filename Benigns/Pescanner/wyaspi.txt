@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4677697 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bb221905f4e32f0759a82b4d556743d9
+SHA1:    029f5284a60808499451d8e3c2d0376d4fc9c3d5
+ssdeep:  98304:pFlXGACUR0MOstXGRCqI2tElCZvVy553b:LsIpGREb
+Date:    0x3F0917BE [Mon Jul  7 06:48:30 2003 UTC]
+EP:      0x407d20 .text 0/4
+CRC:     Claimed: 0x476f9f, Actual: 0x476f9f 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BFS                0x12ab0  0x46274c LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x126a0  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x475200 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x475370 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12988  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_MENU            0x475328 0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x122d8  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x12678  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x122b0  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x12408  0x26a    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb64a       0xc000       6.153582    
+.rdata     0xd000       0x1204       0x2000       3.087975    
+.data      0xf000       0x2b94       0x3000       3.888871    
+.rsrc      0x12000      0x463658     0x464000     6.364145    
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 
+InternalName: wyaspi.exe
+FileVersion: 0.0.0.0
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 0.0.0.0
+FileDescription: 
+OriginalFilename: wyaspi.exe
+

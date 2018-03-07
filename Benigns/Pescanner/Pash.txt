@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8192 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ffc2f792a99ee7d44f61aa31bb8f2c85
+SHA1:    bbb8fc312d709e557332e1ae5f6267f9d36a0772
+ssdeep:  192:S971VjRsGfQzurDWbdZaFo6YyEiIgKjS8Os:crjRfUurDaoDnEpggc
+Date:    0x47F69C50 [Fri Apr  4 21:23:28 2008 UTC]
+EP:      0x4035ee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x796c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x31c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x43c0   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x15f4       0x1600       5.355426    
+.rsrc      0x4000       0x5b0        0x600        4.068704    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Symantec Corporation 2008
+Assembly Version: 1.0.0.0
+InternalName: Pash.exe
+FileVersion: 1.0.0.0
+CompanyName: Symantec Corporation
+ProductName: PashConsole
+ProductVersion: 1.0.0.0
+FileDescription: PashConsole
+OriginalFilename: Pash.exe
+

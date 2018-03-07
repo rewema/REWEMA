@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    94208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4866d4c44acb0a6933ab7a56aaf77358
+SHA1:    51b37617ce69019ed8d3ade921f812ee47d04268
+ssdeep:  1536:FSE6ujmP8B7YGX75IKtY2V2vvijn4occc3cYvzCC1:AE63GMGrsLvvij4occK
+Date:    0x3F8E0BD9 [Thu Oct 16 03:09:13 2003 UTC]
+EP:      0x40175c .text 0/3
+CRC:     Claimed: 0x25911, Actual: 0x25911 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x184b4  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1838c  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x18368  0x24     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x18120  0x248    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1350c      0x14000      5.308260    
+.data      0x15000      0x2a5c       0x1000       0.000000    
+.rsrc      0x18000      0x79c        0x1000       1.723077    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: AtomicGPSClock
+FileVersion: 0.00.0004
+CompanyName: Zeiss
+ProductName: Atomic GPS Clock
+ProductVersion: 0.00.0004
+OriginalFilename: AtomicGPSClock.exe
+

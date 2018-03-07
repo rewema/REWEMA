@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    315744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a05de47544db7fa3319f4a6cef63b7aa
+SHA1:    5e619d70d1d36f57ec0cb0a8f649b427acedc200
+ssdeep:  6144:dpULlB7iQOQ24qzgsI3irerQ3PJR4PmwYx5p0r9wAvbNc5lTYAXVoSHT5f8BqbgS:dpuB7KzS3i6iPMPmwM5pc3bW5lMSVoSv
+Date:    0x578990F9 [Sat Jul 16 01:42:17 2016 UTC]
+EP:      0x439bf0 .text 0/6
+CRC:     Claimed: 0x511db, Actual: 0x511db 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4a460  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x4a0b0  0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x43380      0x43400      6.365084    
+.data      0x45000      0xaa4        0x600        3.517631    
+.idata     0x46000      0x2de4       0x2e00       5.415652    
+.didat     0x49000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x4a000      0x528        0x600        2.957226    
+.reloc     0x4b000      0x3be8       0x3c00       6.736409    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WiFiTask.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Wireless Background Task
+OriginalFilename: WiFiTask.exe
+Translation: 0x0409 0x04b0
+

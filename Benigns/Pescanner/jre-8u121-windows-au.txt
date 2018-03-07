@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    739904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4fba24cf96f80de963f5df60a5f84dae
+SHA1:    5fdd740cc3f2488a52981bf93250abd8d023f6f8
+ssdeep:  12288:0GQ2f1rlS4X3ckcs7Nl+A/tWCDSxrO/EOnLwzWmzBJeeWhoSjmr:ZQa1rlJXdf5t1KwEIEaGTB
+Date:    0x584F7435 [Tue Dec 13 04:08:21 2016 UTC]
+EP:      0x5ca050 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0xc2e9a, Actual: 0xc2e9a 
+Packers: UPX 2.93 - 3.00 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1cb38c 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cb9f8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cbce4 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cbed0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cbffc 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ccea8 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cd754 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cde20 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ce38c 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d0938 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d19e4 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d2370 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_RCDATA          0x2f390  0x18c440 LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_GROUP_ICON      0x1d27dc 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 12 icons, 48x48, 16-colors
+RT_VERSION         0x1d2890 0x360    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1d2bf4 0x17e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x11f000     0x0          0.000000    [SUSPICIOUS]
+UPX1       0x120000     0xab000      0xaae00      7.999449    [SUSPICIOUS]
+.rsrc      0x1cb000     0x8000       0x8000       5.858356    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2016
+InternalName: Setup Launcher
+FileVersion: 8.0.1210.13
+Full Version: 1.8.0_121-b13
+CompanyName: Oracle Corporation
+ProductName: Java Platform SE 8 U121
+ProductVersion: 8.0.1210.13
+FileDescription: Java Platform SE binary
+OriginalFilename: jre-8u121-windows-au.exe
+Translation: 0x0409 0x04b0
+

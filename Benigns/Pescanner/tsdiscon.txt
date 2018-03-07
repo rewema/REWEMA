@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     47455959e0350d1e872ae5fc3bfe5dbb
+SHA1:    9fdc68c6fadac5db89afa92e6f40f7ca28fb2d27
+ssdeep:  384:Pp/a0VoRbvo9qCab/qtKMjasXeTQBf/nE8hvWMmWWv:hy8oRbYm/sKBTUhwX
+Date:    0x57898D8C [Sat Jul 16 01:27:40 2016 UTC]
+EP:      0x403b00 .text 0/5
+CRC:     Claimed: 0x11e68, Actual: 0x11e68 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8758   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a8   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2b5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3224       0x3400       6.163252    
+.data      0x5000       0x1724       0x200        0.951857    [SUSPICIOUS]
+.idata     0x7000       0x83a        0xa00        4.426087    
+.rsrc      0x8000       0x820        0xa00        3.729949    
+.reloc     0x9000       0x358        0x400        5.883773    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: tsdiscon
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Session Disconnection Utility
+OriginalFilename: tsdiscon.exe
+Translation: 0x0409 0x04b0
+

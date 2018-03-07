@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    146432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cb009d244fe3a1b4667523dfcb30afc2
+SHA1:    5ed1f1d7046dcfadda91e46edd47398ffe39cc16
+ssdeep:  3072:L+EdM9+V/9E+WlSJujAiJICvnqzc55cNE/E4ji:LldrV/y+WQAjAYICqzc7cNE/Fji
+Date:    0x5789904D [Sat Jul 16 01:39:25 2016 UTC]
+EP:      0x41d3f0 .text 0/5
+CRC:     Claimed: 0x2f650, Actual: 0x2f650 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x24040  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x235f8  0x6b6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x23cb0  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x23160  0x498    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e8ec      0x1ea00      6.208431    
+.data      0x20000      0x974        0x400        3.477880    
+.idata     0x21000      0x1d8a       0x1e00       5.484087    
+.rsrc      0x23000      0x1128       0x1200       4.363952    
+.reloc     0x25000      0x19bc       0x1a00       6.736795    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: msoobe.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: MSOOBE EXE
+OriginalFilename: msoobe.exe
+Translation: 0x0409 0x04b0
+

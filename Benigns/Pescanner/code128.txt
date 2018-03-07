@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1868fb5064034bb517456b4ec9fd0bd1
+SHA1:    288a59e8f77c74db24812a958471d59e9b814d7c
+ssdeep:  192:lFOX0I4VeBSwwL8BLtgRCBmGsyrogqWimkyJs0+iDA7f/:lF2JdlBLtgImG3rouiVyJs07DAz/
+Date:    0x481B938A [Fri May  2 22:19:54 2008 UTC]
+EP:      0x4012bc .text 0/3
+CRC:     Claimed: 0x11845, Actual: 0x11845 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x646a   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6342   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6320   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6120   0x200    LANG_FRENCH  SUBLANG_FRENCH           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3a20       0x4000       4.484012    
+.data      0x5000       0xa14        0x1000       0.000000    
+.rsrc      0x6000       0x752        0x1000       1.342593    
+
+Version info
+================================================================================
+Translation: 0x040c 0x04b0
+InternalName: code128
+FileVersion: 2.00
+CompanyName: -
+ProductName: Code 128
+ProductVersion: 2.00
+OriginalFilename: code128.exe
+

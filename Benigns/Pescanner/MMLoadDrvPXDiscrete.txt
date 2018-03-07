@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    60616 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     36307fb30ea4fe0c8b1c29d9dee5bd41
+SHA1:    7721915b22a5ecc18df796dc27469e838690abf7
+ssdeep:  1536:xRZOaphbv2t5lmC3oEQgRLgLmldt5mE/:xDOeCmC3oEN2LmldtcE/
+Date:    0x55C40B74 [Fri Aug  7 01:35:48 2015 UTC]
+EP:      0x406250 .text 0/5
+CRC:     Claimed: 0x1ce6d, Actual: 0x1ce6d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0xe438   0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe0f0   0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe480   0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6181       0x6200       6.176748    
+.rdata     0x8000       0x235c       0x2400       4.561531    
+.data      0xb000       0x2324       0x2000       5.316409    
+.rsrc      0xe000       0x600        0x600        4.000783    
+.reloc     0xf000       0x1dc4       0x1e00       2.928797    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2007-2008 Advanced Micro Devices, Inc.
+InternalName: MMLoadDrv.exe
+FileVersion: 2.0.0.0
+CompanyName: Advanced Micro Devices, Inc.
+ProductName: Catalyst\xae Control Centre
+ProductVersion: 2.0.0.0
+FileDescription: Load MMdriver application
+OriginalFilename: MMLoadDrv.exe
+Translation: 0x0409 0x04e4
+

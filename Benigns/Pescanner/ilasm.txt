@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    296600 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f7ea88eb86ca772cdcd686940550cea9
+SHA1:    f853dc058ff441c0a6232e67c86deb3182a77abd
+ssdeep:  6144:UDEKlZshDYTPO5IwZLzTBA5N5LSaxl/M2DKQpOaoF:Utt7O5IwXWN5eoDKQwaq
+Date:    0x575A1271 [Fri Jun 10 01:05:53 2016 UTC]
+EP:      0x437a20 .text 0/5
+CRC:     Claimed: 0x57f4a, Actual: 0x57f4a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x35d0a0 0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x35d488 0x2d9    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3c0bc      0x3c200      6.327919    
+.data      0x3e000      0x31d64c     0x2c00       4.485995    
+.idata     0x35c000     0xfe2        0x1000       5.553776    
+.rsrc      0x35d000     0x764        0x800        4.798258    
+.reloc     0x35e000     0x3cb8       0x3e00       6.633834    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: ilasm.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: Microsoft .NET Framework IL assembler
+OriginalFilename: ilasm.exe
+Translation: 0x0409 0x04b0
+

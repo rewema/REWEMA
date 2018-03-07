@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    155648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bc3f7128909435c3dc3a623e2f7b86a8
+SHA1:    70037f45d7f9e2d7c6e9b5a93e0af040c0bb8444
+ssdeep:  3072:L4FFgCd0zRzN+1pUaet+kYFP1JmPXXmqLkXOFiZ4JoY/z8CDAJyyhJ+lEkfD+R:L4Lg00zRzN+1pUaet+k6P1JcXXmqLkX9
+Date:    0x38B6FAFD [Fri Feb 25 21:58:21 2000 UTC]
+EP:      0x4020a0 .text 0/3
+CRC:     Claimed: 0x2b674, Actual: 0x2b674 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x25cdc  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x25434  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x25410  0x24     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x25120  0x2f0    LANG_GERMAN  SUBLANG_GERMAN           SysEx File - IDP
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x220b0      0x23000      5.476849    
+.data      0x24000      0xaa0        0x1000       0.000000    
+.rsrc      0x25000      0xfc4        0x1000       3.818966    
+
+Version info
+================================================================================
+Translation: 0x0407 0x04b0
+LegalCopyright: Timo Boettcher
+InternalName: lsttool
+FileVersion: 1.00.0001
+CompanyName: .
+ProductName: lstTool
+ProductVersion: 1.00.0001
+FileDescription: Tool f\xfcr die Bearbeitung und Konvertierung von Dateilisten 
+OriginalFilename: lsttool.exe
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    41984 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     075434a31acb3954337be18a1b336b87
+SHA1:    d760fd199019cd649de07f569f4e474d2e7b1994
+ssdeep:  768:lvGV2EIgkhyiloBj/HUNV6CBV2JLI9tt2yfX:l5EPj/0N8Cagtsyf
+Date:    0x5789916F [Sat Jul 16 01:44:15 2016 UTC]
+EP:      0x408710 .text 0/5
+CRC:     Claimed: 0x193e9, Actual: 0x193e9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xb340   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb0a0   0x299    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7e1c       0x8000       6.413485    
+.data      0x9000       0xffc        0x400        2.457738    
+.idata     0xa000       0xa42        0xc00        4.792438    
+.rsrc      0xb000       0x6e0        0x800        3.962541    
+.reloc     0xc000       0x70c        0x800        6.274920    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: REGINI.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Registry Initializer
+OriginalFilename: REGINI.EXE
+Translation: 0x0409 0x04b0
+

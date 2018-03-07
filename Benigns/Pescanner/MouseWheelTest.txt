@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     67996c34f418d93ab384fd9e57497665
+SHA1:    24f251e5fda6bc522989e52865a208a831f53fd6
+ssdeep:  96:enKwlAydf+VhY+NzKgfue3CvFNUbWznrX2xDbzvxhRlcuJeQaQ6QQQ2:c+ydf+fnhKp6Zd63Q
+Date:    0x48B9585C [Sat Aug 30 14:25:32 2008 UTC]
+EP:      0x401128 .text 0/3
+CRC:     Claimed: 0xfaa7, Actual: 0xfaa7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x37bc   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x34d4   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x33ac   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x337c   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x3150   0x22c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe30        0x1000       4.234538    
+.data      0x2000       0x9e8        0x1000       0.000000    
+.rsrc      0x3000       0x8ec        0x1000       1.971568    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: MouseWheelTest
+FileVersion: 1.00
+CompanyName: -
+ProductName: MouseWheelTest
+ProductVersion: 1.00
+OriginalFilename: MouseWheelTest.exe
+

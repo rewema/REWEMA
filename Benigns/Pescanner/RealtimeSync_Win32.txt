@@ -1,0 +1,126 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4132176 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6766179b8fee0b0f7d01b9958dd8f5ed
+SHA1:    4b762915d04347e930f09c15aaf0a6a5656526f0
+ssdeep:  49152:jOrTJpP7SD0OeuSwaKXmWrcT2SFGtYh98upgnQR5SHXftwJb8CW8uq68xNmwTAYR:qPJpPO9GWr4cYhAQbS3Fi6UMLNQt
+Date:    0x5686647A [Fri Jan  1 11:35:22 2016 UTC]
+EP:      0x61f76a .text 0/7
+CRC:     Claimed: 0x3fc02e, Actual: 0x3fc02e 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x2b13c1L => deflate
+   0x2bd942L => deflate
+   0x2bda12L => deflate
+   0x2bda57L => deflate
+   0x31d481L => deflate
+   0x31d4a3L => Jean-loup Gailly
+   0x2b1451L => inflate
+   0x2bd786L => inflate
+   0x2bd7caL => inflate
+   0x2bd80bL => inflate
+   0x2bd860L => inflate
+   0x320aa9L => inflate
+   0x31d4b8L => Mark Adler
+   0x320acbL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x3c5f88 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3c60d8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x3c6228 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3c6378 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3c64c8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3c6618 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x3c6768 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3c68b8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3c6a08 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3c6b58 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_BITMAP          0x3ca6a0 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3ca760 0x6c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c6ca8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c6f90 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c70e0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c7648 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c7798 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c7d00 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c7e50 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c83b8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c8508 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c8a70 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c8bc0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c9128 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c9278 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c97e0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c9930 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c9e98 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c9fe8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3ca550 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3cb090 0x6fe4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x3d2078 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e28a0 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e4e48 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e5ef0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x3c5ed0 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x3c6b40 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c6210 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c6c90 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c60c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c64b0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c6750 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c6360 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c68a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c69f0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x3c6600 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x3e6358 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_GROUP_ICON      0x3c70b8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x3c9908 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x3c7770 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x3c8b98 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x3c9250 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x3c84e0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x3c9fc0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x3c7e28 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x3ca678 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x3e63a8 0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3ca7d0 0x8be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ab5de     0x2ab600     6.489068    
+.rdata     0x2ad000     0xd8f98      0xd9000      5.397101    
+.data      0x386000     0x3c6d4      0xd200       4.908256    
+.tls       0x3c3000     0x11         0x200        0.020393    [SUSPICIOUS]
+.gfids     0x3c4000     0xb18        0xc00        3.743397    
+.rsrc      0x3c5000     0x21648      0x21800      5.005577    
+.reloc     0x3e7000     0x3b6b4      0x3b800      6.578029    
+
+Version info
+================================================================================
+LegalCopyright: Zenju - All Rights Reserved
+FileVersion: 7.8
+CompanyName: www.FreeFileSync.org
+ProductName: RealtimeSync
+ProductVersion: 7.8
+FileDescription: RealtimeSync - Real-time Command Line Launcher
+Translation: 0xffff 0x04b0
+

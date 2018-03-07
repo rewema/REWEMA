@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    70920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     73d391ad9e918bed8b7b8366a92dbede
+SHA1:    601ca145a36bd7dce7448a609154ab8fec7896ea
+ssdeep:  768:Dpn+9MCNka/s6ZsnCSyZ0+wktQ6zaHTg11pMSs9t3mBq4JqVyhQ6/hSFdyed8vLG:6MCNkhaZvOTM1Ml9dIX5L/hST8vCF
+Date:    0x4B0D49D3 [Wed Nov 25 15:14:27 2009 UTC]
+EP:      0x4038da .text 0/4
+CRC:     Claimed: 0x1e000, Actual: 0x1e000 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+ABBYY_SIGNATURE    0xd264   0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+REGISTRY           0xd328   0x22d    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+TYPELIB            0xd558   0x7d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xdd28   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe104   0x5c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe6c4   0x5a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xec6c   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0xeff8   0x377    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5e8b       0x6000       6.094144    
+.rdata     0x7000       0x400c       0x5000       4.236207    
+.data      0xc000       0xa28        0x1000       3.221652    
+.rsrc      0xd000       0x2370       0x3000       4.682929    
+
+Version info
+================================================================================
+LegalCopyright: (c) 2009 ABBYY. All rights reserved.
+InternalName: SprintSTI
+FileVersion: 9.0.0.1359
+CompanyName: ABBYY
+LegalTrademarks: ABBYY FineReader is the trademark of ABBYY Software Ltd.
+ProductName: ABBYY FineReader
+ProductVersion: 9.0.0.1359
+FileDescription: ABBYY SprintSTI
+OriginalFilename: SprintSTI.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     885d3845013afb8815d80ac409d4a6d2
+SHA1:    fa4419763cab8710720703c46ed5b0adc7ed78c8
+ssdeep:  192:yZlQxmnNzRFe3XrzfYzTHDUeMNo0NIoWN/TTkaCWNaWBx:yjXnNzfOXvwfgeaoYZFaCWNaW
+Date:    0x5789917B [Sat Jul 16 01:44:27 2016 UTC]
+EP:      0x401b20 .text 0/5
+CRC:     Claimed: 0xb492, Actual: 0xb492 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5370   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50a0   0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13c4       0x1400       5.857642    
+.data      0x3000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x68e        0x800        4.377922    
+.rsrc      0x5000       0x728        0x800        4.094812    
+.reloc     0x6000       0x1cc        0x200        5.972668    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Eap3Host
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Eap Third Party Surrogate Host
+OriginalFilename: Eap3Host.EXE
+Translation: 0x0409 0x04b0
+

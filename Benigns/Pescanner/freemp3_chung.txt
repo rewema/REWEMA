@@ -1,0 +1,41 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    427008 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     15fd1b5f5939530aaff0f99b0e3eb81a
+SHA1:    6023bce491703f54f99a71a6a4e6de54abf34b43
+ssdeep:  6144:aQz4lRt5ShoOCRwG7lgVQvizvhmIpSxcZKw4kBQ0J6q:aJWom0Y8mvhmIUx2K5kO0J6q
+Date:    0x51189D68 [Mon Feb 11 07:27:36 2013 UTC]
+EP:      0x401110 .text 0/9
+CRC:     Claimed: 0x78392, Actual: 0x78392 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6fbf0c0 0x2e8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x6fbf3a8 0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5a490      0x5a600      6.693168    
+.data      0x5c000      0x1b80       0x1c00       4.421802    
+.jcr       0x5e000      0x4          0x200        0.000000    
+.rdata     0x5f000      0x355c       0x3600       6.158069    
+.bss       0x63000      0x6f58598    0x0          0.000000    [SUSPICIOUS]
+.edata     0x6fbc000    0xd09        0xe00        5.464503    
+.idata     0x6fbd000    0x1df0       0x1e00       5.670481    
+.rsrc      0x6fbf000    0x3bc        0x400        2.930643    
+.reloc     0x6fc0000    0x549c       0x5600       6.791998    
+

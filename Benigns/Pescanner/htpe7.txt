@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3187189 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     29a0694490619235ade01ffc130865ff
+SHA1:    fc0c4ad65e13694f9af4ca8a800ee1931dfc83ac
+ssdeep:  98304:1zu6XHdupzYD+bVxDRTYe1hpnTvwk5siFT:1zu6X98TbVbLf9UXQ
+Date:    0x3B780AC2 [Mon Aug 13 17:13:38 2001 UTC]
+EP:      0x4021af .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x3129bc [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x60f0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x63d8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x63f0   0x24c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2126       0x2200       6.194416    
+.rdata     0x4000       0x779        0x800        4.781720    
+.data      0x5000       0x478        0x400        3.957659    
+.rsrc      0x6000       0x640        0x800        2.905835    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9  2001 Hilgraeve Inc.
+FileDescription: HyperTerminal Private Edition
+FileVersion: 7.0
+CompanyName: Hilgraeve, Inc.
+

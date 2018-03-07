@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    177152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f3946f0fe9824dc583d7ddba839eb588
+SHA1:    795ca71cd9afb36fe73722f37116fd8f833bae42
+ssdeep:  3072:ivvQyQCcnt8d4v2bOmN69Jt8MkWQlHR5nFkMgw4i0gXxZX6MBElLt/25O:iKk7R5FkMgwrlPIlLtX
+Date:    0x4765CB62 [Mon Dec 17 01:05:38 2007 UTC]
+EP:      0x101457a .text 0/3
+CRC:     Claimed: 0x38d51, Actual: 0x38d51 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2e130  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2e418  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x2e430  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e748  0x3a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+OpenProcessToken
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x28e12      0x29000      6.382482    
+.data      0x2a000      0x343c       0x1400       3.241434    
+.rsrc      0x2e000      0xaf0        0xc00        4.396384    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) SEIKO EPSON CORP. 2007
+InternalName: E_SIACS7
+FileVersion: 1.03
+CompanyName: SEIKO EPSON CORPORATION
+ProductName: EPSON Status Monitor 3
+ProductVersion: 1.03
+FileDescription: EPSON Status Monitor 3
+OriginalFilename: E_SIACS7.EXE
+Translation: 0x0411 0x04b0
+

@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    100864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b0222bd0f9d97488d691bcc02b051a92
+SHA1:    8c305663ba7667f1a4ca5559793101c7a7099bc8
+ssdeep:  3072:kJ0KRbUB3VQgJL0kWJ7aWXW3/woYTPTZ8bZu:kucUBqyLY7aQEwhT98b
+Date:    0x4A5BCCDC [Tue Jul 14 00:10:04 2009 UTC]
+EP:      0x401587 .text 0/4
+CRC:     Claimed: 0x18dee, Actual: 0x18dee 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5728   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5d90   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6078   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6260   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6388   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7230   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7ad8   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x81a0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8708   0xd6c9   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15dd8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18380  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19428  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19db0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1a218  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x1a2d8  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5380   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2830       0x2a00       5.985409    
+.data      0x4000       0x3fc        0x200        0.183339    [SUSPICIOUS]
+.rsrc      0x5000       0x15668      0x15800      7.436597    [SUSPICIOUS]
+.reloc     0x1b000      0x1f0        0x200        6.205651    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ehshell.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Windows Media Center
+OriginalFilename: ehshell.exe
+Translation: 0x0409 0x04b0
+

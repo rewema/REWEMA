@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24064 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     63bdb2b3bdbd4ac4af6f3c78ed366175
+SHA1:    c771ad8dd2b00e9d88ac62209521006a1a693f5c
+ssdeep:  384:ohbmbbU5Kclb5Bc4XXGxai0+n/6ocJ/qWsjEWc6:CbmX8Kch5Bc4YD0YSocJ/6q
+Date:    0x57898F8D [Sat Jul 16 01:36:13 2016 UTC]
+EP:      0x403c20 .text 0/6
+CRC:     Claimed: 0xc1ea, Actual: 0xc1ea 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8350   0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80a0   0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3ba0       0x3c00       6.086738    
+.data      0x5000       0x40c        0x200        0.236539    [SUSPICIOUS]
+.idata     0x6000       0xbb4        0xc00        4.717921    
+.didat     0x7000       0x70         0x200        0.900885    [SUSPICIOUS]
+.rsrc      0x8000       0x728        0x800        4.059065    
+.reloc     0x9000       0x53c        0x600        6.228948    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: winrshost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for WinRM's Remote Shell plugin
+OriginalFilename: winrshost.exe
+Translation: 0x0409 0x04b0
+

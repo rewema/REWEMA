@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    87040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     30f0990644b2c09a2b106fdedf4db735
+SHA1:    87120de18902711017e49b8c5f8599d495d6e491
+ssdeep:  768:2j7XrFBM179Ax3gZ4jNLWW7MqNQA3d+medI9jMf+QBpv5K23iW9t73DzSx42sWr/:6MQBK4x6W76A3d+hdI0XR5KUpWtKN
+Date:    0x485CC25B [Sat Jun 21 08:56:59 2008 UTC]
+EP:      0x4151de .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1c391 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x18498  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x18a00  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x192a8  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x18160  0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x192d0  0x60a    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x131e4      0x13200      4.531774    
+.sdata     0x16000      0x98         0x200        2.168984    
+.rsrc      0x18000      0x18e0       0x1a00       3.810637    
+.reloc     0x1a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2004-2008
+Assembly Version: 1.2.3094.17867
+InternalName: SaSyncUpdate.exe
+FileVersion: 1.2.3094.17867
+CompanyName: Lopeware
+ProductName: SaSync
+ProductVersion: 1.2.3094.17867
+FileDescription: SaSyncUpdate
+OriginalFilename: SaSyncUpdate.exe
+

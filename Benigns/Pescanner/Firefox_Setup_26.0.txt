@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24016032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     56bacea46035632bd71062e553e3787b
+SHA1:    e33f5bff38390bc0c06bf94779a575d58ca95f19
+ssdeep:  393216:zB36FgixR1k0DKIxaBTtv0w9uXLk06DRKOO5UymeAt/pu8XhhLsjxlc:zJSgQrkQXIBZo4TDRhjdeAtR7xhLsjY
+Date:    0x51BB49C9 [Fri Jun 14 16:50:17 2013 UTC]
+EP:      0x421de0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x16ebe48 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x22374  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x224a0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2278c  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22df8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x23364  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23c10  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24abc  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x24f28  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25fd4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f558  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1f610  0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1f6a4  0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x28580  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 16-colors
+RT_VERSION         0x28608  0x274    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x28880  0x3da    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x17000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x18000      0xa000       0xa000       7.891006    [SUSPICIOUS]
+.rsrc      0x22000      0x7000       0x6e00       5.890580    
+
+Version info
+================================================================================
+LegalCopyright: Mozilla
+InternalName: 7zS.sfx
+FileVersion: 4.42
+CompanyName: Mozilla
+ProductName: Firefox
+ProductVersion: 4.42
+FileDescription: Firefox
+OriginalFilename: 7zS.sfx.exe
+Translation: 0x0409 0x04b0
+

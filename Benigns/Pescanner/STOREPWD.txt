@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    64000 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1222be402b3c699ea111a7699461d822
+SHA1:    7476cc6857371312a9266e1d65c4580e76a625a8
+ssdeep:  1536:8TLFLZFRSZKXWPoXy2nqK7ccQnbFJMJ2pUrhx:+Lt6PEiDb0J2pUrh
+Date:    0x58CBEE86 [Fri Mar 17 14:11:18 2017 UTC]
+EP:      0x40117a .text 0/5
+CRC:     Claimed: 0x12df8, Actual: 0x12df8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x110a0  0x334    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x113d8  0x449    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9505       0x9600       6.547032    
+.rdata     0xb000       0x2fe8       0x3000       5.282025    
+.data      0xe000       0x2e7c       0x1000       2.271575    
+.rsrc      0x11000      0x828        0xa00        4.172502    
+.reloc     0x12000      0x1546       0x1600       3.794930    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2017 VMware, Inc.
+InternalName: storePwd
+FileVersion: 10.1.6 build-5214329
+CompanyName: VMware, Inc.
+ProductName: VMware Tools
+ProductVersion: 10.1.6 build-5214329
+FileDescription: VMware easy install utility
+OriginalFilename: storePwd.exe
+Translation: 0x0409 0x04b0
+

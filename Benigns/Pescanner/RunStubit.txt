@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15360 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1aff3e0c1f30e017079954bc5e65bf5c
+SHA1:    9879be0a67bcb70f096d2684a741bd932e19f316
+ssdeep:  384:pqckeFXq412S/1szIra99Cc7tkf+zHjI5:geFXqnS/1szIWX2uHj
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x403804 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xd70d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_RCDATA          0xa0b0   0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa0c0   0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x2924       0x2a00       6.386872    
+DATA       0x4000       0xa0         0x200        1.840451    
+BSS        0x5000       0x729        0x0          0.000000    [SUSPICIOUS]
+.idata     0x6000       0x3aa        0x400        4.052333    
+.tls       0x7000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x8000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x9000       0x338        0x400        5.742402    
+.rsrc      0xa000       0x200        0x200        2.301575    
+

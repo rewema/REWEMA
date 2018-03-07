@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    72704 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bedc6052e058f12ec66178a195202c8f
+SHA1:    58cded87a6c89b028f5470af69082136e2202f1d
+ssdeep:  1536:ea2Ypn6hrDAErmKFUWE4lv+0sn9bsmAkLMqIOvPlorzq/K:eaz6hfpr1KWE4ASCIGPlm4
+Date:    0x57899159 [Sat Jul 16 01:43:53 2016 UTC]
+EP:      0x40d980 .text 0/6
+CRC:     Claimed: 0x16aac, Actual: 0x16aac 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14768  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x143a8  0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x140f0  0x2b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe244       0xe400       6.211449    
+.data      0x10000      0x918        0x200        1.192709    
+.idata     0x11000      0x1616       0x1800       5.014693    
+.didat     0x13000      0x20         0x200        0.305167    [SUSPICIOUS]
+.rsrc      0x14000      0x838        0xa00        3.774360    
+.reloc     0x15000      0xde4        0xe00        6.743211    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: w32time.dll
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Time Service Diagnostic Tool
+OriginalFilename: w32time.dll
+Translation: 0x0409 0x04b0
+

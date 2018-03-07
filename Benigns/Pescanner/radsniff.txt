@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    460655 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e3b801d22a7a97edaafc1a0469d61333
+SHA1:    a9edec2dc79b5366c6274d54f2e05952bcbb596e
+ssdeep:  12288:1vFtd+bKKW4cQpIqPiH/p1pvDYDs0pUbL:1vFtd+51PiH/p1pUDs0pUbL
+Date:    0x52AC2A1A [Sat Dec 14 09:51:22 2013 UTC]
+EP:      0x401570 .text 0/17
+CRC:     Claimed: 0x72d0c, Actual: 0x72d0c 
+
+Signature scans
+================================================================================
+YARA: sniffer
+   0x3c4d0L => wpcap.dll
+   0x2b3eeL => pcap_open
+   0x3c16eL => pcap_open
+   0x3c182L => pcap_open
+   0x6ef29L => pcap_open
+   0x6f11cL => pcap_open
+   0x6f231L => pcap_open
+   0x6f520L => pcap_open
+   0x3c162L => pcap_loop
+   0x6fa88L => pcap_loop
+   0x70191L => pcap_loop
+   0x2b442L => pcap_compile
+   0x3c0faL => pcap_compile
+   0x6f039L => pcap_compile
+   0x7041fL => pcap_compile
+   0x3c0eaL => pcap_close
+   0x6f57fL => pcap_close
+   0x7011aL => pcap_close
+
+
+TLS callbacks
+================================================================================
+    0x423200
+    0x4231b0
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2a578      0x2a600      6.164124    
+.data      0x2c000      0x174        0x200        2.669736    
+.rdata     0x2d000      0x6ed0       0x7000       5.467650    
+/4         0x34000      0x6dec       0x6e00       5.213579    
+.bss       0x3b000      0x2150       0x0          0.000000    [SUSPICIOUS]
+.edata     0x3e000      0x26d9       0x2800       5.382942    
+.idata     0x41000      0x1128       0x1200       5.091092    
+.CRT       0x43000      0x20         0x200        0.216207    [SUSPICIOUS]
+.tls       0x44000      0x20         0x200        0.231158    [SUSPICIOUS]
+.reloc     0x45000      0x14d4       0x1600       6.401239    
+/14        0x47000      0x358        0x400        2.053243    
+/29        0x48000      0xddfc       0xde00       5.871615    
+/41        0x56000      0x2d9e       0x2e00       4.677334    
+/55        0x59000      0x38ff       0x3a00       6.106671    
+/67        0x5d000      0x144        0x200        3.437404    
+/78        0x5e000      0x9b15       0x9c00       4.332309    
+/89        0x68000      0xc40        0xe00        3.025739    
+

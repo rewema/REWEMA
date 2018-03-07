@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     31d119310b2402a1fbac124a5a6a8114
+SHA1:    eee476e00b74a348312a1456f6a12b8db36191e9
+ssdeep:  768:KJN1NC8+5T0qbLASt+6wjS08j7e90SiS9jQkB4U45GQ8rWFPjXcY:c1NCP5T0q6Kn7esWjQkBuoQ8WM
+Date:    0x3889CAB2 [Sat Jan 22 15:20:18 2000 UTC]
+EP:      0x401450 .text 0/5
+CRC:     Claimed: 0x12dae, Actual: 0x12dae 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xb834   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xb54c   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xb424   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xb3f4   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0xb150   0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7a14       0x7c00       5.524391    
+.data      0x9000       0x468        0x200        0.000000    
+.idata     0xa000       0x798        0x800        5.242993    
+.rsrc      0xb000       0x964        0xa00        2.943433    
+.reloc     0xc000       0xb4a        0xc00        6.436353    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: wcc
+FileVersion: 1.00.0004
+CompanyName: drag0neye
+Comments: Winamp Control Center
+ProductName: Winamp Control Center
+ProductVersion: 1.00.0004
+FileDescription: WCC.EXE
+OriginalFilename: wcc.exe
+

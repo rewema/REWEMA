@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    510904 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     d63cb47f665ff3caa0cd0db21b50345f
+SHA1:    7a8b5c9a9b2dcf08a0622f3475f0fc486dc8ecd0
+ssdeep:  6144:8Eg68PnUYy2apPYLSifwIx8tVTFUs82tppPKUKns:8EMPnU2AgLFSLfmn
+Date:    0x4B989DD9 [Thu Mar 11 07:38:01 2010 UTC]
+EP:      0x2e00c1d8 .text 0/4
+CRC:     Claimed: 0x8a8ea, Actual: 0x8a8ea 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2c758  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2c880  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e528  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2e890  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x708b8  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x79d60  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7c308  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x7c770  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 16x16, 16-colors
+RT_VERSION         0x2c270  0x4e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7c7d8  0x203    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x267c5      0x26800      6.479835    
+.data      0x28000      0x3bf8       0x2000       4.506932    
+.rsrc      0x2c000      0x509e0      0x50a00      4.827046    
+.reloc     0x7d000      0x1cdc       0x1e00       6.533508    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2010 Microsoft Corporation.  All rights reserved.
+InternalName: odeploy.exe
+FileVersion: 14.0.4755.1000
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Office 2010
+ProductVersion: 14.0.4755.1000
+FileDescription: Microsoft Office Multi-Msi ActiveDirectory Deployment Tool.
+OriginalFilename: odeploy.exe
+Translation: 0x0000 0x04e4
+

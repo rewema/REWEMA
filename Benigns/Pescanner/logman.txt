@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    98816 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     cb0424e3ffb69c834a9cfb9a355ca10f
+SHA1:    ac3d389cd8257fda2762d0ce9ee561dde8c9e0a4
+ssdeep:  1536:6eHKlzGHOonwqu/GEHxJ2iF9zy0k6xyEoXEEeapqe8c8:nHKhxuoOkNe0k6xyRXjeaPd
+Date:    0x578990F7 [Sat Jul 16 01:42:15 2016 UTC]
+EP:      0x4129f0 .text 0/5
+CRC:     Claimed: 0x263b3, Actual: 0x263b3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x19740  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x19398  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x190f0  0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1217c      0x12200      6.145153    
+.data      0x14000      0x2038       0x1c00       0.558519    [SUSPICIOUS]
+.idata     0x17000      0x1544       0x1600       5.140396    
+.rsrc      0x19000      0x810        0xa00        3.696436    
+.reloc     0x1a000      0x1f20       0x2000       6.696699    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Logman.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Performance Log Utility
+OriginalFilename: Logman.exe
+Translation: 0x0409 0x04b0
+

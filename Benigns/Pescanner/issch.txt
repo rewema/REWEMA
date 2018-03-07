@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    81920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7d58c9bdf9c0a3955bdcde7387ad12ac
+SHA1:    8c9e5de7a3353512ac842114b877067280ac7e5a
+ssdeep:  1536:TmwlCsSAe++kbf9ZigSdzHVmkenGCORUcFwIF:iC/8XkbfPAEkUlORUcFwIF
+Date:    0x42FBC2E8 [Thu Aug 11 21:28:08 2005 UTC]
+EP:      0x40886d .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1f583 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x14150  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14450  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14438  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x14578  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x14590  0x388    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcebe       0xd000       6.609344    
+.rdata     0xe000       0x1a3c       0x2000       4.002913    
+.data      0x10000      0x30c4       0x3000       0.961167    [SUSPICIOUS]
+.rsrc      0x14000      0x918        0x1000       1.926620    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005 Macrovision Corporation
+InternalName: Scheduler
+FileVersion: 4, 60, 100, 37068
+CompanyName: Macrovision Corporation
+ProductName: InstallShield Update Service
+OLESelfRegister: 
+ProductVersion: 4, 60
+FileDescription: InstallShield Update Service Scheduler
+OriginalFilename: issch.exe
+Translation: 0x0409 0x04b0
+

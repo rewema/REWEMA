@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    172126 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c1543033abc6d7d6051818c52521e3d3
+SHA1:    abb2e7cf735ee6ff0f21db284db558ed71da73bc
+ssdeep:  3072:1DK5K4Y/Wa6HCFvvfbasLTuYfXXeoH0S8HcsjwrwaE1:QK4vovd8
+Date:    0x3C06BF9B [Thu Nov 29 23:07:07 2001 UTC]
+EP:      0x40ac50 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x38a15 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x26030  0x428    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x257c0  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x25aa8  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x25bf8  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x25ee0  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_MENU            0x26478  0x272    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x26760  0x11a    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x26b80  0x8c     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x27d00  0x52     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x26c10  0x3e     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x26c90  0x1cc    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x26fa0  0x304    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x27450  0x464    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x273d0  0x7e     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x26e60  0x140    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x272a8  0x124    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x26c50  0x3a     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x278b8  0x130    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x279e8  0x254    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x27c40  0xc0     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ACCELERATOR     0x266f0  0x70     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_ICON      0x25bd0  0x22     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x26008  0x22     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x26880  0x2fc    LANG_GERMAN  SUBLANG_GERMAN           data
+None               0x26458  0x1e     LANG_GERMAN  SUBLANG_GERMAN           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d900      0x1e000      2.821872    
+.rdata     0x1f000      0x17fe       0x2000       2.881348    
+.data      0x21000      0x1474       0x2000       1.884527    
+.idata     0x23000      0x1985       0x2000       3.843369    
+.rsrc      0x25000      0x35d3       0x4000       2.816132    
+.reloc     0x29000      0xe05        0x1000       5.082902    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: GLSample1
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: Anwendung GLSample1
+ProductVersion: 1, 0, 0, 1
+FileDescription: MFC-Anwendung GLSample1
+OriginalFilename: GLSample1.EXE
+Translation: 0x0407 0x04b0
+

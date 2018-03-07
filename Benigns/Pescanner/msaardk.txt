@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1514640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1069b9a599696ef913d46ca0b5a1a18b
+SHA1:    2f1fe44436eecedbbe8008f4c1cc920c23413bb0
+ssdeep:  24576:DooZq8d3BhH3Bcw1jNgTEE7Ogh8erkdhUsaiU0tPsLoyiRbrYA3ojGQThbNtTbWn:G8d3BhHmMjNtE952hfax+PsTiRbrr4aD
+Date:    0x33CB637C [Tue Jul 15 11:48:12 1997 UTC] [SUSPICIOUS]
+EP:      0x1002723 .text 0/3
+CRC:     Claimed: 0x17df63, Actual: 0x17df63 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0xc840   0x2e1a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+RT_ICON            0xf65c   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf944   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xfa6c   0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xfd38   0x18a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xfec4   0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x10004  0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1019c  0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x102ac  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x103a8  0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10434  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10474  0x60a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10a80  0x5f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11074  0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11524  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1183c  0x4f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11d34  0x524    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x12258  0xa      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x12264  0x15ee50 LANG_ENGLISH SUBLANG_ENGLISH_US       Microsoft Cabinet archive data, 1437264 bytes, 19 files
+RT_RCDATA          0x1710b4 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF
+RT_RCDATA          0x1710b8 0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x1710dc 0x31     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x171110 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x171118 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x17111c 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x171124 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x171128 0xc      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x171134 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x171138 0x21     LANG_ENGLISH SUBLANG_ENGLISH_US       ISO-8859 text, with no line terminators
+RT_RCDATA          0x17115c 0x58     LANG_ENGLISH SUBLANG_ENGLISH_US       ISO-8859 text, with no line terminators
+RT_RCDATA          0x1711b4 0xa      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x1711c0 0x1ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x171390 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1713b4 0x35c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8e48       0x9000       6.484210    
+.data      0xa000       0x1c0c       0x400        4.099097    
+.rsrc      0xc000       0x166000     0x165800     7.990303    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) Microsoft Corp. 1994-1999
+InternalName: MSAARDK
+FileVersion: 4.2.3130.0
+CompanyName: Microsoft Corporation
+ProductName: Active Accessibility\xae 1.3
+ProductVersion: 4.2.3130.0
+FileDescription: Microsoft\xae Active Accessibility\xae Redistribution Kit
+OriginalFilename: MSAARDK
+Translation: 0x0409 0x04b0
+

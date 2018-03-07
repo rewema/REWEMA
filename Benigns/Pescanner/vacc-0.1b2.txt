@@ -1,0 +1,98 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1011248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f7cd5ff2cce6f612bd24f129d96a1ecc
+SHA1:    a529abd23b7a24d30d8a5c1adbfa4a58cd350029
+ssdeep:  24576:AEeJfDxxneY/AYy/cWRwDXg5767s0j75oo:AEelneY/AYy7wDX6eQ0j7+o
+Date:    0x3CF5142C [Wed May 29 17:47:24 2002 UTC]
+EP:      0x41586f .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x101e22 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x432f7L => This program cannot be run in DOS mode
+   0x58af7L => This program cannot be run in DOS mode
+YARA: irc
+   0x6eda4L => notice
+   0x6f27dL => notice
+   0x6f7e7L => notice
+   0x6f7fdL => notice
+   0x36640L => part
+   0x36aa6L => part
+   0x36d99L => part
+   0x373beL => part
+   0x386c1L => part
+   0x3b0caL => part
+   0x6f61fL => part
+   0x6f65cL => part
+   0x6fb3bL => part
+   0x6fc21L => part
+   0x670acL => quit
+   0x72e12L => chat
+   0x73453L => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+GIF                0x2ec78  0x7aea   LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 219 x 373
+RT_CURSOR          0x2eb28  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_ICON            0x2bd88  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c088  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2c1b0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2c718  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ca00  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d2e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d410  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d978  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dc60  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2e548  0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2e938  0x1ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2e840  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2e680  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2e748  0xf2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36768  0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x367d8  0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36848  0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x2ec60  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x2c070  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x2d2a8  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x2e508  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x2b860  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2b5c0  0x29a    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1df66      0x1e000      6.582537    
+.rdata     0x1f000      0x39a2       0x4000       5.021881    
+.data      0x23000      0x7af8       0x5000       2.822824    
+.rsrc      0x2b000      0xb918       0xc000       7.187629    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: 749                                                         
+FileVersion: 1.00.0000                                                    
+CompanyName: Masoud                                                       
+Comments:                                                             
+ProductName: Video/Audio Conference                                       
+ProductVersion: 1.00.0000                                                    
+FileDescription: Setup Launcher                                              
+Translation: 0x0409 0x04e4
+

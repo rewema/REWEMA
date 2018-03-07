@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d52505b82e995fc1125f01e20b764864
+SHA1:    4be2e06bba273008d87e2ea407d5a31eb53075a2
+ssdeep:  384:KbejW7aWk1LHB0GftpBjiPIhFtAHRN7clXNhezL:+e0wWiLy2Ev
+Date:    0x5011D446 [Thu Jul 26 23:35:34 2012 UTC]
+EP:      0x402bde .text 0/3
+CRC:     Claimed: 0xf047, Actual: 0xf047 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xbe4        0xc00        5.492683    
+.rsrc      0x4000       0x420        0x600        2.477909    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+Assembly Version: 11.0.0.0
+InternalName: vshost-clr2.exe
+FileVersion: 11.0.50727.1
+CompanyName: Microsoft Corporation
+Comments: vshost-clr2.exe
+ProductName: Microsoft\xae Visual Studio\xae 2012
+ProductVersion: 11.0.50727.1
+FileDescription: vshost-clr2.exe
+OriginalFilename: vshost-clr2.exe
+

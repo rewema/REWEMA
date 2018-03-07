@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    152752 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 Mono/.Net assembly
+MD5:     ae45f2add97932bccb880e10d2dc7927
+SHA1:    9f52a886e8b8d4e35b3ae5366b1b045f1b9c4957
+ssdeep:  3072:GD5rzuWogRu8R9ZNwY6nbLUXdrwHvhn0fsNoituBWhEJ:wzuWbRB9vGPh0f1iQD
+Date:    0x575A1855 [Fri Jun 10 01:31:01 2016 UTC]
+EP:      0x422702 .text 0/3
+CRC:     Claimed: 0x255bb, Actual: 0x255bb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x24090  0x3e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x24484  0x4ef    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x20708      0x20800      5.635541    
+.rsrc      0x24000      0x978        0xa00        4.471789    
+.reloc     0x26000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: WsatConfig.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: MB Version update tool
+OriginalFilename: WsatConfig.exe
+Translation: 0x0409 0x04b0
+

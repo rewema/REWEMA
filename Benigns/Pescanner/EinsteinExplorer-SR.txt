@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    111471 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     3bd08a7a13e5d8120eb903ec9a968714
+SHA1:    662f596424a3788e2660a8a6e1ef590a3aff353b
+ssdeep:  1536:R14G1NHQMXKDJMxAYYkpAvOa6ke6PU1K4o2XlfaWt4uxdBPdKHuMqrMRvM8:74GLBpEOaLe6PUo4o+fXZnKO6
+Date:    0x3F3EB7DB [Sat Aug 16 23:01:47 2003 UTC]
+EP:      0x401000 .text 0/6
+CRC:     Claimed: 0x1cdc5, Actual: 0x1cdc5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4b344  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4b62c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x4b754  0x22e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4b984  0x17c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4bb00  0x210    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4bd10  0xb6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4bdc8  0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4beb0  0x172    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x4c024  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4c05c  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4c080  0x30c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe348       0xe400       5.999141    
+.data      0x10000      0x240        0x400        0.328583    [SUSPICIOUS]
+.rdata     0x11000      0x36c        0x400        4.158482    
+.bss       0x12000      0x37240      0x0          0.000000    [SUSPICIOUS]
+.idata     0x4a000      0xebc        0x1000       4.813935    
+.rsrc      0x4b000      0x138c       0x1400       3.666508    
+
+Version info
+================================================================================
+LegalCopyright: Copyright ? 1997
+InternalName: einsteinexplorer-sr
+FileVersion: 1, 3, 0, 0
+CompanyName: Mark Hale
+ProductName: Einstein Explorer - SR
+ProductVersion: 1, 3, 0, 0
+FileDescription: einsteinexplorer-sr
+OriginalFilename: einsteinexplorer-sr.exe
+Translation: 0x0809 0x04b0
+

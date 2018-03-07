@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    632320 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7e76eed28b8b8696b7f7ed5f757aa304
+SHA1:    ad4e61e69915dd94afc9d334b1c98e5fb4ee2aa7
+ssdeep:  12288:aMJoRRJVX/hS00PeMYPLCul+8dHqAQN3Zq70S4MStkUfj31iTrbzqE:Lm/VX/s0iezISTUfjoTrbzl
+Date:    0x4F4A44D4 [Sun Feb 26 14:42:28 2012 UTC]
+EP:      0x4657a6 .text 0/4
+CRC:     Claimed: 0xa63fe, Actual: 0xa63fe 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x80899L => deflate
+   0x808bbL => Jean-loup Gailly
+   0x80a09L => inflate
+   0x808d0L => Mark Adler
+   0x80a2bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9d1c0  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x9d2e8  0x568    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x9d850  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x9db38  0x8a8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_ICON      0x9e3e0  0x3e     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x9e420  0x370    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_MANIFEST        0x9e790  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+CreateServiceW
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7f58c      0x7f600      6.582332    
+.rdata     0x81000      0x16e16      0x17000      4.929959    
+.data      0x98000      0x4f88       0x2200       3.645649    
+.rsrc      0x9d000      0x18ec       0x1a00       5.782401    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001-2012
+InternalName: FileZilla Server
+FileVersion: 0, 9, 41, 0
+CompanyName: FileZilla Project
+Comments: Open Source FTP server for Windows
+ProductName: FileZilla Server
+ProductVersion: 0, 9, 41, 0
+FileDescription: FileZilla Server
+OriginalFilename: FileZilla server.exe
+Translation: 0x0407 0x04b0
+

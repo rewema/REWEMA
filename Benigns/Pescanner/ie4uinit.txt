@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    188416 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e9b9676c1ca977b108dfcf4998ed7ae4
+SHA1:    66fadf48db743d799cb63a090dca5cd8595afac0
+ssdeep:  3072:UaEQEC1fgFvATwW3F2FhBLsVfEzvviya8Xfm9QjOnLXFeKW0K/irsxCId/Txm:UdQD1ivgwOklLsVfevvFXfKrrFeaK/iB
+Date:    0x57899048 [Sat Jul 16 01:39:20 2016 UTC]
+EP:      0x427b70 .text 0/6
+CRC:     Claimed: 0x2e5bb, Actual: 0x2e5bb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2f4e0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x2e8a8  0xc34    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_VERSION         0x2e520  0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e140  0x3d9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+CreateProcessW
+InternetConnectW
+HttpSendRequestW
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x27738      0x27800      6.388909    
+.data      0x29000      0xb5c        0x600        2.541123    
+.idata     0x2a000      0x2708       0x2800       5.593517    
+.tls       0x2d000      0x3          0x200        0.000000    
+.rsrc      0x2e000      0x15b0       0x1600       5.305680    
+.reloc     0x30000      0x1d5c       0x1e00       6.727276    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: IE4UINIT
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: IE Per-User Initialization Utility
+OriginalFilename: IE4UINIT.EXE
+Translation: 0x0409 0x04b0
+

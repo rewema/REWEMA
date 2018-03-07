@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    449888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     270181cbe0b902c0030b0f9bc6375d7d
+SHA1:    0c37dac6d6fbe046780995d63118e31036a2fbc3
+ssdeep:  12288:St2lU4zfXaS2ZmYPZXQ9RyCyRaLWIig2Jj4CjssGlV+7J:St224jRpYP0ig2JRGlV8
+Date:    0x5789903E [Sat Jul 16 01:39:10 2016 UTC]
+EP:      0x461fb0 .text 0/6
+CRC:     Claimed: 0x741c8, Actual: 0x741c8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MESSAGETABLE    0x67738  0x34b4   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x67390  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x670f0  0x29d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x61f6c      0x62000      6.621633    
+.data      0x63000      0xe44        0x400        3.641828    
+.idata     0x64000      0x1ee4       0x2000       5.303694    
+.didat     0x66000      0x20         0x200        0.313451    [SUSPICIOUS]
+.rsrc      0x67000      0x3bf0       0x3c00       3.480343    
+.reloc     0x6b000      0x35f8       0x3600       6.797112    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: extractr.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Wimfltr v2 extractor
+OriginalFilename: extractr.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     bc9e64f0a60ee03a7b1cc7ef95359736
+SHA1:    cdbef3f2f384ced7ce97ec1a226b5bcb4ac94299
+ssdeep:  384:JvgiVci++Dfcgwk05DQlpWGhSgs326wrcM3Pbb7cRDemanza2nOumUgyTd6:JvbVv+ycR26wrcM3Pbb7mDbiHgeg
+Date:    0x47743F92 [Fri Dec 28 00:13:06 2007 UTC]
+EP:      0x11006bee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x15068 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8058   0x3f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4bf4       0x5000       5.269173    
+.rsrc      0x8000       0x450        0x1000       1.144566    
+.reloc     0xa000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 2002-2007 Shawn A. Van Ness. All rights reserved. No warranties extended.
+Assembly Version: 2.0.2917.29193
+InternalName: RSaR.exe
+FileVersion: 2.0.2917.29193
+CompanyName: Windojitsu
+Comments: Command line search-and-replace tool
+ProductName: Regex Search and Rescue
+ProductVersion: 2.0.2917.29193
+FileDescription: RSaR
+OriginalFilename: RSaR.exe
+

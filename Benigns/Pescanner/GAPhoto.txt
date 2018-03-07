@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    111104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2d9354f06617db76c465f0763be3b800
+SHA1:    30aad7c779c7d2d18edce7b389d163d1c0308c76
+ssdeep:  1536:HbHtki434XtfAs4g7usCjv841x/z+kSG6MBI5l6znkYDObiPOS8TJmdlVPb3N+:HbdCy3E/BX+lRYDqiPz8d6LPo
+Date:    0x4A479DAD [Sun Jun 28 16:43:25 2009 UTC]
+EP:      0x41897e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1de2b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1a560  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a9c8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1ba70  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1e018  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0x1a190  0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x1e048  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x16984      0x16a00      5.695179    
+.rsrc      0x1a000      0x4238       0x4400       5.087073    
+.reloc     0x20000      0xc          0x200        0.098004    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Tom Cully 2008
+Assembly Version: 0.0.9.9
+InternalName: GAPhoto.exe
+FileVersion: 0.0.9.9
+CompanyName: TCS
+Comments: GAPhoto is an image vectorizer using Genetic Algorithims (GAs) and the JQFramework for parallel processing.
+ProductName: GAPhoto
+ProductVersion: 0.0.9.9
+FileDescription: GAPhoto
+OriginalFilename: GAPhoto.exe
+

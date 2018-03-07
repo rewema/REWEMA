@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11054432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     828e48aa821cfcd551f8a0a1df3841ee
+SHA1:    99d526994a84400971a01da0c58c8a0ae4676a30
+ssdeep:  196608:Z7CPKBhajNni+Y2JcX1PNl8I31V5w6RmqWLRoZSazuiLdrzVy/ZyRNJB89t:YPKWjw+Y26PNll3xw6RxWCcwY
+Date:    0x58985E74 [Mon Feb  6 11:31:00 2017 UTC]
+EP:      0x44a878 .text 0/5
+CRC:     Claimed: 0xa9222b, Actual: 0xa9222b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8d568  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcf590  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdfdb8  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe3fe0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe6588  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe7630  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe7a98  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0x8d220  0x344    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_MANIFEST        0xe7af8  0x437    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6cd3c      0x6ce00      6.624709    
+.rdata     0x6e000      0x1819a      0x18200      4.552692    
+.data      0x87000      0x5988       0x3800       4.740974    
+.rsrc      0x8d000      0x5af30      0x5b000      4.309303    
+.reloc     0xe8000      0x5634       0x5800       6.562813    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1999-2017 Corel. Inc.
+InternalName: VideoStudio.exe
+FileVersion: IVI_MAJOR_VERSION.IVI_MINOR_VERSION.IVI_BUILD.IVI_FIX
+CompanyName: Corel. Inc.
+ProductName: VideoStudio
+ProductVersion: 1.0
+FileDescription: Corel VideoStudio
+OriginalFilename: VideoStudio.exe
+Translation: 0x0409 0x04b0
+

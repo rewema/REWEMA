@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2facc7c6979b1ef5885da07a6a58542c
+SHA1:    1cd5245a0e0ba1f181ddbae2fa4bc6420ca111c3
+ssdeep:  384:wqRJXfRL+LK2ZhL+LhG0Z+WoBZ8dTdK+4H4AL++4KDo7Rnq3G+4fYYBzzZii:wcZh2ZJ4orCTdDtArynCGYYBzz
+Date:    0x40E46A78 [Thu Jul  1 19:48:08 2004 UTC]
+EP:      0x40447e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x16f36 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x64e0   0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a48   0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x6eb0   0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x7758   0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8800   0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x96a8   0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xbc50   0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x61d8   0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2484       0x3000       4.561756    
+.rsrc      0x6000       0x5cb0       0x6000       5.519133    
+.reloc     0xc000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1643.37444
+InternalName: OpenMC.exe
+FileVersion: 1.0.1643.37444
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1643.37444
+FileDescription:  
+OriginalFilename: OpenMC.exe
+

@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8003931 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     01128686e7fa7fa01c50c6547722a7ff
+SHA1:    9a458e7a8e3c33dc3695c2784a6b63486e624cf1
+ssdeep:  196608:+1bjP3P7qinFpgwabQFKO7N2lDKQtigN7mULFAV0Svcfa:+dTP/8wa2N2DKSs0kcfa
+Date:    0x584DCA3F [Sun Dec 11 21:50:55 2016 UTC]
+EP:      0x403334 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x7a3e02 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x64460  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x64ac8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x67070  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68118  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68fc0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69868  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69ed0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a438  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a8a0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6ab88  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6acb0  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6ad68  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6ae88  0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6afa0  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6b1a0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6b298  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6b338  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6b428  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x6b4b0  0x280    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x6b730  0x42e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x640f       0x6600       6.439070    
+.rdata     0x8000       0x14b0       0x1600       5.033673    
+.data      0xa000       0x2afd8      0x600        4.033089    
+.ndata     0x35000      0x2f000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x64000      0x7b60       0x7c00       3.656229    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xc2\xa9 2000-2016 Miranda IM Project
+FileVersion: 0.10.71.0
+CompanyName: Miranda IM Project
+ProductName: Miranda IM
+ProductVersion: 0.10.71.0
+FileDescription: Miranda IM
+Translation: 0x0409 0x04b0
+

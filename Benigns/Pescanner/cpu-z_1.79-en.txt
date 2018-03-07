@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1702944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     27006bf44b34d249ca9f79aa99c0c676
+SHA1:    4726804dae29d03ef01732bcee20642c01258eb8
+ssdeep:  49152:775kamaI4gzTqH9KMBM9ZQvJhaQbQOx+sm8YY:P5TmaLg3qdj2QkOIXY
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x40aa98 CODE 0/8
+CRC:     Claimed: 0x1abc66, Actual: 0x1abc66 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x12354  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x1247c  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x129e4  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x12ccc  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x13574  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13868  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13b74  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13e44  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x13eac  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13f60  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x14010  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1403c  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x1407c  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x14570  0x62c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xa1d0       0xa200       6.643749    
+DATA       0xc000       0x250        0x400        2.740125    
+BSS        0xd000       0xe94        0x0          0.000000    [SUSPICIOUS]
+.idata     0xe000       0x97c        0xa00        4.486076    
+.tls       0xf000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x10000      0x18         0x200        0.190489    [SUSPICIOUS]
+.reloc     0x11000      0x91c        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x12000      0x2c00       0x2c00       4.581280    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion:                     
+CompanyName:                                                             
+Comments: This installation was built with Inno Setup.
+ProductName: CPUID CPU-Z                                                 
+ProductVersion:                                                   
+FileDescription: CPUID CPU-Z Setup                                           
+Translation: 0x0000 0x04b0
+

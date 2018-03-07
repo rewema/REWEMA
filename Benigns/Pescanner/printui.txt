@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    62464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2819dd02a22eeae743d2c059bf8a7284
+SHA1:    9e59e3e7b1f039082dea4ace5c48cde00cef2c1e
+ssdeep:  768:mQ5fn5vI1iQfCIWVM9G4qW4ne+S/ly+PKAoXRZX6fbX57UWkCRPPA7/Qnc:7bVIPd4n+lbeRZIbSQPPA7h
+Date:    0x57899140 [Sat Jul 16 01:43:28 2016 UTC]
+EP:      0x401a90 .text 0/5
+CRC:     Claimed: 0x1b6b2, Actual: 0x1b6b2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x12220  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x58d8   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5f40   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6228   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6350   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x71f8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7aa0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8008   0x6328   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xe330   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x108d8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11980  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x11de8  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x11e80  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5330   0x5a4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10cc       0x1200       5.582283    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x58c        0x600        4.697800    
+.rsrc      0x5000       0xd2f0       0xd400       6.529068    
+.reloc     0x13000      0x18c        0x200        5.339311    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: printui
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Change Printing Settings
+OriginalFilename: printui.exe
+Translation: 0x0409 0x04b0
+

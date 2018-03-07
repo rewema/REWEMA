@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1082880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3101c183ba62870e94782c7d31564e72
+SHA1:    592f1513957f5fd12e3d9c2da9724b2f2a251629
+ssdeep:  24576:WirbsibjRcYqaEZwxYTuLkGFAVkzcZm+4Ks6Dwe+m:WirbsQK0khVx4KrH
+Date:    0x4A5BC658 [Mon Jul 13 23:42:16 2009 UTC]
+EP:      0x10758e9 .text 0/4
+CRC:     Claimed: 0x115f35, Actual: 0x115f35 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x105470 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+PNG                0xe5790  0x1f25   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 80 x 80, 8-bit/color RGBA, non-interlaced
+PNG                0xe76b8  0xc3b    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 40 x 40, 8-bit/color RGBA, non-interlaced
+PNG                0xe82f8  0x3705   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 55 x 90, 8-bit/color RGBA, non-interlaced
+PNG                0xeba00  0xa0a2   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 109 x 178, 8-bit/color RGBA, non-interlaced
+PNG                0xf5aa8  0x30b6   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 55 x 78, 8-bit/color RGBA, non-interlaced
+PNG                0xf8b60  0x937c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 109 x 155, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xd5968  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd5fd0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd62b8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd63e0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd7288  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd7b30  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd8098  0x9ba2   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xe1c40  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe41e8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe5290  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe56f8  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x105090 0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd54c0  0x4a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0x101ee0 0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc4388      0xc4400      6.125992    
+.data      0xc6000      0xebcc       0x8e00       4.235621    
+.rsrc      0xd5000      0x30568      0x30600      7.661680    [SUSPICIOUS]
+.reloc     0x106000     0xa720       0xa800       5.418275    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: purbleplace.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for Purble Place Game
+OriginalFilename: purbleplace.exe
+Translation: 0x0409 0x04b0
+

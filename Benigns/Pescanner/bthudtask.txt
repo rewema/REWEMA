@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38400 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b36faa5a0a116a114ddd387853d0bfcf
+SHA1:    7557baf1818ac91364371788d9b56a98d106d01a
+ssdeep:  384:m6fHNIfcrCX6wEclbCKWWUHWJKJajXDO1/EagS817lU:m6ftjwjxCbEzDO
+Date:    0x57898F2E [Sat Jul 16 01:34:38 2016 UTC]
+EP:      0x401c30 .text 0/6
+CRC:     Claimed: 0x9de3, Actual: 0x9de3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xce98   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b20   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6c48   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x71b0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7498   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7d40   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x83a8   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9250   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x96b8   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa760   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xcd90   0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xcd08   0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 16-colors
+RT_VERSION         0x6768   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6370   0x3f6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1450       0x1600       5.480340    
+.data      0x3000       0x37c        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x544        0x600        4.610425    
+.didat     0x5000       0x1c         0x200        0.206051    [SUSPICIOUS]
+.rsrc      0x6000       0x6f70       0x7000       3.836852    
+.reloc     0xd000       0x1a0        0x200        5.514057    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BthUdTask
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Bluetooth Uninstall Device Task
+OriginalFilename: BthUdTask.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2740224 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9179a5a9d2ec408a67b37562c4d92535
+SHA1:    7e8980ec79b1e69dce1b7e0696bdb43b279818a8
+ssdeep:  49152:WIXB9ZSdY+LRSisXFo/xAzWf6LVqA2DNs:WIlMZIVoyWhs
+Date:    0x462A50D4 [Sat Apr 21 17:58:44 2007 UTC]
+EP:      0x5af29e .text 0/4
+CRC:     Claimed: 0x2aac11, Actual: 0x2aac11 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x224181L => deflate
+   0x2241a3L => Jean-loup Gailly
+   0x2243c1L => inflate
+   0x22471aL => inflate
+   0x224746L => inflate
+   0x2248c8L => inflate
+   0x2243e3L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x30f12c 0x2e8    LANG_GREEK   SUBLANG_DEFAULT          data
+RT_ICON            0x30f414 0x8a8    LANG_GREEK   SUBLANG_DEFAULT          data
+RT_GROUP_ICON      0x30fcbc 0x22     LANG_GREEK   SUBLANG_DEFAULT          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_MANIFEST        0x30fce0 0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x21ed81     0x21f000     6.576108    
+.rdata     0x220000     0x4f1db      0x50000      5.482610    
+.data      0x270000     0x9e318      0x2c000      5.326277    
+.rsrc      0x30f000     0xd38        0x1000       4.893165    
+

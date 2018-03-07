@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5120 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     963645c37c5127549574ca6ee374a1ab
+SHA1:    1fb781a3a5a2b91d14b5720050a6ce42f8be6d25
+ssdeep:  48:6ZaW3vxaEvlWcybuJLZkkHHzlFxlRJhy+NdfXVLtuulJlRG+h6lRFqXSfbNtm:o/0vknrVJhy+X/VHfGksfzNt
+Date:    0x497E29F8 [Mon Jan 26 21:24:08 2009 UTC]
+EP:      0x40290e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x31c8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x244    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x42e8   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x914        0xa00        4.534043    
+.rsrc      0x4000       0x4d8        0x600        3.698252    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: Simple.exe
+FileVersion: 0.0.0.0
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: Simple.exe
+

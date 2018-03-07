@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e3c7be10853ae9cc218a44192355984c
+SHA1:    c6740445c81957397cd0f36ca397f1504019802d
+ssdeep:  384:Lgsad7rP2v7OlZ+2cCwNK2/afV8qaLUGf4nX7U1blCCNcW56Wmd:LVad7rP2v7OlZ+2JwNK2/afVhKUGf1Ah
+Date:    0x5789910E [Sat Jul 16 01:42:38 2016 UTC]
+EP:      0x402db0 .text 0/5
+CRC:     Claimed: 0x8a18, Actual: 0x8a18 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7850   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x74a0   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x3ab    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2494       0x2600       5.657033    
+.data      0x4000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x110c       0x1200       5.293035    
+.rsrc      0x7000       0x918        0xa00        4.258646    
+.reloc     0x8000       0x398        0x400        6.317267    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: chkntfs
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: NTFS Volume Maintenance Utility
+OriginalFilename: CHKNTFS.EXE
+Translation: 0x0409 0x04b0
+

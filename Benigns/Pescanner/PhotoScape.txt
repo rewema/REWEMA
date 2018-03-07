@@ -1,0 +1,538 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6812256 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     41f0e8918566202dc7b8a6b5cd481efd
+SHA1:    0de7d1c440c8b56afdb2b8a02bb4886b97175d7b
+ssdeep:  49152:idoYaqenjcuti7F6qAdNb52dmfLvvoCTuqDCUraokMh6UvrZHLsno75NzTCwk/M6:Cb865AdumfD2Khcwkvw2eYFGC
+Date:    0x4F94F18A [Mon Apr 23 06:07:06 2012 UTC]
+EP:      0x6c91ce .text 0/4
+CRC:     Claimed: 0x68ae23, Actual: 0x68ae23 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x3ea519L => deflate
+   0x3ea53bL => Jean-loup Gailly
+   0x3ea679L => inflate
+   0x3ea69bL => Mark Adler
+YARA: irc
+   0x37b218L => join
+   0x37b3d4L => JOIN
+   0x37b3e4L => JOIN
+   0x37eedcL => join
+   0x37eeecL => join
+   0x37ef00L => join
+   0x37ef10L => join
+   0x37ef1cL => join
+   0x37ef28L => join
+   0x37ef34L => join
+   0x37ef44L => join
+   0x37ef54L => join
+   0x37f4e4L => join
+   0x37f8e0L => join
+   0x37f8ecL => join
+   0x37f9b4L => join
+   0x37fa78L => join
+   0x37fb14L => join
+   0x383f0cL => JOIN
+   0x3a2b1fL => join
+   0x3a2b77L => join
+   0x3a2be2L => join
+   0x3a2bf2L => join
+   0x3a630bL => join
+   0x37e4d6L => MSG
+   0x37e510L => MSG
+   0x37e54aL => MSG
+   0x37e580L => MSG
+   0x39e020L => msg
+   0x3a8b95L => notice
+   0x3bef81L => notice
+   0x3bef96L => Notice
+   0x39f0adL => part
+   0x3a2f1aL => part
+   0x3a8ce8L => part
+   0x3a8ea1L => part
+   0x3b3b1aL => part
+   0x3b3c02L => part
+   0x3bbc91L => part
+   0x3bbce4L => part
+   0x3bbd38L => part
+   0x3bbe08L => part
+   0x3bbe78L => part
+   0x3bbf02L => part
+   0x3bbf55L => part
+   0x3bbfacL => part
+   0x3be7beL => Part
+   0x3c0bccL => part
+   0x3c0c5aL => part
+   0x3c0d9cL => part
+   0x3c0e25L => part
+   0x3c0f66L => Part
+   0x4e7b60L => part
+   0x4f8e5bL => part
+   0x5014d3L => part
+   0x501f80L => part
+   0x507057L => part
+   0x50ad19L => part
+   0x51a77dL => part
+   0x5236c8L => part
+   0x53579aL => part
+   0x53db51L => part
+   0x53e7ceL => part
+   0x53f092L => part
+   0x5620c0L => part
+   0x5746d2L => part
+   0x584e74L => part
+   0x5ba111L => part
+   0x5c3023L => part
+   0x5cc20dL => part
+   0x5ded36L => part
+   0x5e6f79L => part
+   0x5efb92L => part
+   0x61377dL => part
+   0x61baddL => part
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+ACV                0x4c29d8 0x4a     LANG_KOREAN  SUBLANG_KOREAN           data
+ACV                0x4c2a24 0x42     LANG_KOREAN  SUBLANG_KOREAN           data
+ACV                0x4c2a68 0x56     LANG_KOREAN  SUBLANG_KOREAN           data
+ACV                0x4c2ac0 0x4e     LANG_KOREAN  SUBLANG_KOREAN           data
+ACV                0x4c2b10 0x5e     LANG_KOREAN  SUBLANG_KOREAN           data
+PNG                0x4c2b70 0x1d96   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4c4908 0x41c    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4c4d24 0x1e2c   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x4c6b50 0x1c84   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4c87d4 0x403    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4c8bd8 0x1d96   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x4ca970 0x1fcc   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 64 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4cc93c 0x1dec   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 52, 8-bit/color RGBA, non-interlaced
+PNG                0x4ce728 0xc45    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4cf370 0x1a38   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4d0da8 0x1a50   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x4d27f8 0xcf7    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 17 x 68, 8-bit/color RGB, non-interlaced
+PNG                0x4d34f0 0x10eb   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 17 x 68, 8-bit/color RGB, non-interlaced
+PNG                0x4d45dc 0x10bc   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 17 x 68, 8-bit/color RGB, non-interlaced
+PNG                0x4d5698 0xd9c    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4d6434 0x386    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4d67bc 0xb41    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced
+PNG                0x4d7300 0xb4c    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced
+PNG                0x4d7e4c 0xb3d    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced
+PNG                0x4d898c 0xbaa    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 20 x 20, 8-bit/color RGBA, non-interlaced
+PNG                0x4d9538 0xb43    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced
+PNG                0x4da07c 0xb79    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced
+PNG                0x4dabf8 0x1d2c   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4dc924 0x3e5    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4dcd0c 0x1cf7   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x4dea04 0x13ae   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 129 x 110, 8-bit/color RGBA, non-interlaced
+PNG                0x4dfdb4 0x207d   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4e1e34 0x444    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4e2278 0x1f63   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x4e41dc 0x208a   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4e6268 0x1bed   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 52, 8-bit/color RGBA, non-interlaced
+PNG                0x4e7e58 0x1cd3   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4e9b2c 0x413    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4e9f40 0x1c26   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x4ebb68 0x217d   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 64 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4edce8 0x1e3d   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 52, 8-bit/color RGBA, non-interlaced
+PNG                0x4efb28 0x23f3   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 66 x 62, 8-bit/color RGBA, non-interlaced
+PNG                0x4f1f1c 0x1ce3   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 52, 8-bit/color RGBA, non-interlaced
+PNG                0x4f3c00 0x1b14   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x4f5714 0x3cf    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x4f5ae4 0x1acc   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x4f75b0 0x2015   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 57 x 57, 8-bit/color RGBA, non-interlaced
+PNG                0x4f95c8 0x1af3   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 52, 8-bit/color RGBA, non-interlaced
+PNG                0x4fb0bc 0xdbb    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x4fbe78 0xe41    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x4fccbc 0xf6e    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x4fdc2c 0xf48    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x4feb74 0xd9d    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x4ff914 0xd70    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x500684 0xe3d    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x5014c4 0xf28    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 28 x 28, 8-bit/color RGBA, non-interlaced
+PNG                0x5023ec 0x230f   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 60 x 60, 8-bit/color RGBA, non-interlaced
+PNG                0x5046fc 0x43e    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x504b3c 0x1d43   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 55 x 49, 8-bit/color RGBA, non-interlaced
+PNG                0x506880 0xf289   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x515b0c 0x6ee1   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x51c9f0 0x767a   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x52406c 0x6282   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x52a2f0 0x554b   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x52f83c 0x5858   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x535094 0x1503   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x536598 0x13b3   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x53794c 0xc3ef   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+PNG                0x543d3c 0x6baf   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 469 x 700, 8-bit/color RGBA, non-interlaced
+TXT                0x54a8ec 0x806c   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x552958 0x8daa   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x55b704 0x92c9   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+TXT                0x5649d0 0x8e4f   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x56d820 0x8d67   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x576588 0x6de4   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 text, with CRLF line terminators
+TXT                0x57d36c 0x8c7f   LANG_KOREAN  SUBLANG_KOREAN           Non-ISO extended-ASCII English text, with CRLF line terminators
+TXT                0x585fec 0x9551   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x58f540 0x8e5f   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+TXT                0x5983a0 0x8cd4   LANG_KOREAN  SUBLANG_KOREAN           Non-ISO extended-ASCII English text, with CRLF line terminators
+TXT                0x5a1074 0x8e5f   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+TXT                0x5a9ed4 0x8dcb   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x5b2ca0 0x8bc0   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines
+TXT                0x5bb860 0x9440   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines
+TXT                0x5c4ca0 0x86de   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text
+TXT                0x5cd380 0xa3af   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+TXT                0x5d7730 0x752a   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x5dec5c 0x8b74   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text
+TXT                0x5e77d0 0x9075   LANG_KOREAN  SUBLANG_KOREAN           ASCII English text, with CRLF line terminators
+TXT                0x5f0848 0x909e   LANG_KOREAN  SUBLANG_KOREAN           ASCII English text, with very long lines
+TXT                0x5f98e8 0x83b9   LANG_KOREAN  SUBLANG_KOREAN           Non-ISO extended-ASCII text, with CRLF, NEL line terminators
+TXT                0x601ca4 0x8b4b   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 text, with CRLF line terminators
+TXT                0x60a7f0 0x8d09   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text
+TXT                0x6134fc 0x9730   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+TXT                0x61cc2c 0x8ddc   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x625a08 0x8fec   LANG_KOREAN  SUBLANG_KOREAN           Non-ISO extended-ASCII English text, with very long lines, with CRLF line terminators
+TXT                0x62e9f4 0x98c7   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+TXT                0x6382bc 0x9716   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+TXT                0x6419d4 0x809e   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x649a74 0x8b2c   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text
+TXT                0x6525a0 0x917d   LANG_KOREAN  SUBLANG_KOREAN           Non-ISO extended-ASCII English text, with CRLF line terminators
+TXT                0x65b720 0x8e28   LANG_KOREAN  SUBLANG_KOREAN           Non-ISO extended-ASCII English text, with CRLF line terminators
+TXT                0x664548 0x8ee7   LANG_KOREAN  SUBLANG_KOREAN           ASCII English text, with CRLF line terminators
+TXT                0x66d430 0x8fdb   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x67640c 0x8640   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x67ea4c 0x720a   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with CRLF line terminators
+TXT                0x685c58 0x924e   LANG_KOREAN  SUBLANG_KOREAN           ISO-8859 English text, with very long lines, with CRLF line terminators
+RT_CURSOR          0x68eea8 0x134    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x68efdc 0x134    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x68f110 0x234    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x68f344 0x234    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x68f578 0x134    LANG_KOREAN  SUBLANG_KOREAN           AmigaOS bitmap font
+RT_CURSOR          0x68f6ac 0x134    LANG_KOREAN  SUBLANG_KOREAN           AmigaOS bitmap font
+RT_CURSOR          0x68f7e0 0x134    LANG_KOREAN  SUBLANG_KOREAN           AmigaOS bitmap font
+RT_CURSOR          0x68f914 0x134    LANG_KOREAN  SUBLANG_KOREAN           AmigaOS bitmap font
+RT_CURSOR          0x68fa48 0x134    LANG_KOREAN  SUBLANG_KOREAN           AmigaOS bitmap font
+RT_CURSOR          0x68fb7c 0x134    LANG_KOREAN  SUBLANG_KOREAN           Hitachi SH big-endian COFF object, not stripped
+RT_CURSOR          0x68fcb0 0x234    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x68fee4 0x134    LANG_KOREAN  SUBLANG_KOREAN           DBase 3 index file
+RT_CURSOR          0x690018 0x134    LANG_KOREAN  SUBLANG_KOREAN           PCX ver. 2.5 image data
+RT_CURSOR          0x69014c 0x134    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x690280 0x134    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x6903b4 0x134    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x6904e8 0x134    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x69061c 0xcac    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x6912c8 0x134    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x6913fc 0xcac    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_CURSOR          0x6920a8 0x134    LANG_KOREAN  SUBLANG_KOREAN           AmigaOS bitmap font
+RT_CURSOR          0x6921dc 0xcac    LANG_KOREAN  SUBLANG_KOREAN           AmigaOS bitmap font
+RT_BITMAP          0x692e88 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6931b4 0x2ca    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x693480 0x2ca    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x69374c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x693a78 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x693da4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6940d0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6943fc 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x694728 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x694a54 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x694d80 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6950ac 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6953d8 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x695704 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x695a30 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x695d5c 0x316    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x696074 0x39e    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x696414 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x696740 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x696a6c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x696d98 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6970c4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6973f0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69771c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x697a48 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x697d74 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6980a0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6983cc 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6986f8 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x698a24 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x698d50 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69907c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6993a8 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6996d4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x699a00 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x699d2c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69a058 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69a384 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69a6b0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69a9dc 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69ad08 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69b034 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69b360 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69b68c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69b9b8 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69bce4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69c010 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69c33c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69c668 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69c994 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69ccc0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69cfec 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69d318 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69d644 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69d970 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69dc9c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69dfc8 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69e2f4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69e620 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69e94c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69ec78 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69efa4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69f2d0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x69f5fc 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x69fa18 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x69fe34 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a0250 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a066c 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a0a88 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a0ea4 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a12c0 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a16dc 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a1af8 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a1f14 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a2330 0x41a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a274c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a2a78 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a2da4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a30d0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a33fc 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a3728 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a3a54 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a3d80 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a40ac 0x328    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a43d4 0x328    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a46fc 0x1d8    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a48d4 0x1d8    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a4aac 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a4dd8 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a5104 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a5430 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a575c 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a5a88 0xbe     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a5b48 0x9a     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a5be4 0x9a     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a5c80 0x2fa    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a5f7c 0x2fa    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a6278 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a65a4 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a68d0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6a6bfc 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a7ee8 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6a91d4 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6aa4c0 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6ab7ac 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6aca98 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6add84 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6af070 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b035c 0x12ea   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b1648 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6b1974 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6b1ca0 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6b1fcc 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6b22f8 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6b2624 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6b2950 0x32a    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x6b2c7c 0x298    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b2f14 0x468    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b337c 0x6ea    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b3a68 0x6ea    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b4154 0x6ea    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b4840 0x6ea    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b4f2c 0x232    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_BITMAP          0x6b5160 0x232    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6b5394 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b57fc 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6b68a4 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6b8e4c 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b92b4 0x988    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6b9c3c 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6bace4 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6bd28c 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x6bd6f4 0x988    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6be07c 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6bf124 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6c16cc 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x6c1b34 0x988    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6c24bc 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6c3564 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6c5b0c 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x6c5f74 0x988    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6c68fc 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6c79a4 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6c9f4c 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ca3b4 0x988    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6cad3c 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x6cbde4 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6ce38c 0x10a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6ce498 0x48     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6ce4e0 0x812    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6cecf4 0x18c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6cee80 0x374    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6cf1f4 0x91e    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6cfb14 0x2f0    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6cfe04 0x154    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6cff58 0x364    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d02bc 0x33e    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d05fc 0x1da    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d07d8 0x1c2    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d099c 0x172    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d0b10 0x152    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d0c64 0x2ce    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d0f34 0x51e    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d1454 0x35a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d17b0 0x14b0   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d2c60 0xadc    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d373c 0x23c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d3978 0x1520   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d4e98 0x152    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d4fec 0x1a4    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d5190 0xa18    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d5ba8 0x3d8    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d5f80 0x86     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d6008 0x182    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d618c 0x4fa    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d6688 0x38c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d6a14 0x132    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d6b48 0x5ee    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d7138 0x28c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d73c4 0xf2     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d74b8 0xaa4    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d7f5c 0x282    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d81e0 0x10c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d82ec 0x17a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d8468 0x314    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d877c 0x232    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d89b0 0x138    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d8ae8 0x484    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d8f6c 0x3a     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d8fa8 0x2ba    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9264 0x2d2    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9538 0x1ca    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9704 0x80     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9784 0x19a    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9920 0x17c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9a9c 0x14e    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9bec 0x2c8    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6d9eb4 0x600    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6da4b4 0x382    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6da838 0x22e    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6daa68 0x186    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dabf0 0x1ee    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dade0 0x2c2    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6db0a4 0x4b8    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6db55c 0x410    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6db96c 0x284    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dbbf0 0x152    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dbd44 0x316    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dc05c 0x238    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dc294 0x124    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dc3b8 0x310    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dc6c8 0x234    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dc8fc 0x2ba    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dcbb8 0x43c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dcff4 0x294    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dd288 0x4e6    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dd770 0xee     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dd860 0x136    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dd998 0x132    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6ddacc 0x398    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dde64 0x3d0    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6de234 0x394    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6de5c8 0xe6     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6de6b0 0xda     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6de78c 0x218    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6de9a4 0xae     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dea54 0x1c2    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dec18 0x168    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6ded80 0x9a     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dee1c 0x166    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6def84 0x162    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6df0e8 0x58c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6df674 0x4a6    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dfb1c 0xce     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dfbec 0x2b0    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dfe9c 0xcc     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6dff68 0x168    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6e00d0 0x376    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6e0448 0x1fc    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6e0644 0x40     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_DIALOG          0x6e0684 0x14c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x6e07d0 0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x6e0818 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e082c 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0840 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0854 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0868 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e087c 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0890 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e08a4 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e08b8 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e08cc 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e08e0 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e08f4 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0908 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e091c 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0930 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0944 0x14     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e0958 0x22     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e097c 0x22     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e09a0 0x22     LANG_KOREAN  SUBLANG_KOREAN           Lotus 1-2-3
+RT_GROUP_ICON      0x6e09c4 0x30     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6e09f4 0x3e     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6e0a34 0x3e     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6e0a74 0x3e     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6e0ab4 0x3e     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6e0af4 0x3e     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_VERSION         0x6e0b34 0x33c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_MANIFEST        0x6e0e70 0x466    LANG_KOREAN  SUBLANG_KOREAN           ASCII text, with CRLF line terminators
+None               0x6e12d8 0x135    LANG_KOREAN  SUBLANG_KOREAN           data
+None               0x6e1410 0xe7     LANG_KOREAN  SUBLANG_KOREAN           data
+None               0x6e14f8 0x212    LANG_KOREAN  SUBLANG_KOREAN           data
+None               0x6e170c 0xe7     LANG_KOREAN  SUBLANG_KOREAN           data
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+ShellExecuteExA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x36ef70     0x36f000     6.519713    
+.rdata     0x370000     0xe1619      0xe1800      5.332919    
+.data      0x452000     0x6a7fc      0x8200       5.506146    
+.rsrc      0x4bd000     0x2247f4     0x224800     6.739173    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005
+InternalName: PhotoScape
+FileVersion: 1, 0, 0, 1298
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: PhotoScape
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 1298
+FileDescription: PhotoScape
+OriginalFilename: PhotoScape.EXE
+Translation: 0x0412 0x04b0
+

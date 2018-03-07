@@ -1,0 +1,78 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    580096 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b57cc6d91c739b6ff5da2aeda756713f
+SHA1:    3eca780c4a6aecebb567abf5f717046dcbdde2a1
+ssdeep:  6144:X771DZ0aZkmPThI3iPk/n8TRnLgOCw9iBT0ShHgLBHiLbYnlYtCtxowi0O1:zkmG3iPk4RLC10AHglFYtCro/
+Date:    0x57898E37 [Sat Jul 16 01:30:31 2016 UTC]
+EP:      0x4264a0 .text 0/6
+CRC:     Claimed: 0x9d11d, Actual: 0x9d11d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x89c90  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x78930  0x4026   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7c958  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7cfc0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7d2a8  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7d490  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7d5b8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7e460  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7ed08  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7f3d0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7f938  0x402e   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x83968  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x85f10  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x86fb8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x87940  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x87e68  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x88168  0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x88d28  0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x87da8  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x88150  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x88d10  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x898d0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x898e8  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x785a0  0x38f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+CreateProcessAsUserW
+CreateRemoteThread
+OpenProcessToken
+OpenProcess
+StartServiceW
+CreateProcessInternalW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6d1dc      0x6d200      6.426281    
+.data      0x6f000      0x3c94       0x2e00       2.886547    
+.idata     0x73000      0x3c1c       0x3e00       5.341494    
+.didat     0x77000      0x2a0        0x400        2.551258    
+.rsrc      0x78000      0x11d90      0x11e00      5.621895    
+.reloc     0x8a000      0x7408       0x7600       6.802599    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: winlogon
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Logon Application
+OriginalFilename: WINLOGON.EXE
+Translation: 0x0409 0x04b0
+

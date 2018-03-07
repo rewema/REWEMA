@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    375296 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e1b4c0dde7e1da51608560843a730d44
+SHA1:    767cf341957c8707ebb532ff698b5907398d3109
+ssdeep:  6144:mO7fmXe7YkDmr8kTERNXcXfBnHgeg64lGiEEiEEsfByAwZZS4onQFwvT3lxRkB:mOaIYkSra+XfBnAj6fXIB7GjFwvT3lxR
+Date:    0x57898D8D [Sat Jul 16 01:27:41 2016 UTC]
+EP:      0x439740 .text 0/5
+CRC:     Claimed: 0x61bb7, Actual: 0x61bb7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x59f48  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x43b70  0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x43e40  0x270    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x57b88  0x23c0   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x440b0  0xffde   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x54090  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x56638  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x576e0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x57b48  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 256-colors
+RT_VERSION         0x437b0  0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x43300  0x4aa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+ShellExecuteExW
+InternetConnectW
+HttpSendRequestExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3d098      0x3d200      6.360587    
+.data      0x3f000      0x788        0x400        1.899473    
+.idata     0x40000      0x2010       0x2200       5.483123    
+.rsrc      0x43000      0x17040      0x17200      7.465242    [SUSPICIOUS]
+.reloc     0x5b000      0x4ac4       0x4c00       6.749951    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wksprt
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: RemoteApp and Desktop Connection Runtime
+OriginalFilename: wksprt.exe
+Translation: 0x0409 0x04b0
+

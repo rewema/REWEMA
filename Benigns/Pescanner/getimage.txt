@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     daacb425c76ad5902aa8e016d585d115
+SHA1:    a0537f42329eaa9d0230a6fe6c4dce68fa614a39
+ssdeep:  384:2eHm6hbMzvcw+GepBKIzlAipQVVm9jk0LTxZwxO9o6vL8Gae0GWIEWzk:ulrcKIOieAjkO1KxOfAMy
+Date:    0x4754D305 [Tue Dec  4 04:09:41 2007 UTC]
+EP:      0x40316a .text 0/4
+CRC:     Claimed: 0xe0f7, Actual: 0xe0f7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MENU            0x7178   0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x729c   0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x7360   0x1ee    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x7550   0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7898   0x152    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2931       0x2a00       6.247309    
+.rdata     0x4000       0x15be       0x1600       5.172755    
+.data      0x6000       0x5ac        0x200        3.058624    
+.rsrc      0x7000       0x9ec        0xa00        3.906664    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2001
+InternalName: GetImage
+FileVersion: 1, 0, 0, 0
+CompanyName: Microsoft
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Microsoft GetImage
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 0
+FileDescription: GetImage
+OriginalFilename: GetImage.exe
+Translation: 0x0409 0x04b0
+

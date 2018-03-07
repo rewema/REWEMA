@@ -1,0 +1,111 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    323584 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3efa5fe5625c8d25ef075f65eb4c7488
+SHA1:    48e46cce5ed0a1bc4e34c10e26b9ee570b86a647
+ssdeep:  3072:tvaq0LfMJhSdK+U4+8U1PYH+XGEUOcHR6OkP18LlBoD9u+U8tUxaKFoozkQcQS/1:tz0jMJhoK/91PYeXIDx6355tU9cQ+V
+Date:    0x429B2C89 [Mon May 30 15:08:57 2005 UTC]
+EP:      0x40f927 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x5da28 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x50830  0x134    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x50980  0x134    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x50ad0  0x134    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x50c20  0x134    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x50d80  0x134    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_CURSOR          0x50eb8  0xb4     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x46968  0xf18    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x47880  0x1d0    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x47a50  0x8da8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x50f98  0x5e4    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x51668  0xb8     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x51720  0x16c    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x51890  0x144    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x41d00  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x41fe8  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x42138  0x4e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x42638  0x4e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x42b38  0x4e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x43038  0x4e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x43538  0x4e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x43a38  0x568    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x43fb8  0x568    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x44538  0x7e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x44d38  0x7e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x45538  0x680    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x45bd0  0x568    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x46150  0xb8     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x46208  0x210    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x46418  0x122    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x46540  0xd4     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x51580  0xe2     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x519d8  0x36     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51a10  0x2c     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51a40  0x50     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51a90  0x2c     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51ac0  0x78     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51b38  0x1c4    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51e88  0x12a    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51d40  0x146    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51d00  0x40     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x522a8  0x64     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x51fb8  0x1d8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED DBase 3 index file
+RT_STRING          0x52190  0x114    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED DBase 3 index file
+RT_STRING          0x52310  0x24     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_GROUP_CURSOR    0x50ab8  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_CURSOR    0x50c08  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_CURSOR    0x50d58  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_CURSOR    0x50968  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_CURSOR    0x50f70  0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_GROUP_ICON      0x42110  0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x42620  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x42b20  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x43020  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x43520  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x43a20  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x43fa0  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x44520  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x44d20  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x45520  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x45bb8  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x46138  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_VERSION         0x46618  0x34c    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+None               0x507f8  0x33     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+None               0x50d70  0xe      LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2d343      0x2e000      6.487469    
+.rdata     0x2f000      0xac5e       0xb000       4.672243    
+.data      0x3a000      0x68c8       0x3000       3.939320    
+.rsrc      0x41000      0x11338      0x12000      4.556898    
+
+Version info
+================================================================================
+LegalCopyright: \x7248\x6743\x6240\x6709JH(C) 2002
+InternalName: GetGBChar
+FileVersion: 2, 0, 1, 1
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: GetGBChar \x5e94\x7528\x7a0b\x5e8f
+SpecialBuild: 
+ProductVersion: 2, 0, 1, 1
+FileDescription: GetGBChar Microsoft \x57fa\x7840\x7c7b\x5e94\x7528\x7a0b\x5e8f
+OriginalFilename: GetGBChar.EXE
+Translation: 0x0804 0x04b0
+

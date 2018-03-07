@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b4c773d55d4fa46a86c14344299e2ed9
+SHA1:    72c62bf289c206f9805ca3b26f9683a9d35181bc
+ssdeep:  384:pSQ0emDWxvaFJJ4aWqXY83sIAKPuNYlGFAjCOAh:pR0hKxkWSY6AKPnl7COA
+Date:    0x4C741C12 [Tue Aug 24 19:22:58 2010 UTC]
+EP:      0x406d5e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x11fa4 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8058   0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4d64       0x5000       5.758453    
+.rsrc      0x8000       0x328        0x1000       0.840083    [SUSPICIOUS]
+.reloc     0xa000       0xc          0x1000       0.012639    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2010
+Assembly Version: 1.0.0.0
+InternalName: MPG123Wrapper.exe
+FileVersion: 1.0.0.0
+ProductName: MPG123Wrapper
+ProductVersion: 1.0.0.0
+FileDescription: MPG123Wrapper
+OriginalFilename: MPG123Wrapper.exe
+

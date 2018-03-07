@@ -1,0 +1,189 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11283968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ea2464cf544e5da3ee92b336866febb1
+SHA1:    f528338240b6ef8bf288f80eb161f1cdb5ad3fad
+ssdeep:  196608:Tvloc5eaLWJ/VtlEb1YMzBb2yOy64SNz/cW8d40gWKfuxupgwTazYlb9XeXUKFTQ:TvloceaLWJ/VtGb1YMMyOy64Sefd40gh
+Date:    0x52A8E238 [Wed Dec 11 22:07:52 2013 UTC]
+EP:      0x85f523 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0xace064 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x8e3991L => deflate
+   0x92a0c8L => deflate
+   0x98a2bdL => deflate
+   0x8e39b3L => Jean-loup Gailly
+   0x8e3af1L => inflate
+   0x98a2a9L => inflate
+   0x8e3b13L => Mark Adler
+   0x927330L => OpenSSL
+   0x92b83eL => OpenSSL
+   0x92be16L => OpenSSL
+   0x92c10eL => OpenSSL
+   0x92c293L => OpenSSL
+   0x92ce94L => OpenSSL
+   0x92cebcL => OpenSSL
+   0x92d8a7L => OpenSSL
+   0x92d8d0L => OpenSSL
+   0x92d8f8L => OpenSSL
+   0x92d93dL => OpenSSL
+   0x92d98dL => OpenSSL
+   0x92da08L => OpenSSL
+   0x92da48L => OpenSSL
+   0x92daabL => OpenSSL
+   0x93c354L => OpenSSL
+   0x93c374L => OpenSSL
+   0x93d6deL => OpenSSL
+   0x93e1a0L => OpenSSL
+   0x93effcL => OpenSSL
+   0x93f037L => OpenSSL
+   0x942bb4L => OpenSSL
+   0x942be4L => OpenSSL
+   0x942c74L => OpenSSL
+   0x942f7cL => OpenSSL
+   0x9430b8L => OpenSSL
+   0x943389L => OpenSSL
+   0x9433b4L => OpenSSL
+   0x9433e0L => OpenSSL
+   0x94712cL => OpenSSL
+   0x9474a6L => OpenSSL
+   0x947f3fL => OpenSSL
+   0x947f80L => OpenSSL
+   0x947fa9L => OpenSSL
+   0x949fd9L => OpenSSL
+   0x94b04cL => OpenSSL
+   0x94c175L => OpenSSL
+   0x94cb6dL => OpenSSL
+   0x94fd2cL => OpenSSL
+   0x94fd4dL => OpenSSL
+   0x94fde8L => OpenSSL
+   0x9503ddL => OpenSSL
+   0x9507dcL => OpenSSL
+   0x950878L => OpenSSL
+   0x9549d2L => OpenSSL
+   0x955102L => OpenSSL
+   0x955226L => OpenSSL
+   0x95544bL => OpenSSL
+YARA: irc
+   0x840d04L => join
+   0x888fa3L => join
+   0x8891ffL => join
+   0x820088L => msg
+   0x8200b1L => msg
+   0x9319bdL => msg
+   0x986f80L => msg
+   0x98719fL => msg
+   0x9871afL => MSG
+   0x931c7eL => Notice
+   0x946a1cL => Notice
+   0x9885f8L => NOTICE
+   0x84dcd0L => part
+   0x8f522eL => part
+   0x92b836L => part
+   0x92be0eL => part
+   0x92c106L => part
+   0x92c28bL => part
+   0x92ceb4L => part
+   0x92d89fL => part
+   0x92d8c8L => part
+   0x92d8f0L => part
+   0x92d935L => part
+   0x92da00L => part
+   0x92da40L => part
+   0x92daa3L => part
+   0x93d6d6L => part
+   0x93e198L => part
+   0x93f02fL => part
+   0x943381L => part
+   0x9433acL => part
+   0x9433d8L => part
+   0x947124L => part
+   0x94749eL => part
+   0x947f37L => part
+   0x947f78L => part
+   0x947fa1L => part
+   0x949fd1L => part
+   0x94b044L => part
+   0x94c16dL => part
+   0x94cb65L => part
+   0x94fd45L => part
+   0x9503d5L => part
+   0x9549caL => part
+   0x9550faL => part
+   0x95521eL => part
+   0x955443L => part
+   0x83d690L => Ping
+   0x83d6dcL => Ping
+   0x83d704L => Ping
+   0x868fc4L => Ping
+   0x868fe0L => Ping
+   0x868ffcL => Ping
+   0x86901cL => Ping
+   0x86903cL => Ping
+   0x878905L => Quit
+   0x928208L => QUIT
+   0x929138L => QUIT
+YARA: spam
+   0x9281dcL => RCPT TO:
+   0x9281ecL => RCPT TO:
+   0x9281a0L => MAIL FROM:
+   0x9281b8L => MAIL FROM:
+   0x9280b8L => EHLO 
+   0x927624L => Subject: 
+   0x9277d6L => subject: 
+   0x92b5a4L => Content-Disposition: attachment;
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa7f8a0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa7fd08 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa80690 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa81738 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa83ce0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa87f08 0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa913b0 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaa1bd8 0x25228  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xac6e00 0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa7f3c0 0x124    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa7f4e8 0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa7f5f8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa7f730 0xdc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa7f810 0x8e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xb08e28 0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 256-colors
+RT_VERSION         0xb09110 0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb08eb0 0x259    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x81a33c     0x81a400     6.749357    
+.rdata     0x81c000     0x194c6c     0x194e00     5.942160    
+.data      0x9b1000     0xcb680      0x2e000      5.635290    
+.trace     0xa7d000     0x1474       0x1600       5.180728    
+.rsrc      0xa7f000     0x8a2b0      0x8a400      5.411105    
+.reloc     0xb0a000     0x59cd0      0x59e00      5.886723    
+
+Version info
+================================================================================
+FileVersion: 4.3.2.96026
+Unity Version: 4.3.2f1_0517a5ae8669
+ProductVersion: 4.3.2.96026
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    41136 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     1177bbf7bd66c6bba5dec2321b911ea2
+SHA1:    3ab5cdeb62646e29c3bf388a8f75c78948c129cb
+ssdeep:  384:9/xHdGK81tLhBLVKS7xdgX2KJ9Yl6dnPU3SERztmbqCJstdMardz/JikPZ+bPZCf:THj81t/0qdcN6Iq8/P/m/iHEBWoD5
+Date:    0x575A1404 [Fri Jun 10 01:12:36 2016 UTC]
+EP:      0x407222 .text 0/3
+CRC:     Claimed: 0x17c92, Actual: 0x17c92 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8090   0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x849c   0x476    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5228       0x5400       4.891506    
+.rsrc      0x8000       0x918        0xa00        4.531737    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: InstallUtil.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: .NET Framework installation utility
+OriginalFilename: InstallUtil.exe
+Translation: 0x0409 0x04b0
+

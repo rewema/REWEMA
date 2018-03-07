@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61440 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     9091e617c948462a8775faa70933ea21
+SHA1:    dda76f32ab3f12965644509c9ff4ff21b359bfb6
+ssdeep:  768:nmOoGHeP1rK1iJSCL3tN1SDCQ4tEfi7MXMwf9jzpAXDRzDfjPS:nORKAz3tG34tEfo9O
+Date:    0x5789862E [Sat Jul 16 00:56:14 2016 UTC]
+EP:      0x4107b6 .text 0/3
+CRC:     Claimed: 0x1ed22, Actual: 0x1ed22 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x12058  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xe7bc       0xe800       5.930974    
+.rsrc      0x12000      0x3f8        0x400        3.305582    
+.reloc     0x14000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: tzsync.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TimeZone Sync Task
+OriginalFilename: tzsync.exe
+Translation: 0x0409 0x04b0
+

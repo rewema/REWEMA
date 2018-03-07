@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1700864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     630fb2477739ebab23ce84fdaffb9d5c
+SHA1:    3f3861613177602ae5648709e05191182b3b01b8
+ssdeep:  49152:gOGyLeF6yO7AoWvg7JGlhv3nLTh+E0cS1:CrO0n+uhv3
+Date:    0x57898EB7 [Sat Jul 16 01:32:39 2016 UTC]
+EP:      0x4bf4e0 .text 0/7
+CRC:     Claimed: 0x1a0721, Actual: 0x1a0721 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x196450 0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1960b0 0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf3834      0xf3a00      6.265152    
+.data      0xf5000      0x98cc0      0x98000      7.980471    [SUSPICIOUS]
+.idata     0x18e000     0x5944       0x5a00       5.732793    
+.didat     0x194000     0x34         0x200        0.405860    [SUSPICIOUS]
+.tls       0x195000     0x9          0x200        0.000000    
+.rsrc      0x196000     0x518        0x600        2.916452    
+.reloc     0x197000     0xd074       0xd200       6.587737    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: smartscreen.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: SmartScreen
+OriginalFilename: smartscreen.exe
+Translation: 0x0409 0x04b0
+

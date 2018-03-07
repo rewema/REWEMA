@@ -1,0 +1,77 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1708856 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     43f7305c2e5dd4a8f3c5abeb2ffe4833
+SHA1:    03bda624ab7f0d7cb9ada41a960c35c0152f98fd
+ssdeep:  49152:Ru0LSVHASxN9aD7sOP93ZPaZRNsa95ZN5T:o0mVgSxa872av9
+Date:    0x3A9EC590 [Thu Mar  1 21:56:32 2001 UTC]
+EP:      0x1005a8b .text 0/3
+CRC:     Claimed: 0x1a7b56, Actual: 0x1a7b56 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0xc7a0   0x2e1a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+RT_ICON            0xf5bc   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf8a4   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xf9cc   0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xfc98   0x18a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xfe24   0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xff64   0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x100fc  0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1020c  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10308  0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10394  0x520    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x108b4  0x5cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10e80  0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11330  0x44a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1177c  0x3ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x11b4c  0x43     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x11b90  0x19084f LANG_ENGLISH SUBLANG_ENGLISH_US       Microsoft Cabinet archive data, 1640527 bytes, 16 files
+RT_RCDATA          0x1a23e0 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       Applesoft BASIC program data
+RT_RCDATA          0x1a23e4 0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x1a2408 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x1a2410 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x1a2418 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x1a241c 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x1a2424 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x1a2428 0x31     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x1a245c 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x1a2460 0x2f     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x1a2490 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x1a2498 0x43     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_GROUP_ICON      0x1a24dc 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1a2500 0x6bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x85f2       0x8600       6.598627    
+.data      0xa000       0x1be4       0x400        4.184279    
+.rsrc      0xc000       0x196bbc     0x196c00     7.992169    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) Microsoft Corp. 2000
+InternalName: InstMsi.exe
+FileVersion: 2.0.2600.2
+CompanyName: Microsoft Corporation
+ProductName: Windows Installer
+ProductVersion: 2.0.2600.2
+FileDescription: Installer for the Windows Installer
+OriginalFilename: Msi.dll,MsiHnd.dll,MsiExec.exe
+Translation: 0x0409 0x04b0
+

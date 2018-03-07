@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38792 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1f8434dd4907c832e6e90d6298eab85b
+SHA1:    a2d14508b3edddf86d0d6672ee8f785d3cefd51b
+ssdeep:  768:6x9R10APKwfUn7RKCVNxyyqVr6fpbPcgRWEv2i/i1T1P9h1:e30AP3fUn7RKCVNIyqk9PcgdvBqTP9/
+Date:    0x5789910A [Sat Jul 16 01:42:34 2016 UTC]
+EP:      0x403110 .text 0/6
+CRC:     Claimed: 0x182a3, Actual: 0x182a3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xa758   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xa3a0   0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa0f0   0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4708       0x4800       5.966361    
+.data      0x6000       0x430        0x200        0.275711    [SUSPICIOUS]
+.idata     0x7000       0x1278       0x1400       4.776610    
+.didat     0x9000       0x14         0x200        0.212389    [SUSPICIOUS]
+.rsrc      0xa000       0x820        0xa00        3.717530    
+.reloc     0xb000       0x53c        0x600        6.201100    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: svchost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for Windows Services
+OriginalFilename: svchost.exe
+Translation: 0x0409 0x04b0
+

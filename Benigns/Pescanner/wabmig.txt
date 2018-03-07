@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     20f8ec18219b9a6043c4ea46f6d015fb
+SHA1:    d5fa5f1a2b9989580e56b8e20785d3730f5042c5
+ssdeep:  768:TaDOT0Y99VwhCnQeTF4Fs5p4+2KW0s20UiAT:TZRQeTF4A3WBVUZT
+Date:    0x5789912F [Sat Jul 16 01:43:11 2016 UTC]
+EP:      0x403a60 .text 0/5
+CRC:     Claimed: 0x13449, Actual: 0x13449 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x77a8   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7e10   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x80f8   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x82e0   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8408   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x92b0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9b58   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa220   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa788   0x33a5   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xdb30   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x100d8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11180  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11b08  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x11f70  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x12030  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7380   0x428    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3324       0x3400       6.060419    
+.data      0x5000       0x3c4        0x200        0.220113    [SUSPICIOUS]
+.idata     0x6000       0xae6        0xc00        4.767125    
+.rsrc      0x7000       0xb3f0       0xb400       6.238542    
+.reloc     0x13000      0x470        0x600        5.628995    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WABMIG.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft (R) Contacts Import Tool
+OriginalFilename: WABMIG.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16448 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f38fb008b3816d9585f10a7d2cc22df1
+SHA1:    478679c6c3497fd63203b0ec899b32002edc0c88
+ssdeep:  384:GpsIgvnvWdK3mSHhV8tkeencG+nYPLr7h:GpsZnuBS/8tBeMC7h
+Date:    0x57E48D0E [Fri Sep 23 02:01:50 2016 UTC]
+EP:      0x40137a .text 0/5
+CRC:     Claimed: 0xef2c, Actual: 0xef2c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x43d4   0x673    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8da        0xa00        5.671032    
+.rdata     0x2000       0x82a        0xa00        4.543601    
+.data      0x3000       0x3bc        0x200        0.897065    [SUSPICIOUS]
+.rsrc      0x4000       0xa48        0xc00        5.251034    
+.reloc     0x5000       0x1de        0x200        5.212139    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2016
+InternalName: orbd
+FileVersion: 8.0.1110.14
+Full Version: 1.8.0_111-b14
+CompanyName: Oracle Corporation
+ProductName: Java(TM) Platform SE 8
+ProductVersion: 8.0.1110.14
+FileDescription: Java(TM) Platform SE binary
+OriginalFilename: orbd.exe
+Translation: 0x0000 0x04b0
+

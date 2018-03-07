@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    858624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3fc5416fe141f45f9182994fffea8ffe
+SHA1:    42bb968dc1be90bfd09bbdf0e465b8ec64c394e1
+ssdeep:  24576:Yuu2S3uAcsM0EfDLbx5z4bbe3l2m4fxTTLVKuon7XzPJWefmUfuAQ:du2S3uUEfibe3l2m4fxTTLVKuon7XzPx
+Date:    0x57899218 [Sat Jul 16 01:47:04 2016 UTC]
+EP:      0x49d710 .text 0/6
+CRC:     Claimed: 0xd3859, Actual: 0xd3859 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xcb460  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xcb0b0  0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+OpenProcessToken
+StartServiceCtrlDispatcherW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbeb28      0xbec00      6.354380    
+.data      0xc0000      0x7670       0x6400       5.013165    
+.idata     0xc8000      0x18b0       0x1a00       5.529509    
+.tls       0xca000      0x2          0x200        0.000000    
+.rsrc      0xcb000      0x528        0x600        2.943619    
+.reloc     0xcc000      0xa250       0xa400       6.624518    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AgentService EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: AgentService EXE
+OriginalFilename: AgentService.exe
+Translation: 0x0409 0x04b0
+

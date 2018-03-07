@@ -1,0 +1,74 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    221184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a9a7478f7f414fb993959dc0fd3fbc63
+SHA1:    95b6c5a441c18ee96cfa3d0ed1416ee24c1e0c35
+ssdeep:  3072:S6fpUXKNEdxScI+LNQUTczLPD4fP7fojQoKNG9c8FxfO+GxlsV0ci8Z:SeJcI+LBTcPDAP7nNG7vfOu0
+Date:    0x5257BD88 [Fri Oct 11 08:57:44 2013 UTC]
+EP:      0x40adf8 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x3adb9 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x38120  0x134    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_CURSOR          0x38258  0xb4     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_BITMAP          0x38338  0x5e4    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_BITMAP          0x38a10  0xb8     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_BITMAP          0x38ac8  0x16c    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_BITMAP          0x38c38  0x144    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_ICON            0x37600  0x2e8    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_ICON            0x378e8  0x128    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x37a38  0xf2     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x37b30  0x84     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x38920  0xea     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x38d80  0x40     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x38dc0  0x58     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x38e18  0x2c     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x38e48  0x80     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x38ec8  0x1d0    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x391e8  0x11c    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x390e0  0x104    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x39098  0x44     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x39600  0x6e     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x39308  0x20e    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL DBase 3 index file
+RT_STRING          0x39518  0xe8     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL DBase 3 index file
+RT_STRING          0x39670  0x24     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_GROUP_CURSOR    0x38310  0x22     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL Lotus 1-2-3
+RT_GROUP_ICON      0x37a10  0x22     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x37bb8  0x338    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_MANIFEST        0x37ef0  0x22a    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x23d57      0x24000      6.596618    
+.rdata     0x25000      0x8954       0x9000       4.704403    
+.data      0x2e000      0x85c8       0x5000       2.305725    
+.rsrc      0x37000      0x2698       0x3000       4.168236    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2012
+InternalName: CmPost
+FileVersion: 1, 0, 0, 8
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: CmEnhance Application
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 8
+FileDescription: CmEnhance
+OriginalFilename: CmEnhance.EXE
+Translation: 0x0404 0x04b0
+

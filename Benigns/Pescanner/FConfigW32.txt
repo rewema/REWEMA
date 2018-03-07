@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    251392 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     aaed39d6e7e3ed70c01b37595adc5690
+SHA1:    845be9ac44e9cdb973607d9938e2f56662b5225c
+ssdeep:  6144:HK9OXPimrXkKPSGYY9ghT3N37v8pzv84Ln7PmcYaiH:HK9OXPg4LScBiH
+Date:    0x2C0      [Thu Jan  1 00:11:44 1970 UTC] [SUSPICIOUS]
+EP:      0x401280 .text 0/9
+CRC:     Claimed: 0x3d735, Actual: 0x3d735 
+
+TLS callbacks
+================================================================================
+    0x425830
+    0x4257e0
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x860fc  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x863e4  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x863f8  0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x31564      0x31600      5.983513    
+.data      0x33000      0x3e4        0x400        2.061813    
+.rdata     0x34000      0x8cfc       0x8e00       5.282486    
+.eh_fram   0x3d000      0xf58        0x1000       4.833238    
+.bss       0x3e000      0x44414      0x0          0.000000    [SUSPICIOUS]
+.idata     0x83000      0xda0        0xe00        5.111392    
+.CRT       0x84000      0x18         0x200        0.118370    [SUSPICIOUS]
+.tls       0x85000      0x20         0x200        0.225778    [SUSPICIOUS]
+.rsrc      0x86000      0x6f0        0x800        3.219798    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1991 - 2017 FMail developers
+InternalName: fconfig
+FileVersion: 2.0.1.2
+CompanyName: FMail GPL
+ProductName: FMail
+ProductVersion: 2.0
+FileDescription: FConfig: FMail configuration util
+OriginalFilename: FConfigW32.exe
+Translation: 0x0413 0x04e4
+

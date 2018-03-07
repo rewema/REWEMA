@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    400896 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bfade4f11284f924147c108378243ab8
+SHA1:    c570dfa5060e29d6d08b1aabd435c8c94477f758
+ssdeep:  6144:k3eAce3NhyfvVmL6yKWgUu/laUj07ZOBf0xS5Fm:k3eAce9kfvVmLXKWgUu/l3jv9F
+Date:    0x57898EDE [Sat Jul 16 01:33:18 2016 UTC]
+EP:      0x449ac0 .text 0/5
+CRC:     Claimed: 0x68f5e, Actual: 0x68f5e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0x59eb8  0x4000   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 75 x 13, 5.00 fps, video:
+MUI                0x5deb8  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x57fa0  0x122a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x591d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x594b8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x59d60  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x59e88  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_VERSION         0x57bf8  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x572b0  0x947    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4d3c0      0x4d400      6.352486    
+.data      0x4f000      0x35e4       0x3000       4.958153    
+.idata     0x53000      0x3f4e       0x4000       5.696890    
+.rsrc      0x57000      0x6fb8       0x7000       4.135083    
+.reloc     0x5e000      0x643c       0x6600       6.737281    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sysprep.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: System Preparation Tool
+OriginalFilename: sysprep.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    178848 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2c23d6223d4aff81ac137b6989bce05c
+SHA1:    fe41e35485d4c5b61ec555c1c38965f837759585
+ssdeep:  3072:+isFHxitJ/UPSTEzl0p9JzK/ZUFhLw6wDmXntsaVK/Ea:HsFMtZUOtz/hHtFc
+Date:    0x5772B754 [Tue Jun 28 17:43:48 2016 UTC]
+EP:      0x409bbe .text 0/4
+CRC:     Claimed: 0x3494d, Actual: 0x3494d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2c0a0  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2c3c8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17ac1      0x17c00      6.609510    
+.rdata     0x19000      0xd5ac       0xd600       4.734766    
+.data      0x27000      0x429c       0x2000       2.952006    
+.rsrc      0x2c000      0x548        0x600        3.777699    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2000-2016 Mark Russinovich
+InternalName: PsList
+FileVersion: 1.4
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals pslist
+ProductVersion: 1.4
+FileDescription: Process information lister
+OriginalFilename: pslist.exe
+Translation: 0x0409 0x04b0
+

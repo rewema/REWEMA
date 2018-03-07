@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    51472 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7a7935b7bde566ac60b5ef995b9daf83
+SHA1:    0cd6bdba0b73eb5e26780b3dfc09d32015aac35f
+ssdeep:  768:Zb6dZtmPN79giyntnMq59ZyTj5s1RaDX07KOxzdbveEK0iL:h61ONKi+tndPhRAuNdidh
+Date:    0x3847C860 [Fri Dec  3 13:40:48 1999 UTC] [SUSPICIOUS]
+EP:      0x4017e0 .text 0/4
+CRC:     Claimed: 0x12a19, Actual: 0x12a19 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xf150   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf438   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xf560   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x10408  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_VERSION         0x10438  0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7412       0x7600       6.363252    
+.rdata     0x9000       0x130e       0x1400       4.993606    
+.data      0xb000       0x33b4       0x2200       2.094480    
+.rsrc      0xf000       0x1740       0x1800       3.128539    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Microsoft Corp. 
+InternalName: HHC 1.3
+FileVersion: 4.74.8702
+CompanyName: Microsoft Corporation
+ProductName: HTML Help
+ProductVersion: 4.74.8702
+FileDescription: Microsoft\xae HTML Help Compiler
+OriginalFilename: HHC.exe
+Translation: 0x0409 0x04e4
+

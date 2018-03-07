@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    27360 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     74757276c87549563cc9e2791791c5ba
+SHA1:    7a9b4c5f1eeb7db97d6068c58b29268117134ced
+ssdeep:  384:+6x7h6rI4W+T+L+XRr4uUk3BWo0WZ7dlRDBRJdh3lgHrhQbs:+6x7khW+6Tk3dl1PYr+s
+Date:    0x57899150 [Sat Jul 16 01:43:44 2016 UTC]
+EP:      0x403280 .text 0/6
+CRC:     Claimed: 0x121c9, Actual: 0x121c9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x7340   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70a0   0x29d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2b1c       0x2c00       5.995858    
+.imrsiv    0x4000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x5000       0x458        0x200        0.322488    [SUSPICIOUS]
+.idata     0x6000       0x842        0xa00        4.397277    
+.rsrc      0x7000       0x6f0        0x800        3.968883    
+.reloc     0x8000       0x3f0        0x400        6.576630    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: PrintDialogHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Print Dialog Host
+OriginalFilename: PrintDialogHost.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29184 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     d99377a3cc218a71e27dfa4c6c4892a4
+SHA1:    7cfec219d13ab5f4cf526fc159bbcb1656e11dd4
+ssdeep:  768://oPP271WqFL6RPh6sl1GRliZz0ZdQGde:H4P2ZPFePhRl1GGAZdQGd
+Date:    0x5789916C [Sat Jul 16 01:44:12 2016 UTC]
+EP:      0x405270 .text 0/5
+CRC:     Claimed: 0x984b, Actual: 0x984b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9780   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x93d0   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x2dd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x49dc       0x4a00       6.209039    
+.data      0x6000       0x394        0x200        0.183339    [SUSPICIOUS]
+.idata     0x7000       0x10b8       0x1200       4.755550    
+.rsrc      0x9000       0x848        0xa00        3.821877    
+.reloc     0xa000       0x41c        0x600        5.182745    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ipconfig.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: IP Configuration Utility
+OriginalFilename: ipconfig.exe
+Translation: 0x0409 0x04b0
+

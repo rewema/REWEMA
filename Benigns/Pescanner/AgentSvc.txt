@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     823079c4ff6ce5ab1c61a332ffa8918e
+SHA1:    a02dd8ece4fdfd571dfde7bc31ae169cda5520e3
+ssdeep:  1536:nNepdRKLBEmfkMbva9kchkniTO/8AY2zAOHE2wMwx:0pdR+SMNKkniTRYAOHE2+
+Date:    0x578DDF08 [Tue Jul 19 08:04:24 2016 UTC]
+EP:      0x40b64a .text 0/5
+CRC:     Claimed: 0x1af21, Actual: 0x1af21 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+NDKRES             0x12104  0x125    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with no line terminators
+RT_VERSION         0x1222c  0x2e4    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_MANIFEST        0x12510  0x391    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+CreateServiceW
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb67f       0xb800       6.482672    
+.rdata     0xd000       0x3544       0x3600       4.796046    
+.data      0x11000      0x5ec        0x200        3.215241    
+.rsrc      0x12000      0x8a4        0xa00        5.344985    
+.reloc     0x13000      0x10d4       0x1200       5.753501    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Panda 2016
+InternalName: AgentSvc.exe
+FileVersion: 1.3.8.0
+CompanyName: Panda Security, S.L.
+ProductName: Cloud Antivirus Platform
+ProductVersion: 1.3.8.0
+FileDescription: Agent Service
+OriginalFilename: AgentSvc.exe
+Translation: 0x0409 0x04b0
+

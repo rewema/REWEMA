@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25600 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e980045e1ed57b47839435f6808dcc66
+SHA1:    ecdb84c9077b8ccfe2368bd0aed85db951754f3f
+ssdeep:  384:c7082UsKmxMDv+ibFRcws23XgOYeMhX1Q1P2IRCggS5b4slkKp6WFvDW:c7082UlU7ws8wst2ICggSmslBpJ
+Date:    0x57898EAC [Sat Jul 16 01:32:28 2016 UTC]
+EP:      0x404390 .text 0/5
+CRC:     Claimed: 0x14cdc, Actual: 0x14cdc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9770   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x93a0   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4084       0x4200       6.010590    
+.data      0x6000       0x11dc       0x200        2.016400    
+.idata     0x8000       0xad0        0xc00        4.835085    
+.rsrc      0x9000       0x838        0xa00        3.764937    
+.reloc     0xa000       0x4e4        0x600        5.782751    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: GPUpdate.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Group Policy Update Utility
+OriginalFilename: GPUpdate.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8ca6d537fd710ac4a2e5668877345c12
+SHA1:    9b170284524aef2c12f712a6169948f5748cac61
+ssdeep:  384:SxaLJouSQZtCJcKChCK8g6NSdXggoC5sxQ7pXpOWalW:SxaSlKkChCNwWLelXo
+Date:    0x57899129 [Sat Jul 16 01:43:05 2016 UTC]
+EP:      0x403410 .text 0/5
+CRC:     Claimed: 0xd066, Actual: 0xd066 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7760   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73c8   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2d1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2a74       0x2c00       6.096187    
+.data      0x4000       0x16a8       0x200        1.496360    
+.idata     0x6000       0xae8        0xc00        4.489818    
+.rsrc      0x7000       0x828        0xa00        3.773619    
+.reloc     0x8000       0x2cc        0x400        5.254638    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ping.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCP/IP Ping Command
+OriginalFilename: ping.exe
+Translation: 0x0409 0x04b0
+

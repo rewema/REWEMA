@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b5fc377264fa8a21a288e642dbd7c950
+SHA1:    aa60a9cbf75954e3e5cc822e1a30351c52a7a9c1
+ssdeep:  384:zq90TeLzSYog4cmFzNTXqkLtPyrRf0EvyzH+KKVnklzkh7W:XtLNyVf0WyzeZYYa
+Date:    0x4884D6E4 [Mon Jul 21 18:35:16 2008 UTC]
+EP:      0x405c8e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x16940 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6058   0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3c94       0x4000       5.114887    
+.rsrc      0x6000       0x330        0x1000       0.832859    [SUSPICIOUS]
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 . 2008
+Assembly Version: 1.0.0.0
+InternalName: RadioTime.exe
+FileVersion: 1.0.0.0
+CompanyName: .
+ProductName: RadioTime
+ProductVersion: 1.0.0.0
+FileDescription: RadioTime
+OriginalFilename: RadioTime.exe
+

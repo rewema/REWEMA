@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21304 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e76e143d609fc80beeb8ed470cdefa3a
+SHA1:    e13d593d181fab4b9255f5bc70ba6b95168f3c19
+ssdeep:  384:JqJh9u7Lfh66FVpQzPVW9nUcGcoYhJdrjwtI5x74:4JhaJP4PVW9nUcGco6ju04
+Date:    0x544640B3 [Tue Oct 21 11:17:07 2014 UTC]
+EP:      0x40494e .text 0/3
+CRC:     Claimed: 0x7744, Actual: 0x7744 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6620   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x6748   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x6a30   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x6160   0x4c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x6a58   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2954       0x2a00       5.305542    
+.rsrc      0x6000       0xc48        0xe00        3.719402    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright 2012-2014, van Ettinger Information Technology, Lopik, The Netherlands
+Copyright 2008-2010, Thoraxcentrum, Erasmus MC, Rotterdam, The Netherlands
+Assembly Version: 2.4.5407.22113
+InternalName: ECGTool.exe
+FileVersion: 2.4.5407.22113
+CompanyName: van Ettinger Information Technology
+Comments: ECGTool based on framework for ECG Conversion
+ProductVersion: 2.4.5407.22113
+FileDescription: ECGTool based on ECGConversion
+OriginalFilename: ECGTool.exe
+

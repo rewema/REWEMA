@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    93696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5f6777b960f0c48979d682d0eb2379fe
+SHA1:    45deab1a8e3ae672a4e86ba576d7d797da4d3504
+ssdeep:  1536:YNJ4VkM7sLlB2J7XYDOF4IQPt7wh0fDM6hp859l0Y:cJ4VkM4LloJ7XoOFMtUC46hpql0
+Date:    0x4A5BC962 [Mon Jul 13 23:55:14 2009 UTC]
+EP:      0x100fc9a .text 0/4
+CRC:     Claimed: 0x1727b, Actual: 0x1727b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x168f0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x15fc8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x15778  0x67c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x15df8  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x15ee0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16118  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16400  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_CURSOR    0x16100  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x16528  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x16550  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x15300  0x473    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x12d48      0x12e00      6.026769    
+.data      0x14000      0xb74        0x600        4.060668    
+.rsrc      0x15000      0x19e8       0x1a00       4.657368    
+.reloc     0x17000      0x1c00       0x1c00       6.064532    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: evntwin.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Event Translator Config Tool
+OriginalFilename: evntwin.exe
+Translation: 0x0409 0x04b0
+

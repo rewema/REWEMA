@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    81408 bytes
+Type:    PE32 executable for MS Windows (native) Intel 80386 32-bit
+MD5:     3eb9deb95b802352706f93ee68acf368
+SHA1:    3d7eb47a8db2bf3ef74df314158aa13c84b1a221
+ssdeep:  1536:/96GKS6b1f58WvtvnOJt2Bdyz5DpXcetft1afC:/96GKS6bgPSde5lcva
+Date:    0x57898F10 [Sat Jul 16 01:34:08 2016 UTC]
+EP:      0x405700 .text 0/5
+CRC:     Claimed: 0x18f25, Actual: 0x18f25 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x155a0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x14770  0xe2e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x143d8  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x14160  0x273    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10986      0x10a00      6.481880    
+.data      0x12000      0x3a8        0x200        0.118370    [SUSPICIOUS]
+.idata     0x13000      0x8f6        0xa00        5.152487    
+.rsrc      0x14000      0x1688       0x1800       3.970961    
+.reloc     0x16000      0xaa4        0xc00        6.383650    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Setupcl.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: System Clone Tool
+OriginalFilename: Setupcl.EXE
+Translation: 0x0409 0x04b0
+

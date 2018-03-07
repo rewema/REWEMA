@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    39424 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     25049592e0f21d6dc63569731c3dd244
+SHA1:    dabcdc53ed62044a77edd378c7375a343e8f3418
+ssdeep:  384:bE28bmDnHPoFT8i8MlhsXD5Ge3XS3YvWh4bW4DlZrxYvXq0gEbNB7u49E7WFJW/V:F8AnvuoDMoDv3XyT4hfrxpYREOIV
+Date:    0x57898D8C [Sat Jul 16 01:27:40 2016 UTC]
+EP:      0x407900 .text 0/5
+CRC:     Claimed: 0x189fc, Actual: 0x189fc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb910   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xb580   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0xb0f0   0x48c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x70a4       0x7200       6.282491    
+.data      0x9000       0x404        0x200        0.220113    [SUSPICIOUS]
+.idata     0xa000       0xc54        0xe00        4.796661    
+.rsrc      0xb000       0x9d8        0xa00        4.635243    
+.reloc     0xc000       0x9b0        0xa00        6.652689    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RdpSa.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: RDP Session Agent
+OriginalFilename: RdpSa.exe
+Translation: 0x0409 0x04b0
+

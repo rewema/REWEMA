@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1082368 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     84c552abc2d027a867b1f3bfb8a1b5b1
+SHA1:    92345c8e2789a40efa5881fc58a82810e575a983
+ssdeep:  12288:dIeHb5O97aPqyBrpNUST/6j/TnHeCn/ikPtgsxP4pw2Gm1w:dIob5VPqqNj63Xn/ikPtgsxP42Uu
+Date:    0x55FC05E6 [Fri Sep 18 12:39:02 2015 UTC]
+EP:      0x50907e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x10cd55 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x10c388 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x10c7f0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x10c0e8 0x2a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x107084     0x107200     6.091663    
+.sdata     0x10a000     0x138        0x200        1.901139    
+.rsrc      0x10c000     0x808        0xa00        3.037262    
+.reloc     0x10e000     0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2015
+Assembly Version: 1.0.0.0
+InternalName: dex3d2.exe
+FileVersion: 1.0.0.0
+ProductName: dex3d2
+ProductVersion: 1.0.0.0
+FileDescription: dex3d2
+OriginalFilename: dex3d2.exe
+

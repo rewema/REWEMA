@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    330056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d09c02a3d0f6f3f8fa4296df3149dfa3
+SHA1:    689ebf15b7f9ab98d6d5d1ea9d17daffd4394703
+ssdeep:  6144:o3fzRHLWYBcWdJK+Fp5shsx/zsD7azWKhGi5ClHCJVXGuuaFz+:o3rVV9asx/YmWKYi5CZCnXGraFK
+Date:    0x57898F73 [Sat Jul 16 01:35:47 2016 UTC]
+EP:      0x415430 .text 0/7
+CRC:     Claimed: 0x5c128, Actual: 0x5c128 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4e330  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43758  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x47980  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x49f28  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4b990  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ca38  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d3c0  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4da78  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4dee0  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 64x64, 256-colors
+RT_VERSION         0x4df48  0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x432b0  0x4a5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3cccc      0x3ce00      6.477679    
+.imrsiv    0x3e000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x3f000      0xbf9        0x400        3.871429    
+.idata     0x40000      0x1bca       0x1c00       5.431762    
+.didat     0x42000      0xb8         0x200        1.563853    
+.rsrc      0x43000      0xb400       0xb400       1.702400    
+.reloc     0x4f000      0x32e8       0x3400       6.728243    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TabTip.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 10.0.14393.0
+FileDescription: Touch Keyboard and Handwriting Panel
+OriginalFilename: TabTip.exe
+Translation: 0x0409 0x04b0
+

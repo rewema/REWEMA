@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    60928 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a37e8d002342bd7e97de293f99f4f2d4
+SHA1:    222c05fe8ea7ccf2f2ef3a4c3514803ccce103ac
+ssdeep:  1536:nPwnesG3flOxIO4j1+wwYdaXvGDx5ecumZ:nPwn3MtOW5FV
+Date:    0x578990D5 [Sat Jul 16 01:41:41 2016 UTC]
+EP:      0x40bb20 .text 0/6
+CRC:     Claimed: 0x151f6, Actual: 0x151f6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x11718  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x11368  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x110f0  0x277    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbf54       0xc000       6.397524    
+.data      0xd000       0x488        0x200        0.383365    [SUSPICIOUS]
+.idata     0xe000       0x1018       0x1200       4.695482    
+.didat     0x10000      0xf0         0x200        1.937918    
+.rsrc      0x11000      0x7e0        0x800        4.277744    
+.reloc     0x12000      0xb08        0xc00        6.460451    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DrvCfg.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Driver Configuration Module
+OriginalFilename: DrvCfg.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    931690 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     1074d529d8fc97c042a1ec25c8a77d0a
+SHA1:    4140084c23d64f54bb074c496650e2af7695d82b
+ssdeep:  24576:80y4KBkEi/ExoczLgjOVsOGw0DWV/AEVHUyH6Urfq2A:vy4TSnLgjO6rDWVgEfqz
+Date:    0x41729FA5 [Sun Oct 17 16:36:53 2004 UTC]
+EP:      0x401240 .text 0/7
+CRC:     Claimed: 0xf0581, Actual: 0xf0581 
+Packers: FreeBASIC 0.16b
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xb9058  0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x61e48      0x62000      6.561838    
+.data      0x63000      0x2fbe4      0x2fc00      7.129341    [SUSPICIOUS]
+.bss       0x93000      0x23e60      0x0          0.000000    [SUSPICIOUS]
+.idata     0xb7000      0x1654       0x1800       4.883636    
+.rsrc      0xb9000      0x2d4        0x400        2.401602    
+.stab      0xba000      0x182b8      0x18400      3.348764    
+.stabstr   0xd3000      0x6f4b       0x7000       5.116432    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 
+FileDescription: Developed using the Dev-C++ IDE
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

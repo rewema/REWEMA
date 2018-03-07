@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    179712 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9ed42bd1bb753c5a6638e35e005d09af
+SHA1:    bdfb1ad26bda86b9d02ea174901cad17f1c649c7
+ssdeep:  3072:vadu2jMj9cPYpoFEoQOQ2m2LH2QzaRZwHbKSZvKv+X9GpSVrGNLCu1x9NJSGW:vCQOQ2h6NSZKQGSxod9W
+Date:    0x578990C5 [Sat Jul 16 01:41:25 2016 UTC]
+EP:      0x426370 .text 0/6
+CRC:     Claimed: 0x3af09, Actual: 0x3af09 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2d758  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2d3b8  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2d0f0  0x2c1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x26848      0x26a00      6.397988    
+.data      0x28000      0x108c       0xa00        0.354483    [SUSPICIOUS]
+.idata     0x2a000      0x13e6       0x1400       5.350783    
+.didat     0x2c000      0xd8         0x200        1.697188    
+.rsrc      0x2d000      0x820        0xa00        3.767577    
+.reloc     0x2e000      0x2570       0x2600       6.706075    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: InstallAgent
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: InstallAgent
+OriginalFilename: InstallAgent.exe
+Translation: 0x0409 0x04b0
+

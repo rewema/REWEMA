@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    47104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bcfbded6a81c7119089e1454997f44c3
+SHA1:    a49a0cf948155bd866d88253da3e443086d2977a
+ssdeep:  768:PMoZrjHpb3tbZ5+2cSi+/pC6S9nJg+jfoghjjoiSi6nfkunHdofjaEObi:PMcrjHlgd+/peg+Loghjanfksdofjax
+Date:    0x57898D8C [Sat Jul 16 01:27:40 2016 UTC]
+EP:      0x407d00 .text 0/5
+CRC:     Claimed: 0xdb72, Actual: 0xdb72 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd318   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0xc838   0x16d    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xc9a8   0x29f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0xcc48   0x6d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc490   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc1e0   0x2aa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x848c       0x8600       6.093084    
+.data      0xa000       0x594        0x200        2.161589    
+.idata     0xb000       0xc46        0xe00        4.901558    
+.rsrc      0xc000       0x1400       0x1400       4.730965    
+.reloc     0xe000       0x960        0xa00        6.500712    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TSThemeS.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TSTheme Server Module
+OriginalFilename: TSThemeS.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    307200 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9172a99f8702a6e32ea7239eaadb7044
+SHA1:    5e563877ad6d57850a1197327a1f6505f8e6942c
+ssdeep:  6144:kfmJHrsQXkVL15xxpcbQoIK8xnKR2hzX68ZWI:kOxrsg4lOqK8xKR2hzX68
+Date:    0x4E1C92B0 [Tue Jul 12 18:30:08 2011 UTC]
+EP:      0x42c376 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x4d0ea [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4e450  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4e578  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e860  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4eec8  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4ef78  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f0a8  0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f438  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4f560  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f848  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4feb0  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4ff60  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50090  0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x505b8  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x50630  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x50420  0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x506f0  0xcc8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4f3d8  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x503c0  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x513b8  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x516c0  0x4d4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x332b1      0x34000      6.579352    
+.rdata     0x35000      0x107ce      0x11000      5.517345    
+.data      0x46000      0x7744       0x1000       3.680674    
+.rsrc      0x4e000      0x3b98       0x4000       3.870756    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997-2011 Simon Tatham.
+InternalName: PuTTYtel
+FileVersion: Release 0.61
+CompanyName: Simon Tatham
+ProductName: PuTTY suite
+ProductVersion: Release 0.61
+FileDescription: Telnet and Rlogin client
+OriginalFilename: PuTTYtel
+Translation: 0x0809 0x04b0
+

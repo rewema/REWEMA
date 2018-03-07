@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     873a0a5eb438348909f82fa1aa0281b7
+SHA1:    f44c0690aaac3028d8062e6a95c7037d46ccc339
+ssdeep:  768:sJZgdW8svr5LzVVBecn7OgqHTg+Vlx5zOsYKUYQNhqQ1cF6VV+oDUQ3iUUUUUUUq:4Pvr5nVycoHTfFysYgkdcFtofk
+Date:    0x3D566C75 [Sun Aug 11 13:53:57 2002 UTC]
+EP:      0x404143 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1f0f5 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x312f0  0x2e8    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0x31130  0x1c0    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_GROUP_ICON      0x315d8  0x14     LANG_ITALIAN SUBLANG_ITALIAN          MS Windows icon resource - 1 icon
+RT_VERSION         0x315f0  0x388    LANG_ITALIAN SUBLANG_ITALIAN          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8e24       0x9000       6.590973    
+.rdata     0xa000       0xfa0        0x1000       5.306356    
+.data      0xb000       0x25e6c      0x4000       2.008991    
+.rsrc      0x31000      0x978        0x1000       2.264885    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002 Francesco Picasso
+InternalName: relay6
+FileVersion: 3, 0, 0, 0
+CompanyName: cOc
+PrivateBuild: 
+LegalTrademarks: 
+Comments: THE tcp/ipv* to tcp/ipv* bouncer
+ProductName: cOc relay6
+SpecialBuild: 
+ProductVersion: 3, 0, 0, 0
+FileDescription: relay6
+OriginalFilename: relay6.exe
+Translation: 0x0410 0x04b0
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b6c8cdfa3eda9d5f6fc80b115b62526f
+SHA1:    b186c8de8cfd55fcc0008cbbc5458f5f85014b43
+ssdeep:  768:kTic6CPbd0hHLf+WwKNWGup13loBlgm1PoLrbf:kTVRPbSJ1XU3loBlLPsrj
+Date:    0x57898F91 [Sat Jul 16 01:36:17 2016 UTC]
+EP:      0x404760 .text 0/6
+CRC:     Claimed: 0x12d43, Actual: 0x12d43 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9c08   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x9a38   0x1ce    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF, CR line terminators
+RT_VERSION         0x9688   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9150   0x531    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x44f4       0x4600       5.836460    
+.imrsiv    0x6000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x7000       0xdd4        0x200        4.179250    
+.idata     0x8000       0xbc2        0xc00        5.273214    
+.rsrc      0x9000       0xce0        0xe00        4.491645    
+.reloc     0xa000       0x630        0x800        5.726229    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SYSRESETERREXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows System Reset
+OriginalFilename: SysResetErr.exe
+Translation: 0x0409 0x04b0
+

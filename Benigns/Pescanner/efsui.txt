@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bd235078c83318e2c548fb229fbae663
+SHA1:    5faf69f5ff51dbe60cd447904ef9308f3f2d8d34
+ssdeep:  192:WVe69zdqvN9RDstPHdweX2JqxT9DFAzoDc1TS2kTZWSsRW5jXC:WVJQvN9RDstP5X2E/A8gSxTZWSsRWx
+Date:    0x57899199 [Sat Jul 16 01:44:57 2016 UTC]
+EP:      0x401e20 .text 0/5
+CRC:     Claimed: 0x788e, Actual: 0x788e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5430   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50a0   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1694       0x1800       5.760839    
+.data      0x3000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x872        0xa00        4.358155    
+.rsrc      0x5000       0x7c0        0x800        4.510777    
+.reloc     0x6000       0x1d8        0x200        6.082074    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: efsui
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: EFS UI Application
+OriginalFilename: efsui.exe
+Translation: 0x0409 0x04b0
+

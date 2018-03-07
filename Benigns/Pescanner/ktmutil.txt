@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15872 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     31ce8a6d06a07cea3fdf30850de1a879
+SHA1:    679bd65109b5b2787c0bd302aaeb8fce57baef15
+ssdeep:  192:ePWd2FYLuezTfOywJk/lPpeH9YXEuSsTtj/IBulj1WavTInklAW8jWj5KiaC:eP92p/Oywuto9YXEtWtj/fgtkWW8jW9
+Date:    0x57898ED8 [Sat Jul 16 01:33:12 2016 UTC]
+EP:      0x4027c0 .text 0/5
+CRC:     Claimed: 0x98bf, Actual: 0x98bf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5768   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x53a8   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x2b6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e2c       0x2000       5.729730    
+.data      0x3000       0x414        0x200        1.482928    
+.idata     0x4000       0x858        0xa00        4.508688    
+.rsrc      0x5000       0x830        0xa00        3.765911    
+.reloc     0x6000       0x2c4        0x400        5.198179    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ktmutil.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Kernel Transaction Management Utility
+OriginalFilename: ktmutil.exe
+Translation: 0x0409 0x04b0
+

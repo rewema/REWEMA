@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    339968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     cdab907fe5fbf5fe1df023a4fadb6efd
+SHA1:    927f8946f8170209e87ace1ea9c69761baebfc6d
+ssdeep:  1536:oW0jOsVzJq8Qp6dBRAVP6ykF5zMiJ1kaciYL/nWGxyW8IAw+1mL1A8xk:oWO68Qc1+P6ykF5z91ko4nZx/827PC
+Date:    0x4867212E [Sun Jun 29 05:44:14 2008 UTC]
+EP:      0x45123e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x5cc44 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x524f0  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x527d8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x52900  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x52118  0x3d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4f244      0x50000      5.534911    
+.rsrc      0x52000      0x928        0x1000       2.240728    
+.reloc     0x54000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Kunwar Yashraj Singh
+Assembly Version: 1.0.3102.20227
+InternalName: Extend.exe
+FileVersion: 1.0.3102.20227
+CompanyName: Yashraj Softwares
+LegalTrademarks:  
+Comments: Yashraj Softwares Extend.NET
+ProductName: Yashraj Softwares
+ProductVersion: 1.0.3102.20227
+FileDescription: Yashraj Softwares Extend
+OriginalFilename: Extend.exe
+

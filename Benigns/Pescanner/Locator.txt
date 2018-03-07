@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9216 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b9b285fa98f1f2575fa6e4bdc2a80a06
+SHA1:    758c88c96726b4b467411948d18dd392e23f546e
+ssdeep:  192:EDNWk7mBDbXAe9TMWb+taVa1F18oDnoJe1kDNkWrlWneC:EhWVBDbXHRMWbiak/1Zn1CDCWrlW
+Date:    0x57898F04 [Sat Jul 16 01:33:56 2016 UTC]
+EP:      0x4017c0 .text 0/5
+CRC:     Claimed: 0xac84, Actual: 0xac84 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4720   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x4390   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40f0   0x29d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdec        0xe00        5.662291    
+.data      0x2000       0x3a8        0x200        0.296026    [SUSPICIOUS]
+.idata     0x3000       0x5ba        0x600        4.592979    
+.rsrc      0x4000       0x7e8        0x800        4.307695    
+.reloc     0x5000       0x184        0x200        5.230108    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: locator.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Rpc Locator
+OriginalFilename: locator.exe
+Translation: 0x0409 0x04b0
+

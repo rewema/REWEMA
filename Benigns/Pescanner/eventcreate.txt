@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    33792 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8792d807006c5fbc5b9b9b3e8393823e
+SHA1:    3c2de87d328d68beea122c1cd24444785b075753
+ssdeep:  768:tYg9NYCkzlv6W+WmIpylh6RyTqsx7LU7S8dapAA:tYg9vkZJSkw+67L6S8apAA
+Date:    0x57898FD1 [Sat Jul 16 01:37:21 2016 UTC]
+EP:      0x406860 .text 0/5
+CRC:     Claimed: 0x16edf, Actual: 0x16edf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x97a8   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x93b8   0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x2c7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5efc       0x6000       6.259077    
+.data      0x7000       0x4bc        0x200        0.595374    [SUSPICIOUS]
+.idata     0x8000       0xdbc        0xe00        5.058727    
+.rsrc      0x9000       0x878        0xa00        3.812142    
+.reloc     0xa000       0x560        0x600        6.341280    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: eventcreate.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Event Create - Creates a custom event in an event log
+OriginalFilename: evcreate.exe
+Translation: 0x0409 0x04b0
+

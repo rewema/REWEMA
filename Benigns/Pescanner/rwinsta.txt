@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7cf7a16e8e5c70d95d9658c0bdd6ff8c
+SHA1:    ff18b0a8da344759f3b8d677bb723a8e42ca49d7
+ssdeep:  384:ZCB2LyLQlg9a0nSESiaEXCtf/nE8onWpZWm:ZtykSXGomL
+Date:    0x57898D8B [Sat Jul 16 01:27:39 2016 UTC]
+EP:      0x403ad0 .text 0/5
+CRC:     Claimed: 0x1138a, Actual: 0x1138a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8738   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a0   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x31f4       0x3200       6.272321    
+.data      0x5000       0x1662       0x200        0.718687    [SUSPICIOUS]
+.idata     0x7000       0x7f4        0x800        4.990281    
+.rsrc      0x8000       0x800        0x800        4.346385    
+.reloc     0x9000       0x340        0x400        5.789723    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: rwinsta
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Reset Session Utility
+OriginalFilename: rwinsta.exe
+Translation: 0x0409 0x04b0
+

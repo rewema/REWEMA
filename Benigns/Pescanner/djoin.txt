@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    67072 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     6805ab83cb4a6be7028bf36c33e662a0
+SHA1:    a4363d9065b1864aa5e99d0820cbaf4554e8a400
+ssdeep:  768:XIzslOiCla9ClRpt+oaufMXWTKa1iECEggObhhbjVaPRQJ68OO64:0GT1C3+oaukXWTKEiJ2khZIPRQJJ6
+Date:    0x578990EF [Sat Jul 16 01:42:07 2016 UTC]
+EP:      0x409bb0 .text 0/6
+CRC:     Claimed: 0x1c216, Actual: 0x1c216 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1b6a0  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b448  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b4d0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b608  0x96     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x17978  0x3acc   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x175a8  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x171e0  0x3c3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9524       0x9600       5.792562    
+.data      0xb000       0x8784       0x400        2.333744    
+.idata     0x14000      0x13f6       0x1400       5.218869    
+.didat     0x16000      0x8          0x200        0.057257    [SUSPICIOUS]
+.rsrc      0x17000      0x4778       0x4800       3.664661    
+.reloc     0x1c000      0x944        0xa00        6.505107    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: djoin.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Unattended Setup Generic Command For Domain Join
+OriginalFilename: djoin.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     653e1903e0631f92f56a82c1ad5ec10e
+SHA1:    31a0f347654476b2c7629349612c748c04b13176
+ssdeep:  192:1kabWxR3m9sI4eVut4yZ4wx92DhFdR+K:1ku1FV24yhx0hbR+K
+Date:    0x4A13F06D [Wed May 20 11:58:37 2009 UTC]
+EP:      0x401254 .text 0/3
+CRC:     Claimed: 0xccc3, Actual: 0xccc3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4774   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x448c   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4364   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4334   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x4150   0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1970       0x2000       4.550475    
+.data      0x3000       0x2cc        0x1000       0.000000    
+.rsrc      0x4000       0x8a4        0x1000       1.843780    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+ProductVersion: 1.00
+InternalName: CreatePB
+FileVersion: 1.00
+OriginalFilename: CreatePB.exe
+ProductName: CreatePB
+

@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    163907 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     addca290ae6a0ea835af09f9cc3bb588
+SHA1:    a274d9ce0732176f4ba7eee15949a9cf8a330c04
+ssdeep:  3072:admSrsVBBMjpwnkiBJjAHW2JOVcmbs5uUoUVJ:admecgpwnkGjAHSA
+Date:    0x38077E03 [Fri Oct 15 19:18:27 1999 UTC] [SUSPICIOUS]
+EP:      0x401d30 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x2a388 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x30a48  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x30b70  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x303b0  0x698    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x313c8  0x114    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x314e0  0x2c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x317a0  0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x318d0  0x96     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x30e58  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x30e80  0x544    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1ede0      0x1f000      5.163571    
+.rdata     0x20000      0x1423       0x2000       3.400560    
+.data      0x22000      0xcd2c       0x2000       0.914569    [SUSPICIOUS]
+.idata     0x2f000      0xb11        0x1000       3.230915    
+.rsrc      0x30000      0x1ec0       0x2000       2.967223    
+.reloc     0x32000      0xe82        0x1000       5.500419    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997, 1999 Microsoft Corporation, Copyright \xa9 1997, 1999 O.N.C.E. (Organizaci\xf3n Nacional de Ciegos Espa\xf1oles)
+InternalName: Recorder
+FileVersion: 1,00,0004
+CompanyName: Microsoft Corporation & O.N.C.E. (Organizaci\xf3n Nacional de Ciegos Espa\xf1oles)
+PrivateBuild: 1, 0, 4, 0
+LegalTrademarks: 
+Comments: Recorder for SDDP98
+ProductName: MSAM (Microsoft Screen Access Model)
+SpecialBuild: 1, 0, 4, 0
+ProductVersion: 1, 0, 4, 0
+FileDescription: SDDP record recorder for SDDP98
+OriginalFilename: Recorder.exe
+Translation: 0x0c0a 0x04b0
+

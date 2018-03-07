@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    287744 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     cd6c9611d58515d6748fb5803658037b
+SHA1:    d9e5826865178a77bba62742af359a576952ff4b
+ssdeep:  6144:3oNWCflwEYfMqCKJeeAiK+mHVGVTDDqQ8qipFSW2j:nbkqCKMf2mHV4DWjqk2j
+Date:    0x57898F22 [Sat Jul 16 01:34:26 2016 UTC]
+EP:      0x440f30 .text 0/5
+CRC:     Claimed: 0x4fa76, Actual: 0x4fa76 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x45778  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x453e8  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x450f0  0x2f2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x406d3      0x40800      6.545873    
+.data      0x42000      0x1458       0xc00        2.917138    
+.idata     0x44000      0x900        0xa00        4.957314    
+.rsrc      0x45000      0x848        0xa00        3.830670    
+.reloc     0x46000      0x3750       0x3800       6.796052    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: diskraid.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DiskRAID
+OriginalFilename: diskraid.exe
+Translation: 0x0409 0x04b0
+

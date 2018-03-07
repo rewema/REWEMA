@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    68608 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5f700c8a40ec7d7e8831d8126132d1a6
+SHA1:    635fe844cee6cf15e14b05e341d376bf4243108e
+ssdeep:  1536:6s1DHCu1p4TiYuwSxaBZiJ0trHHtxzAZT3WuEsI:toukSg2J0trHHkB7
+Date:    0x57898EF6 [Sat Jul 16 01:33:42 2016 UTC]
+EP:      0x406f30 .text 0/5
+CRC:     Claimed: 0x18076, Actual: 0x18076 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x12e80  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xbc80   0x7200   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb980   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xbc68   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xb5c8   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb1d0   0x3f5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x67ac       0x6800       6.056026    
+.data      0x8000       0xc34        0x200        0.183339    [SUSPICIOUS]
+.idata     0x9000       0x132e       0x1400       5.211785    
+.rsrc      0xb000       0x7f68       0x8000       5.719102    
+.reloc     0x13000      0x96c        0xa00        6.599191    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sigverif.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: File Signature Verification
+OriginalFilename: sigverif.exe
+Translation: 0x0409 0x04b0
+

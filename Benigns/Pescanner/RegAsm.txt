@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    64664 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d7d46952778a85491b34f62991a060d4
+SHA1:    ff30ef03867eb74f2454375cbe3508ee26b07163
+ssdeep:  1536:miaFJkobMa8dBXu2IbV3DKyBzYDEBUhYW:miEbMRdBXnUV3DKyBzYDEal
+Date:    0x575A127B [Fri Jun 10 01:06:03 2016 UTC]
+EP:      0x40ce0a .text 0/3
+CRC:     Claimed: 0x1c528, Actual: 0x1c528 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xe090   0x400    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe4a0   0x494    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xae10       0xb000       5.380013    
+.rsrc      0xe000       0x938        0xa00        4.359020    
+.reloc     0x10000      0xc          0x200        0.077633    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: RegAsm.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: Microsoft .NET Assembly Registration Utility
+OriginalFilename: RegAsm.exe
+Translation: 0x0409 0x04b0
+

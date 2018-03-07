@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    552960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     46ded3b56a97034dc09b773456d270a1
+SHA1:    242a349fe43bc59e67faee158cf13c0782584f75
+ssdeep:  6144:D1ggvwOTIgyzI3srvq+dYsTdCJYZ/9giU8vx+MRi15EFJEb:ZFwOTF8rvq+dDp9FJhIMw5
+Date:    0x3EBC39D8 [Fri May  9 23:29:28 2003 UTC]
+EP:      0x410cd3 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x92481 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x88648  0x134    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_CURSOR          0x88780  0xb4     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x49628  0x3ef2c  LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x88860  0x5e4    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x88f38  0xb8     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x88ff0  0x16c    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x89160  0x144    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x47790  0x568    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_MENU            0x494f0  0x3a     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_MENU            0x49530  0xf4     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x47d10  0x302    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x48018  0x356    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x48370  0x416    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x48788  0x2f0    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x48a78  0x25a    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x48cd8  0x410    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x490e8  0xe8     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x88e48  0xee     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x892a8  0x50     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x892f8  0xaa     LANG_GERMAN  SUBLANG_GERMAN           DBase 3 index file
+RT_STRING          0x893a8  0x34     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x893e0  0x1b8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x89598  0x660    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x8a098  0x382    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x89d08  0x38e    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x89bf8  0x110    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x8ad78  0x180    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x8a420  0x652    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x8aa78  0x2fa    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x8aef8  0x2a     LANG_GERMAN  SUBLANG_GERMAN           Hitachi SH big-endian COFF object, not stripped
+RT_GROUP_CURSOR    0x88838  0x22     LANG_GERMAN  SUBLANG_GERMAN           Lotus 1-2-3
+RT_GROUP_ICON      0x47cf8  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_VERSION         0x491d0  0x320    LANG_GERMAN  SUBLANG_GERMAN           data
+None               0x88558  0x3f     LANG_GERMAN  SUBLANG_GERMAN           data
+None               0x88598  0xaa     LANG_GERMAN  SUBLANG_GERMAN           data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2fdff      0x30000      6.560004    
+.rdata     0x31000      0xcac8       0xd000       4.532955    
+.data      0x3e000      0x8f28       0x5000       2.943985    
+.rsrc      0x47000      0x43f28      0x44000      5.278780    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: EmuleWatch
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Anwendung EmuleWatch
+SpecialBuild: 
+ProductVersion: 1, 1, 0, 1
+FileDescription: EmuleWatch
+OriginalFilename: EmuleWatch.EXE
+Translation: 0x0407 0x04b0
+

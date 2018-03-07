@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    81920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f335a21bcd064954f0038f599f6984c5
+SHA1:    81dd3d627a938ae7055b4e56e056fe9954306d11
+ssdeep:  1536:M6tREC/rMcgEPJV+G57ThjEC0kzJP+V5JKk:FzECTMpuDhjRVJG0k
+Date:    0x57898FFE [Sat Jul 16 01:38:06 2016 UTC]
+EP:      0x401700 .text 0/5
+CRC:     Claimed: 0x175b3, Actual: 0x175b3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x164c8  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x46c0   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d28   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5010   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5138   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5fe0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6888   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6df0   0xb7e8   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x125d8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b80  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15c28  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x16090  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x16128  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4330   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd34        0xe00        5.526957    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x3a4        0x400        4.587506    
+.rsrc      0x4000       0x12598      0x12600      7.278925    [SUSPICIOUS]
+.reloc     0x17000      0x140        0x200        4.486996    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MSchedExe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Automatic Maintenance
+OriginalFilename: MSchedExe.EXE
+Translation: 0x0409 0x04b0
+

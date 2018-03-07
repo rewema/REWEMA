@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     1c63aae135910425401f30388d8bcc25
+SHA1:    d487e9216ca866f0d0f42004639a8b78e1526c0e
+ssdeep:  192:cUKuKxR8mAXHzgR/CXr8bvPZuMOYOdnq:cUKRxR8lXe68bvp/Ot
+Date:    0x429D09B4 [Wed Jun  1 01:04:52 2005 UTC]
+EP:      0x40399e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x13230 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4500   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x47e8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4910   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x19a4       0x2000       4.478215    
+.rsrc      0x4000       0x938        0x1000       2.238059    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: (c) Copyright 2004, Dave F. Baskin
+Assembly Version: 1.1.0.0
+InternalName: TestZLibOnFile.exe
+FileVersion: 1.1.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments: Command line test utility for the Managed ZLib component.
+ProductName:  
+ProductVersion: 1.1.0.0
+FileDescription: Managed ZLib Command Line Test
+OriginalFilename: TestZLibOnFile.exe
+

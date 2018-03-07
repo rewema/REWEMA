@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     1f0995b821dc32527c930c809b1d0d6a
+SHA1:    db645fdf4e3cb292dbe5ea1dbad9d5d6ea00017a
+ssdeep:  768:SUZ9HIBkKDNziVlNIY3TIyI91UdZYw2kWEIybdQI/eNqwBO2FMzac7CwTCf/RGuc:AuKD14yk7QI4qd97C3fU
+Date:    0x4DD95C0D [Sun May 22 18:55:09 2011 UTC]
+EP:      0x41044e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x18400 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x120a0  0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x123b0  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xe454       0xe600       5.338500    
+.rsrc      0x12000      0x5a0        0x600        4.114957    
+.reloc     0x14000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 SESTEK A.\x15e. 2010
+Assembly Version: 0.9.0.0
+InternalName: MDSManager.exe
+FileVersion: 0.9.0.0
+CompanyName: SESTEK A.\x15e.
+ProductName: MDSManager
+ProductVersion: 0.9.0.0
+FileDescription: MDSManager
+OriginalFilename: MDSManager.exe
+

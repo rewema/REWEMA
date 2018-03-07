@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    459264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c12c12ccc7ad784a160c880cee6a512a
+SHA1:    c6656cb90b182587e863a972484a53f0a717e30b
+ssdeep:  6144:efaJMni4l92i+d9AL75sgQibMstlS7BvTNlQ1hsiWnK2J7IOp59tKdxgyB1:JMni4l9x+c0modrzAhxcJMOpDt4xg
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x460fe4 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x7ee6c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x718f4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x71a28  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x71b5c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x71c90  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x71dc4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x71ef8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7202c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x72160  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x72288  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x723b0  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x724d8  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x727c0  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x72aa8  0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x72e38  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x72ef4  0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x73060  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x734c8  0x3ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x73874  0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x73bd4  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x73f20  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x73ff8  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x740b4  0x350    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x74404  0x3a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x747a4  0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x74a7c  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x74a8c  0x214    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x74ca0  0xffc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x75c9c  0x635    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x762d4  0x1af    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x76484  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x76498  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x764ac  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x764c0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x764d4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x764e8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x764fc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x76510  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76524  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76538  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x7654c  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76560  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x60068      0x60200      6.524023    
+DATA       0x62000      0x1134       0x1200       3.979702    
+BSS        0x64000      0xe95        0x0          0.000000    [SUSPICIOUS]
+.idata     0x65000      0x2292       0x2400       4.808263    
+.tls       0x68000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x69000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x6a000      0x6d44       0x6e00       6.649405    
+.rsrc      0x71000      0x5600       0x5600       4.625213    
+

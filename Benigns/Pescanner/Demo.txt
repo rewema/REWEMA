@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9de2693851c98cadaf70230f16627c0a
+SHA1:    22fa4f0e472e5b383337f395054383072611ceb9
+ssdeep:  384:7o/vslmfj+cqtHBOcDy8IR3yAGZSUP31W1f9SwZ:QUycFBHDqEAGIUPOsw
+Date:    0x4C8F3CC0 [Tue Sep 14 09:13:36 2010 UTC]
+EP:      0x401400 .text 0/3
+CRC:     Claimed: 0x131af, Actual: 0x131af 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa7bc   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa4d4   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa3ac   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa37c   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0xa150   0x22c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x60a0       0x7000       5.080052    
+.data      0x8000       0x11d4       0x1000       0.000000    
+.rsrc      0xa000       0x8ec        0x1000       1.965135    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: Demo
+FileVersion: 1.00
+CompanyName: Labsoft-Indonesia
+ProductName: Remote Desktop Demo
+ProductVersion: 1.00
+OriginalFilename: Demo.exe
+

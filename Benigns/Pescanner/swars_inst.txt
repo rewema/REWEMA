@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1025421 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f3b883c59ade3d505c3269447f933ad2
+SHA1:    3f009c0e00b4bff35f935cd2b4be007d019efe19
+ssdeep:  24576:YB2QEtQjIaYdIVTRTXbS7IWspXiu8xkZXoEyfh5vi:u2QzbXbS7IWsx9yLhQ
+Date:    0x47C7D8E3 [Fri Feb 29 10:05:23 2008 UTC]
+EP:      0x401280 .text 0/8
+CRC:     Claimed: 0x104592, Actual: 0x104592 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xeb14c  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xeb6b4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xebf5c  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xed584  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0xed5b4  0x26c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4ce60      0x4d000      6.187806    
+.data      0x4e000      0x6c18       0x6e00       7.374780    [SUSPICIOUS]
+.rdata     0x55000      0x3d80       0x3e00       5.523116    
+.bss       0x59000      0x90da0      0x0          0.000000    [SUSPICIOUS]
+.idata     0xea000      0xbc0        0xc00        5.022842    
+.rsrc      0xeb000      0x2820       0x2a00       4.863105    
+.stab      0xee000      0x16bd8      0x16c00      3.503600    
+.stabstr   0x105000     0x4d9d8      0x4da00      5.428674    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 
+FileDescription: FreeSynd Wars Installer
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

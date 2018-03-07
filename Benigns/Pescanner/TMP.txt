@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    118784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     06f6b58f050c0ad8597fe81cc26ae24d
+SHA1:    95007095bb76a867723c255b0fd3d5ba694c74e0
+ssdeep:  3072:RxT8jMGppCPCrvRUpQJ9LCQbeSy//ucV7Js:2ievw/uc
+Date:    0x517233DF [Sat Apr 20 06:21:19 2013 UTC]
+EP:      0x401ea8 .text 0/3
+CRC:     Claimed: 0x1ebf1, Actual: 0x1ebf1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1d8bc  0x430    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1d58c  0x330    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1d45c  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1d3ac  0xb0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1d36c  0x40     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 64x64, 2-colors
+RT_VERSION         0x1d180  0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19098      0x1a000      5.676606    
+.data      0x1b000      0x1688       0x1000       0.000000    
+.rsrc      0x1d000      0xcec        0x1000       1.834353    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: TMP
+FileVersion: 1.00
+CompanyName: Trizz
+ProductName: TMP
+ProductVersion: 1.00
+OriginalFilename: TMP.exe
+

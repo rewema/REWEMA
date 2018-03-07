@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fa686c7d987f9263641741ec0dca6cf6
+SHA1:    d61522081afc23442e996684a188f3a2f1fa8c35
+ssdeep:  384:pDTdxEsJXVvuokYai+L9L6u9AAC2ZYGEGEGEGEGEGEENC/qAAi6EG2JX20i+Lq2D:pDTEAJJh2ZbU0fB2ZpsnzIfLn
+Date:    0x41FB864F [Sat Jan 29 12:49:19 2005 UTC]
+EP:      0x408a2e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x13b08 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa470   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa758   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa880   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa118   0x354    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6a34       0x7000       5.884448    
+.rsrc      0xa000       0x8a8        0x1000       2.130236    
+.reloc     0xc000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1855.17679
+InternalName: CatalogNowWithHiddenFileExt.exe
+FileVersion: 1.0.1855.17679
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1855.17679
+FileDescription:  
+OriginalFilename: CatalogNowWithHiddenFileExt.exe
+

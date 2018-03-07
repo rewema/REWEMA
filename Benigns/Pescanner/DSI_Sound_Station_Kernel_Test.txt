@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    204800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     17c66626e964adff2cc027d829da77ce
+SHA1:    d278c8e930c7e83b4517bbc35f424297acd1d0ae
+ssdeep:  3072:l4GeSTfKPNOpZym9YIaAUUIsXh5ex4bZqSa+tGw+g1lPE/NX:aoyyYRAjXZE
+Date:    0x430F5ABB [Fri Aug 26 18:08:59 2005 UTC]
+EP:      0x402094 .text 0/3
+CRC:     Claimed: 0x3c6ff, Actual: 0x41834 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3b358  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x3b344  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x3b0f0  0x254    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2f000      0x2f000      5.607771    
+.data      0x30000      0xa290       0x1000       0.000000    
+.rsrc      0x3b000      0xffe        0x1000       1.647489    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: DSI_Sound_Station_Kernel_Test
+FileVersion: 1.00
+CompanyName: DSI
+ProductName: Test
+ProductVersion: 1.00
+OriginalFilename: DSI_Sound_Station_Kernel_Test.exe
+

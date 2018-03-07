@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45216 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     a96df389f577ca4aa0502f1857cc6398
+SHA1:    fe1dea9d513ee5c484a83af2ba6219a3d43486fa
+ssdeep:  768:jjs96lj/cps+zk2d0/vWE6Iq84wjSipOIkEBxZY:jAhRzdd0/OzOjSAO1EBxZY
+Date:    0x575A127B [Fri Jun 10 01:06:03 2016 UTC]
+EP:      0x4082fe .text 0/3
+CRC:     Claimed: 0x10301, Actual: 0x10301 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa090   0x400    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa4a0   0x494    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6304       0x6400       5.090110    
+.rsrc      0xa000       0x938        0xa00        4.361723    
+.reloc     0xc000       0xc          0x200        0.061163    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: RegSvcs.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: Microsoft .NET Services Installation Utility
+OriginalFilename: RegSvcs.exe
+Translation: 0x0409 0x04b0
+

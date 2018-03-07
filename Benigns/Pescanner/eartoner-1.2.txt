@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    428905 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a893f6cc24c2ae18a2cb3fb24ddb2347
+SHA1:    a9e1198a5b5b65e2ab3759dac46a859236049c2d
+ssdeep:  3072:gcOgcuFhognpatU/P+BuE967b5RPtVHmBCIRgygFrqbkDwTsBqyUZ6FIb:gchWgnMn4ESbtVYR/McVQoyUZJb
+Date:    0x46E7110D [Tue Sep 11 22:05:01 2007 UTC]
+EP:      0x401290 .text 0/6
+CRC:     Claimed: 0x54342, Actual: 0x6ade4 [SUSPICIOUS]
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x11478  0x27a60  LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x38ed8  0x2868   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x3b740  0xc828   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x47f68  0x10828  LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x58790  0x6      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x58798  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587a0  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587a8  0x3      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587ac  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587b4  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587bc  0xd      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587cc  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587d4  0x3      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587d8  0x19     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x587f4  0x20     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x58814  0x32     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x58848  0x73     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x588bc  0x35     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x588f4  0x68     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_GROUP_ICON      0x5895c  0x30     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 3 icons, 16-colors
+RT_VERSION         0x5898c  0x298    LANG_NEUTRAL SUBLANG_DEFAULT          data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3b80       0x3c00       5.981022    
+.data      0x5000       0xc0         0x200        0.326395    [SUSPICIOUS]
+.rdata     0x6000       0x1b0        0x200        4.985952    
+.bss       0x7000       0x8af0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x10000      0xa1c        0xc00        4.307227    
+.rsrc      0x11000      0x47c24      0x47e00      2.985289    
+
+Version info
+================================================================================
+LegalCopyright: 2007 NeueMusic
+InternalName: EarToner
+FileVersion: 1.2
+CompanyName: 
+ProductName: EarToner 1.2
+ProductVersion: 1.2
+FileDescription: EarToner 1.2
+OriginalFilename: eartoner-1.2.exe
+Translation: 0x0409 0x04e4
+

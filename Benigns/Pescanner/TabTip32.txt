@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7716ca1ddfefa9eab4d43b7430777fc0
+SHA1:    53b8f21665f7038244bdf1f5d11967d51a380992
+ssdeep:  192:uup0SXlIT3euKo4vopYc1XpZXkuW52W2/FOKPlWt8RDBQABJEBqnaj+uBjOcM9CC:USX0pJp9ZUuW52WKlRDBRJEBlfMsHi
+Date:    0x57898F3E [Sat Jul 16 01:34:54 2016 UTC]
+EP:      0x401930 .text 0/7
+CRC:     Claimed: 0xc720, Actual: 0xc720 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7770   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x7370   0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x279    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x139c       0x1400       5.673279    
+.imrsiv    0x3000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x4000       0x380        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x6f2        0x800        4.319036    
+.didat     0x6000       0x30         0x200        0.482034    [SUSPICIOUS]
+.rsrc      0x7000       0x838        0xa00        3.728454    
+.reloc     0x8000       0x1c8        0x200        5.803627    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TabTip32.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 10.0.14393.0
+FileDescription: Touch Keyboard and Handwriting Panel Helper
+OriginalFilename: TabTip32.exe
+Translation: 0x0409 0x04b0
+

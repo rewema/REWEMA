@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    34304 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c876e8004262785384cc6e39c861acb8
+SHA1:    7498970d33deaeb07a724a53eb11a5f12c46439d
+ssdeep:  768:ZlUFNebcTrormpBy4WulYqnp1nMcPSpW:Z+FN9XlCulRZPSp
+Date:    0x57899183 [Sat Jul 16 01:44:35 2016 UTC]
+EP:      0x405350 .text 0/5
+CRC:     Claimed: 0x15b1e, Actual: 0x15b1e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x94c0   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90a0   0x41e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5ff4       0x6000       6.046978    
+.data      0x7000       0x718        0x400        3.052580    
+.idata     0x8000       0xa4e        0xc00        4.588788    
+.rsrc      0x9000       0x870        0xa00        4.056205    
+.reloc     0xa000       0x740        0x800        6.216953    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: lpkinstall
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Language Pack Installer
+OriginalFilename: lpkinstall.exe
+Translation: 0x0409 0x04b0
+

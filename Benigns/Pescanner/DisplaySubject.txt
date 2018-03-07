@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4608 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f1d6a78864dbbdadf936778ef51c9147
+SHA1:    dc00b91f5d74e8e5f24d135683246a70c3c3481f
+ssdeep:  48:6Ne2s0NNeOp7Lae2to454hDDnFMyWnLAEODJJbczuOPtayLG0DILlLCsC:csjASeYogE/nGMESjO+0D
+Date:    0x445CE19F [Sat May  6 17:49:19 2006 UTC]
+EP:      0x40298e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x47cb [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x994        0xa00        4.952202    
+.rsrc      0x4000       0x380        0x400        2.947058    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2317.33879
+InternalName: DisplaySubject.exe
+FileVersion: 1.0.2317.33879
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2317.33879
+FileDescription:  
+OriginalFilename: DisplaySubject.exe
+

@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    242688 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e2c05ee7cfa983761fe5ef9835b2dd5e
+SHA1:    74c0c6c562586ed02d63ce67886ff84159499c73
+ssdeep:  3072:97JChzlet3I4iqneSFysftPQNIrW1ueMgY3Jmj6Gr5mrBXz+wYJ3lMZ8HC/Ul3vk:ZjpXnqIdeC5t8mVFml3v1e
+Date:    0x40B0FF59 [Sun May 23 19:45:29 2004 UTC]
+EP:      0x422a4e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x4107d [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x42380  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x429e8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42cd0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x42df8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43ca0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44548  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x44ab0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x47058  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x48100  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x422b0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_EIRE     data
+RT_GROUP_ICON      0x48568  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x485f0  0x530    LANG_ENGLISH SUBLANG_ENGLISH_EIRE     data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+WinExec
+ShellExecuteExA
+ShellExecuteA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2a892      0x2aa00      6.602643    
+.rdata     0x2c000      0x3960       0x3a00       5.322889    
+.data      0x30000      0x11f7c      0x6000       5.082599    
+.rsrc      0x42000      0x6b20       0x6c00       4.441305    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2001 - 2003 The Blackbox for Windows Development Team
+InternalName: Blackbox
+FileVersion: 0.0.90
+CompanyName: The Blackbox for Windows Development Team
+PrivateBuild: 
+LegalTrademarks: 
+Comments: Copyright \xa9 2001 - 2003 The Blackbox for Windows Development Team. Based stylistically on the Blackbox window manager for the X Window System by Brad Hughes.
+ProductName: Blackbox for Windows
+SpecialBuild: 
+ProductVersion: 0.0.90
+FileDescription: Blackbox for Windows
+OriginalFilename: Blackbox.exe
+Translation: 0x0000 0x04b0
+

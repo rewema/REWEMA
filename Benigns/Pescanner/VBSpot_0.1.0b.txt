@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    445404 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8112fe189c0e1444310dfe02b63f3cd6
+SHA1:    9c21343229048b2822d061bdb44f93bdf31e89b1
+ssdeep:  12288:K+KznnP6gr9CdG7UI1sP3x1rLglXIcpmKq3:iznCggMQFbrL6XLoKq3
+Date:    0x3F813F86 [Mon Oct  6 10:10:14 2003 UTC]
+EP:      0x4116af .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x75291 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x201e0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x204c8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x20978  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x20a30  0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x20a88  0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x205f0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x20618  0x35c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x168f6      0x16a00      6.510554    
+.rdata     0x18000      0x3dc2       0x3e00       4.431311    
+.data      0x1c000      0x3abc       0x3000       1.311241    
+.rsrc      0x20000      0xac0        0xc00        3.397524    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1999-2003 Igor Pavlov
+InternalName: 7zS.sfx
+FileVersion: 3, 11, 0, 0
+CompanyName: Igor Pavlov
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: 7-Zip
+SpecialBuild: 
+ProductVersion: 3, 11, 0, 0
+FileDescription: 7z Self-Extract Setup
+OriginalFilename: 7zS.sfx
+Translation: 0x0409 0x04b0
+

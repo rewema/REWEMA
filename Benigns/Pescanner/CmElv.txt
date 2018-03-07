@@ -1,0 +1,39 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ff8a3980dd28515c69bb68d2d826c226
+SHA1:    2b67087442e01d84e75d82ebe90095070c0db9ef
+ssdeep:  768:x+B/YCX7FQ5bxsagDcNtkKSZHbHt5AbO+pTkp/wdH3k6PPTEMPtM6MwKJ65Iw:4BHUbHgCSKIbNiDpTcs3k6Poup55
+Date:    0x5063A7F1 [Thu Sep 27 01:12:17 2012 UTC]
+EP:      0x401b22 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1a30e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x12590  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12878  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x129a0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x12530  0x5c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x12160  0x3cd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x92e4       0xa000       6.327880    
+.rdata     0xb000       0x23e4       0x3000       4.355105    
+.data      0xe000       0x307c       0x1000       2.184562    
+.rsrc      0x12000      0x9c8        0x1000       3.149383    
+

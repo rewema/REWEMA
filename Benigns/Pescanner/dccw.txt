@@ -1,0 +1,85 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    644608 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1121ce30cf23b3fd98e79a22d14e95f5
+SHA1:    f001f5b30937cdd4bdf02e68edc29166f6076bcd
+ssdeep:  12288:Vz5g7ZpGOhS/IzJqrraq/t2qXy6xdRhMA:Xg6GS/EEn/tkI
+Date:    0x578990DE [Sat Jul 16 01:41:50 2016 UTC]
+EP:      0x410a90 .text 0/5
+CRC:     Claimed: 0xa1a16, Actual: 0xa1a16 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9e330  0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x160e8  0x18b2   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x179a0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18008  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x182f0  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x184d8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x18600  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x194a8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19d50  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a418  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a980  0xb424   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x25da8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28350  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x293f8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x29d80  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2a1e8  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x15d50  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x15800  0x54b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0x2a2a8  0x5992   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x2fc40  0x79aa   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x375f0  0x75b5   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x3eba8  0xd01d   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.01
+None               0x4bbc8  0x7e8d   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x53a58  0x88dd   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x5c338  0x8f73   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x652b0  0xfaef   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.01
+None               0x74da0  0x1c7e   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 135 x 136, 8-bit/color RGB, non-interlaced
+None               0x76a20  0x1d41   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 135 x 136, 8-bit/color RGB, non-interlaced
+None               0x78768  0x1cc4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 135 x 136, 8-bit/color RGB, non-interlaced
+None               0x7a430  0x9f7a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 299 x 300, 8-bit/color RGB, non-interlaced
+None               0x843b0  0x3af6   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x87ea8  0x3b36   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x8b9e0  0x3b82   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x8f568  0x3b48   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x930b0  0x3aa6   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x96b58  0x3b92   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x9a6f0  0x3838   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+None               0x9df28  0x402    LANG_ENGLISH SUBLANG_ENGLISH_US       PC bitmap, Windows 3.x format, 36 x 9 x 24
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1054c      0x10600      6.251103    
+.data      0x12000      0x8b8        0x600        2.302394    
+.idata     0x13000      0x1a0c       0x1c00       5.308826    
+.rsrc      0x15000      0x89438      0x89600      7.352767    [SUSPICIOUS]
+.reloc     0x9f000      0x1224       0x1400       6.413385    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dccw
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Display Color Calibration
+OriginalFilename: dccw.exe
+Translation: 0x0409 0x04b0
+

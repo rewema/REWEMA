@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    95584 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3c95842c4def6bff7e19284a408728f1
+SHA1:    35ffba2bc2dabebd1c7ca4159a73c4626b1bdeab
+ssdeep:  1536:6oJUvmhHOonwswu5qcOhGyo5b2c3JYWmPaf:oNufb4VLmy6xmif
+Date:    0x57898E9E [Sat Jul 16 01:32:14 2016 UTC]
+EP:      0x40a230 .text 0/5
+CRC:     Claimed: 0x252a3, Actual: 0x252a3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x16d58  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x137a0  0x35b8   LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_VERSION         0x133e8  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x13140  0x2a5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x994c       0x9a00       5.851485    
+.data      0xb000       0x6f08       0x5c00       4.263659    
+.idata     0x12000      0xb58        0xc00        5.387274    
+.rsrc      0x13000      0x3e28       0x4000       3.403165    
+.reloc     0x17000      0xcac        0xe00        6.196055    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bootsect.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Boot Sector Manipulation Tool
+OriginalFilename: bootsect.exe
+Translation: 0x0409 0x04b0
+

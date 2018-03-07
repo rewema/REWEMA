@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    18944 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b644d71667e81b89ccaf96ac7c8896d8
+SHA1:    e8d3adbe17495e20824f7324bb2bae4cac296a35
+ssdeep:  384:unm7jKCZpb32ilXuFAFmEKYVSKvW8tWWj0p0:um7jKC/b3bdVSKXJjW
+Date:    0x57898EDB [Sat Jul 16 01:33:15 2016 UTC]
+EP:      0x402e80 .text 0/5
+CRC:     Claimed: 0xb8e6, Actual: 0xb8e6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7728   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x7398   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x70f0   0x2a1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24ac       0x2600       5.709180    
+.data      0x4000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x10ae       0x1200       5.200999    
+.rsrc      0x7000       0x7f0        0x800        4.318785    
+.reloc     0x8000       0x398        0x400        6.267154    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: attrib
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Attribute Utility
+OriginalFilename: ATTRIB.EXE
+Translation: 0x0409 0x04b0
+

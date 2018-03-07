@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    303616 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1b9b66761b6099de900956910fa98ff5
+SHA1:    c01427b78781299c9484911483ffb928b2ccf285
+ssdeep:  3072:ndw8O3YG94QzDYltKTw9Z4pNQC2mC3ka/mMXjU4Q+ADBNJjR8yKTdX5LnduWLwyO:4zDYl8TgqYkqmPnfr90dbnwy+Yvv
+Date:    0x57898F14 [Sat Jul 16 01:34:12 2016 UTC]
+EP:      0x41f3f0 .text 0/6
+CRC:     Claimed: 0x55d76, Actual: 0x55d76 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4b348  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4b0a0  0x2a6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x41b2c      0x41c00      6.355852    
+PAGELK     0x43000      0x134d       0x1400       6.515125    
+.data      0x45000      0x3804       0x2800       2.412583    
+.idata     0x49000      0x1028       0x1200       5.246027    
+.rsrc      0x4b000      0x6f8        0x800        3.998910    
+.reloc     0x4c000      0x2ab4       0x2c00       6.606500    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: mcbuilder
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Resource cache builder tool
+OriginalFilename: mcbuilder.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bc54d0674fa24b6b89db2c3675e8ef16
+SHA1:    be80c3249f5651ae8637455627980295b491ad75
+ssdeep:  768:KSKi1gUj2AXgD3dnk/Gk4Hw26lYJ/Bjfla4pTJJKKOGXmLUUE7uwuxQtiRxn/ZGJ:rvBaA+3dk/J4HwbYfla4QuXs5ERuxYi+
+Date:    0x518AA982 [Wed May  8 19:37:38 2013 UTC]
+EP:      0x4075cd .text 0/5
+CRC:     Claimed: 0x14fd9, Actual: 0x14fd9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc164   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc28c   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc7f4   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0xc818   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xcbe8   0x256    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6cd1       0x6e00       6.344321    
+.rdata     0x8000       0x2d84       0x2e00       5.368589    
+.data      0xb000       0x4dc        0x200        1.512048    
+.rsrc      0xc000       0xe40        0x1000       4.773914    
+.reloc     0xd000       0xc24        0xe00        5.653407    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997-2013 The PHP Group
+InternalName: CGI SAPI
+FileVersion: 5.4.15
+CompanyName: The PHP Group
+URL: http://www.php.net
+LegalTrademarks: PHP
+Comments: Thanks to Rasmus Lerdorf, Stig Bakken, Shane Caraveo, Dmitry Stogov
+ProductName: PHP
+ProductVersion: 5.4.15
+FileDescription: CGI / FastCGI
+OriginalFilename: php-cgi.exe
+Translation: 0x0409 0x04b0
+

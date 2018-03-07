@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8192 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     af797dc82366cd5162af440cd1f31fd4
+SHA1:    07029ddb683cf90a77899d030e46f51cbd95286b
+ssdeep:  96:LGP9X99XZKwjTI+IuFvDWPTA+5oHrRJ8MZ1T/EWeCjetnWws:L49XbXZL4fTW/8MfTcWeoetnWj
+Date:    0x57898E8C [Sat Jul 16 01:31:56 2016 UTC]
+EP:      0x401680 .text 0/5
+CRC:     Claimed: 0xf420, Actual: 0xf420 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4060   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcb4        0xe00        5.372198    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x320        0x400        4.109008    
+.rsrc      0x4000       0x408        0x600        2.436435    
+.reloc     0x5000       0x134        0x200        4.388705    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Dummy.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Tablet PC Component
+OriginalFilename: Dummy.exe
+Translation: 0x0409 0x04b0
+

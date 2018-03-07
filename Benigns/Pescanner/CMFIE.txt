@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    106496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e87f72905534c7a0255e2979ff6ba080
+SHA1:    03d6b4d1f67cfd0da78dc3fa999fd56487b898a8
+ssdeep:  1536:8dN7L4FuAGDXIFqE7JxENmhpsxrQK/jCqflDa:8dN7L4FuAGUFqEdxENmh0rQK/jJa
+Date:    0x436C154C [Sat Nov  5 02:13:32 2005 UTC]
+EP:      0x41878e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x23713 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1a590  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1a878  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1a9a0  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1a118  0x474    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x16794      0x17000      5.327829    
+.rsrc      0x1a000      0x9c8        0x1000       2.370947    
+.reloc     0x1c000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright 2004 Mark E. Schill. All rights reserved.
+Assembly Version: 0.2.0.0
+InternalName: CMFIE.exe
+FileVersion: 0.2.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments: Utility to extract information from a Citrix MetaFrame farm for documentation.
+ProductName: Citrix MetaFrame Farm Information Exporter
+ProductVersion: 0.2.0.0
+FileDescription: Citrix MetaFrame Farm Information Exporter
+OriginalFilename: CMFIE.exe
+

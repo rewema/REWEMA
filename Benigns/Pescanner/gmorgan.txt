@@ -1,0 +1,41 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1136601 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f44abd559ffbda19f4cf1132141ca439
+SHA1:    cee83977ffdfc645992060b6a8843136dce13212
+ssdeep:  24576:cX0ZPytyzGs6m7hI4x2jGcnNjGcnRN8qEwP:hzX6m7WS26cnN6cnRN8M
+Date:    0x36010F27 [Thu Sep 17 13:31:19 1998 UTC] [SUSPICIOUS]
+EP:      0x4037c5 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x115e19 [SUSPICIOUS]
+Packers: WinZip 32-bit SFX v6.x module
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa0d0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa3b8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa4e0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+WinExec
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x466e       0x4800       6.278828    
+.rdata     0x6000       0x92         0x200        1.805742    
+.data      0x7000       0x1705       0xe00        6.813469    
+.idata     0x9000       0x9ea        0xa00        5.137922    
+.rsrc      0xa000       0x504        0x600        2.904391    
+.reloc     0xb000       0x91e        0xa00        5.978270    
+

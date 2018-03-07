@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    18072 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4a86a989906d550bc905e6050b0da351
+SHA1:    4bdd9244b8b167240ddee48708aad0930672303a
+ssdeep:  384:cNMXXULS5E7Gor7WW1RC6WGlRDBRJW1lkoU6I2:cNMUGu7Gord1RC21PtoPI2
+Date:    0x57899180 [Sat Jul 16 01:44:32 2016 UTC]
+EP:      0x4017a0 .text 0/6
+CRC:     Claimed: 0x8884, Actual: 0x8884 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5420   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50a0   0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdd4        0xe00        5.721531    
+.imrsiv    0x2000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x5c0        0x600        4.599153    
+.rsrc      0x5000       0x7d0        0x800        4.489237    
+.reloc     0x6000       0x150        0x200        4.711602    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SlideToShutDown
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: SlideToShutDown
+OriginalFilename: SlideToShutDown.exe
+Translation: 0x0409 0x04b0
+

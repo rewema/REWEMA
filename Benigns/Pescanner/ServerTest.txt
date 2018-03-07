@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5120 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     3c8db4d37b947ef4a25820d97b244fcf
+SHA1:    b37fa144379ed006d9421ff3aebf3e9054e86ecf
+ssdeep:  48:6tjMEk5sg37UZrOPKuJtemceEDngkQLvKibZZt5ZWxFRleKaIFWSfbNtm:yYJ5sgrUZSzADngkc7NWjRABAzNt
+Date:    0x4DD95C0D [Sun May 22 18:55:09 2011 UTC]
+EP:      0x4028ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x96c5 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x308    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x43a8   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8b4        0xa00        4.568708    
+.rsrc      0x4000       0x598        0x600        4.026742    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2011
+Assembly Version: 1.0.0.0
+InternalName: ServerTest.exe
+FileVersion: 1.0.0.0
+CompanyName: Microsoft
+ProductName: ServerTest
+ProductVersion: 1.0.0.0
+FileDescription: ServerTest
+OriginalFilename: ServerTest.exe
+

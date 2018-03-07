@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    141664 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b0b4011a7dfd728339f79fe27402c56d
+SHA1:    8e2e5e492476b66ccd97672d7be4cb34473b16c3
+ssdeep:  3072:2W332Ismmt0fSoD7p5uYr4oiIJXcAO/7ihrew:2WYmmt0fSoD7poYziCbrew
+Date:    0x578990BC [Sat Jul 16 01:41:16 2016 UTC]
+EP:      0x41aa90 .text 0/5
+CRC:     Claimed: 0x2c034, Actual: 0x2c034 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x21060  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c2f4      0x1c400      5.827969    
+.data      0x1e000      0xa10        0x600        4.358889    
+.idata     0x1f000      0x11c4       0x1200       5.501270    
+.rsrc      0x21000      0x428        0x600        2.516690    
+.reloc     0x22000      0x2028       0x2200       6.133349    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: appvnice.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Application Virtualization appvnice
+OriginalFilename: appvnice.exe
+Translation: 0x0409 0x04b0
+

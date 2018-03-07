@@ -1,0 +1,41 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2974064 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b1563ea86e967c47223ad602ebfd17dc
+SHA1:    a64439aa20132061334679336eef0ab56730fe1b
+ssdeep:  49152:ZxeYAfiKb0/AFUezbU2pciASo5OkTy6mjSJvw371YKzf+CtwJQp0awb1gOpE5XMY:ZxeXwYFUIpcihoK6mjSJvw371Y4+ewqL
+Date:    0x4A12E421 [Tue May 19 16:53:53 2009 UTC]
+EP:      0x40716e .text 0/4
+CRC:     Claimed: 0x2d8f1f, Actual: 0x2d8f1f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c1c0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c2e8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c5d0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ce78  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_RCDATA          0x1d3e0  0x2bb56a LANG_NEUTRAL SUBLANG_NEUTRAL          Zip archive data, at least v2.0 to extract
+RT_GROUP_ICON      0x2d8950 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_MANIFEST        0x2d8990 0x165    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x111f3      0x11200      6.607469    
+.rdata     0x13000      0x5208       0x5400       5.080088    
+.data      0x19000      0x2d2c       0x1200       2.357607    
+.rsrc      0x1c000      0x2bcaf8     0x2bcc00     7.999500    [SUSPICIOUS]
+

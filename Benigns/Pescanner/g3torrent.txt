@@ -1,0 +1,37 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    75264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     035f5e22c712ec174d416d58411158da
+SHA1:    fa0f4c064ebf3cf8f871e49bbb0145772096d789
+ssdeep:  1536:PD8SYGvvXdII3/AJyLDTxdNiKiurjMqSl97gnocxp9yOqxGNRRAQ33lh5ooH:7vYGndWmoMyOqxG9T
+Date:    0x41792EA0 [Fri Oct 22 16:00:32 2004 UTC]
+EP:      0x4016c1 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x16c12 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PYTHONSCRIPT       0x41dc   0xbf73   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x10150  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x126f8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x137a0  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x14128  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14590  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 48x48, 256-colors
+RT_MANIFEST        0x145d0  0x27c    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa06        0xc00        5.371252    
+.rdata     0x2000       0x7b6        0x800        4.899968    
+.data      0x3000       0x5dc        0x400        3.636111    
+.rsrc      0x4000       0x1084c      0x10a00      4.937661    
+

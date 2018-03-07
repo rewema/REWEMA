@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    892088 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b680ce12300864a5b94ffb20a4b90e49
+SHA1:    3a32b51705797458aff8568a54880334552b1b69
+ssdeep:  6144:QVnOL8zIqwetSCki9I67eHL9TnO2Lp2kywBQzD+tj:TYEqwvCUt1Qky1D+tj
+Date:    0x53F10AEE [Sun Aug 17 20:05:02 2014 UTC]
+EP:      0x407474 .text 0/5
+CRC:     Claimed: 0xd9daf, Actual: 0xd9daf 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x61edeL => This program cannot be run in DOS mode
+   0xc992eL => This program cannot be run in DOS mode
+   0xd389eL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x65490  0x719c0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (console) Mono/.Net assembly
+BINRES             0xd6e50  0x2d68   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (DLL) (native) Intel 80386 32-bit
+RT_VERSION         0x65140  0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd9bb8  0x273    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1689b      0x16a00      6.657830    
+.rdata     0x18000      0xae1c       0xb000       4.913842    
+.data      0x23000      0x41a48      0x3fc00      0.298354    [SUSPICIOUS]
+.rsrc      0x65000      0x74e30      0x75000      3.521261    
+.reloc     0xda000      0x17e0       0x1800       6.598766    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2008-2014 Mark Russinovich
+InternalName: Coreinfo
+FileVersion: 3.31
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: coreinfo
+ProductVersion: 3.31
+FileDescription: Dump information on system CPU and memory topology
+OriginalFilename: coreinfo
+Translation: 0x0409 0x04b0
+

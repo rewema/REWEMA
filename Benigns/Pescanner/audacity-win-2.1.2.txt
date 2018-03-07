@@ -1,0 +1,96 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    26496761 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0032ee390228e10587d8689fc62b367a
+SHA1:    850f643bb715782f120edb8eee982b0f3543a332
+ssdeep:  786432:fNgqKuPiCHpJs6W5SBWejJvJqK/qsXNlptM:lgq3FHpXZB3PHqsdlvM
+Date:    0x55A7B084 [Thu Jul 16 13:24:20 2015 UTC]
+EP:      0x4113bc .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x1949e8f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c98c  0x33c4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1fd50  0x2868   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x225b8  0x16e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23ca0  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24708  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24d70  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25058  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25240  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x25368  0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25478  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25558  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25600  0x5a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x2b09c  0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2fcc4  0x2ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3296c  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33f94  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34e3c  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x356e4  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35dac  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x36314  0x540    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36854  0x4c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36d1c  0x488    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x371a4  0x9f84   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x41128  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x51950  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5adf8  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5f020  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x615c8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x62670  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x62ff8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x63460  0x370    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x637d0  0x1e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x639b0  0x148    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x63af8  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x63b60  0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x63c34  0xa4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x63cd8  0x2ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x63f84  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x642d0  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x64564  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x6c84c  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x6c85c  0x150    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x6c9ac  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x6c9d8  0x1d4    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 33 icons, 16-colors
+RT_VERSION         0x6cbac  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6d0a0  0x62c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf134       0xf200       6.391647    
+.itext     0x11000      0xb44        0xc00        5.741238    
+.data      0x12000      0xc88        0xe00        2.247533    
+.bss       0x13000      0x56b8       0x0          0.000000    [SUSPICIOUS]
+.idata     0x19000      0xdd0        0xe00        4.971882    
+.tls       0x1a000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1b000      0x18         0x200        0.204488    [SUSPICIOUS]
+.rsrc      0x1c000      0x516cc      0x51800      5.436652    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2015. All rights reserved.                                                              
+FileVersion: 2.1.2.0             
+CompanyName: Audacity Team                                               
+Comments: This installation was built with Inno Setup.
+ProductName: Audacity\xae                                                   
+ProductVersion: 2,1,2,0                                           
+FileDescription: Audacity\xae 2.1.2 Setup                                       
+Translation: 0x0000 0x04b0
+

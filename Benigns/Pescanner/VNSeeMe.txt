@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    286720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     aafa3c873b81d09cbd4d0ced031ee6f0
+SHA1:    6178ed3c29a7147f4e691084cb17a6cae6b84244
+ssdeep:  6144:BHipK/eMRuGAGFng6SsSQIenyL4HzlaVD:BsKmilgAlIeLzla1
+Date:    0x405E091F [Sun Mar 21 21:29:03 2004 UTC]
+EP:      0x4026bc .text 0/3
+CRC:     Claimed: 0x4f9e8, Actual: 0x4f9e8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x46f5c  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x466b4  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4580c  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x45524  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x454e4  0x40     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_VERSION         0x45180  0x364    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x40620      0x41000      5.928052    
+.data      0x42000      0x243c       0x1000       0.000000    
+.rsrc      0x45000      0x24c4       0x3000       4.513207    
+
+Version info
+================================================================================
+Translation: 0x0407 0x04b0
+LegalCopyright: (c) 2000-2004 .) Development
+InternalName: VNSeeMe
+FileVersion: 2.00
+CompanyName: .) development
+Comments: developed by Philipp Rothmann
+ProductName: VNSeeMe (xVNC)
+ProductVersion: 2.00
+FileDescription: remote network station control for NT-Networks
+OriginalFilename: VNSeeMe.exe
+

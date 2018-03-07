@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65024 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8f32ce8b4e313af651c4315cf58aecbc
+SHA1:    44dcffc08c7c1c2aa3028b05462cc33f3194204a
+ssdeep:  1536:f+hgmkR2tTuv3AgfGOoKrJdZDNdX4Mz696rXB5UijNB4uEGtOH:f+xknvwgfGOoKrJdZDjX4M+9aBzBXtO
+Date:    0x57899187 [Sat Jul 16 01:44:39 2016 UTC]
+EP:      0x40b7b0 .text 0/5
+CRC:     Claimed: 0x1c902, Actual: 0x1c902 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x10400  0x420    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x100a0  0x35e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcdf4       0xce00       6.144066    
+.data      0xe000       0x750        0x200        3.099433    
+.idata     0xf000       0xcd6        0xe00        4.970396    
+.rsrc      0x10000      0x820        0xa00        3.951051    
+.reloc     0x11000      0x103c       0x1200       6.385882    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: NetCfgNotifyObjectHost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for Network Driver Configuration Plugins
+OriginalFilename: NetCfgNotifyObjectHost.exe
+Translation: 0x0409 0x04b0
+

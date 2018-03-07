@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    39936 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     67b7b7a144bc025299153dd1f71cf0f6
+SHA1:    1b250bee40f13cd72dfc5aefd59dbf92ed2da38b
+ssdeep:  768:ev98nRX3GOkL+8Xxy/ISKUq3X8MNKCk3HUyBrD2wdOqY/Fhv:evKnZGOaQAWM6x2wBY/L
+Date:    0x57898FFC [Sat Jul 16 01:38:04 2016 UTC]
+EP:      0x407140 .text 0/5
+CRC:     Claimed: 0xa249, Actual: 0xa249 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb490   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xb0b0   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x78e0       0x7a00       6.228403    
+.data      0x9000       0x59c        0x200        2.967090    
+.idata     0xa000       0xca0        0xe00        4.831085    
+.rsrc      0xb000       0x558        0x600        3.024280    
+.reloc     0xc000       0x6e8        0x800        6.146575    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: provlaunch
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Provisioning package runtime command launching tool
+OriginalFilename: provlaunch
+Translation: 0x0409 0x04b0
+

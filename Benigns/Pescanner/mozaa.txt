@@ -1,0 +1,84 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1234944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     45af6f56f1d738eddb6f9408a92550fd
+SHA1:    f050ea703a8b9860ff5ad8e689db99ae091c7a3c
+ssdeep:  24576:o7T8OAAXtEdzpY+3iUBXJdvffCJwu3LTf5ZVM4taDk:oHBrtEdzpY+5XnMwu3LHBtaDk
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x50d0a4 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x13a702 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x139b48 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x139c7c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x139db0 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x139ee4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13a018 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13a14c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13a280 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13a3b4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13a584 0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13a768 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13a938 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13ab08 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13acd8 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13aea8 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13b078 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13b248 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13b418 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13b5e8 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x13b6d0 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13b724 0x47c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13bba0 0x45c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13bffc 0x1cc    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6553710 records)
+RT_STRING          0x13c1c8 0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13c2b4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x13c3e8 0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13c748 0x3f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13cb38 0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13cee8 0x3c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13d2b0 0x288    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6881394 records)
+RT_STRING          0x13d538 0xe4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13d61c 0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13d788 0x350    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13dad8 0x36c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13de44 0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x13e158 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x13e168 0x590    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x13e6f8 0x1ab5   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1401b0 0x318    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1404c8 0x25e0   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x142aa8 0x460    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x142f08 0x473    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x14337c 0x1ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x14354c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x143560 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x143574 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x143588 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x14359c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x1435b0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x1435c4 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x10c17c     0x10c200     6.370580    
+DATA       0x10e000     0x3118       0x3200       4.490836    
+BSS        0x112000     0xf311       0x0          0.000000    [SUSPICIOUS]
+.idata     0x122000     0x251a       0x2600       4.954804    
+.tls       0x125000     0x20         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x126000     0x18         0x200        0.210826    [SUSPICIOUS]
+.reloc     0x127000     0x1113c      0x11200      6.700715    
+.rsrc      0x139000     0xa600       0xa600       5.128929    
+

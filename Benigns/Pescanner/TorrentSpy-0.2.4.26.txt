@@ -1,0 +1,123 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    489984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f34d9ac305af6c7a8ad10723719f6b99
+SHA1:    ccc2f99f10757aa1623f9c54b00b5afbba2dd790
+ssdeep:  12288:az6q7ODZT7k0h9eO7hLv2ZrQOmF7u1No7:aHSdReehb2pw7u1No
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x5375c0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x876d1 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xed1b8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xed2ec  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xed420  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xed554  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xed688  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xed7bc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xed8f0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeda24  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xedbf4  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeddd8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xedfa8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xee178  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xee348  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xee518  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xee6e8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xee8b8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeea88  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          unicos (cray) executable
+RT_BITMAP          0xeec58  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeed18  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeedf8  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (1624751714 records)
+RT_BITMAP          0xeeed8  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeefb8  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xef078  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xef138  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xef218  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xef2d8  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xef3b8  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xef4a0  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xef560  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1391bc 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x139728 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x139fd4 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13ae80 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13b2ec 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13c398 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13e944 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x142b70 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x109800 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x109854 0x164    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1099b8 0x5bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x109f74 0x51c    LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version w$\032\377\377u\267\002\004[\377\254aX!\224\360\003\302
+RT_STRING          0x10a490 0x384    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10a814 0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10ac1c 0x3b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10afd4 0x36c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10b340 0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10b600 0x534    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10bb34 0x32c    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+RT_STRING          0x10be60 0x1dc    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+RT_STRING          0x10c03c 0x154    LANG_NEUTRAL SUBLANG_NEUTRAL          8086 relocatable (Microsoft)
+RT_STRING          0x10c190 0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10c3f8 0x298    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10c690 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10c770 0x12c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10c89c 0x290    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10cb2c 0x41c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10cf48 0x3d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10d320 0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          8086 relocatable (Microsoft)
+RT_STRING          0x10d6a8 0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10da58 0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10db48 0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10dc08 0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10dee0 0x42c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10e30c 0x330    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10e63c 0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10e950 0x38     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10e988 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10e998 0x824    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10f1bc 0x24f64  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x134120 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x134134 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x134148 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x13415c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x134170 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x134184 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x134198 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x15339c 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 16x16, 256-colors
+RT_VERSION         0x153418 0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x153788 0x245    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0xdb000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0xdc000      0x5c000      0x5b800      7.917976    [SUSPICIOUS]
+.rsrc      0x138000     0x1c000      0x1be00      1.423901    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2004 Rixsoft Corp.
+InternalName: TorrentSpy
+FileVersion: 0.2.4.26
+CompanyName: Rixsoft Corp.
+LegalTrademarks: 
+Comments: http://www.rixsoft.com/
+ProductName: TorrentSpy
+ProductVersion: 0.2
+FileDescription: TorrentSpy MetaInfo Viewer
+OriginalFilename: TorrentSpy.exe
+Translation: 0x0409 0x04e4
+

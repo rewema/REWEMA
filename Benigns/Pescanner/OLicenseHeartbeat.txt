@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    680136 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2e556b58749e8b3b6975e4fa5d4265cf
+SHA1:    ffcbe88ed6e906b31b868c35c742e92a170cdd3c
+ssdeep:  6144:ls8QzEBFN+tKNgbiz8thc02wMavFhhKwp/CK0UnQr3wyqsL/u1Wp5LdCDH:stKNgbiz8/ckFhhtp/CK0UnQtTp5LdCb
+Date:    0x593C0ED5 [Sat Jun 10 15:23:01 2017 UTC]
+EP:      0x42ce0b .text 0/7
+CRC:     Claimed: 0xafea9, Actual: 0xaecfe [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x93058  0x95c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x30b87      0x30c00      6.536678    
+.rdata     0x32000      0x5a3fe      0x5a400      4.138652    
+.data      0x8d000      0x3e48       0x3400       5.333396    
+.tls       0x91000      0x9          0x200        0.020393    [SUSPICIOUS]
+.c2r       0x92000      0x154        0x200        2.469610    
+.rsrc      0x93000      0x9b4        0xa00        2.224047    
+.reloc     0x94000      0x12af0      0x12c00      6.210952    
+
+Version info
+================================================================================
+InternalName: OLicenseHeartbeat.exe
+FileVersion: 16.0.8201.2102
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Office Subscription Licensing Heartbeat
+ProductVersion: 16.0.8201.2102
+FileDescription: Office Subscription Licensing Heartbeat
+MOSEVersion: BETA
+OriginalFilename: OLicenseHeartbeat.exe
+Translation: 0x0000 0x04e4
+

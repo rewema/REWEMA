@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40448 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fab0c5fe8311c3536ba10a4bbe653765
+SHA1:    90f7da57797b3d9a8e89befee0cff021bf9948d8
+ssdeep:  768:hTIASDL/UxWqP7kI6ABvaTdPUBZysJeVDatG:lIASwWqjKWSRUB8AeVDak
+Date:    0x5789918F [Sat Jul 16 01:44:47 2016 UTC]
+EP:      0x406c30 .text 0/6
+CRC:     Claimed: 0x17398, Actual: 0x17398 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xd060   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7294       0x7400       6.185188    
+.data      0x9000       0x558        0x200        2.161752    
+.idata     0xa000       0x109c       0x1200       4.828185    
+.didat     0xc000       0x24         0x200        0.388791    [SUSPICIOUS]
+.rsrc      0xd000       0x428        0x600        2.484776    
+.reloc     0xe000       0x81c        0xa00        5.913465    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EdpNotify.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Enterpise Data Protection
+OriginalFilename: EdpNotify.exe
+Translation: 0x0409 0x04b0
+

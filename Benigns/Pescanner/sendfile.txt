@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6986752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f70ae7f85a5d9a22875ad844ea6c2d80
+SHA1:    54a360e84fdb08f0975e8f21eb83f6cd9df26f8a
+ssdeep:  196608:CS0uc5+T82SqgajDv8vwfxmV+pqaN98Hz5JRGafc+1kb5LwR4Jcu3fYHPv34QKbS:C2SMmG8Twokk4JAHagN
+Date:    0x47C7191A [Thu Feb 28 20:27:06 2008 UTC]
+EP:      0x4012a0 .text 0/7
+CRC:     Claimed: 0x6b9090, Actual: 0x6b9090 
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x65e5d1L => deflate
+   0x65e5f3L => Jean-loup Gailly
+   0x66a441L => inflate
+   0x66a463L => Mark Adler
+
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+CreateProcessW
+ShellExecuteA
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x57eb60     0x57ec00     6.266522    
+.data      0x580000     0x1674       0x1800       3.685889    
+.rdata     0x582000     0xff21c      0xff400      6.796429    
+.bss       0x682000     0xa080       0x0          0.000000    [SUSPICIOUS]
+.edata     0x68d000     0x8d         0x200        1.786885    
+.idata     0x68e000     0x3d80       0x3e00       5.527400    
+.reloc     0x692000     0x25e94      0x26000      6.591257    
+

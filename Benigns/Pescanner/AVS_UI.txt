@@ -1,0 +1,28 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8192 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     850e91a8088823515b99ab70f249bf00
+SHA1:    797bd39861072d58e13fce79577122d9309884bb
+ssdeep:  12:e9GSGZxHZClRIT7q4g4gmbCGkxAa48Dl3x/P:e9GSabCg7q4g4WG/k
+Date:    0x48487F2F [Fri Jun  6 00:05:03 2008 UTC]
+EP:      0x400000  1/1 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x2845 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_DIALOG          0x1060   0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.rsrc      0x1000       0x1b8        0x1000       0.380416    [SUSPICIOUS]
+

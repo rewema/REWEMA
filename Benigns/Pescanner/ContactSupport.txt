@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    152064 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 Mono/.Net assembly
+MD5:     637aa1c5e5b9b85b1ddd3085323175b9
+SHA1:    68eaa1a3c5130cfb1c77f07fdd0f33b0c0bc986a
+ssdeep:  3072:P2moF2rsVzfyjkbbVe76wAHofs99DzIs6CYZlTzR9AqJjNY1+g2Yoxo8k:P2molfyjkbbto0PAs6bd7AqJjGDQA
+Date:    0x57898676 [Sat Jul 16 00:57:26 2016 UTC]
+EP:      0x4264d2 .text 0/3
+CRC:     Claimed: 0x2e214, Actual: 0x2e214 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x28090  0x3c2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x28464  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x244d8      0x24600      5.870473    
+.rsrc      0x28000      0x654        0x800        3.540914    
+.reloc     0x2a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: ContactSupport.exe
+FileVersion: 10.0.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft (R) Windows (R) Operating System
+ProductVersion: 10.0.14393.0
+FileDescription:  
+OriginalFilename: ContactSupport.exe
+

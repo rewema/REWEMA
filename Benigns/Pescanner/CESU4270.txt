@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3194880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     11ea674c79d93b3b878daa4299635279
+SHA1:    f97a981af7850f91232daceb167f35df62cae77e
+ssdeep:  98304:tkZFG8Ynu20qYik2qd9TGH7NQZDWKJ1QSLv:t2G3iDg7NQZSKJpj
+Date:    0x448740FE [Wed Jun  7 21:11:26 2006 UTC]
+EP:      0x406dc5 .text 0/5
+CRC:     Claimed: 0x4a3f8b, Actual: 0x3126e4 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x13270  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x138d8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13bc0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13ce8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b90  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15438  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x159a0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17f48  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18ff0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x19458  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_MANIFEST        0x194e0  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+WinExec
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa673       0xb000       6.368353    
+.rdata     0xc000       0x1fc2       0x2000       5.190659    
+.data      0xe000       0x41f8       0x2000       3.651620    
+.rsrc      0x13000      0x67c0       0x7000       5.000480    
+_winzip_   0x1a000      0x48a000     0x48a000     7.999119    [SUSPICIOUS]
+

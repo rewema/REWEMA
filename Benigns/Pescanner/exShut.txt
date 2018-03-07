@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    706048 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f63c56e939fdae71aca859e57cad262a
+SHA1:    79c9f15be08266a6d571edb8b12374acab587149
+ssdeep:  3072:dRVjPRVj2RVjF7yrI9KJJJJC9oDwBK9RVj:dbyB7y09KJJJJ4oDV
+Date:    0x4FE2522F [Wed Jun 20 22:43:59 2012 UTC]
+EP:      0x48bf3e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xb8abb [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8c538  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x8c9a0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8da48  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8fff0  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x94218  0x94a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x9d6c0  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xadee8  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x8c220  0x318    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xadf48  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x89f44      0x8a000      4.356092    
+.rsrc      0x8c000      0x22138      0x22200      4.281250    
+.reloc     0xb0000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 00seb
+Assembly Version: 1.0.0.0
+InternalName: exShut.exe
+FileVersion: 1.0.0.0
+CompanyName: 00seb
+Comments: Extended Shutdown Utility
+ProductName: exshut
+ProductVersion: 1.0.0.0
+FileDescription: exshut
+OriginalFilename: exShut.exe
+

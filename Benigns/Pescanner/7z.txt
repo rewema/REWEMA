@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    163840 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a51d90f2f9394f5ea0a3acae3bd2b219
+SHA1:    20fea1314dbed552d5fedee096e2050369172ee1
+ssdeep:  3072:6nkCMZlG+fHlDum7uVouWEHR92dZH5TTY8A7GyH367uPlDKw:6kCMndv8WiYZH5A8sGw367Y+
+Date:    0x4CE54F63 [Thu Nov 18 16:08:03 2010 UTC]
+EP:      0x41d0cc .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2d798 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2c060  0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1ef0a      0x1f000      6.527563    
+.rdata     0x20000      0x60cc       0x6200       4.037284    
+.data      0x27000      0x46ac       0x2600       4.360042    
+.rsrc      0x2c000      0x310        0x400        2.622586    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1999-2010 Igor Pavlov
+InternalName: 7z
+FileVersion: 9.20
+CompanyName: Igor Pavlov
+ProductName: 7-Zip
+ProductVersion: 9.20
+FileDescription: 7-Zip Console
+OriginalFilename: 7z.exe
+Translation: 0x0409 0x04b0
+

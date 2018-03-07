@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     13742ae05e447b25c9137241d918f34c
+SHA1:    d661273931a954d82b36d09476df1bff8b8788b1
+ssdeep:  768:KtJNaXAGon1YwEdd4gD7TEAtBtPh70aO0hDG:gJtWwEogPwAJPhA4DG
+Date:    0x4BEAF957 [Wed May 12 18:54:15 2010 UTC]
+EP:      0x408cde .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xa131 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa4c0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xa5e8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xa8d0   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0xa118   0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6ce4       0x7000       5.343679    
+.rsrc      0xa000       0x8f8        0x1000       2.167320    
+.reloc     0xc000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 ProtonDreams 2009
+Assembly Version: 1.0.0.0
+InternalName: ProtonDreams.SMS.Application.exe
+FileVersion: 1.0.0.0
+CompanyName: ProtonDreams
+ProductName: ProtonDreams.SMS.Application
+ProductVersion: 1.0.0.0
+FileDescription: ProtonDreams.SMS.Application
+OriginalFilename: ProtonDreams.SMS.Application.exe
+

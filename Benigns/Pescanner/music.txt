@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1083904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     ad6d66a8bfe99971a7f351836d93c915
+SHA1:    bbea391458923a3129ec976ce4fa4e2acb8d8099
+ssdeep:  24576:H28Ji05GwU1m5D6dC62XCdxKItq5lzh4a2jmlvpqJjO+fenDS+Icy6UqsPwsIknN:15Gzm5D6dCrXCUzh4Wlv9n4IknJ
+Date:    0x40DF3532 [Sun Jun 27 20:59:30 2004 UTC]
+EP:      0x401000 .text 0/5
+CRC:     Claimed: 0x11414a, Actual: 0x11414a 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x80257L => JOIN
+   0x84157L => join
+   0x844e7L => join
+   0x84552L => join
+   0x8456aL => join
+   0x973ccL => JOIN
+   0x973d1L => JOIN
+   0x97b75L => JOIN
+   0x98775L => JOIN
+   0x98785L => JOIN
+   0x9878dL => JOIN
+   0x9879dL => JOIN
+   0x987a8L => JOIN
+   0x987b8L => JOIN
+   0x987c6L => JOIN
+   0x98d2cL => JOIN
+   0x2b69fL => Notice
+   0x2fd8bL => NOTICE
+   0x5828eL => Notice
+   0x5b989L => Notice
+   0x87bb2L => part
+   0x3d86L => QUIT
+   0x10797aL => Quit
+   0x107af1L => Quit
+
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe92ec      0xe9400      6.357371    
+.data      0xeb000      0x6880       0x6a00       5.169376    
+.rdata     0xf2000      0x16bbc      0x16c00      4.646433    
+.bss       0x109000     0x7390       0x0          0.000000    [SUSPICIOUS]
+.idata     0x111000     0x1a28       0x1c00       5.013538    
+

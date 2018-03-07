@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    960512 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     9c8f2b04269509181221ed382f985b09
+SHA1:    da70f12c11b0bb5a8202eefc0c920d4c4159d420
+ssdeep:  24576:dsK9J3AOXFzJOa5tGwM976GvwQvcXNrGQ2M:dxQOkwM976hhNrYM
+Date:    0x57898DC0 [Sat Jul 16 01:28:32 2016 UTC]
+EP:      0x4b7380 .text 0/6
+CRC:     Claimed: 0xf3509, Actual: 0xf3509 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xe23e8  0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0xdfdd0  0x2618   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xd08d8  0xe76a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xd04c0  0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd0200  0x2ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xdf048  0xd88    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateServiceW
+StartServiceCtrlDispatcherW
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc69f4      0xc6a00      6.596295    
+.data      0xc8000      0x38a4       0x2000       3.111955    
+.idata     0xcc000      0x23c6       0x2400       5.716488    
+.didat     0xcf000      0xb8         0x200        1.458765    
+.rsrc      0xd0000      0x124f0      0x12600      4.211470    
+.reloc     0xe3000      0xcd24       0xce00       6.807119    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Windows Media Player Network Sharing Service
+FileVersion: 12.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 12.0.14393.0
+FileDescription: Windows Media Player Network Sharing Service
+OriginalFilename: WMPNetwk.exe
+Translation: 0x0409 0x04b0
+

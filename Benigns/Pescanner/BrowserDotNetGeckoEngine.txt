@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    540672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     1f647ac92b5792a3d79f95cc7efd9e22
+SHA1:    b8c40ecc4ce61807f4c457f41d4379454eb1466f
+ssdeep:  6144:D/bqs1ohrwnnDaPLfnY+d63u6WO53qmqPHUv:D/bExwnuPLfnY+ddO53qmAHU
+Date:    0x454B3BB8 [Fri Nov  3 12:53:12 2006 UTC]
+EP:      0x48173e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x92095 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x84560  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x84e08  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x840e8  0x474    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x7f744      0x80000      4.853899    
+.sdata     0x82000      0xda         0x1000       0.535196    [SUSPICIOUS]
+.rsrc      0x84000      0xe20        0x1000       2.914981    
+.reloc     0x86000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 CUA Office Project 2006
+Assembly Version: 1.0.0.0
+InternalName: BrowserDotNetGeckoEngine.exe
+FileVersion: 1.0.0.0
+CompanyName: CUA Office Project
+Comments: This program using Mozilla Gecko Rendering Engine Technologies. Copyright (C) 2006 Mozilla
+ProductName: BrowserDotNetGeckoEngine
+ProductVersion: 1.0.0.0
+FileDescription: CUA Office Web Browser 7 Beta
+OriginalFilename: BrowserDotNetGeckoEngine.exe
+

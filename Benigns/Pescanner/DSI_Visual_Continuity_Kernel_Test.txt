@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0e0073436d3549a7ebb28def9038d786
+SHA1:    74f94d1679ca960b012c22e82decfea76b5ff21b
+ssdeep:  384:FbXFNX4+XwWsISk6+Pb+E+RDQNiEDDELfl84sQ6EyF:FbXFJNNB6EbKipkhALEyF
+Date:    0x430F3D4A [Fri Aug 26 16:03:22 2005 UTC]
+EP:      0x401430 .text 0/3
+CRC:     Claimed: 0xb17e, Actual: 0xa179 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7388   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x7374   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x70f0   0x284    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5000       0x5000       5.221311    
+.data      0x6000       0x1000       0x1000       0.000000    
+.rsrc      0x7000       0xe12        0x1000       1.673529    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: DSI_Visual_Continuity_Kernel_Test
+FileVersion: 1.00
+CompanyName: DSI
+ProductName: dsi_visual_continuity
+ProductVersion: 1.00
+OriginalFilename: DSI_Visual_Continuity_Kernel_Test.exe
+

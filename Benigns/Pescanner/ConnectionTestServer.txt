@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19456 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     a895b2cfbda1db26949def6357c3b718
+SHA1:    c63fbc6bf5ca0b0d0ce5f583edbf2329dd796c6f
+ssdeep:  384:agId6aSSMCMVfOgMzEBPSQ0n5RHJbpGyf5690isWB:/IoSzEpG3S
+Date:    0x50932874 [Fri Nov  2 01:57:08 2012 UTC]
+EP:      0x40615e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xcfb0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x80a0   0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x83f8   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4164       0x4200       5.428198    
+.rsrc      0x8000       0x5e8        0x600        4.145720    
+.reloc     0xa000       0xc          0x200        0.077633    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2012
+Assembly Version: 1.0.0.0
+InternalName: ConnectionTestServer.exe
+FileVersion: 1.0.0.0
+CompanyName: Microsoft
+ProductName: ConnectionTestServer
+ProductVersion: 1.0.0.0
+FileDescription: ConnectionTestServer
+OriginalFilename: ConnectionTestServer.exe
+

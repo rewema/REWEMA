@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    213070 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     53ed43dec66c84d4cfa098a286709476
+SHA1:    23bce8eb2f0fbfa8148fe65fcb27c41a9b5f4032
+ssdeep:  3072:3C8Jio6el8No2n2LU8u5S+lCzPo8/FzUM4CKhsFQgR+iv658Srd7pP:3PAo6eWNo2n98uQ+lUhz14CKP58Srz
+Date:    0x3B2F9AD5 [Tue Jun 19 18:32:53 2001 UTC]
+EP:      0x40fbc0 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x368bf [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2db28  0x608    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ICON            0x2c830  0xea8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ICON            0x2d6f0  0x2e8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ICON            0x2d9d8  0x128    LANG_SPANISH SUBLANG_SPANISH_MODERN   GLS_BINARY_LSB_FIRST
+RT_MENU            0x2e158  0x18e    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_MENU            0x2e2e8  0x37a    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0x2e6d8  0x178    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0x2e850  0x222    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2eda0  0xde     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x302b8  0x1b0    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2ee80  0x4c     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2ef18  0x330    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2f378  0x280    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2fa30  0x39c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2f700  0x330    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2f248  0x12e    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2f5f8  0x104    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2eed0  0x46     LANG_SPANISH SUBLANG_SPANISH_MODERN   DBase 3 data file (5505112 records)
+RT_STRING          0x2fdd0  0x128    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2fef8  0x240    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x30138  0xc4     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x30200  0xb4     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_ACCELERATOR     0x2e668  0x70     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_ICON      0x2d6d8  0x14     LANG_SPANISH SUBLANG_SPANISH_MODERN   MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x2db00  0x22     LANG_SPANISH SUBLANG_SPANISH_MODERN   MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2ea78  0x324    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+None               0x2e130  0x28     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22e50      0x23000      6.728398    
+.rdata     0x24000      0x34de       0x4000       3.091763    
+.data      0x28000      0x11e8       0x2000       1.627437    
+.idata     0x2a000      0x199d       0x2000       3.981617    
+.rsrc      0x2c000      0x5173       0x6000       3.166524    
+.reloc     0x32000      0x1680       0x2000       4.445219    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: NokiaComposer
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: Aplicaci\xf3n NokiaComposer
+ProductVersion: 1, 0, 0, 1
+FileDescription: Aplicaci\xf3n MFC NokiaComposer
+OriginalFilename: NokiaComposer.EXE
+Translation: 0x0c0a 0x04b0
+

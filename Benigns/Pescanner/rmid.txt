@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15936 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b8edc4631e2b5d7ae9e626690f6506ff
+SHA1:    355e55d0cc56a623539037d245008e50886cbcc9
+ssdeep:  384:GpsG5cnRKSmSHhV8ng1ee84SzK7nYPLr7fL:Gps9nQS/8nle8yC7D
+Date:    0x57E48D0E [Fri Sep 23 02:01:50 2016 UTC]
+EP:      0x40137c .text 0/5
+CRC:     Claimed: 0x11342, Actual: 0x11342 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x43d4   0x673    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8da        0xa00        5.673843    
+.rdata     0x2000       0x7aa        0x800        4.998941    
+.data      0x3000       0x3ac        0x200        0.769716    [SUSPICIOUS]
+.rsrc      0x4000       0xa48        0xc00        5.250043    
+.reloc     0x5000       0x1d8        0x200        5.093049    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2016
+InternalName: rmid
+FileVersion: 8.0.1110.14
+Full Version: 1.8.0_111-b14
+CompanyName: Oracle Corporation
+ProductName: Java(TM) Platform SE 8
+ProductVersion: 8.0.1110.14
+FileDescription: Java(TM) Platform SE binary
+OriginalFilename: rmid.exe
+Translation: 0x0000 0x04b0
+

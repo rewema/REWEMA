@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    117760 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8fb644b6f4d1ff38a184f4a60d2cc6e7
+SHA1:    06cc5d4d116eadd1a0568337461a24cfe903b762
+ssdeep:  3072:9SYVtTZSBLTNzVGGivnXPS9TdeAP21HC:99RZcJDOXUTde00C
+Date:    0x578990D2 [Sat Jul 16 01:41:38 2016 UTC]
+EP:      0x4170e0 .text 0/5
+CRC:     Claimed: 0x1cc3e, Actual: 0x1cc3e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1e850  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1e4d8  0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1e0f0  0x3e1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1847c      0x18600      5.757379    
+.data      0x1a000      0x1780       0xe00        2.808591    
+.idata     0x1c000      0x159c       0x1600       5.605652    
+.rsrc      0x1e000      0x918        0xa00        4.317688    
+.reloc     0x1f000      0x131c       0x1400       6.552157    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: IEUNATT
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: IE 7.0 Unattended Install Utility
+OriginalFilename: IEUNATT.EXE
+Translation: 0x0409 0x04b0
+

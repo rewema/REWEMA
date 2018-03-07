@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    120000 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7e7bcca378567babee3195f9ccc5bf1b
+SHA1:    b28119e1b451fbd77862b6b06667eee96f8a237c
+ssdeep:  3072:mpwa+p5StS5sDQtRTOQGlRFwwVrkcvqbu:S+p5SRq5ORdVrknu
+Date:    0x578990CD [Sat Jul 16 01:41:33 2016 UTC]
+EP:      0x413950 .text 0/5
+CRC:     Claimed: 0x21fde, Actual: 0x21fde 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x19ed8  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0x199a8  0x52c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x19888  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x194d8  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x19190  0x345    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14f28      0x15000      5.867060    
+.data      0x16000      0xa08        0x600        1.561957    
+.idata     0x17000      0x1976       0x1a00       5.351245    
+.rsrc      0x19000      0xfb8        0x1000       4.098776    
+.reloc     0x1a000      0x13dc       0x1400       6.743233    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dismhost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Dism Host Servicing Process
+OriginalFilename: DismHost.exe
+Translation: 0x0409 0x04b0
+

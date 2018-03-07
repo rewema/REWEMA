@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    410112 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     74b117af5b952a034e06707a5f3bba90
+SHA1:    7b885aa31b40e1b26dca1ecdea8d81c9983057f7
+ssdeep:  6144:wmR1/aus9/L4tZSwRbYgbLjaAwGSyVkGQ/35nuks0c8wmR1/aks9/L4tZSwRbYg5:wU9bSwrwbP+DU9TSwrwbP
+Date:    0x4FCD6E1A [Tue Jun  5 02:25:30 2012 UTC]
+EP:      0x4362be .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x6fca2 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3a5b8  0x7501   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x41ac0  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x522e8  0x94a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5b790  0x5488   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x60c18  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x64e40  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x673e8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x68490  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x68e18  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x69280  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 256-colors
+RT_VERSION         0x3a2b0  0x308    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x69308  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x342c4      0x34400      6.158713    
+.sdata     0x38000      0x138        0x200        1.294635    
+.rsrc      0x3a000      0x2f4f8      0x2f600      6.029598    
+.reloc     0x6a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2012
+Assembly Version: 1.0.0.0
+InternalName: W8SM.exe
+FileVersion: 1.0.0.0
+CompanyName: http://cibengineering.com/blog
+Comments: W8 Custom Start Menu
+ProductVersion: 1.0.0.0
+FileDescription: W8SM
+OriginalFilename: W8SM.exe
+

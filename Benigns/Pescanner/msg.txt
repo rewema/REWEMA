@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23552 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     200850bbe6a2de88a212e0e86c3ff845
+SHA1:    db00ab745c637459b74ac5b4769d72f076472c3c
+ssdeep:  384:vvpXtYHHqGtCWY9L9I/irrEDKfaEX4inB2QDxaf0FiWcUW6:HRt94CWShIWg+BddF4
+Date:    0x57898D89 [Sat Jul 16 01:27:37 2016 UTC]
+EP:      0x404500 .text 0/5
+CRC:     Claimed: 0xb5ea, Actual: 0xb5ea 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8718   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3c24       0x3e00       6.185502    
+.data      0x5000       0x1b08       0x200        1.270262    
+.idata     0x7000       0x904        0xa00        4.707596    
+.rsrc      0x8000       0x7e0        0x800        4.290629    
+.reloc     0x9000       0x40c        0x600        5.203945    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: msg
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Message Utility
+OriginalFilename: msg.exe
+Translation: 0x0409 0x04b0
+

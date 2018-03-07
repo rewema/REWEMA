@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49664 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7add6958a8abd815c01d08f0aae44ab4
+SHA1:    14fdcfc91becfed469a1d92d07be29ec66c8e108
+ssdeep:  768:jGUBYhIv/Fifohsyp16OKKeH1Xzij+9n1Oqdfdh22C+BH7sFpCKcKPc:6Uah2ofcj69KEn1FdfW2jbJK
+Date:    0x57898E7E [Sat Jul 16 01:31:42 2016 UTC]
+EP:      0x403960 .text 0/6
+CRC:     Claimed: 0x14f12, Actual: 0x14f12 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xfe30   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9bc0   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa228   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa510   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa638   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb4e0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbd88   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc2f0   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe898   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf940   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xfda8   0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x97f0   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9300   0x4ec    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x32bc       0x3400       6.270742    
+.data      0x5000       0x434        0x200        0.220113    [SUSPICIOUS]
+.idata     0x6000       0x106a       0x1200       4.649015    
+.didat     0x8000       0x10         0x200        0.106651    [SUSPICIOUS]
+.rsrc      0x9000       0x6f00       0x7000       4.953681    
+.reloc     0x10000      0x364        0x400        6.022221    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MultiDigiMon.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Digitizer to Monitor Mapping Tool
+OriginalFilename: MultiDigiMon.exe
+Translation: 0x0409 0x04b0
+

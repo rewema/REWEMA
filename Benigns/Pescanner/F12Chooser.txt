@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    301056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8331687f84589fae7e8be6bab65d76f6
+SHA1:    fcb46094509f9e94bc45a99bdc09484f211be771
+ssdeep:  3072:fau+HcCWEXFey7x78dxh+Q93sJQy7VR3hUDSF7fkh3DCXESDLiH+AxF5PCAz0T/U:xmcCQy7SRVsqy7r94hXSD2HzCAYp6
+Date:    0x578990CF [Sat Jul 16 01:41:35 2016 UTC]
+EP:      0x4356e0 .text 0/6
+CRC:     Claimed: 0x4e461, Actual: 0x4e461 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x48d18  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0x476a0  0x1674   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x46ee8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x47550  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x47678  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 48x48, 16-colors
+RT_VERSION         0x46b60  0x388    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x46210  0x94c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3b8f4      0x3ba00      6.171893    
+.data      0x3d000      0x4a1c       0x4200       5.082515    
+.idata     0x42000      0x2394       0x2400       5.684429    
+.tls       0x45000      0xd          0x200        0.000000    
+.rsrc      0x46000      0x2e00       0x2e00       4.461473    
+.reloc     0x49000      0x42f0       0x4400       6.578275    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: F12Chooser.exe
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: F12 Attach Chooser executable
+OriginalFilename: F12Chooser.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1769599 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a0087bb2d85c23e9d922a17574c718e1
+SHA1:    26cf4ce3d9b1737ecb461017444a1e428f5692fd
+ssdeep:  24576:iOOMlkARbMHG6Oaq/WHFh7MVrgwq/f9dGDb3uO:fO+GHGwqiF6V7q/VdGXuO
+Date:    0x3D0A1723 [Fri Jun 14 16:17:39 2002 UTC]
+EP:      0x428c90 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x1b734f [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x1a1e68 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1a1fa0 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1a2080 0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1a2750 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1a2808 0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1a2978 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a0910 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a0bf8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x1a1ce0 0x17a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a0d48 0x21c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a0f68 0x7d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a1738 0x1f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a2668 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a2ac0 0x1c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a2c88 0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a2d10 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a2d40 0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a2e90 0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a3708 0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a3428 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a3378 0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a40e0 0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a39b0 0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a3e78 0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a41c0 0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_ACCELERATOR     0x1a1e60 0x8      LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file with memo(s) (32774 records)
+RT_GROUP_CURSOR    0x1a2058 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x1a0d20 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1a1930 0x334    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x1a1c68 0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16ae00     0x16b000     4.489730    
+.rdata     0x16c000     0x1a64e      0x1b000      3.834667    
+.data      0x187000     0x13c48      0x10000      3.804277    
+.idata     0x19b000     0x4ca9       0x5000       5.051064    
+.rsrc      0x1a0000     0x4e20       0x5000       3.310099    
+.reloc     0x1a5000     0xe6d2       0xf000       5.925319    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002
+InternalName: NetTabConverter
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: NetTabConverter Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: NetTabConverter MFC Application
+OriginalFilename: NetTabConverter.EXE
+Translation: 0x0409 0x04b0
+

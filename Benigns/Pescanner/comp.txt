@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23552 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     55ee66b7718a5402a3bd68ef8fabaf5e
+SHA1:    b6fd230d18ed1607bb4742bd2d550d63f0bda6e1
+ssdeep:  384:bKrfzScjH8Doidi+cIVSXphKPH5wtGN7WjcWKB:bKr9Hjidi4VmQmGCYB
+Date:    0x57898F00 [Sat Jul 16 01:33:52 2016 UTC]
+EP:      0x403c20 .text 0/5
+CRC:     Claimed: 0xc3c4, Actual: 0xc3c4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8728   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x80f0   0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3324       0x3400       5.801876    
+.data      0x5000       0x380        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0x1216       0x1400       5.177313    
+.rsrc      0x8000       0x7f0        0x800        4.302040    
+.reloc     0x9000       0x55c        0x600        6.347752    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Comp
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: File Compare Utility
+OriginalFilename: Comp.Exe
+Translation: 0x0409 0x04b0
+

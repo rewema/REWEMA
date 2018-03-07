@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    907456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2356b0a6f1c06d7c327b1b68d0a4a6b7
+SHA1:    e69aff0210556f6ad36f15f91df3e422be11e524
+ssdeep:  12288:D8eslDYXIM0sRG6Jdgi6GFpaVauu5vlSToOY1RylJ:dslDkIFsRG6JSVauu5vwToOuolJ
+Date:    0x562447C7 [Mon Oct 19 01:30:47 2015 UTC]
+EP:      0x44b85a .text 0/5
+CRC:     Claimed: 0xecb32, Actual: 0xecb32 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x5756dL => inflate
+   0x79329L => inflate
+   0x7934bL => Mark Adler
+   0x80333L => OpenSSL
+   0x80730L => OpenSSL
+   0x80748L => OpenSSL
+   0x80c97L => OpenSSL
+   0x801a0L => SSLeay
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0x10474058 0x14f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x56175      0x56200      6.643071    
+.rdata     0x58000      0x2bbcc      0x2bc00      5.542917    
+.data      0x84000      0x103efe00   0x16a00      3.256492    
+.rsrc      0x10474000   0x1a8        0x200        5.287618    
+.reloc     0x10475000   0x42a68      0x42c00      1.222041    
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    7105376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f1200f7cbafa6a89437c1d968689c333
+SHA1:    a4316f1c400678d983bd9531fafab28d79fbb84d
+ssdeep:  98304:AzyqQrba9GKgpiO6hT4jc7MmWEcwkjR9WMFWkzOnTpT:AlQrba9GK4iH7MmWVjR9WEbz2
+Date:    0x57898E9E [Sat Jul 16 01:32:14 2016 UTC]
+EP:      0x4d79f0 .text 0/6
+CRC:     Claimed: 0x6c93d8, Actual: 0x6c93d8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x659060 0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4935c4     0x493600     6.597012    
+.rdata     0x495000     0x17525e     0x175400     4.480099    
+.data      0x60b000     0x4c534      0x44e00      5.770904    
+.didat     0x658000     0x28         0x200        0.316400    [SUSPICIOUS]
+.rsrc      0x659000     0x418        0x600        2.443157    
+.reloc     0x65a000     0x76570      0x76600      6.634042    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SearchUI
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Search and Cortana application
+OriginalFilename: SearchUI.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,109 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4060944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3dc289af0b48b5d29e909d33077eee2a
+SHA1:    78dff3ccf091b52bf5be1a34c0e08e2afb0108da
+ssdeep:  98304:NddqQGRBss/dybYkzWsjBWFrnzlY1SxJCcoFGxB:rdqv8bYkzWh1fElFQB
+Date:    0x592EBA5B [Wed May 31 12:43:07 2017 UTC]
+EP:      0x662080 .text 0/5
+CRC:     Claimed: 0x3ea303, Actual: 0x3ea303 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x2da901L => msg
+   0x33937dL => msg
+   0x339a14L => msg
+   0x33a699L => msg
+   0x33b1ebL => msg
+   0x33bea3L => msg
+   0x33cb65L => msg
+   0x33d522L => msg
+   0x33dfaaL => msg
+   0x33e7c1L => msg
+   0x33f309L => msg
+   0x3407f7L => msg
+   0x349c01L => MSG
+   0x2da5d6L => Notice
+   0x2f12a0L => Notice
+   0x368e26L => part
+   0x2d1cfcL => QUIT
+YARA: spam
+   0x2d1d2cL => RCPT TO:
+   0x2d1d38L => RCPT TO:
+   0x2d1c9cL => MAIL FROM:
+   0x2d1cbcL => MAIL FROM:
+   0x2d1cd4L => MAIL FROM:
+   0x2d1ce4L => MAIL FROM:
+   0x2d1c28L => EHLO 
+   0x2d3ac1L => subject: 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+CFG                0x33a530 0xdd40   LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+CFG                0x348270 0x36cb3  LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+PNG                0x37ef24 0x10928  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 960 x 600, 8-bit/color RGB, non-interlaced
+PNG                0x38f84c 0xcf0    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 80 x 40, 8-bit/color RGBA, non-interlaced
+PNG                0x39053c 0x441    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 35 x 35, 8-bit/color RGBA, non-interlaced
+PNG                0x390980 0xa19    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 20 x 120, 8-bit/color RGBA, non-interlaced
+PNG                0x39139c 0xcbd    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 95 x 95, 8-bit/color RGBA, non-interlaced
+PNG                0x39205c 0x2be2   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 60 x 312, 8-bit/color RGBA, non-interlaced
+PNG                0x394c40 0xc4d    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 28 x 22, 8-bit/color RGBA, non-interlaced
+PNG                0x395890 0xc8f    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 28 x 22, 8-bit/color RGBA, non-interlaced
+PNG                0x396520 0x2922   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 60 x 312, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x398e44 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x398f6c 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3994d4 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3997bc 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x39a064 0xb6d0   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x3a5734 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3a5b9c 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a6524 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a75cc 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a9b74 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3add9c 0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 16x16, 16-colors
+RT_VERSION         0x3ade30 0x494    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x3ae2c4 0x437    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+ShellExecuteExW
+ShellExecuteW
+CreateProcessAsUserW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ace22     0x2ad000     6.567596    
+.rdata     0x2ae000     0x81724      0x81800      5.348880    
+.data      0x330000     0x9ab8       0x4600       4.843121    
+.rsrc      0x33a000     0x746fc      0x74800      6.943602    
+.reloc     0x3af000     0x24ac0      0x24c00      6.687028    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2014 AVG Technologies CZ, s.r.o.
+InternalName: avgsetupx.exe
+FileVersion: 1.203.3.5167
+CompanyName: AVG Technologies CZ, s.r.o.
+PrivateBuild: Win32 Release_Unicode_MT_SLL
+ProductName: AVG Setup
+SpecialBuild: SetupCompile_2017_0531_144108(201775), SVNRev d8b69f37acf70ddb4a851eb733f1e7855b0f505c (release/fmw/next), setup
+ProductVersion: 1.203.3.5167
+FileDescription: AVG Setup Process
+OriginalFilename: avgsetupx.exe
+Translation: 0x0000 0x04b0
+

@@ -1,0 +1,78 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    224056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0942c078fe8941282372bb6b5d73e2c8
+SHA1:    7641a96e88ae6eccd1efefee75a3f00a86e31cce
+ssdeep:  1536:EORIuzZYHJ8DHhbEGRs4gaSZ8DxyTpL67Bo6+DDJKKBsdXsxJ6OVPBtvdkmVnTAG:EOR2JgWw5g3LKByhmeJ6OVJthh0k6U
+Date:    0x44E261E0 [Wed Aug 16 00:08:00 2006 UTC]
+EP:      0x40b4b8 .text 0/4
+CRC:     Claimed: 0x4496d, Actual: 0x4496d 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x39c20  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x39178  0x6bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x39d70  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a058  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3a1a8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a490  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3a5e0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a8c8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3aa18  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x388d0  0x2d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x38fa8  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x38d58  0x24a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x38ba8  0x1ae    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3ae40  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3ad18  0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3ae80  0x28     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x39ba0  0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x39d58  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x3ad00  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x3a9f0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x3a5b8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x3a180  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x39838  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x38640  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ReadProcessMemory
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x123fa      0x13000      6.485354    
+.rdata     0x14000      0x1dba       0x2000       5.566807    
+.data      0x16000      0x21a04      0x1c000      5.350462    
+.rsrc      0x38000      0x2ea8       0x3000       3.807855    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1996-2003 Mark Russinovich
+InternalName: Diskmon
+FileVersion: 2.01
+CompanyName: Sysinternals
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Sysinternals Diskmon
+SpecialBuild: 
+ProductVersion: 2.01
+FileDescription: Disk Monitor
+OriginalFilename: Diskmon.exe
+Translation: 0x0409 0x04b0
+

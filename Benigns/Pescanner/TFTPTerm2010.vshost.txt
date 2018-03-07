@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11600 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     02be6d33b1edbc61c79882d3f556bd8a
+SHA1:    8d0afa78893ae5f04e505db0d76d0d50cf34e7da
+ssdeep:  192:LzoWn3xB1BfWKnWZQKPnEtObMacxc8hjeyveCf0pnvC:ZhNfWKnWZLXci2jpv8vC
+Date:    0x4BA2084B [Thu Mar 18 11:02:35 2010 UTC]
+EP:      0x402aee .text 0/3
+CRC:     Claimed: 0x4cdb, Actual: 0x4cdb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xaf4        0xc00        5.396875    
+.rsrc      0x4000       0x420        0x600        2.430056    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: vshost32.exe
+FileVersion: 10.0.30319.1
+CompanyName: Microsoft Corporation
+Comments: vshost32.exe
+ProductName: Microsoft (R) Visual Studio (R) 2010
+ProductVersion: 10.0.30319.1
+FileDescription: vshost32.exe
+OriginalFilename: vshost32.exe
+

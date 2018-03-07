@@ -1,0 +1,154 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4087060 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b4fe6c52357fffee544f1a4f70036e5e
+SHA1:    adca06cd6759f417e1943769467849a57d8a70e3
+ssdeep:  98304:8gXgepoTQCk++3paJWv7KaempF1+Nky0HRD2xZ+kiRh:8gXgeQj+3paMveaempF1/2x8h
+Date:    0x468D5FF0 [Thu Jul  5 21:17:36 2007 UTC]
+EP:      0x41253d .text 0/4
+CRC:     Claimed: 0x275c9, Actual: 0x3e6382 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x25bf4  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2721c  0x1d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x273f4  0x1be    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x275b4  0x48c    LANG_ARABIC  SUBLANG_ARABIC_SAUDI_ARABIA data
+RT_STRING          0x27a40  0x48c    LANG_CATALAN SUBLANG_DEFAULT          data
+RT_STRING          0x27ecc  0x48c    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x28358  0x48c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x287e4  0x48c    LANG_DANISH  SUBLANG_DEFAULT          data
+RT_STRING          0x28c70  0x48c    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x290fc  0x48c    LANG_GREEK   SUBLANG_DEFAULT          data
+RT_STRING          0x29588  0x48c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29a14  0x48c    LANG_FINNISH SUBLANG_DEFAULT          data
+RT_STRING          0x29ea0  0x48c    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x2a32c  0x48c    LANG_HEBREW  SUBLANG_DEFAULT          data
+RT_STRING          0x2a7b8  0x48c    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_STRING          0x2ac44  0x48c    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x2b0d0  0x48c    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x2b55c  0x48c    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x2b9e8  0x48c    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x2be74  0x48c    LANG_NORWEGIAN SUBLANG_NORWEGIAN_BOKMAL data
+RT_STRING          0x2c300  0x48c    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_STRING          0x2c78c  0x48c    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0x2cc18  0x48c    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_STRING          0x2d0a4  0x48c    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_STRING          0x2d530  0x48c    LANG_SERBIAN SUBLANG_DEFAULT          data
+RT_STRING          0x2d9bc  0x48c    LANG_SLOVAK  SUBLANG_DEFAULT          data
+RT_STRING          0x2de48  0x48c    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_STRING          0x2e2d4  0x48c    LANG_THAI    SUBLANG_DEFAULT          data
+RT_STRING          0x2e760  0x48c    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_STRING          0x2ebec  0x48c    LANG_SLOVENIAN SUBLANG_DEFAULT          data
+RT_STRING          0x2f078  0x48c    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_STRING          0x2f504  0x48c    LANG_LATVIAN SUBLANG_DEFAULT          data
+RT_STRING          0x2f990  0x48c    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_STRING          0x2fe1c  0x48c    LANG_VIETNAMESE SUBLANG_DEFAULT          data
+RT_STRING          0x302a8  0x48c    LANG_BASQUE  SUBLANG_DEFAULT          data
+RT_STRING          0x30734  0x48c    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x30bc0  0x48c    LANG_PORTUGUESE SUBLANG_PORTUGUESE       data
+RT_STRING          0x3104c  0x48c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x314d8  0x2f2    LANG_ARABIC  SUBLANG_ARABIC_SAUDI_ARABIA data
+RT_STRING          0x317cc  0x2f2    LANG_CATALAN SUBLANG_DEFAULT          data
+RT_STRING          0x31ac0  0x2f2    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x31db4  0x2f2    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x320a8  0x2f2    LANG_DANISH  SUBLANG_DEFAULT          data
+RT_STRING          0x3239c  0x2f2    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x32690  0x2f2    LANG_GREEK   SUBLANG_DEFAULT          data
+RT_STRING          0x32984  0x2f2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x32c78  0x2f2    LANG_FINNISH SUBLANG_DEFAULT          data
+RT_STRING          0x32f6c  0x2f2    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x33260  0x2f2    LANG_HEBREW  SUBLANG_DEFAULT          data
+RT_STRING          0x33554  0x2f2    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_STRING          0x33848  0x2f2    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x33b3c  0x2f2    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x33e30  0x2f2    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x34124  0x2f2    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x34418  0x2f2    LANG_NORWEGIAN SUBLANG_NORWEGIAN_BOKMAL data
+RT_STRING          0x3470c  0x2f2    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_STRING          0x34a00  0x2f2    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0x34cf4  0x2f2    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_STRING          0x34fe8  0x2f2    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_STRING          0x352dc  0x2f2    LANG_SERBIAN SUBLANG_DEFAULT          data
+RT_STRING          0x355d0  0x2f2    LANG_SLOVAK  SUBLANG_DEFAULT          data
+RT_STRING          0x358c4  0x2f2    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_STRING          0x35bb8  0x2f2    LANG_THAI    SUBLANG_DEFAULT          data
+RT_STRING          0x35eac  0x2f2    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_STRING          0x361a0  0x2f2    LANG_SLOVENIAN SUBLANG_DEFAULT          data
+RT_STRING          0x36494  0x2f2    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_STRING          0x36788  0x2f2    LANG_LATVIAN SUBLANG_DEFAULT          data
+RT_STRING          0x36a7c  0x2f2    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_STRING          0x36d70  0x2f2    LANG_VIETNAMESE SUBLANG_DEFAULT          data
+RT_STRING          0x37064  0x2f2    LANG_BASQUE  SUBLANG_DEFAULT          data
+RT_STRING          0x37358  0x2f2    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x3764c  0x2f2    LANG_PORTUGUESE SUBLANG_PORTUGUESE       data
+RT_STRING          0x37940  0x2f2    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x37c34  0x106    LANG_ARABIC  SUBLANG_ARABIC_SAUDI_ARABIA data
+RT_STRING          0x37d3c  0x106    LANG_CATALAN SUBLANG_DEFAULT          data
+RT_STRING          0x37e44  0x106    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x37f4c  0x106    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x38054  0x106    LANG_DANISH  SUBLANG_DEFAULT          data
+RT_STRING          0x3815c  0x106    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x38264  0x106    LANG_GREEK   SUBLANG_DEFAULT          data
+RT_STRING          0x3836c  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x38474  0x106    LANG_FINNISH SUBLANG_DEFAULT          data
+RT_STRING          0x3857c  0x106    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x38684  0x106    LANG_HEBREW  SUBLANG_DEFAULT          data
+RT_STRING          0x3878c  0x106    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_STRING          0x38894  0x106    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x3899c  0x106    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x38aa4  0x106    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x38bac  0x106    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x38cb4  0x106    LANG_NORWEGIAN SUBLANG_NORWEGIAN_BOKMAL data
+RT_STRING          0x38dbc  0x106    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_STRING          0x38ec4  0x106    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0x38fcc  0x106    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_STRING          0x390d4  0x106    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_STRING          0x391dc  0x106    LANG_SERBIAN SUBLANG_DEFAULT          data
+RT_STRING          0x392e4  0x106    LANG_SLOVAK  SUBLANG_DEFAULT          data
+RT_STRING          0x393ec  0x106    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_STRING          0x394f4  0x106    LANG_THAI    SUBLANG_DEFAULT          data
+RT_STRING          0x395fc  0x106    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_STRING          0x39704  0x106    LANG_SLOVENIAN SUBLANG_DEFAULT          data
+RT_STRING          0x3980c  0x106    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_STRING          0x39914  0x106    LANG_LATVIAN SUBLANG_DEFAULT          data
+RT_STRING          0x39a1c  0x106    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_STRING          0x39b24  0x106    LANG_VIETNAMESE SUBLANG_DEFAULT          data
+RT_STRING          0x39c2c  0x106    LANG_BASQUE  SUBLANG_DEFAULT          data
+RT_STRING          0x39d34  0x106    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x39e3c  0x106    LANG_PORTUGUESE SUBLANG_PORTUGUESE       data
+RT_STRING          0x39f44  0x106    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_ICON      0x3a04c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x3a060  0xb88    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3abe8  0x39d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17d45      0x17e00      6.545271    
+.rdata     0x19000      0x4ed2       0x5000       4.687062    
+.data      0x1e000      0x69c0       0xc00        3.084218    
+.rsrc      0x25000      0x15f88      0x16000      3.339772    
+
+Version info
+================================================================================
+LegalCopyright: CC-BY-SA-NC-3.0 (Joshua Wiedekopf 2012)                                                                                                                                                                                                                                                                     
+FileDescription: TheatreRingtone Installation                                                                                                                                                                                                                                                                                
+FileVersion: 1.0.1                                                                                                                                                                                                                                                                                                       
+Comments: This installation was built with InstallAware: http://www.installaware.com
+CompanyName: Joshua Wiedekopf                                                                                                                                                                                                                                                                                            
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    376320 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b046198824433ec0aba1e9816d4dbd37
+SHA1:    17aeedfb9d34abc5e8c4c8387370a85b66dc6438
+ssdeep:  6144:L7vm/mctEcv79a6dZqW7jpN+JsvcG+l8aL+HO9kzPhb0vdW852+xUuEPKGw:L7v8DtEcvpdZBfp2eoRk7qv/52+xJ
+Date:    0x4A7008AF [Wed Jul 29 08:30:39 2009 UTC]
+EP:      0x4012a0 .text 0/5
+CRC:     Claimed: 0x681fd, Actual: 0x681fd 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x630fc  0x368    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x63464  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_VERSION         0x63478  0x3a8    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a650      0x1a800      5.738681    
+.data      0x1c000      0x3c4b8      0x3c600      7.896384    [SUSPICIOUS]
+.bss       0x59000      0x4128       0x0          0.000000    [SUSPICIOUS]
+.idata     0x5e000      0x41a4       0x4200       5.804431    
+.rsrc      0x63000      0x820        0xa00        4.040503    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Thomas Schweitzer 2009
+InternalName: CuteCanonCapture
+FileVersion: 1,1,0,0
+CompanyName: Thomas Schweitzer
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: CuteCanonCapture
+SpecialBuild: 
+ProductVersion: 1,1,0,0
+FileDescription: CuteCanonCapture
+OriginalFilename: CuteCanonCapture.exe
+Translation: 0x0407 0x04b0
+

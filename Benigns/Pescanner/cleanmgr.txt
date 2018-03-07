@@ -1,0 +1,83 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    210432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3df1ca27764be371a667b72a664b4c65
+SHA1:    f6842034f64cb717948f06869034c8731a4d4967
+ssdeep:  3072:afql8tVhvzv16fypZAEPGRvQhRkKqUa9antF5hvvJkuXp6G:KtVhvzLpeE+ohSKq99UF5hvv//
+Date:    0x57899109 [Sat Jul 16 01:42:33 2016 UTC]
+EP:      0x408da0 .text 0/5
+CRC:     Claimed: 0x3f8ba, Actual: 0x3f8ba 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x35650  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdc50   0x34e7   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x11138  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15360  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17908  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19370  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a418  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ada0  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b458  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1b938  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1bfa0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c288  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c3b0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d258  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1db00  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e068  0x2023   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x20090  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22638  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x236e0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x23be0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24248  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24530  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x24658  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25500  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25da8  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26470  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x269d8  0xa3bc   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x30d98  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33340  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x343e8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34d70  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1b8c0  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_GROUP_ICON      0x23b48  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x351d8  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 12 icons, 48x48, 16-colors
+RT_VERSION         0x35288  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd750   0x4fa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x86d4       0x8800       6.252264    
+.data      0xa000       0x4b4        0x200        0.409058    [SUSPICIOUS]
+.idata     0xb000       0x1630       0x1800       4.931430    
+.rsrc      0xd000       0x28730      0x28800      5.918177    
+.reloc     0x36000      0x7f0        0x800        6.678574    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CLEANMGR
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Disk Space Cleanup Manager for Windows
+OriginalFilename: CLEANMGR.DLL
+Translation: 0x0409 0x04b0
+

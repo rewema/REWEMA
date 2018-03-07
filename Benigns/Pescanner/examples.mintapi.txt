@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    53248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     eba7367830f8baaf082e6eb09740ff8b
+SHA1:    bf57049df4aca20369e5454cd1d3ab1827955c83
+ssdeep:  384:XDPlt8MMBz9R5lPMWCmabrDQ49whedzQqVcYOGU4wYtWGf+CCE8UssquUc:zP/8JBpLBamirv9wtKU47LtZ1
+Date:    0x51B3786A [Sat Jun  8 18:31:06 2013 UTC]
+EP:      0x401540 .text 0/3
+CRC:     Claimed: 0x12833, Actual: 0x12833 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xe7c0   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe4d8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe3b0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe380   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0xe150   0x230    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9498       0xa000       5.470341    
+.data      0xb000       0x2420       0x1000       0.000000    
+.rsrc      0xe000       0x8f0        0x1000       1.939056    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: examples.mintapi
+FileVersion: 1.00
+CompanyName: Home
+ProductName: examples
+ProductVersion: 1.00
+OriginalFilename: examples.mintapi.exe
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    80384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     49061e4e16ff97cd11f1a3b1570b7c78
+SHA1:    298e7c3a5691ce5b871ac8e969015bbaa78e8715
+ssdeep:  1536:357J19DKH4wHJOInwzBBaJQgpOACgwKBNli5/b0AbQ:H1wH4Ar8QDo5/bP
+Date:    0x578990CE [Sat Jul 16 01:41:34 2016 UTC]
+EP:      0x410270 .text 0/6
+CRC:     Claimed: 0x19f81, Actual: 0x19f81 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x15790  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x153b0  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x150f0  0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1025c      0x10400      6.327641    
+.data      0x12000      0x5cc        0x200        0.424878    [SUSPICIOUS]
+.idata     0x13000      0xd94        0xe00        5.102075    
+.didat     0x14000      0x94         0x200        1.330664    
+.rsrc      0x15000      0x858        0xa00        3.813037    
+.reloc     0x16000      0x1404       0x1600       6.515581    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wlanext.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Wireless LAN 802.11 Extensibility Framework
+OriginalFilename: wlanext.exe
+Translation: 0x0409 0x04b0
+

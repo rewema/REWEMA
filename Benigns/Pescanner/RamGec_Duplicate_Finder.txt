@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    294912 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     322f31aa49904e77429c040764608a70
+SHA1:    ee6af1c88e46876c27807806310a24f910485494
+ssdeep:  3072:fZWPAYVFVomCu/GRaFt8FmPTDG3+cPbE9+hro8oLiWkg2pjCkSegy4KVWkg:sAYFpC+uaFiFmbgXPbpnghLetng
+Date:    0x4B4B4C7C [Mon Jan 11 16:06:20 2010 UTC]
+EP:      0x438d3e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x4cd8d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3a4d0  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x4acf8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x3a0e8  0x3e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x36d44      0x36e00      6.994441    
+.rsrc      0x3a000      0x10d10      0x10e00      4.093140    
+.reloc     0x4c000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2010
+Assembly Version: 1.1.0.0
+InternalName: RamGec Duplicate Finder.exe
+FileVersion: 1.1.0.0
+CompanyName: Ramunas Geciauskas
+Comments: Fast and powerful tool for finding duplicate files
+ProductName: RamGec Duplicate Finder
+ProductVersion: 1.1.0.0
+FileDescription: RamGec Duplicate Finder
+OriginalFilename: RamGec Duplicate Finder.exe
+

@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    98304 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9eb7159b3b8abf85f3cd7980be422345
+SHA1:    f6c3408fdb3965c557f6a2249a23d1601dcc0809
+ssdeep:  1536:oTihKbqxzheN710ZhHBywykxE2x1ShhGZ8jG2H1OwizMoi8v:oTihKbqxzhIshhywn22PShhGZ8jG2HFY
+Date:    0x3DEA5F14 [Sun Dec  1 19:12:20 2002 UTC]
+EP:      0x40163c .text 0/3
+CRC:     Claimed: 0x27617, Actual: 0x27617 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x18330  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1831c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x180f0  0x22c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x146a8      0x15000      5.384970    
+.data      0x16000      0x1a2c       0x1000       0.000000    
+.rsrc      0x18000      0x618        0x1000       1.632179    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: mpman
+FileVersion: 0.02.0003
+Comments: MPManFrontend 0.23
+ProductName: MPManFrontend
+ProductVersion: 0.02.0003
+OriginalFilename: mpman.exe
+

@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2510897 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3a9e0f36a173067801141dc55fd051f9
+SHA1:    d2a73738164a612991f816487665f184538af79a
+ssdeep:  24576:DKWhQIzxt9X4FvRjiJuWIfhkG8Eb+R0E3GSl0Gu+ccFvAEBcsj:DrQIN6jQ9G84+R73GSUsqsj
+Date:    0x3D444A69 [Sun Jul 28 19:47:53 2002 UTC]
+EP:      0x431f30 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x27455e [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x251fa0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x2520d8 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2521b8 0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x252888 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x252940 0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x252ab0 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x251760 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x251a48 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x251b98 0xfe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2527a0 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x252bf8 0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x252c80 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x252cb0 0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x252e00 0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x253678 0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x253398 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2532e8 0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x254050 0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x253920 0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x253de8 0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x254130 0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_GROUP_CURSOR    0x252190 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x251b70 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x251c98 0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2056b0     0x206000     4.452239    
+.rdata     0x207000     0x28024      0x29000      4.021627    
+.data      0x230000     0x1a408      0x16000      4.151820    
+.idata     0x24b000     0x5a53       0x6000       4.951524    
+.rsrc      0x251000     0x3ac6       0x4000       3.170338    
+.reloc     0x255000     0x14de1      0x15000      5.983659    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002
+InternalName: ccapgui1
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: ccapgui1 Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: ccapgui1 MFC Application
+OriginalFilename: ccapgui1.EXE
+Translation: 0x0409 0x04b0
+

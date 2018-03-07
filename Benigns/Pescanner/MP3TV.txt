@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     cd95062b035a9106961f9485669aa6ee
+SHA1:    215fb915c6c646f574cfd6c6d4dbeb38ffc82b59
+ssdeep:  384:NvlicYo05Qn3TOFa8r3XXICqoYByk17TXbrQDaDmzN2+5oaNhSzNq3+5nEUUpa/H:NGDPk17vvG2Ii8uGfN6idthqA+
+Date:    0x3E762592 [Mon Mar 17 19:44:18 2003 UTC]
+EP:      0x408efe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xb401 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa418   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa700   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa828   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa118   0x2fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6f04       0x7000       5.464816    
+.rsrc      0xa000       0x850        0x1000       2.043987    
+.reloc     0xc000       0xc          0x1000       0.009845    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1171.37329
+InternalName: MP3TV.exe
+FileVersion: 1.0.1171.37329
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1171.37329
+FileDescription:  
+OriginalFilename: MP3TV.exe
+

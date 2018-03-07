@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2de53942a8a82ac5a7ca70972f4e385a
+SHA1:    07a0c0c5a6db248c319a4f359be93281e93ec11b
+ssdeep:  48:6v7R891MKzX3OsXaNHILkqi8auOPt4G0D3lLtlH:CKyMaNIXizP0D
+Date:    0x433A5281 [Wed Sep 28 08:21:21 2005 UTC]
+EP:      0x4025ce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x5742 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4440   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4728   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4850   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5d4        0x1000       2.228530    
+.rsrc      0x4000       0x878        0x1000       2.076259    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2097.16840
+InternalName: SwfJpegExtract.exe
+FileVersion: 1.0.2097.16840
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2097.16840
+FileDescription:  
+OriginalFilename: SwfJpegExtract.exe
+

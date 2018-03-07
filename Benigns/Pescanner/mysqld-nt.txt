@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5820416 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     6d165ed59438551b6725ba6922b882c1
+SHA1:    03bccc4f17cbc9824f7250cddcf4c31aef00ed99
+ssdeep:  98304:d6HP/owK2a7MJ1/cK67hs666lkkkeAAANIbb1111YYdvvV+pAetQGeeGleNNkxwN:dE3oFMvt9H
+Date:    0x4BE26828 [Thu May  6 06:56:40 2010 UTC]
+EP:      0x6e2fc2 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x59bc52 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x3e7b39L => deflate
+   0x3e7b5bL => Jean-loup Gailly
+   0x3e9091L => inflate
+   0x3e90b3L => Mark Adler
+   0x376630L => OpenSSL
+   0x376675L => OpenSSL
+   0x3e4c68L => SSLeay
+YARA: irc
+   0x37138eL => join
+   0x3713a4L => join
+   0x37423cL => join
+   0x374274L => join
+   0x374bdcL => join
+   0x37fe44L => join
+   0x386be1L => JOIN
+   0x3873b8L => JOIN
+   0x3893fdL => join
+   0x38940eL => join
+   0x38941eL => join
+   0x389505L => join
+   0x44056fL => join
+   0x38b844L => Msg
+   0x38b850L => Msg
+   0x3521e6L => part
+   0x352204L => part
+   0x35220eL => part
+   0x35221dL => PART
+   0x37a2c3L => part
+   0x389c40L => part
+   0x389c4cL => PART
+   0x3f940dL => part
+   0x3f942aL => part
+   0x40848eL => part
+   0x409645L => part
+   0x387c44L => Ping
+   0x387cd4L => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MESSAGETABLE    0x5a1170 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateServiceA
+StartServiceCtrlDispatcherA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x34a7eb     0x34b000     5.841774    
+.rdata     0x34c000     0xe023c      0xe1000      5.228267    
+.data      0x42d000     0x170ba4     0x15c000     4.506090    
+.idata     0x59e000     0x1a71       0x2000       4.295696    
+.tls       0x5a0000     0x3a1        0x1000       0.000000    
+.rsrc      0x5a1000     0x34c        0x1000       0.299941    [SUSPICIOUS]
+

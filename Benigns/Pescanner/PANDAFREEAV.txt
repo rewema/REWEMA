@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1980152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bffe6879a728b8e416af76ef402dce51
+SHA1:    4bd9c70e75db2e21c4ba958f0e366576e1994d5d
+ssdeep:  49152:qar2cZCM1lulIWLyOjdogjzygQGNJ1qSxfuceB:XSPM1NFOji2JQGNJ1quucK
+Date:    0x5721CE1D [Thu Apr 28 08:47:25 2016 UTC]
+EP:      0x419702 .text 0/4
+CRC:     Claimed: 0x1e53c1, Actual: 0x1e53c1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2e490  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2eaf8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ede0  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2efc8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2f0f0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ff98  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30840  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30f08  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x31470  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x73498  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7c940  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7eee8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7ff90  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x80918  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x80d80  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x80e38  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x80e98  0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x80eec  0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x80f20  0xca     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 14 icons, 48x48, 16-colors
+RT_VERSION         0x80fec  0x2e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x812d0  0x595    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1fb61      0x1fc00      6.623755    
+.rdata     0x21000      0x76b6       0x7800       4.655456    
+.data      0x29000      0x45a4       0x1800       3.987030    
+.rsrc      0x2e000      0x53868      0x53a00      2.939475    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Panda 2016
+InternalName: 7zS.sfx
+FileVersion: 15.14.3.0
+CompanyName: Panda Security, S.L.
+ProductName: Panda Security SelfExtrator
+ProductVersion: 15.14
+FileDescription: Panda Security SFX
+OriginalFilename: 7zS.sfx.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21504 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f62db52805e9f7016f529565d99ef3c9
+SHA1:    c842f013741901bcc4e15edf2ffca5e262d8c01b
+ssdeep:  384:Hu4v05f4EIE9aXi/aoqaEXR63o8RzgGDETULPWS3FWnSHLY:vM5f40x/m6VTLbISHLY
+Date:    0x57898D8B [Sat Jul 16 01:27:39 2016 UTC]
+EP:      0x403f60 .text 0/5
+CRC:     Claimed: 0xbb82, Actual: 0xbb82 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8728   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x36c4       0x3800       6.207204    
+.data      0x5000       0x1842       0x200        0.708909    [SUSPICIOUS]
+.idata     0x7000       0x99a        0xa00        4.928722    
+.rsrc      0x8000       0x7f0        0x800        4.322336    
+.reloc     0x9000       0x3b4        0x400        6.337898    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: quser
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Query User Utility
+OriginalFilename: quser.exe
+Translation: 0x0409 0x04b0
+

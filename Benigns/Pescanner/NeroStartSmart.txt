@@ -1,0 +1,421 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    7116336 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     be6316197dd08b29c5151d36af961ba6
+SHA1:    05267f70c1810f94fabb2316d319e04e4ec525ab
+ssdeep:  49152:oCm9FmQE/+CqIbn7BakN7joCbXJBza927Msk/te4oMLYphMzWFSB2An:SF0pKCzba9X5/UqYp2zWIB3
+Date:    0x46668C1F [Wed Jun  6 10:27:43 2007 UTC]
+EP:      0x4a6f5a .text 0/4
+CRC:     Claimed: 0x6ca451, Actual: 0x6ca451 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xc8979L => deflate
+   0xc899bL => Jean-loup Gailly
+   0xc95c9L => inflate
+   0xc95ebL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+DICTIONARY         0x5fc620 0x8fb33  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+PNG                0x6bcef8 0x2320   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 220 x 237, 8-bit/color RGBA, non-interlaced
+PNG                0xf1760  0x11c0   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf2920  0x13a5   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf3cc8  0xefb    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf4bc8  0xe66    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf5a30  0x108b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf6ac0  0x1127   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf7be8  0xd1b    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf8908  0xa9b    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf93a8  0xea5    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xfa250  0xe89    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xfb0e0  0xdfd    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xfbee0  0x1109   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xfcff0  0xf7f    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xfdf70  0xe07    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xfed78  0xe8e    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xffc08  0xff5    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x100c00 0x1098   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x101c98 0xdc8    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x102a60 0xfeb    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x103a50 0xfc4    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x104a18 0xed4    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1058f0 0xf2b    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x106820 0xf1c    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x107740 0xeac    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x127698 0x9486   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 628 x 451, 8-bit/color RGBA, non-interlaced
+PNG                0x130b20 0x7acd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 453 x 451, 8-bit/color RGBA, non-interlaced
+PNG                0x1385f0 0x378f   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 453 x 451, 8-bit/color RGBA, non-interlaced
+PNG                0x13f5b8 0x4190   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 628 x 451, 8-bit/color RGBA, non-interlaced
+PNG                0x147a48 0x89da   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 275 x 279, 8-bit gray+alpha, non-interlaced
+PNG                0x1085f0 0xb09    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 64 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x109100 0xac7    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 64 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x109bc8 0x5747   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 150 x 149, 8-bit/color RGBA, non-interlaced
+PNG                0x10f310 0x6019   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 150 x 149, 8-bit/color RGBA, non-interlaced
+PNG                0x115330 0x1070   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1163a0 0x139d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x117740 0x1071   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1187b8 0xfdf    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x119798 0xf07    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x11a6a0 0x102c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x11b6d0 0x106f   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x11c740 0x10fa   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x11d840 0xc82    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x11e4c8 0xe71    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x11f340 0xffd    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x120340 0xd10    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x121050 0xfd4    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x122028 0xb8f    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x122bb8 0x13cd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x123f88 0xb28    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 64 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0x124ab0 0x75a    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 107 x 15, 8-bit/color RGBA, non-interlaced
+PNG                0x125210 0x10b5   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1262c8 0x13ca   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xf09b8  0xda6    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 58 x 58, 8-bit/color RGBA, non-interlaced
+PNG                0x150428 0x1097   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1514c0 0x14c7   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x152988 0x123b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x153bc8 0xffe    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x154bc8 0x1424   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x155ff0 0x12df   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1572d0 0xe56    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x158128 0xbcb    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x158cf8 0x9fe    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1596f8 0xb2d    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x15a228 0xa74    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x15aca0 0xb8e    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x15b830 0xa84    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x15c2b8 0xce0    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x15cf98 0xdb9    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x15dd58 0x15fe   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x15f358 0x153e   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x160898 0x1351   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x161bf0 0x1188   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x162d78 0x137b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x1640f8 0x1e88   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x165f80 0xb03    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xedd10  0x1041   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xeed58  0xfd5    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xefd30  0xc88    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x166a88 0xfd4    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x167a60 0x124a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xe48c0  0x1386   LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xe5c48  0x12c9   LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xe6f18  0xead    LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xe7dc8  0x1273   LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xe9040  0x1148   LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xea188  0xc17    LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xeada0  0xf07    LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xebca8  0xf33    LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0xecbe0  0x1130   LANG_GERMAN  SUBLANG_GERMAN           PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x168cb0 0x10bd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x169d70 0x118b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x16af00 0x1072   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x16bf78 0x1021   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x16cfa0 0x11c7   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x16e168 0x11a3   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 54 x 54, 8-bit/color RGBA, non-interlaced
+PNG                0x13bd80 0x3837   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 453 x 451, 8-bit/color RGBA, non-interlaced
+PNG                0x143748 0x42fb   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 628 x 451, 8-bit/color RGBA, non-interlaced
+RAWDATA            0x56c888 0x1fdc   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x3dd468 0xc7a0a  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1a9cd8 0x1c9d   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1a80a8 0x1c2d   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x18c060 0x2e07   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x18ee68 0x2e07   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x191c70 0x2e07   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x194a78 0x2e07   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x197880 0x2e07   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x19a688 0x2e07   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x19d490 0x100b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x18b050 0x100b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x19e4a0 0x100b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x171738 0x8207   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x179940 0x1f4b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x17b890 0x7754   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x56e868 0x7754   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x182fe8 0x7754   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x18a740 0x90b    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x170728 0x100b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x19f4b0 0x1f4b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1a1400 0x1f4b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1a3350 0x1f4b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1a52a0 0x2e07   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1ab978 0x17d9   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1ad158 0x700b   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x1b4168 0x11497b LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x575fc0 0x2557   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x2c8ae8 0x11497b LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RAWDATA            0x4a4e78 0xc7a0a  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGION             0x5fc198 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGION             0x5fc368 0x190    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x5fbe90 0x2ec    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_BITMAP          0x6b78a8 0x2b28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6ba3d0 0x2b28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b5f58 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6048 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6138 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6228 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b66d8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b67c8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6408 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b73f8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b7308 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b64f8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b65e8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b77b8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b68b8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b69a8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6a98 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6b88 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6318 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6c78 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6d68 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6f48 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b6e58 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b7038 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b7128 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b7218 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b74e8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b75d8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6b76c8 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x578518 0xa068   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x582580 0x2868   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x584de8 0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x585850 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x585eb8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5861a0 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x586388 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5864b0 0x12428  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5988d8 0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x59d500 0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x59eb28 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x59f9d0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5a0278 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5a0940 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5a0ea8 0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5e2ed0 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5f36f8 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5f7920 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5f9ec8 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5faf70 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5fb8f8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x68db28 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x68dc50 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x68e1b8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68e4a0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68ed88 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68f3f0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68f6d8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x68f8c0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x68f9e8 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x690890 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x691138 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x691800 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x691d68 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x694310 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x694fb8 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x695940 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x695e58 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x696040 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x696168 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x696830 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x696d98 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x697720 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x697be8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6982b0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x698818 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6991a0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x699648 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x699830 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x699958 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69a020 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69a588 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69af10 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69b3d8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69b5c0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69b6e8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69bdb0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69c318 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69cca0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69d168 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69d830 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69dd98 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69e720 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69ebc8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69edb0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69eed8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69f5a0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x69fb08 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a0490 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a0958 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a0b40 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a0c68 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a1330 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a1898 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a2220 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a26e8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a2db0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a3318 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a3ca0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a4148 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a4330 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a4458 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a4b20 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a5088 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a5a10 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a5ed8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a60c0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a61e8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a68b0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a6e18 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a77a0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a7c68 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a8330 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a8898 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a9220 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a96c8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a98b0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a99d8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6aa0a0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6aa608 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6aaf90 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ab458 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6ab640 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ab768 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6abe30 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ac398 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6acd20 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ad1e8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6ad8b0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ade18 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6ae7a0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6aec48 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6aee30 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6aef58 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6af620 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6afb88 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b0510 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b09d8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b0bc0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b0ce8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b13b0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b1918 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b22a0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b2768 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b2e30 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b3398 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b3d20 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b41c8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b43b0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b44d8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b4ba0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b5108 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b5a90 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x5fc4f8 0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x5fc5a8 0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x68da68 0xa2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68c4a8 0x2fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68c7a8 0xfc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68cbb0 0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f310 0x186    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68d860 0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68ce80 0x59e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68d420 0x440    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68d8f0 0x176    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f950 0x4ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f5a0 0x9c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f498 0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16fe40 0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16ff00 0x18a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x170090 0xdc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x170170 0x300    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x170470 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f640 0x30e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f4d8 0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x170510 0x212    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68c8a8 0x302    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c25d8 0x422    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c1ba8 0xa2a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c6970 0xb30    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c58f0 0x107c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c4d88 0xb62    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c4230 0xb52    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c3468 0xdc2    LANG_ENGLISH SUBLANG_ENGLISH_US       x86 executable not stripped
+RT_STRING          0x6c3030 0x436    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c2a00 0x62e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c15e0 0x5c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c0c50 0x98e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6bff00 0xd4c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6bf578 0x984    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c74a0 0x7e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c7c88 0x548    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c81d0 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6bf538 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_ACCELERATOR     0x68c158 0x8      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x5fc180 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x5fbd60 0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 21 icons, 16-colors
+RT_GROUP_ICON      0x695da8 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 12 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x68ed48 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x697b88 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x699608 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 24x24, 256-colors
+RT_GROUP_ICON      0x69b378 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x69d108 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x69eb88 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 24x24, 256-colors
+RT_GROUP_ICON      0x6a08f8 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6a2688 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6a4108 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 24x24, 256-colors
+RT_GROUP_ICON      0x6a5e78 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6a7c08 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6a9688 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 24x24, 256-colors
+RT_GROUP_ICON      0x6ab3f8 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6ad188 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6aec08 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 24x24, 256-colors
+RT_GROUP_ICON      0x6b0978 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6b2708 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_GROUP_ICON      0x6b4188 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 24x24, 256-colors
+RT_GROUP_ICON      0x6b5ef8 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 24x24, 16-colors
+RT_VERSION         0x68c160 0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6bf218 0x320    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+None               0x68db10 0x18     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+WinExec
+OpenProcessToken
+ShellExecuteA
+ShellExecuteExW
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb1426      0xb2000      6.454789    
+.rdata     0xb3000      0x29677      0x2a000      5.229923    
+.data      0xdd000      0x25ac       0x2000       4.174706    
+.rsrc      0xe0000      0x5e8288     0x5e9000     3.659330    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2007 Nero AG and its licensors
+InternalName: Nero StartSmart
+FileVersion: 3, 9, 0, 2
+CompanyName: Nero AG
+SpecialBuild: 3, 9, 0, 2
+ProductName: Nero StartSmart
+ProductVersion: 3, 9, 0, 2
+FileDescription: Nero StartSmart
+OriginalFilename: NeroStartSmart.EXE
+Translation: 0x0000 0x04b0
+

@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    57344 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     50487517f33cacd3e41c7af0ecac01df
+SHA1:    e13f996f27d8683179da43132c427f414d87338a
+ssdeep:  768:IQoTUpjzlTtyNFwx4y7sX4gqfZzyAEqKExgNSTpuYEIl8Ko355:IQOURhTuaHe4gu2rKQq5hl8x
+Date:    0x421B1DF3 [Tue Feb 22 11:56:35 2005 UTC]
+EP:      0x403752 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1b078 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x80e060 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7a93       0x8000       6.457312    
+.rdata     0x9000       0x2294       0x3000       4.060660    
+.data      0xc000       0x801fbc     0x1000       1.269976    
+.rsrc      0x80e000     0x348        0x1000       0.875907    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005 XS Labs
+InternalName: bin2iso
+FileVersion: 1, 0, 0, 1
+CompanyName: XS Labs
+ProductName:  bin2iso Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: bin2iso Application
+OriginalFilename: bin2iso.exe
+Translation: 0x0809 0x04b0
+

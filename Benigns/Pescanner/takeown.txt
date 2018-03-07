@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    52736 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     acdd77ae7dd6b0193ad31569ec86cc72
+SHA1:    308423cab0b6e6ebf4f8371baae0724d94439af0
+ssdeep:  1536:+32anW5U72KBP8dLy631aO6kgJmZxGz9xk:zFKyByq1JLgkZxo9
+Date:    0x57898E8F [Sat Jul 16 01:31:59 2016 UTC]
+EP:      0x40a4a0 .text 0/6
+CRC:     Claimed: 0x117d5, Actual: 0x117d5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xf748   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xf3a0   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf0f0   0x2aa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9ea4       0xa000       6.225589    
+.data      0xb000       0x4ac        0x200        0.183339    [SUSPICIOUS]
+.idata     0xc000       0x121c       0x1400       4.717767    
+.didat     0xe000       0x44         0x200        0.547535    [SUSPICIOUS]
+.rsrc      0xf000       0x810        0xa00        3.721498    
+.reloc     0x10000      0x7ec        0x800        6.666660    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: takeown.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Takes ownership of a file
+OriginalFilename: takeown.exe
+Translation: 0x0409 0x04b0
+

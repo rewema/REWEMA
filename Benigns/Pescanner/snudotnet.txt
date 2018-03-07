@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     7c692d3b632766938d7c636550dc7044
+SHA1:    4921f6a00b9ae6d9dd4391239d8e0277c22746ba
+ssdeep:  48:6n06JzDit2nk9lQHkDrTkA6LyQM75aTIUfyldhFLfV4zYtq+KHkJ1TfZsmOPtO07:AhDw2k9yLk0dfkdhJeeqX4n0o
+Date:    0x41267663 [Fri Aug 20 22:08:35 2004 UTC]
+EP:      0x4030ee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xa255 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4428   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4710   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4838   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x10f4       0x2000       2.814728    
+.rsrc      0x4000       0x860        0x1000       2.056869    
+.reloc     0x6000       0xc          0x1000       0.012639    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1693.41657
+InternalName: snudotnet.exe
+FileVersion: 1.0.1693.41657
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1693.41657
+FileDescription:  
+OriginalFilename: snudotnet.exe
+

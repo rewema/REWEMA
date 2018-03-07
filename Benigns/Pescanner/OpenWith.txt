@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    87296 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a633739da182e75c0d6741119a902a0b
+SHA1:    26d3c98cfcde9f6bf74f7131935653ee06661541
+ssdeep:  1536:TxTONUUIeF6ZyGhAUfKQTzBNer+CE+Ge+aPRL:rNKIrer+CE+GgpL
+Date:    0x57899037 [Sat Jul 16 01:39:03 2016 UTC]
+EP:      0x406940 .text 0/7
+CRC:     Claimed: 0x1d96d, Actual: 0x1d96d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x16cb0  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xc8f8   0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd120   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd788   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xda70   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdc58   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xdd80   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xec28   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf4d0   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfb98   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x10100  0x26ae   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x127b0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14d58  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15e00  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16788  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x16bf0  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0xcd90   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc430   0x4c2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x63f8       0x6400       6.289130    
+.imrsiv    0x8000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x9000       0x514        0x200        0.453512    [SUSPICIOUS]
+.idata     0xa000       0xc94        0xe00        4.789719    
+.didat     0xb000       0x20         0x200        0.312494    [SUSPICIOUS]
+.rsrc      0xc000       0xada0       0xae00       5.244139    
+.reloc     0x17000      0x6b8        0x800        6.056186    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: OpenWith
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Pick an app
+OriginalFilename: OpenWith.exe
+Translation: 0x0409 0x04b0
+

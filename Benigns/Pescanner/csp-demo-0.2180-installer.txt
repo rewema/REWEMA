@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16219910 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e4a1d75cdcf1301d5c0e4b565d5eb529
+SHA1:    7cd53d2fe7c64f4f69c7d5fe4eff1c2ad5c770cc
+ssdeep:  393216:AKbiPIva10rWCjTkFGfpH6O3yetK9DbaM+WPEn:AhgvgaHAGBHxztKNaM+tn
+Date:    0x4632562C [Fri Apr 27 19:59:40 2007 UTC]
+EP:      0x403190 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xf78457 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+
+Clamav: LibClamAV Warning: **************************************************
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x39388  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x394b0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x39a18  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x39d00  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a5a8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3b450  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3b8b8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3c960  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ca18  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3cb38  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3cd38  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ce30  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ced0  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3cfc0  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 16x16, 16-colors
+RT_VERSION         0x3d028  0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3d268  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5b6e       0x5c00       6.473244    
+.rdata     0x7000       0x1286       0x1400       5.041350    
+.data      0x9000       0x25cb8      0x400        5.046837    
+.ndata     0x2f000      0xa000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x39000      0x4480       0x4600       5.737565    
+
+Version info
+================================================================================
+ProductName: Combat Simulator Project Demo
+FileVersion: 0.2180
+Comments: Visit http://csp.sf.net/wiki/Demo for more information.
+FileDescription: CSP Demo Installer
+Translation: 0x0409 0x0000
+

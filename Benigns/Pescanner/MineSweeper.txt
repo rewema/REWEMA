@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    739840 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7e7ece595a0d7ea9ee912efa20118aa3
+SHA1:    02a4c588126b4e91328a82de93a3ea43e16bf129
+ssdeep:  12288:O/QQQxS6iZ/tszEnMoY+IviModFo/3C74vy4gTwLnl5dlfNUAqHJtW2KKtUx7:O/JQFiZtszEnMoYFvyo/3ZtVlp2rtUx
+Date:    0x4A5BC63D [Mon Jul 13 23:41:49 2009 UTC]
+EP:      0x102e08f .text 0/4
+CRC:     Claimed: 0xb4e2d, Actual: 0xb4e2d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb1350  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8ba30  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8c098  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8c380  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8c4a8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8d350  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8dbf8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8e160  0xc992   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x9aaf8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9d0a0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9e148  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9e648  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9ecb0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9ef98  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9f0c0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9ff68  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa0810  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa0d78  0x94f8   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xaa270  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xac818  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xad8c0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x9e5b0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_GROUP_ICON      0xadd28  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xb0f70  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8b590  0x49f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xaddc0  0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7cd6c      0x7ce00      6.337512    
+.data      0x7e000      0xccb4       0x8a00       4.331117    
+.rsrc      0x8b000      0x26448      0x26600      7.146380    [SUSPICIOUS]
+.reloc     0xb2000      0x8522       0x8600       5.077411    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: minesweeper.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for Minesweeper Game
+OriginalFilename: minesweeper.exe
+Translation: 0x0409 0x04b0
+

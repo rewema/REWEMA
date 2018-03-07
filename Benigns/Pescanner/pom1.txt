@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    39936 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e8e84fe2d2a15126eebbe9d6a6713e18
+SHA1:    f2fafa4dd406f2de63fae7c68a03df44d4cfbdad
+ssdeep:  768:h51Aqtcd2VLB9BNCbRsWVsST5LrE6JAtqQrjFm/f:RAqZZjBN+VTL46JiqS
+Date:    0x54CEB6EA [Sun Feb  1 23:29:46 2015 UTC]
+EP:      0x4075f0 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x13c1d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c130  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1c418  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x1c430  0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1c6c8  0x268    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x69fa       0x6a00       6.474509    
+.rdata     0x8000       0x106c       0x1200       4.927957    
+.data      0xa000       0x11a14      0x200        0.419959    [SUSPICIOUS]
+.rsrc      0x1c000      0x930        0xa00        3.352250    
+.reloc     0x1d000      0xe8c        0x1000       6.535883    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2000-2012.  Licensed under GNU General Public License, version 2
+InternalName: pom1
+FileVersion: 1.0.0
+CompanyName: jdcorrado@gmail.com
+ProductName: Pom1
+ProductVersion: 1.0.0
+FileDescription: Pom1 1.0.0
+

@@ -1,0 +1,37 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    708656 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     78f0e78395ccbb1f6c979c5754d28d75
+SHA1:    ec8bb95535a29d02b4b2301d36cbb154a5a4867c
+ssdeep:  12288:GC4xzjAKRlKbKVMUD/nroHzHbUjdhUv24Mtb:+H5broHz7CjMmb
+Date:    0x3FF81BDF [Sun Jan  4 13:57:51 2004 UTC]
+EP:      0x442cf0 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0xb8637 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xd8f30  0x134    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0xd8270  0xca8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_CURSOR    0xd9068  0x14     LANG_GERMAN  SUBLANG_GERMAN           Lotus 1-2-3
+RT_GROUP_ICON      0xd8f18  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8c960      0x8d000      4.298221    
+.rdata     0x8e000      0x8a3f       0x9000       5.217001    
+.data      0x97000      0x36a24      0x3000       1.991779    
+.idata     0xce000      0x9cca       0xa000       5.302686    
+.rsrc      0xd8000      0x1450       0x2000       2.450836    
+.reloc     0xda000      0x6626       0x7000       5.851098    
+

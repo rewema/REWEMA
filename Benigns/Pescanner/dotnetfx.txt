@@ -1,0 +1,77 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23510720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     93a13358898a54643adbca67d1533462
+SHA1:    a3625c59d7a2995fb60877b5f5324892a1693b2a
+ssdeep:  393216:jzCg5GfUZn9HO+DYmUCOJWXqqKngkGN4Bl8SwDDgBo8JjwBrxPT7RDw6GmE4nTBd:jGgLg+ACOJe7ok4/loBQurxPvZw6G2Bd
+Date:    0x41107BC1 [Wed Aug  4 06:01:37 2004 UTC]
+EP:      0x100645c .text 0/3
+CRC:     Claimed: 0x1674e7e, Actual: 0x1674e7e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0xd7a0   0x2e1a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+RT_ICON            0x105bc  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x108a4  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x109cc  0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x10c98  0x18a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x10e24  0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x10f64  0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x110fc  0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1120c  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11308  0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11394  0x520    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x118b4  0x5cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11e80  0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x12330  0x44a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1277c  0x3ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x12b4c  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x12b54  0x165a21b LANG_ENGLISH SUBLANG_ENGLISH_US       Microsoft Cabinet archive data, 23437851 bytes, 56 files
+RT_RCDATA          0x166cd70 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       Applesoft BASIC program data
+RT_RCDATA          0x166cd74 0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x166cd98 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x166cda0 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x166cda8 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x166cdac 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x166cdb4 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x166cdb8 0xe      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x166cdc8 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x166cdcc 0x1d     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x166cdec 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x166cdf4 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_GROUP_ICON      0x166cdfc 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x166ce20 0x354    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x992c       0x9a00       6.565016    
+.data      0xb000       0x1be4       0x400        4.248000    
+.rsrc      0xd000       0x1660174    0x1660200    7.999822    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) Microsoft Corporation.  All rights reserved.
+InternalName: setup.exe
+FileVersion: 2.0.50727.42
+CompanyName: Microsoft Corporation
+ProductName: Microsoft .NET Framework 2.0
+ProductVersion: 2.0.50727.42
+FileDescription: IExpress Setup
+OriginalFilename: setup.exe
+Translation: 0x0409 0x04b0
+

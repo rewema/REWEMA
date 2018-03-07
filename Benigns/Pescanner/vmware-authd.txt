@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    89792 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1014531bc5b8c5c0f25282b83bc74607
+SHA1:    5ae835075e6f379a7d48442725d59cdf30ebfa78
+ssdeep:  1536:uGYLm0oQM6wIq8I20MUSlc1K0nrFN1bA7uPrrHl4hoqfYgPco+QvIAjioRrD:zY1oX7gc1lr1QuPrr7qQgPv+QNjioRv
+Date:    0x5624435B [Mon Oct 19 01:11:55 2015 UTC]
+EP:      0x40b31f .text 0/6
+CRC:     Claimed: 0x1da6d, Actual: 0x1da6d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x150a0  0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x153e8  0x3be    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+StartServiceW
+OpenProcessToken
+CreateProcessAsUserW
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xab84       0xac00       6.336961    
+.rdata     0xc000       0x6680       0x6800       5.415966    
+.data      0x13000      0x8c0        0x200        0.466849    [SUSPICIOUS]
+.tls       0x14000      0x955        0xa00        0.052199    [SUSPICIOUS]
+.rsrc      0x15000      0x7a8        0x800        4.941351    
+.reloc     0x16000      0x136a       0x1400       5.941986    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2015 VMware, Inc.
+InternalName: vmauthd
+FileVersion: 12.0.1 build-3160714
+CompanyName: VMware, Inc.
+ProductName: VMware Workstation
+ProductVersion: 12.0.1 build-3160714
+FileDescription: VMware Authorization Service
+OriginalFilename: vmware-authd.exe
+Translation: 0x0409 0x04b0
+

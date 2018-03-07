@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    44544 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fae22e6898713b4b42ba2716ef98f96f
+SHA1:    7a19e327fe821b5213f78d66eb467bb9855102c3
+ssdeep:  768:LSZynr22lTSUTZ5KGrBB2waawoMOzAynI3MrbyAnnJ5NaLDc9:R5131B2owWzznI3M3JvaLDc
+Date:    0x5789910F [Sat Jul 16 01:42:39 2016 UTC]
+EP:      0x407e80 .text 0/5
+CRC:     Claimed: 0x167e5, Actual: 0x167e5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc478   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc0b0   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8648       0x8800       6.121594    
+.data      0xa000       0x8c8        0x600        2.704491    
+.idata     0xb000       0xdcc        0xe00        5.321778    
+.rsrc      0xc000       0x540        0x600        2.978020    
+.reloc     0xd000       0x7ac        0x800        6.538400    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ATBroker.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Assistive Technology Manager
+OriginalFilename: ATBroker.exe
+Translation: 0x0409 0x04b0
+

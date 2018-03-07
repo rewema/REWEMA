@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     29656b9e6b04c85e7bf4018b6844be28
+SHA1:    91e297712f7b8b72df83c83d59e897d492d5a5d1
+ssdeep:  96:TekkA3GX9c27oo90tPDWPT4u14HbJV/s/iDm9os0Tz0DJ7pRKRNEW6gWw0ee0qZ:SkkAWXOI/TKbeiS9os0TzitW6gWV0
+Date:    0x57899148 [Sat Jul 16 01:43:36 2016 UTC]
+EP:      0x401490 .text 0/5
+CRC:     Claimed: 0x5b8d, Actual: 0x5b8d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4a28   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x48e8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4a10   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x4538   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4180   0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd04        0xe00        5.463693    
+.data      0x2000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x410        0x600        3.761083    
+.rsrc      0x4000       0xaf8        0xc00        4.167695    
+.reloc     0x5000       0x144        0x200        4.518815    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CTFMON
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 10.0.14393.0
+FileDescription: CTF Loader
+OriginalFilename: CTFMON.EXE
+Translation: 0x0409 0x04b0
+

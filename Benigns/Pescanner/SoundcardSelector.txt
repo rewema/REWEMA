@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     65dfe0e113a2385f792b3e4750a1f57c
+SHA1:    a04260e8bd279a7a48f8ce735f7551916591ada4
+ssdeep:  384:EkLEqmv2Q6u2Y+jC00mS1a7+pbkTKVsh5PO4:EkLEkbA7b9Vsh5p
+Date:    0x3DA4EF9F [Thu Oct 10 03:10:23 2002 UTC]
+EP:      0x4046de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xe319 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6478   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x65a0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6888   0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x7930   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 16x16, 16-colors
+RT_VERSION         0x6148   0x32c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x26e4       0x3000       4.666514    
+.rsrc      0x6000       0x1960       0x2000       4.614138    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1012.39911
+InternalName: SoundcardSelector.exe
+FileVersion: 1.0.1012.39911
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1012.39911
+FileDescription:  
+OriginalFilename: SoundcardSelector.exe
+

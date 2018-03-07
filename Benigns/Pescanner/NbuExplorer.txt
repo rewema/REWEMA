@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    378368 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2c508650ba21b07b0048d1418e73918f
+SHA1:    ffb02072cd3669707e0b77ac04f273573906213d
+ssdeep:  6144:opyzMvBLpDxuuMUI6couGzpjPD3cKZ9mVX667W+Yqj9yAsWK8:oAwvM16c6F6f7rK8
+Date:    0x5403909F [Sun Aug 31 21:16:15 2014 UTC]
+EP:      0x45c38e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x674a2 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5e578  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x5e9e0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x5fa88  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x5e160  0x414    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x5fab0  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5a394      0x5a400      6.041748    
+.rsrc      0x5e000      0x1ca0       0x1e00       4.590702    
+.reloc     0x60000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Petr Vil\xe9m 2014
+Assembly Version: 3.3.88.40087
+InternalName: NbuExplorer.exe
+FileVersion: 3.3.88.40087
+Comments: Nokia nbu, nbf, nfb, nfc and arc backup file parser, extractor and viewer
+SVN rev.\xa0[88]
+C.\xa0[14/08/31\xa023:18] B.\xa0[14/08/31\xa023:16]
+ProductName: NbuExplorer
+ProductVersion: 3.3.88.40087
+FileDescription: NbuExplorer
+OriginalFilename: NbuExplorer.exe
+

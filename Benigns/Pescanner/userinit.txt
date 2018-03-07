@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    27648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fa900e6cccf0a429d5b720c6f0e2274b
+SHA1:    26194057936830b413188f196f295a6aa8404fb7
+ssdeep:  384:3muYNwOieNDEuQLNQbw9lbYEXKdnm8pZ/xZpQMH3AtWlymWF91:H2DieNzdbG5mnm8TPl3wh
+Date:    0x578990DE [Sat Jul 16 01:41:50 2016 UTC]
+EP:      0x4046d0 .text 0/6
+CRC:     Claimed: 0x11dd0, Actual: 0x11dd0 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x96c0   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9310   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x21b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x45bc       0x4600       6.091280    
+.data      0x6000       0x40c        0x200        0.236539    [SUSPICIOUS]
+.idata     0x7000       0xe72        0x1000       4.560317    
+.didat     0x8000       0x5c         0x200        0.849536    [SUSPICIOUS]
+.rsrc      0x9000       0x788        0x800        4.017926    
+.reloc     0xa000       0x510        0x600        6.043691    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: userinit
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Userinit Logon Application
+OriginalFilename: USERINIT.EXE
+Translation: 0x0409 0x04b0
+

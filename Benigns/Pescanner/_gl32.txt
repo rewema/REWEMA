@@ -1,0 +1,25 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    849936 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     5bc84de762472e802a427c43183faa04
+SHA1:    e9f6327ed72caf3ce90d8e377afcc10d5ba2d148
+ssdeep:  12288:gYBGfPrF3z1bk3H5LVwFIJEPhzPDK4cv5vYQgrfHB2LK2mwKlnk7DJRrhypcgwE:gYwHrF3K3YFBd7n5t2m2mwJRMXwE
+Date:    0x3CE1B696 [Wed May 15 01:15:02 2002 UTC]
+EP:      0x54e8e0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0xd58f7 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0xe9000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0xea000      0x65000      0x64c00      7.886421    [SUSPICIOUS]
+UPX2       0x14f000     0x1000       0x400        2.405036    
+

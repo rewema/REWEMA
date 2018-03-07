@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15360 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     800d29af8cae5bea167d7df94b0d328d
+SHA1:    22c3e64c726dbc3f0f1abdc0731c0117479c41f0
+ssdeep:  192:bC/VavEyBq0HvXU1yX3yN5TTDmtfxGXT5koWSpjWeW:AIToyX3yXCpBoWSpjW
+Date:    0x57898EBC [Sat Jul 16 01:32:44 2016 UTC]
+EP:      0x402580 .text 0/5
+CRC:     Claimed: 0x6c41, Actual: 0x6c41 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5728   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5398   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x2a1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1bac       0x1c00       5.839065    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0xc3c        0xe00        4.992738    
+.rsrc      0x5000       0x7f0        0x800        4.313889    
+.reloc     0x6000       0x28c        0x400        4.951737    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Label
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Disk Label Utility
+OriginalFilename: Label.Exe
+Translation: 0x0409 0x04b0
+

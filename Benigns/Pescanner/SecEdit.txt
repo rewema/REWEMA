@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    37888 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2c1d80ee80f12ef1033f8fa1e1996276
+SHA1:    49b54f8fb65f8a568e80cbabeec35fd1703f09c5
+ssdeep:  384:Lq6Gd06LjLnghyhiWuTCGHYXMODXdYNlfDWPzHiW+aXq0lDf2Bh7/oSXkoQfwD4:+dgMh3uTCGHlkX2NlfU9JqT7/pXkU4
+Date:    0x578990DB [Sat Jul 16 01:41:47 2016 UTC]
+EP:      0x403c60 .text 0/6
+CRC:     Claimed: 0x10bc9, Actual: 0x10bc9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc388   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8998   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8c80   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8e68   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8f90   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9838   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9f00   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa468   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb510   0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbe98   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc300   0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 32x32, 16-colors
+RT_VERSION         0x85c8   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8300   0x2c1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3398       0x3400       5.902448    
+.data      0x5000       0x388        0x200        0.249053    [SUSPICIOUS]
+.idata     0x6000       0xcda        0xe00        4.547454    
+.didat     0x7000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x8000       0x4458       0x4600       5.282851    
+.reloc     0xd000       0x3f4        0x400        6.536718    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SeCEdit
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Security Configuration Editor Command Tool
+OriginalFilename: SeCEdit
+Translation: 0x0409 0x04b0
+

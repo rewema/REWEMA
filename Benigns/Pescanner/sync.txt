@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    143512 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ddc475c8b509249f28f0eeac3e6fc414
+SHA1:    0513f88eb78be04b2fb48fea8bf43491ef33443a
+ssdeep:  3072:CxmpXIWmdor44n5rZUFtLLqX0JwDmTgYvjExo:GWm14QtakXIo
+Date:    0x575E15CD [Mon Jun 13 02:09:17 2016 UTC]
+EP:      0x4049fe .text 0/5
+CRC:     Claimed: 0x2e25e, Actual: 0x2e25e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x220a0  0x310    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x223b0  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10814      0x10a00      6.587112    
+.rdata     0x12000      0xb718       0xb800       4.655650    
+.data      0x1e000      0x3128       0x1400       3.281074    
+.rsrc      0x22000      0x530        0x600        3.746384    
+.reloc     0x23000      0x1058       0x1200       6.321830    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2016 Mark Russinovich
+InternalName: Sync
+FileVersion: 2.2
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Sync
+ProductVersion: 2.2
+FileDescription: Flush cached data to disk.
+OriginalFilename: Sync.exe
+Translation: 0x0409 0x04b0
+

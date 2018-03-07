@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     80a1cf01b2da797c8eef9ac2efd0b120
+SHA1:    79e02954541523636cb4a46aef073f9425ff9b37
+ssdeep:  384:c5z+b4aORGQOvLcpZ7/alrW0JkaB90dtUWIg:c5z+sOAZ7XcvB9qIg
+Date:    0x419A60AF [Tue Nov 16 20:18:55 2004 UTC]
+EP:      0x404f4e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xec66 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6058   0x400    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2f54       0x3000       5.316122    
+.rsrc      0x6000       0x458        0x1000       1.147102    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Distributable under Academic Free License Version 1.2
+Assembly Version: 0.9.3.38367
+InternalName: RunAsService.exe
+FileVersion: 0.9.3.38367
+CompanyName: DulSoft
+LegalTrademarks:  
+Comments: Runs normal applications as a windows service
+ProductName: RunAsService
+ProductVersion: 0.9.3.38367
+FileDescription: RunAsService
+OriginalFilename: RunAsService.exe
+

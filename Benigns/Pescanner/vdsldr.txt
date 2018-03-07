@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     31d53b932046674bfb15203df05c7d4b
+SHA1:    f8eb46967e0d02d859161befc1f7397005452cbd
+ssdeep:  384:c0F5/tXR6FOO00tTnXNqjWgbCpw5/Wp+Wh4LaTE:cm5lXrrjWgbCm5OB9E
+Date:    0x57898F43 [Sat Jul 16 01:34:59 2016 UTC]
+EP:      0x404180 .text 0/5
+CRC:     Claimed: 0xa789, Actual: 0xa789 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0x7750   0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+RT_VERSION         0x73a0   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7100   0x2a0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x38a0       0x3a00       6.130133    
+.data      0x5000       0x45c        0x200        0.803906    [SUSPICIOUS]
+.idata     0x6000       0x868        0xa00        4.460565    
+.rsrc      0x7000       0x9f0        0xa00        4.695525    
+.reloc     0x8000       0x4b0        0x600        5.712428    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: vdsldr.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Virtual Disk Service Loader
+OriginalFilename: vdsldr.exe
+Translation: 0x0409 0x04b0
+

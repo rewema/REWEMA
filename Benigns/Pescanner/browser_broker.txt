@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fb970dc1e467edff0e2cee16f5e796a3
+SHA1:    70759706fab7dc4c33517b9c50573d175a55a08d
+ssdeep:  384:aGQca7u7cLUXSXAj4m3W9R2YIWVHFWeWXHFWN8lRDBRJeC8l3hfs:aGIBX2YDmUo1PeCyhE
+Date:    0x57899149 [Sat Jul 16 01:43:37 2016 UTC]
+EP:      0x4020b0 .text 0/6
+CRC:     Claimed: 0x122df, Actual: 0x122df 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6850   0x640    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60a0   0x7b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a2c       0x1c00       5.654954    
+.imrsiv    0x3000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x4000       0x3bc        0x200        0.367942    [SUSPICIOUS]
+.idata     0x5000       0xa3a        0xc00        4.330739    
+.rsrc      0x6000       0xe90        0x1000       4.489881    
+.reloc     0x7000       0x258        0x400        4.574866    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Browser_Broker
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 11.00.14393.0
+FileDescription: Browser_Broker
+OriginalFilename: browser_broker.EXE
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Browser_Broker
+FileVersion: 11.00.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 11.00.14393.0
+FileDescription: Browser_Broker
+OriginalFilename: browser_broker.EXE
+Translation: 0x0409 0x04b0
+

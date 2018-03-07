@@ -1,0 +1,78 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2146304 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d08e4e4f5637091eae4c7677a902189c
+SHA1:    ac4c4a708bd59de0fa851e293a17cda6863eb0c9
+ssdeep:  24576:LYVqTYF/biuf/szYEB4/TdtBz0w8WOnn/:LQskxd8WOn
+Date:    0x580C5452 [Sun Oct 23 06:10:26 2016 UTC]
+EP:      0x60cffe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x21a44e [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x19f416L => JOIN
+   0x1c4eabL => Msg
+   0x1c5837L => msg
+   0x1ca593L => Msg
+   0x131ed3L => notice
+   0x1331c5L => notice
+   0x135866L => notice
+   0x135ab4L => notice
+   0x135f1dL => notice
+   0x135fb2L => notice
+   0x138a46L => notice
+   0x138dfaL => notice
+   0x131a79L => part
+   0x1322adL => part
+   0x13264aL => part
+   0x132e36L => part
+   0x134a2dL => part
+   0x1350b4L => part
+   0x1350ceL => part
+   0x1351ebL => part
+   0x13584fL => part
+   0x137bfeL => part
+   0x1a449dL => QUIT
+   0x1b3d8eL => QUIT
+   0x1c366eL => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x20e550 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x20e678 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x20e130 0x41c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x20e690 0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x20b004     0x20b200     5.801469    
+.rsrc      0x20e000     0x880        0xa00        3.705970    
+.reloc     0x210000     0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright  \xa9  Sameer Borde  2012 - 2016
+Assembly Version: 1.0.1.4
+InternalName: LISTSP.exe
+FileVersion: 1.0.1.4
+CompanyName: Sameer Borde
+LegalTrademarks: Sameer Borde
+Comments: List & Manage Processes, Services & Drivers
+ProductName: List Processes Services Drivers
+ProductVersion: 1.0.1.4
+FileDescription: List Processes Services Drivers
+OriginalFilename: LISTSP.exe
+

@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    184320 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c9dc63b0cce3a5684003ebb65fcc6827
+SHA1:    7568c0c9f8f1fee124e868c4dceb8f22bd8c7b29
+ssdeep:  3072:ZhGPaaSI8MNheXIBg2IS5F2FdUlk9nbHwjLmft8RrD9V:Zhpax8TLS5F2FdUlk9nLftU
+Date:    0x41709902 [Sat Oct 16 03:44:02 2004 UTC]
+EP:      0x40ed31 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x327e5 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: sniffer
+   0x26c22L => wpcap.dll
+   0x26b92L => pcap_findalldevs
+   0x26bd8L => pcap_open
+   0x26bc8L => pcap_compile
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2c478  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c760  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2c888  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d130  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dfd8  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c2c0  0x1b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c220  0xa0     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_ICON      0x2e108  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 32x32, 16-colors
+RT_VERSION         0x2e158  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1f700      0x20000      6.610288    
+.rdata     0x21000      0x6410       0x7000       4.542059    
+.data      0x28000      0x36e4       0x2000       3.635391    
+.rsrc      0x2c000      0x24e8       0x3000       2.835944    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004
+InternalName: pcapdstream
+FileVersion: 1, 0, 0, 1
+PrivateBuild: 0.7
+Comments: Visit www.sourceforge.net/projects/excalibar for all your support needs
+ProductName:  pcapdstr Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: pcapdstream Application
+OriginalFilename: pcapdstream.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b6bbbe608eeb1d13ad98fefe0eb1cce9
+SHA1:    4344017fb1d84c260ac1baf6eb17e1826ea9731f
+ssdeep:  384:ktrFn4hA4IggcZ8CByuB0Ag0gm45Hc8H1:ktrBAByuCVc8H1
+Date:    0x4A7DB8D6 [Sat Aug  8 17:41:42 2009 UTC]
+EP:      0x404fde .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xeb08 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x60a0   0x308    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x63a8   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2fe4       0x3000       5.470917    
+.rsrc      0x6000       0x598        0x600        4.063656    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2009
+Assembly Version: 1.0.0.0
+InternalName: SplainShoutCast.exe
+FileVersion: 1.0.0.0
+ProductName: WindowsFormsApplication1
+ProductVersion: 1.0.0.0
+FileDescription: WindowsFormsApplication1
+OriginalFilename: SplainShoutCast.exe
+

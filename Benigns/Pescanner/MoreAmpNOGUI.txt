@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2850304 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     62ad038b122332a9d7d923413c8ba5c3
+SHA1:    da3049132d71ab83b2dc2900c7967517f682f0a2
+ssdeep:  49152:KaC9ihL9Aln3ajMNMjQXf9yXf5MPGgwT+nHqzN9:KaCMhm5ajMNMjQXf9Sf5MPGI
+Date:    0x5404A1AF [Mon Sep  1 16:41:19 2014 UTC]
+EP:      0x4b9854 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2b8a96 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x27c681L => deflate
+   0x27c6a3L => Jean-loup Gailly
+   0x27fc81L => inflate
+   0x27fca3L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x42d0f0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42d3d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x42d500 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd66a1      0xd6800      6.718955    
+.rdata     0xd8000      0x1cf914     0x1cfa00     2.908185    
+.data      0x2a8000     0x18490c     0x11200      6.958100    
+.rsrc      0x42d000     0x528        0x600        2.118812    
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ab277deb71a0932983125f06658d33d1
+SHA1:    5875f22952a0edbafc93d49c9b3011baec240283
+ssdeep:  48:6TWh5YWm5QR3sJZpV2lEI8hnRFLUmRdRywR2mSaJb+ttoM3OPt+0vKL9VH:d/mSRqpMGjrgG1SEb810v
+Date:    0x43EF3788 [Sun Feb 12 13:26:32 2006 UTC]
+EP:      0x40299e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x113d9 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4430   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4718   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4840   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x9a4        0x1000       3.619095    
+.rsrc      0x4000       0x868        0x1000       2.052093    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2234.30496
+InternalName: Oscillator.exe
+FileVersion: 1.0.2234.30496
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2234.30496
+FileDescription:  
+OriginalFilename: Oscillator.exe
+

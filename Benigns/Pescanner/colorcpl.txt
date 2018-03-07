@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86528 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     38eb45466769ccd7915ca3582fe7d64a
+SHA1:    e76572eb417307d18a2915462b0a369eed52e4b3
+ssdeep:  1536:K27IPfSbS9vMBN7rQOJ7CFToTCzhcRguhwxTyPCb3lZpdym4dy7p:bkXlvq7jSP1cR2prbpdCY9
+Date:    0x57899133 [Sat Jul 16 01:43:15 2016 UTC]
+EP:      0x4016a0 .text 0/5
+CRC:     Claimed: 0x15537, Actual: 0x15537 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x17578  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4c70   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x52d8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55c0   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x57a8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x58d0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6778   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7020   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x76e8   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7c50   0xb424   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x13078  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15620  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x166c8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17050  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x174b8  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x48c0   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x43c0   0x4fd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcd4        0xe00        5.427364    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x380        0x400        4.441120    
+.rsrc      0x4000       0x13650      0x13800      7.383452    [SUSPICIOUS]
+.reloc     0x18000      0x138        0x200        4.408246    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: colorcpl
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Color Control Panel
+OriginalFilename: colorcpl.exe
+Translation: 0x0409 0x04b0
+

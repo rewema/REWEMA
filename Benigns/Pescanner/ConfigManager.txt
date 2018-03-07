@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    56832 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     a144555d8c252a0237feadd5fc0bf7d7
+SHA1:    758848183aa3a84b6b9951885dd1de05f2139189
+ssdeep:  768:0AehMHTgxb9zTtbuASmazl13itwFN1C3FSjpW3VHUXy2VclfUma+w2iQ2bh8g1CQ:ozpAXitwFNU3gM0NVUbwIgU3g
+Date:    0x53A18420 [Wed Jun 18 12:20:48 2014 UTC]
+EP:      0x40e0de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x12b90 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x10438  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x114e0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x10130  0x308    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x114f8  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xc0e4       0xc200       5.421788    
+.rsrc      0x10000      0x16e8       0x1800       5.637304    
+.reloc     0x12000      0xc          0x200        0.077633    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2013
+Assembly Version: 1.0.0.0
+InternalName: ConfigManager.exe
+FileVersion: 1.0.0.0
+CompanyName: Ilya Brusin
+ProductName: ConfigManager
+ProductVersion: 1.0.0.0
+FileDescription: ConfigManager
+OriginalFilename: ConfigManager.exe
+

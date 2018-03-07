@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     4554e4de9fb68304f5784173ee236213
+SHA1:    d07e6115b67427eb88bdd7501eae288cb8e669c9
+ssdeep:  384:9rr49L2K2KzeQQeIYcuBBZ6/WsNi2VFB0zJlwwh7jaxOEOImaN8+OVLI/0bnVpNO:yl2K2Kze/btcmml/NLIMbn9oqg
+Date:    0x3DF5F198 [Tue Dec 10 13:52:24 2002 UTC]
+EP:      0x408d7e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xa0df [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa450   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa738   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa860   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa118   0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6d84       0x7000       5.486867    
+.rsrc      0xa000       0x888        0x1000       2.095539    
+.reloc     0xc000       0xc          0x1000       0.012639    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1074.15972
+InternalName: MapX.exe
+FileVersion: 1.0.1074.15972
+CompanyName:  
+LegalTrademarks:  
+Comments: An EverQuest Mapping Tool
+ProductName:  
+ProductVersion: 1.0.1074.15972
+FileDescription: MapX
+OriginalFilename: MapX.exe
+

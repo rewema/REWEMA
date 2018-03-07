@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    151200 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     c74673589d5dd38b6443da6054b8dd7a
+SHA1:    ab48396a0a91af3a6d2dd3c71ae635f8d694e420
+ssdeep:  3072:wWk2IFB/Yokn3uTVZUF7DAXxtiB1rAE0s:wjdhk3u87PEs
+Date:    0x5749ED50 [Sat May 28 19:11:12 2016 UTC]
+EP:      0x40693f .text 0/4
+CRC:     Claimed: 0x29b09, Actual: 0x29b09 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x250a0  0x31c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x253c0  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x12560      0x12600      6.629051    
+.rdata     0x14000      0xca92       0xcc00       4.520698    
+.data      0x21000      0x3388       0x1400       3.524180    
+.rsrc      0x25000      0x540        0x600        3.759056    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1999-2016 Mark Russinovich
+InternalName: SDelete
+FileVersion: 2.0
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Sdelete
+ProductVersion: 2.0
+FileDescription: Secure file delete
+OriginalFilename: sdelete.exe
+Translation: 0x0409 0x04b0
+

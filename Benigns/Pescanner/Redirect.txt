@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2aa6415eadfa35e0d6cc3fb5cb2c03ea
+SHA1:    e43ea1ed42a54e7334661cc8dd4e4c40ec7d0e55
+ssdeep:  192:Ioe/UT2dQWv6vEcT1H9zgwcJhFvY2mrL7Dp:dQv6vEcT1dkwivY1b1
+Date:    0x445CE19F [Sat May  6 17:49:19 2006 UTC]
+EP:      0x403b9e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x7266 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1ba4       0x1c00       5.022323    
+.rsrc      0x4000       0x368        0x400        2.854716    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2317.33879
+InternalName: Redirect.exe
+FileVersion: 1.0.2317.33879
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2317.33879
+FileDescription:  
+OriginalFilename: Redirect.exe
+

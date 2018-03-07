@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    120832 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     27b2a19367ee1c0500834fe2be8f4654
+SHA1:    a560ece9ab2e8d042801ee51b3a3b863288c9a27
+ssdeep:  3072:IfbmFAEM82n7GC2jctoKpsusT2rEFpeoIUpZ:kJX8I0jct5rEJdp
+Date:    0x57898EE6 [Sat Jul 16 01:33:26 2016 UTC]
+EP:      0x4019d0 .text 0/5
+CRC:     Claimed: 0x245d3, Actual: 0x245d3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x20688  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5ad0   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5bf8   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6160   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6448   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6cf0   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7358   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8200   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8668   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9710   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbcb8   0x14932  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_GROUP_ICON      0x205f0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 16x16, 16-colors
+RT_VERSION         0x5700   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5330   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1014       0x1200       5.377740    
+.data      0x3000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x5b2        0x600        4.784990    
+.rsrc      0x5000       0x1b758      0x1b800      7.607159    [SUSPICIOUS]
+.reloc     0x21000      0x188        0x200        5.284571    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: iscsicpl
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft iSCSI Initiator Configuration Tool
+OriginalFilename: iscsicpl.exe
+Translation: 0x0409 0x04b0
+

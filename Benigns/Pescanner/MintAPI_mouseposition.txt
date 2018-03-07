@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ab8075503bc6fd99d333f50a291d2321
+SHA1:    333949b90f0a2e044bb0435f77d2a3d4bc721675
+ssdeep:  384:V6G/ZiJLd9RY87jQa3ipJ0PXy4Pgk1aPkzBvdmCvtNAgaEBWsGTzT:X/ZiJzaEj33qF4ImwYBQCvtNAHEbGTz
+Date:    0x51B39E0E [Sat Jun  8 21:11:42 2013 UTC]
+EP:      0x4014f0 .text 0/3
+CRC:     Claimed: 0xea2c, Actual: 0xea2c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x97e8   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x9500   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x93d8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x93a8   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x9150   0x258    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x67a8       0x7000       5.598429    
+.data      0x8000       0x43c        0x1000       0.000000    
+.rsrc      0x9000       0x918        0x1000       1.993546    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: MintAPI_mouseposition
+FileVersion: 1.00
+CompanyName: Home
+ProductName: MintAPI_mouseposition
+ProductVersion: 1.00
+OriginalFilename: MintAPI_mouseposition.exe
+

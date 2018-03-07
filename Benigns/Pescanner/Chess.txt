@@ -1,0 +1,79 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2828800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9dcbaabc84523b3fca1dfe2c8bb39571
+SHA1:    0cb28776b91b4af4ff067ecba4898922168b69d4
+ssdeep:  49152:4ypKlzcau8VZqbgRe1xm7agFKvc4clwYF:4yAlzs8RwcI
+Date:    0x4A5BC643 [Mon Jul 13 23:41:55 2009 UTC]
+EP:      0x1057067 .text 0/4
+CRC:     Claimed: 0x2c18aa, Actual: 0x2c18aa 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2ad0d8 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+PNG                0x27fef0 0x15c4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x282d48 0x1c27   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x286870 0x19cf   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x28a018 0x162b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x288240 0x1dd1   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x2814b8 0x188d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x284970 0x1efa   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x290318 0x317d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+PNG                0x28d000 0x3311   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+PNG                0x293498 0x3ecb   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+PNG                0x28b648 0x19b8   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+PNG                0x29aee8 0x4706   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+PNG                0x297368 0x3b7a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+PNG                0x2a3c38 0x2fb1   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+PNG                0x29f5f0 0x4648   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+PNG                0x2a6bf0 0x2f7c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+RT_BITMAP          0x15d4c0 0x122a2a LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14ab88 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b1f0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b4d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14b600 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14c4a8 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14cd50 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14d2b8 0xc6b1   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x159970 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15bf18 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15cfc0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x15d428 0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x2acd20 0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x14a6e0 0x4a1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0x2a9b70 0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x12f6fa     0x12f800     6.559685    
+.data      0x131000     0x18320      0x9e00       4.534550    
+.rsrc      0x14a000     0x1631d0     0x163200     5.979230    
+.reloc     0x2ae000     0x15a86      0x15c00      3.637459    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Chess.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for Chess Game
+OriginalFilename: Chess.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c754ed9d17973dfe58fe80c5d40cf7d5
+SHA1:    7912b3c2f508f6f91433f28e26a85897c5c3ebd3
+ssdeep:  384:UEAl4KbnLPxWSvxQ68CEn3WyvFWwBS3Px+:UEwJnLPMSZ8nJRBS3P4
+Date:    0x51B12ECA [Fri Jun  7 00:52:26 2013 UTC]
+EP:      0x4012a8 .text 0/3
+CRC:     Claimed: 0xa807, Actual: 0xa807 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TYPELIB            0x5e3c   0x71c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+_IID_WRAPPER       0x5e28   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x58c0   0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x5458   0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x5434   0x24     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x51e0   0x254    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2764       0x3000       4.318597    
+.data      0x4000       0xafc        0x1000       0.000000    
+.rsrc      0x5000       0x1558       0x2000       2.590237    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: mintapiwrapper
+FileVersion: 1.00
+CompanyName: Home
+ProductName: MintHost
+OLESelfRegister: 
+ProductVersion: 1.00
+OriginalFilename: mintapiwrapper.exe
+

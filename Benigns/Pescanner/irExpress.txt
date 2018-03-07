@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    155648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     839b3aee0c161964d3b692a67d20cf2b
+SHA1:    e8442d04ee55dff0c69d560df2254247b6e87f58
+ssdeep:  3072:vCwWHoDIK2sZsxkYGOeHNPqSRzYpyohI9lyRyEBpj0D:oHoDzmGFtnR035RDL0
+Date:    0x44D9C500 [Wed Aug  9 11:20:32 2006 UTC]
+EP:      0x40a433 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x26e52 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1eb98  0x6c28   LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_ICON            0x1c490  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cd38  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1d2a0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e348  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1e7f0  0x5c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25a10  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x26720  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25a50  0x296    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x26150  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25ed0  0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25ce8  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25df0  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x26478  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x26670  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x26750  0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x1e850  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1e7b0  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 32x32, 256-colors
+RT_VERSION         0x1e8c0  0x2d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x257c0  0x250    LANG_SWEDISH SUBLANG_SWEDISH          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1363f      0x14000      6.483269    
+.rdata     0x15000      0x3ec4       0x4000       4.723738    
+.data      0x19000      0x2d98       0x2000       2.108054    
+.rsrc      0x1c000      0xa798       0xb000       5.890342    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2006 Christian Kindahl
+InternalName: Infra Express
+FileVersion: 0.3.0.1
+ProductName: Infra Express
+ProductVersion: 0.3.0.1
+FileDescription: Infra Recorder express application.
+OriginalFilename: irExpress.exe
+Translation: 0x0409 0x04b0
+

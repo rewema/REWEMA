@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    18432 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     d64113411835c0a02d7c0a2ca7676f72
+SHA1:    ec6625731841b850e291c149beb5d46c3befdd68
+ssdeep:  384:ogy6QaHDW/+Vi4t0lGJYu9pLTX/ObmgiWEVWyPN:/7Tjr6eT6qgAfP
+Date:    0x57899112 [Sat Jul 16 01:42:42 2016 UTC]
+EP:      0x403230 .text 0/5
+CRC:     Claimed: 0x5f59, Actual: 0x5f59 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7768   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a8   0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x289c       0x2a00       6.135871    
+.data      0x4000       0x10e2       0x200        0.296026    [SUSPICIOUS]
+.idata     0x6000       0x850        0xa00        4.410401    
+.rsrc      0x7000       0x830        0xa00        3.760301    
+.reloc     0x8000       0x368        0x400        6.043040    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RASDIAL.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Remote Access Command Line Dial UI
+OriginalFilename: RASDIAL.EXE
+Translation: 0x0409 0x04b0
+

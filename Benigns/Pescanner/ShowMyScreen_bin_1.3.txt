@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    269135 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8dfc9af94a9b6330b5bb629507be796a
+SHA1:    3556c7481a3936bad8fb54d262747c26dcebdb55
+ssdeep:  3072:DJoshUHVwvkj7h98BGq8y7ltYiqXF8SE4uUausVGy0rr9wVJCF5wUW/HIiVoXbrK:DJsVwvknSzn7hdSEBu6Gy04+WgnSdL0i
+Date:    0x4CE553F5 [Thu Nov 18 16:27:33 2010 UTC]
+EP:      0x41d262 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x504eb [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d670  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d958  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x2dff8  0x424    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2ded0  0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2dbd8  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2daa8  0x12e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e8d0  0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e560  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e858  0x72     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e530  0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e420  0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e468  0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e500  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x2ea58  0xf4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2eb50  0x6a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2da80  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2d3c0  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1f01a      0x1f200      6.590595    
+.rdata     0x21000      0x5a5c       0x5c00       4.168051    
+.data      0x27000      0x4d98       0xc00        4.100583    
+.sxdata    0x2c000      0x4          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x2d000      0x1bc0       0x1c00       3.292964    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1999-2010 Igor Pavlov
+InternalName: 7z.sfx
+FileVersion: 9.20
+CompanyName: Igor Pavlov
+ProductName: 7-Zip
+ProductVersion: 9.20
+FileDescription: 7z SFX
+OriginalFilename: 7z.sfx.exe
+Translation: 0x0409 0x04b0
+

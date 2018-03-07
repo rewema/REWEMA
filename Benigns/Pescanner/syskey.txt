@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28160 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     efdf337667eb0516cc325ba74a7f9411
+SHA1:    ab2b69e0154b397546bb644e47484fb87e2f3aba
+ssdeep:  384:2Tf/M5xZu0TnS07ZQnnCvhK5I37X8xuVTy+SC7uHUrSjaU1KC1Q1fWaxWVf:eX+xQ0TnSZChK5I3d5/iHUrSjaN0
+Date:    0x5789914A [Sat Jul 16 01:43:38 2016 UTC]
+EP:      0x403200 .text 0/5
+CRC:     Claimed: 0xb2f5, Actual: 0xb2f5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8b48   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x65b8   0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7038   0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7bf8   0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7020   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x7be0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x87a0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x87b8   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x6240   0x376    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x285c       0x2a00       6.037422    
+.data      0x4000       0x3d8        0x200        0.366224    [SUSPICIOUS]
+.idata     0x5000       0xb78        0xc00        4.923660    
+.rsrc      0x6000       0x2c20       0x2e00       3.226021    
+.reloc     0x9000       0x378        0x400        6.127342    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: samlock.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: SAM Lock Tool
+OriginalFilename: samlock.exe
+Translation: 0x0409 0x04b0
+

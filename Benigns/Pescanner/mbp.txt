@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10240 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     50b81f17ecd764ca156794b4ec2693a6
+SHA1:    788e442be739a68e3a0a54ffb2feb066da49cef1
+ssdeep:  192:aS2TjjoDlKwMce7kgjKVLcxwrb4kZNd1VfADYkDlH/U:ETj0Ddne7k1cqkozVfGYkDlHc
+Date:    0x3DDEACC2 [Fri Nov 22 22:16:34 2002 UTC]
+EP:      0x40394e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2fba [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4410   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x46f8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4820   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x2f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1954       0x1a00       5.323576    
+.rsrc      0x4000       0x848        0xa00        2.894262    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1056.31097
+InternalName: mbp.exe
+FileVersion: 1.0.1056.31097
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1056.31097
+FileDescription:  
+OriginalFilename: mbp.exe
+

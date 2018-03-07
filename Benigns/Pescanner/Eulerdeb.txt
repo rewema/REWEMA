@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    118784 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     894289722e8d5b490e7cd3d4313b2426
+SHA1:    1f6b2e9e1fe9cb78dc1865e252feb8a670a31b3b
+ssdeep:  1536:fd0D9oiGL1jn4pL9stHDpE9Q9yaIoGDgI12Jj6R7AFW1S4wDbXDwVL4sd3H6xgW8:fdA9oiGLCpLKtjpE9QEaumuLl4UT
+Date:    0x41CF664E [Mon Dec 27 01:33:02 2004 UTC]
+EP:      0x41b70e .text 0/3
+CRC:     Claimed: 0x2243d, Actual: 0x2243d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x1c058  0x33c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x19714      0x1a000      5.222196    
+.rsrc      0x1c000      0x398        0x1000       0.934853    [SUSPICIOUS]
+.reloc     0x1e000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.29.0
+InternalName: Euler.exe
+FileVersion: 1.0.29.0
+CompanyName:  
+LegalTrademarks:  
+Comments: Implementation of a backward chaining reasoner
+ProductName:  
+ProductVersion: 1.0.29.0
+FileDescription: Euler
+OriginalFilename: Euler.exe
+

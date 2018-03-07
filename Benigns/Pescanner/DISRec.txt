@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    169984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ffe71e2b63f435d3f8cfe31b6739443c
+SHA1:    95146ee7b6222f43ed37d9cc968a2b7b8bd88cfc
+ssdeep:  3072:pbCZGZIS/gDhJ69xxGD3ZIS/gDhJ69GxmU9:BYC9xxGZYC9GxmU
+Date:    0x58F65D0C [Tue Apr 18 18:38:04 2017 UTC]
+EP:      0x41a522 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2e633 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c220  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1c898  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1cb90  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ccc8  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1db80  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1e438  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e9b0  0xa2f4   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x28cb4  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2b26c  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2c324  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2c79c  0x92     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x2c840  0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x2cb74  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x18528      0x18600      6.596643    
+.rsrc      0x1c000      0x10d64      0x10e00      6.899426    
+.reloc     0x2e000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 NASA 2016
+Assembly Version: 1.0.0.0
+InternalName: DISRec.exe
+FileVersion: 1.0.0.0
+CompanyName: NASA Ames
+LegalTrademarks: 
+Comments: 
+ProductName: DISRec
+ProductVersion: 1.0.0.0
+FileDescription: DISRec
+OriginalFilename: DISRec.exe
+

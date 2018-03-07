@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    162304 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     84008cefc137d556cd23fdfbff5318ef
+SHA1:    e4da76bf6e013ecc35537c06a18d8af57b023b6a
+ssdeep:  3072:QuuCuuhv2e96uuixuuypuuCuuhv2e96uuixuuy8LVghM9fYuuCuuhv6:QuuCuuVguuwuuYuuCuuVguuwuuRJgq9u
+Date:    0x511BB0A6 [Wed Feb 13 15:26:30 2013 UTC]
+EP:      0x42308e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x27cc8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x24508  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x26ab0  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x27958  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x28a00  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x292a8  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x29710  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x29c78  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x24220  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x29cd8  0x656    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x21094      0x21200      5.992006    
+.rsrc      0x24000      0x6330       0x6400       5.751093    
+.reloc     0x2c000      0xc          0x200        0.098004    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2013
+Assembly Version: 2.3.0.0
+InternalName: VirtualRouterPlus.exe
+FileVersion: 2.3.0
+ProductName: VirtualRouterPlus
+ProductVersion: 2.3.0
+FileDescription: VirtualRouterPlus
+OriginalFilename: VirtualRouterPlus.exe
+

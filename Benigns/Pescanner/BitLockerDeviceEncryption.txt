@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    103424 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9d6f5ed564509577ae97c2873a539090
+SHA1:    11655e6d1622e6c9edbc8c4db411c5e4147237ea
+ssdeep:  1536:Cgt+ajbk90ebMf3eslxzP5vsO2YvbiqxOYoKINKW+HVSwuHzkTh:Cgt+avk90H/eslRP5Bfpfo2HcwuT
+Date:    0x57898EAF [Sat Jul 16 01:32:31 2016 UTC]
+EP:      0x415390 .text 0/5
+CRC:     Claimed: 0x28417, Actual: 0x28417 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x1a440  0x3f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1a0a0  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x15a5c      0x15c00      6.640403    
+.data      0x17000      0x7a8        0x400        3.708430    
+.idata     0x18000      0x10e6       0x1200       5.287390    
+.rsrc      0x1a000      0x838        0xa00        4.005860    
+.reloc     0x1b000      0x12e4       0x1400       6.599911    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BitLockerDeviceEncryption
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: BitLocker Device Encryption Tool
+OriginalFilename: BitLockerDeviceEncryption.exe
+Translation: 0x0409 0x04b0
+

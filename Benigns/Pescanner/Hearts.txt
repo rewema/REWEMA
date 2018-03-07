@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    721408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     49a6b6e597d999d763ef13fea3454eec
+SHA1:    9a56012f5f4a98ffa845c87efeb911834639f0a3
+ssdeep:  12288:bVh21EngiYzUEhFU+bFUcSebPMejdSdw4UAlcutbvyZ9QZ:bVh21EngiY4EhFUBr7iSdEg6HQZ
+Date:    0x4A5BC63C [Mon Jul 13 23:41:48 2009 UTC]
+EP:      0x1034245 .text 0/4
+CRC:     Claimed: 0xb0bd0, Actual: 0xb0bd0 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xadae8  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x99818  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x99e80  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9a168  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9a290  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9b138  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9b9e0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9bf48  0xaad7   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xa6a20  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa8fc8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaa070  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xaa4d8  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xad720  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x99380  0x497    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xaa570  0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x89b0e      0x89c00      6.280126    
+.data      0x8b000      0xd914       0x8a00       4.410179    
+.rsrc      0x99000      0x14bd8      0x14c00      7.175286    [SUSPICIOUS]
+.reloc     0xae000      0x8946       0x8a00       5.147837    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: hearts.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for Hearts Game
+OriginalFilename: hearts.exe
+Translation: 0x0409 0x04b0
+

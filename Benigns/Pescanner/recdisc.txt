@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    169984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     97566a435b00d144ca29aa6066cabf98
+SHA1:    d34d8399876a1b8b38673da14efafde29d7861e5
+ssdeep:  3072:GFMjgw3FNbiwGBpt73DLEModvAuegPO8evTq2Vjm:47w3Fa73DLKdvFegEv+2V
+Date:    0x57898F5E [Sat Jul 16 01:35:26 2016 UTC]
+EP:      0x412e30 .text 0/5
+CRC:     Claimed: 0x359b7, Actual: 0x359b7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2a658  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a830  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ae98  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b180  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1b2a8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c150  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c9f8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cf60  0x97ea   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x26750  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28cf8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x29da0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2a208  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x2a2a0  0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1a330  0x4fa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x12904      0x12a00      6.402180    
+.data      0x14000      0x3a98       0x3800       0.473720    [SUSPICIOUS]
+.idata     0x18000      0x1864       0x1a00       5.171621    
+.rsrc      0x1a000      0x10738      0x10800      7.138278    [SUSPICIOUS]
+.reloc     0x2b000      0xee0        0x1000       6.521141    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: recdisc.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Windows Repair Disc
+OriginalFilename: recdisc.exe
+Translation: 0x0409 0x04b0
+

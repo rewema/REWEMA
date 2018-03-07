@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    286045 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     91e6e94b9846b7a786cc0effb9b6bd9d
+SHA1:    f910b6e3047e6c280baebbeac80ebcfea0d492aa
+ssdeep:  6144:al4oSaUMKmIeVI1LxCS8uSgE13MO3dGi3wt:aqoSaLbIn1LxJ8733MOAiM
+Date:    0x4A2AE2A2 [Sat Jun  6 21:41:54 2009 UTC]
+EP:      0x43c1c0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x4dbbb [SUSPICIOUS]
+Packers: UPX 2.93 - 3.00 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x392b0  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d2b4  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d5a0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x39d28  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39e48  0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39f60  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a168  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3a260  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3d6cc  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x3d6f4  0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3d9b4  0x3ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x37000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x38000      0x5000       0x4e00       7.892875    [SUSPICIOUS]
+.rsrc      0x3d000      0x1000       0x1000       4.364491    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 1999-2010 by Adam Dybkowski
+FileVersion: 1.2.0.54
+CompanyName: Adam Dybkowski
+ProductName: ISP Programmer setup application
+ProductVersion: 1.2
+FileDescription: ISP Programmer setup application
+Translation: 0x0409 0x0000
+

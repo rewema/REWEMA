@@ -1,0 +1,102 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1267712 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a1a15b75c1b30a440ab8cdbfcf4c95a0
+SHA1:    4c63f241f35f878f2332bca87e7fb02702eb69b1
+ssdeep:  12288:Iw0djZXqGQxgfFyle8v4SyAsMHq7eY3qgpO0s0U5JTQrXILLoCYBD+MKrDXTmBBS:IBb6gdylJhqqYzZsL5rsf7KrD5nxp5
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4f9694 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x144708 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x115be4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x115d18 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x115e4c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x115f80 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x1160b4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x1161e8 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x11631c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x116450 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x116620 0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x116804 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x1169d4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x116ba4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x116d74 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x116f44 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x117114 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x1172e4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x1174b4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x117684 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x11776c 0x2e8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x117a54 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x117aa8 0x188    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x117c30 0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x118014 0x4ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x118500 0x22c    LANG_NEUTRAL SUBLANG_NEUTRAL          PCX ver. 2.5 image data
+RT_STRING          0x11872c 0x1cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1188f8 0x188    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x118a80 0x4fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x118f7c 0x190    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209065 records)
+RT_STRING          0x11910c 0x12c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x119238 0x234    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11946c 0x320    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11978c 0x538    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x119cc4 0x460    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11a124 0x4c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11a5ec 0x594    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11ab80 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7143529 records)
+RT_STRING          0x11acb4 0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7340133 records)
+RT_STRING          0x11ada0 0x288    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11b028 0x48c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11b4b4 0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11b8bc 0x3b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11bc74 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11bc84 0x540    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11c1c4 0x1fac0  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x13bc84 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13bc98 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13bcac 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13bcc0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13bcd4 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13bce8 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13bcfc 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x13bd10 0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+RT_VERSION         0x13bd24 0x408    LANG_FRENCH  SUBLANG_FRENCH           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xf86dc      0xf8800      6.542650    
+DATA       0xfa000      0x2ae8       0x2c00       4.642968    
+BSS        0xfd000      0x1901       0x0          0.000000    [SUSPICIOUS]
+.idata     0xff000      0x356c       0x3600       5.074659    
+.tls       0x103000     0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x104000     0x18         0x200        0.203014    [SUSPICIOUS]
+.reloc     0x105000     0xf510       0xf600       6.677775    
+.rsrc      0x115000     0x27200      0x27200      5.663660    
+
+Version info
+================================================================================
+LegalCopyright: filters@edurand.com,filters@burgel.com
+InternalName: 
+FileVersion: 2.1.0.0
+CompanyName: http://filters.sourceforge.net
+LegalTrademarks: 
+Comments: This a test software of the open source library 'Filters'
+ProductName: 
+ProductVersion: 1.0.0.0
+FileDescription: Filters is a library implementing image filters and image processing functions 
+OriginalFilename: 
+Translation: 0x040c 0x04e4
+

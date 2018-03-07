@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4332631 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     212837618586653c979827b2e18a77d2
+SHA1:    bc5348ee9422fd2b9f2e9235fb734eddbcdc351d
+ssdeep:  98304:/BSGTENAWw75neVMqCYl1uxZ4UJwvHUjbEODJ5DxCm9:pevwNkM7YlE9SvHobnl5xP9
+Date:    0x4C91E373 [Thu Sep 16 09:29:23 2010 UTC]
+EP:      0x416450 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x429fab [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2341c  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x23544  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x23aac  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x23d94  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x2463c  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x24700  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x247cc  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24940  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24cdc  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x25028  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x252bc  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x2d5a4  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x2d5b4  0x1a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2d754  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x2d780  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x2d7c0  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x2dc78  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14758      0x14800      6.473861    
+.itext     0x16000      0xbc0        0xc00        5.952733    
+.data      0x17000      0xd9c        0xe00        2.673045    
+.bss       0x18000      0x5710       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1e000      0xf9e        0x1000       4.967783    
+.tls       0x1f000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x20000      0x18         0x200        0.190489    [SUSPICIOUS]
+.reloc     0x21000      0x1954       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x23000      0xb200       0xb200       4.156598    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2010 Pietro Di Gennaro                                                                  
+FileVersion: 1.0.0.0             
+CompanyName: Pietrosoft                                                  
+Comments: This installation was built with Inno Setup.
+ProductName: Iconvert4you                                                
+ProductVersion: 1.0                 
+FileDescription: Iconvert4you Setup                                          
+Translation: 0x0000 0x04b0
+

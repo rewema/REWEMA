@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     97ee93d32f5a97b17dfea144475efd75
+SHA1:    b71d9a0ce2a93eca144e5b676863e46bdad33755
+ssdeep:  96:tALzE7xeqjyGFf0W4B359JDJu3/nIEv27QwpzGHpUw83dqc/T9PBMoDyNQK:tSEgTGo1tgvnAtXdFj
+Date:    0x42C2E71C [Wed Jun 29 18:23:24 2005 UTC]
+EP:      0x40364e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc386 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1654       0x2000       4.039365    
+.rsrc      0x4000       0x410        0x1000       1.056927    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright Conversive, Inc. 2004
+Assembly Version: 0.0.8.0
+InternalName: AutoUpdateStarter.exe
+FileVersion: 0.0.8.0
+CompanyName: Conversive, Inc.
+LegalTrademarks:  
+Comments: Allows automatic software updates.
+ProductName:  
+ProductVersion: 0.0.8.0
+FileDescription: CSAutoUpdater
+OriginalFilename: AutoUpdateStarter.exe
+

@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    46592 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     76ddf0698670b5bafe11a7cfff0d5a0f
+SHA1:    2b1d1111761a2262e88bfe42121c492d1afff613
+ssdeep:  768:zHf3cWgpkZDWZGP0djTsZxXwOx2PGIHCyYFkSErNIwa38cJj0140bP/7Vq:zE/kZDWZaf2PGIHCy2kSQmwjF14EP/Zq
+Date:    0x5789917B [Sat Jul 16 01:44:27 2016 UTC]
+EP:      0x402ed0 .text 0/5
+CRC:     Claimed: 0x11329, Actual: 0x11329 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xd350   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd0a0   0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x89ec       0x8a00       6.465713    
+.data      0xa000       0x14e4       0xa00        2.199236    
+.idata     0xc000       0xcbc        0xe00        4.569091    
+.rsrc      0xd000       0x6f8        0x800        4.005998    
+.reloc     0xe000       0x7c0        0x800        6.546990    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bfsvc.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Boot File Servicing Utility
+OriginalFilename: bfsvc.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3343607 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ee48923ad4df0b6f58d5c33a8a4ec4e9
+SHA1:    85b52d7f986217e33e106400d29009fc4313dd27
+ssdeep:  49152:kMi5BfNl85VlgHNZbGvF4GZygoD9jhM+pb0aXhbrx1uVhY0SANGekjlPgYQkvJX:5i5BfLoqYuGZPo59dbXbM94IkV
+Date:    0x4F47E2DF [Fri Feb 24 19:19:59 2012 UTC]
+EP:      0x4039e3 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x33ef5c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1f06b8 0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f0d20 0x7a49   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1f8770 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fc998 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fef40 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fffe8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x200450 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x200570 0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2006c8 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2008c8 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2009c0 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x200ab0 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x200bd0 0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x200d28 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x200f28 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201020 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201110 0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201220 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201368 0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201558 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201640 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201720 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201840 0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201998 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201b98 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201c90 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201d80 0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201e90 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x201fd8 0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2021c8 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2022b0 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x202390 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_MANIFEST        0x2023e0 0x21f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6f10       0x7000       6.497885    
+.rdata     0x8000       0x2a92       0x2c00       4.393894    
+.data      0xb000       0x67ebc      0x200        1.472782    
+.ndata     0x73000      0x17d000     0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x1f0000     0x12600      0x12600      6.610192    
+.reloc     0x203000     0xf8a        0x1000       7.830253    [SUSPICIOUS]
+

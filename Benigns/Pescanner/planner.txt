@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    942789 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b37f72d41b7e90fc886b3bb9000302cc
+SHA1:    6a993b5f535b546468e8e1c84cf07fc2bec7f2b5
+ssdeep:  12288:1EyjUEpP7TO0HKJ1dOj25fc6rQ0rKkyNwqsPhY:mUUEpP7TnHKJ1dq2jrQBts5Y
+Date:    0x49E63B5B [Wed Apr 15 19:54:03 2009 UTC]
+EP:      0x401110 .text 0/8
+CRC:     Claimed: 0xf19ed, Actual: 0xf19ed 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x821a8  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x929d0  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9be78  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa00a0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa2648  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xa36f0  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0xa373c  0x22e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6632c      0x66400      5.711781    
+.data      0x68000      0x620        0x800        2.845034    
+.rdata     0x69000      0xb6f0       0xb800       5.081071    
+.bss       0x75000      0x8f0        0x0          0.000000    [SUSPICIOUS]
+.edata     0x76000      0x2ec8       0x3000       5.130020    
+.idata     0x79000      0x8ab4       0x8c00       5.326066    
+.rsrc      0x82000      0x2196c      0x21a00      3.061996    
+.reloc     0xa4000      0x3970       0x3a00       6.717293    
+
+Version info
+================================================================================
+InternalName: planner
+FileVersion: 0.14.4
+CompanyName: Gnome
+ProductName: Gnome Planner
+ProductVersion: 0.14.4
+FileDescription: Gnome Planner for Windows
+OriginalFilename: planner.exe
+

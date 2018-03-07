@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    48640 bytes
+Type:    PE32 executable for MS Windows 32-bit
+MD5:     3629b7f124bf86fe363d2e3c6186fdd0
+SHA1:    b7b07dbeed1a8ee819088eae562186336dec60e3
+ssdeep:  768:mwATKjrnqLUjX4JyGFoE00M4BqvwYDwGd9peIwaxf4s0OOOOOOOOOOJOOOOOODdl:mwfEiVG70vwGwY9peI3kOOOOOOOOOOJ7
+Date:    0x453CD317 [Mon Oct 23 14:35:03 2006 UTC]
+EP:      0x1134c .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xd132 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc5b4   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xcb1c   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd3c4   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xe2bc   0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe308   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0xe29c   0x20     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xe26c   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0xc220   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6ee8       0x7000       5.536572    
+.rdata     0x8000       0x1f5e       0x2000       5.216351    
+.data      0xa000       0x258        0x200        1.805171    
+.pdata     0xb000       0x3b0        0x400        4.442801    
+.rsrc      0xc000       0x2338       0x2400       5.056358    
+
+Version info
+================================================================================
+LegalCopyright:  \xa9 Copyright IBM Corp. 1991, 2006
+InternalName: jar2jxe
+FileVersion: R2.3 (20061023_08962_lEdFGq)
+CompanyName: International Business Machines Corporation
+ProductName: IBM SDK, Java(tm) 2 Technology Edition
+ProductVersion: R2.3
+FileDescription: WebSphere Studio Device Developer
+OriginalFilename: jar2jxe.exe
+Translation: 0x0409 0x04b0
+

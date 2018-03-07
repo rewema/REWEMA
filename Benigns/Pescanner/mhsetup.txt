@@ -1,0 +1,76 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23890128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     43b2abbe8fe919e75af15077c10f7856
+SHA1:    9fa3ae48cfcff67950fd61643ab118814beb3e45
+ssdeep:  393216:Q/c9aDduC+CtB0MZOiH+OAn0CJzBUOadyYWVBO5kpnp1zi5YRM:0DEGfQiHEJzBnadpWVBQkVu5aM
+Date:    0x4B1AE3C1 [Sat Dec  5 22:50:41 2009 UTC]
+EP:      0x4030cb .text 0/5
+CRC:     Claimed: 0x16d6114, Actual: 0x16d6114 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x397f0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3bd98  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ce40  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d7c8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3dd30  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3e198  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x3e2c0  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3e3e0  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3e5e0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3e6d8  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3e7c8  0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3e8d8  0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3eac8  0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ebb0  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ec90  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3edb0  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3efb0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f0a8  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f198  0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f2a8  0x1f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f498  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f580  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f660  0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f778  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3f970  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3fa60  0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3fb48  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3fc68  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3fe68  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ff60  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40050  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40170  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40370  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40468  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40558  0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40668  0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40858  0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40940  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x40a20  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_MANIFEST        0x40a80  0x3be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x58d2       0x5a00       6.433100    
+.rdata     0x7000       0x1190       0x1200       5.179764    
+.data      0x9000       0x1af78      0x400        4.617802    
+.ndata     0x24000      0x15000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x39000      0x7e40       0x8000       4.551445    
+

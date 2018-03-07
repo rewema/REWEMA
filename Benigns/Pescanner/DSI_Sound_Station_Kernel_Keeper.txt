@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3ba77b6eaa50fd3116df9529a8ab5996
+SHA1:    dfb5f15192c1f5f3dd35a1780a9e1ef33724b76e
+ssdeep:  96:Glw9HYf457wFkFLXacdV59Lo2TiJVTT4Y3zACTw485JEn5/F:a4lwFhXbVTRAPghF
+Date:    0x430E64C8 [Fri Aug 26 00:39:36 2005 UTC]
+EP:      0x4011ac .text 0/3
+CRC:     Claimed: 0xf26a, Actual: 0x6de6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4374   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x4360   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x40f0   0x270    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2000       0x2000       3.575679    
+.data      0x3000       0x1000       0x1000       0.000000    
+.rsrc      0x4000       0x876        0x1000       1.656685    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: DSI_Sound_Station_Kernel_Keeper
+FileVersion: 1.00.0001
+CompanyName: DSI
+ProductName: Keeper
+ProductVersion: 1.00.0001
+OriginalFilename: DSI_Sound_Station_Kernel_Keeper.exe
+

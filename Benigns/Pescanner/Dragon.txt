@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9de009fe10e8fcc1a740695c54f4b753
+SHA1:    306a56627f0ef8b59dc6d0b3da07bebbed3dbe7b
+ssdeep:  96:818w4uUlLW1X26aQttZQ2KVc+mrPtboynnewd+1QvETpqNpXb7rh:oyalraQnmarP1oyneG+1TTUN
+Date:    0x3BCD7426 [Wed Oct 17 12:05:58 2001 UTC]
+EP:      0x401172 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xf7b2 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_DIALOG          0x43c8   0x33a    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_VERSION         0x40a0   0x328    LANG_SWEDISH SUBLANG_SWEDISH          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x828        0x1000       3.802357    
+.rdata     0x2000       0x882        0x1000       3.502598    
+.data      0x3000       0xbc         0x1000       0.285839    [SUSPICIOUS]
+.rsrc      0x4000       0x708        0x1000       1.758444    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000
+InternalName: Dragon Engine
+FileVersion: 0.0.21.236
+CompanyName:  
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Dragon
+SpecialBuild: 
+ProductVersion: 1.0.0.0
+FileDescription: Dragon Engine
+OriginalFilename: DragonDLL.dll
+Translation: 0x041d 0x04b0
+

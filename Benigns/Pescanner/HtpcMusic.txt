@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    692224 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     c5b695a1e6ff82a4a6952a4d0c109243
+SHA1:    55b28843b6ff2335935a84e64d93b4f7a24283d1
+ssdeep:  12288:eVMhIJztTZIV2DC0kaxIC356I1AXR3mlWGUQyDeiilA9k6cSSRlGEVu4:eVMhIDTZIV2+0kaxIC356I1AXR3mlWG3
+Date:    0x42D2E9A7 [Mon Jul 11 21:50:31 2005 UTC]
+EP:      0x4a741e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xacbbe [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa8478  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa8760  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa8888  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa8118  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa5424      0xa6000      6.813598    
+.rsrc      0xa8000      0x8b0        0x1000       2.150130    
+.reloc     0xaa000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2018.30315
+InternalName: HtpcMusic.exe
+FileVersion: 1.0.2018.30315
+CompanyName:  
+LegalTrademarks:  
+Comments: Full Screen Music Player
+ProductName:  
+ProductVersion: 1.0.2018.30315
+FileDescription: HTPC Music Player
+OriginalFilename: HtpcMusic.exe
+

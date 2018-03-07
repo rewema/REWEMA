@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1630497 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     788c09137a5191ceeaa58013ce2d0e33
+SHA1:    6cf72fd3d677ac2a9c210b54fb1645b5c6407420
+ssdeep:  49152:iaisuuQNT5aJDw5aCu18GtunEOZg6Dew/d:rxqqJ1eGtwEOZnd
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x409c40 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x19b5e3 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x11474  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11adc  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11dc4  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x11eec  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12d94  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1363c  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13ba4  0xf74    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x14b18  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x170c0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18168  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x185d0  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x188c4  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x18bd0  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x18ea0  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x18f08  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x18fbc  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x1906c  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x19098  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x1912c  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x195e4  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x9364       0x9400       6.562232    
+DATA       0xb000       0x24c        0x400        2.758502    
+BSS        0xc000       0xe4c        0x0          0.000000    [SUSPICIOUS]
+.idata     0xd000       0x950        0xa00        4.430733    
+.tls       0xe000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xf000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x10000      0x8b4        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x11000      0x8b44       0x8c00       3.565026    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion: 4.1.5               
+CompanyName: Niek Haarman                                                
+Comments: This installation was built with Inno Setup.
+ProductName: Dutch Radio Scrobbler                                       
+ProductVersion: 4.1.5               
+FileDescription: Dutch Radio Scrobbler Setup                                 
+Translation: 0x0000 0x04b0
+

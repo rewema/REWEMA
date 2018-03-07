@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    35544 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4d20c3b2fa20fb91dacb72247775bc5f
+SHA1:    97901b4b1d02ffecf78dd3c815ba841ec0d32731
+ssdeep:  384:YfucN633RMvrjl9lekcUyw32gkglUkUW2YjWxVm4LtnYPLm6HEGJqUHeMmx:mZN63h8rDIkcWfoDJZ
+Date:    0x55D2991A [Tue Aug 18 02:31:54 2015 UTC]
+EP:      0x40275e .text 0/5
+CRC:     Claimed: 0x177b5, Actual: 0x177b5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x90a0   0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x93d8   0x259    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x31e1       0x3200       4.237210    
+.rdata     0x5000       0x1d76       0x1e00       1.745280    
+.data      0x7000       0x5f8        0x200        0.603308    [SUSPICIOUS]
+.idata     0x8000       0xc6b        0xe00        3.750879    
+.rsrc      0x9000       0x634        0x800        4.839559    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2013
+InternalName: vmUpdateLauncher.exe
+FileVersion: 1.5.1-2993839
+CompanyName: VMware, Inc.
+ProductName: VMware CDS Update Launcher
+ProductVersion: 1.5.1-2993839
+FileDescription: VMware CDS Update Launcher
+OriginalFilename: vmUpdateLauncher.exe
+Translation: 0x0409 0x04b0
+

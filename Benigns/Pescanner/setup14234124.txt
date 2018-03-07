@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    140800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     35561a7acb299a7278e8706fd6e01aa0
+SHA1:    41e1f323eb44cb474bf04567bed95f4767502131
+ssdeep:  3072:RqwmOGqM8OROAO5UTS7vdWcoWxg7YjcZJQgh9/J:Rq0M8OQAO5WSocVxgGcj/
+Date:    0x35895E12 [Thu Jun 18 18:36:02 1998 UTC] [SUSPICIOUS]
+EP:      0x413120 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x269bc [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x28310  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x285f8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x29e08  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29e38  0x604    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2a440  0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       Sendmail frozen configuration  - version m
+RT_STRING          0x2b520  0x678    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x2a830  0xcf0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28bf8  0x73c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2bb98  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29338  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29460  0x3da    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29840  0x5c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x28720  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x28748  0x4ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18bd6      0x18c00      6.603550    
+.rdata     0x1a000      0x1b80       0x1c00       5.513533    
+.data      0x1c000      0xb4f0       0x3c00       2.470008    
+.rsrc      0x28000      0x3cd0       0x3e00       3.495719    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1987-1998 Microsoft Corp.
+InternalName: SETUP.EXE
+FileVersion: 6.00.8169
+CompanyName: Microsoft Corporation
+LegalTrademarks: Microsoft\xae is a registered trademark of Microsoft Corporation.  Windows(TM) is a trademark of Microsoft Corporation.
+Comments: June 18, 1998
+ProductName: Microsoft\xae Visual Basic for Windows
+ProductVersion: 6.00.8169
+FileDescription: Setup Bootstrap for Visual Basic Setup Toolkit
+OriginalFilename: SETUP.EXE
+Translation: 0x0409 0x04e4
+

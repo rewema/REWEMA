@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    82944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b7bdbc4b4b28c662bd4ae2c5a9c2fcd8
+SHA1:    b60323dedd112420ed5527043ba48d46a8dd6472
+ssdeep:  1536:4vsrh8bTOKnZyZ2XPf5ZVuJ+gPjYqJZr9IOcMHW1vKSt63:4Erh8GKnYIFO3DIOcM21iSQ
+Date:    0x578990EB [Sat Jul 16 01:42:03 2016 UTC]
+EP:      0x4115e0 .text 0/5
+CRC:     Claimed: 0x19607, Actual: 0x19607 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14cc8  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGINST            0x14b68  0x15f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+RT_ICON            0x14868  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x14b50  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x144b0  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x141e0  0x2cf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10f5c      0x11000      6.025717    
+.data      0x12000      0x90c        0x200        2.177942    
+.idata     0x13000      0xe0e        0x1000       5.093034    
+.rsrc      0x14000      0xdb0        0xe00        4.495086    
+.reloc     0x15000      0xe74        0x1000       6.483488    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CMSTP
+FileVersion: 7.2.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft(R) Connection Manager
+ProductVersion: 7.2.14393.0
+FileDescription: Microsoft Connection Manager Profile Installer
+OriginalFilename: CMSTP.EXE
+Translation: 0x0409 0x04b0
+

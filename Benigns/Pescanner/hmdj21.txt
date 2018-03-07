@@ -1,0 +1,74 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4142888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f2a74312986dfe50e3751a5308b68b59
+SHA1:    8ac5d2ac1b0a26a550d45a6d6994f15c2b62f6a4
+ssdeep:  98304:53ddseNcSr7lTnl4ZA2A/mbfdMig0d8TsZ7hHYx/zvwhX9uOEG0jQiHETe:v7TaZ6/mbfdP6ihHYZvwW1DQiHae
+Date:    0x3B965AC1 [Wed Sep  5 17:02:57 2001 UTC]
+EP:      0x408947 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x40148b [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1bff8  0x25ba2  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x41ba0  0x38e4   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ad98  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1aec0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1b428  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b710  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x45488  0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8d0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a968  0xbe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1acc0  0xd6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1aa28  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a658  0x272    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a570  0xe2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1ac30  0x90     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1aad8  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1abc8  0x62     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x45c90  0x632    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x462c8  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46898  0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46470  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46530  0x366    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x469b8  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46a50  0x58     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1bfb8  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x45628  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11b16      0x12000      6.602099    
+.rdata     0x13000      0x1950       0x2000       4.782526    
+.data      0x15000      0x4e38       0x2000       2.421917    
+.rsrc      0x1a000      0x2caa8      0x2d000      7.022957    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: (c) 2002 by Ervin Walter.  All Rights Reserved              
+InternalName: stub32                                                      
+FileVersion: 2.1                                                         
+CompanyName: Ewal.Net                                                    
+Comments:                                                             
+ProductName: Hey, Mr. D.J.                                               
+ProductVersion: 2.1                                                         
+FileDescription:                                                             
+OriginalFilename: stub32i.exe                                                 
+Translation: 0x0409 0x04b0
+

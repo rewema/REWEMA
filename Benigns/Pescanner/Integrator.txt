@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3293896 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     852f1cf4df811dec388d0e61107559c0
+SHA1:    7a1180673c3290119f8334d0c18fc1b5251cffc4
+ssdeep:  98304:BeSW+JZhPSEXsVTXjQrkkCoRQV1riisXLmQ:YSvJJ8VTMRRZv
+Date:    0x593C4126 [Sat Jun 10 18:57:42 2017 UTC]
+EP:      0x58522e .text 0/6
+CRC:     Claimed: 0x3260e7, Actual: 0x32ee30 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2f40a0 0x46c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2f4510 0x607    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+StartServiceW
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e80b0     0x1e8200     6.693772    
+.rdata     0x1ea000     0xddb04      0xddc00      4.702187    
+.data      0x2c8000     0x2a05c      0x29e00      1.915378    
+.tls       0x2f3000     0xd          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x2f4000     0xb18        0xc00        4.687829    
+.reloc     0x2f5000     0x2f544      0x2f600      6.494393    
+
+Version info
+================================================================================
+InternalName: C2R Integrator
+FileVersion: 16.0.8201.2102
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Office
+ProductVersion: 16.0.8201.2102
+FileDescription: Microsoft Office Click-to-Run Integrator
+MOSEVersion: BETA
+OriginalFilename: Integrator.exe
+Translation: 0x0000 0x04e4
+

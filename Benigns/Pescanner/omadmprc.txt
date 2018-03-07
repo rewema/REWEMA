@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49664 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     880ea8140893be8d7897b7bb58357efe
+SHA1:    d3078a1eed9b0c892e2c7a13373c09fe14cbb976
+ssdeep:  1536:uF+9dTni5In2SR9GOhbo/Dn5HYSESwVBFQTCz:uF+9dTnisfo/DnSZrPFQTCz
+Date:    0x57898E08 [Sat Jul 16 01:29:44 2016 UTC]
+EP:      0x4088d0 .text 0/5
+CRC:     Claimed: 0x13c02, Actual: 0x13c02 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xec88   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xe4e0   0x7a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe110   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x92a0       0x9400       6.196014    
+.data      0xb000       0x624        0x200        2.541100    
+.idata     0xc000       0x1084       0x1200       4.865600    
+.rsrc      0xe000       0xd70        0xe00        3.245198    
+.reloc     0xf000       0x7f8        0x800        6.558539    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: omadmprc
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for Push Router Client of OMA-DM
+OriginalFilename: omadmprc.exe
+Translation: 0x0409 0x04b0
+

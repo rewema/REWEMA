@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40448 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     acdea7e3373d79bf9ef2433de9132bf3
+SHA1:    76e84512e38af4fcd817baab158583928318f927
+ssdeep:  768:OJ1/1g3qenvk89RAZ2iQPGb0VhdMu4VhAK4p4d/4:o1Ng3C8Q05PMQhdT4XAPpk/4
+Date:    0x57898EDC [Sat Jul 16 01:33:16 2016 UTC]
+EP:      0x4077c0 .text 0/6
+CRC:     Claimed: 0x16692, Actual: 0x16692 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xf738   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xf398   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0xf0f0   0x2a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x715c       0x7200       6.347463    
+.data      0x9000       0x2810       0x200        0.199776    [SUSPICIOUS]
+.idata     0xc000       0x124e       0x1400       5.021062    
+.didat     0xe000       0x10         0x200        0.164765    [SUSPICIOUS]
+.rsrc      0xf000       0x800        0x800        4.344415    
+.reloc     0x10000      0x770        0x800        6.498334    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: cipher
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: File Encryption Utility
+OriginalFilename: CIPHER.EXE
+Translation: 0x0409 0x04b0
+

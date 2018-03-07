@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    176640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d87b53ff19420ffaf26cf675a5456091
+SHA1:    07af9b77f19285c548b3c1bc1a185854d4d1195c
+ssdeep:  1536:2Z2FWSNhd/4131iiiccx6Www27X4znB61MveFl3qKvIkbhRxSnhrb7dR62CtBHV6:M2ddQ131iIDWsuB6K41VLsh7dRNq1iJ
+Date:    0x59243494 [Tue May 23 13:09:40 2017 UTC]
+EP:      0x401290 .text 0/6
+CRC:     Claimed: 0x2b360, Actual: 0x2b360 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x14490  0x468    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x148f8  0x10a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x159a0  0x25a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x17f48  0x4228   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x1c170  0x10828  LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x2c998  0xa848   LANG_NEUTRAL SUBLANG_DEFAULT          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x371e0  0x6      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x371e8  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x371ec  0xf      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x371fc  0xa      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x37208  0x12     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x3721c  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x37220  0x3      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x37224  0x19     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x37240  0x1d     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x37260  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x37264  0x32     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x37298  0x73     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x3730c  0x35     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x37344  0x68     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_GROUP_ICON      0x373ac  0x5a     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x37408  0x31c    LANG_NEUTRAL SUBLANG_DEFAULT          data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6080       0x6200       5.982433    
+.data      0x8000       0x40         0x200        0.163808    [SUSPICIOUS]
+.rdata     0x9000       0x510        0x600        5.013546    
+.bss       0xa000       0x8e30       0x0          0.000000    [SUSPICIOUS]
+.idata     0x13000      0xaa8        0xc00        4.652641    
+.rsrc      0x14000      0x23724      0x23800      5.964947    
+
+Version info
+================================================================================
+LegalCopyright: watto studios 2002-2017
+InternalName: ge
+FileVersion: 3.01
+CompanyName: watto studios
+LegalTrademarks: watto studios 2002-2017
+ProductName: Game Extractor
+ProductVersion: 3.01
+FileDescription: Game Extractor
+OriginalFilename: GameExtractor.exe
+Translation: 0x0409 0x04e4
+

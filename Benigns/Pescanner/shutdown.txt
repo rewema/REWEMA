@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22016 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     af35f0aacc196b16c03a1393209f5a53
+SHA1:    0f6aff0bc2c64ccffe12c0956ef1fa5cf018b7f3
+ssdeep:  384:kwuHczKroKtM8YFUDQ8QBxTDTXehmkbntJDJ1SuQ3Wm+SWDH:kziKrob8YFeQ8QBxTDctFJ1Su6+X
+Date:    0x578990D8 [Sat Jul 16 01:41:44 2016 UTC]
+EP:      0x403cf0 .text 0/6
+CRC:     Claimed: 0xf2b9, Actual: 0xf2b9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8760   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a0   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2ab    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3558       0x3600       6.131786    
+.data      0x5000       0x7cc        0x200        0.289688    [SUSPICIOUS]
+.idata     0x6000       0x918        0xa00        4.706138    
+.didat     0x7000       0x20         0x200        0.313256    [SUSPICIOUS]
+.rsrc      0x8000       0x828        0xa00        3.740595    
+.reloc     0x9000       0x364        0x400        6.006616    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: shutdown
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Shutdown and Annotation Tool
+OriginalFilename: SHUTDOWN.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    99328 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b35f69dc4f5cca6ad5f400d815451f2c
+SHA1:    fc9a5e0b4cb7210de2cbed6ba79b66d9e00f26d4
+ssdeep:  3072:Gg7GiQJz/6HDzsk2JZVtpKFHizyiSpv6vK:jQADzsfXVtEizyiSpv
+Date:    0x578990EC [Sat Jul 16 01:42:04 2016 UTC]
+EP:      0x412730 .text 0/5
+CRC:     Claimed: 0x1eda8, Actual: 0x1eda8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x19280  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x174d8  0x19b2   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x18e90  0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x17160  0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1322c      0x13400      6.260481    
+.data      0x15000      0x744        0x200        2.067703    
+.idata     0x16000      0xea6        0x1000       5.064889    
+.rsrc      0x17000      0x2370       0x2400       3.933628    
+.reloc     0x1a000      0x1550       0x1600       6.711787    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MBAE Parser Task
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Mobile Broadband Account Experience Parser Task
+OriginalFilename: MbaeParserTask.exe
+Translation: 0x0409 0x04b0
+

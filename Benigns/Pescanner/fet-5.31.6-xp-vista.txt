@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14275915 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     76fee9dded12748afd9af0a0d883ec96
+SHA1:    f87f5dca25856fabcb39018523408af3392006d4
+ssdeep:  196608:gfuyCxndQlVMLW7FWurwdvrwWMPli35jQw+CzzHjrzKgOgWMrGcFYeiaoF5DPgYu:2GUlVieOJwWMPciwDzHjrxEKGq7iTZPG
+Date:    0x57F3C6DF [Tue Oct  4 15:12:31 2016 UTC]
+EP:      0x42479a .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xda4131 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x347c0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34aa8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x35148  0x440    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x34bf8  0x12e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x34d28  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x35020  0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35608  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x355c0  0x42     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35648  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36060  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x356a8  0x20c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x358b8  0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x359a0  0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x359d8  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35a08  0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35a78  0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35b98  0x6a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35588  0x32     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35c08  0x1ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35df8  0x156    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35f50  0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x35fa8  0xb6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x34bd0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x34510  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x26065      0x26200      6.667409    
+.rdata     0x28000      0x5ff0       0x6000       4.429094    
+.data      0x2e000      0x457c       0x200        3.967026    
+.sxdata    0x33000      0x4          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x34000      0x2090       0x2200       3.157064    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1999-2016 Igor Pavlov
+InternalName: 7z.sfx
+FileVersion: 16.04
+CompanyName: Igor Pavlov
+ProductName: 7-Zip
+ProductVersion: 16.04
+FileDescription: 7z SFX
+OriginalFilename: 7z.sfx.exe
+Translation: 0x0409 0x04b0
+

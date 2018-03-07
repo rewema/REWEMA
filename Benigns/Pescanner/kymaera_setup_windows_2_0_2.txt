@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12731130 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9d42c4207a791f801274433980b82bab
+SHA1:    2514908f60dc97d409f9d5fd94cf7c6870a07981
+ssdeep:  196608:7xWo5rrkhEZfp4VofEn1KQAx7E1eU9oo3Q2ctqaQO3Xxbrw03p:7xWErOMOgAKFE1eTSKiO35kC
+Date:    0x38B42C22 [Wed Feb 23 18:51:14 2000 UTC]
+EP:      0x40224b .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xc2652c [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8160   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8448   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x8a30   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x8570   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x8598   0x498    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3b25       0x4000       6.264442    
+.rdata     0x5000       0xb7c        0x1000       4.296225    
+.data      0x6000       0x1778       0x1000       5.675015    
+.rsrc      0x8000       0xdf8        0x1000       3.255083    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000 Indigo Rose Corporation
+InternalName: setup
+FileVersion: 5.0.1
+CompanyName: Indigo Rose Corporation http://www.indigorose.com
+PrivateBuild: 
+LegalTrademarks: Setup Factory is a trademark of Indigo Rose Corporation.
+Comments: This setup code is the property of Indigo Rose Corporation
+ProductName: setup
+SpecialBuild: 
+ProductVersion: 5.0.1
+FileDescription: Setup Factory setup launcher
+OriginalFilename: setup.exe
+Translation: 0x0409 0x04e4
+

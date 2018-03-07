@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    591696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a120a86a0007b5cc46ec43f4e57c9adb
+SHA1:    440246368335b551fee5271a2546af736241ce35
+ssdeep:  3072:07wTT6zh0OuCdlMn7HP9p2AelJ9cOfvQx8c1i0/kQSftSfZ7jiY5YYYYgYYYY3YE:zOzKOu2lMD9pocaU1imSE7ERAZc1h
+Date:    0x49B7508B [Wed Mar 11 05:47:55 2009 UTC]
+EP:      0x413fce .text 0/4
+CRC:     Claimed: 0x9f4ab, Actual: 0x9f4ab 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1fd40  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1fe68  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x203d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x206b8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20f60  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x215c8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22470  0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27098  0x12428  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x394c0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x39928  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a9d0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3cf78  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d7a0  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f8e0  0xe2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f9c8  0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f800  0xda     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x8f888  0x3c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x8f7c8  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 16x16, 16-colors
+RT_VERSION         0x1f420  0x3dc    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x155c2      0x16000      5.913206    
+.rdata     0x17000      0x404a       0x5000       4.010359    
+.data      0x1c000      0x2d20       0x2000       4.567770    
+.rsrc      0x1f000      0x708c8      0x71000      3.631939    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2008
+InternalName: EScanAssistant
+FileVersion: 2, 1, 0, 2
+CompanyName: SEIKO EPSON CORPORATION
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: EScanAssistant Application
+OLESelfRegister: 
+SpecialBuild: 
+ProductVersion: 2, 1, 0, 2
+FileDescription: EScanAssistant Application
+OriginalFilename: EScanAssistant.EXE
+Translation: 0x0409 0x04b0
+

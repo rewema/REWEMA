@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    651424 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     6a09bc6c19c4236c0bd8a01953371a29
+SHA1:    d1387f3c94464d81f1a64207315b13bf578fd10c
+ssdeep:  12288:JyC66C4C6r/uuxQXygjzqU/2Jg5V2/gU7R:J93C1ygjzdvEgq
+Date:    0x58FE6230 [Mon Apr 24 20:38:08 2017 UTC]
+EP:      0x4171e7 .text 0/5
+CRC:     Claimed: 0xa52d4, Actual: 0xa52d4 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x44b5eL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x4a110  0x536a8  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (console) Mono/.Net assembly
+RT_VERSION         0x9d7b8  0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9db00  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+CreateProcessW
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x28da5      0x28e00      6.562840    
+.rdata     0x2a000      0x1a12a      0x1a200      4.431873    
+.data      0x45000      0x4dbc       0x1600       3.772532    
+.rsrc      0x4a000      0x53c80      0x53e00      6.025255    
+.reloc     0x9e000      0x28c4       0x2a00       6.646474    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2009-2017 Mark Russinovich and Andrew Richards
+InternalName: ProcDump
+FileVersion: 9.0
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: ProcDump
+ProductVersion: 9.0
+FileDescription: Sysinternals process dump utility
+OriginalFilename: procdump
+Translation: 0x0409 0x04b0
+

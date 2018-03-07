@@ -1,0 +1,37 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     96db04cf4b3f40d793b05d7e1f7141fa
+SHA1:    13d600aeaa79bcd52fc05b14b23d5dd0e082c2dd
+ssdeep:  768:j0TdmdsQ7CYLy7xBNh1RofPsQunrOYMzpQpQF4ufiRo3RY:IMdsQOr1RyPsn8iqO4v3RY
+Date:    0x4956392C [Sat Dec 27 14:18:20 2008 UTC]
+EP:      0x401110 .text 0/6
+CRC:     Claimed: 0x1854e, Actual: 0x1854e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xf148   0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfdf0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x10358  0x32     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1038c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x103a0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7b90       0x7c00       6.284092    
+.data      0x9000       0x2d4        0x400        2.074627    
+.rdata     0xa000       0x1448       0x1600       5.376454    
+.bss       0xc000       0xad8        0x0          0.000000    [SUSPICIOUS]
+.idata     0xd000       0x10bc       0x1200       4.536770    
+.rsrc      0xf000       0x13b4       0x1400       3.613949    
+

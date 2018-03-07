@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    123840 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a3428a931a28daef1ce1dc57740e3ef1
+SHA1:    b0701a82c74a34b88121e126d325511169e21409
+ssdeep:  3072:yy6sTJ1fH2k9Hc3/nl6LAHkzI1UfgEA6IIyRBs/:V6sTJ1fWk96kADw
+Date:    0x4        [Thu Jan  1 00:00:04 1970 UTC] [SUSPICIOUS]
+EP:      0x4014e0 .text 0/9
+CRC:     Claimed: 0x24e16, Actual: 0x24e16 
+
+TLS callbacks
+================================================================================
+    0x401a10
+    0x4019c0
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0xf250   0x339    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+RT_ICON            0xf590   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfe38   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x103a0  0xd49e   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1d840  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fde8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20e90  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x212f8  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 256-colors
+RT_VERSION         0x21358  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7a48       0x7c00       6.181795    
+.data      0x9000       0x74         0x200        1.066466    
+.rdata     0xa000       0xca4        0xe00        4.885461    
+.bss       0xb000       0xe48        0x0          0.000000    [SUSPICIOUS]
+.idata     0xc000       0x7b8        0x800        4.742430    
+.CRT       0xd000       0x34         0x200        0.273351    [SUSPICIOUS]
+.tls       0xe000       0x20         0x200        0.200582    [SUSPICIOUS]
+.rsrc      0xf000       0x12700      0x12800      7.300355    [SUSPICIOUS]
+/4         0x22000      0x1c         0x200        0.471518    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1996-2015 VideoLAN and VLC Authors
+InternalName: vlc
+FileVersion: 2.2.1
+CompanyName: VideoLAN
+LegalTrademarks: VLC media player, VideoLAN and x264 are registered trademarks from VideoLAN
+ProductName: VLC media player
+ProductVersion: 2,2,1,0
+FileDescription: VLC media player
+OriginalFilename: vlc.exe
+Translation: 0x0409 0x04e4
+

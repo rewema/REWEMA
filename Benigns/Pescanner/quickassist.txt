@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    474624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     094040ec5e14949f9b84416d121a77f8
+SHA1:    05891f7931c376193b22d37b37dd16e63065e773
+ssdeep:  6144:YmmMTmdXqyQTd+bqN12FhX2Mruuj/aDcnktq2x0gRpcRxx:YVMTmd6dUbqH25Bj/aDckq2xhCRD
+Date:    0x57899108 [Sat Jul 16 01:42:32 2016 UTC]
+EP:      0x459660 .text 0/6
+CRC:     Claimed: 0x79cbb, Actual: 0x79cbb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x70658  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x65990  0xaca    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x66460  0x3228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69688  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b330  0x1428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6c758  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6d400  0x748    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6db48  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e070  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6e3d8  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x655f0  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x65350  0x29d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0x6e450  0x1a1    LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 88 x 88
+None               0x6e5f8  0x205f   LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 20 x 20
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5ee54      0x5f000      6.282799    
+.data      0x60000      0x71c        0x400        3.241927    
+.idata     0x61000      0x2464       0x2600       5.224756    
+.tls       0x64000      0x9          0x200        0.000000    
+.rsrc      0x65000      0xb730       0xb800       4.184129    
+.reloc     0x71000      0x6544       0x6600       6.671369    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: QuickAssist.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Quick Assist
+OriginalFilename: QuickAssist.exe
+Translation: 0x0000 0x04b0
+

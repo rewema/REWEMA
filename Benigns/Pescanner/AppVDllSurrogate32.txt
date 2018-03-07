@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    215768 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4308ad23a3e3254337e11a327c21d94e
+SHA1:    a15ae17e9017afd49883a3598ebea00a65761983
+ssdeep:  3072:L/JQGe6OHnN5j+XQu5RQmmt0fSoD70moe+WImPoFciG:jJQGe62eAuommt0fSoD70reHhPv
+Date:    0x5797C7EB [Tue Jul 26 20:28:27 2016 UTC]
+EP:      0x408093 .text 0/5
+CRC:     Claimed: 0x41915, Actual: 0x41915 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x340a0  0x49c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x34540  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x138ef      0x13a00      6.583237    
+.rdata     0x15000      0x1a3e2      0x1a400      5.091157    
+.data      0x30000      0x35a4       0x1600       3.820261    
+.rsrc      0x34000      0x6c0        0x800        3.601818    
+.reloc     0x35000      0x2f1c       0x3000       6.314166    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2014 Microsoft Corporation
+InternalName: AppVDllSurrogate
+FileVersion: 5.0.10346.0
+CompanyName: Microsoft Corporation
+PrivateBuild: 50sp3Servicing (by sftbuild on MBAMR02BLD01)
+LegalTrademarks: Microsoft\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Application Virtualization (App-V)
+ProductVersion: 5.0.10346.0
+FileDescription: AppVDllSurrogate32
+OriginalFilename: AppVDllSurrogate32.exe
+Translation: 0x0409 0x04b0
+

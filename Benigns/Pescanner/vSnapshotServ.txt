@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    152264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cc39b2015fd48ca82a8114146da966be
+SHA1:    821666da6c55b63e0d44cb86e5b8ebe9e5a8e1e0
+ssdeep:  3072:jBgO2V9935W9U1qE4/T8TI6uhDWnwELpmwew7uTXRxbydO5deGmNm:jBgO2L93g9U1qT/T8TI6YWnwELj97uT5
+Date:    0x585DE9F5 [Sat Dec 24 03:22:29 2016 UTC]
+EP:      0x40cd83 .text 0/5
+CRC:     Claimed: 0x32193, Actual: 0x32193 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x250a0  0x2bc    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_MANIFEST        0x2535c  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+ReadProcessMemory
+OpenProcessToken
+StartServiceCtrlDispatcherW
+StartServiceW
+CreateServiceW
+CreateProcessAsUserW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18307      0x18400      6.624669    
+.rdata     0x1a000      0x4e94       0x5000       5.154521    
+.data      0x1f000      0x5bc8       0x2000       1.810958    
+.rsrc      0x25000      0x4b8        0x600        4.554393    
+.reloc     0x26000      0x3af0       0x3c00       5.027230    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2015
+InternalName: vSnapshotServ.exe
+FileVersion: 1,0,0,0
+ProductName: The vSnapshot Service
+ProductVersion: 1.0.0.0
+FileDescription: The vSnapshot Service
+OriginalFilename: vSnapshotServ.exe
+Translation: 0x0409 0x04b0
+

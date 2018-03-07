@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    42496 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b86a729f335afe767e625604dd5b7770
+SHA1:    d07873775ef7be7a27053f8495400e9fe7688a65
+ssdeep:  768:E8ngGO58RGtEEHz8HiQ6rpum+ws7OR+2/wW7RUC+uhQpPpkSVh:E8nO58IuuzuZrVV673+GQVpkSVh
+Date:    0x57898FFB [Sat Jul 16 01:38:03 2016 UTC]
+EP:      0x408190 .text 0/5
+CRC:     Claimed: 0x141c4, Actual: 0x141c4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xc328   0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0a0   0x282    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7a94       0x7c00       6.329389    
+.data      0x9000       0x574        0x200        0.705206    [SUSPICIOUS]
+.idata     0xa000       0x1400       0x1400       5.149766    
+.rsrc      0xc000       0x718        0x800        3.980967    
+.reloc     0xd000       0x72c        0x800        6.324615    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BytecodeGenerator.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: AppX Deployment Bytecode Generator EXE
+OriginalFilename: BytecodeGenerator.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5120 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f9f5c6130356b4de3c54f9414292c341
+SHA1:    20470529da8cd9c778d714bb51ad31fb083ecffb
+ssdeep:  48:6h2yiCuYVmZc/AC2VsTgBuJhgcH45SGVLxPMzwadwsylnZn3IWNdWhbLPsWQLWXH:r1YgZ8ACx61lxPMkausUtI7M
+Date:    0x4904EC8A [Sun Oct 26 22:17:46 2008 UTC]
+EP:      0x40298e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x9e6c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x994        0xa00        5.041430    
+.rsrc      0x4000       0x458        0x600        2.555581    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) www.devage.com 2008
+Assembly Version: 1.5.94.0
+InternalName: InstallerLinker.exe
+FileVersion: 1.5.94.0
+CompanyName: www.devage.com
+LegalTrademarks: All Rights Reserved
+Comments: dotNetInstaller Command-Line Linker
+ProductName: dotNetInstaller
+ProductVersion: 1.5.94.0
+FileDescription: InstallerLinker
+OriginalFilename: InstallerLinker.exe
+

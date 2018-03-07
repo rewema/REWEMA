@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    373760 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     48ee25a860e8ba662c10fb0e8f6edd9d
+SHA1:    252185a2b604090ce04964ca148c815190f597b8
+ssdeep:  3072:0g1uY6vf6Lprev6gfrOCzjmZFtB1/8SX1wqovPU+qElgTBuSjBMhd6V/ysXo396N:0gKYrOpfrOCzja/B1z1xodkBu8T
+Date:    0x57899057 [Sat Jul 16 01:39:35 2016 UTC]
+EP:      0x430bf0 .text 0/6
+CRC:     Claimed: 0x69d1b, Actual: 0x69d1b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5bbb8  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x367a8  0x2540c  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x363f0  0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x36140  0x2ad    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x307b2      0x30800      6.120965    
+PAGE       0x32000      0x8cb        0xa00        5.787818    
+.data      0x33000      0x464        0x200        0.976603    [SUSPICIOUS]
+.idata     0x34000      0x1aa2       0x1c00       5.321741    
+.rsrc      0x36000      0x25c88      0x25e00      3.341062    
+.reloc     0x5c000      0x2100       0x2200       6.581624    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bcdedit.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Boot Configuration Data Editor
+OriginalFilename: bcdedit.exe
+Translation: 0x0409 0x04b0
+

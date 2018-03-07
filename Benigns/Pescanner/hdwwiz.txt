@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    63488 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     35f1d1dbcede7f2385be75d5ccf75f71
+SHA1:    57ad85a6504b2e4090770345417245a913917723
+ssdeep:  384:ecyGd3gDXOionrYssbliWByWj4650Ingu+n6aJTIXFJhjhxhWM1hvYvfeHviODnz:e2BgClrGJF/4G0In3BhzhWM1GOVz17
+Date:    0x57898ED5 [Sat Jul 16 01:33:09 2016 UTC]
+EP:      0x402020 .text 0/5
+CRC:     Claimed: 0x1a26f, Actual: 0x1a26f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x11b90  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5978   0x1a13   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x7390   0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb5b8   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdb60   0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf5c8   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10670  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10ff8  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x116b0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x11b18  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x55d8   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x52d0   0x303    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18b4       0x1a00       5.873189    
+.data      0x3000       0x3ec        0x200        0.199776    [SUSPICIOUS]
+.idata     0x4000       0x57e        0x600        4.762530    
+.rsrc      0x5000       0xcc60       0xce00       5.049188    
+.reloc     0x12000      0x208        0x400        4.039954    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: HdwWiz.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Add Hardware Wizard
+OriginalFilename: HdwWiz.EXE
+Translation: 0x0409 0x04b0
+

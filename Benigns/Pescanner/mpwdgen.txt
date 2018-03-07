@@ -1,0 +1,105 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    659456 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f22598c83bd604b83eab6103499afec2
+SHA1:    5f9d84b975ed4839e4084e659387570c6e673839
+ssdeep:  12288:JTSiEBY8EDdkpRWWKn5UlnAsI5uFf3dDXPhQHzeKqrX39NN:JmdUDdkpRoaImPhfaTCrnJ
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x48bd4c CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xa3eeb [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x9ebf4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x9ed28  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x9ee5c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x9ef90  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x9f0c4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x9f1f8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x9f32c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9f460  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9f630  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9f814  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9f9e4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9fbb4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9fd84  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9ff54  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa0124  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa02f4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa04c4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa0694  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa077c  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa0814  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa08ac  0x10a8   LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0xa1954  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa19a8  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa1cf4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa1ec4  0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa2030  0x218    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa2248  0x26c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa24b4  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xa259c  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xa26c4  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa2978  0x40c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa2d84  0x380    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa3104  0x418    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa351c  0x1b0    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6619253 records)
+RT_STRING          0xa36cc  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7733359 records)
+RT_STRING          0xa37b8  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa399c  0x3e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa3d84  0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa40dc  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa4390  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0xa43a0  0x2bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa465c  0x5c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa4c24  0x165f   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xa6284  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xa6298  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xa62ac  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xa62c0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xa62d4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xa62e8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xa62fc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0xa6310  0x14     LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN MS Windows icon resource - 1 icon
+RT_VERSION         0xa6324  0x2d8    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x8adc0      0x8ae00      6.542273    
+DATA       0x8c000      0x1de8       0x1e00       4.668678    
+BSS        0x8e000      0xc55        0x0          0.000000    [SUSPICIOUS]
+.idata     0x8f000      0x244e       0x2600       4.920731    
+.tls       0x92000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x93000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x94000      0x908c       0x9200       6.645512    
+.rsrc      0x9e000      0x8600       0x8600       4.938267    
+
+Version info
+================================================================================
+LegalCopyright: GPL v3
+InternalName: mpwdgen
+FileVersion: 1.0.0.0
+CompanyName: 
+LegalTrademarks: 
+Comments: 
+ProductName: 
+ProductVersion: 1.0.0.0
+FileDescription: Gerador de Senhas aleat\xf3rias
+OriginalFilename: mpwdgen.exe
+Translation: 0x0416 0x04e4
+

@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    162216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b72f1dc4ef2da96887a78d573bc68a10
+SHA1:    a5115e89dfdddee5c8973b9eb01532ed53933c2a
+ssdeep:  3072:VbD0jL+YX6y4ymhvrnAh1/PXO5TSHmru9wm/sIctpEBQjZGX:ZqahvjelBm3mUjtHYX
+Date:    0x578990F0 [Sat Jul 16 01:42:08 2016 UTC]
+EP:      0x408da0 .text 0/7
+CRC:     Claimed: 0x31747, Actual: 0x31747 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c658  0x1876   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1ded0  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x220f8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x246a0  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26108  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x271b0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27b38  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x281f0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x28658  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x1c280  0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x158a0      0x15a00      6.296146    
+.imrsiv    0x17000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x18000      0x5a8        0x200        2.491028    
+.idata     0x19000      0x1098       0x1200       5.082939    
+.didat     0x1b000      0x84         0x200        1.193300    
+.rsrc      0x1c000      0xc6d0       0xc800       3.712700    
+.reloc     0x29000      0x15f4       0x1600       6.658784    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: System Settings Broker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: System Settings Broker
+OriginalFilename: SystemSettingsBroker.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    246624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     19502ca5c1b7a5c4d995e299ed0fd1b0
+SHA1:    6397865d52ad1e4b12adc312ed7f2bd4caeff48e
+ssdeep:  6144:xwKcX7HmTY9u+ot7ZOtsOdlx9Z92yhy6aEWhOCpCcxDDVoe:xwKK2Y9Zot7WsOdT9Z92yhy6aEWnpPxP
+Date:    0x5789910F [Sat Jul 16 01:42:39 2016 UTC]
+EP:      0x4352f0 .text 0/7
+CRC:     Claimed: 0x4670c, Actual: 0x4670c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x3c478  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x3c0b0  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x350f4      0x35200      6.561948    
+.data      0x37000      0xd6c        0x400        3.035991    
+.idata     0x38000      0x1eea       0x2000       5.365062    
+.didat     0x3a000      0x10         0x200        0.170146    [SUSPICIOUS]
+.tls       0x3b000      0x9          0x200        0.000000    
+.rsrc      0x3c000      0x540        0x600        3.010561    
+.reloc     0x3d000      0x1d78       0x1e00       6.738916    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TiFileFetcher.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Modules File Fetcher
+OriginalFilename: TiFileFetcher.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,135 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    446977 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     06ff23367e0e6a1a1b4f85853992e684
+SHA1:    b2063aa9743ae27428de1802a520c4c299398a0f
+ssdeep:  6144:+JZZw18SVmA1ZkypJtBuILOwx/V/mBZL5NW8kqI9aq1ccT2Pqt3fVNn8nlr5mx:b18SVmQZkypVP5WL5chb1cY2Pi3nYrM
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x45cf44 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x7bd9a [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: irc
+   0x59bccL => JOIN
+   0x5a357L => join
+   0x5a549L => join
+   0x5af40L => JOIN
+   0x5b9ccL => JOIN
+   0x65f5L => MSG
+   0x660dL => MSG
+   0x48a20L => Msg
+   0x55b8eL => Nick
+   0x583c4L => NICK
+   0x5a340L => nick
+   0x5a529L => nick
+   0x5a538L => NICK
+   0x6c2fcL => Nick
+   0x6c5a7L => Nick
+   0x59bfcL => NOTICE
+   0x5b250L => NOTICE
+   0x5a558L => PART
+   0x55be1L => ping
+   0x5afc0L => PING
+   0x5b554L => PING
+   0x5b578L => PING
+   0x5b586L => PING
+   0x5b5a4L => PING
+   0x6caa8L => ping
+   0x5af1cL => PRIVMSG
+   0x5b0c8L => PRIVMSG
+   0x5b18cL => PRIVMSG
+   0x5b320L => PRIVMSG
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x6daf0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6dc24  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6dd58  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6de8c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6dfc0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6e0f4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6e228  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6e35c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6e52c  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6e710  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6e8e0  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6eab0  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6ec80  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6ee50  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6f020  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6f1f0  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6f3c0  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x6f590  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x6f678  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_DIALOG          0x6f960  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6f9b4  0x190    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6fb44  0x1ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6fd30  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x6fe1c  0x328    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x70144  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x70200  0x120    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x70320  0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x70588  0x40c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x70994  0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x70d20  0x434    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x71154  0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_STRING          0x7128c  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7340133 records)
+RT_STRING          0x71378  0x264    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x715dc  0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x719ac  0x374    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x71d20  0x2c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x71fe4  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x71ff4  0x2a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x7229c  0xea6    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x73144  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x73158  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x7316c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x73180  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x73194  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x731a8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x731bc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x731d0  0x14     LANG_DUTCH   SUBLANG_DUTCH            MS Windows icon resource - 1 icon
+RT_VERSION         0x731e4  0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x5bfb8      0x5c000      6.514095    
+DATA       0x5d000      0x14a4       0x1600       3.726896    
+BSS        0x5f000      0x1169       0x0          0.000000    [SUSPICIOUS]
+.idata     0x61000      0x2248       0x2400       4.886566    
+.tls       0x64000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x65000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x66000      0x6b20       0x6c00       6.669395    
+.rsrc      0x6d000      0x6600       0x6600       4.593507    
+
+Version info
+================================================================================
+LegalCopyright: program is under zlib licence
+InternalName: 
+FileVersion: 1.0.0.4
+CompanyName: BlaatSchaap
+LegalTrademarks: 
+Comments: 
+ProductName: BlaatSchaap IRC Bot
+ProductVersion: 1.0.0.0
+FileDescription: BlaatSchaap IRC Bot
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,41 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1945484 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c49427b0f321350cc9dd3eb0a2f8a07f
+SHA1:    ed783002f797df35e40ad861134c885c7c3f1771
+ssdeep:  49152:YTUam9+Twrmyjqq9SP+p9uTC7KAFOG98udg14MMMMMcE4Y:Tag+TwrmyjqqcP+pqC7KAFOG98udDMMO
+Date:    0x0        [Thu Jan  1 00:00:00 1970 UTC] [SUSPICIOUS]
+EP:      0x564640 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x1dd43b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x23d1a4 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x23da4c 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x23e2f4 0x3c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x23e330 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_MANIFEST        0x23e344 0x245    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x176030     0x176030     6.082962    
+.data      0x178000     0x5f768      0x5f768      5.801345    
+.rdata     0x1d8000     0xec0        0xec0        5.621099    
+.bss       0x1d9000     0x60e00      0x0          0.000000    [SUSPICIOUS]
+.idata     0x23a000     0x2a04       0x2a04       5.065310    
+.rsrc      0x23d000     0x158c       0x158c       4.034575    
+

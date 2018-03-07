@@ -1,0 +1,86 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16228352 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c8591b9cb0f56c34b5102f424f9eff4c
+SHA1:    9ace7e7eea91fefcff2de36519d78c59c297d7e3
+ssdeep:  196608:boxqMynQoXtTZ8kWJJK0or9AchBHTz+xHeJ2dtOHvgN4y:EqMynbTzWeJ2SPgN4
+Date:    0x4D68CF5C [Sat Feb 26 10:01:00 2011 UTC]
+EP:      0xe12bc0 .text 0/6
+CRC:     Claimed: 0xf827db, Actual: 0xf827db 
+
+Signature scans
+================================================================================
+YARA: irc
+   0xecc4c1L => join
+   0xb7155dL => MSG
+   0xb946d9L => MSG
+   0xb95fc5L => MSG
+   0xc0997cL => MSG
+   0xc09b00L => MSG
+   0xc0e0daL => msg
+   0xc0e216L => msg
+   0xc0f04aL => Msg
+   0xc0f13aL => Msg
+   0xc0f1adL => Msg
+   0xc0f251L => Msg
+   0xc0f282L => Msg
+   0xc1f3fcL => part
+   0xbdc838L => Ping
+   0xbdd828L => Ping
+   0xc07e40L => ping
+   0xc07e48L => ping
+   0xc08112L => ping
+   0xc09969L => PING
+   0xc09e71L => ping
+   0xc09eacL => PING
+   0xc0bc6dL => ping
+   0xc0bc82L => ping
+   0xc0bc91L => ping
+   0xc0bca1L => Ping
+   0xc0bca9L => ping
+   0xc0bcb7L => ping
+   0xc0bfdbL => Ping
+   0xc0c018L => Ping
+   0xc0c047L => Ping
+   0xc0d248L => ping
+   0xc0d5e2L => ping
+   0xc894d0L => ping
+   0xc6b940L => quit
+   0xc6b954L => quit
+   0xc6bb01L => quit
+   0xc6c563L => Quit
+   0xc6c578L => quit
+   0xc6c581L => Quit
+   0xc6c598L => Quit
+   0xc9bb47L => quit
+   0xecb79bL => quit
+   0xecc087L => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0xef0058 0x26c    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb6f204     0xb6f400     5.468444    
+.rdata     0xb71000     0x30f8c9     0x30fa00     4.639881    
+.data      0xe81000     0x4a600      0x2fc00      4.579159    
+.idata     0xecc000     0x235e3      0x23600      5.507745    
+.rsrc      0xef0000     0x2c4        0x400        5.216806    
+.reloc     0xef1000     0xa77d1      0xa7800      6.270078    
+

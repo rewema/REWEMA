@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fad6fce7ed782245b735ae6311beb2a6
+SHA1:    bfd977c3dff6b377ecfd3a965ce26845558de74d
+ssdeep:  192:T4CIokm4F37KSj9+L0Is0kO6J/PbUP+yMHX6ntxu:T4vF3XjpHpJ4Gwr
+Date:    0x44FD4B17 [Tue Sep  5 10:01:59 2006 UTC]
+EP:      0x403d9e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x780f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1da4       0x2000       5.244873    
+.rsrc      0x4000       0x330        0x1000       0.832995    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 BK02 2006
+Assembly Version: 1.0.0.0
+InternalName: Example.exe
+FileVersion: 1.0.0.0
+CompanyName: BK02
+ProductName: Example
+ProductVersion: 1.0.0.0
+FileDescription: Example
+OriginalFilename: Example.exe
+

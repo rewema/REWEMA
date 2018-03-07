@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e5c5687aa069e1d2be5db36443f24a1f
+SHA1:    759581e288e37bf9bb0f283677e479235462557c
+ssdeep:  384:pqN17JuaGI0S6vrCdM7wGc0/EUtkeXQfByn7xp2vWqlssiS:g7JuaGg6vOrm3QZqF8eqlsbS
+Date:    0x4343BF68 [Wed Oct  5 11:56:24 2005 UTC]
+EP:      0x4015b0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xa853 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x91e0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x94c8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x9728   0x58     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x9618   0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x95f0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x9780   0x350    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9ad0   0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3b5e       0x4000       6.306559    
+.rdata     0x5000       0x9e2        0x1000       3.862688    
+.data      0x6000       0x2d1c       0x3000       0.583389    [SUSPICIOUS]
+.rsrc      0x9000       0xd60        0x1000       3.474235    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2005 Frank Fesevur
+InternalName: SysMenuExt
+FileVersion: 0.6.0
+CompanyName: Frank Fesevur
+LegalTrademarks: SysMenuExt is a trademark of Frank Fesevur
+ProductName: SysMenuExt
+ProductVersion: 0.6.0
+FileDescription: SysMenuExt
+OriginalFilename: SysMenuExt.exe
+Translation: 0x0409 0x04b0
+

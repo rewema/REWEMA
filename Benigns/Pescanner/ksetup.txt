@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32256 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     dc949023143f0672926669523c18c5d3
+SHA1:    36599b3871f7b785f3ff890efb0680fdbcb9e76a
+ssdeep:  384:lpbmAwwWaM/kDonLvuAiaSR/dUbhdORa4RdTRXqcHw+R9pdri84Vey4W9ExWZuEb:gwWaMVnLv1AodOlRucQ+RP4VekE4tln
+Date:    0x5789912F [Sat Jul 16 01:43:11 2016 UTC]
+EP:      0x405f90 .text 0/5
+CRC:     Claimed: 0x112e6, Actual: 0x112e6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xa450   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xa0b0   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x56b4       0x5800       6.189966    
+.data      0x7000       0x119c       0x400        3.421229    
+.idata     0x9000       0xeac        0x1000       4.841877    
+.rsrc      0xa000       0x518        0x600        2.913931    
+.reloc     0xb000       0x658        0x800        5.880948    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ksetup.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Kerberos Setup tool
+OriginalFilename: ksetup.exe
+Translation: 0x0409 0x04b0
+

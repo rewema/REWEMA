@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    110592 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b940b41446d6473bc429583f2a9b7a38
+SHA1:    8b303336a9b9bb8a3b9e2a05557fd5216a56343a
+ssdeep:  1536:zyQQkrWRWdZ6jCkPueDGlAZHUZbtVtr/R3kmJ33iKfx6cat5AStAVp:zRM8Z6V6OCbhZ33i8x6x5AStAVp
+Date:    0x5043BC1E [Sun Sep  2 20:05:50 2012 UTC]
+EP:      0x405a07 .text 0/4
+CRC:     Claimed: 0x1b6a3, Actual: 0x1b6a3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_RCDATA          0x1c0e8  0x620    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII English text, with CRLF line terminators
+RT_VERSION         0x1c708  0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x1ca3c  0x191    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1196f      0x12000      6.559006    
+.rdata     0x13000      0x41f6       0x5000       4.501256    
+.data      0x18000      0x3024       0x2000       1.460497    
+.rsrc      0x1c000      0xbd0        0x1000       5.108228    
+
+Version info
+================================================================================
+LegalCopyright: (C) 1998-2012, pavel_a
+InternalName: verpatch.exe
+FileVersion: 1.0.10.24 [02-Sep-2012]
+CompanyName:  
+PrivateBuild: User@SITAL_IBM-T43
+ProductName:  
+ProductVersion: 1.0.0.1-CodeProject
+FileDescription: PE version patcher tool
+OriginalFilename: verpatch.exe
+Translation: 0x0000 0x04b0
+

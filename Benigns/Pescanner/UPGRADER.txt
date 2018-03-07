@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    608744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     eb48b5e50606486f781f323583049f0c
+SHA1:    534c92eb1604d0493638860852159856b74f0dea
+ssdeep:  12288:zlgfZmpsxNeHTTRV039/eBOQAZWTC2tnixfa3AYBiH7x5m1YztqX7GE:z4Z0439/ecQwxUAYa7x5mOzt07GE
+Date:    0x58CBEE72 [Fri Mar 17 14:10:58 2017 UTC]
+EP:      0x43ab0a .text 0/5
+CRC:     Claimed: 0x9ad2d, Actual: 0x9ad2d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x9d7f8  0x436    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x9dc70  0x2e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9e348  0x3a4    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x9e738  0x342    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x9eac0  0x1a4    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x9edf8  0x17e    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x9ec98  0x130    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x9df90  0x380    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x9dc30  0x3e     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x9df58  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x9e6f0  0x44     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x9ea80  0x3e     LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x9ec68  0x30     LANG_JAPANESE SUBLANG_DEFAULT          DBase 3 data file
+RT_STRING          0x9ef78  0x28     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x9edc8  0x2c     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x9e310  0x36     LANG_SPANISH SUBLANG_SPANISH_MODERN   DBase 3 data file (7274611 records)
+RT_VERSION         0x9d270  0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9d588  0x26c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessAsUserW
+OpenProcess
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5f6d5      0x5f800      6.639009    
+.rdata     0x61000      0x1ced0      0x1d000      5.306007    
+.data      0x7e000      0x1e80c      0xaa00       2.082471    
+.rsrc      0x9d000      0x1fa0       0x2000       4.160200    
+.reloc     0x9f000      0x75a0       0x7600       4.955327    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2017 VMware, Inc.
+InternalName: upgrader
+FileVersion: 10.1.6.4793
+CompanyName: VMware, Inc.
+ProductName: VMware Tools
+ProductVersion: 10.1.6 build-5214329
+FileDescription: VMware Tools Upgrader
+OriginalFilename: upgrader.exe
+Translation: 0x0409 0x04b0
+

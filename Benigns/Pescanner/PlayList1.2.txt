@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    368640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     cb3f5da8f28aeb0018195cea01fc0ffb
+SHA1:    53ff2a59e74febe47a20d3951176d4daa71c73dd
+ssdeep:  6144:mWr5VTDs3alUND9tB1KpLa47Gbq4JYMtwcd7U7l3D17Jc8pR:mkfs3aUZ9H1EL77Gu4bd7URtxD
+Date:    0x42152F7B [Thu Feb 17 23:57:47 2005 UTC]
+EP:      0x45791e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x5e866 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x583f8  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x592a0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x580e8  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x55924      0x56000      6.757793    
+.rsrc      0x58000      0x12b8       0x2000       3.188418    
+.reloc     0x5a000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1874.34133
+InternalName: PlayList.exe
+FileVersion: 1.0.1874.34133
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1874.34133
+FileDescription:  
+OriginalFilename: PlayList.exe
+

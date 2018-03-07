@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14328 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     99f9b3ab8971e77b5c93864ee0a7b97d
+SHA1:    5ddc58cfb6d68a03c4201889819163abcf0f4ec5
+ssdeep:  192:HSgRxBcWLVmWUo6oEQKPnEt2yt8mGafdjIafdjShj7NoVE8I:J72WhmWRnELKt8HafdjIafdjcj3F
+Date:    0x47316898 [Wed Nov  7 07:26:16 2007 UTC]
+EP:      0x402a5e .text 0/3
+CRC:     Claimed: 0xfb6a, Actual: 0xfb6a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa64        0xc00        5.172527    
+.rsrc      0x4000       0x400        0x400        3.294323    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+Assembly Version: 9.0.0.0
+InternalName: vshost.exe
+FileVersion: 9.0.21022.8
+CompanyName: Microsoft Corporation
+Comments: vshost.exe
+ProductName: Microsoft (R) Visual Studio (R) 2008
+ProductVersion: 9.0.21022.8
+FileDescription: vshost.exe
+OriginalFilename: vshost.exe
+

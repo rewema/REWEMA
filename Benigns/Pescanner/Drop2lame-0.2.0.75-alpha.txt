@@ -1,0 +1,144 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3492083 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3ecf0436f3121432e1fccc7dc23fbb11
+SHA1:    6a3c5d61aa03e777da7d3107ebb6e5bc90c792b7
+ssdeep:  98304:ymGtQHg9AN0bCok1mo+7OpqGejFWvxjKte2CUG:ymbTmTS
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x462700 .itext 1/10 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x362266 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: irc
+   0x290f65L => JOIN
+   0x290fedL => JOIN
+   0x290ff5L => JOIN
+   0x291029L => JOIN
+   0x291050L => JOIN
+   0x2910f7L => JOIN
+   0x29dd04L => JOIN
+   0x29dd1cL => JOIN
+   0x29dd34L => JOIN
+   0x29dd4cL => JOIN
+   0x6701L => MSG
+   0x6719L => MSG
+   0x1dc1cL => Msg
+   0x51f8cL => Msg
+   0x2a816cL => MSG
+   0x2c7b40L => Msg
+   0x2e834eL => PART
+   0x33c7d0L => PART
+   0x344f98L => Part
+   0x2b0345L => QUIT
+   0x2b09d5L => QUIT
+   0x2ba107L => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x75e2c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x75f60  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x76094  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x761c8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x762fc  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x76430  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x76564  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x76698  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x76868  0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x76a4c  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x76c1c  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x76dec  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x76fbc  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7718c  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7735c  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7752c  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x776fc  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x778cc  0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x7798c  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77a6c  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77b4c  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77c2c  0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77cec  0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77dac  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77e8c  0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77f4c  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x7802c  0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x780ec  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x781cc  0x8a8    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0x78a74  0x568    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x78fdc  0x42028  LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xbb004  0x10828  LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xcb82c  0x25a8   LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xcddd4  0x10a8   LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xcee7c  0x468    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_STRING          0xcf2e4  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcf4c8  0x21c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcf6e4  0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xcf7ac  0x10c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xcf8b8  0x2f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcfba8  0x3c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcff68  0x370    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd02d8  0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd06a4  0x214    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6553701 records)
+RT_STRING          0xd08b8  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6488165 records)
+RT_STRING          0xd0984  0x194    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd0b18  0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd0edc  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd1214  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd14a8  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd14b8  0x22c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd16e4  0xae2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd21c8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd21dc  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd21f0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd2204  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd2218  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd222c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd2240  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0xd2254  0x68     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 7 icons, 32x32, 256-colors
+RT_VERSION         0xd22bc  0x278    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_MANIFEST        0xd2534  0x245    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x60b24      0x60c00      6.534718    
+.itext     0x62000      0x748        0x800        5.868925    
+.data      0x63000      0x1cc0       0x1e00       3.707275    
+.bss       0x65000      0x360c       0x0          0.000000    [SUSPICIOUS]
+.idata     0x69000      0x295e       0x2a00       5.175161    
+.tls       0x6c000      0x34         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x6d000      0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x6e000      0x6e04       0x7000       6.634294    
+.rsrc      0x75000      0x5d800      0x5d800      3.400962    
+.debug     0xd3000      0x289ef3     0x289ef3     5.026421    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 0.2.0.75
+CompanyName: 
+LegalTrademarks: 
+Comments: 
+ProductName: 
+ProductVersion: 1.0.0.0
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0415 0x04e2
+

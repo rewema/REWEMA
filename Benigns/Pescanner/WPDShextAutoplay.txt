@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    26624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b5f06a0168445337351b1f293c488ab1
+SHA1:    f84ff283a3adea783a91bcbebf60f13d5d32a725
+ssdeep:  384:4I6MN7ZVn5SkPJ0dKupnChdns6bmXSHiKqXTg8+7M+jqWmW/nWb:ddTupnCLnss3z7fqWHo
+Date:    0x57899122 [Sat Jul 16 01:42:58 2016 UTC]
+EP:      0x404610 .text 0/5
+CRC:     Claimed: 0x10eaa, Actual: 0x10eaa 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x87e0   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83d0   0x410    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2de    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4438       0x4600       6.055391    
+.data      0x6000       0x42c        0x200        0.851572    [SUSPICIOUS]
+.idata     0x7000       0xb3a        0xc00        4.881814    
+.rsrc      0x8000       0x8a8        0xa00        3.933066    
+.reloc     0x9000       0x504        0x600        6.028006    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WpdShExtAutoplay.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Portable Device Shell Extension Autoplay Handler
+OriginalFilename: WpdShExtAutoplay.exe
+Translation: 0x0409 0x04b0
+

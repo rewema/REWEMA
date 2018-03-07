@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    46736 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     eb6daa7ce4b65fbcbf694d89121973f0
+SHA1:    5679e60dcfcca2d38d0beb504ad4b672f5178f5f
+ssdeep:  768:xvhyPdvqDPI3rJ8pCM2oZdGfKuCWERqqcbvimtEBPYN08l:xvhg6AbiJ2wdGfKNkZvdEBPW/
+Date:    0x575A18B9 [Fri Jun 10 01:32:41 2016 UTC]
+EP:      0x408d06 .text 0/3
+CRC:     Claimed: 0x12404, Actual: 0x12404 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa090   0x33c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa3dc   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6d0c       0x6e00       5.597376    
+.rsrc      0xa000       0x5c8        0x600        4.242766    
+.reloc     0xc000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: jsc.exe
+FileVersion: 14.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 14.0.1586.0
+FileDescription: jsc.exe
+OriginalFilename: jsc.exe
+Translation: 0x0409 0x04b0
+

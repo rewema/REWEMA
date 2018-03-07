@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    204800 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     06dc2fdc6282f0d68910417b1150c848
+SHA1:    a69b85513e2b407c5ab36157185250120ffe8011
+ssdeep:  3072:fKyQTr+bKDLNOg+NOetDAP5KYEpEySkJTc3ib3QHQetnMQ0+:yyQTr+bKDxnP5KYE6ySIA32Qwc
+Date:    0x4534E735 [Tue Oct 17 14:22:45 2006 UTC]
+EP:      0x413c54 .text 0/4
+CRC:     Claimed: 0x3a890, Actual: 0x3a890 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x33190  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33478  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x335a0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x34448  0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x34508  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_MANIFEST        0x34538  0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceA
+CreateServiceA
+StartServiceCtrlDispatcherA
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22fa1      0x23000      6.649863    
+.rdata     0x24000      0x91bc       0xa000       5.196435    
+.data      0x2e000      0x4fac       0x2000       2.349964    
+.rsrc      0x33000      0x1590       0x2000       4.924668    
+

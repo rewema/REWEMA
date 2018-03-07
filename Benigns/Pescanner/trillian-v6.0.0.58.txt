@@ -1,0 +1,83 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20078504 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     aa23d9501b30b650d8a8d569928f865d
+SHA1:    a1c44be8fb83ac88cc10b4f134bcc0ae4a36192e
+ssdeep:  393216:fyLwN0FBbcfpC+QKlnt94aiQvY/Tzqp8kt+2+IopRX4yOjyDYN:fy0cWNQSnwQvY//q+j24RXrU
+Date:    0x57F2BF9A [Mon Oct  3 20:29:14 2016 UTC]
+EP:      0x41d94d .text 0/4
+CRC:     Claimed: 0x13281cc, Actual: 0x13281cc 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x5a8707L => Msg
+   0x7720bcL => MsG
+   0x9deee7L => msG
+   0xa891b0L => MSg
+   0xe86184L => MsG
+   0xf9c4b0L => MSG
+   0x1271e7cL => mSg
+   0x131ce78L => notice
+   0x131ce8eL => notice
+   0x131dcf4L => notice
+   0x131ecbfL => notice
+   0x13205baL => notice
+   0x2fa87L => part
+   0x131c122L => part
+   0x131c185L => part
+   0x131c81cL => part
+   0x131d17dL => part
+   0x131dcb5L => part
+   0x131e250L => part
+   0x13201c7L => part
+   0xa0587eL => ping
+   0x3205fL => quit
+   0x1323e4fL => Chat
+   0x1323ef9L => Chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+IMAGE              0x3f3ac  0x30f8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x424a4  0x311a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x455c0  0x1426   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x469e8  0xdf2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x477dc  0x333a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x4ab18  0x822a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x52d44  0x10a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x52e50  0x66a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x534bc  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x54364  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x548cc  0x9714   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x5dfe0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x60588  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x609f0  0x66     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x60a58  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 48x48, 256-colors
+RT_MANIFEST        0x60aa4  0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+CreateProcessA
+ShellExecuteExW
+ShellExecuteW
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2da6e      0x2dc00      6.635500    
+.rdata     0x2f000      0x960a       0x9800       5.378674    
+.data      0x39000      0x5c18       0x2400       4.350460    
+.rsrc      0x3f000      0x22088      0x22200      6.422875    
+

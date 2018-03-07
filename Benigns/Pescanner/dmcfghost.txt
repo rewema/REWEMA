@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    33280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     41e0ccd57dd44865cf20b2ff0ccc758d
+SHA1:    bc60c4b41938149897070cb5b4777093ca35f247
+ssdeep:  768:N6cndlUqFGP9Iu1SFYY13lczqIQHEgFRk5Wzc:5nd+vSu1SCY1VczqIMEgFa5Wzc
+Date:    0x57898E12 [Sat Jul 16 01:29:54 2016 UTC]
+EP:      0x404160 .text 0/6
+CRC:     Claimed: 0xc9f2, Actual: 0xc9f2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WEVT_TEMPLATE      0x9970   0xd52    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x94e0   0x490    LANG_ENGLISH SUBLANG_ENGLISH_US       X11 SNF font data, LSB first
+RT_VERSION         0x9110   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4a90       0x4c00       5.983711    
+.data      0x6000       0x4e4        0x200        2.158235    
+.idata     0x7000       0xfac        0x1000       4.902431    
+.didat     0x8000       0x18         0x200        0.164765    [SUSPICIOUS]
+.rsrc      0x9000       0x16c8       0x1800       3.535330    
+.reloc     0xb000       0x598        0x600        6.266653    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dmcfghost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for Push Router Client of OMA-CP
+OriginalFilename: dmcfghost.exe
+Translation: 0x0409 0x04b0
+

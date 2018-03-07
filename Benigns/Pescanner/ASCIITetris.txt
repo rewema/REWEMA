@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     3add5d95e25e9a1180615bd4f50fe649
+SHA1:    aa5b5e89814eeda00538241502b7a39f54629bb5
+ssdeep:  192:gpuTaBireP3U8qLq7dcPEA9Al0gOemmmmmmUO1Qdiqg8r7fD4vwSXbwh:goTEk8qLqh/7ugmTpcwSXbwh
+Date:    0x4549FBC2 [Thu Nov  2 14:08:02 2006 UTC]
+EP:      0x4053be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x169ad [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6430   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6718   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6840   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x33c4       0x4000       4.507199    
+.rsrc      0x6000       0x868        0x1000       2.061779    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 4.0.2497.16441
+InternalName: ASCIITetris.exe
+FileVersion: 4.0.2497.16441
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 4.0.2497.16441
+FileDescription:  
+OriginalFilename: ASCIITetris.exe
+

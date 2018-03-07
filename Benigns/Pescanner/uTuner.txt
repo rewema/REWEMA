@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    235008 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d156f0fe67a08ec31a6da576d089c117
+SHA1:    76502cd3ee4a344c3504a523f7a4f4e669029336
+ssdeep:  6144:SyI9Annhcuntl7Ch8PvlIfF7jsMQ4ua4ESZP3Uo3Wns4C8:wAz773Nuu1XaNSR313RG
+Date:    0x4EECD4BF [Sat Dec 17 17:43:27 2011 UTC]
+EP:      0x41b68e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x3b174 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c708  0x4bdd   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x212e8  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x21950  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x21c38  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x21e20  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x21f48  0x4bc1   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x26b10  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x279b8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x28260  0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x28928  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x28e90  0xe2fc   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x37190  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x39738  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3a7e0  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3b168  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x3b5d0  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 15 icons, 256-colors
+RT_VERSION         0x1c3d0  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x3b6a8  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x19694      0x19800      6.497339    
+.rsrc      0x1c000      0x1f898      0x1fa00      7.628256    [SUSPICIOUS]
+.reloc     0x3c000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 2011
+Assembly Version: 0.9.3.0
+InternalName: uTuner.exe
+FileVersion: 0.9.3.0
+CompanyName: Created by Max Nedelchev
+Comments: Tiny application for watching TV 
+ProductName: uTuner
+ProductVersion: 0.9.3.0
+FileDescription: uTuner
+OriginalFilename: uTuner.exe
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    18944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     80cf7a09c2551f4eb2a4b88f96192d9c
+SHA1:    f6dbab9d02907cb1fe2204e6a3a9515d8f4784e6
+ssdeep:  384:5RAfKe+6CTHZcBex3vSs2lps08pICBt5BZILujG8yT:5Rzeo9y0VICBt5DwujcT
+Date:    0x53C040C6 [Fri Jul 11 19:53:42 2014 UTC]
+EP:      0x402bc6 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x1326d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x60a0   0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6410   0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x251f       0x2600       6.175912    
+.rdata     0x4000       0xea2        0x1000       4.630213    
+.data      0x5000       0x444        0x200        2.193023    
+.rsrc      0x6000       0x590        0x600        3.882207    
+.reloc     0x7000       0x750        0x800        3.679880    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2014 Advanced Micro Devices, Inc. All Rights Reserved.
+InternalName: slsnotif.exe
+FileVersion: 1.0.0.1
+CompanyName: Advanced Micro Devices, Inc.
+ProductName: Catalyst\xae Control Centre
+ProductVersion: 1.0.0.1
+FileDescription: Eyefinity Utility
+OriginalFilename: slsnotif.exe
+Translation: 0x0409 0x04b0
+

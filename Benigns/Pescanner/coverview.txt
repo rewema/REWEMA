@@ -1,0 +1,39 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    68748 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     06bc897f692c949c968a2eb1499350e2
+SHA1:    e80b57d9c672073aff9824a4c95179a8b43f0ced
+ssdeep:  1536:fCvfhIu6+dxJ9jU/R7Sj75nrgt7deP7KqOTtWxjL9:f+fhIuXjwS/5rgHeD5OTtWv
+Date:    0x38726749 [Tue Jan  4 21:34:01 2000 UTC]
+EP:      0x403669 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x19ff3 [SUSPICIOUS]
+Packers: Nullsoft PIMP Install System v1.3x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9368   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9650   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x9120   0x248    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x9ef8   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3099       0x4000       5.494381    
+.rdata     0x5000       0x72c        0x1000       2.350479    
+.data      0x6000       0x2268       0x2000       2.945409    
+.rsrc      0x9000       0xf20        0x1000       3.787693    
+

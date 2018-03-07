@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    394752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     aadb2a1a2a9463154517e5f2e9ef5209
+SHA1:    b7afb8b58bd67871d9539ea060674136f83b4d2f
+ssdeep:  1536:ezH0HQksvIaOSgp7kvkbXuKBTxWJF51KsvhFsVe0p:ezH0HWvtO5WUX1gJFWsvR0
+Date:    0x57898FF5 [Sat Jul 16 01:37:57 2016 UTC]
+EP:      0x407880 .text 0/5
+CRC:     Claimed: 0x6aa17, Actual: 0x6aa17 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x62518  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14de0  0x4b71a  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x60500  0x1c7e   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd910   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdf78   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe260   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe448   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe570   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf418   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfcc0   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10388  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x108f0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12e98  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13f40  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x148c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14d30  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 12 icons, 48x48, 16-colors
+RT_VERSION         0x62180  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd410   0x500    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8214       0x8400       5.728436    
+.data      0xa000       0x72c        0x400        3.136405    
+.idata     0xb000       0x127e       0x1400       5.210795    
+.rsrc      0xd000       0x55600      0x55600      5.483358    
+.reloc     0x63000      0xf44        0x1000       6.558977    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SHRWIZ
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Share Creation Wizard
+OriginalFilename: shrpubw.exe
+Translation: 0x0409 0x04b0
+

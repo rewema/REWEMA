@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ff81060bb7d6ff6495f1fac8c45bd79a
+SHA1:    74bb15e7f3b161fbf2998cb8a13ee55027a1eabd
+ssdeep:  1536:ZzsUQOOt7ABqHXRR4UlbTxIYoJT2aVY7+4aN75aw:xsUQOOt77r4GFIYoJgKl73
+Date:    0x39D838EA [Mon Oct  2 07:27:38 2000 UTC]
+EP:      0x40678f .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x20171 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x12e30  0xde8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13c18  0xde8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x122e0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x127f0  0x640    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14d88  0x1c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x125e0  0x20e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x15070  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x150e8  0x280    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f50  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x125c8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x14a00  0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa49c       0xb000       6.308459    
+.rdata     0xc000       0x157e       0x2000       4.051590    
+.data      0xe000       0x3418       0x3000       3.772666    
+.rsrc      0x12000      0x3368       0x4000       3.379695    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1994-2000
+InternalName: INSPECT
+FileVersion: 4.02.4602.0
+CompanyName: Microsoft Corporation
+SpecialBuild: Active Accessibility SDK
+ProductName: Microsoft Active Accessibility
+ProductVersion: 4.02.4602.0
+FileDescription: Active Accessibility Object Inspector
+OriginalFilename: INSPECT.EXE
+Translation: 0x0409 0x04b0
+

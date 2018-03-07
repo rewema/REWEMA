@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40448 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     09c1ab402e7b63edda6d7a83e05ea76f
+SHA1:    484c388e846aa8598d797ce3ab0b3edadc4029c3
+ssdeep:  768:7CvIShl5RP0ugVlOQKaOfLFfTiWfV9Vf9JCiPL94uOFk8Wm:7CvIK5ngVlNjOga9NCuOFZn
+Date:    0x57899080 [Sat Jul 16 01:40:16 2016 UTC]
+EP:      0x407630 .text 0/5
+CRC:     Claimed: 0x189c0, Actual: 0x189c0 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xbe38   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb648   0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb778   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xba60   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 2-colors
+RT_VERSION         0xba88   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb1b0   0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x70d4       0x7200       6.349070    
+.data      0x9000       0x4cc        0x200        0.406821    [SUSPICIOUS]
+.idata     0xa000       0xeb2        0x1000       4.982275    
+.rsrc      0xb000       0xf10        0x1000       4.382300    
+.reloc     0xc000       0x574        0x600        6.324649    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: GrpConv
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Progman Group Converter
+OriginalFilename: GRPCONV.EXE
+Translation: 0x0409 0x04b0
+

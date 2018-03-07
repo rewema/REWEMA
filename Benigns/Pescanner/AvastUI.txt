@@ -1,0 +1,225 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8470464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8fe697ab8a4c28d79c1cdb97c6fb1a17
+SHA1:    6da6879eb6b55df2186a778893979768e527f12a
+ssdeep:  98304:/mABzPNONpq2YRTiAiVG+r2qskCTCxdFa7o5e79vw2mrPVJk:Xzlipq5Ri2qskCTln
+Date:    0x5902F430 [Fri Apr 28 07:50:08 2017 UTC]
+EP:      0x8354f4 .text 0/9
+CRC:     Claimed: 0x820db3, Actual: 0x820db3 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x6e0140L => join
+   0x574509L => MSg
+   0x5bcb73L => msg
+   0x5ccdbbL => msg
+   0x4eaed3L => part
+   0x59ad58L => part
+   0x511f9cL => Ping
+   0x6dde89L => ping
+   0x6de037L => Ping
+   0x5cb79cL => QUIT
+   0x5cb7b0L => QUIT
+
+
+TLS callbacks
+================================================================================
+    0x83d490
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+GIF                0x771480 0x136    LANG_NEUTRAL SUBLANG_NEUTRAL          GIF image data, version 89a, 10 x 10
+PNG                0x771628 0x75     LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 7 x 4, 8-bit/color RGBA, non-interlaced
+PNG                0x7715b8 0x70     LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 4 x 7, 8-bit/color RGBA, non-interlaced
+PNG                0x7716a0 0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 4 x 7, 8-bit/color RGBA, non-interlaced
+PNG                0x771718 0x70     LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 7 x 4, 8-bit/color RGBA, non-interlaced
+PNG                0x771788 0x2d6    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0x771a60 0x1ee    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0x771c50 0x2f7    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0x7720c8 0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0x771f48 0x180    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0x772b60 0x4a3    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit colormap, non-interlaced
+PNG                0x773008 0x4a0    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit colormap, non-interlaced
+PNG                0x772238 0x4a0    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit colormap, non-interlaced
+PNG                0x7726d8 0x487    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 18 x 18, 8-bit colormap, non-interlaced
+RT_CURSOR          0x770f40 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x771090 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7711e0 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x771330 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x727e70 0x464    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_BITMAP          0x7290b8 0x508    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7289e0 0x138    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x728710 0x2d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x728660 0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x728390 0x2d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7295c0 0x508    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72d0b0 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72cfc8 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72a7f0 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72ac08 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72b020 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72b438 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72b850 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72bc68 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c818 0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72caa8 0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72cd38 0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x728fd0 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x728dc8 0x208    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x728d20 0xa4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x728b18 0x208    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x729ac8 0xd28    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c080 0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c0f0 0x148    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c238 0x148    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c380 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c468 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c4c8 0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c608 0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72c748 0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72d3d8 0x1c48   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72f020 0x1c48   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x730c68 0x1c48   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72d198 0x23c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7328b0 0xb24a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7460e8 0x16aaa  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x73db00 0x85e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x75cee8 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x75d550 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x75d838 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x75d960 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x75e808 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x75f0b0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x75f618 0x1f22   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x761540 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x763ae8 0x1464   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x764f50 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x765ff8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x766500 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7667e8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x766938 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x766db8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x767238 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7676b8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x767b38 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x767fb8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x768438 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7688b8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x768d38 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7691b8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x769638 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x769ab8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x769f38 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76a3b8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76a838 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76acb8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76b138 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76b5b8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76ba38 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76beb8 0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x76c168 0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x76c418 0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x76c6c8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76cc30 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76d0c0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76d628 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76dab8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76e020 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76e4b0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76ea18 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76eea8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76f410 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x76f8a0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x7282d8 0x70     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x728348 0x42     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ACCELERATOR     0x75ce98 0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x771078 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x7711c8 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x771318 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x771468 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x766460 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 11 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x766da0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x767220 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x7676a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x767b20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x767fa0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x768420 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x7688a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x768d20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x7691a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x769620 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x769aa0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x769f20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76a3a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76a820 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76aca0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76b120 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x766910 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x76b5a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76ba20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76bea0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76d098 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x76da90 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x76e488 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x76ee80 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x76f878 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x76c150 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76c400 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x76c6b0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x770948 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x75cb98 0x2fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_HTML            0x77aba0 0x2ae    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+RT_HTML            0x77b108 0x563    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+RT_HTML            0x77ae50 0x2b1    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+RT_HTML            0x7734a8 0x76f1   LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII C program text, with CRLF line terminators
+RT_MANIFEST        0x770960 0x5e0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+InternetConnectW
+HttpSendRequestW
+ReadProcessMemory
+VirtualAllocEx
+CreateProcessW
+OpenProcess
+OpenProcessToken
+StartServiceW
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4e6d4c     0x4e6e00     6.347029    
+.rdata     0x4e8000     0x1fd34e     0x1fd400     5.706334    
+.data      0x6e6000     0x3a09e      0x30a00      5.227761    
+.gfids     0x721000     0x1294       0x1400       5.134886    
+.tls       0x723000     0x1d         0x200        0.136464    [SUSPICIOUS]
+.giats     0x724000     0x44         0x200        0.693733    [SUSPICIOUS]
+.gljmp     0x725000     0xc          0x200        0.179433    [SUSPICIOUS]
+.rsrc      0x726000     0x55670      0x55800      5.021364    
+.reloc     0x77c000     0x85944      0x85a00      6.630412    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2014 AVAST Software
+InternalName: AvastUi.exe
+FileVersion: 17.4.3482.0
+CompanyName: AVAST Software
+ProductName: Avast Antivirus 
+ProductVersion: 17.4.3482.0
+FileDescription: Avast Antivirus
+OriginalFilename: AvastUi.exe
+Translation: 0x0009 0x04e4
+

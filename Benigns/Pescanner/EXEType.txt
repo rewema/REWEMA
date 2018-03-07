@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d917bf3fcb7cfe7b97f031584a6d2070
+SHA1:    774b335d2a2cbcc99a6188a2eb30530a43073da5
+ssdeep:  384:p5PR3JD8gqjimrhE/Ir08R1AB4vKwzdL230sPc:p5P1bqjiEE/2HzdSxP
+Date:    0x3F75CB2D [Sat Sep 27 17:38:53 2003 UTC]
+EP:      0x4014d0 .text 0/3
+CRC:     Claimed: 0xdc97, Actual: 0xdc97 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x584c   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5564   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x543c   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x540c   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x5150   0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2f90       0x3000       5.458557    
+.data      0x4000       0xa64        0x1000       0.000000    
+.rsrc      0x5000       0x97c        0x1000       2.074995    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: EXEType
+FileVersion: 1.00
+Comments: by Michael J Bell. Unlimited use, commercial and personal allowed. Unlimited distribution permitted.
+ProductName: EXEType
+ProductVersion: 1.00
+OriginalFilename: EXEType.exe
+

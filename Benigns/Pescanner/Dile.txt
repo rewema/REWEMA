@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    844288 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     6c92fa341fc575fc64b2694634684555
+SHA1:    0902b1d45a6e1cfb93ad9d51b2785d56e6a98692
+ssdeep:  12288:2BGLYNCXsfjyoCfa6/2ILL5RporOU7FTOEmN3YNVty+ZwpPh62xQ5fW3/:IGklOoa/2ILL54LTOPQVty+yha
+Date:    0x5422B147 [Wed Sep 24 11:55:51 2014 UTC]
+EP:      0x4ce5de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xd12b6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xd0448  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xd07b0  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xd1458  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0xd0160  0x2e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xd1480  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xcc5e4      0xcc600      6.168031    
+.rsrc      0xd0000      0x1670       0x1800       5.857451    
+.reloc     0xd2000      0xc          0x200        0.094098    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright @  2013
+Assembly Version: 0.2.13.3744
+InternalName: Dile.exe
+FileVersion: 0.2.13.3744
+CompanyName: Petr\xe9ny Zsolt
+ProductName: DILE
+ProductVersion: 0.2.13.3744
+FileDescription: DILE
+OriginalFilename: Dile.exe
+

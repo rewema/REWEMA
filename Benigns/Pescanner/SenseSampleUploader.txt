@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1520640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     af0dd05388964b3081b785e56337a7c1
+SHA1:    9d5f5cf9ed3f6a36debf30e8776cb543f20e9434
+ssdeep:  24576:IO1aiJqZMpEjpn9z7SGlN5zEm3lEt0A9yMDVZmjSQ+ulmTjoJaK5ZDJ:e1jpNbMh4jSQ+ulYo
+Date:    0x57898E84 [Sat Jul 16 01:31:48 2016 UTC]
+EP:      0x4d33d0 .text 0/6
+CRC:     Claimed: 0x181783, Actual: 0x181783 
+
+TLS callbacks
+================================================================================
+    0x4d4620
+    0x4d46a0
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x187060 0x420    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x138398     0x138400     5.860611    
+.data      0x13a000     0x48d18      0x16400      4.186763    
+.idata     0x183000     0x2e74       0x3000       5.516231    
+.tls       0x186000     0xc1         0x200        0.000000    
+.rsrc      0x187000     0x480        0x600        2.731448    
+.reloc     0x188000     0x20f0c      0x21000      6.397671    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SenseSampleUploader.exe
+FileVersion: 10.1407.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.1407.14393.0
+FileDescription: Windows Defender Advanced Threat Protection Sample Upload module
+OriginalFilename: SenseSampleUploader.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    359424 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3639a42a0be4efe1bac05b4b6ff9e1dd
+SHA1:    fb5ef4835240d8707d4cf586d9f740933d7ae94d
+ssdeep:  6144:VYz++5uM1FZkDvOpsWo3nQuNjvHyC0QEROtVk2nwTO/aO/DcHOP:Czv91FZkDvOpsjfN7yXQERGVjI
+Date:    0x57899028 [Sat Jul 16 01:38:48 2016 UTC]
+EP:      0x44cb30 .text 0/6
+CRC:     Claimed: 0x637a8, Actual: 0x637a8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x57d68  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x575a0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x57888  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x579b0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x579d8  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x571b0  0x3e9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+StartServiceW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4d648      0x4d800      6.356541    
+.data      0x4f000      0x3190       0x1e00       4.338706    
+.idata     0x53000      0x25b4       0x2600       5.527450    
+.didat     0x56000      0x58         0x200        0.798318    [SUSPICIOUS]
+.rsrc      0x57000      0xe40        0x1000       4.244663    
+.reloc     0x58000      0x4808       0x4a00       6.708996    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CertReq.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: CertReq.exe
+OriginalFilename: CertReq.exe
+Translation: 0x0409 0x04b0
+

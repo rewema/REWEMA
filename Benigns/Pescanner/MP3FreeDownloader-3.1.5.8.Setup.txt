@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6304836 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     12d4207eb5a3164c58600694b4642fc9
+SHA1:    7816f3a49440b0ec643e2630162c791ca285e3a3
+ssdeep:  98304:sYYRYA1asTmnH8osd6savYiqpqZb8dZDU9NdShvB/WmWa4rAkTr:RzAf6fs47vvqgZ4zo9vSRK3/
+Date:    0x4A2AE2A2 [Sat Jun  6 21:41:54 2009 UTC]
+EP:      0x40323c .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x611ce9 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2e2f8  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e960  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30f08  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31fb0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x32418  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x324d0  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x325f0  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32748  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32948  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32a40  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x32ae0  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x32bd0  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 48x48, 256-colors
+RT_MANIFEST        0x32c00  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5a5a       0x5c00       6.417698    
+.rdata     0x7000       0x1190       0x1200       5.181627    
+.data      0x9000       0x1af98      0x400        4.709027    
+.ndata     0x24000      0xa000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x2e000      0x4e18       0x5000       4.801633    
+

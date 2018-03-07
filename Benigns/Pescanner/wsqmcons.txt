@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    73728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0d7209ed39a282d74385a036a065fe95
+SHA1:    ff1979471cfe9b260619e2be61085113171ae3b0
+ssdeep:  768:0AGB5kOHoioKLiyEKBg2JG0KPflQuWnnnPreUVnbO6wGNjPi:nGB5kmMKNZJG0KP9Qumre2q6Hi
+Date:    0x57899074 [Sat Jul 16 01:40:04 2016 UTC]
+EP:      0x404e50 .text 0/6
+CRC:     Claimed: 0x1a5dd, Actual: 0x1a5dd 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x145a8  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x9800   0x3522   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcd28   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd390   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd678   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd860   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd988   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe830   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf0d8   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf7a0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xfd08   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x122b0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13358  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13ce0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14148  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 12 icons, 48x48, 16-colors
+RT_VERSION         0x141f8  0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9400   0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4bc8       0x4c00       6.244770    
+.data      0x6000       0x3fc        0x200        0.350599    [SUSPICIOUS]
+.idata     0x7000       0xd26        0xe00        4.700527    
+.didat     0x8000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x9000       0xb6a8       0xb800       3.946810    
+.reloc     0x15000      0x568        0x600        6.314314    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wsqmcons.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows SQM Consolidator
+OriginalFilename: wsqmcons.exe
+Translation: 0x0409 0x04b0
+

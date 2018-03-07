@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    41984 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1026c9d90b098bc396879927b4c62470
+SHA1:    5c22f718f40d3441e50f0b8fd163803aeeffae66
+ssdeep:  768:A96trJkkxe4+/rikKHIa+V3MOgFhDufDfYVr6Gx+Yte0JJGa:A96pSkxNqKH9+9WyLfkx+ce0J
+Date:    0x57898F1B [Sat Jul 16 01:34:19 2016 UTC]
+EP:      0x408800 .text 0/5
+CRC:     Claimed: 0x11663, Actual: 0x11663 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb798   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xb3b8   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb0f0   0x2c1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7e9c       0x8000       6.247367    
+.data      0x9000       0x4c4        0x200        0.199776    [SUSPICIOUS]
+.idata     0xa000       0xabc        0xc00        4.846408    
+.rsrc      0xb000       0x860        0xa00        3.789864    
+.reloc     0xc000       0x768        0x800        6.482953    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: forfiles.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ForFiles - Executes a command on selected files
+OriginalFilename: forfiles.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    182784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     484c834799eb7c4837fbb8a8a6b4d68f
+SHA1:    cef564b843d0d5ec2d620e8c727ecb9b5edc9828
+ssdeep:  1536:tpSvMm8UngMCw2I8FXmzOGDBdpunOl1UIHmejrDwkKgT43FVkXXPKedjXfaW:evOeCO8FXUO0iOlCIHmeRKPKk
+Date:    0x57898F20 [Sat Jul 16 01:34:24 2016 UTC]
+EP:      0x4017b0 .text 0/5
+CRC:     Claimed: 0x3b5af, Actual: 0x3b5af 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4c68   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x52d0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55b8   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x57a0   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x58c8   0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa4f0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb398   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbc40   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc308   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc870   0x9407   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15c78  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x264a0  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2a6c8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cc70  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dd18  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e6a0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2eb08  0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 16 icons, 48x48, 16-colors
+RT_VERSION         0x48c0   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4400   0x4bf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdf4        0xe00        5.748708    
+.data      0x2000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x646        0x800        3.999549    
+.rsrc      0x4000       0x2abf0      0x2ac00      5.676338    
+.reloc     0x2f000      0x14c        0x200        4.675470    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: LaunchTM.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Task Manager Launcher
+OriginalFilename: LaunchTM.exe
+Translation: 0x0409 0x04b0
+

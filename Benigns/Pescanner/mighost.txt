@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    269504 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     0e9e4bc091327df5a79337287cf2362c
+SHA1:    4514bddc3e7e5aad6421bd292d40e73ebfe40254
+ssdeep:  6144:oX4OzojDuUlSfQ5O62i5wKqGI+hN1UFpfNSbzQF5wsnoJoi:oX3eDuUlsQ5OowKqwJT
+Date:    0x57898E9D [Sat Jul 16 01:32:13 2016 UTC]
+EP:      0x4067f0 .text 0/5
+CRC:     Claimed: 0x4cf9d, Actual: 0x4cf9d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TYPELIB            0x10930  0x2f2a0  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa6c0   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xad28   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb010   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb138   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbfe0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc888   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xcdf0   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf398   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10440  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x108a8  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0xa310   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3fbd0  0x5f6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6400       0x6400       6.042714    
+.data      0x8000       0x4e4        0x200        2.720378    
+.idata     0x9000       0xb30        0xc00        4.997639    
+.rsrc      0xa000       0x361c8      0x36200      5.277817    
+.reloc     0x41000      0x720        0x800        6.320985    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MigHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Migration Plugins host program
+OriginalFilename: MigHost.exe
+Translation: 0x0409 0x04b0
+

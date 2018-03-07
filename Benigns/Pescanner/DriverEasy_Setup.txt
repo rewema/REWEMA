@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4015032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ff7ef9e950636b034faf2e481acb917e
+SHA1:    cdafb812feff8dd0805dd43818e1140cc3a7a22b
+ssdeep:  98304:1it4TjixXCNmay0LC2GmjXyTr0WI6A3UjXsCQT:c+axCmyumjXyn076A3UACQT
+Date:    0x53BCF615 [Wed Jul  9 07:58:13 2014 UTC]
+EP:      0x4113bc .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0x3e16e3, Actual: 0x3e16e3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c47c  0x32028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e4a4  0xc828   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5accc  0x3228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5def4  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5fb9c  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x60844  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x60dac  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x60e14  0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x60ee8  0xa4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x60f8c  0x2ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x61238  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x61584  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x61818  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x69b00  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x69b10  0x150    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x69c60  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x69c8c  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0x69ce8  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6a1dc  0x5e8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf12c       0xf200       6.391483    
+.itext     0x11000      0xb44        0xc00        5.732071    
+.data      0x12000      0xc88        0xe00        2.246313    
+.bss       0x13000      0x56b4       0x0          0.000000    [SUSPICIOUS]
+.idata     0x19000      0xdd0        0xe00        4.971882    
+.tls       0x1a000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1b000      0x18         0x200        0.204488    [SUSPICIOUS]
+.rsrc      0x1c000      0x4e7c4      0x4e800      4.602253    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2017 Easeware.                                                                          
+FileVersion: 5.5.1.0             
+CompanyName: Easeware                                                    
+Comments: This installation was built with Inno Setup.
+ProductName: Driver Easy                                                 
+ProductVersion: 5.5.1                                             
+FileDescription: Driver Easy Setup                                           
+Translation: 0x0000 0x04b0
+

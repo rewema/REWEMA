@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    335872 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a7cae22ce7192aa9fdae9554c633db7e
+SHA1:    3716511ed9f1ea0af021d2b9e1e041bf4bc22c21
+ssdeep:  3072:6fSv1BAYNA65yzElS3kvUGJqG7wU+RJ+pMPyYfxiTPpmIO+I+NIO1EKgnbNZ7dH4:USTA65sEfUnqwwpD8XfqEdbNzWa2bE
+Date:    0x41C6667D [Mon Dec 20 05:43:25 2004 UTC]
+EP:      0x435ec0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x5b4e4 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x51130  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x51430  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x51718  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x51418  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x51fc0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x39f94      0x3a000      6.316049    
+.rdata     0x3b000      0x13d18      0x14000      5.762324    
+.data      0x4f000      0x1cdc       0x2000       3.796019    
+.rsrc      0x51000      0xfe8        0x1000       4.289504    
+

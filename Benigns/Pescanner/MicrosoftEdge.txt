@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5073776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     dc7a02077fa4f54a8b24e6a6e725b3f8
+SHA1:    eb6b040e838525218b5cd3bc110ca1f3602b2043
+ssdeep:  98304:8M5yhf9Gvu+kTg5FRzUOxZhFd6eZqBIZHUFYFSRPxM:h5qI2o5zUOrd6eZq8
+Date:    0x57898E4A [Sat Jul 16 01:30:50 2016 UTC]
+EP:      0x4b2360 .text 0/7
+CRC:     Claimed: 0x4e357f, Actual: 0x4e357f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x47f290 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x47f3b8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x47f6a0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x47fc08 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4804b0 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x481358 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4817c0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x482868 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x484e10 0x116a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_GROUP_ICON      0x485f80 0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 16-colors
+RT_VERSION         0x486008 0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x37c512     0x37c600     6.583344    
+.rdata     0x37e000     0xdcb68      0xdcc00      4.529733    
+.data      0x45b000     0x21f8c      0x21400      5.418820    
+.didat     0x47d000     0x5c         0x200        0.834844    [SUSPICIOUS]
+.tls       0x47e000     0x3          0x200        0.000000    
+.rsrc      0x47f000     0x7370       0x7400       4.388788    
+.reloc     0x487000     0x52608      0x52800      6.655197    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MicrosoftEdge
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft Edge
+ProductVersion: 11.00.14393.0
+FileDescription: Microsoft Edge
+OriginalFilename: MicrosoftEdge.exe
+Translation: 0x0409 0x04b0
+

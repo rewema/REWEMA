@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    242688 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f10d9f9fea6fc68c0c75662f5ce7355a
+SHA1:    52615d9a413d7b0c2dd00430921d9357be36c292
+ssdeep:  6144:ynywNBM36cKGoOSRrFsOvE0Z4MrB5D+5YOT3ItR:ynywNW36cKGoOSRrFsORZ4MrXD+GOTY
+Date:    0x578990D4 [Sat Jul 16 01:41:40 2016 UTC]
+EP:      0x42b8b0 .text 0/5
+CRC:     Claimed: 0x40d06, Actual: 0x40d06 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x3bf20  0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x32988  0x7b     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x328c0  0xc1     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+WEVT_TEMPLATE      0x3b238  0xce6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x32a08  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33070  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33358  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33540  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x336e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x33810  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x346b8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34f60  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35628  0x608    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35c30  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x36198  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x38740  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x397e8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a170  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a828  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x3ac90  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 15 icons, 48x48, 16-colors
+RT_VERSION         0x32510  0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3ad68  0x4cd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2b4e0      0x2b600      6.399504    
+.data      0x2d000      0x1014       0x800        2.827048    
+.idata     0x2f000      0x210e       0x2200       5.525992    
+.rsrc      0x32000      0xa028       0xa200       3.550958    
+.reloc     0x3d000      0x2de0       0x2e00       6.759706    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DXPServer
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Device Stage Platform Server
+OriginalFilename: DXPServer.EXE
+Translation: 0x0409 0x04b0
+

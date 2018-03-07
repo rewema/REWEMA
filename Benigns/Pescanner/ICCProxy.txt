@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    169752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     83ff82fe209e7997067b375dad6cf23d
+SHA1:    4e273bd33dde66ba481a0f79dfc89f7d7ae5f905
+ssdeep:  3072:6RBcpBIqJzXeGMkOQLLN4FcK25E5we456:6ROPXrMkPLLsHS4
+Date:    0x4F971121 [Tue Apr 24 20:46:25 2012 UTC]
+EP:      0x40ef27 .text 0/5
+CRC:     Claimed: 0x31b33, Actual: 0x31b33 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0x261fc  0x79     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x26278  0x2ef    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x26568  0x287    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x267f0  0x32d0   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29ac0  0x28     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x29ae8  0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x29e9c  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+CreateServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19152      0x19200      6.558461    
+.rdata     0x1b000      0x5c36       0x5e00       4.966563    
+.data      0x21000      0x4178       0x2000       4.179087    
+.rsrc      0x26000      0x3ff8       0x4000       5.250728    
+.reloc     0x2a000      0x2652       0x2800       4.932622    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2011, Intel Corporation
+InternalName: Intel(R) ICCS
+FileVersion: 1.0.0.1
+CompanyName: Intel Corporation
+ProductName: Intel(R) Integrated Clock Controller Service - Intel(R) ICCS
+ProductVersion: 1.0.0.1
+FileDescription: Intel(R) Integrated Clock Controller Service - Intel(R) ICCS
+OriginalFilename: ICCProxy.exe
+Translation: 0x0409 0x04e4
+

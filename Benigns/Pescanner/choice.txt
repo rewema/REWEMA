@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29184 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     24dc53063c7aae1acb97183f0b42fc8f
+SHA1:    cd606c2395dbb90523ae88890b670fe3dfd6a652
+ssdeep:  768:xrfAwxn1QakWyzRE+pDNZse3E1HXmE7IBIxhNfw:xrfA6HbmREAsek3RvxLfw
+Date:    0x57898ED9 [Sat Jul 16 01:33:13 2016 UTC]
+EP:      0x405ae0 .text 0/5
+CRC:     Claimed: 0x14651, Actual: 0x14651 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9740   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9398   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x51bc       0x5200       6.288909    
+.data      0x7000       0x48c        0x200        0.183339    [SUSPICIOUS]
+.idata     0x8000       0x954        0xa00        4.937856    
+.rsrc      0x9000       0x808        0xa00        3.689859    
+.reloc     0xa000       0x458        0x600        5.426439    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: choice.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Offers the user a choice
+OriginalFilename: choice.exe
+Translation: 0x0409 0x04b0
+

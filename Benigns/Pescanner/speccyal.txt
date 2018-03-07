@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    733258 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a37cceca7bc03bce87e113fba053a934
+SHA1:    efaf7870f1ede1ba266381bc4c1083311c535796
+ssdeep:  6144:mS39vtSaAlNbm3jKge/v9noLvcxDP9UZbLJp+:mS39waA3m3jZgnvt9UtLJp+
+Date:    0x3DFDE910 [Mon Dec 16 14:54:08 2002 UTC]
+EP:      0x41f080 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0xb5525 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1492d8 0x2eb8e  LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_BITMAP          0x177e68 0xa4a0   LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_BITMAP          0x182308 0xa4a0   LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_BITMAP          0x18c7a8 0x4e8    LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_ICON            0x18cc90 0x2e8    LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_MENU            0x1475f0 0x48a    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x148240 0x8a6    LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_DIALOG          0x147b40 0x652    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x148198 0xa2     LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_DIALOG          0x148f48 0x38e    LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_DIALOG          0x148ae8 0x45c    LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_STRING          0x18cf90 0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ACCELERATOR     0x147a80 0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x18cf78 0x14     LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x45050      0x46000      4.506985    
+.rdata     0x47000      0x1663       0x2000       3.559799    
+.data      0x49000      0xfb8a8      0xd000       3.423161    
+.idata     0x145000     0x11e5       0x2000       2.926928    
+.rsrc      0x147000     0x53fa0      0x54000      4.131521    
+.reloc     0x19b000     0x6349       0x7000       5.373092    
+

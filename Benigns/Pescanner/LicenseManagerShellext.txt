@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     31d22cc6394d516e852552c7f6c62056
+SHA1:    b39c3c69d65f8fde72edec982c93733b87702556
+ssdeep:  384:gAkcuponyL5Zhul0988XUAMwkEkUQ2C/XL//0d6UgbbfWW9qWwli:gnOnG5Zh/T62C/z/dUgv9n
+Date:    0x57899142 [Sat Jul 16 01:43:30 2016 UTC]
+EP:      0x403110 .text 0/5
+CRC:     Claimed: 0xf528, Actual: 0xf528 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7b40   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7840   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7b28   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x7460   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7180   0x2da    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3034       0x3200       5.862005    
+.data      0x5000       0x438        0x200        2.169831    
+.idata     0x6000       0xc6e        0xe00        4.507376    
+.rsrc      0x7000       0xc10        0xe00        3.924518    
+.reloc     0x8000       0x46c        0x600        5.480166    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: LicenseManagerShellExt
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: LicenseManagerShellExt
+OriginalFilename: LicenseManagerShellExt.exe
+Translation: 0x0409 0x04b0
+

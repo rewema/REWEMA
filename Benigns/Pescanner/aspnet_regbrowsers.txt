@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45264 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     4f0a273409b1f04ea890371dd27dd281
+SHA1:    5cdd91cc4247e1df128a27fcd9a54fc27a9c4e98
+ssdeep:  768:BuVMKh99oKKodMX6Iq85wI5/vi9gEBGh:BuVMKGK5dMOXI5HhEBGh
+Date:    0x575A1417 [Fri Jun 10 01:12:55 2016 UTC]
+EP:      0x40822e .text 0/3
+CRC:     Claimed: 0x168a4, Actual: 0x168a4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa090   0x404    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa4a4   0x47b    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6234       0x6400       5.026396    
+.rsrc      0xa000       0x924        0xa00        4.387712    
+.reloc     0xc000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: aspnet_regbrowsers.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: aspnet_regbrowsers.exe
+OriginalFilename: aspnet_regbrowsers.exe
+Translation: 0x0409 0x04b0
+

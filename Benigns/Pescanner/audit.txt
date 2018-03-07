@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    69120 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     71945c593f4b2e6b37c124c19232ab92
+SHA1:    dc90399dc7215ad4a3115eb6deabd53e0e2aa7a6
+ssdeep:  768:cF5xf4TfYA6b2rIesVI+dvFUtU683dLzR6h/xlDKy/9E3vdUQ3x5qvkYEz:c2TAA6bKsS+dva3G6hplDhcvj3xkvkB
+Date:    0x57898F23 [Sat Jul 16 01:34:27 2016 UTC]
+EP:      0x40d380 .text 0/6
+CRC:     Claimed: 0x1e583, Actual: 0x1e583 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x12f00  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x12788  0x772    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x12410  0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x12160  0x2ae    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcf8c       0xd000       5.930765    
+.data      0xe000       0x53c        0x200        0.812962    [SUSPICIOUS]
+.idata     0xf000       0x162e       0x1800       4.874615    
+.didat     0x11000      0x38         0x200        0.409054    [SUSPICIOUS]
+.rsrc      0x12000      0xff0        0x1000       4.348312    
+.reloc     0x13000      0xc18        0xe00        6.293145    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Audit.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Audit
+OriginalFilename: AUDIT.EXE
+Translation: 0x0409 0x04b0
+

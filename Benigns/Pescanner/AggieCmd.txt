@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    90112 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     0353c21365a0c2e34d37da17d4f4e821
+SHA1:    954ce971d185485532bf6db49040bde32ddca666
+ssdeep:  1536:lzhwWksk9P3fWtcq6tgKXvqWWe0oPMMDcFydyoECju:lzhDkF3fJq6tgisZoP1DWhoECq
+Date:    0x3E3F26D4 [Tue Feb  4 02:35:00 2003 UTC]
+EP:      0x41453e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1bac6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x16058  0x2dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x12544      0x13000      5.391276    
+.rsrc      0x16000      0x338        0x1000       0.819055    [SUSPICIOUS]
+.reloc     0x18000      0xc          0x1000       0.015920    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: AggieCmd.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: AggieCmd.exe
+

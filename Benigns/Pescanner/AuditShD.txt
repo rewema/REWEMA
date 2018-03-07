@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28160 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7a364ed3e62ec634e8acb42a717909ec
+SHA1:    fb6f542bc593f4dd4a91ed537cd9abcc7909e5cb
+ssdeep:  384:kuLnLaOrRXfpXWmfkrnnosE6H0BIUWFK/OkX1LW1ZxAXdh5vD52gjBBWivWu:ku/7BIjFWOk1Kx6phFzp
+Date:    0x57898E98 [Sat Jul 16 01:32:08 2016 UTC]
+EP:      0x405370 .text 0/5
+CRC:     Claimed: 0x8b2b, Actual: 0x8b2b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x83a8   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80a0   0x301    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4cdc       0x4e00       5.838357    
+.data      0x6000       0x49c        0x200        0.441697    [SUSPICIOUS]
+.idata     0x7000       0xa4e        0xc00        4.625480    
+.rsrc      0x8000       0x768        0x800        4.211173    
+.reloc     0x9000       0x54c        0x600        6.217359    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AuditShD.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Audit Mode Desktop Switch Utility
+OriginalFilename: AuditShD.exe
+Translation: 0x0409 0x04b0
+

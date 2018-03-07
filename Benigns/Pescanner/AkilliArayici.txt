@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b19466c5351d3fc0b78160a72e18f749
+SHA1:    edeb57811f24a0eb1c1a7914bc79adc18df8ac8b
+ssdeep:  384:EJXUq9FTkcngRwp9aciiFtndU1DfDRDt0/eAF8eqYoSJih4v2Qul4QsoUtGmwfMc:EZwc/YP+kpv
+Date:    0x53901ED6 [Thu Jun  5 07:40:06 2014 UTC]
+EP:      0x4077ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x14449 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8058   0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x57b4       0x5800       5.600385    
+.rsrc      0x8000       0x328        0x400        2.604832    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2014
+Assembly Version: 1.0.0.0
+InternalName: AkilliArayici.exe
+FileVersion: 1.0.0.0
+ProductName: AkilliArayici
+ProductVersion: 1.0.0.0
+FileDescription: AkilliArayici
+OriginalFilename: AkilliArayici.exe
+

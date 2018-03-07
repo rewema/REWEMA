@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    565248 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     23c1f1630bce966cc076497115a43fca
+SHA1:    7e9b461770ccac97b47ce3348c5fbae943bcb45c
+ssdeep:  12288:mV+9xjJE/1wUwgTKSHtdVnWJqJg7jzlOgbco1e:mV+9xjyNwaKYtCJqY0gbX1e
+Date:    0x57899062 [Sat Jul 16 01:39:46 2016 UTC]
+EP:      0x41b590 .text 0/6
+CRC:     Claimed: 0x906ba, Actual: 0x906ba 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8a800  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8a360  0x49c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x8a0f0  0x270    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x84380      0x84400      6.874743    
+.data      0x86000      0xc38        0x400        5.823010    
+.idata     0x87000      0x1256       0x1400       4.995782    
+.didat     0x89000      0x10         0x200        0.114463    [SUSPICIOUS]
+.rsrc      0x8a000      0x8c8        0xa00        3.857144    
+.reloc     0x8b000      0x3300       0x3400       6.335469    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Windows Rights Management Services Activation for Desktop Security Processor
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Rights Management Services Activation for Desktop Security Processor
+OriginalFilename: rmactivate.exe
+Translation: 0x0409 0x04b0
+

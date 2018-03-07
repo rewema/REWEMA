@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    30208 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b123a78c1861b6686585fad80fd3e9aa
+SHA1:    95d063153a3535f3c1f0aabeb3ed396d04e5e5c1
+ssdeep:  768:kv0pBuur32t8DPh+vT2CdCCGfEBLlYXD:kGBXmtyP6TSEBLlY
+Date:    0x57899122 [Sat Jul 16 01:42:58 2016 UTC]
+EP:      0x405820 .text 0/5
+CRC:     Claimed: 0xde8c, Actual: 0xde8c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8700   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8390   0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x29e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4f04       0x5000       6.246152    
+.data      0x6000       0x5f8        0x400        2.390895    
+.idata     0x7000       0xf4e        0x1000       4.835699    
+.rsrc      0x8000       0x7c8        0x800        4.262504    
+.reloc     0x9000       0x59c        0x600        6.469561    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: icacls
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: 
+OriginalFilename: iCACLS.EXE
+Translation: 0x0409 0x04b0
+

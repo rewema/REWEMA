@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    314368 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     45753895aae368b288c39f8cf8f435e6
+SHA1:    da9d260aa01074687d3b71beec46d13c05deb4f2
+ssdeep:  3072:DEdvm8MbSFdDRjBsFvJqxEm4x1ESuQG+3SeyRS6CSfKVu1xgCAWUMl:DE5m8MbSFdDRjB2voxEvTEPp/F
+Date:    0x57899120 [Sat Jul 16 01:42:56 2016 UTC]
+EP:      0x40f220 .text 0/5
+CRC:     Claimed: 0x4f0de, Actual: 0x4f0de 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4e010  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x138d8  0x3ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x209d8  0x2152a  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x41f08  0x273a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x44648  0x9636   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13ca8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13dd0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14338  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14620  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14ec8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15530  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x163d8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16840  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x178e8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19e90  0x6aaf   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_GROUP_ICON      0x20940  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 16x16, 16-colors
+RT_VERSION         0x4dc80  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x13440  0x491    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xed98       0xee00       6.369141    
+.data      0x10000      0x468        0x200        1.350853    
+.idata     0x11000      0x1640       0x1800       5.304199    
+.rsrc      0x13000      0x3b110      0x3b200      6.478153    
+.reloc     0x4f000      0xd30        0xe00        6.575922    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CtTune
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ClearType Tuner
+OriginalFilename: CTTUNE.EXE
+Translation: 0x0409 0x04b0
+

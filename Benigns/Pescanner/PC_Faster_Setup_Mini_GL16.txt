@@ -1,0 +1,126 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1616416 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     24861fde40d313c4e648f8bb15a99bec
+SHA1:    335636936a68e2a1e9314d9967a6d966a41dc345
+ssdeep:  24576:EEp2kTdDSzjoIC0UJLd0JddAGDyTAUrYQpUitE:REK4qJLd0bd7DyTAUHI
+Date:    0x531527E0 [Tue Mar  4 01:09:52 2014 UTC]
+EP:      0x4ba4ea .text 0/5
+CRC:     Claimed: 0x1970d2, Actual: 0x1970d2 
+
+Signature scans
+================================================================================
+YARA: spam
+   0x121948L => RCPT TO:
+   0x121954L => RCPT TO:
+   0x1218e8L => MAIL FROM:
+   0x1218f8L => MAIL FROM:
+   0x121910L => MAIL FROM:
+   0x121930L => MAIL FROM:
+   0x12187cL => EHLO 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PNGRES             0x146d0c 0x149c4  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 620 x 340, 8-bit/color RGBA, non-interlaced
+PNGRES             0x15b6d0 0x151    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 128 x 29, 8-bit gray+alpha, non-interlaced
+PNGRES             0x15b824 0x3e2a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 620 x 47, 8-bit/color RGBA, non-interlaced
+PNGRES             0x15f650 0xc9f    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 172 x 51, 8-bit/color RGBA, non-interlaced
+PNGRES             0x1602f0 0xc96    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 172 x 51, 8-bit/color RGBA, non-interlaced
+PNGRES             0x160f88 0xca5    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 172 x 51, 8-bit/color RGBA, non-interlaced
+PNGRES             0x161c30 0xc85    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 172 x 51, 8-bit/color RGBA, non-interlaced
+PNGRES             0x1628b8 0x7f     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 31 x 23, 8-bit gray+alpha, non-interlaced
+PNGRES             0x162938 0x91     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 31 x 23, 8-bit gray+alpha, non-interlaced
+PNGRES             0x1629cc 0x8b     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 31 x 23, 8-bit gray+alpha, non-interlaced
+PNGRES             0x162a58 0xd4     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 45 x 23, 8-bit gray+alpha, non-interlaced
+PNGRES             0x162b2c 0xf7     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 45 x 23, 8-bit colormap, non-interlaced
+PNGRES             0x162c24 0xf3     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 45 x 23, 8-bit colormap, non-interlaced
+PNGRES             0x162d18 0xb00    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 17 x 17, 8-bit/color RGBA, non-interlaced
+PNGRES             0x163818 0xb01    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 17 x 17, 8-bit/color RGBA, non-interlaced
+PNGRES             0x16431c 0xbfe    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 71 x 17, 8-bit/color RGBA, non-interlaced
+PNGRES             0x164f1c 0x9e     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 17 x 15, 8-bit/color RGBA, non-interlaced
+PNGRES             0x164fbc 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 17 x 15, 8-bit/color RGBA, non-interlaced
+PNGRES             0x16505c 0x59     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 17 x 15, 8-bit gray+alpha, non-interlaced
+PNGRES             0x1650b8 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 17 x 15, 8-bit/color RGBA, non-interlaced
+PNGRES             0x165118 0x61     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 8 x 6, 8-bit/color RGBA, non-interlaced
+PNGRES             0x16517c 0x62     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 8 x 6, 8-bit/color RGBA, non-interlaced
+PNGRES             0x1651e0 0xb2     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 26 x 21, 8-bit gray+alpha, non-interlaced
+PNGRES             0x165294 0xb2     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 26 x 21, 8-bit gray+alpha, non-interlaced
+PNGRES             0x165348 0xb3     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 26 x 21, 8-bit gray+alpha, non-interlaced
+PNGRES             0x1653fc 0x53     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 10 x 6, 8-bit/color RGBA, non-interlaced
+PNGRES             0x165450 0x4f     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 10 x 6, 8-bit/color RGBA, non-interlaced
+PNGRES             0x1654a0 0x4f     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 10 x 6, 8-bit/color RGBA, non-interlaced
+PNGRES             0x1654f0 0xcb     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 12 x 12, 8-bit/color RGBA, non-interlaced
+PNGRES             0x1655bc 0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 12 x 12, 8-bit colormap, non-interlaced
+PNGRES             0x1656fc 0x169    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 205 x 34, 8-bit/color RGBA, non-interlaced
+PNGRES             0x165868 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 12 x 12, 8-bit/color RGBA, non-interlaced
+PNGRES             0x165918 0x21dd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 299 x 82, 8-bit/color RGBA, non-interlaced
+RES_INI            0x167af8 0x1de4   LANG_ENGLISH SUBLANG_ENGLISH_US       Little-endian UTF-16 Unicode English text, with CRLF, CR line terminators
+RT_ICON            0x1698dc 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x169d44 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16a1ac 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16a614 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16aa7c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16aee4 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16b34c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16b7b4 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16bc1c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16c084 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16c4ec 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16c954 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16cdbc 0xf5de   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x17c39c 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17e944 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17f9ec 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x17fe54 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 256-colors
+RT_GROUP_ICON      0x17fe94 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17fea8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17febc 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17fed0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17fee4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17fef8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17ff0c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17ff20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17ff34 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17ff48 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17ff5c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x17ff70 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x17ff84 0x2f0    LANG_ENGLISH SUBLANG_ENGLISH_US       SysEx File - IDP
+RT_MANIFEST        0x180274 0x3af    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x104bdc     0x104c00     6.497170    
+.rdata     0x106000     0x32b26      0x32c00      5.226175    
+.data      0x139000     0xcf08       0xa800       2.672623    
+.rsrc      0x146000     0x3a624      0x3a800      7.786151    [SUSPICIOUS]
+.reloc     0x181000     0xc3b4       0xc400       5.939840    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2012 Baidu, Inc. All rights reserved.
+InternalName: Baidu PC Faster
+FileVersion: 4,0,0,60573
+CompanyName: Baidu Inc.
+ProductName: Baidu PC Faster
+ProductVersion: 4,0,0,60573
+FileDescription: Baidu PC Faster MiniSetup
+Translation: 0x0409 0x04b0
+

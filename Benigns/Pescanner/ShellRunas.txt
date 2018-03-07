@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    103464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6c7c5345ed337ed6b04e322a1de6da40
+SHA1:    37d1c83da81109201b037e60866c0d76e3c1714a
+ssdeep:  1536:jaY0LwJ1GRFrA6cRC5oQ8bWFE27byIrxC5YUDtDwT8HafdUafd48:jaY0LwJXqkCPyIrxC5zDS8HafOafa8
+Date:    0x47C60237 [Thu Feb 28 00:37:11 2008 UTC]
+EP:      0x403ba0 .text 0/4
+CRC:     Claimed: 0x1d172, Actual: 0x1d172 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x16ff0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17140  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16828  0x7c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x17128  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x179e8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x16240  0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x16588  0x299    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+CreateProcessWithLogonW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbf14       0xc000       6.630442    
+.rdata     0xd000       0x5ada       0x6000       5.151652    
+.data      0x13000      0x2c1c       0x2000       1.378880    
+.rsrc      0x16000      0x1a00       0x2000       3.966398    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2008 Mark Russinovich and Jon Schwartz
+InternalName: ShellRunas
+FileVersion: 1.01
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals ShellRunAs
+ProductVersion: 1.01
+FileDescription: Run as different user
+OriginalFilename: ShellRunas
+Translation: 0x0409 0x04b0
+

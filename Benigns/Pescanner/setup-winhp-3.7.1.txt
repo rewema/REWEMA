@@ -1,0 +1,79 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1179561 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7d0d84722f6083355ff23d02e4623186
+SHA1:    71f8b624378c339c6cf9d6551ae22194719b2ec0
+ssdeep:  12288:Xna9W7WVpu+hcAAXvO/eXFoa2L3EK9Hy9VEbawkH67qv03x43rQndD3IDEdSn:XnaIyLu+WXXvfFoa2jrJgH6srC3gEq
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x409c40 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x124ec7 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x11624  0xbfd    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 4-bit colormap, non-interlaced
+RT_ICON            0x12224  0x14c2   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit colormap, non-interlaced
+RT_ICON            0x136e8  0x2a4b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x16134  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1625c  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16444  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1672c  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16d94  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x172fc  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x179c4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1826c  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19114  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1957c  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19f04  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1afac  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d554  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2177c  0x5488   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26c04  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x300ac  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x408d4  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x40bc8  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x40ed4  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x411a4  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x4120c  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x412c0  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x41370  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x4139c  0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 19 icons, 16-colors
+RT_VERSION         0x414ac  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x41964  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x9364       0x9400       6.562232    
+DATA       0xb000       0x24c        0x400        2.753482    
+BSS        0xc000       0xe4c        0x0          0.000000    [SUSPICIOUS]
+.idata     0xd000       0x950        0xa00        4.430733    
+.tls       0xe000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xf000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x10000      0x8b4        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x11000      0x30ec4      0x31000      5.211949    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion:                     
+CompanyName: C\xe9dric Chabanois                                            
+Comments: This installation was built with Inno Setup.
+ProductName: WinHP                                                       
+ProductVersion: 3.7.1               
+FileDescription: WinHP Setup                                                 
+Translation: 0x0000 0x04b0
+

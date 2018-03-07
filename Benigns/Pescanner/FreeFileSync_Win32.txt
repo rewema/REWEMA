@@ -1,0 +1,246 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    7806288 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8429a47bd659a93695b332288453e5d9
+SHA1:    11d183131471bde4e6c1cb521265b58930278fe3
+ssdeep:  196608:dhfNr0Fu+w7uYBhSg4/FGLPw6AnZUdIHMPDQy3:3Nr0FuwYBhdPw6AnZTsrQy3
+Date:    0x5686643F [Fri Jan  1 11:34:23 2016 UTC]
+EP:      0x7df971 .text 0/7
+CRC:     Claimed: 0x77c0df, Actual: 0x77f10d [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x57a805L => deflate
+   0x5893baL => deflate
+   0x58948aL => deflate
+   0x5894cfL => deflate
+   0x592259L => deflate
+   0x5a85cdL => deflate
+   0x59227bL => Jean-loup Gailly
+   0x57a895L => inflate
+   0x5891faL => inflate
+   0x58923eL => inflate
+   0x589283L => inflate
+   0x5892d8L => inflate
+   0x5943b1L => inflate
+   0x5a85e1L => inflate
+   0x592290L => Mark Adler
+   0x5943d3L => Mark Adler
+   0x5a41a8L => OpenSSL
+   0x5a41b0L => OpenSSL
+   0x5a41c8L => OpenSSL
+   0x5a420bL => OpenSSL
+   0x5a43fcL => OpenSSL
+   0x5a443cL => OpenSSL
+   0x5a4494L => OpenSSL
+   0x5be5caL => OpenSSL
+   0x5be60aL => OpenSSL
+   0x5be6cdL => OpenSSL
+   0x5be72dL => OpenSSL
+   0x5be8abL => OpenSSL
+   0x5be8e0L => OpenSSL
+   0x5bee06L => OpenSSL
+   0x5beec8L => OpenSSL
+   0x5c1c60L => OpenSSL
+   0x5c33c7L => OpenSSL
+   0x5c33f1L => OpenSSL
+   0x5c3420L => OpenSSL
+   0x5c3550L => OpenSSL
+   0x5c37fcL => OpenSSL
+   0x5c69e5L => OpenSSL
+   0x5c7a59L => OpenSSL
+   0x5c8618L => OpenSSL
+   0x5c8774L => OpenSSL
+   0x5c879fL => OpenSSL
+   0x5c87c9L => OpenSSL
+   0x5c88f4L => OpenSSL
+   0x5c8921L => OpenSSL
+   0x5c9a18L => OpenSSL
+   0x5c9f44L => OpenSSL
+   0x5c9f60L => OpenSSL
+   0x5ca0c8L => OpenSSL
+   0x5ca17cL => OpenSSL
+   0x5ca21cL => OpenSSL
+   0x5ca257L => OpenSSL
+   0x5cfed0L => OpenSSL
+   0x5cff0cL => OpenSSL
+   0x5cff34L => OpenSSL
+   0x5d07a6L => OpenSSL
+   0x5d3c1eL => OpenSSL
+   0x5d62e0L => OpenSSL
+   0x5d6325L => OpenSSL
+   0x5d6408L => OpenSSL
+   0x5d8b49L => OpenSSL
+   0x5d8f74L => OpenSSL
+   0x5d8fd1L => OpenSSL
+   0x5d8fecL => OpenSSL
+   0x5d91c8L => OpenSSL
+YARA: irc
+   0x520300L => msg
+   0x5ad813L => MSG
+   0x5ad833L => msg
+   0x5ada58L => msg
+   0x5bd529L => msg
+   0x5ab7f8L => NOTICE
+   0x5bd266L => Notice
+   0x5d7564L => Notice
+   0x513de5L => part
+   0x52598bL => part
+   0x525a5cL => part
+   0x57a90dL => part
+   0x5a4203L => part
+   0x5a43f4L => part
+   0x5a4434L => part
+   0x5a448cL => part
+   0x5be5c2L => part
+   0x5be602L => part
+   0x5be6c5L => part
+   0x5be8a3L => part
+   0x5bedfeL => part
+   0x5beec0L => part
+   0x5c1c58L => part
+   0x5c33bfL => part
+   0x5c33e9L => part
+   0x5c3418L => part
+   0x5c3548L => part
+   0x5c37f4L => part
+   0x5c69ddL => part
+   0x5c7a51L => part
+   0x5c876cL => part
+   0x5c8797L => part
+   0x5c87c1L => part
+   0x5c88ecL => part
+   0x5c8919L => part
+   0x5ca24fL => part
+   0x5cfec8L => part
+   0x5cff04L => part
+   0x5cff2cL => part
+   0x5d079eL => part
+   0x5d3c16L => part
+   0x5d631dL => part
+   0x5d8b41L => part
+   0x5d8fc9L => part
+   0x54ac4dL => Quit
+   0x54ac54L => Quit
+   0x54b100L => Quit
+   0x566762L => QUIT
+
+
+TLS callbacks
+================================================================================
+    0x7df588
+    0x7df5fb
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x6e9208 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x6e9358 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x6e94a8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x6e95f8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x6e9748 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x6e9898 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x6e99e8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x6e9b38 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x6e9c88 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x6e9dd8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_BITMAP          0x6ed920 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x6ed9e0 0x6c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e9f28 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6ea210 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ea360 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ea8c8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6eaa18 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6eaf80 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6eb0d0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6eb638 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6eb788 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ebcf0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ebe40 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ec3a8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ec4f8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6eca60 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ecbb0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ed118 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ed268 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ed7d0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ee310 0x7a96   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x6f5da8 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7065d0 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x708b78 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x709c20 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x70a0d8 0x5026   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x70f100 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x71f928 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x721ed0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x722f78 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x723430 0x7052   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x72a488 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x73acb0 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x73d258 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x73e300 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x6e9150 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x6e9dc0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e9490 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e9f10 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e9340 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e9730 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e99d0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e95e0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e9b20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e9c70 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x6e9880 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x70a088 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_GROUP_ICON      0x7233e0 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_GROUP_ICON      0x73e768 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_GROUP_ICON      0x6ea338 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x6ecb88 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6ea9f0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6ebe18 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6ec4d0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6eb760 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6ed240 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6eb0a8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x6ed8f8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x73e7b8 0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6eda50 0x8be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+InternetReadFile
+InternetConnectW
+HttpSendRequestW
+OpenProcess
+OpenProcessToken
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5107f3     0x510800     6.559355    
+.rdata     0x512000     0x18042c     0x180600     5.415874    
+.data      0x693000     0x52c64      0x1f800      5.563733    
+.tls       0x6e6000     0xa5         0x200        0.020393    [SUSPICIOUS]
+.gfids     0x6e7000     0xb28        0xc00        3.755479    
+.rsrc      0x6e8000     0x56a60      0x56c00      5.661634    
+.reloc     0x73f000     0x684cc      0x68600      6.533879    
+
+Version info
+================================================================================
+LegalCopyright: Zenju - All Rights Reserved
+FileVersion: 7.8
+CompanyName: www.FreeFileSync.org
+ProductName: FreeFileSync
+ProductVersion: 7.8
+FileDescription: FreeFileSync - Folder Comparison and Synchronization
+Translation: 0xffff 0x04b0
+

@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    90112 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9f78e615e7b4f39235fc2e79cd7797fb
+SHA1:    bc54c68c36bfd03823def593592a53ec49adda2b
+ssdeep:  768:XQ9qX2nBG8zn6y3ffazV7ozLZ6Z/OGeLlUUJ0cHbm:XVGnBG8zn6yvixw+/LNQq
+Date:    0x4C9C747D [Fri Sep 24 09:50:53 2010 UTC]
+EP:      0x403e6c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x25664 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x72d0   0x70a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0xe378   0x1ca8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x10020  0xca8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x10cc8  0x368    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x11030  0x25a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x135d8  0x10a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x14680  0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x14b50  0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14c78  0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x15078  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x14ae8  0x68     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 7 icons, 96x96, 256-colors
+RT_VERSION         0x14cf8  0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3492       0x4000       5.272468    
+.rdata     0x5000       0xf6e        0x1000       4.763988    
+.data      0x6000       0x814        0x1000       3.052010    
+.rsrc      0x7000       0xe0c8       0xf000       2.837792    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2010
+InternalName: MixerMonitor
+FileVersion: 1, 0, 0, 2
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: MixerMonitor Application
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 2
+FileDescription: MixerMonitor MFC Application
+OriginalFilename: MixerMonitor.EXE
+Translation: 0x0409 0x04b0
+

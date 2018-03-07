@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    697904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     846dcf95ad0a719c59b94573ccd6f7c0
+SHA1:    ddfc38e3569f2fc5b8e2fd9a391f690bc3300cc2
+ssdeep:  6144:pSe405d2NmQ0deYTdaipGAlRLr8MbSUkJ1xOxKuGcg6xynGnvYp9p9:pT/5dSnd4735b6J1xOEgynGvy
+Date:    0x44F2B387 [Mon Aug 28 09:12:39 2006 UTC]
+EP:      0x41737c .text 0/4
+CRC:     Claimed: 0xb53d8, Actual: 0xb53d8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x247f8  0xa068   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x2e860  0x2868   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x310c8  0xa68    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x31b30  0x668    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x32198  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x32480  0x1e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x32668  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x32790  0x12428  LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x44bb8  0x4c28   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x497e0  0x1628   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x4ae08  0xea8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x4bcb0  0x8a8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x4c558  0x6c8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x4cc20  0x568    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x4d188  0x42028  LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x8f1b0  0x10828  LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x9f9d8  0x4228   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0xa3c00  0x25a8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0xa61a8  0x10a8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0xa7250  0x988    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0xa7bd8  0x468    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_STRING          0xa8170  0x38     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_ICON      0xa8040  0x12c    LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 21 icons, 16-colors
+RT_VERSION         0x244f0  0x308    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19454      0x1a000      6.319107    
+.rdata     0x1b000      0x7b90       0x8000       4.672441    
+.data      0x23000      0xbb8        0x1000       4.339933    
+.rsrc      0x24000      0x841a8      0x85000      4.803427    
+
+Version info
+================================================================================
+LegalCopyright: (c) 2006 Nero AG.  All rights reserved.
+InternalName: NeroMobileAd.exe
+FileVersion: 1.0.1.2
+CompanyName: Nero AG
+ProductName: Nero Mobile
+ProductVersion: 1.0.1.2
+FileDescription: Nero Mobile Advertisment
+OriginalFilename: NeroMobileAd.exe
+Translation: 0x0407 0x04e4
+

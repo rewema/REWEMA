@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6907750 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     83a58cb7770394c53d00e1c9391f203d
+SHA1:    aab740c6229f9060a624b84ecce5b4e3af64d1f8
+ssdeep:  196608:qrbWPZV9TVcCOt4iUs8K8rbkSaprL9vgfVfZ:qrqBfTVDOt4Nsz8roH5L9vgdh
+Date:    0x489B8682 [Thu Aug  7 23:34:26 2008 UTC]
+EP:      0x4031d0 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x69779e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x46400  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x46a68  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x47b10  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x489b8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x49260  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x497c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x49c30  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x49f18  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x4a040  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4a0f8  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4a218  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4a370  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4a578  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4a670  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4a710  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4a800  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 16x16, 16-colors
+RT_VERSION         0x4a868  0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4abe0  0x220    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c8e       0x5e00       6.478274    
+.rdata     0x7000       0x1550       0x1600       5.263228    
+.data      0x9000       0x259bc      0x200        1.720670    
+.ndata     0x2f000      0x17000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x46000      0x4e00       0x4e00       5.686499    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 MMSGURU
+FileVersion: 1.0.0.1
+CompanyName: MMSGURU
+LegalTrademarks: RetroCode(tm) and RetroFID(tm) are trademarks of MMSGURU
+Comments: written by Till Toenshoff
+ProductName: RetroCode(tm) and RetroFID(tm) Installer
+ProductVersion: 1.0.0.1
+FileDescription: RetroCode(tm) and RetroFID(tm) Setup
+Translation: 0x0409 0x0000
+

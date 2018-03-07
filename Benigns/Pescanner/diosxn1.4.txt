@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3490304 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     782512d250dc1a42e8311c77d8bf83ff
+SHA1:    273120a67a8d9250e39044add498b77622b1a758
+ssdeep:  24576:+8sEBRkhgxE2/YSVxVxVFB2N4e+2M4e+2VE6aK/JopMxQ22upQ22uogEAo6I+Gmf:J81
+Date:    0x467FD385 [Mon Jun 25 14:39:01 2007 UTC]
+EP:      0x401d10 .text 0/5
+CRC:     Claimed: 0x355c47, Actual: 0x355c47 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x352334 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x352320 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x3520f0 0x230    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x347dd4     0x347e00     0.869089    [SUSPICIOUS]
+.data      0x349000     0x7678       0x200        0.000000    
+.idata     0x351000     0xb64        0xc00        5.418980    
+.rsrc      0x352000     0xbdc        0xc00        4.120622    
+.reloc     0x353000     0xa40a       0xa600       6.001539    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: diosxn1.4
+FileVersion: 1.02
+CompanyName: GeoLogic Solutions
+ProductName: diasxnio1.2
+ProductVersion: 1.02
+OriginalFilename: diosxn1.4.exe
+

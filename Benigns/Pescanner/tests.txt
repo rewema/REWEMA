@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     1f2a9dac493acfacdfb80866af854eca
+SHA1:    8e631087b2f6d2bc6e00521c707941d083ff3ee5
+ssdeep:  384:6ejK90tTxmPyxxVe66nwj2UMuGOGDlTuIjVxhWidm3a3cNDDo0wfkV3JEs45s:Ls0tTxJx2+2BuAB5jbdm3asJDNFJ2y
+Date:    0x421050A8 [Mon Feb 14 07:18:00 2005 UTC]
+EP:      0x40a0be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x13df1 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc408   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc6f0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc818   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xc118   0x2f0    LANG_NEUTRAL SUBLANG_NEUTRAL          SysEx File - IDP
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x80c4       0x9000       4.820871    
+.rsrc      0xc000       0x840        0x1000       2.031563    
+.reloc     0xe000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1871.2340
+InternalName: tests.exe
+FileVersion: 1.0.1871.2340
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1871.2340
+FileDescription:  
+OriginalFilename: tests.exe
+

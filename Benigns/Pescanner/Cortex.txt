@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2199552 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     956887d803433dcc1f7d8600bb28ebd8
+SHA1:    721570a30c23e8828883de6b9934a2239885e23a
+ssdeep:  49152:Gq0Ql2vgQWTVmiJt8BiALvDB29sjCns5:G5QlMgQWTVmiJt8BiALvDB29sd
+Date:    0x3F5F02A0 [Wed Sep 10 10:53:20 2003 UTC]
+EP:      0x406c28 .text 0/3
+CRC:     Claimed: 0x221356, Actual: 0x221356 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x15b0a0L => Msg
+   0x4e469L => Nick
+   0x15bd47L => part
+   0x15ccecL => part
+   0x1de70L => Ping
+   0x37c28L => Ping
+   0x5b3a2L => Ping
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x224268 0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x2235c0 0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x22359c 0x24     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x223120 0x47c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2140f0     0x215000     5.691261    
+.data      0x216000     0xce84       0x1000       0.000000    
+.rsrc      0x223000     0x17d0       0x2000       2.477955    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: 2002 Intuition ITD. Released under the GNU Public License.
+InternalName: Cortex
+FileVersion: 0.05.0002
+CompanyName: Intuition ITD
+LegalTrademarks: Intuition, Cortex Server, Neuron Client
+Comments: Cortex Synapsis LAN GCM Server Light Edition
+ProductName: Cortex Synapsis LAN GCM Server Light Edition
+ProductVersion: 0.05.0002
+FileDescription: Cortex Synapsis LAN GCM Server Light Edition
+OriginalFilename: Cortex.exe
+

@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    381952 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c49bd3cfb136aa4a76417228fffc0eec
+SHA1:    fd2500d737da931df26eabc81253cc42cebe89cd
+ssdeep:  6144:CFN+ZRYhV/Y1TRG6Yn1YP9ddFx4kEMVTqzK9NXazgQKJIV7zm5CqnxblOBtt3lLI:tTYhV/Y1TRG6Yn1YP9fFx4kEMVTq29No
+Date:    0x44A3F7EA [Thu Jun 29 15:55:22 2006 UTC]
+EP:      0x401240 .text 0/5
+CRC:     Claimed: 0x5ed0e, Actual: 0x5ed0e 
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: irc
+   0x50543L => msg
+   0x50591L => msg
+   0x50624L => msg
+   0x506b7L => msg
+   0x52c53L => msg
+   0x52c6eL => msg
+   0x52da4L => msg
+   0x52dd1L => msg
+   0x53653L => msg
+   0x54448L => msg
+   0x544aeL => msg
+   0x50b74L => Nick
+   0x50d0eL => nick
+   0x513b3L => nick
+   0x51ea8L => Nick
+   0x51ec5L => nick
+   0x52bf5L => nick
+   0x52ca1L => nick
+   0x52d02L => nick
+   0x52e94L => Nick
+   0x53608L => nick
+   0x53ca2L => nick
+   0x5127cL => ping
+   0x51c76L => ping
+   0x51c93L => ping
+   0x53105L => ping
+   0x51934L => Chat
+   0x51939L => chat
+   0x51b65L => Chat
+   0x52247L => chat
+   0x523aaL => Chat
+   0x523afL => chat
+   0x5245dL => Chat
+   0x52a35L => Chat
+   0x52a3aL => chat
+   0x53305L => Chat
+   0x53320L => Chat
+   0x5337dL => Chat
+   0x53398L => Chat
+
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4fd44      0x4fe00      5.642799    
+.data      0x51000      0x130        0x200        1.479368    
+.rdata     0x52000      0x5b30       0x5c00       5.347306    
+.bss       0x58000      0x4100       0x0          0.000000    [SUSPICIOUS]
+.idata     0x5d000      0x7284       0x7400       5.833232    
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     6b6b91d3593635197cbc338e797fa505
+SHA1:    30e1fb13d4c6c92814cccaa75e2bf8d614f81596
+ssdeep:  48:6QQ4FX2i8/3z/nOmZtY98vvGn4g7gV7ar8lQfRr8U+lNfGRiLbpZiP3Z3OPul4ug:lohYgOFMV7qgQfRoUM4iXIpCul0vnu
+Date:    0x40957958 [Sun May  2 22:42:32 2004 UTC]
+EP:      0x402aae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1149c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xab4        0x1000       3.736356    
+.rsrc      0x4000       0x340        0x1000       0.824036    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: BasicVideo.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: BasicVideo.exe
+

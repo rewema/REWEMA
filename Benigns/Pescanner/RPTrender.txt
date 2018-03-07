@@ -1,0 +1,35 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    974848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     612aab1bbf870dcb39b0ea658c6efcb3
+SHA1:    7a43022d1d94284917923dce330f7cd6edf7b137
+ssdeep:  24576:B4WdN7pk8dsookoe2gv9zg/8Fkyi65b1HktPkW5lbQlRm:B4WdNlk8dsookoe2gv9zg/8Fkyi65t2R
+Date:    0x4DEF84C6 [Wed Jun  8 14:18:46 2011 UTC]
+EP:      0x4012a0 .text 0/6
+CRC:     Claimed: 0xf89c0, Actual: 0xf89c0 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xf20b4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xf295c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa77cc      0xa7800      6.089170    
+.data      0xa9000      0xa48        0xc00        2.076293    
+.rdata     0xaa000      0x3cb68      0x3cc00      6.597442    
+.bss       0xe7000      0x1350       0x0          0.000000    [SUSPICIOUS]
+.idata     0xe9000      0x8084       0x8200       5.863836    
+.rsrc      0xf2000      0x970        0xa00        5.157177    
+

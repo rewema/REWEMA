@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    465578 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8ab770c2f40e94296c6b1c7d20025f63
+SHA1:    db892d90dbaaac166c4837304c8d827f83a9d2e0
+ssdeep:  12288:WD+k5jtzcJor6v5gIu7JLy6GR/wVrcwnCuF8sIsJSY7+mXaGb:WDNKJrv5HIRyLRoVrNXIsJSYaeb
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x40bf34 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x7c29c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1521c  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x15504  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_STRING          0x1562c  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x15920  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x15c2c  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x15efc  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x15f64  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16018  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_GROUP_ICON      0x160c8  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x64, 4-colors
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xb58c       0xb600       6.498190    
+DATA       0xd000       0x17dc       0x1800       3.260668    
+BSS        0xf000       0x116c       0x0          0.000000    [SUSPICIOUS]
+.idata     0x11000      0x762        0x800        4.552245    
+.tls       0x12000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x13000      0x18         0x200        0.210826    [SUSPICIOUS]
+.reloc     0x14000      0x840        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x15000      0x1200       0x1200       3.652342    
+

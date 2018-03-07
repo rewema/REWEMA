@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1310720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9bf5b67b8747ddd380bec84915e6f4d5
+SHA1:    34998905a99bb42ed9119a1a5d8da047ff96efbd
+ssdeep:  24576:f1j4q+LOuuOl6GPmhzqfGZd39GHegOFdcJHJ0nVC/:fCIR6ud39se1HK0nE
+Date:    0x57898ED8 [Sat Jul 16 01:33:12 2016 UTC]
+EP:      0x520b90 .text 0/5
+CRC:     Claimed: 0x14591c, Actual: 0x14591c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x12e9e8 0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x12e870 0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x12e940 0xa1     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+RT_VERSION         0x12e490 0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x12e180 0x30b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+CreateServiceW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x127fcb     0x128000     6.647597    
+.data      0x129000     0x18dc       0xa00        4.641548    
+.idata     0x12b000     0x2c24       0x2e00       5.585374    
+.rsrc      0x12e000     0xac0        0xc00        4.249718    
+.reloc     0x12f000     0x1368c      0x13800      6.832627    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wbengine.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Block Level Backup Engine Service EXE
+OriginalFilename: wbengine.exe
+Translation: 0x0409 0x04b0
+

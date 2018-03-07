@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28076056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5def8aa435cb55c61c47c33a51909a63
+SHA1:    6d4396652399215f51b381472ff8efefa213d8a2
+ssdeep:  786432:/Jc313gO8DSbJ7umDnk/pA5l1LK1WSwaOVxuPg2lClON:/JI+OOMJheA5l1m1HNECMlON
+Date:    0x4FE82E54 [Mon Jun 25 09:24:36 2012 UTC]
+EP:      0x40b14b .text 0/4
+CRC:     Claimed: 0x1ac702b, Actual: 0x1ac702b 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x2041aL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+APP_SETUP          0x243cc  0x1a982f0 LANG_KOREAN  SUBLANG_KOREAN           PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+RT_ICON            0x1abc6bc 0x2890   LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1abef4c 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x1ac14f4 0x25a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x1ac3a9c 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x1ac4b44 0x10a8   LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x1ac5bec 0xe0f    LANG_KOREAN  SUBLANG_KOREAN           PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1ac69fc 0x988    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x1ac7384 0x988    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x1ac7d0c 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ac8174 0x468    LANG_KOREAN  SUBLANG_KOREAN           GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1ac85dc 0x1d2    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x1ac87b0 0x24     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_GROUP_ICON      0x1ac87d4 0x92     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 10 icons, 48x48, 256-colors
+RT_VERSION         0x1ac8868 0x1ec    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_MANIFEST        0x1ac8a54 0x42b    LANG_KOREAN  SUBLANG_KOREAN           XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1886d      0x18a00      6.436832    
+.rdata     0x1a000      0x5a6e       0x5c00       4.839260    
+.data      0x20000      0x3318       0x1600       3.774561    
+.rsrc      0x24000      0x1aa4e80    0x1aa5000    7.999452    [SUSPICIOUS]
+
+Version info
+================================================================================
+ProductName: LINE
+ProductVersion: 4.1.0.421
+FileDescription: LINE
+FileVersion: 4.1.0.421
+CompanyName: LINE Corporation
+Translation: 0x0000 0x04b0
+

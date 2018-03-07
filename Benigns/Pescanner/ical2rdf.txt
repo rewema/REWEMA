@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     1e1ac01c501170da31149314cd961a28
+SHA1:    adb0a381574a00bf5340406a8e238743ace1289d
+ssdeep:  768:4dSXkWIfICIr5IXIBNnXdbEoob70hDXpIKJ7/+gBgnPiKw7WyTADIPhrWTRk1:YkDqK7ngnPiKCWyTADIJrWTRk1
+Date:    0x4052014C [Fri Mar 12 18:28:28 2004 UTC]
+EP:      0x40a64e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc111 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc4e0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc7c8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc8f0   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xc118   0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8654       0x9000       4.934055    
+.rsrc      0xc000       0x918        0x1000       2.425168    
+.reloc     0xe000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (C) 2004  J. Tim Spurway
+Assembly Version: 1.0.1532.24254
+InternalName: ical2rdf.exe
+FileVersion: 1.0.1532.24254
+CompanyName:  
+LegalTrademarks:  
+Comments: An iCalendar (RFC2445) to iCalendar RDF converter.
+ProductName:  
+ProductVersion: 1.0.1532.24254
+FileDescription: ical2rdf
+OriginalFilename: ical2rdf.exe
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    100232 bytes
+Type:    PE32 executable for MS Windows (native) Intel 80386 32-bit
+MD5:     ed97d85237fcf13cd63efef3af62dc56
+SHA1:    13d5402aac7c592639e8e3bcab8fd98af9516412
+ssdeep:  1536:iSbj8h2zT7yqqKP/yJCr2eC4WbsNCOi3D5cpOCkIIVCeyglH6NNfw2PjX:iSblzT7aKP/SeCFCpOCkIIYhgABw2LX
+Date:    0x57898F8A [Sat Jul 16 01:36:10 2016 UTC]
+EP:      0x403800 .text 0/5
+CRC:     Claimed: 0x23cd9, Actual: 0x23cd9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x18730  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x18390  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x180f0  0x29a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x126d4      0x12800      6.269057    
+.data      0x14000      0x1144       0x400        1.936928    
+.idata     0x16000      0x16a0       0x1800       5.289878    
+.rsrc      0x18000      0x7f8        0x800        4.306827    
+.reloc     0x19000      0x11bc       0x1200       6.758067    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: smss.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Session Manager
+OriginalFilename: smss.exe
+Translation: 0x0409 0x04b0
+

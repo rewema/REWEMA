@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     51cb4b70a45930d86cc963a0240ac190
+SHA1:    aaf223593da68904c4b7e9910981e9978bbde62a
+ssdeep:  384:zyw6U87rEBI6E9S75y5jBj1PwzkOlyzn4iilW/8Ra9mSqhA3/onSpCvM1NV62UOx:zy22Sdy5jzzMs4iiNRa9mTq9vvPs6
+Date:    0x4D9699E6 [Sat Apr  2 03:37:10 2011 UTC]
+EP:      0x40829e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1568e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa058   0x2b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x62a4       0x7000       5.156453    
+.rsrc      0xa000       0x308        0x1000       0.809326    [SUSPICIOUS]
+.reloc     0xc000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2008
+Assembly Version: 0.3.1.0
+InternalName: GK3Viewer.exe
+FileVersion: 0.3.1.0
+ProductName: GK3Viewer
+ProductVersion: 0.3.1.0
+FileDescription: GK3Viewer
+OriginalFilename: GK3Viewer.exe
+

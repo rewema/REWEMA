@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1294336 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7c6e2bfc27c4787ba3f6dc23d48893e4
+SHA1:    a6f32ea87ebefb9e2ef3ce9072bb13a4fd6ede10
+ssdeep:  12288:WVWcmfy3KsWIhrDYNa4skcemMvkhVlUk55JMZa4GsD2B2/b9DnTvZJWHONoRLnor:Wt37WIdWdvSVGUoDnNJW4oRabiC
+Date:    0x3EDDC056 [Wed Jun  4 09:48:06 2003 UTC]
+EP:      0x441976 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x14153e [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x13f1b0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13f498 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x13f600 0x5a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x13f5e8 0x18     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (40002 records)
+RT_GROUP_ICON      0x13f5c0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x13fba8 0x35c    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10bb75     0x10c000     6.743732    
+.rdata     0x10d000     0x1ced0      0x1d000      5.273592    
+.data      0x12a000     0x14a34      0x11000      4.570996    
+.rsrc      0x13f000     0xf08        0x1000       3.096206    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2003
+InternalName: jam2game
+FileVersion: 1, 0, 0, 1
+CompanyName: Hypersoft'2002
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Hypersoft'2002 jam2game
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 1
+FileDescription: jam2game
+OriginalFilename: jam2game.exe
+Translation: 0x0427 0x04b0
+

@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    80896 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8c57edda973fa2c52796fc2c121c13c6
+SHA1:    37db72f4ade2aa206221c322c3b84663af7e1dfb
+ssdeep:  1536:iYODAdw2EPr/9J8TIzrfkK3KUGgUIp8yQxWnWDMBrINMv:iY2kEZIIXXcwp8yQxuSuUiv
+Date:    0x57898FE3 [Sat Jul 16 01:37:39 2016 UTC]
+EP:      0x40eb60 .text 0/6
+CRC:     Claimed: 0x1c5fb, Actual: 0x1c5fb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x16758  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x16398  0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x160f0  0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10530      0x10600      6.190220    
+.data      0x12000      0x718        0x400        3.758492    
+.idata     0x13000      0x1130       0x1200       5.138055    
+.didat     0x15000      0x24         0x200        0.296102    [SUSPICIOUS]
+.rsrc      0x16000      0x820        0xa00        3.743748    
+.reloc     0x17000      0xf0c        0x1000       6.530297    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WECUTIL.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Event Collector Command Line Utility
+OriginalFilename: WECUTIL.EXE
+Translation: 0x0409 0x04b0
+

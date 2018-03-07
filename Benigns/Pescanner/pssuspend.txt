@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    289448 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     df3d77d41ef28027b3069d39f9ee9c79
+SHA1:    0dfcf31ad455abd48d35b0250b5b03265052fba6
+ssdeep:  3072:K/kvkbvka2pVtwouW9+DZUFIPcpGwDmXsBvpRyAHa0MiZUFw/oPACa337yGTkSEh:K/CkboR5INUR94GhnO6g1Co/
+Date:    0x5772AE6D [Tue Jun 28 17:05:49 2016 UTC]
+EP:      0x4074fe .text 0/5
+CRC:     Claimed: 0x51b1c, Actual: 0x51b1c 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x230deL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x27490  0x1e2a8  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (console) Intel 80386 32-bit
+RT_VERSION         0x27110  0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x45738  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateServiceA
+StartServiceA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14f94      0x15000      6.612232    
+.rdata     0x16000      0xc268       0xc400       4.674923    
+.data      0x23000      0x371c       0x1400       3.385959    
+.rsrc      0x27000      0x1e8b8      0x1ea00      6.366188    
+.reloc     0x46000      0x144c       0x1600       6.437147    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001-2016 Mark Russinovich
+InternalName: PsSuspend
+FileVersion: 1.07
+CompanyName: Sysinternals
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Sysinternals PsSuspend
+SpecialBuild: 
+ProductVersion: 1.07
+FileDescription: Process Suspender
+OriginalFilename: pssuspend.exe
+Translation: 0x0409 0x04b0
+

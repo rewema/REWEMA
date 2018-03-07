@@ -1,0 +1,92 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    246272 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     49710e363e4c247716508672f909d5ba
+SHA1:    74538e7a6515166fd6e83b9c72ee28e529e462e8
+ssdeep:  3072:Ky5KKAGwRUhNeJzDNZTWwIX1rp2k8eoiUhdlMocLTGATyGSR+mwEeJd5p1dwCh4:Rgpnq2Jz5ZKJlQjjlMocmYCR/o1dwCh
+Date:    0x4B9DD329 [Mon Mar 15 06:26:49 2010 UTC]
+EP:      0x424177 .text 0/5
+CRC:     Claimed: 0x48cb9, Actual: 0x48cb9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x41068  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x410d8  0x20e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x412e8  0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (7209057 records)
+RT_STRING          0x41338  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (7340133 records)
+RT_STRING          0x41508  0x2b2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x417c0  0x28e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41a50  0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41ce8  0x34a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42038  0x312    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42350  0x32e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42680  0x2d6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42958  0x31e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42c78  0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42fc8  0x2c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x43290  0x30c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x435a0  0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x438e8  0x3f6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x43ce0  0x2fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x43fe0  0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44190  0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44330  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44488  0x1ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44638  0x174    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x447b0  0x18e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44940  0x1b2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44af8  0x154    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44c50  0x172    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x44dc8  0x160    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44f28  0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x450d8  0x1dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x452b8  0x1e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x454a0  0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x455d8  0x104    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x456e0  0x24c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x45930  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_STRING          0x45a20  0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x45bd0  0x1c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x45d90  0x278    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46008  0x21e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46228  0x2c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x464f0  0x27e    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x46770  0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46958  0x234    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46b90  0x25e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x46df0  0x254    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x40de0  0x284    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40930  0x4af    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2c95e      0x2ca00      6.616419    
+.rdata     0x2e000      0x4240       0x4400       5.235380    
+.data      0x33000      0xc5a0       0x1800       3.059572    
+.rsrc      0x40000      0x7048       0x7200       3.484025    
+.reloc     0x48000      0x254a       0x2600       5.047558    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Alexander Roshal 1993-2010
+InternalName: Command line RAR
+FileVersion: 3.93.0
+CompanyName: Alexander Roshal
+ProductName: WinRAR
+FileDescription: Command line RAR
+Translation: 0x0000 0x0000
+

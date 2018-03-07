@@ -1,0 +1,114 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1264128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0de99b89fc4e3928a5d7bce4a43aec18
+SHA1:    7be3467d8c97b8ba543c3db4c07ea5ab3eba1fd1
+ssdeep:  24576:PyImLWJm5TNFzlTsJ1rNhfYpuKOH4RB8Tw2B:PTkjgHN6pu7H4RB83
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4b8c2c CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x1366a2 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: irc
+   0x7055L => MSG
+   0x706dL => MSG
+   0x208e0L => Msg
+   0x5ffe8L => Msg
+   0x776f0L => part
+   0x77716L => part
+   0x77730L => part
+   0x777dcL => part
+   0x86719L => ping
+   0x8db34L => ping
+   0x8db45L => ping
+   0x9b7a4L => Ping
+   0x9b7deL => ping
+   0x99249L => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RAW                0xcedf4  0x5cfb   LANG_GERMAN  SUBLANG_GERMAN           data
+RAW                0xd4af0  0x624d   LANG_GERMAN  SUBLANG_GERMAN           data
+RAW                0xdad40  0x62c5   LANG_GERMAN  SUBLANG_GERMAN           data
+RAW                0xe1008  0x6e01   LANG_GERMAN  SUBLANG_GERMAN           data
+RAW                0xe7e0c  0x31d2   LANG_GERMAN  SUBLANG_GERMAN           data
+TXT                0xeafe0  0x6a     LANG_GERMAN  SUBLANG_GERMAN           ASCII text, with no line terminators
+RT_CURSOR          0xeb04c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xeb180  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xeb2b4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xeb3e8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xeb51c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xeb650  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xeb784  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeb8b8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xeba88  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xebc6c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xebe3c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xec00c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xec1dc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xec3ac  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xec57c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xec74c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xec91c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xecaec  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xecbd4  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xecc6c  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xecd04  0x11d68  LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0xfea6c  0xca8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0xff714  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xff768  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xff8dc  0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xffb44  0x228    LANG_NEUTRAL SUBLANG_NEUTRAL          PCX ver. 2.5 image data
+RT_STRING          0xffd6c  0x110    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xffe7c  0x4f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x100374 0x17c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1004f0 0x118    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x100608 0x198    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6357066 records)
+RT_STRING          0x1007a0 0x654    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x100df4 0x484    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x101278 0x4d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10174c 0x598    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x101ce4 0x114    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x101df8 0xdc     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6750325 records)
+RT_STRING          0x101ed4 0x2c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10219c 0x49c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x102638 0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0x1029c0 0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x102d8c 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x102d9c 0x5ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x103348 0x11d0   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x104518 0x1183   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10569c 0x34e0e  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x13a4ac 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13a4c0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13a4d4 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13a4e8 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13a4fc 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13a510 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x13a524 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x13a538 0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xb7c98      0xb7e00      6.533217    
+DATA       0xb9000      0x1bf4       0x1c00       3.422291    
+BSS        0xbb000      0x10cd       0x0          0.000000    [SUSPICIOUS]
+.idata     0xbd000      0x28a2       0x2a00       4.967710    
+.tls       0xc0000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0xc1000      0x18         0x200        0.164765    [SUSPICIOUS]
+.reloc     0xc2000      0xb9a8       0xba00       6.708652    
+.rsrc      0xce000      0x6c600      0x6c600      5.223490    
+

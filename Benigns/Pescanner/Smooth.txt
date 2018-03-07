@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    159744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f007238208600e926313148476be3cd3
+SHA1:    cec1fc3ca77658432889edc6a98416cbe30c4147
+ssdeep:  3072:v9aRfRyIuKcPRz3OZlLT+qmkhz3D1DUl/dZ:v9HIuKy5ULrrDu
+Date:    0x3F6F2842 [Mon Sep 22 16:50:10 2003 UTC]
+EP:      0x4127e8 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x36764 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x284c0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x287a8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x280f0  0x3cc    LANG_FINNISH SUBLANG_DEFAULT          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a7d5      0x1b000      6.628515    
+.rdata     0x1c000      0x58a4       0x6000       4.326413    
+.data      0x22000      0x525c       0x4000       2.485962    
+.rsrc      0x28000      0x7c0        0x1000       1.966780    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2001-2003 Tomi Lehto.
+InternalName: Smooth
+FileVersion: 0, 5, 0, 0
+CompanyName:  
+PrivateBuild: 
+LegalTrademarks: 
+Comments: Free for non-commercial use. Sourcecode released under GNU Public License.
+ProductName: Smooth
+SpecialBuild: 
+ProductVersion: 0, 5, 0, 0
+FileDescription: Smooth
+OriginalFilename: Smooth.exe
+Translation: 0x0000 0x04b0
+

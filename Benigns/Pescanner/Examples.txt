@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     8ab539db0bdbf7d5af08818575f0a7f6
+SHA1:    19ecc6d91bba01ed9682ecfbfa2f2b9a9347f301
+ssdeep:  96:aZpm2uj4Wg91VlLR4KKeeI3/0e5IbxJPeddtxHJA0MH4jjC:aQMWGXm1is5x4dRy0MH46
+Date:    0x46D48671 [Tue Aug 28 20:32:49 2007 UTC]
+EP:      0x4037fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xf2af [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1804       0x2000       4.246530    
+.rsrc      0x4000       0x308        0x1000       0.790469    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.009845    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2007
+Assembly Version: 1.0.0.0
+InternalName: Examples.exe
+FileVersion: 1.0.0.0
+ProductName: Examples
+ProductVersion: 1.0.0.0
+FileDescription: Examples
+OriginalFilename: Examples.exe
+

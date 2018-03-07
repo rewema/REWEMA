@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ba0e25da8781b689b113ce5f6653a670
+SHA1:    816f8baf96f6fa6023d912cb48a2a8753143fc1e
+ssdeep:  384:+vK+nwmLmbgkxaeIPt0P3VKbW8LqAKHq:MnwO+kPCPUmA4
+Date:    0x3E70D6B2 [Thu Mar 13 19:06:26 2003 UTC]
+EP:      0x401258 .text 0/3
+CRC:     Claimed: 0x14b99, Actual: 0x14b99 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x77e0   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x74f8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x73d0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x73a0   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x7150   0x250    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x30a8       0x4000       4.046937    
+.data      0x5000       0x11f0       0x1000       0.000000    
+.rsrc      0x7000       0x910        0x1000       2.006880    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: Everything_v1_1_Test
+FileVersion: 1.00
+CompanyName: .
+ProductName: Everything_v1_0_Test
+ProductVersion: 1.00
+OriginalFilename: Everything_v1_1_Test.exe
+

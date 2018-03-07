@@ -1,0 +1,95 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6546931 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4321669725184fd4f4d26abc11dd51d1
+SHA1:    e30e9dbac520c98bb671877112f85fab75641722
+ssdeep:  98304:eItPFZ3/lIsPR0E4pgMIeOOYyXk8dYA80rcRCeN/ZTOKunZGe:eItPFZ9nPwpgMvOGmA80qCebTwZG
+Date:    0x39DA1816 [Tue Oct  3 17:32:06 2000 UTC]
+EP:      0x40817d .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x642f9e [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x287cbL => This program cannot be run in DOS mode
+   0x19a306L => This program cannot be run in DOS mode
+   0x31f241L => This program cannot be run in DOS mode
+YARA: irc
+   0x1e2b49L => MSG
+   0x2cfa95L => mSG
+   0x2df9a2L => msg
+   0x373663L => notice
+   0x373af0L => notice
+   0x373ffaL => notice
+   0x37400cL => notice
+   0x3768d9L => notice
+   0x376cb7L => notice
+   0x3113fdL => part
+   0x311520L => part
+   0x311ab0L => part
+   0x314b0cL => part
+   0x373e4eL => part
+   0x373e87L => part
+   0x374315L => part
+   0x3743efL => part
+   0x37b509L => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x16978  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16c78  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16da0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17308  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x175f0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17e98  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18d40  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x19408  0xfe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x196c8  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x19508  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x195d0  0xf2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x197c0  0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19948  0x266    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19bb0  0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19d20  0x16e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19e90  0x4ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a380  0x1a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x16c60  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x193a8  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x16450  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd285       0xe000       6.278381    
+.rdata     0xf000       0x1794       0x2000       4.407313    
+.data      0x11000      0x4e5c       0x3000       1.348454    
+.rsrc      0x16000      0x4528       0x5000       3.822607    
+
+Version info
+================================================================================
+LegalCopyright: Copyright\xa9 1990-2000 InstallShield Software Corporation     
+FileVersion: 2.00.105                                                    
+CompanyName: Installshield Software Corporation                          
+Comments:                                                             
+ProductName: InstallShield\xae                                              
+ProductVersion: 2.00                                                        
+FileDescription: Setup Launcher                                              
+Translation: 0x0409 0x04e4
+

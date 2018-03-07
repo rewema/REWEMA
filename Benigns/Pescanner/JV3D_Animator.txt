@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1785064 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a4e9eb25e576bc365439372654af45c3
+SHA1:    8c521a8082d53c1d25dde0f977c085af01af2fb0
+ssdeep:  49152:v8CdncVBAOYm3jtxyOd6l+oGV35RWy+oGV35RBr:v8KQyOdGr
+Date:    0x3D905386 [Tue Sep 24 11:59:02 2002 UTC]
+EP:      0x4b56a0 .text 0/10
+CRC:     Claimed: 0x0, Actual: 0x1bf93a [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x1596d6L => This program cannot be run in DOS mode
+   0x16deeeL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PICKLE             0xe87e4  0x8      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xe984c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xe9994  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xe9adc  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe87ec  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe8d54  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0xe9980  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xe9ac8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xe9c10  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0xe95fc  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0xe8308  0x4dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe9620  0x22a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xba39d      0xba400      6.352606    
+.rdata     0xbc000      0x108        0x200        1.427242    
+.exc       0xbd000      0xc4         0x200        2.107903    
+.data      0xbe000      0x28020      0x28200      4.495766    
+.CRT       0xe7000      0x9c         0x200        1.894580    
+.rsrc      0xe8000      0x1c24       0x1e00       3.559370    
+.idata     0xea000      0x1f4c       0x2000       5.530995    
+.tls       0xec000      0x10         0x200        0.196676    [SUSPICIOUS]
+.bss       0xed000      0x8c71       0x0          0.000000    [SUSPICIOUS]
+.reloc     0xf6000      0xc7b8       0xc800       6.589606    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                
+FileVersion:                                        
+Country:                      
+FileDescription:                                                                                                                                                                                                                                                              
+Release:            
+Product Version:                                        
+

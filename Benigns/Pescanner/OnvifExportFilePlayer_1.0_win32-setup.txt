@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19441772 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     04a13d1dab433c47463ff6b0ca972bd7
+SHA1:    bd4ef1fbdd1fc62bfcc9d9e6a3996ce8653aba45
+ssdeep:  393216:NPIHrx/qCbEm40reJMuKymMh1CMElN5fDfr8FHaTJlkd9vE3:NPILxn4KZS057jrtl8+
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x40a5f8 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x128e88d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x11384  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x117ec  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12174  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1321c  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x157c4  0x8ae    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+RT_STRING          0x16074  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16368  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16674  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16944  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x169ac  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16a60  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x16b10  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x16b3c  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 256-colors
+RT_VERSION         0x16b88  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1707c  0x5e8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x9d30       0x9e00       6.631766    
+DATA       0xb000       0x250        0x400        2.751821    
+BSS        0xc000       0xe8c        0x0          0.000000    [SUSPICIOUS]
+.idata     0xd000       0x950        0xa00        4.430733    
+.tls       0xe000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xf000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x10000      0x8c4        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x11000      0x6664       0x6800       5.175163    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion:                     
+CompanyName:                                                             
+Comments: This installation was built with Inno Setup.
+ProductName: ONVIFPlayer                                                 
+ProductVersion: 1.0                                               
+FileDescription: ONVIFPlayer Setup                                           
+Translation: 0x0000 0x04b0
+

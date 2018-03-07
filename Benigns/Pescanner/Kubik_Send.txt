@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    70144 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f9981437f6283762951ad9156f023af7
+SHA1:    202ee9785a98cf048aab908348f94a17117a0d03
+ssdeep:  1536:CI+ElOtcpOC2g+fzbAjvxAHf/0fzM2Oy2ewpO:8qOyDKXyxof/0bM2Oz
+Date:    0x589DA2A1 [Fri Feb 10 11:23:13 2017 UTC]
+EP:      0x401000 .code 0/5
+CRC:     Claimed: 0x0, Actual: 0x1d6ef [SUSPICIOUS]
+Packers: PureBasic 4.x -> Neil Hodgson
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa2b0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa598   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa6c0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb568   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbe10   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc378   0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x105a0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12b48  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13bf0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14058  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 32x32, 16-colors
+RT_VERSION         0x140dc  0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x14378  0x263    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.code      0x1000       0x168a       0x1800       4.130932    
+.text      0x3000       0x406c       0x4200       6.443289    
+.rdata     0x8000       0x55         0x200        1.056587    
+.data      0x9000       0xdb0        0xc00        5.175313    
+.rsrc      0xa000       0xa5dc       0xa600       5.504344    
+
+Version info
+================================================================================
+LegalCopyright: (C) 2016 Kubik Project
+Website: http://kubik-fido.blogspot.com/
+InternalName: Kubik Send
+CompanyName: Kubik Project
+ProductName: Kubik
+ProductVersion: 1,1
+OriginalFilename: Kubik_Send.exe
+Translation: 0x0419 0x04b0
+

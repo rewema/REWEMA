@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0a89d08b3052e445dd6236d2266af996
+SHA1:    5f0ad1da0ba61741e7ddc4bef16e3e05fdaf4399
+ssdeep:  384:JdLZtXUkQ9vKYnSIRGKuJOgLsTcn+aEbEzwD00SK:RtXJaSuGKuJyTcn+aEb5qK
+Date:    0x464D5AD4 [Fri May 18 07:50:44 2007 UTC]
+EP:      0x4013b0 .text 0/3
+CRC:     Claimed: 0xac97, Actual: 0xac97 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6350   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x633c   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x60f0   0x24c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3984       0x4000       5.006408    
+.data      0x5000       0xaf8        0x1000       0.000000    
+.rsrc      0x6000       0x638        0x1000       1.247526    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: fspEx
+FileVersion: 0.00.0012
+ProductName: ExtFileMerger
+ProductVersion: 0.00.0012
+FileDescription: Merge Tool of FileSplitter
+OriginalFilename: fspEx.exe
+

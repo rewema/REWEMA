@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    13824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4106a60cadd53dd5d62e29f70a48cda9
+SHA1:    784b4ab382373374886f944adbb022de718d8ce4
+ssdeep:  192:yV9j9dNkmXRfE0QX6xtk2JTxDSSl7LRGRMLTfohPWcshIl:oHN9ZSXkiqYWRGCYJWcsh
+Date:    0x5789912F [Sat Jul 16 01:43:11 2016 UTC]
+EP:      0x401e50 .text 0/5
+CRC:     Claimed: 0x3a95, Actual: 0x3a95 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5770   0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50a0   0x6cf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1b9c       0x1c00       6.099953    
+.data      0x3000       0x418        0x200        0.199776    [SUSPICIOUS]
+.idata     0x4000       0x4ae        0x600        4.201703    
+.rsrc      0x5000       0xaf8        0xc00        4.600068    
+.reloc     0x6000       0x1cc        0x200        5.949990    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: msfeedssync
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: Microsoft Feeds Synchronization
+OriginalFilename: msfeedssync.exe
+Translation: 0x0409 0x04b0
+

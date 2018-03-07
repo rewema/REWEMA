@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    181760 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     60ce6c7b14643843b06ca7a84753e7fb
+SHA1:    5f47406ed1018628bedf652d35a18a74a691c20c
+ssdeep:  3072:OzQciLjt739UzKuMYHbhtktV06rJIff2voiG8FDp9X7Vc4uOT:OQcEt4730rJInIoij9X7N
+Date:    0x43097E79 [Mon Aug 22 07:27:53 2005 UTC]
+EP:      0x41e79c .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x31ef9 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x2931eL => This program cannot be run in DOS mode
+   0x2a51eL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2eed0  0x414    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VXD             0x2c0d0  0x1200   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (native) Intel 80386 32-bit
+RT_VXD             0x2d2d0  0x1c00   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (native) 32-bit Mono/.Net assembly
+
+Suspicious IAT alerts
+================================================================================
+CreateServiceA
+StartServiceA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1fce9      0x1fe00      6.311658    
+.text1     0x21000      0x98c        0xa00        4.697839    
+.rdata     0x22000      0x3642       0x3800       5.338087    
+.data      0x26000      0x127c       0x1200       3.795854    
+.data1     0x28000      0x3b60       0x3c00       5.113294    
+.rsrc      0x2c000      0x32e8       0x3400       4.459349    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004-2005 Dmitri Besedin
+InternalName: Timings.exe
+FileVersion: 3, 5, 7, 0
+CompanyName: RightMark Gathering, iXBT.com
+PrivateBuild: 
+LegalTrademarks: 
+Comments: Part of RightMark Memory Analyzer
+ProductName: RMMA Memory Timings Utility
+SpecialBuild: 
+ProductVersion: 3, 5, 7, 0
+FileDescription: RMMA Memory Timings Utility
+OriginalFilename: Timings.exe
+Translation: 0x0409 0x04b0
+

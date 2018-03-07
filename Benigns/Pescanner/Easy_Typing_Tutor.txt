@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    391168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d5cfc482c9b3f3639b4694de0fdccbea
+SHA1:    4732e306ed1f933a6f2c46bfa85258478ecd7654
+ssdeep:  3072:nfhQp18jplh2VJLhS0Vjeb2y2F+2hjEz1:nfhQp1upmLhS0Vjeb2D3h41
+Date:    0x5492F8A1 [Thu Dec 18 15:54:09 2014 UTC]
+EP:      0x438bae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x6c743 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3c5b8  0x50d    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x3cac8  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4d2f0  0x94a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56798  0x5488   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5bc20  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5fe48  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x623f0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x63498  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x63e20  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x64288  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 256-colors
+RT_VERSION         0x3c268  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x36bb4      0x36c00      2.757754    
+.sdata     0x3a000      0xb5         0x200        2.566398    
+.rsrc      0x3c000      0x28310      0x28400      1.033862    
+.reloc     0x66000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Matrix Systems 2014
+Assembly Version: 1.0.0.0
+InternalName: Easy Typing Tutor.exe
+FileVersion: 1.0.0.0
+CompanyName: Matrix Systems
+ProductName: Easy Typing Tutor
+ProductVersion: 1.0.0.0
+FileDescription: Easy Typing Tutor
+OriginalFilename: Easy Typing Tutor.exe
+

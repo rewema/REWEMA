@@ -1,0 +1,85 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12047360 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6f441e6060df0cb71b81e4a6eb410c4c
+SHA1:    fed387ca48f5f6f25bd7015e1533e5538f691365
+ssdeep:  98304:UALs3U0H2/VsvKGaUEBdTzvPGFQpS5tCZgmcnO9jlYvHjZELRJsv6tWKFdu9C9DP:J8HWVDljC9OoStJsv6tWKFdu9C9TMhE
+Date:    0x5915A359 [Fri May 12 11:58:17 2017 UTC]
+EP:      0xb7658d .text 0/9
+CRC:     Claimed: 0x0, Actual: 0xb87cb7 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x9d2201L => deflate
+   0x9d2223L => Jean-loup Gailly
+   0xa4dd59L => inflate
+   0x9d2238L => Mark Adler
+   0xa4dd7bL => Mark Adler
+YARA: irc
+   0x833edcL => MSG
+   0x8b6000L => MSG
+   0x8b6550L => msg
+   0x9d13e7L => MSG
+   0x9d1548L => MSG
+   0x8d1554L => Notice
+   0x8e3cd4L => NOTICE
+   0x82a2b8L => part
+   0x82a61bL => part
+   0x8e6102L => part
+   0xb250f0L => part
+   0x79b513L => quit
+   0x79b64dL => quit
+   0x79bcd0L => quit
+   0x79c38fL => quit
+   0x92a4d5L => Quit
+   0x9cfb3bL => quit
+   0x9d2581L => quit
+   0x9d373eL => Quit
+   0x9d7aa7L => QUIT
+   0x9fcf4bL => quit
+   0x9fb179L => chat
+YARA: spam
+   0x793374L => Pharma
+   0x79beceL => PHARMA
+   0x79bed5L => PHARMA
+   0x9f4317L => casino
+   0x9fc45cL => casino
+   0x8b4955L => from: 
+   0x8b590dL => from: 
+   0x92991cL => Postcard
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0xb61060 0x27e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+OpenProcessToken
+OpenProcess
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x790911     0x790a00     6.577265    
+.rdata     0x792000     0x36eeaa     0x36f000     6.232021    
+.data      0xb01000     0x5b420      0x38600      4.860116    
+.qtmetad   0xb5d000     0x95c        0xa00        4.456857    
+.tls       0xb5e000     0xd          0x200        0.020393    [SUSPICIOUS]
+.gfids     0xb5f000     0x3c         0x200        0.296026    [SUSPICIOUS]
+_RDATA     0xb60000     0x224        0x400        2.094489    
+.rsrc      0xb61000     0x2e0        0x400        4.261923    
+.reloc     0xb62000     0x43968      0x43a00      6.573698    
+

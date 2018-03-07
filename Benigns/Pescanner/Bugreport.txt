@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    675240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d6fb9d23f8523635d63caeccfe3e9881
+SHA1:    235be8b7eccf181c7d9c04bb2f41191f0f7cee0a
+ssdeep:  3072:mlk9VDERuMqkUAGRhXm53Nl4lzze5Mx7mwbXK6Sc2p9:ik4dqkZihW56a5U7moXK26
+Date:    0x512F6421 [Thu Feb 28 14:05:21 2013 UTC]
+EP:      0x407ea5 .text 0/4
+CRC:     Claimed: 0xb1cf5, Actual: 0xb1cf5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x18488  0x8ee58  LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x180f0  0xe8     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_VERSION         0x181d8  0x2ac    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+
+Suspicious IAT alerts
+================================================================================
+InternetReadFile
+HttpSendRequestW
+HttpSendRequestExW
+InternetConnectW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xda7d       0xe000       6.476019    
+.rdata     0xf000       0x33e2       0x4000       4.284327    
+.data      0x13000      0x4f80       0x1000       1.971637    
+.rsrc      0x18000      0x8f2e0      0x90000      2.251328    
+
+Version info
+================================================================================
+InternalName: BugReport
+FileVersion: 1, 0, 0, 1
+CompanyName: raidcall limited
+ProductName: raidcall crash report
+ProductVersion: 1, 0, 0, 1
+FileDescription: raidcall crash report
+OriginalFilename: BugRepor.exe
+Translation: 0x0409 0x04b0
+

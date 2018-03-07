@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22016 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     eacd20ed77abc72a229e027cfabb85aa
+SHA1:    e5caa3ad9bc1a2f3ef15d8d6169f56af5658f16d
+ssdeep:  384:QA97COMmq92wM+zkWUAqYWOKjQSl/451DYsiPdKlW8JW:jCOMmQbM+zkWUrOyQOEVYHPdKF
+Date:    0x57899116 [Sat Jul 16 01:42:46 2016 UTC]
+EP:      0x4035e0 .text 0/5
+CRC:     Claimed: 0x6a76, Actual: 0x6a76 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7778   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a8   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2b7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x32ac       0x3400       6.098087    
+.data      0x5000       0x99c        0x200        0.199776    [SUSPICIOUS]
+.idata     0x6000       0xcb2        0xe00        4.506062    
+.rsrc      0x7000       0x840        0xa00        3.790327    
+.reloc     0x8000       0x2a8        0x400        5.023089    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DISKPERF.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Disk Performance Configuration Utility
+OriginalFilename: DISKPERF.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    163840 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     c0067294a0e8f36723cc3d8c17f7fc79
+SHA1:    0bea5ea146816026760566ae235b2f38785d1e2e
+ssdeep:  3072:o4AKS6RAIVaJXyTp43xDF1lQo1GUdwXTRjhfVI:3j1iXb7lQ+G5j
+Date:    0x40999A97 [Thu May  6 01:53:27 2004 UTC]
+EP:      0x415077 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2d9df [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x29060  0x340    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e4fc      0x1f000      6.612586    
+.rdata     0x20000      0x50cd       0x6000       4.274687    
+.data      0x26000      0x28e4       0x1000       3.516582    
+.rsrc      0x29000      0x3a0        0x1000       0.978115    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000-2004
+InternalName: MAC
+FileVersion: 3.99
+CompanyName: Matthew T. Ashland
+Comments: Console front-end for Monkey's Audio
+ProductName: Monkey's Audio
+ProductVersion: 3.99
+FileDescription: Monkey's Audio Console Front-End
+OriginalFilename: MAC.exe
+Translation: 0x0409 0x04b0
+

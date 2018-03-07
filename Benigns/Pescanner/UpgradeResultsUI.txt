@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     33a2c3502f37ad4561c33dba24656993
+SHA1:    2eb0be1456d8feb8c5831cc13e05f5fc451fca19
+ssdeep:  768:D32UBBn7MTtOlLA1TT8Yhv2ufKIF+7aLcwkJMWeLKGzTj8+0:Dln+OVCv2ufH+7TLJ4+Gvj8
+Date:    0x578990ED [Sat Jul 16 01:42:05 2016 UTC]
+EP:      0x4053d0 .text 0/6
+CRC:     Claimed: 0x13522, Actual: 0x13522 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9770   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9380   0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x28d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4c3c       0x4e00       6.192771    
+.imrsiv    0x6000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x7000       0x5a4        0x200        0.391927    [SUSPICIOUS]
+.idata     0x8000       0xc36        0xe00        4.672347    
+.rsrc      0x9000       0x838        0xa00        3.728095    
+.reloc     0xa000       0x4c0        0x600        5.863327    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Add features to Windows Results
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Add features to Windows Results
+OriginalFilename: UpgradeResultsUI.exe
+Translation: 0x0409 0x04b0
+

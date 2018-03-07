@@ -1,0 +1,77 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2527432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9291c957199d6e57d11e77d084d99129
+SHA1:    7b09108cb3a48711b17631876eed42b1e9a0c992
+ssdeep:  49152:QlQo0DP5rd7VU46nThRYDcGb6sJCCGuEG+wWIXaUnH/b8BvTXrs5CC09kWtcEfN:QlQocdX6n9R0EG+wWIKUDckI
+Date:    0x593C15FA [Sat Jun 10 15:53:30 2017 UTC]
+EP:      0x54e70d .text 0/7
+CRC:     Claimed: 0x26f0bb, Actual: 0x26ec0c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x23f550 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23f838 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x23f960 0x2ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x242608 0x1bc8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2441d0 0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2457f8 0x1418   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x246c10 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x247ab8 0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x248660 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x248f08 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2495d0 0x608    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x249bd8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x24a140 0x86e    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x24a9b0 0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x253e58 0x5488   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2592e0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25d508 0x3a48   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x260f50 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2634f8 0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x264f60 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x266008 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x266990 0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x267048 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2674b0 0x148    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 23 icons, 32x32, 16-colors
+RT_VERSION         0x2675f8 0x8cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x267ec4 0x21a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x169fc3     0x16a000     6.637347    
+.rdata     0x16b000     0xadeb8      0xae000      4.575187    
+.data      0x219000     0x239e8      0x6400       4.344939    
+.tls       0x23d000     0xd          0x200        0.020393    [SUSPICIOUS]
+.c2r       0x23e000     0x154        0x200        2.524557    
+.rsrc      0x23f000     0x290e0      0x29200      2.023138    
+.reloc     0x269000     0x1d268      0x1d400      6.650657    
+
+Version info
+================================================================================
+InternalName: Office Protocol Handler
+FileVersion: 16.0.8201.2102
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Office 2016
+ProductVersion: 16.0.8201.2102
+FileDescription: Microsoft Office 2016
+MOSEVersion: BETA
+OriginalFilename: ProtocolHandler.exe
+Translation: 0x0000 0x04e4
+

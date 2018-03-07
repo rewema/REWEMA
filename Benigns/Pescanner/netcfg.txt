@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    27648 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     209d72d3777a47bd6596dd2f6301dc49
+SHA1:    a3ea82ab4e0bab0c93324796751a95da3ad3f742
+ssdeep:  384:C3fiwRdXaUVLuj5o5vUKKrN2OkGBwdnISEwXK6Ag4ZwLTmCqwRfvCWKgWA:3sXaUViFotIgOk1ISEOTrRfvmK
+Date:    0x57898F78 [Sat Jul 16 01:35:52 2016 UTC]
+EP:      0x4049d0 .text 0/6
+CRC:     Claimed: 0x12aa0, Actual: 0x12aa0 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb748   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xb3a0   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb0f0   0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4828       0x4a00       5.996366    
+.data      0x6000       0x2464       0x200        1.947024    
+.idata     0x9000       0x980        0xa00        5.139937    
+.didat     0xa000       0xc          0x200        0.114463    [SUSPICIOUS]
+.rsrc      0xb000       0x810        0xa00        3.712587    
+.reloc     0xc000       0x574        0x600        6.330944    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: snetcfg.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: WinPE network installer
+OriginalFilename: netcfg.exe
+Translation: 0x0000 0x04b0
+

@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    7956450 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f985ca36b33de05542dd10813c255391
+SHA1:    d9268b115fd5976e454d75f9092768ea352d04b2
+ssdeep:  196608:wlkEAL5xYXMl4j9ZiEfsqMpy93voerkN+eF:wyEALlKCSQoW
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x409228 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x797371 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1030c  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x10434  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x1099c  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x10c84  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x1152c  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11820  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11b2c  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11dfc  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x11e64  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11f18  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_GROUP_ICON      0x11fc8  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x12008  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x123b0  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x8960       0x8a00       6.582606    
+DATA       0xa000       0x244        0x400        2.718343    
+BSS        0xb000       0xe38        0x0          0.000000    [SUSPICIOUS]
+.idata     0xc000       0x8a8        0xa00        4.189249    
+.tls       0xd000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xe000       0x18         0x200        0.199108    [SUSPICIOUS]
+.reloc     0xf000       0x84c        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x10000      0x2800       0x2800       4.279811    
+
+Version info
+================================================================================
+InternalName: 
+FileVersion:                     
+CompanyName: Chair of Software Engineering ETH Zurich                    
+Comments: This installation was built with Inno Setup: http://www.innosetup.com
+ProductName: 
+ProductVersion: 
+FileDescription: esdl Setup                                                  
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

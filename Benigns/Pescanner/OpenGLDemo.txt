@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    728576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b446914ef28ab6074dc79275458381f2
+SHA1:    7235770166d92fbd7a5afac0232307681454b83d
+ssdeep:  12288:fhQHAGf3cTxvobcz6tprgKrHXXR48wTxrI3zvV10yi888888888888W888888880:qAM32xvobcz6tprFgGzN1
+Date:    0x4AD38A5E [Mon Oct 12 19:58:22 2009 UTC]
+EP:      0x4945d0 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0xb7ea2 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1003bc 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x100c64 0x5f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x101254 0x72c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x101980 0x4b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x101e34 0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1021c4 0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x102550 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x102620 0xb8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7078005 records)
+RT_STRING          0x1026d8 0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10294c 0x458    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x102da4 0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x103100 0x2a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1033a4 0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x10b68c 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x10b69c 0x4bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x10bb58 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x923f0      0x92400      6.617380    
+.itext     0x94000      0xa68        0xc00        5.733777    
+.data      0x95000      0x6394       0x6400       4.019159    
+.bss       0x9c000      0x54cc0      0x0          0.000000    [SUSPICIOUS]
+.idata     0xf1000      0xfb6        0x1000       4.997178    
+.tls       0xf2000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0xf3000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0xf4000      0xb710       0xb800       6.707318    
+.rsrc      0x100000     0xbc00       0xbc00       4.067654    
+

@@ -1,0 +1,74 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    53248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     57043f3a643d18fca4210cef5ca1b024
+SHA1:    85c9360c7be7bae3501c34a2eaf4698f5089d4ee
+ssdeep:  384:nsw2ftv99+dS+u5QABQlQile/lqxapzV9MqPzhtUtoA611BLZ7QkSnwKDJvJV:nkn9+dS+uqABhz/UGA87RQkSNJ
+Date:    0x400C30AE [Mon Jan 19 19:31:58 2004 UTC]
+EP:      0x4055ae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xd5b5 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x95b0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9898   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x99c0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa298   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa3d8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa6d8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa9d8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xacd8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xafd8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb2d8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb400   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb710   0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xcb90   0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc3d0   0x112    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc4e8   0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xcce0   0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xcc08   0xd6     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_GROUP_ICON      0xa268   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xa3c0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xa6c0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xa9c0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xacc0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xafc0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xb2c0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xb6e8   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_GROUP_ICON      0xc3b8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xc818   0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x49b3       0x5000       5.424125    
+.rdata     0x6000       0x1756       0x2000       3.905956    
+.data      0x8000       0x540        0x1000       1.926672    
+.rsrc      0x9000       0x3d38       0x4000       3.626596    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: FIRE
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: FIRE Application
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 1
+FileDescription: FIRE MFC Application
+OriginalFilename: FIRE.EXE
+Translation: 0x0409 0x04b0
+

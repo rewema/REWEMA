@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    150528 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ff8f37fecfb4f7a56531e413883e03f5
+SHA1:    84b8a4ec6f13063d5bb4e189998672684887c0e8
+ssdeep:  3072:Up2hZ1bdQCsuMBaNQDnp+ZcASG0qxtkE96XSIKuPZzLr43q+VYt1INZxzJ+:UpeMC/MhkC1PwnfIHq3NB
+Date:    0x57898F1F [Sat Jul 16 01:34:23 2016 UTC]
+EP:      0x420650 .text 0/5
+CRC:     Claimed: 0x2a253, Actual: 0x2a253 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x24780  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x243f0  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x240f0  0x2fe    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x208f0      0x20a00      6.371983    
+.data      0x22000      0xd18        0xa00        3.236840    
+.idata     0x23000      0xca4        0xe00        5.231481    
+.rsrc      0x24000      0x850        0xa00        3.842940    
+.reloc     0x25000      0x1a18       0x1c00       6.577924    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: diskpart.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DiskPart
+OriginalFilename: diskpart.exe
+Translation: 0x0409 0x04b0
+

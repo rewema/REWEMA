@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    108032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     62d1bccc2e9d4ef7c66f28971a96bf72
+SHA1:    77cfd66651e15aedbb36e104ef96475c5d5bd018
+ssdeep:  1536:n1YdG/DZpAik0KlgzWS7wy3oLBBuouxAJIXUrW5e94+BpEqS8RK6IDFtDbCkkpp0:n1Yd0D9+BpEqTjI/OvppgBmW/Anze
+Date:    0x37A839BE [Wed Aug  4 13:01:50 1999 UTC] [SUSPICIOUS]
+EP:      0x401958 .text 0/5
+CRC:     Claimed: 0x26803, Actual: 0x26803 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1b9d4  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1b6ec  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1b5c4  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1b594  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x1b150  0x444    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x163e4      0x16400      5.759052    
+.data      0x18000      0x1628       0x200        0.000000    
+.idata     0x1a000      0x8e0        0xa00        5.149085    
+.rsrc      0x1b000      0xb04        0xc00        3.096727    
+.reloc     0x1c000      0x2500       0x2600       6.099799    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: Copyright \xa9 1997-1999 Brad Martinez
+InternalName: EnumDeskVB
+FileVersion: 2.00
+CompanyName: Common Controls Replacement Project (CCRP)
+LegalTrademarks: Brad Martinez, CCRP
+Comments: Microsoft's EnumDesk C code example ported to VB. VB5 SP0 compiled.
+ProductName: EnumDeskVB demo application
+ProductVersion: 2.00
+FileDescription: EnumDeskVB demo application
+OriginalFilename: EnumDeskVB.exe
+

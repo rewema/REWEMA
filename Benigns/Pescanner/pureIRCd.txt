@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    106496 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     eff07fc867144cdc052a774883c2b106
+SHA1:    0f9a5ea786f4cf12c5554023f06d8aa719aa9dd5
+ssdeep:  1536:VmWFt1whQZjeIwcpg5eI3rpNnPRgI8kShAJs7TZld:4WFt1kQgIboeSvPRgI8pGiTZl
+Date:    0x45BD2E65 [Sun Jan 28 23:14:45 2007 UTC]
+EP:      0x4185ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x28cbb [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x13bedL => join
+   0x13c29L => join
+   0x127beL => nick
+   0x127dcL => nick
+   0x12849L => nick
+   0x13c5bL => Nick
+   0x13eb2L => nick
+   0x13f10L => Nick
+   0x13f19L => Nick
+   0x127f4L => notice
+   0x12861L => notice
+   0x13bf4L => part
+   0x13c30L => part
+   0x12822L => ping
+   0x127ccL => quit
+   0x127e3L => quit
+   0x12850L => quit
+   0x127eaL => privmsg
+   0x12857L => privmsg
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x1a058  0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x165b4      0x17000      5.586016    
+.rsrc      0x1a000      0x360        0x1000       0.877343    [SUSPICIOUS]
+.reloc     0x1c000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Dennis Fisch 2007
+Assembly Version: 1.0.0.0
+InternalName: pureIRCd.exe
+FileVersion: 1.0.0.0
+CompanyName: Dennis Fisch
+ProductName: pureIRCd
+ProductVersion: 1.0.0.0
+FileDescription: pureIRCd
+OriginalFilename: pureIRCd.exe
+

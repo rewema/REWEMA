@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    126976 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bce81c7c09b1fc1ad02c50b119d3e88d
+SHA1:    a8f965d27c22e36096ab0ebf59ff1245449aa086
+ssdeep:  3072:ZXW81FHuCS2fpYVIM+oKAgtgllQqA8JwchWbvkzFO9FViDLM8Nvw:l1Bu8pMR+oKAgtgllzA8JwchuvkzFgFh
+Date:    0x554800D0 [Mon May  4 23:29:20 2015 UTC]
+EP:      0x40c3f6 .text 0/4
+CRC:     Claimed: 0x28126, Actual: 0x28126 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x182b0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18598  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x186c0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19568  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19e10  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a378  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c920  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d9c8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e350  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1e7b8  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 32x32, 16-colors
+RT_VERSION         0x1e83c  0x300    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1eb3c  0x155    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherA
+CreateServiceA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbab8       0xc000       6.217430    
+.rdata     0xd000       0x960a       0xa000       6.117612    
+.data      0x17000      0xf2c        0x1000       0.245278    [SUSPICIOUS]
+.rsrc      0x18000      0x6c94       0x7000       5.868400    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005-2015 Cisco Systems, Inc. / ClamWin Pty Ltd
+InternalName: freshclam.exe
+FileVersion: 0, 98, 7, 0
+ProductName: ClamWin Antivirus
+ProductVersion: 0, 98, 7, 0
+FileDescription: ClamWin Antivirus
+OriginalFilename: freshclam.exe
+Translation: 0x0000 0x0409
+

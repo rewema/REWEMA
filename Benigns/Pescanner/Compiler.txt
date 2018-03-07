@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    53248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     889599e3b975b4ac4cba3206a2363949
+SHA1:    fac555d15e94b1f3a8cf14f398c4cc1afb4684f8
+ssdeep:  768:MB4LO+uk8VrXSfri2OAZA3rI1xizSygVGCl/UE:M0Cr0i2S8EgVhlME
+Date:    0x3ABEFF2F [Mon Mar 26 08:34:55 2001 UTC]
+EP:      0x404860 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1743f [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc330   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc618   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc768   0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xcad0   0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd7a0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe060   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xe920   0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xec98   0x82e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf818   0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xc740   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xd778   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xe048   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xe908   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xf4c8   0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4392       0x5000       5.204377    
+.rdata     0x6000       0x13aa       0x2000       3.227063    
+.data      0x8000       0x33a8       0x1000       1.740986    
+.rsrc      0xc000       0x3860       0x4000       3.174030    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: Compiler
+FileVersion: 0,0,2
+CompanyName: active9 network (DeskCode)
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: PHPCompiler
+SpecialBuild: 
+ProductVersion: 0,0,2
+FileDescription: PHPCompiler
+OriginalFilename: Compiler.EXE
+Translation: 0x0409 0x04b0
+

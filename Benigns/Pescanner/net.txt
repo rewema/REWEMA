@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    47104 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2ee0deab28b407ff35cd79dc545689e7
+SHA1:    b160f4462a4728bec8fa053b99709622a4b4dd20
+ssdeep:  768:VHDBuOUsUHYCzEco4cmf/Kt2LdpGtlVD1Kdm1wRcGPHLqdoPA9S:xDBuZsUHYEo3K/3dpGtN1wRcGP2aPA9S
+Date:    0x5789911A [Sat Jul 16 01:42:50 2016 UTC]
+EP:      0x403350 .text 0/6
+CRC:     Claimed: 0x1a64c, Actual: 0x1a64c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x18330  0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x180a0  0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8694       0x8800       6.310547    
+.data      0xa000       0xa89a       0x400        2.350624    
+.idata     0x15000      0x116e       0x1200       5.113542    
+.didat     0x17000      0x10         0x200        0.114463    [SUSPICIOUS]
+.rsrc      0x18000      0x6b0        0x800        3.879159    
+.reloc     0x19000      0xa70        0xc00        6.299504    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: net.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Net Command
+OriginalFilename: net.exe
+Translation: 0x0409 0x04b0
+

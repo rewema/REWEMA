@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    200192 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3bb8d60966ee980c8e6ea2e940c41dd9
+SHA1:    0e7d3470ead9be46b0548120ef6d1b4dd5f04ca8
+ssdeep:  6144:/lxZCkM9+dGS4JMS+ii5SjyICtg78QczmalgsVq:T49+oMS+/SuICtgizplO
+Date:    0x4550D057 [Tue Nov  7 18:28:39 2006 UTC]
+EP:      0x481300 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x388f4 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8205c  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x50000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x51000      0x31000      0x30600      7.927179    [SUSPICIOUS]
+.rsrc      0x82000      0x1000       0x600        2.767483    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 1996-2006 Markus F.X.J. Oberhumer
+InternalName: upx.exe
+FileVersion: 2.03 (2006-11-07)
+CompanyName: The UPX Team http://upx.sf.net
+ProductName: UPX
+ProductVersion: 2.03 (2006-11-07)
+FileDescription: UPX executable packer
+OriginalFilename: upx.exe
+Translation: 0x0409 0x04b0
+

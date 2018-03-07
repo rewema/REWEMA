@@ -1,0 +1,157 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    839680 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     09130da3f4c0742bb871504999d07c48
+SHA1:    1459874a49cb5698d5f5a63870800c7c071ed639
+ssdeep:  24576:GoB+vKpvvgzRG++2mPvCDn5JQ1Ei8lVNYX7qJXyB:y4vgzRF+2mPvCDn5JQ1Ei8lVNo7qJXyB
+Date:    0x3BE0B7EC [Thu Nov  1 02:48:12 2001 UTC]
+EP:      0x44d680 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xd70fe [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x73388  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x73438  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x734e8  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x732d8  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72ad8  0x4a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x73938  0x248    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x731f0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x72020  0xab8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x71240  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x71410  0x590    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x73eb8  0x2c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x73b80  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x719a0  0x680    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x73598  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x73768  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x74178  0x248    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x743c0  0x554    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x72f78  0x278    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x74918  0x54b2a  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc9448  0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc9c30  0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xca418  0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcac00  0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcb3e8  0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcbbd0  0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6f560  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6f848  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6f970  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6faa0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x70948  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xcc6e8  0xc9e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xcc4d8  0x20e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xcd388  0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xcd498  0x26e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcd708  0x13e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcd848  0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcd968  0x272    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcdbe0  0x11e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcdd00  0x4d6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xce1d8  0x2be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xce498  0x3ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xce858  0x1b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcea10  0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcecc0  0x4e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcf1a8  0x214    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcf728  0x1be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcf4f8  0x22e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcf3c0  0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcf8e8  0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcfa10  0x342    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcfd58  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcfe18  0x9e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcfeb8  0x1ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd0078  0x1be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd0238  0xfe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd35d0  0xb6     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0xd0cd0  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd0ca0  0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2c60  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd21d0  0x180    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1cd0  0x1b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1e88  0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2350  0x9a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd23f0  0x23e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2a00  0xec     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2630  0xd2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2708  0x5e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd3090  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2af0  0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2928  0xd6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2768  0x146    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd28b0  0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd3260  0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd3330  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2c18  0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2d78  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd3528  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd2db8  0x2d2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd3568  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd0d80  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd0e00  0x166    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1070  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1630  0x32a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd13b0  0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd0f68  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd12d0  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd0db8  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0xd1960  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1a28  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1c20  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0xd06a0  0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x711f0  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 32x32, 16-colors
+RT_VERSION         0xd0338  0x364    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd0a18  0x283    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xd0828  0x105    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xd0930  0xe2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc418  0x3c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc3b8  0xe      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc3c8  0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc490  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc478  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc3f0  0x28     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc458  0xe      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc468  0x10     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc4a8  0x12     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xcc4c0  0x18     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4fee3      0x50000      6.371298    
+.rdata     0x51000      0x10c9e      0x11000      5.163832    
+.data      0x62000      0xb018       0x5000       5.406068    
+.rsrc      0x6e000      0x65688      0x66000      6.808553    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1997-2000
+InternalName: QooleME
+FileVersion: 0.99
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: Go to http://sourceforge.net/qoole
+ProductName: QooleME
+SpecialBuild: 
+ProductVersion: 0.99
+FileDescription: QooleME Application
+OriginalFilename: QooleME.exe
+Translation: 0x0409 0x04b0
+

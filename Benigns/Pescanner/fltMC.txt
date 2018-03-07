@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bcc07cc325d59f7f7b47cd137d5f927b
+SHA1:    fc2f3302739480971da44533aea95fed3889343c
+ssdeep:  384:9rM+t2BET2Dq0sfReM9MF8gSBxC6WzVKentk/tDCEyIE2ESP7SNtWH9Wmf:9UDq0sfReM9W8g2IfzVXKwE3E2Eu7SNG
+Date:    0x57899108 [Sat Jul 16 01:42:32 2016 UTC]
+EP:      0x403cb0 .text 0/5
+CRC:     Claimed: 0xc371, Actual: 0xc371 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7750   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a0   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2ad    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3ba4       0x3c00       6.036260    
+.data      0x5000       0x648        0x400        2.962547    
+.idata     0x6000       0xda0        0xe00        4.718795    
+.rsrc      0x7000       0x818        0xa00        3.707701    
+.reloc     0x8000       0x3d8        0x400        6.377779    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: fltMC.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Filter Manager Control Program
+OriginalFilename: fltMC.exe
+Translation: 0x0409 0x04b0
+

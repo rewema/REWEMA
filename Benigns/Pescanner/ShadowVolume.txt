@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    614400 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4de363c5c3d9da5fb01b68e33bbdf700
+SHA1:    3c70948a83bdb1be9bc7c4c829fde7b6cbec3486
+ssdeep:  6144:pVhONAO/fEjo+BG3UY/6C0y79r0Vw+uEiC3MgQeesQee0O7wjj2sInT9hQ1Mvose:QN+jo+BG3UY/D9r0++u98jj6dQ22OP
+Date:    0x3F6237CD [Fri Sep 12 21:17:01 2003 UTC]
+EP:      0x101a81a .text 0/3
+CRC:     Claimed: 0x971d8, Actual: 0x971d8 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x8069L => deflate
+   0x808bL => Jean-loup Gailly
+   0xfe01L => inflate
+   0xfe23L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x92648  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x92cb0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x92f98  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x930c0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x93f68  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x94810  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x94d78  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x97320  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x983c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x99008  0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x98f30  0xd4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x988f8  0x638    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x988b8  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (40006 records)
+RT_GROUP_ICON      0x98830  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_MANIFEST        0x92390  0x2b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x80d42      0x81000      6.709259    
+.data      0x82000      0xf914       0xc000       4.602057    
+.rsrc      0x92000      0x7098       0x8000       5.195773    
+

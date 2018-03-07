@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    180224 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d4571111030888f28cab810720d98475
+SHA1:    10159c1b29dbcfb53366dbf79f9b580bee977b5a
+ssdeep:  3072:vVTmVTsAZhmZIsXHNcbaJagiSHzYx/ivpzuoXF4Wn/7wd+j5KmmD2G:v0TsAZhmZteaJaYU0vZuMF4Wn/Ie
+Date:    0x4E1C92AF [Tue Jul 12 18:30:07 2011 UTC]
+EP:      0x41638c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x35592 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2b300  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2b428  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2b710  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2bd78  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2be28  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2bf58  0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c2e8  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c348  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c480  0x16a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c5f0  0xcc8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2c288  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x2d2b8  0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2d5d0  0x4cc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1bb5e      0x1c000      6.744567    
+.rdata     0x1d000      0xa222       0xb000       6.901949    
+.data      0x28000      0x259c       0x1000       1.668845    
+.rsrc      0x2b000      0x2aa0       0x3000       3.727467    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997-2011 Simon Tatham.
+InternalName: PuTTYgen
+FileVersion: Release 0.61
+CompanyName: Simon Tatham
+ProductName: PuTTY suite
+ProductVersion: Release 0.61
+FileDescription: PuTTY SSH key generation utility
+OriginalFilename: PuTTYgen
+Translation: 0x0809 0x04b0
+

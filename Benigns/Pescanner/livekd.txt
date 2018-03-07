@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    641184 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     78b9872cc42831651fb2a598b17c03fb
+SHA1:    2c2dd61a947fe823a9e0e27c9302d9cfc4990ac8
+ssdeep:  6144:JELRloQKDevVuE9w16yRE1hYEtOKnr9U8yDNC1fTJGPn9+KT82fSsf6xi/26fYPp:JELRlrMRYYEoMqD/+aeRwU1npXx
+Date:    0x591A74D9 [Tue May 16 03:41:13 2017 UTC]
+EP:      0x409663 .text 0/5
+CRC:     Claimed: 0xa257c, Actual: 0xa257c 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x26926L => This program cannot be run in DOS mode
+   0x30c5eL => This program cannot be run in DOS mode
+   0x7d536L => This program cannot be run in DOS mode
+   0x89076L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x2a4d8  0xa338   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (DLL) (native) Intel 80386 32-bit
+BINRES             0x34810  0x664a0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (console) Mono/.Net assembly
+RT_DIALOG          0x9acb0  0xd2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2a1b0  0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9ad88  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ReadProcessMemory
+CreateProcessA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x15f44      0x16000      6.612768    
+.rdata     0x17000      0xe3e0       0xe400       4.720586    
+.data      0x26000      0x3cc0       0x1c00       2.754102    
+.rsrc      0x2a000      0x70f08      0x71000      6.387777    
+.reloc     0x9b000      0x1520       0x1600       6.591297    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000-2017 Mark Russinovich and Ken Johnson
+InternalName: livekd
+FileVersion: 5.62
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals LiveKd
+ProductVersion: 5.62
+FileDescription: livekd
+OriginalFilename: livekd.exe
+Translation: 0x0409 0x04b0
+

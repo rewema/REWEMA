@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    106496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7617715badd790c52d1de4b911b5463c
+SHA1:    507cf9348b026b8717b4463990c5625291c64d70
+ssdeep:  1536:nZOth4GAGjhDjkGFXhxgODUlhxTF3RUOiqLfHg:AkGjhkGFvgODMrTF3RUVqL
+Date:    0x44FA7347 [Sun Sep  3 06:16:39 2006 UTC]
+EP:      0x40f17e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x24e6f [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x190f8  0x640    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18510  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x189b0  0x424    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x18810  0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19738  0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x197e0  0x3c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x187f8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x18dd8  0x31c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x18270  0x299    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf222       0x10000      5.949243    
+.rdata     0x11000      0x43ba       0x5000       4.142562    
+.data      0x16000      0x1370       0x2000       3.313252    
+.rsrc      0x18000      0x1820       0x2000       3.224411    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2006 Hans Dietrich
+FileVersion: 1, 4, 0, 1
+ProductName: XListCtrlTest
+E-mail: hdietrich@gmail.com
+ProductVersion: 1, 4, 0, 1
+FileDescription: XListCtrlTest - XListCtrl Dialog Demo
+Article: http://www.codeproject.com/listctrl/xlistctrl.asp
+Translation: 0x0409 0x04b0
+

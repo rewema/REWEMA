@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    614752 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ff1f6e01baafe57e5822056e8b8d592d
+SHA1:    2a2b89a40d0723ffb40f7735ecab1a3f83016464
+ssdeep:  12288:31mt0LDl13KSfflI+3xp/XpLpMUAK26Nnw:b13vfflIWp/pLp06Nnw
+Date:    0x57898FE8 [Sat Jul 16 01:37:44 2016 UTC]
+EP:      0x46ee10 .text 0/5
+CRC:     Claimed: 0x981cd, Actual: 0x981cd 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TYPELIB            0x8a100  0x56a0   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x8fb80  0xa4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8f7a0  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7e770      0x7e800      6.364572    
+.data      0x80000      0x63e8       0x5a00       5.077357    
+.idata     0x87000      0x2a1e       0x2c00       5.617753    
+.rsrc      0x8a000      0x5c28       0x5e00       4.773010    
+.reloc     0x90000      0x6f98       0x7000       6.552693    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AppVClient.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Application Virtualization Client Service
+OriginalFilename: AppVClient.exe
+Translation: 0x0409 0x04b0
+

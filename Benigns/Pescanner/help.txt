@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10240 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     9ac325ad8393459678dc4a0851ca62ba
+SHA1:    7a76169f56a5edb4baa3a3a302efe3e5d9db3535
+ssdeep:  192:gF5KNOSXvL9tT7DNV2qMAQckgWjcWfsb+z0:VFXvL39Va5gWjcW0F
+Date:    0x57898F5D [Sat Jul 16 01:35:25 2016 UTC]
+EP:      0x401a80 .text 0/5
+CRC:     Claimed: 0x9ff2, Actual: 0x9ff2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5730   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5398   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x2a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10ac       0x1200       5.532355    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x4a6        0x600        4.212003    
+.rsrc      0x5000       0x7f8        0x800        4.341758    
+.reloc     0x6000       0x180        0x200        5.214081    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Help
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Command Line Help Utility
+OriginalFilename: Help.Exe
+Translation: 0x0409 0x04b0
+

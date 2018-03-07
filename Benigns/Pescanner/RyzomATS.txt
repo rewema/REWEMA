@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    73728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     50a142221964d3de5ada08a2a488003d
+SHA1:    d592d83ea462bfbdfd24ceabcae3b1a2b8e976fe
+ssdeep:  768:FttxFKEKLUvrFj7b0VnO0VnO0VnO0VnhEuS4Y2xwzRnkt50Vn:Ftte1UtEnOEnOEnOEnhNdRwdY5En
+Date:    0x41BEE6C1 [Tue Dec 14 13:12:33 2004 UTC]
+EP:      0x40f8fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1b9ea [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x105b8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x106e0  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x10c48  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x10f30  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x117d8  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x10178  0x440    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xd904       0xe000       5.459189    
+.rsrc      0x10000      0x1818       0x2000       4.040595    
+.reloc     0x12000      0xc          0x1000       0.009845    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: All brands, product names, and logos are trademarks or registered trademarks of their respective owners
+Assembly Version: 1.1.1809.25577
+InternalName: RyzomATS.exe
+FileVersion: 1.1.1809.25577
+CompanyName: Tool by Kaetemi
+Comments: Ryzom Client Manager
+ProductName: Ryzom Client Manager
+ProductVersion: 1.1.1809.25577
+FileDescription: Ryzom Client Manager
+OriginalFilename: RyzomATS.exe
+

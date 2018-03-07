@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    643784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1aa2a3d50826b84fa33c12ae011da0fb
+SHA1:    28ca024d09b82751a8fa44d7f4e452a959e5d7fa
+ssdeep:  12288:ZfPi1dJU0L/vI9mOxPEUKRknYYJ2tHhyXxAeUgrSACI7XHgZQKhJgeCmAQ8:ZfPi1dJU43I98U7nYYJ2tHhADSANLHgB
+Date:    0x45F723CD [Tue Mar 13 22:21:01 2007 UTC]
+EP:      0x30063026 .text 0/4
+CRC:     Claimed: 0xaaaaa, Actual: 0xaaaaa 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xbe5e0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbe8c8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xbe9f0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbf298  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xbf800  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc08a8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MESSAGETABLE    0xc0d70  0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_GROUP_ICON      0xc0d10  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 16-colors
+RT_VERSION         0xc1170  0x4d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xbe270  0x369    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+CreateRemoteThread
+OpenProcess
+ReadProcessMemory
+ShellExecuteExA
+InternetReadFileExA
+HttpSendRequestExA
+InternetConnectA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x644da      0x64600      6.638783    
+.data      0x66000      0x569d4      0x31000      7.634157    [SUSPICIOUS]
+.cdata     0xbd000      0x4          0x200        0.081539    [SUSPICIOUS]
+.rsrc      0xbe000      0x3648       0x3800       5.733474    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1999-2003 Microsoft Corporation.  All rights reserved.
+InternalName: DW20
+FileVersion: 11.0.8160
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Application Error Reporting
+ProductVersion: 11.0.8160
+FileDescription: Microsoft Application Error Reporting
+OriginalFilename: DW20.Exe
+Translation: 0x0000 0x04e4
+

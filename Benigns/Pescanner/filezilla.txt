@@ -1,0 +1,144 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12423640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     69ff1454bda9960b3df3764080577553
+SHA1:    b01298d1cc341a815183195b6b4242f93fb5fca7
+ssdeep:  196608:TMPyNYJ5lCXdDJU1O05WAXfGWeSo/pL2yPd3VXZZSr2cauP+zuRTMuS9urURhevP:xYJ4eXfGWe31lwagDRe9uKhevqEXWRQZ
+Date:    0x6        [Thu Jan  1 00:00:06 1970 UTC] [SUSPICIOUS]
+EP:      0x4014c0 .text 0/8
+CRC:     Claimed: 0xbe8274, Actual: 0xbe8274 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xb573c1L => deflate
+   0xb573e3L => Jean-loup Gailly
+   0xb58081L => inflate
+   0xb573f8L => Mark Adler
+   0xb580a3L => Mark Adler
+YARA: irc
+   0xb5a0d3L => join
+   0xb5a1f2L => JOIN
+   0xb5b396L => join
+   0xb5c5ceL => join
+   0xb5c62aL => join
+   0xb5c637L => join
+   0xadb8c4L => part
+   0xadebb8L => part
+   0xb5b3efL => PART
+   0xb5b43eL => part
+   0xac866cL => ping
+   0xac869bL => PING
+   0xb08dd6L => QUIT
+   0xb2500fL => Quit
+   0xb25014L => Quit
+   0xb25becL => Quit
+
+
+TLS callbacks
+================================================================================
+    0xd10370
+    0xd10320
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xc06ec8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xc07000 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0xc07138 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xc07270 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xc073a8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xc074e0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0xc07618 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xc07750 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xc07888 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xc079c0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_BITMAP          0xc07af8 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc07bb8 0x6c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc07c28 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc08190 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc08a38 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc098e0 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc0be88 0x485d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xc106e8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc109d0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc10af8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc11060 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc11188 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc116f0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc11818 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc11d80 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc11ea8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc12410 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc12538 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc12aa0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc12bc8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc13130 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc13258 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc137c0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc138e8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc13e50 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0xc13f78 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0xc14030 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc14048 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc14060 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc14078 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc14090 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc140a8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc140c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc140d8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc140f0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xc14108 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0xc14120 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc14170 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0xc14198 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc141c0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc141e8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc14210 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc14238 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc14260 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc14288 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xc142b0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0xc142d8 0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc14600 0x682    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+OpenProcess
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa9356c     0xa93600     6.082153    
+.data      0xa95000     0x9a50       0x9c00       1.669084    
+.rdata     0xa9f000     0x125a0c     0x125c00     6.370860    
+.bss       0xbc5000     0x38680      0x0          0.000000    [SUSPICIOUS]
+.idata     0xbfe000     0x58c8       0x5a00       5.681459    
+.CRT       0xc04000     0x34         0x200        0.284307    [SUSPICIOUS]
+.tls       0xc05000     0x20         0x200        0.210826    [SUSPICIOUS]
+.rsrc      0xc06000     0xec88       0xee00       6.031689    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2006-2015
+InternalName: FileZilla 3
+FileVersion: 3, 14, 1, 0
+CompanyName: FileZilla Project
+Comments: Version 3.14.1
+ProductName: FileZilla
+ProductVersion: 3, 14, 1, 0
+FileDescription: FileZilla FTP Client
+OriginalFilename: filezilla.exe
+Translation: 0x0000 0x04b0
+

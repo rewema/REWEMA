@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    548352 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     65030326a1aa04eae5fc276b184df85e
+SHA1:    b4cc8260b620b759a5c5182a58d3bd95a8c8aafe
+ssdeep:  12288:XTAiKV3EMn/U/jDxttFjBjqJsy35UnW9uppdN2G:XTAiKV3EMn/GQsy3in/B
+Date:    0x48555959 [Sun Jun 15 18:03:05 2008 UTC]
+EP:      0x401220 .text 0/6
+CRC:     Claimed: 0x8d261, Actual: 0x8d261 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8d058  0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x40bf0      0x40c00      6.101216    
+.data      0x42000      0x201b0      0x20200      0.010783    [SUSPICIOUS]
+.rdata     0x63000      0x23b00      0x23c00      0.884387    [SUSPICIOUS]
+.bss       0x87000      0x4be0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x8c000      0xacc        0xc00        4.664417    
+.rsrc      0x8d000      0x37c        0x400        2.998245    
+
+Version info
+================================================================================
+LegalCopyright: 2008 wiktor w. brodlo, distributed under the GPLv3
+InternalName: CMDREGED
+FileVersion: 0.1.0.0
+CompanyName: 
+LegalTrademarks: 
+ProductName: CMDREGED
+ProductVersion: 0.1.0.0
+FileDescription: Text mode registry editor
+OriginalFilename: cmdreged.exe
+Translation: 0x0809 0x04e4
+

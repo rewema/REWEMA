@@ -1,0 +1,85 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12519969 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     60493890ba5a50f1a64f26041a057a5b
+SHA1:    3094528e853917868cf8095a614699acc70bb833
+ssdeep:  196608:yEwnju93LLqBQDx/pf1+JtnIfASTyK2IX1ub5mta4tpbobxm+Ons6ySJOoV:yru93sQb1+JefjTyKzNtRpbB7F8oV
+Date:    0x3E510E5B [Mon Feb 17 16:31:23 2003 UTC]
+EP:      0x404bb3 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xbf0efe [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x86dc4eL => This program cannot be run in DOS mode
+   0x884e7aL => This program cannot be run in DOS mode
+   0xa25dcaL => This program cannot be run in DOS mode
+   0xbe29ceL => This program cannot be run in DOS mode
+YARA: irc
+   0xb3e2aL => MsG
+   0x334ff8L => mSG
+   0x40232cL => MsG
+   0x515e00L => msG
+   0x6fbcbbL => Msg
+   0x75844fL => mSg
+   0x25f57L => notice
+   0x2633dL => notice
+   0x27de9L => notice
+   0x284a7L => notice
+   0x28503L => notice
+   0x28561L => notice
+   0x285cfL => notice
+   0x28635L => notice
+   0x28a69L => notice
+   0x28b46L => notice
+   0x28b78L => notice
+   0x2940dL => notice
+   0x2999bL => notice
+   0x2a0f7L => notice
+   0x2a157L => notice
+   0x2a299L => notice
+   0x2a3c2L => notice
+   0x2bbf1L => notice
+   0x15df0L => part
+   0x17d5dL => part
+   0x17e52L => part
+   0x19070L => part
+   0x1d94cL => part
+   0x26291L => part
+   0x26b96L => part
+   0x270b1L => part
+   0x274fdL => part
+   0x29ca1L => PART
+   0x20d0fL => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0x12270  0x2b4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_ICON            0x12528  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12190  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x12810  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x96b2       0xa000       6.405305    
+.rdata     0xb000       0x17e4       0x2000       3.956669    
+.data      0xd000       0x4840       0x4000       1.520886    
+.rsrc      0x12000      0x828        0x1000       2.850967    
+

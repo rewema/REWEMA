@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d703b91c58c6f200d91e67f4dcc5b91a
+SHA1:    e55f7842b70536124aea6dc9fef67c9da5fa3658
+ssdeep:  48:66R3Pg2zPKBmt0WEnqzVXDH3RhDduJVTvDcsDrFRNm2apsL7ol1/3Hm1F:vR/g2rFOWCSXDHTOT7RHNmoofP
+Date:    0x45A64D86 [Thu Jan 11 14:45:26 2007 UTC]
+EP:      0x402a2e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x40e8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa34        0x1000       3.871505    
+.rsrc      0x4000       0x338        0x1000       0.845378    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 arturo182 2007
+Assembly Version: 1.0.0.0
+InternalName: SansaBMP.exe
+FileVersion: 1.0.0.0
+ProductName: SansaBMP
+ProductVersion: 1.0.0.0
+FileDescription: SansaBMP by arturo182
+OriginalFilename: SansaBMP.exe
+

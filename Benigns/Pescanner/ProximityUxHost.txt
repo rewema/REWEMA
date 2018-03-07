@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    232904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b765418464a273d6c1122f54aae20a3a
+SHA1:    710ff1952e0ba21c73a635fcbd57f357877849b6
+ssdeep:  3072:EeYZoXSK+erS1g7UPx+4PeEKh7aq9n4443BXm+8tfnaB/v6FgzP5S:EjV0h2q43BXm+8xn0MgzhS
+Date:    0x57898F5F [Sat Jul 16 01:35:27 2016 UTC]
+EP:      0x42dd10 .text 0/6
+CRC:     Claimed: 0x416fb, Actual: 0x416fb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x35a78  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x349a0  0x10d7   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_VERSION         0x345e8  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x34150  0x496    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2d8a8      0x2da00      6.459684    
+.imrsiv    0x2f000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x30000      0x750        0x200        2.548330    
+.idata     0x31000      0x2e66       0x3000       5.418568    
+.rsrc      0x34000      0x1b50       0x1c00       5.088761    
+.reloc     0x36000      0x360c       0x3800       6.746181    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ProximityUxHost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Proximity UX Host
+OriginalFilename: ProximityUxHost.exe
+Translation: 0x0409 0x04b0
+

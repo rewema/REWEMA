@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19808 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6046950fc9ca5b7a7e084c189658dacb
+SHA1:    a39ce2eabf6c9493effd3fec1226061cb1b086e6
+ssdeep:  384:q8ZKHtffwK/8LCsSW/5WyqolRDBRJ73lJQfy:lYXwK0LCs7Jqk1PT9
+Date:    0x5789917A [Sat Jul 16 01:44:26 2016 UTC]
+EP:      0x4018f0 .text 0/5
+CRC:     Claimed: 0x14577, Actual: 0x14577 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5060   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x152c       0x1600       5.737667    
+.data      0x3000       0x390        0x200        0.199776    [SUSPICIOUS]
+.idata     0x4000       0x840        0xa00        4.205074    
+.rsrc      0x5000       0x3f0        0x400        3.273172    
+.reloc     0x6000       0x170        0x200        5.007300    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dllhost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: COM Surrogate
+OriginalFilename: dllhost.exe
+Translation: 0x0409 0x04b0
+

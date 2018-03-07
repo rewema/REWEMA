@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ad0452a1153bee7ed8048ab5043c59f8
+SHA1:    1bc4a32f4dec0722565383e27c93f3d82fa518d5
+ssdeep:  384:N5uPyK4guR6OattDG6ml07Hr4yyFW5raJqknrh6oHi2Wna9K9K9K9HWef:XuKSWktDzYy184krh6oC2Wa444dWU
+Date:    0x43BD363E [Thu Jan  5 15:07:42 2006 UTC]
+EP:      0x401ad0 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x16fac [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x8230   0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8498   0x17d8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9c70   0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa588   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x9ed8   0x2a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xa178   0x40e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xa870   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xa888   0x2e0    LANG_NEUTRAL SUBLANG_DEFAULT          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x334e       0x4000       5.711920    
+.rdata     0x5000       0xab0        0x1000       4.064865    
+.data      0x6000       0xb3c        0x1000       1.543606    
+.global    0x7000       0x4          0x1000       0.000000    
+.rsrc      0x8000       0x2b68       0x3000       2.818678    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Grame 1996
+InternalName: msControl32
+FileVersion: 1.02
+CompanyName: Grame
+ProductName: GRAME msControl32
+ProductVersion: 1.02
+FileDescription: MidiShare Universal Controler
+OriginalFilename: msControl32.exe
+Translation: 0x0000 0x04b0
+

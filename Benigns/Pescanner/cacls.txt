@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    27648 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     87fdb9aa5be6641368e858252eee6200
+SHA1:    9761d36f8ec5d019d3d60fa6e9f8950ab2ca0938
+ssdeep:  768:5X/pSxwCXPUnA9j6pYE40NYV59V6mf+We9br:5PpSVXPJ9miE40NQ59Qmf+We9br
+Date:    0x57898F13 [Sat Jul 16 01:34:11 2016 UTC]
+EP:      0x404fe0 .text 0/5
+CRC:     Claimed: 0x12aa2, Actual: 0x12aa2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8728   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x80f0   0x2a3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4754       0x4800       6.322305    
+.data      0x6000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x7000       0xf48        0x1000       4.795130    
+.rsrc      0x8000       0x7f0        0x800        4.325073    
+.reloc     0x9000       0x440        0x600        5.389029    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: cacls
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Control ACLs Program
+OriginalFilename: CACLS.EXE
+Translation: 0x0409 0x04b0
+

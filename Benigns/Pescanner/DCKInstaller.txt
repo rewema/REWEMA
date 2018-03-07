@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    778240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1e3bb4f1d89e0203888297e3399f38e4
+SHA1:    5033a479c988285659664f5f306b801a6ec986ad
+ssdeep:  3072:f1APfH4aUJ3oRUR0RnWRzRtRxxmXeQ5DiZp/+gWZdf61ajljZDR:f1A4VeUxranry1ahj
+Date:    0x434780F8 [Sat Oct  8 08:19:04 2005 UTC]
+EP:      0x402410 .text 0/3
+CRC:     Claimed: 0xc15f6, Actual: 0xc15f6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xbfedc  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xbf234  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xbe38c  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xbe35c  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0xbe150  0x20c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb8260      0xb9000      4.188669    
+.data      0xba000      0x3e00       0x1000       0.000000    
+.rsrc      0xbe000      0x2244       0x3000       3.769407    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+ProductVersion: 0.06.0004
+InternalName: DCKInstaller
+FileVersion: 0.06.0004
+OriginalFilename: DCKInstaller.exe
+ProductName: DCKInstaller
+

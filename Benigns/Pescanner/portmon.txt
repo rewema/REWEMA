@@ -1,0 +1,97 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    451392 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1276acf39b37a99ea14e760870025584
+SHA1:    41e9edcf56fcd7c6b67256582673bb791bdfcac7
+ssdeep:  6144:K95pV/5m+bcFpXrvXAY9OPI2AFWN6EtKhpOFgX5D20zrwqO8mKlqdAUN8wBqU2:+7+9iSFyQhAyJD7m1dAK8wEU2
+Date:    0x4F10CB0A [Sat Jan 14 00:23:38 2012 UTC]
+EP:      0x413b0e .text 0/4
+CRC:     Claimed: 0x76981, Actual: 0x76981 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x3b90aL => This program cannot be run in DOS mode
+   0x5a30aL => This program cannot be run in DOS mode
+   0x612faL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0xa9abc  0x1ea00  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (console) Intel 80386 32-bit
+BINRES             0xc84bc  0x6ff0   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (native) Intel 80386 32-bit
+BINRES             0xcf4ac  0x7245   LANG_ENGLISH SUBLANG_ENGLISH_US       MS-DOS executable, LE executable for MS Windows (VxD)
+RT_BITMAP          0xd66f4  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xd6758  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xd67bc  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xd6820  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xd6884  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xd68e8  0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd7490  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd7778  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd78a8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xd7b90  0x41e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd7fb0  0x1ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd8180  0x45e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd85e0  0x138    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd8718  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd87d4  0xdc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd88b0  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd8978  0x2ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd8c48  0x246    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd8e90  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd9258  0x226    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd9480  0x1e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd9664  0x26a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd98d0  0x222    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd9af4  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd9ba0  0x208    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd9da8  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd9e98  0x16e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xda008  0x1ae    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xda1b8  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xda1f4  0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xda318  0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xda368  0x32     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0xda39c  0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xda41c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xda430  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xda454  0x2e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xda738  0x165    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceA
+CreateServiceA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x309b2      0x30a00      6.573846    
+.rdata     0x32000      0x4298       0x4400       5.532152    
+.data      0x37000      0x71fcc      0x5c00       5.015356    
+.rsrc      0xa9000      0x318a0      0x31a00      6.129625    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1999-2010 Mark Russinovich
+InternalName: Portmon
+FileVersion: 3.03
+CompanyName: SysInternals
+ProductName: SysInternals Portmon
+ProductVersion: 3.03
+FileDescription: Portmon/EE
+OriginalFilename: Portmon.exe
+Translation: 0x0409 0x04b0
+

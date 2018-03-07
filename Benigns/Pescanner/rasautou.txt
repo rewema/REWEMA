@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15872 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     414104c05ae2d915ec2d7524ac8510f9
+SHA1:    4952842970718ab140cf7ceb632c36d87cdee277
+ssdeep:  384:jx9Lr6ulwPhwS+Xsm07G2/W/trZuNpqWoBW:P6uS6SNmiGqKCNpE
+Date:    0x578990EE [Sat Jul 16 01:42:06 2016 UTC]
+EP:      0x402720 .text 0/6
+CRC:     Claimed: 0xd621, Actual: 0xd621 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x68a8   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x6508   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60f0   0x411    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e50       0x2000       5.892422    
+.data      0x3000       0x38c        0x200        0.249053    [SUSPICIOUS]
+.idata     0x4000       0x788        0x800        4.824325    
+.didat     0x5000       0x10         0x200        0.138078    [SUSPICIOUS]
+.rsrc      0x6000       0x970        0xa00        4.345434    
+.reloc     0x7000       0x268        0x400        4.643493    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: rasdlui.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Remote Access Dialer
+OriginalFilename: rasdlui.exe
+Translation: 0x0409 0x04b0
+

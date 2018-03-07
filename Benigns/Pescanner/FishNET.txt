@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e45d59fa2e75f04e1ca8456ebd925624
+SHA1:    8e70c4d5581ccacaea28de3d8e3a36058656a997
+ssdeep:  96:YJrQB5tPBX2m1+z/JuDO90oy7bDxKjthThLDa4faRtwZL3/aLvKjaJ6x:9SJua03boh9lDa4faRtGLPaLd
+Date:    0x3C7306F0 [Wed Feb 20 02:16:16 2002 UTC]
+EP:      0x4037ce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x7844 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4508   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x47f0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4918   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x3ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x17d4       0x1800       5.433552    
+.rsrc      0x4000       0x940        0xa00        3.261004    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 2002 Ian R. Christian
+Assembly Version: 1.0.780.38288
+InternalName: FishNET.exe
+FileVersion: 1.0.780.38288
+CompanyName:  
+LegalTrademarks:  
+Comments: Provides a scripting environment for .NET Language source files
+ProductName: FishNET Script Engine
+ProductVersion: 1.0.780.38288
+FileDescription: FishNET Script Engine
+OriginalFilename: FishNET.exe
+

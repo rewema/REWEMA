@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b2dd81b2671fd9cd7461d76323976713
+SHA1:    fab766ba8ac45a8e82ddaf5df1dbd3d522a91d57
+ssdeep:  384:cwEJXGhL+Lq2ZXGEGEGEGEGgJXtaKaE2L+Lq2Z89OvEGEGab6wlelNZ:TJB2ZxKB2ZwTW
+Date:    0x411D3D06 [Fri Aug 13 22:13:26 2004 UTC]
+EP:      0x405eae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xb8d9 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6400   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x66e8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6810   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x2e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3eb4       0x4000       5.300647    
+.rsrc      0x6000       0x838        0x1000       1.984882    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.0.1
+InternalName: UpdaterTest.exe
+FileVersion: 1.0.0.1
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.0.1
+FileDescription:  
+OriginalFilename: UpdaterTest.exe
+

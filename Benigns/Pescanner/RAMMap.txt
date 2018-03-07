@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    625816 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     324939df8d069dbe5150e772839a5012
+SHA1:    708d643b746e8a22164a50790a50efe1e9eb8e3f
+ssdeep:  12288:6WABaqilusbSKJm+OOyqt2r8vMHAEbl1eUG0eIxsce3:6O3uslJHryo6cgAEmUnxsce3
+Date:    0x56A9C0D4 [Thu Jan 28 07:18:44 2016 UTC]
+EP:      0x41a4ef .text 0/5
+CRC:     Claimed: 0xa2c5a, Actual: 0xa2c5a 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x3f11eL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x434d0  0x532a0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (GUI) Mono/.Net assembly
+RT_CURSOR          0x42cf8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x41a68  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x41ba8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x41ce8  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x41888  0x1e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40770  0x362    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40ad8  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40ca8  0x10a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40db8  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40c30  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40670  0xfc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40e70  0x690    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41500  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41578  0x30e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x42cc0  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x42e30  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x42990  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x41b90  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x41cd0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x429a8  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x42e48  0x684    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+OpenProcessToken
+StartServiceW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2a377      0x2a400      6.618451    
+.rdata     0x2c000      0xfb9c       0xfc00       5.093220    
+.data      0x3c000      0x3aec       0x1800       3.585748    
+.rsrc      0x40000      0x56770      0x56800      6.231740    
+.reloc     0x97000      0x2998       0x2a00       6.659192    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2010-2016 Mark Russinovich
+InternalName: RamMap
+FileVersion: 1.50
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: RamMap
+ProductVersion: 1.50
+FileDescription: RamMap - physical memory analyzer
+OriginalFilename: RamMap
+Translation: 0x0409 0x04b0
+

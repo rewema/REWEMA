@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     80d4eff132908f6c2928b05701e43c7d
+SHA1:    1b1e14c48ca8c3d7e82de8fb22127b9d89e6300f
+ssdeep:  192:+1IsmKBeI89X2Ct7gTdDtD1MFaQtxqkAWJNWG7efZ:wIw89X2ChaTDWFVx6WJNW6E
+Date:    0x5789918B [Sat Jul 16 01:44:43 2016 UTC]
+EP:      0x401c40 .text 0/6
+CRC:     Claimed: 0xafc8, Actual: 0xafc8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6530   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60a0   0x48d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1330       0x1400       5.728768    
+.data      0x3000       0x380        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x4b0        0x600        4.225609    
+.didat     0x5000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x6000       0x8f0        0xa00        4.343262    
+.reloc     0x7000       0x1bc        0x200        5.743759    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: verclsid.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Extension CLSID Verification Host
+OriginalFilename: verclsid.exe
+Translation: 0x0409 0x04b0
+

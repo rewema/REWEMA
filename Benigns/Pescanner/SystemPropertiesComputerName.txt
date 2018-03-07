@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    82944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9bd8582697d4a2c519c2a64ffe940917
+SHA1:    173d8e2a8e4e07f8f943918eeced361138ec447c
+ssdeep:  1536:LAGUtREC/rMcgEPJV+G57ThjEC0kzJP+V5J9:pUzECTMpuDhjRVJGX
+Date:    0x578990E3 [Sat Jul 16 01:41:55 2016 UTC]
+EP:      0x4016c0 .text 0/5
+CRC:     Claimed: 0x1ca4c, Actual: 0x1ca4c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x16680  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4820   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e88   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5170   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5298   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6140   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69e8   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6f50   0xb7e8   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x12738  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14ce0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15d88  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x161f0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x16288  0x3f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4330   0x4eb    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcf4        0xe00        5.462835    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x4c6        0x600        3.998648    
+.rsrc      0x4000       0x12750      0x12800      7.275336    [SUSPICIOUS]
+.reloc     0x17000      0x138        0x200        4.461775    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SystemPropertiesComputerName
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Change Computer Settings
+OriginalFilename: SystemPropertiesComputerName.EXE
+Translation: 0x0409 0x04b0
+

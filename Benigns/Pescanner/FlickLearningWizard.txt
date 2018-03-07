@@ -1,0 +1,78 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    786432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6f8106c4ed957e528f4cb1b1bbc0194b
+SHA1:    ddfb1c055d7715b128b641008c9841680bea8174
+ssdeep:  6144:azp7ElrVNs6+X7jiNs6+X7j6GBRCPwaMuRd27vMaIlvFsP:azp7EW6+X/P6+X/6YCoPsk7vFIlv
+Date:    0x57898E83 [Sat Jul 16 01:31:47 2016 UTC]
+EP:      0x413e80 .text 0/5
+CRC:     Claimed: 0xcec66, Actual: 0xcec66 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc0bf8  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+PNG                0xbec00  0xe2b    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0xbfa30  0xdd2    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_BITMAP          0x3d678  0x36f12  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x74590  0x4a66a  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3d250  0x428    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x19b30  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a198  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a480  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a5a8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b450  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1bcf8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c260  0xb90d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x27b70  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2a118  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2b1c0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2b6c0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2bd28  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c010  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2c138  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cfe0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d888  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2ddf0  0xb90d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x39700  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3bca8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3cd50  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2b628  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x3d1b8  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xc0808  0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x19670  0x4bd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14c98      0x14e00      6.497867    
+.data      0x16000      0x99c        0x600        5.182470    
+.idata     0x17000      0x1692       0x1800       5.336763    
+.rsrc      0x19000      0xa7cf0      0xa7e00      5.614040    
+.reloc     0xc1000      0x111c       0x1200       6.628489    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: FlickLearningWizard.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 10.0.14393.0
+FileDescription: Flicks Training
+OriginalFilename: FlickLearningWizard.exe
+Translation: 0x0409 0x04b0
+

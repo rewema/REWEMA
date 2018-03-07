@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    592384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b230a403980218c0b729d8cf35397228
+SHA1:    08fda474146c1a77ccd2405c5e8c8f5c2eff2623
+ssdeep:  12288:2dKF0ayKazEKxsBRVmtq1KZ8p0caCDTi:aKGK2sBvmMQZ8C6DTi
+Date:    0x57899039 [Sat Jul 16 01:39:05 2016 UTC]
+EP:      0x463840 .text 0/6
+CRC:     Claimed: 0x9326f, Actual: 0x9326f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8d1e0  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x86370  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x86670  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x86958  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x86a80  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x87328  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x87890  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x88938  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_FONTDIR         0x8d140  0x9b     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_FONT            0x890d8  0x3ce0   LANG_ENGLISH SUBLANG_ENGLISH_US       TrueType font data
+RT_GROUP_ICON      0x86658  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x88da0  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 16-colors
+RT_VERSION         0x8cdb8  0x388    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x88e00  0x2d5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x70ae0      0x70c00      6.291158    
+.imrsiv    0x72000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x73000      0xf054       0xd000       5.344234    
+.idata     0x83000      0x2e60       0x3000       5.424354    
+.rsrc      0x86000      0x72b8       0x7400       5.241654    
+.reloc     0x8e000      0x8538       0x8600       6.515960    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Game Bar
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Game Bar
+OriginalFilename: gamepanel.exe
+Translation: 0x0409 0x04b0
+

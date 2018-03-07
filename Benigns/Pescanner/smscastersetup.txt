@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2158960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1f8b4fb7b6b2340d9557818c80ed5e07
+SHA1:    5ae7ef811b68710e33b9b1d9c8e0de5f6fd37420
+ssdeep:  49152:8hiAWCp2J7E6Ra0oaVDlGZB4JchOHUteROqNHCvt4aTu:8oAQJ7E+ZoaDGZB4Jch6UcRhi1nu
+Date:    0x4BC0AE17 [Sat Apr 10 16:57:59 2010 UTC]
+EP:      0x4163c4 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x210bbc [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2341c  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x23544  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x23aac  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x23d94  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x2463c  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x24700  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x247cc  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24940  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24cdc  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x25028  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x252bc  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x2d5a4  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x2d5b4  0x194    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2d748  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x2d774  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x2d7b4  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x2dc6c  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1468c      0x14800      6.466211    
+.itext     0x16000      0xb34        0xc00        5.794709    
+.data      0x17000      0xd9c        0xe00        2.677466    
+.bss       0x18000      0x5714       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1e000      0xf9e        0x1000       4.967783    
+.tls       0x1f000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x20000      0x18         0x200        0.190489    [SUSPICIOUS]
+.reloc     0x21000      0x1944       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x23000      0xb200       0xb200       4.160387    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2010 SDJ Software Limited                                                               
+FileVersion: 3.7.0.1784          
+CompanyName: SDJ Software Limited                                        
+Comments: This installation was built with Inno Setup.
+ProductName: SMSCaster E-Marketer GSM Standard                           
+ProductVersion: 3.7.0.1784          
+FileDescription: SMSCaster E-Marketer GSM Standard v3.7 (build 1784)         
+Translation: 0x0000 0x04b0
+

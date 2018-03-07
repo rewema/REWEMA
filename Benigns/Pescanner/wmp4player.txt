@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    184464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c92d13f99cd7b80b1a7ca1a1bc453618
+SHA1:    6a9b5d07121776d94f516edd2d8ca19e75f67f44
+ssdeep:  768:VNAKlnPSiPUT6J1RB1aTZlua2P0dKaNppCw3Wj6uedDrhBZbky:UKFPSiPl1RB1aTZ72PAKa113jue9Zbr
+Date:    0x3D592953 [Tue Aug 13 15:44:19 2002 UTC]
+EP:      0x409830 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x39b47 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x27370  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x25180  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x28810  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x24730  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x24208  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x27dc0  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x27898  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x24c58  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x282e8  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x256a8  0x1cc4   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22bc0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22ea8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x22ff8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x232e0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x23430  0x516    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x239f0  0x142    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x23b38  0x286    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x23dc0  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2a0c8  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2a178  0x258    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28d38  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29c98  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29e68  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28dd0  0xa2     LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_STRING          0x28ec0  0x16e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x292c8  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29678  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29608  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29030  0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29528  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x28e78  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0x299a0  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29a18  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x29c10  0x86     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x23948  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x22fd0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x23408  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x23ef0  0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1b9a0      0x1c000      2.680999    
+.rdata     0x1d000      0x1f94       0x2000       3.941576    
+.data      0x1f000      0xdc8        0x1000       1.615387    
+.idata     0x20000      0x13c0       0x2000       3.052475    
+.rsrc      0x22000      0x9cd3       0xa000       3.942273    
+.reloc     0x2c000      0xe0e        0x1000       5.036564    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002
+InternalName: wmp4player
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: wmp4player Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: wmp4player MFC Application
+OriginalFilename: wmp4player.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17760 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c05e66b02405e6c3c5508f95aeeffb0e
+SHA1:    952cd05dd7790cb037b24eae401266e0facdcdef
+ssdeep:  192:Y/tRaHXbq0eTY1iSji1to2Ac1XQOIHhW2eGWBxloIlWt8RDBQABJnqnajltsLh01:LXbqFY13soHOIBWhGWNoIlRDBRJnlghs
+Date:    0x57899179 [Sat Jul 16 01:44:25 2016 UTC]
+EP:      0x401740 .text 0/5
+CRC:     Claimed: 0x14491, Actual: 0x14491 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4360   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40a0   0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd6c        0xe00        5.598942    
+.data      0x2000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x570        0x600        4.391812    
+.rsrc      0x4000       0x730        0x800        4.106718    
+.reloc     0x5000       0x148        0x200        4.602675    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Background Task Host
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Background Task Host
+OriginalFilename: backgroundTaskHost.exe
+Translation: 0x0409 0x04b0
+

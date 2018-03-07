@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22518360 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fb8ac0ceead0b6448f486ac53c7a4b2b
+SHA1:    49b5a5d458777430b4b41953f96fdc2000069660
+ssdeep:  393216:Ocw85xENxdgHKvYPyGr+v5NdmR1p9g5k1QhVzaYRgC+qtXVNkh4AAu:9DQxELPwNdwp9XehJRggO1d
+Date:    0x43993CFC [Fri Dec  9 08:14:52 2005 UTC]
+EP:      0x4181c6 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x157a5d3 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x26540  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26828  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x26978  0x12e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x26f98  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x26e70  0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x26b78  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x26aa8  0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x270c8  0x212    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x27050  0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x27080  0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x26950  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x262d0  0x26a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x194da      0x19600      6.517905    
+.rdata     0x1b000      0x4db6       0x4e00       4.301497    
+.data      0x20000      0x5d0c       0x800        3.807478    
+.rsrc      0x26000      0x12e0       0x1400       3.076466    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1999-2005 Igor Pavlov
+InternalName: 7z.sfx
+FileVersion: 4.32
+CompanyName: Igor Pavlov
+ProductName: 7-Zip
+ProductVersion: 4.32
+FileDescription: 7z SFX
+OriginalFilename: 7z.sfx.exe
+

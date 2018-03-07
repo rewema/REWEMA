@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    111616 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f246a2829dc2134beba7e85fb73885a2
+SHA1:    b54f94ca993cb210f0a25ce59dab42d4a0861865
+ssdeep:  3072:FhP0ac9UYhzBIl5qOaVNVzspiP58glJn6fYm3IF:Fhpc9lNamDsi5RPn6fYm
+Date:    0x578990A9 [Sat Jul 16 01:40:57 2016 UTC]
+EP:      0x414e90 .text 0/6
+CRC:     Claimed: 0x21f0c, Actual: 0x21f0c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1c450  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1c0b0  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16e54      0x17000      6.278653    
+.data      0x18000      0x7f0        0x400        2.285376    
+.idata     0x19000      0x1f54       0x2000       5.540123    
+.didat     0x1b000      0x2c         0x200        0.391934    [SUSPICIOUS]
+.rsrc      0x1c000      0x518        0x600        2.914130    
+.reloc     0x1d000      0x1250       0x1400       6.457788    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EDPCleanup.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: EDP Cleanup
+OriginalFilename: EDPCleanup.exe
+Translation: 0x0409 0x04b0
+

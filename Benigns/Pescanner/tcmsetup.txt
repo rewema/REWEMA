@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f03c345fe3b1666d85a1cb2c715491f8
+SHA1:    aed3cab95cf6722ff146915905d8df93fe945b50
+ssdeep:  192:s2FcUxt1Gfc5+zh87KXvwrxDQDcTfbaoadRf+voWGEoW7+Nu:TzDaDXvwN/z7jvoWGEoWSI
+Date:    0x5789912A [Sat Jul 16 01:43:06 2016 UTC]
+EP:      0x4024a0 .text 0/5
+CRC:     Claimed: 0xe0d9, Actual: 0xe0d9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5890   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x54b0   0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x3bb    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d14       0x1e00       5.820689    
+.data      0x3000       0x7a0        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x654        0x800        4.283117    
+.rsrc      0x5000       0x958        0xa00        4.305983    
+.reloc     0x6000       0x248        0x400        4.510081    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: tcmsetup
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Windows(TM) Telephony Administration Setup
+OriginalFilename: TCMSETUP.EXE
+Translation: 0x0409 0x04b0
+

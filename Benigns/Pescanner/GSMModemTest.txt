@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     570bbb0cf4b57868b913140aee9ab20e
+SHA1:    820efed115013aead6448b67be6008338fc4d953
+ssdeep:  384:Iv2I98HMPkuSiWHJ1ifPLE2aPunqPw3tdaccuAt4bz8HJPO7lTwrBU3IAg0oPZG:IczEGDV204+PWAyg0N
+Date:    0x4AD846A9 [Fri Oct 16 10:10:49 2009 UTC]
+EP:      0x40836e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x11b69 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa058   0x340    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6374       0x7000       4.977788    
+.rsrc      0xa000       0x398        0x1000       0.940022    [SUSPICIOUS]
+.reloc     0xc000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Mobien Technologies 2009
+Assembly Version: 1.0.0.0
+InternalName: GSMModemTest.exe
+FileVersion: 1.0.0.0
+CompanyName: Mobien Technologies
+ProductName: GSMModemTest
+ProductVersion: 1.0.0.0
+FileDescription: GSMModemTest
+OriginalFilename: GSMModemTest.exe
+

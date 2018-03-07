@@ -1,0 +1,102 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1267712 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f5faa4ca70c726843a71ab90622f502e
+SHA1:    62227bd5f989d117e31802c59afec1ab444e176a
+ssdeep:  24576:+LxAgM06q6WLODJ9pdfrvgjkc/RmcbZ9LjZBccHOl1l:sxAH06qmr7jgYcQcb7ccHC
+Date:    0x48837E5D [Sun Jul 20 18:05:17 2008 UTC]
+EP:      0x7ae220 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x1378a0 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x3a5950 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a5aa0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a5bf0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a5d40 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a5e90 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a5fe0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a6130 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a6280 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a63d0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a6520 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_CURSOR          0x3a6670 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3aa1b8 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3aa278 0x6c     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3aff3c 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a5240 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a67c0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a6aa8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a6bf8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a7160 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a72b0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a7818 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a7968 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a7ed0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a8020 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a8588 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a86d8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a8c40 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a8d90 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a92f8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a9448 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a99b0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3a9b00 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3aa068 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3a5898 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a6508 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a5bd8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a67a8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a5a88 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       Non-ISO extended-ASCII text
+RT_GROUP_CURSOR    0x3a5e78 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a6118 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a5d28 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a6268 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a63b8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a6658 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_CURSOR    0x3a5fc8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3b0228 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x3a5528 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3a6bd0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       MIPSEB-LE MIPS-II ECOFF executable - version 1.150
+RT_GROUP_ICON      0x3a9420 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3a7288 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3a86b0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3a8d68 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       8086 relocatable (Microsoft)
+RT_GROUP_ICON      0x3a7ff8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3a9ad8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3a7940 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x3aa190 0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_VERSION         0x3b0240 0x354    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MANIFEST        0x3b0598 0x2aa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+RT_MANIFEST        0x3b0848 0x292    LANG_ENGLISH SUBLANG_ENGLISH_UK       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x27a000     0x0          0.000000    [SUSPICIOUS]
+UPX1       0x27b000     0x134000     0x133600     7.923431    [SUSPICIOUS]
+.rsrc      0x3af000     0x2000       0x1e00       4.149072    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002-2008 Martin Rohrbach
+InternalName: ClogAmpComp
+FileVersion: 0, 3, 0, 0
+CompanyName:  
+Comments: ClogAmp, the Free Cross-Platform Music Player for Cloggers
+ProductName: ClogAmp
+ProductVersion: 0, 3, 0, 0
+FileDescription: ClogAmp
+OriginalFilename: ClogAmp.exe
+Translation: 0x0409 0x04b0
+

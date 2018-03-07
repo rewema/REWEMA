@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    516096 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2c8cb15f26cd90c4d16650d3af04be87
+SHA1:    8546f2bc459ee5944b72f8900010f18898b58ced
+ssdeep:  6144:jywtcySZgDqOCgy+6/xIDxp76BcdP57Lws8wQ8J+sQSEaYtqXdOJr:RtcySZRA7LYwQ5T3Zt2dOJr
+Date:    0x526E3A79 [Mon Oct 28 10:20:41 2013 UTC]
+EP:      0x402e2c .text 0/3
+CRC:     Claimed: 0x89f28, Actual: 0x89f28 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8a96c  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8a684  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8a55c  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x8a52c  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x8a150  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7a7f8      0x7b000      5.900795    
+.data      0x7c000      0xd644       0x1000       0.000000    
+.rsrc      0x8a000      0xa9c        0x1000       2.376789    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: Copyright 2012 by HiddenBelow.com
+InternalName: ray
+FileVersion: 1.02.0047
+CompanyName: HiddenBelow.com
+LegalTrademarks: HiddenBelow.com
+Comments: Raytracer written in VB6
+ProductName: Kyodai's Raytracer
+ProductVersion: 1.02.0047
+FileDescription: Kyodai's raytracer is a Raytracer that is written completely in VB6
+OriginalFilename: ray.exe
+

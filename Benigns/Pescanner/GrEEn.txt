@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    209920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0b85b26293c847fa6d4c891e301b143f
+SHA1:    2814e781980ef208af8f5f88199fb7d2b515eb9f
+ssdeep:  6144:zdiUH7blRKavMdjrAmfwGdoBhzGAEPAuefZ/e:BiUHjKaU5AGoDGT
+Date:    0x4A4E3B4B [Fri Jul  3 17:09:31 2009 UTC]
+EP:      0x401240 .text 0/6
+CRC:     Claimed: 0x362af, Actual: 0x362af 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3a0ec  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3b194  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x3b1a8  0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x27118      0x27200      5.735650    
+.data      0x29000      0xe0         0x200        0.974666    [SUSPICIOUS]
+.rdata     0x2a000      0x4a10       0x4c00       7.235678    [SUSPICIOUS]
+.bss       0x2f000      0x4120       0x0          0.000000    [SUSPICIOUS]
+.idata     0x34000      0x5a50       0x5c00       5.701170    
+.rsrc      0x3a000      0x13e8       0x1400       3.722833    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0809 0x04e4
+

@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    188928 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     18368be8d824107adb44178b7d9d6e8d
+SHA1:    8f81264baa36834fef207eff0b2f17b2cb114a54
+ssdeep:  3072:SfD45Q82kYwf/E+LJhInvV0GTXHQQaZZnByKvU3pe3b0+dzCf:3h2C8OWnvLRuYobHd+
+Date:    0x4655410D [Thu May 24 07:38:53 2007 UTC]
+EP:      0x42f79e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x3ca86 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x30058  0x308    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2d854      0x2da00      5.936437    
+.rsrc      0x30000      0x360        0x400        2.764429    
+.reloc     0x32000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Immortal Inc. 2007
+Assembly Version: 0.9.0.0
+InternalName: ImmDocNet.exe
+FileVersion: 0.9.0.0
+CompanyName: Immortal Inc.
+ProductName: ImmDocNet
+ProductVersion: 0.9.0.0
+FileDescription: ImmDocNet
+OriginalFilename: ImmDocNet.exe
+

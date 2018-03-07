@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    912384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     25c0aa547de18cb9c313a63989f12546
+SHA1:    ab0508afa2d1c87e0c51f5fc79f96f54489331f6
+ssdeep:  12288:ErtjiOvopJb49FtajY6Atj+s1obrlqzf+xZCIZ3GJwdfTB9MgI4lxsl24:GjiOQjbM8jY6Atqs1ylqz+xZCIZWJM4
+Date:    0x4A4733FF [Sun Jun 28 09:12:31 2009 UTC]
+EP:      0x4012a0 .text 0/6
+CRC:     Claimed: 0xe33a7, Actual: 0xe33a7 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x901a4  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd21cc  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe29f4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe4f9c  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe6044  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe69cc  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe6e34  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 256-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x72934      0x72a00      5.785846    
+.data      0x74000      0x220        0x400        1.514451    
+.rdata     0x75000      0x94d0       0x9600       5.967497    
+.bss       0x7f000      0x41b0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x84000      0xb364       0xb400       5.835753    
+.rsrc      0x90000      0x56e90      0x57000      3.357693    
+

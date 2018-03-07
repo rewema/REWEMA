@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4399166 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c863dc3d4582d38e6a3e675ec4d76bac
+SHA1:    482ec78eb355b57bae0b27ff43283dd77e7d3527
+ssdeep:  98304:zKRrRgCAF7H12sYcUcN7hSY7siaX6SSJu74mKo2TS4YMQUk8:GRiCuHoNMSY79JBhjJ
+Date:    0x4182C473 [Fri Oct 29 22:30:11 2004 UTC]
+EP:      0x407cbc .text 0/4
+CRC:     Claimed: 0x43582d, Actual: 0x43582d 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BFS                0x110f0  0x420090 LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x431380 0x2fe    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x431180 0x1fd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb594       0xc000       6.092299    
+.rdata     0xd000       0xb5c        0x1000       3.658787    
+.data      0xe000       0x28e8       0x3000       3.991263    
+.rsrc      0x11000      0x420680     0x421000     7.985664    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: GNU Lisence
+InternalName: SMSViewer051_eng.exe
+FileVersion: 0.5.1.0
+CompanyName: Elisa
+LegalTrademarks: 
+ProductName: SMS Viewer
+ProductVersion: 0.5.1.0
+FileDescription: GUI application for SMS messages
+OriginalFilename: SMS Viewer
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    780960 bytes
+Type:    PE32 executable Intel 80386 32-bit
+MD5:     fdcf3018b7feb629a27ae7602f2d40e3
+SHA1:    339e18b3000ca941adae42cf9e99e25be4866df9
+ssdeep:  12288:r9kCpOdWF6dI7vDIoSYQPbT1hwtFOiCsxTuFpMzb9gyyyxa2WPwNpEJB4OsG4mP/:rKzcF6diDIoStPbT1h6Cgggu4fG4mPsu
+Date:    0x57899077 [Sat Jul 16 01:40:07 2016 UTC]
+EP:      0x401130 .text 0/9
+CRC:     Claimed: 0xbec80, Actual: 0xbec80 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xe91c4  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0xe929c  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0xe92a0  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe93bc  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_HTML            0xe9788  0x23d0   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9e690      0x9e800      6.719282    
+PAGER32C   0xa0000      0x1ea5       0x2000       5.665449    
+PAGE       0xa2000      0x156a       0x1600       6.470728    
+INITDATA   0xa4000      0xde0        0x0          0.000000    [SUSPICIOUS]
+.rdata     0xa5000      0xf810       0xfa00       5.550069    
+.data      0xb5000      0x322bc      0x800        4.174258    
+.gfids     0xe8000      0x808        0xa00        3.475785    
+.rsrc      0xe9000      0x2b58       0x2c00       3.598769    
+.reloc     0xec000      0x5368       0x5400       6.768629    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: hiberrsm.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Resume From Hibernate boot application
+OriginalFilename: hiberrsm.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    149664 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2af538872742f9d578e5dd54d4440ba5
+SHA1:    0618fec45eaee89cd4c7b17f77d9ff659eabe176
+ssdeep:  3072:XlUGMzZk3+SMiyudxgZUFUAMrNMfxw0O1UNZEOX:1UG4rOvxNUAO1r8X
+Date:    0x577B672B [Tue Jul  5 07:52:11 2016 UTC]
+EP:      0x405be3 .text 0/4
+CRC:     Claimed: 0x2511a, Actual: 0x2511a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x260a0  0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x263e8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x127e4      0x12800      6.626801    
+.rdata     0x14000      0xc36c       0xc400       4.539320    
+.data      0x21000      0x4afc       0x1400       3.378220    
+.rsrc      0x26000      0x568        0x600        3.843803    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2003-2016 Mark Russinovich
+InternalName: PsPasswd
+FileVersion: 1.24
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals PsPasswd
+ProductVersion: 1.24
+FileDescription: Local and remote password changer
+OriginalFilename: pspasswd.exe
+Translation: 0x0409 0x04b0
+

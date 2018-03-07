@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    37376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     209a4a88ba305bafd05c25aff507ae3e
+SHA1:    a0d8a24c172b6c5db133383f2635e032f5963d61
+ssdeep:  768:zZuj35+a+RhSe6xdT8bwyktFu5uH/WfJ5ONLYhTrEk5C:VmPYhSZT8bwyktFu5uCLUYdrEG
+Date:    0x578990B7 [Sat Jul 16 01:41:11 2016 UTC]
+EP:      0x406360 .text 0/5
+CRC:     Claimed: 0x17bc5, Actual: 0x17bc5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xa860   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x9678   0x7b     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x96f8   0x637    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+TYPELIB            0x9d30   0x794    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xa4c8   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x91e0   0x494    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5d68       0x5e00       6.192841    
+.data      0x7000       0x4d8        0x200        0.829285    [SUSPICIOUS]
+.idata     0x8000       0xa06        0xc00        4.608822    
+.rsrc      0x9000       0x1948       0x1a00       4.880914    
+.reloc     0xb000       0x67c        0x800        5.950120    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CtTuneSvr
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ClearType Tuner
+OriginalFilename: CTTUNESVR.EXE
+Translation: 0x0409 0x04b0
+

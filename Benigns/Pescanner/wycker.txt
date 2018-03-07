@@ -1,0 +1,228 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4710912 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d8999c5c1c0f95d9bbb4dce832cd65f3
+SHA1:    108d7102ea558ffa8634846882e4858d9807a974
+ssdeep:  98304:VoigANSMWy+APn3Wf+xfDt1Wa0DFvimn8XMnLHduhbZqStSFQx:VorANSMWy+Af3Wf+xfD/Wa0DJimn8XMR
+Date:    0x0        [Thu Jan  1 00:00:00 1970 UTC] [SUSPICIOUS]
+EP:      0x7015e0 .text 0/7
+CRC:     Claimed: 0x0, Actual: 0x486475 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x336e5cL => deflate
+   0x336e78L => deflate
+   0x336ebcL => deflate
+   0x337be4L => deflate
+   0x336bccL => inflate
+   0x336c10L => inflate
+   0x3f8991L => OpenSSL
+   0x3f9ef8L => OpenSSL
+   0x3f9f20L => OpenSSL
+   0x3f9f44L => OpenSSL
+   0x3f9584L => SSLeay
+   0x3f9aedL => SSLeay
+YARA: irc
+   0x3a48c4L => join
+   0x3f0e68L => JOIN
+   0x317488L => Msg
+   0x3eaff0L => Msg
+   0x3f1652L => Msg
+   0x3f50b9L => notice
+   0x3f50d4L => notice
+   0x3ff661L => notice
+   0x3ff67cL => notice
+   0x454035L => notice
+   0x4544c2L => notice
+   0x4549ccL => notice
+   0x4549deL => notice
+   0x4572a1L => notice
+   0x457655L => notice
+   0x38c588L => part
+   0x454820L => part
+   0x454859L => part
+   0x454ce6L => part
+   0x454dc0L => part
+
+
+TLS callbacks
+================================================================================
+    0x701580
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x4314ac 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x4315e0 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_CURSOR          0x431714 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x431848 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x43197c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x431ab0 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x431be4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x431d18 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x431e4c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x431f80 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x4320b4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x4321e8 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x43231c 0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x442b44 0x32     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x442b78 0x235    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x442db0 0x201    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x442fb4 0x2be    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x443274 0x1de    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x443454 0x238    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44368c 0x3c2    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x443a50 0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x443ce4 0x28d    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x443f74 0x255    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4441cc 0x2b6    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x444484 0x34b    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4447d0 0x249    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x444a1c 0x2e7    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x444d04 0x1f8    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x444efc 0x349    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x445248 0x1f8    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x445440 0x1c1    LANG_NEUTRAL SUBLANG_NEUTRAL          X pixmap image text
+RT_RCDATA          0x445604 0x1c0    LANG_NEUTRAL SUBLANG_NEUTRAL          X pixmap image text
+RT_RCDATA          0x4457c4 0x1c3    LANG_NEUTRAL SUBLANG_NEUTRAL          X pixmap image text
+RT_RCDATA          0x445988 0x196    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x445b20 0x822    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x446344 0x605    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44694c 0x722    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x447070 0x512    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x447584 0x2b9    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x447840 0xff     LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x447940 0x24a    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x447b8c 0x25e    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x447dec 0x122    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x447f10 0x216    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x448128 0x2e6    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x448410 0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x448714 0x23a    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x448950 0x285    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x448bd8 0x216    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x448df0 0x16d    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x448f60 0x202    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x449164 0x313    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x449478 0x1ca    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x449644 0x1b6    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4497fc 0x246    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x449a44 0x1ff    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x449c44 0xb30    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 9 x 9, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44a774 0x26b    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44a9e0 0x24f    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44ac30 0x1d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x44ae08 0x11a    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44af24 0xc70    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x44bb94 0x609    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x44c1a0 0x486    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44c628 0x55a    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x44cb84 0x141    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44ccc8 0x1f7    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x44cec0 0x64d    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x44d510 0x12602  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x45fb14 0x10d03  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x470818 0x4fa7   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x4757c0 0x8b9b   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x47e35c 0x4f4f   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x4832ac 0x15aa   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x484858 0x8bba   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x48d414 0xa31    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x48de48 0x1631   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x48f47c 0x77b    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x48fbf8 0x44b    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x490044 0x348    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x49038c 0x20e    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x49059c 0x107e   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x49161c 0x18b    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4917a8 0xff6    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x4927a0 0x3ce    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 23 x 23, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x492b70 0x443    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x492fb4 0xde2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x493d98 0x317    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4940b0 0xfe1    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x495094 0x5ef    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x495684 0x4a7    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x495b2c 0x3b8    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x495ee4 0x383    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x496268 0x39f    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x496608 0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4969ec 0x4dd    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x496ecc 0x333    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x497200 0x382    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x497584 0x3ef    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x497974 0x3df    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x497d54 0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4980a0 0x503    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4985a4 0x416    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4989bc 0x386    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x498d44 0x349    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x499090 0x437    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x4994c8 0x80d    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x499cd8 0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x49a09c 0x3bd    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x49a45c 0x382    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x49a7e0 0x3ca    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x49abac 0x475    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x49b024 0x286    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+RT_GROUP_CURSOR    0x49b2ac 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b2c0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b2d4 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b2e8 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b2fc 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b310 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b324 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b338 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b34c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b360 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b374 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x49b388 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x49b39c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x49b3b0 0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x49b70c 0x63e    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+CreateProcessA
+CreateProcessW
+OpenProcess
+OpenProcessToken
+ShellExecuteA
+ShellExecuteW
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x300620     0x300800     6.096593    
+.data      0x302000     0x11014      0x11200      4.794700    
+.rdata     0x314000     0xfbbb8      0xfbc00      5.555984    
+.bss       0x410000     0x195a4      0x0          0.000000    [SUSPICIOUS]
+.CRT       0x42a000     0xc          0x200        0.061163    [SUSPICIOUS]
+.idata     0x42b000     0x36eb       0x3800       5.199403    
+.rsrc      0x42f000     0x6cd4c      0x6ce00      6.615249    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2016-2017 - Myndworx Asylum and Steven Sheeley
+InternalName: Wycker
+FileVersion: 0.6.25.0
+CompanyName: Myndworx Asylum
+LegalTrademarks: 
+Comments: 
+ProductName: Wycker
+ProductVersion: V1
+FileDescription: Log Analyzer & Bulletin Generator
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

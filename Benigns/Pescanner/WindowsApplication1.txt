@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    72192 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     7c4b353d3b899106543baea2eb23d6c7
+SHA1:    6d778821442f73067e3ad2980a5ae805afc994b0
+ssdeep:  768:MQH0On0opgFJWX6Z4RmNDxXMfpd7E1MZ06ojyAeqEKamycPQF5zS1HnHD:MAn0oppM4wDXMX86IxnvyYW5+BHD
+Date:    0x4A7CE916 [Sat Aug  8 02:55:18 2009 UTC]
+EP:      0x4125ce .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1216f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x16528  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x16810  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x16938  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x16160  0x3c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x16960  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x105d4      0x10600      7.033109    [SUSPICIOUS]
+.sdata     0x14000      0xc5         0x200        2.753691    
+.rsrc      0x16000      0xb50        0xc00        3.878330    
+.reloc     0x18000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2009
+Assembly Version: 0.0.0.1
+InternalName: WindowsApplication1.exe
+FileVersion: 0.0.0.1
+CompanyName: Pulsar Software
+Comments: LaunchDock is a tabbed program launcher with drag and drop capability.
+ProductName: LaunchDock
+ProductVersion: 0.0.0.1
+FileDescription: LaunchDock
+OriginalFilename: WindowsApplication1.exe
+

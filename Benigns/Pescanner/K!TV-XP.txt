@@ -1,0 +1,100 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    389120 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     948a75f557c9fe31a0dd235ddb385c01
+SHA1:    ca3bb2551e2bd51ca34621a3063b1384133f1f44
+ssdeep:  6144:47siKBPEHmE3Lr7enLGd8Pvu+1U2uFCXGt3kkOyQv5pTVBzWxh:HeHmEbr7aS6vh19GWfyqTVB6x
+Date:    0x3EA26F20 [Sun Apr 20 09:57:52 2003 UTC]
+EP:      0x42b34c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x6e1d0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x125cd0 0x1a42a  LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x125718 0x5b8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x125160 0x5b8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ICON            0x149048 0x8a8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_MENU            0x1475f0 0xed2    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_MENU            0x1485a8 0x6b6    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_MENU            0x1484c8 0xe0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x143810 0x868    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x144078 0x63e    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1414f0 0x772    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x142430 0x546    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1405b0 0x3ba    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x143560 0x2ae    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x140970 0x2d4    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x141f28 0x502    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x147420 0x142    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x147568 0x86     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x144b30 0x11e    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1446b8 0x472    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x140320 0x28e    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1471e0 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x142978 0x3b8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x145870 0x138    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x146670 0x294    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x146340 0x32c    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x145f58 0x3e2    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x146fe0 0x200    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x146908 0x2e2    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x145c40 0x314    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x146bf0 0x3ee    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1459a8 0x292    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x141c68 0x2bc    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x140c48 0xe4     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x144c50 0xc1c    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x147318 0x104    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x142d30 0x82c    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x140d30 0x7ba    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x149908 0x1f4    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x149c90 0x1b0    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x149e40 0x412    LANG_FRENCH  SUBLANG_FRENCH           AmigaOS bitmap font
+RT_STRING          0x14a258 0x5b6    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x14a810 0x5ec    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x149b00 0x18c    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x14ae00 0x120    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x14af20 0x1a0    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x14b0c0 0x4e     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ACCELERATOR     0x140100 0x220    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x1498f0 0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+RT_VERSION         0x148c60 0x3e4    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_MANIFEST        0x124ec0 0x29c    LANG_FRENCH  SUBLANG_FRENCH           XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ab60      0x2b000      6.513689    
+.rdata     0x2c000      0x355e       0x4000       4.564576    
+.data      0x30000      0xf3adc      0x7000       5.021265    
+.rsrc      0x124000     0x27110      0x28000      6.453580    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000-2002 Quenotte All Right Reserved
+InternalName: K!TV XP
+FileVersion: 1, 3, x, x
+CompanyName: K!
+SpecialBuild: Release zoomin
+LegalTrademarks: TM 2000-2002 Quenotte
+Comments: Licence GPL
+ProductName: Quenotte TV XP
+ProductVersion: 1, 3, x, x
+FileDescription: K!TV XP - Application de T\xe9l\xe9Vision
+OriginalFilename: K!TV-XP.exe
+Translation: 0x040c 0x04b0
+

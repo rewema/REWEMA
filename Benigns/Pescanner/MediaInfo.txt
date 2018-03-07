@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    199680 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     de91760a27989e199fa8d576a272816c
+SHA1:    f106af540bc55506d952b3652664568360ed4d7f
+ssdeep:  3072:BrSZWyBWPcbKmBRfQGPmr36jfyf/f1Y1ErtMFw3BQdafK00FHCAzY:YZ3AmBVPmmrc/t2Ert9CafMC
+Date:    0x4A13E1C6 [Wed May 20 10:56:06 2009 UTC]
+EP:      0x411101 .text 0/5
+CRC:     Claimed: 0x3406c, Actual: 0x3406c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x310a0  0x32c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x313cc  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24ed4      0x25000      6.490907    
+.rdata     0x26000      0x6a70       0x6c00       5.005284    
+.data      0x2d000      0x3dc8       0x1c00       3.889500    
+.rsrc      0x31000      0x528        0x600        4.478390    
+.reloc     0x32000      0x2994       0x2a00       5.072085    
+
+Version info
+================================================================================
+LegalCopyright: GPL
+InternalName: MediaInfoLib - CLI - MSVC 2008
+FileVersion: 0, 7, 16, 0
+CompanyName: http://mediainfo.sourceforge.net
+ProductName: MediaInfo_CLI
+ProductVersion: 0, 7, 16, 0
+FileDescription: MediaInfo Command Line Interface
+OriginalFilename: MediaInfo.exe
+Translation: 0x0409 0x04b0
+

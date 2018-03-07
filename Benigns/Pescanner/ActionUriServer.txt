@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    84992 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e0d1e48188dda26c38c96ff65d7da6ab
+SHA1:    9c1f7020ff1e6db736ee2d7586e6f91b0955ddc1
+ssdeep:  1536:a+hqkN71ercRDjD9woeh5IyGk5I3f15Nuiirn:a+8kN7hdH9wuTk56Qii
+Date:    0x57898D94 [Sat Jul 16 01:27:48 2016 UTC]
+EP:      0x40fee0 .text 0/7
+CRC:     Claimed: 0x2226f, Actual: 0x2226f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x18060  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x111a0      0x11200      6.316517    
+.data      0x13000      0x64c        0x200        2.667799    
+.idata     0x14000      0x1514       0x1600       5.163187    
+.didat     0x16000      0x1c         0x200        0.269445    [SUSPICIOUS]
+.tls       0x17000      0x9          0x200        0.000000    
+.rsrc      0x18000      0x428        0x600        2.485831    
+.reloc     0x19000      0x12e0       0x1400       6.520513    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ActionUri OOP Server
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ActionUri OOP Server
+OriginalFilename: ActionUriServer.exe
+Translation: 0x0409 0x04b0
+

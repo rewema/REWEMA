@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    143360 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     fdf2c90712138b519dee4a08a6d63b97
+SHA1:    382169595d5bbeb535c4575b3ec8cc7e5e933115
+ssdeep:  3072:8mhlAKFalYKcY1BSzcTyvR6bG6HQN6klmXgUd4:8yNa2LR6bG6wsk8XgUW
+Date:    0x57899096 [Sat Jul 16 01:40:38 2016 UTC]
+EP:      0x406d60 .text 0/6
+CRC:     Claimed: 0x2d364, Actual: 0x2d364 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2e338  0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e0a0  0x291    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1b8d4      0x1ba00      6.440518    
+.data      0x1d000      0xd08c       0x2800       3.046803    
+.idata     0x2b000      0x1db0       0x1e00       5.401833    
+.didat     0x2d000      0x90         0x200        1.174020    
+.rsrc      0x2e000      0x6c0        0x800        3.891439    
+.reloc     0x2f000      0x201c       0x2200       6.647377    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: net1.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Net Command
+OriginalFilename: net1.exe
+Translation: 0x0409 0x04b0
+

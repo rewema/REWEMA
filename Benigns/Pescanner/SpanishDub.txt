@@ -1,0 +1,265 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    864768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fe08acac4e49eebd3f3a099504ccc64b
+SHA1:    d0647241afaf64c69b94163b22d6d03c5d9fb1ea
+ssdeep:  24576:canvg7/wXocTrFYqpnH4qYRnlnsGAWqe+Xi2MqA3:canIQrvFhHKRnlvAxeAe3
+Date:    0x4140653E [Thu Sep  9 14:14:22 2004 UTC]
+EP:      0x6de2c0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0xdc0ef [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+STUFF              0x202338 0xfd0c   LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+STUFF              0x212048 0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+STUFF              0x2121b8 0x293    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+STUFF              0x212450 0x2078   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+STUFF              0x23be68 0x2e7c0  LANG_ENGLISH SUBLANG_ENGLISH_US       Sendmail frozen configuration  - version \222{\300\026\2201\006\220\347\210\214[\314\246'\224\200\010
+STUFF              0x2144c8 0x279a0  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+STUFF              0x26a628 0x54790  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+STUFF              0x2bf018 0xaee8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+STUFF              0x2bedb8 0x25a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+STUFF              0x2c9f00 0x29a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+STUFF              0x2ca1a0 0x2ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2cda10 0x6ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2ce100 0x6ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2ce7f0 0x12ba   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2cfab0 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2cfb68 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2cfc20 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2cfcd8 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2cfd90 0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2cfe00 0x52a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2d0330 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2d03f0 0x52a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e1ab0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2e201c 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e28c8 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cc478 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cc5b8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cc6f8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cc838 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cc978 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cca08 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cca98 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ccbd8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ccd18 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cce58 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ccf98 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_ICON            0x2cd0d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cd218 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cd358 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2cd480 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x1eaab0 0x1740   LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ec1f0 0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ec350 0x94e    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ecca0 0x4ac    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ed150 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ed420 0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ed5c8 0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ed5f0 0x210    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1ed800 0x3d2    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1edd38 0x6a     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_MENU            0x1edbd8 0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f51c0 0x306    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1edda8 0x26c    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ee018 0x6ae    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ee6c8 0x2fc    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ee9c8 0x524    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1eeef0 0x874    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ef768 0x20a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ef978 0x138    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1efab0 0x3c2    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1efe78 0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f0210 0x562    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f0778 0x768    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f0ee0 0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f1018 0x276    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f1290 0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f15a8 0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f16a8 0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x200c38 0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f1a60 0x1aa    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f1c10 0x65c    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2270 0x2c6    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2538 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2618 0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2768 0x3f2    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2b60 0x122    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2c88 0x184    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f6ff0 0x476    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2e10 0x12a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f2f40 0x30a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f3250 0x168    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f33b8 0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f3400 0x696    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f3a98 0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f4080 0x248    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f42c8 0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f4610 0x1f4    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f4808 0x73c    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f4f48 0x278    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f54c8 0x3c6    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f5890 0x2fe    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f5b90 0x14c    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f5ce0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f5e08 0x220    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f6028 0x5a4    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f65d0 0x58a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f6b60 0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f6f08 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f7468 0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f7710 0x340    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f7a50 0x23e    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f7c90 0x2d8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f7f68 0x538    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f84a0 0x4ce    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f8970 0x1de    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f8b50 0x9aa    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f9500 0x20a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f9710 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f99e0 0x166    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f9b48 0x268    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f9db0 0x104    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1f9eb8 0x676    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fa530 0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fa580 0x39a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fa920 0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fab28 0x2be    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fade8 0xec     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1faed8 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fafb8 0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fb2d0 0xf4     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ffba0 0xe3a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fb3c8 0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fb500 0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fb660 0x23a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fb8a0 0x22c    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fbad0 0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fbb98 0xa56    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fc5f0 0x1fc    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fc7f0 0x154    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fc948 0x19c    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fcae8 0xa2     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fcb90 0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fce38 0x7c8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fd600 0x27a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fd880 0x1da    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fda60 0x1b6    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fdc18 0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fdea8 0x16a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fe018 0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fe178 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fe268 0xea     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fe358 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fe480 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fe570 0x96     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fe608 0x406    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fea10 0x180    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1feb90 0x160    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fecf0 0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fed80 0xb6     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fee38 0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1fef68 0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ff210 0x574    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x201380 0x254    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x2015d8 0x322    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x201c28 0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ff918 0x286    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x2d0920 0x25a    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0x202178 0x184    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ff8a0 0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ff788 0x5c     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x1ff7e8 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x2009e0 0x254    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x201900 0x322    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x201ed0 0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x200d10 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x200dc0 0x4ee    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x2012b0 0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_DIALOG          0x202300 0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_STRING          0x2d0b80 0x2e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d0e68 0x6f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3840 0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d1560 0x5c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d1b28 0x428    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d1f50 0x68a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d25e0 0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3278 0x5c4    LANG_ENGLISH SUBLANG_ENGLISH_US       Squeezed (apple ][) data
+RT_STRING          0x2d3960 0x234    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d2768 0x166    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d28d0 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d29c8 0x5f8    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_STRING          0x2d2fc0 0x2b6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3e68 0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3b98 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3c10 0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3c80 0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3d40 0x32     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3d78 0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3db8 0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3cc8 0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3d08 0x36     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3ed8 0x56e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d5f58 0x50a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d7f20 0x864    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d8788 0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d4448 0x27a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d5360 0xbf8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d6468 0x1084   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d74f0 0x888    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d46c8 0xc94    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d7d78 0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d8af0 0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d8b20 0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d8e28 0x9e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d9810 0x4f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d9d00 0x39e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3e38 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d3de0 0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2e3774 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x2cc5a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cc6e0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cc820 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cc960 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cc9f0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cca80 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2ccbc0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2ccd00 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cce40 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2ccf80 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cd0c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cd200 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cd340 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2cd9e8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2e37a8 0x32c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x210000     0x0          0.000000    [SUSPICIOUS]
+UPX1       0x211000     0xce000      0xcde00      7.924567    [SUSPICIOUS]
+.rsrc      0x2df000     0x5000       0x5000       4.568971    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1999-2004 por Avery Lee, Todos los derechos reservados.
+InternalName: VirtualDub
+FileVersion: v2
+Comments: Watch anime, saiyu sen jiko yo!
+ProductName: SpanishDub
+ProductVersion: v2
+FileDescription: VirtualDub
+OriginalFilename: SpanishDub.exe
+Translation: 0x0409 0x04b0
+

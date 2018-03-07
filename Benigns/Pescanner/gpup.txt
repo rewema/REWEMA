@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    421888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d2fcfd4d1f20b163e38c278aa3b9a8dc
+SHA1:    67fd3808d77a364c1e6d083880fc473d978265f7
+ssdeep:  12288:iB5KzNz9dQYfgks7KhuBeDh4OTJiQqpcjRlcGeO60+ESxyRs9lqDXywe5powarBy:tBgNjQTiE4vkeBUwarBpT
+Date:    0x4EFF4D61 [Sat Dec 31 17:58:57 2011 UTC]
+EP:      0x4314b3 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x7602b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_DIALOG          0x65120  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_VERSION         0x651e8  0x310    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MANIFEST        0x654f8  0x297    LANG_ENGLISH SUBLANG_ENGLISH_UK       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4fe4a      0x50000      6.617614    
+.rdata     0x51000      0xfcb4       0xfe00       5.695780    
+.data      0x61000      0x3e08       0x2000       4.129939    
+.rsrc      0x65000      0x790        0x800        4.237794    
+.reloc     0x66000      0x4548       0x4600       5.681271    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2009-11 Dave Brotherstone
+InternalName: gpup
+FileVersion: 1.0.8.0
+Comments: A generic(ish) plugin updater, built initially for Notepad++
+ProductName:  gpup
+ProductVersion: 1.0.8.0
+FileDescription: gpup
+OriginalFilename: gpup.exe
+Translation: 0x0809 0x04b0
+

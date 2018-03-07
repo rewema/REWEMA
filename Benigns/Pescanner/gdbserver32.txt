@@ -1,0 +1,117 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    908334 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5b6f0c5fec19d70a2a25986bf7e53d02
+SHA1:    496a50a95e90d6abd6bd15d34b3ce25e3f5bbf33
+ssdeep:  24576:2li/xVSsIrbKGzpZ+Gx2OC/KDL4aMnZ2zpV0OYs0j:2lqIrwXaMZk4
+Date:    0x52351281 [Sun Sep 15 01:50:57 2013 UTC]
+EP:      0x401570 .text 0/15
+CRC:     Claimed: 0xeb974, Actual: 0xeb974 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x3b416L => join
+   0x3df11L => join
+   0x427f7L => join
+   0x4592aL => join
+   0x48e24L => join
+   0x4ea4eL => join
+   0x5986aL => join
+   0x5e90fL => join
+   0x63666L => join
+   0x687a5L => join
+   0x7b415L => join
+   0x7e3b1L => join
+   0xdb777L => join
+   0x3a6dcL => MSG
+   0x3d1d7L => MSG
+   0x41ac0L => MSG
+   0x44bf3L => MSG
+   0x480eaL => MSG
+   0x4cc07L => msg
+   0x4dd17L => MSG
+   0x5738fL => MSG
+   0x58b30L => MSG
+   0x5dbd5L => MSG
+   0x6292cL => MSG
+   0x67a6bL => MSG
+   0x7a6deL => MSG
+   0x855f4L => msg
+   0x2cacaL => notice
+   0x2cadaL => notice
+   0x2cdeaL => notice
+   0x2cdfaL => notice
+   0x2d62aL => notice
+   0x2d63aL => notice
+   0x2e10aL => notice
+   0x2e11aL => notice
+   0x2e2caL => notice
+   0x2e2daL => notice
+   0x2e4caL => notice
+   0x2e4daL => notice
+   0x29c6eL => part
+   0xd9a38L => part
+   0xda0f8L => part
+   0xdabc8L => part
+   0xdac67L => part
+   0xdb288L => part
+   0xdbd2dL => part
+   0xdbdbbL => part
+   0xdbe3aL => part
+   0xdbf3fL => part
+   0xdbf58L => part
+   0x26c9fL => Quit
+   0x27b8fL => Quit
+   0x3a42dL => QUIT
+   0x3cf28L => QUIT
+   0x41811L => QUIT
+   0x44944L => QUIT
+   0x47e3bL => QUIT
+   0x4da68L => QUIT
+   0x570e0L => QUIT
+   0x58881L => QUIT
+   0x5d926L => QUIT
+   0x6267dL => QUIT
+   0x677bcL => QUIT
+   0x7a42fL => QUIT
+
+
+TLS callbacks
+================================================================================
+    0x41dd80
+    0x41dd30
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcess
+ReadProcessMemory
+WriteProcessMemory
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x248e4      0x24a00      6.236557    
+.data      0x26000      0x7e8        0x800        3.056124    
+.rdata     0x27000      0xab3c       0xac00       5.626348    
+/4         0x32000      0x6f00       0x7000       4.931400    
+.bss       0x39000      0x29e4       0x0          0.000000    [SUSPICIOUS]
+.idata     0x3c000      0xd54        0xe00        5.036778    
+.CRT       0x3d000      0x18         0x200        0.114463    [SUSPICIOUS]
+.tls       0x3e000      0x20         0x200        0.224820    [SUSPICIOUS]
+/14        0x3f000      0x760        0x800        2.609552    
+/29        0x40000      0x56f7a      0x57000      6.072017    
+/41        0x97000      0x9033       0x9200       4.734849    
+/55        0xa1000      0xbcb4       0xbe00       6.342128    
+/67        0xad000      0xea3        0x1000       4.399786    
+/78        0xae000      0x1f126      0x1f200      4.655790    
+/89        0xce000      0x3488       0x3600       3.994101    
+

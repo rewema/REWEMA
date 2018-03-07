@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10396160 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1a29362857efbf45d5531da57a8f2165
+SHA1:    94248e0d522aca4c8c2e415890306e26227382ee
+ssdeep:  196608:Jd6GjPsvh7UzBDoh1LuChW01tMzS0GqcUmXVgSnVsrD1oopalWqA1XXoAxKchXl3:mgSwh3parA1X4Ax3Vp
+Date:    0x4ACD8E4A [Thu Oct  8 07:01:30 2009 UTC]
+EP:      0x401280 .text 0/9
+CRC:     Claimed: 0x9f0cc5, Actual: 0x9f0cc5 
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x86dffeL => deflate
+   0x86e006L => deflate
+   0x94fbc1L => deflate
+   0x94fbe3L => Jean-loup Gailly
+   0x951d41L => inflate
+   0x951d63L => Mark Adler
+
+
+TLS callbacks
+================================================================================
+    0x8aa870
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x70aa94     0x70ac00     6.364003    
+.rotext    0x70c000     0x1abe3      0x1ac00      5.934834    
+.data      0x727000     0x131084     0x131200     1.837372    
+.rdata     0x859000     0x18e334     0x18e400     6.422408    
+.rodata    0x9e8000     0x32f0       0x3400       5.876743    
+.bss       0x9ec000     0x544010     0x0          0.000000    [SUSPICIOUS]
+.idata     0xf31000     0x166c       0x1800       5.064495    
+.CRT       0xf33000     0xc          0x200        0.061163    [SUSPICIOUS]
+.tls       0xf34000     0x8          0x200        0.000000    
+

@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    684501 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     cecd6e2bfcd305909eaebe070a1be122
+SHA1:    5ae8b60bded6574ae7b7ca632a2c928978f84bc6
+ssdeep:  12288:WR5O0sg2TeHgoKW3sydEA/QK+8kslXkLZubJoUGrIPcZ6UAMDIMvdboi+x6EIVx6:WR5O0sg2TeHLKWJdEIQK+8kslXkL4lUa
+Date:    0x46E5C507 [Mon Sep 10 22:28:23 2007 UTC]
+EP:      0x401280 .text 0/6
+CRC:     Claimed: 0xaf7e1, Actual: 0xaf7e1 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x74058  0x31c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x653b4      0x65400      6.103374    
+.data      0x67000      0x1c0        0x200        1.454669    
+.rdata     0x68000      0x4440       0x4600       5.330365    
+.bss       0x6d000      0x5730       0x0          0.000000    [SUSPICIOUS]
+.idata     0x73000      0xae0        0xc00        4.704182    
+.rsrc      0x74000      0x374        0x400        2.985974    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2007, Sebastien Riou
+InternalName: 
+FileVersion: 
+CompanyName: nimp software
+LegalTrademarks: 
+ProductName: bmp2c
+ProductVersion: 0002
+FileDescription: please visit www.nimp.co.uk/software for updates
+OriginalFilename: bmp2c.exe
+Translation: 0x0809 0x04e4
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    431104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     9d88b48d506f02e5dd2d0d65c6e9d4c4
+SHA1:    6463d03a3363ca9913c235949dc083f5d5abfba5
+ssdeep:  6144:B2Y2trRYn2Y2trRYn2Y2trRYGQq9w2Y2trRY:9
+Date:    0x523E8505 [Sun Sep 22 05:49:57 2013 UTC]
+EP:      0x451c3e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x72582 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x54550  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x549b8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55a60  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x58008  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5c230  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x6ca58  0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 16x16, 256-colors
+RT_VERSION         0x541f0  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x6caa8  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4fc44      0x4fe00      4.475100    
+.sdata     0x52000      0x98         0x200        2.207039    
+.rsrc      0x54000      0x18c98      0x18e00      4.211702    
+.reloc     0x6e000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2013
+Assembly Version: 1.0.0.0
+InternalName: AutoShut.exe
+FileVersion: 1.0.0.0
+CompanyName: JD's App's
+Comments: Shut down your computer at a scheduled time.
+ProductName: AutoShut
+ProductVersion: 1.0.0.0
+FileDescription: AutoShut
+OriginalFilename: AutoShut.exe
+

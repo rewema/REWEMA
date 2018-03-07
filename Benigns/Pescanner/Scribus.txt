@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1513984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0342f4b25e3c477dbef9023ce234a8a2
+SHA1:    a142977e97db04457d7e48f2f19d1089a9f01302
+ssdeep:  24576:c3GMQ3grudS8Y1nY5VMUdu0ZbA118MQVqjHg5Ib6ySbLdgx8MvzxGZBTm:c3FQ3Vw6jn0b+dbRM8UzxGZ9m
+Date:    0x485194F9 [Thu Jun 12 21:28:25 2008 UTC]
+EP:      0x916010 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x17489d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5172cc 0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x517638 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x517aa4 0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x518750 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5197fc 0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x51b4a8 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x51da54 0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4f2cd0 0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4f3038 0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4f3ce0 0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x521c80 0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x4f5988 0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x521cec 0x34c    LANG_FRENCH  SUBLANG_FRENCH           data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x3af000     0x0          0.000000    [SUSPICIOUS]
+UPX1       0x3b0000     0x167000     0x166200     7.921541    [SUSPICIOUS]
+.rsrc      0x517000     0xc000       0xb400       5.711716    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001-2007 by The Scribus Team
+InternalName: Scribus 1.3.3.12
+FileVersion: 1.3.3.12
+CompanyName: The Scribus Team
+ProductName: Scribus - Open Source Desktop Publishing
+ProductVersion: 1.3.3.12
+FileDescription: Scribus 1.3.3.12
+OriginalFilename: Scribus.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    222208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     166f80e95a9540efddb411ca993fe5c7
+SHA1:    59c93312cab4ce6acf654d24b6293f9c16c16665
+ssdeep:  3072:sKUyTGbq+IfXNieBseOvrr0hJES5P0Pdh0y3iJ/fbBjLFZ8tDeGE:sKUcpBfXNieBseerY3ES58PLD36V1
+Date:    0x48BAC405 [Sun Aug 31 16:17:09 2008 UTC]
+EP:      0x41358b .text 0/4
+CRC:     Claimed: 0x386d4, Actual: 0x386d4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc3310  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc3d78  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc43e0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc46c8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc47f0  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc8a18  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcafc0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcc068  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xcc4d0  0x30e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcc7e0  0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xcc828  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 64x64, 16-colors
+RT_VERSION         0xcc8a0  0x310    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xccbb0  0x30f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x215d6      0x21600      6.653203    
+.rdata     0x23000      0x939a       0x9400       4.267324    
+.data      0x2d000      0x95e3c      0x1600       3.137542    
+.rsrc      0xc3000      0x9ec0       0xa000       3.841852    
+
+Version info
+================================================================================
+LegalCopyright: GNU General Public License
+InternalName: JkDefrag
+FileVersion: 3.36
+CompanyName: J.C. Kessels
+ProductName: JkDefrag
+ProductVersion: 3.36
+FileDescription: JkDefrag - disk defragmentation and optimization tool
+OriginalFilename: JkDefrag.exe
+Translation: 0x0409 0x04e4
+

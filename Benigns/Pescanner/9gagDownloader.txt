@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38400 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     5da27660e247441155ec8cad1c401446
+SHA1:    6129d9370a9c94ecf14d2b35e7b6238de3b8bebc
+ssdeep:  384:7GkvwKwq6udDowk89l/Q8VqQGs+JYnAIuBU8l4jVqMUuILk24jXPlDEa3XE+JSgF:p/zqQGs+JatqMUu82XPxOsKhO
+Date:    0x54CCC85A [Sat Jan 31 12:19:38 2015 UTC]
+EP:      0x4078ae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x18827 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa530   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa818   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xa940   0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xb1e8   0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xb750   0x353    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xbaa8   0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xcb50   0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xcfb8   0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 32x32, 16-colors
+RT_VERSION         0xa250   0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xd020   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x58b4       0x5a00       5.629514    
+.sdata     0x8000       0x138        0x200        2.443475    
+.rsrc      0xa000       0x3210       0x3400       3.515314    
+.reloc     0xe000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2015
+Assembly Version: 1.0.0.0
+InternalName: 9gagDownloader.exe
+FileVersion: 1.0.0.0
+ProductName: 9gagDownloader
+ProductVersion: 1.0.0.0
+FileDescription: 9gagDownloader
+OriginalFilename: 9gagDownloader.exe
+

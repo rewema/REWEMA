@@ -1,0 +1,38 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    260096 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2a8ceba46cebea1415c7011da640b587
+SHA1:    2be304c6b911ceeef18f6fb5c0995a6ba9cd8462
+ssdeep:  6144:ait+GcGaOUL1nsEPs7fKEoM6FHoo2EHeUPidq:D+5nOURnsD7fuFIo20
+Date:    0x5686464B [Fri Jan  1 09:26:35 2016 UTC]
+EP:      0x401280 .text 0/6
+CRC:     Claimed: 0x480d1, Actual: 0x480d1 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3d144  0x4028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4116c  0x1028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42194  0x928    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42abc  0x428    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x42ee4  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 64x64, 256-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x26aec      0x26c00      6.098540    
+.data      0x28000      0x4a90       0x4c00       0.029066    [SUSPICIOUS]
+.rdata     0x2d000      0x74f8       0x7600       6.303966    
+.bss       0x35000      0xa8         0x0          0.000000    [SUSPICIOUS]
+.idata     0x36000      0x64cc       0x6600       5.793689    
+.rsrc      0x3d000      0x5f24       0x6000       3.919347    
+

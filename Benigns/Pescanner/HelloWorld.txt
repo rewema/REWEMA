@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4096 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fe16705d84ebe2d4aba783c74d0a4a38
+SHA1:    df6f35cdf5eb4a174b27605eb41bc22a3666fda1
+ssdeep:  48:680amckBNYBVoXXEX3vV0cO+4VZln1tEHXvLhZ3OPulG0vwKq:ij0BGH+3vCSsnD2XD/40v
+Date:    0x403F751D [Fri Feb 27 16:49:33 2004 UTC]
+EP:      0x4025fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x4c62 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x604        0x800        3.912026    
+.rsrc      0x4000       0x340        0x400        2.592301    
+.reloc     0x6000       0xc          0x200        0.061163    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: HelloWorld.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: HelloWorld.exe
+

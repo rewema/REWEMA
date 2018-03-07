@@ -1,0 +1,90 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1147704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2b96134b56b35d153d2e47a49ed5c5e7
+SHA1:    40b72cb961f50412c100451c9d186360c8b8d9e9
+ssdeep:  24576:o8y8zQqXRd+gj8yLZnxD2IQc8VjPZiYuIbIm6gQJgk87M:Hzrj5R5Qc8VFiYuIbIm6gQJgk87M
+Date:    0x568A623B [Mon Jan  4 12:14:51 2016 UTC]
+EP:      0x492bd9 .text 0/5
+CRC:     Claimed: 0x127716, Actual: 0x127716 
+
+Signature scans
+================================================================================
+YARA: spam
+   0xc4ef0L => RCPT TO:
+   0xc4efcL => RCPT TO:
+   0xc4e90L => MAIL FROM:
+   0xc4ea0L => MAIL FROM:
+   0xc4eb8L => MAIL FROM:
+   0xc4ed8L => MAIL FROM:
+   0xc4e1cL => EHLO 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PNG                0xdd548  0xe9a    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 60 x 76, 8-bit/color RGBA, non-interlaced
+PNG                0xde3e4  0x3f2    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 36 x 24, 8-bit/color RGBA, non-interlaced
+PNG                0xde7d8  0x3e6    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 36 x 24, 8-bit/color RGBA, non-interlaced
+PNG                0xdebc0  0x65b    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 116 x 21, 8-bit/color RGBA, non-interlaced
+PNG                0xdf21c  0x46f    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 120 x 26, 8-bit/color RGBA, non-interlaced
+PNG                0xdf68c  0x4cf    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 72 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0xdfb5c  0x427    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 72 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0xdff84  0x354b   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 372 x 31, 8-bit/color RGBA, non-interlaced
+PNG                0xe34d0  0x186    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+PNG                0xe3658  0x78     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 1 x 24, 8-bit/color RGBA, non-interlaced
+XML                0xe36d0  0x2fb    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED ASCII text, with CRLF line terminators
+XML                0xe39cc  0x1c0d   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED ASCII text, with CRLF line terminators
+XML                0xe55dc  0x284c   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED UTF-8 Unicode English text, with CRLF line terminators
+XML                0xe7e28  0x6dc    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED ASCII text, with CRLF line terminators
+RT_ICON            0xe8504  0xecd6   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xf71dc  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x107a04 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10bc2c 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10e1d4 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10f27c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x10f6e4 0x36     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x10f71c 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0x10f778 0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x10fa6c 0x165    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+InternetReadFile
+HttpSendRequestW
+InternetConnectW
+CreateProcessW
+OpenProcess
+StartServiceW
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb3dbc      0xb3e00      6.554348    
+.rdata     0xb5000      0x201c4      0x20200      4.854877    
+.data      0xd6000      0x6a24       0x4600       3.924419    
+.rsrc      0xdd000      0x32bd4      0x32c00      7.008890    [SUSPICIOUS]
+.reloc     0x110000     0xb2f4       0xb400       5.768429    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2013 Baidu Inc. All Rights Reserved.
+InternalName: SparkRepair.exe
+FileVersion: 10.0.0.3
+CompanyName: Baidu Inc.
+ProductName: spark
+ProductVersion: 10.0.0.3
+FileDescription: spark
+OriginalFilename: SparkRepair.exe
+Translation: 0x0409 0x04b0
+

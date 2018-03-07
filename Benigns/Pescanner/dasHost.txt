@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    70656 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     dff8c2b7f654d60dafc3c25b2a9f8ddd
+SHA1:    97920a7457992ecd6240df136fc99bc66cb24e6f
+ssdeep:  1536:1rpsezM57bylTInvFN+HuFBheMDSDJFLB66XR:ZpsawqeBgvtFN6U
+Date:    0x5789916E [Sat Jul 16 01:44:14 2016 UTC]
+EP:      0x40ec80 .text 0/5
+CRC:     Claimed: 0x1a1f4, Actual: 0x1a1f4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x13340  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x130a0  0x29e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe354       0xe400       6.231691    
+.data      0x10000      0x49c        0x200        0.203682    [SUSPICIOUS]
+.idata     0x11000      0x10a4       0x1200       5.066079    
+.rsrc      0x13000      0x710        0x800        4.021739    
+.reloc     0x14000      0xe0c        0x1000       6.339323    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dasHost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Device Association Framework Provider Host
+OriginalFilename: dasHost.exe
+Translation: 0x0409 0x04b0
+

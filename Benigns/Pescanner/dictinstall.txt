@@ -1,0 +1,91 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    577536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     63f6f467e4940dc2a15f69b5f29c7fc4
+SHA1:    af36a845d3db215cc567720f9bb1ce428bc603be
+ssdeep:  12288:N3LK7h6k96GOKy6/FXDtSGZJA+7qs8fXcUPyAQ1:FsjDOKykDtSgJA68fhvQ
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x476d50 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x8fcad [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x88bb4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x88ce8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x88e1c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x88f50  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x89084  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x891b8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x892ec  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x89420  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x895f0  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x897d4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x899a4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x89b74  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x89d44  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x89f14  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8a0e4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8a2b4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8a484  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8a654  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x8a73c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8a864  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8adcc  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x8b0b4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x8b95c  0x668    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x8bfc4  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x8ce6c  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8cec0  0x354    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8d214  0x5e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8d7fc  0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7536750 records)
+RT_STRING          0x8db20  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8dbf8  0x118    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8dd10  0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8df78  0x3f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8e368  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8e6f0  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8ea78  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x8ed84  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x8ee5c  0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8ef4c  0x350    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8f29c  0x384    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8f620  0x2f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x8f918  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x8f928  0x2a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x8fbc8  0x5e1    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x901ac  0x2d53   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x92f00  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x92f14  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x92f28  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x92f3c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x92f50  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x92f64  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x92f78  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x92f8c  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 6 icons, 16x16, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x75dec      0x75e00      6.533130    
+DATA       0x77000      0x12b0       0x1400       3.910936    
+BSS        0x79000      0xf1d        0x0          0.000000    [SUSPICIOUS]
+.idata     0x7a000      0x2440       0x2600       4.922218    
+.tls       0x7d000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x7e000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x7f000      0x8134       0x8200       6.667604    
+.rsrc      0x88000      0xb000       0xb000       5.339836    
+

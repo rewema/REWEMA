@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     dd1d0a2b6a5e64ca14def160269b3e52
+SHA1:    46196eabe3f7dc0f3befc20d88727b8c1602ce76
+ssdeep:  384:ZvT9O5Y2RhGcNWuWCGufS0kzswXLB7S7kW6jwBm5xS6bthWBg9hg10gKHr+0:fmY2RhGcbGmxgVLB7jW6LhfmIa0LHy
+Date:    0x3E1590B0 [Fri Jan  3 13:31:28 2003 UTC]
+EP:      0x405e7c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x13bb0 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa928   0x2e8    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_ICON            0xac10   0x128    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xa1e0   0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xa3c8   0x256    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xad60   0x5e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xad38   0x22     LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa620   0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5614       0x6000       5.380341    
+.rdata     0x7000       0x1b78       0x2000       4.577884    
+.data      0x9000       0x3d4        0x1000       1.291035    
+.rsrc      0xa000       0xdc0        0x1000       3.044475    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002
+InternalName: gBulkGen
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: gBulkGen Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: gBulkGen MFC Application
+OriginalFilename: gBulkGen.EXE
+Translation: 0x0409 0x04b0
+

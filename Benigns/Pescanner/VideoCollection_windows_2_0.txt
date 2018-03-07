@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23498240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     f0c83956b058e91b54355efc509ac0d8
+SHA1:    c0d1dd70f6c34b602a06cb34d4f72f98e6c0fbf8
+ssdeep:  393216:DB85TAhB7L1ULvt0N2U9/v8Y6NWa4axQroW2qAEH3lf9pkaE/McrDHxXt7s+:DZhx18Goq61xyr3lTka2BR
+Date:    0x4B7171E1 [Tue Feb  9 14:32:01 2010 UTC]
+EP:      0x4011f8 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x16707c7 [SUSPICIOUS]
+Packers: Video-Lan-Client
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xed0dL => deflate
+   0xed2fL => Jean-loup Gailly
+   0x15a69L => inflate
+   0x15a8bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3d268  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x3d7d0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x3dc38  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3e4e0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x3f588  0x12e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x3f6b8  0x11e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x3f7d8  0x292    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x3fa70  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_VERSION         0x3fab0  0x2f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x3fda8  0x31b    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x29dd0      0x29e00      6.567646    
+.data      0x2b000      0x22b0       0x2400       4.122465    
+.bss       0x2e000      0xc710       0x0          0.000000    [SUSPICIOUS]
+.idata     0x3b000      0x17d0       0x1800       5.189869    
+.rsrc      0x3d000      0x3400       0x3400       5.348723    
+
+Version info
+================================================================================
+LegalCopyright: Giuseppe Gallucci
+InternalName: VideoCollection
+FileVersion: 2.0
+CompanyName: Giuseppe Gallucci
+ProductName: Video Collection
+ProductVersion: 2.0
+FileDescription: Video Collection
+OriginalFilename: VideoCollection_windows_2_0.exe
+Translation: 0x0000 0x04b0
+

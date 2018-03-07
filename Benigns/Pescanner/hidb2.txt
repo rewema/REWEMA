@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    57344 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7e38dc50cd17bd0ee65952b1b1692d5c
+SHA1:    96d6029ff238a3be1cf2b24d5736f39a41904e1c
+ssdeep:  1536:C2I9e0CMrMo1D2NddeQ1eBKfUJHenVa5EcY:dIUeQZMR5EcY
+Date:    0x4A13213A [Tue May 19 21:14:34 2009 UTC]
+EP:      0x404957 .text 0/4
+CRC:     Claimed: 0xf4ab, Actual: 0x1481e [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0xd110   0x225    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_ICON            0x7270   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8118   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x89c0   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9088   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x95f0   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbb98   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcc40   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xd0a8   0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 48x48, 256-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3abc       0x4000       5.568563    
+.rdata     0x5000       0x7ce        0x1000       2.940488    
+.data      0x6000       0x66c        0x1000       1.769409    
+.rsrc      0x7000       0x6338       0x7000       4.828698    
+

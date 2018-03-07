@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    99723 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5b3910387cd7018ddf9720f6da487ca8
+SHA1:    f7b6904a39b4295db5d1994e90e3dcee84e7c4d9
+ssdeep:  3072:z+IW0O23tiYnm2RvteI8mdUIiFAguX0j0jn4BAuSktkYHW+R7:zhWi3tiYnxuQuSktkYHW+x
+Date:    0x52B50B06 [Sat Dec 21 03:29:10 2013 UTC]
+EP:      0x401290 .text 0/6
+CRC:     Claimed: 0x1a969, Actual: 0x1a969 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x12478  0x468    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x128e0  0x10a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x13988  0x25a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x15f30  0x6      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15f38  0x6      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15f40  0x1c     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15f5c  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15f64  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x15f68  0x3      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15f6c  0x2a     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15f98  0x2b     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15fc4  0x9      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15fd0  0x1a     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x15fec  0x32     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x16020  0x73     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x16094  0x3b     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x160d0  0x68     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x16138  0x2c     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_GROUP_ICON      0x16164  0x30     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0x16194  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x16444  0x52e    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4830       0x4a00       5.905729    
+.data      0x6000       0xc0         0x200        0.326395    [SUSPICIOUS]
+.rdata     0x7000       0x460        0x600        4.621613    
+.bss       0x8000       0x8cb0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x11000      0xadc        0xc00        4.720912    
+.rsrc      0x12000      0x4972       0x4a00       6.070334    
+
+Version info
+================================================================================
+LegalCopyright: Jamshed Azhar
+InternalName: Neo Lock
+FileVersion: 1.21
+CompanyName: Open Source
+ProductName: Neo Lock
+ProductVersion: 1.20
+FileDescription: Lock File and Folder
+OriginalFilename: Neo Lock.exe
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    146944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     de098c80754a747edcf865b2381aa34f
+SHA1:    0ab9261a43f49c155b61df18df0da090bcf5fbfd
+ssdeep:  3072:QA12abtUuoYDTDX0sDL8DJNslsU7nW0uLR56uaOC:XTbtUinDXtLcslp7WPW
+Date:    0x57899077 [Sat Jul 16 01:40:07 2016 UTC]
+EP:      0x40c540 .text 0/6
+CRC:     Claimed: 0x2e2b7, Actual: 0x2e2b7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x25318  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x24880  0xa92    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_VERSION         0x244b0  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x24150  0x35c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e8d0      0x1ea00      6.007887    
+.data      0x20000      0xba7        0x600        3.509574    
+.idata     0x21000      0x1762       0x1800       5.322609    
+.didat     0x23000      0xb0         0x200        1.526208    
+.rsrc      0x24000      0x13f0       0x1400       5.149063    
+.reloc     0x26000      0x1aac       0x1c00       6.632459    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Speech Runtime Executable
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Speech Runtime Executable
+OriginalFilename: SpeechRuntime.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1049088 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e2293112e213efbe65f73bf826d11cac
+SHA1:    de81a8b83df0a5dc5eefc964c2ee1fce8ea6242f
+ssdeep:  24576:t5ga0Ow80KH1YRjLZ2j2w87MBoNpMPaggLV/wYx6om2nCTLA3ES3ylNw4s:50t801IwM/0i2CTLAXylNw4s
+Date:    0x4436FF55 [Sat Apr  8 00:09:57 2006 UTC]
+EP:      0x4c309a .text 0/5
+CRC:     Claimed: 0x10fb7f, Actual: 0x10fb7f 
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: irc
+   0xebddaL => join
+   0xf11c4L => join
+   0xef44cL => MSG
+   0xef470L => msg
+   0xef480L => MSG
+   0xef4b0L => MSG
+   0xef4d4L => MSG
+   0xef504L => MSG
+   0xef723L => msg
+   0xf1e39L => msg
+   0xec818L => ping
+   0xec980L => ping
+   0xeca14L => ping
+   0xecb2fL => ping
+   0xecd4eL => ping
+   0xf07caL => ping
+   0xf0c17L => ping
+   0xf0c68L => ping
+   0xf0cb5L => ping
+   0xebb03L => quit
+   0xee32cL => quit
+   0xf7d27L => quit
+   0xf08ccL => chat
+   0xfdadcL => chat
+   0xfdb08L => chat
+   0xfdbccL => chat
+   0xfded1L => chat
+   0xfdf2cL => chat
+   0xfdf42L => chat
+   0xfdf8cL => chat
+   0xfdfaeL => chat
+   0xfe0c3L => chat
+   0xfe0deL => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x89d0f0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x89d3f0 0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x89d3d8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcd4b6      0xcd600      6.681956    
+.rdata     0xcf000      0x14d0e      0x14e00      5.968314    
+.data      0xe4000      0x7a2b58     0x8000       2.686979    
+.data1     0x887000     0x15324      0x15400      5.159061    
+.rsrc      0x89d000     0x420        0x600        1.805605    
+

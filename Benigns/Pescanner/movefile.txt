@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    139936 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     64334e485a881f206ae3905fdfab4203
+SHA1:    3d79f99c263036204a2cf9af4d87cc241934b02d
+ssdeep:  1536:LatKsXrhSjLz7P5l4z4OSI855xc54H6STYSszRycU83wt3dcsWjcd0wDmx36stJL:ShSLa4OSIvZUFWEdD0wDml6sJEtqSE31
+Date:    0x575D99B0 [Sun Jun 12 17:19:44 2016 UTC]
+EP:      0x403f4b .text 0/5
+CRC:     Claimed: 0x30897, Actual: 0x30897 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x210a0  0x32c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x213d0  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xfe34       0x10000      6.599950    
+.rdata     0x11000      0xb56e       0xb600       4.652748    
+.data      0x1d000      0x3108       0x1400       3.292037    
+.rsrc      0x21000      0x550        0x600        3.770469    
+.reloc     0x22000      0xf9c        0x1000       6.556713    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001-2016 Mark Russinovich
+InternalName: MoveFile
+FileVersion: 1.02
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: movefile
+ProductVersion: 1.02
+FileDescription: Creates pending movefile operations
+OriginalFilename: movefile
+Translation: 0x0409 0x04b0
+

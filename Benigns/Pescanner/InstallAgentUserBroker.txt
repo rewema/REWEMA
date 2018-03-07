@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    222720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1a66e7ec30ca79d3b5e1a7009c75524a
+SHA1:    72bcb6d82bb0b7c69d7d86a537f2cb76b5429eae
+ssdeep:  6144:dQOQ2NSXFznk2iFTEckDliW4SNjOAs9B5O/3rYltB7FbM8I:7S1EEckDQW9kAs9B4/3rYllbM8I
+Date:    0x57899077 [Sat Jul 16 01:40:07 2016 UTC]
+EP:      0x430260 .text 0/6
+CRC:     Claimed: 0x3a25a, Actual: 0x3a25a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x36378  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x360a0  0x2d5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x308d0      0x30a00      6.425248    
+.data      0x32000      0xe78        0xa00        0.424698    [SUSPICIOUS]
+.idata     0x33000      0x1694       0x1800       5.163646    
+.didat     0x35000      0xf8         0x200        1.944618    
+.rsrc      0x36000      0x758        0x800        4.187323    
+.reloc     0x37000      0x2a68       0x2c00       6.693554    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: InstallAgentUserBroker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: InstallAgentUserBroker
+OriginalFilename: InstallAgentUserBroker.exe
+Translation: 0x0409 0x04b0
+

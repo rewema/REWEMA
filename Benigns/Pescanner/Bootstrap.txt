@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6656 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     a4f9b9f9196d3cc9f0d849a8c44b11a8
+SHA1:    6aca904f7597a195ace9a82b91c8110cfaa96b97
+ssdeep:  96:0zminyXAb/vKFUqtRZFc8SNmhk0Cjvf0CzNt:UWQEUqtRZFcxD/wk
+Date:    0x495E8968 [Fri Jan  2 21:38:48 2009 UTC]
+EP:      0x402d7e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x8a59 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x3ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4490   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xd84        0xe00        5.033044    
+.rsrc      0x4000       0x680        0x800        3.592205    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2007 Daywest Management, Inc.
+Assembly Version: 0.72.1.0
+InternalName: Bootstrap.exe
+FileVersion: 0.72.1.0
+CompanyName: Daywest Management, Inc.
+Comments: A sample bootstrap application for DDay.Update
+ProductName: DDay.Update.Bootstrap
+ProductVersion: 0.72.1.0
+FileDescription: DDay.Update.Bootstrap
+OriginalFilename: Bootstrap.exe
+

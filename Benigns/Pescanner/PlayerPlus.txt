@@ -1,0 +1,95 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    989696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     34d0c34237b09bd1c650eedba9bc5fa0
+SHA1:    930de483170a14deac87cd35bc4b58af26fabe14
+ssdeep:  3072:bW/IJXegJV0AipuPgs42OqcikGxb+q2KBX4/x0LD4MGZb5kVHDZdh7GA:bShgUQ5OqcikAb+1q9DZ9
+Date:    0x52541DAC [Tue Oct  8 14:58:52 2013 UTC]
+EP:      0x409bf9 .text 0/4
+CRC:     Claimed: 0xf332f, Actual: 0xf332f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x12a30  0xaf4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13524  0xa40    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13f64  0x380a4  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x4c008  0x380a4  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x840ac  0x102a8  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x94354  0x102a8  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa45fc  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe6624  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xea84c  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xecdf4  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xedc9c  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xee304  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xef3ac  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xefc54  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xeff3c  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf08c4  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf0f8c  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf1174  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xf15dc  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xf1b44  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0xf1c6c  0x234    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xf1ea0  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xf1fe4  0x33a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xf2320  0x376    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2698  0x25e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf28f8  0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2b94  0x88     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2c1c  0x9e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2cbc  0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2d10  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2dc0  0x8e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2e50  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf2e8c  0x25c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf30e8  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf3348  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf3670  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf36e0  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf3748  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf3824  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0xf386c  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf3934  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf3b2c  0x86     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xf3bb4  0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0xf3c24  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xf3c94  0xca     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 14 icons, 256-colors
+RT_VERSION         0xf3d60  0x35c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf40bc  0x355    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+None               0xf4414  0x3c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xf4450  0x36     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9bab       0x9c00       6.170299    
+.rdata     0xb000       0x4ff0       0x5000       5.241546    
+.data      0x10000      0x1dbc       0x400        3.903009    
+.rsrc      0x12000      0xe2488      0xe2600      2.883307    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002 RenderSoft Software and Web Publishing, Copyright \xa9 2008 CamStudio Group & Contributors
+FileVersion: 1.0.0.0
+CompanyName: CamStudio Group
+Comments: CamStudio PlayerPlus
+ProductName: CamStudio PlayerPlus
+ProductVersion: 1.0.0.0
+FileDescription: CamStudio PlayerPlus
+Translation: 0x0409 0x04b0
+

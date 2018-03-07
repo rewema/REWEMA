@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    118096 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     97a4dce4d32a266878c14e04446505c6
+SHA1:    50340bf51d29e94cd461269b5c4dea798c84c93c
+ssdeep:  1536:r98fTSE2l55tiY0qfoxmXTHF2bfLHwUITlkPNPrMtwKcBZFeqrHUW:rafmE2l0BxmXTEbkCPwtwKcB3eqoW
+Date:    0x4A179F7C [Sat May 23 07:02:20 2009 UTC]
+EP:      0x409f02 .text 0/3
+CRC:     Claimed: 0x1fa1b, Actual: 0x1fa1b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0x19678  0x28a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+RT_ICON            0x19908  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19f70  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a258  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1a380  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b228  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1bad0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c038  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e5e0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f688  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1faf0  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x192d0  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13288      0x13400      6.489374    
+.data      0x15000      0x3d3c       0x1200       2.133935    
+.rsrc      0x19000      0x6b78       0x6c00       4.259013    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: VSLauncher
+FileVersion: 8.0.50727.4039 built by: QFE
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Visual Studio\xae 2005
+ProductVersion: 8.0.50727.4039
+FileDescription: Microsoft Visual Studio Version Selector
+OriginalFilename: VSLauncher.EXE
+Translation: 0x0409 0x04b0
+

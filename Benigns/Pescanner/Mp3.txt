@@ -1,0 +1,36 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     59f5df8b868c044fb18c06f2c58acaa9
+SHA1:    b5767d1c74154ca96a7d270d91caa68ca741bf0e
+ssdeep:  384:Km841ZSqhinbvsGOmlDZCrMyunBgnPSlSoEzl:Q2ZSqAsQJDKSkFzl
+Date:    0x3E4D8D23 [Sat Feb 15 00:43:15 2003 UTC]
+EP:      0x40176f .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xe1b2 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MENU            0x7348   0x42     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x7130   0x8a     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x71c0   0x74     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x7238   0x94     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x72d0   0x74     LANG_SWEDISH SUBLANG_SWEDISH          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2fbe       0x3000       6.484223    
+.rdata     0x4000       0xa82        0x1000       3.972455    
+.data      0x5000       0x12fc       0x1000       1.333149    
+.rsrc      0x7000       0x390        0x1000       0.825762    [SUSPICIOUS]
+

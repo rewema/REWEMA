@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    256000 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3b6076a1fcd8311e227de0f1ad1dd34a
+SHA1:    d45c0054abbf9f17ebfe7411d5f0c983190a91df
+ssdeep:  6144:Fk4jbFP03iQDV6QJDIdN34ieaJNRKphuyBIWndCwo1lQuQ6F2ZRho00xax:AdCwo1+uQ6Ox
+Date:    0x447C2CE1 [Tue May 30 11:30:41 2006 UTC]
+EP:      0x4278d6 .text 0/4
+CRC:     Claimed: 0x48a2d, Actual: 0x48a2d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4b138  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4b210  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4b4f8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x4b50c  0x9a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x35cc4      0x35e00      6.703845    
+.data      0x37000      0x13188      0x3a00       4.190005    
+.rsrc      0x4b000      0xeac        0x1000       3.967055    
+.reloc     0x4c000      0x3be6       0x3c00       6.395707    
+
+Version info
+================================================================================
+LegalCopyright: (C) Eicon Networks Corporation 1991-2006
+InternalName: ditrace
+FileVersion: 4.1.4.12
+CompanyName: Eicon Networks
+ProductName: Diva for Windows - Version 7.7 i386
+ProductVersion: Diva for Windows - Version 7.7 product/w2k/divafor/2/ms_cd 106-12
+FileDescription: Diva for Windows - Version 7.7 i386
+OriginalFilename: ditrace.exe
+LegalCopyright: (C) Eicon Networks Corporation 1991-2006
+InternalName: ditrace
+FileVersion: 4.1.4.12
+CompanyName: Eicon Networks
+ProductName: Diva for Windows - Version 7.7 i386
+ProductVersion: Diva for Windows - Version 7.7 product/w2k/divafor/2/ms_cd 106-12
+FileDescription: Diva for Windows - Version 7.7 i386
+OriginalFilename: ditrace.exe
+LegalCopyright: (C) Eicon Networks Corporation 1991-2006
+InternalName: ditrace
+FileVersion: 4.1.4.12
+CompanyName: Eicon Networks
+ProductName: Diva for Windows - Version 7.7 i386
+ProductVersion: Diva for Windows - Version 7.7 product/w2k/divafor/2/ms_cd 106-12
+FileDescription: Diva for Windows - Version 7.7 i386
+OriginalFilename: ditrace.exe
+Translation: 0x0000 0x04e4
+

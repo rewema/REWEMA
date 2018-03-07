@@ -1,0 +1,231 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6980332 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     55bb5a80f7010a160de7eab2077a517b
+SHA1:    0a85786f11110669eebd76e3ac4b4a0726305feb
+ssdeep:  49152:DXI3m2YQACW3DHZ2eausV9t+D3875PSkV7W8lDkJIL8GgKip:DY3m2YQEausV91Kv5L
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x5eaa44 CODE 0/9
+CRC:     Claimed: 0x0, Actual: 0x6a8c49 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0xfd128L => JOIN
+   0x12b6f3L => join
+   0x130043L => join
+   0x1311d6L => join
+   0x147c19L => JOIN
+   0x147ce0L => JOIN
+   0x147cf9L => JOIN
+   0x15cde4L => JOIN
+   0x15e222L => JOIN
+   0x15e266L => JOIN
+   0x15e2beL => JOIN
+   0x15e4aaL => JOIN
+   0x15e4e6L => JOIN
+   0x15f9baL => JOIN
+   0x15fa0aL => JOIN
+   0x15fa5dL => JOIN
+   0x15fefaL => JOIN
+   0x15ff46L => JOIN
+   0x15ffe6L => JOIN
+   0x160ebeL => JOIN
+   0x160ef6L => JOIN
+   0x160f31L => JOIN
+   0x160f8bL => JOIN
+   0x160fe6L => JOIN
+   0x16103bL => JOIN
+   0x161187L => JOIN
+   0x1611b7L => JOIN
+   0x161206L => JOIN
+   0x161256L => JOIN
+   0x16134bL => JOIN
+   0x16137bL => JOIN
+   0x1613caL => JOIN
+   0x165caeL => JOIN
+   0x165ce9L => JOIN
+   0x165d1cL => JOIN
+   0x165d52L => JOIN
+   0x165da6L => JOIN
+   0x165dfaL => JOIN
+   0x165e47L => JOIN
+   0x165f27L => JOIN
+   0x165f4fL => JOIN
+   0x165f7aL => JOIN
+   0x165fc4L => JOIN
+   0x165ffbL => JOIN
+   0x17d011L => JOIN
+   0x17e522L => JOIN
+   0x17e582L => JOIN
+   0x78adL => MSG
+   0x78c5L => MSG
+   0x292e0L => Msg
+   0x64b40L => Msg
+   0x65495dL => Msg
+   0x6786d5L => msg
+   0x68f30dL => msg
+   0x24ba50L => part
+   0x142782L => ping
+   0x142ddaL => ping
+   0x143662L => ping
+   0x62ed95L => Ping
+   0x62f92bL => Ping
+   0x6304a1L => Ping
+   0x699f96L => Ping
+   0x1730dcL => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x21fc6c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x21fda0 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x21fed4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x220008 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x22013c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x220270 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x2203a4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2204d8 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2206a8 0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22088c 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x220a5c 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x220c2c 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x220dfc 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x220fcc 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22119c 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22136c 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22153c 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22170c 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x221768 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2217c4 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x221820 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22187c 0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2218d8 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x221a10 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x221b48 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x221c80 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x221db8 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x221ef0 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x222028 0x104    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22212c 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x222264 0x104    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x222368 0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2224a0 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x222538 0x528    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x222a60 0x528    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x222f88 0x528    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x2234b0 0x528    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x2239d8 0x528    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x223f00 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x223fe8 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224080 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224118 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2242a0 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224428 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2245b0 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224738 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2248c0 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224a48 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224bd0 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224d58 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x224ee0 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x225068 0x188    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2251f0 0x188    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x225378 0x668    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_ICON            0x2259e0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x225cc8 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x225d1c 0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x225f00 0x18c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22608c 0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x226390 0x474    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x226804 0x4a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x226ca4 0x574    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x227218 0x394    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2275ac 0x42c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2279d8 0x578    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x227f50 0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22823c 0x4a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2286e4 0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x228ac8 0x480    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x228f48 0x49c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2293e4 0x5c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2299ac 0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x229d70 0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7536750 records)
+RT_STRING          0x22a05c 0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22a134 0x178    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x22a2ac 0x218    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22a4c4 0x470    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22a934 0x394    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22acc8 0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22b094 0x3f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22b484 0x250    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x22b6d4 0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22b7c0 0x1dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22b99c 0x3c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22bd64 0x3b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22c118 0x33c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22c454 0x328    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x22c77c 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x22c78c 0xba4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x22d330 0x219ef  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x24ed20 0xcee    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x24fa10 0x1e2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x24fbf4 0x492f   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x254524 0x2036   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25655c 0x85b    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x256db8 0x1245   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x258000 0x216    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x258218 0x5bd3a  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2b3f54 0x5f4e   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2b9ea4 0xa23    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2ba8c8 0x214c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2bca14 0x1507   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2bdf1c 0x20665  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2de584 0x494    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2dea18 0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x2deddc 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2dedf0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2dee04 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2dee18 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2dee2c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2dee40 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x2dee54 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x2dee68 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x2dee7c 0x294    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x1e9b7c     0x1e9c00     6.518075    
+DATA       0x1eb000     0x426c       0x4400       5.103555    
+BSS        0x1f0000     0x68b1       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1f7000     0x299a       0x2a00       5.055833    
+.tls       0x1fa000     0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1fb000     0x18         0x200        0.195201    [SUSPICIOUS]
+.reloc     0x1fc000     0x21cb0      0x21e00      6.674584    
+.rsrc      0x21e000     0xc1200      0xc1200      6.074770    
+.debug     0x2e0000     0x3d42ec     0x3d42ec     5.081086    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 2.0.0.0
+CompanyName: 
+LegalTrademarks: 
+Comments: 
+ProductName: EQEmu Admin Tool
+ProductVersion: 1.0.0.0
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

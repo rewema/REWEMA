@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    176128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bf6c775f74a20d772b1e88309b95290e
+SHA1:    9f3b84225f715602cdfe145512ad08c67bbc16be
+ssdeep:  3072:Cjo1PpuZ7JmGqz0EhuvWnw43t+Ns5L6R+scJfDQNr4BfD4vx4At:CjoudqjhuWnwk+C5LPJfOMBfcp
+Date:    0x3E3C4083 [Sat Feb  1 21:47:47 2003 UTC]
+EP:      0x40d1bf .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x347b7 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x27c28  0x29aa   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x263c0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x266a8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x279e0  0x242    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x267f8  0x162    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x26960  0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x26e10  0x4fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x27310  0x18e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x274a0  0x1f2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2a6f8  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x2a698  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x267d0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x27698  0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x2a640  0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x2a5d8  0x65     LANG_ENGLISH SUBLANG_ENGLISH_US       ARC archive data, squeezed
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcb82       0xd000       6.261833    
+.rdata     0xe000       0x6722       0x7000       5.012680    
+.data      0x15000      0x10874      0x11000      6.044721    
+.rsrc      0x26000      0x4758       0x5000       3.623149    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2003
+InternalName: XvidQuantsParser
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: XvidQuantsParser Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: XvidQuantsParser MFC Application
+OriginalFilename: XvidQuantsParser.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65024 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     44c9dede65d1a364bc2b8f4e74498961
+SHA1:    2843456c2d3f84a758c7d4c45179a8e27642b2ca
+ssdeep:  1536:llX+qHfY9ruLQz0YF37+fxE1vk2GwEO2ENi:nX+qHJQzB372xsEO2EN
+Date:    0x57899177 [Sat Jul 16 01:44:23 2016 UTC]
+EP:      0x406580 .text 0/5
+CRC:     Claimed: 0x1d654, Actual: 0x1d654 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa988   0x25a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xcf30   0x1a68   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xe998   0x10a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xfa40   0x988    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x103c8  0x6b8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x10a80  0x468    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_STRING          0x10f48  0x31c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x115e8  0x31e    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x113d0  0x140    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x11268  0x164    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11908  0x164    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x11510  0xd6     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_GROUP_ICON      0x10ee8  0x5a     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0xa300   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa6b0   0x2d6    LANG_NEUTRAL SUBLANG_DEFAULT          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6914       0x6a00       6.153309    
+.data      0x8000       0x45c        0x200        2.016400    
+.idata     0x9000       0x98e        0xa00        5.186494    
+.rsrc      0xa000       0x7a70       0x7c00       4.549712    
+.reloc     0x12000      0x6a4        0x800        5.879212    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: IMEDictUpdateUI.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft IME
+OriginalFilename: IMEDictUpdateUI.exe
+Translation: 0x0000 0x04b0
+

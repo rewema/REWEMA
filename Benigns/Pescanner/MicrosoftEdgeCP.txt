@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    70512 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     760ecfac3559e8f5ba76f91f2397b86f
+SHA1:    bc745fc62cee74facabad60912bd06c4184a62c8
+ssdeep:  768:ahas7OzoNN3+pTfjQvUdNouPmM++YpxAOENRMGjuS/rG1P+:a7uowjQcddynP8RVjuSyP+
+Date:    0x57898DA2 [Sat Jul 16 01:28:02 2016 UTC]
+EP:      0x403d50 .text 0/6
+CRC:     Claimed: 0x1d1fa, Actual: 0x1d1fa 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa838   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa960   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xac48   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb1b0   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xba58   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc900   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xcd68   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xde10   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x103b8  0x116a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_GROUP_ICON      0x11528  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 16-colors
+RT_VERSION         0x115b0  0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa2b0   0x588    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5bf4       0x5c00       5.958197    
+.data      0x7000       0x544        0x200        0.567754    [SUSPICIOUS]
+.idata     0x8000       0xa68        0xc00        4.776027    
+.didat     0x9000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0xa000       0x7bd8       0x7c00       4.604281    
+.reloc     0x12000      0x52c        0x600        6.071571    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MicrosoftEdgeCP
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft Edge
+ProductVersion: 11.00.14393.0
+FileDescription: Microsoft Edge Content Process
+OriginalFilename: MicrosoftEdgeCP.exe
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MicrosoftEdgeCP
+FileVersion: 11.00.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft Edge
+ProductVersion: 11.00.14393.0
+FileDescription: Microsoft Edge Content Process
+OriginalFilename: MicrosoftEdgeCP.exe
+Translation: 0x0409 0x04b0
+

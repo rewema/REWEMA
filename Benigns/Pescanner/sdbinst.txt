@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22016 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ce442d417f2d99a7eaa648f4fc34fcf9
+SHA1:    11077349a52b357444e343f78b4d24db40c20780
+ssdeep:  384:g8ZhA/EIJd9/e4b6nErpVB7Xz5ESlIMTL5X/qQj3MZhNChDcSyR7WDgWG4O:gSoZbmEB7Xz5hIY1qQTMTNGDcSe08N
+Date:    0x57898F7C [Sat Jul 16 01:35:56 2016 UTC]
+EP:      0x404020 .text 0/5
+CRC:     Claimed: 0x9cd4, Actual: 0x9cd4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x77c8   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73f8   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3784       0x3800       6.026231    
+.data      0x5000       0x9b0        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0x99c        0xa00        4.924009    
+.rsrc      0x7000       0x890        0xa00        3.927149    
+.reloc     0x8000       0x334        0x400        5.794599    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sdbinst.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Application Compatibility Database Installer
+OriginalFilename: sdbinst.exe
+Translation: 0x0409 0x04b0
+

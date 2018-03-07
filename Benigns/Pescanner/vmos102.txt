@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    650274 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3dec18e0d8255e1c78060d735e018ba4
+SHA1:    c9ec63829468a7cc58a373879d6b924573f553a1
+ssdeep:  12288:YwFRdo4hCAUtGlkGQBL+j+dU9RQmIPZeLYIMmuC3GoL9Y:Y0Ri4bUtGleBL5lCMKGoLm
+Date:    0x42B737AE [Mon Jun 20 21:39:58 2005 UTC]
+EP:      0x403333 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xa4736 [SUSPICIOUS]
+Packers: NSIS Installer --> NullSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x3ab310 0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ab678 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ab960 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3aba88 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ac330 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3ac898 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ad940 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x3adda8 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3adef0 0x13c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ae030 0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ae130 0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ae250 0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ae318 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3ae378 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5afe       0x5c00       6.459510    
+.rdata     0x7000       0x10cc       0x1200       5.008853    
+.data      0x9000       0x399c34     0x400        5.116086    
+.ndata     0x3a3000     0x8000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x3ab000     0x4000       0x3400       4.557159    
+

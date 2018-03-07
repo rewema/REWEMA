@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86528 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     155dbbcf1c88b4f02a8abb5dc97736aa
+SHA1:    faf00705ec86999130b9fe2b39c9c994fcc8ecbd
+ssdeep:  1536:QCd88u/GbU9t1kZCVBCAWI4sa/9Iaun/gOZCrBKN9hd5x3dEQGHPn9S3ro9j9/We:lu/Got1kZCVTKVE/gOQBKN9hd5xGQ49L
+Date:    0x578990D4 [Sat Jul 16 01:41:40 2016 UTC]
+EP:      0x4112d0 .text 0/5
+CRC:     Claimed: 0x1967f, Actual: 0x1967f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x16aa8  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x167e0  0xb3     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x16898  0x20d    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+RT_VERSION         0x16430  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x16180  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+InternetReadFile
+InternetConnectW
+HttpSendRequestExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11944      0x11a00      6.335060    
+.data      0x13000      0x8cc        0x200        1.656981    
+.idata     0x14000      0x147c       0x1600       5.275028    
+.rsrc      0x16000      0xb80        0xc00        4.705516    
+.reloc     0x17000      0xe70        0x1000       6.413041    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: logagent.exe
+FileVersion: 12.0.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OLESelfRegister: 
+ProductVersion: 12.0.14393.0
+FileDescription: Windows Media Player Logagent
+OriginalFilename: logagent.exe
+Translation: 0x0409 0x04b0
+

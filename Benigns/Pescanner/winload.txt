@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    938520 bytes
+Type:    PE32 executable Intel 80386 32-bit
+MD5:     a106459641c3b1b629cf54a94acce3ec
+SHA1:    67b69185a8ffab610487e891e0cab32286848970
+ssdeep:  24576:mByKx0mMQntLD67hZL9hVO3Em6RyYfKg5iSfe6Jr:mdrx6j9h5LBeg
+Date:    0x57898DB4 [Sat Jul 16 01:28:20 2016 UTC]
+EP:      0x401130 .text 0/9
+CRC:     Claimed: 0xe73bf, Actual: 0xe73bf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x10d1c8 0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x10d2a0 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x10d2a4 0x178c   LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_VERSION         0x10ea30 0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_HTML            0x10edc0 0x3762   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbd424      0xbd600      6.713859    
+PAGER32C   0xbf000      0x1ea5       0x2000       5.665449    
+PAGE       0xc1000      0x15c5       0x1600       6.508581    
+INITDATA   0xc3000      0xde0        0x0          0.000000    [SUSPICIOUS]
+.rdata     0xc4000      0x134a0      0x13600      5.530121    
+.data      0xd8000      0x33f18      0x800        4.207374    
+.gfids     0x10c000     0x818        0xa00        3.469779    
+.rsrc      0x10d000     0x5524       0x5600       3.579033    
+.reloc     0x113000     0x6014       0x6200       6.733554    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: osloader.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: OS Loader
+OriginalFilename: osloader.exe
+Translation: 0x0409 0x04b0
+

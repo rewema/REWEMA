@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d759075162e26f0f3222d12b626029d3
+SHA1:    209f8688479ec03acf713b92b1ce3aa9c6cecdf6
+ssdeep:  48:6VB9MK+yFnbg/h7CJpyshSR0nLreHkg/4OPt1HKVluG0F/KVlulLiMH:fK+yZg/oJPh00nfeHh1q0F
+Date:    0x432FD0E8 [Tue Sep 20 09:05:44 2005 UTC]
+EP:      0x4025ce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x48f0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4498   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4780   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x48a8   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x37c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5d4        0x1000       2.251673    
+.rsrc      0x4000       0x8d0        0x1000       2.161173    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2089.18172
+InternalName: SwfDotNet.IO.Samples.SwfSoundExtract.exe
+FileVersion: 1.0.2089.18172
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2089.18172
+FileDescription:  
+OriginalFilename: SwfDotNet.IO.Samples.SwfSoundExtract.exe
+

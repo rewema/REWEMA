@@ -1,0 +1,35 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    131072 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     27e06768e518161c2c27ea4110e95a27
+SHA1:    5169218f1efbe3822beb688d1f661365a053b11b
+ssdeep:  1536:Ttf9F/P+0xj8Ot9qRTWa15OKTgyirLAfqhNfAeER4CPAOFjE4YcMjrtJrM:TvILzy/Mi4/5E4GHtJrM
+Date:    0x45C22039 [Thu Feb  1 17:15:37 2007 UTC]
+EP:      0x4049fc .text 0/4
+CRC:     Claimed: 0x23182, Actual: 0x23182 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0x31058  0xcb     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x161d5      0x17000      6.507686    
+.rdata     0x18000      0x424a       0x5000       4.631269    
+.data      0x1d000      0x1349c      0x2000       1.647402    
+.rsrc      0x31000      0x124        0x1000       3.249977    
+

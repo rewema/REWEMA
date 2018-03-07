@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    158720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f139b2b948252b7f823dcf70c1bd9e2c
+SHA1:    ccf53c9c6d9e8218a1d8e2a42fd3caf0c00e643f
+ssdeep:  3072:HSKWEANteqRTVR9T3rmW0ogrkL2S+bdlIXMTwbkfcakQRPu0hf:yKWneqRTVR9T7mW0oBL2S+bzIXM8bgam
+Date:    0x57899141 [Sat Jul 16 01:43:29 2016 UTC]
+EP:      0x4224b0 .text 0/6
+CRC:     Claimed: 0x2b6b1, Actual: 0x2b6b1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x28060  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22c64      0x22e00      6.379452    
+.data      0x24000      0x614        0x200        1.712788    
+.idata     0x25000      0x185e       0x1a00       5.115577    
+.didat     0x27000      0x34         0x200        0.413672    [SUSPICIOUS]
+.rsrc      0x28000      0x428        0x600        2.484514    
+.reloc     0x29000      0x15ac       0x1600       6.750621    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MusNotificationBroker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: MusNotificationBroker
+OriginalFilename: MusNotification.exe
+Translation: 0x0409 0x04b0
+

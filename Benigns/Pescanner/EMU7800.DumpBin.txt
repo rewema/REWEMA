@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15360 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 Mono/.Net assembly
+MD5:     5ed1fca00ea9648e8997605c57cb8400
+SHA1:    7bb60545e640cc870ef0f6c18001daaacd040235
+ssdeep:  384:5vEmGKnzyrII2JZwXoQMeu7Dn8x9JCMuLW3Qs:5vTzlI23w4QMH7D8x9JxuSQs
+Date:    0x5608019A [Sun Sep 27 14:47:54 2015 UTC]
+EP:      0x404b82 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x8b96 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6120   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x6258   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x6550   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x6584   0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x68ec   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2b88       0x2c00       5.759163    
+.rsrc      0x6000       0xadc        0xc00        4.057769    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2012 Mike Murphy
+Assembly Version: 1.0.0.0
+InternalName: EMU7800.DumpBin.exe
+FileVersion: 1.0.0.0
+CompanyName: Mike Murphy
+Comments: EMU7800 DumpBin
+ProductName: EMU7800
+ProductVersion: 1.0.0.0
+FileDescription: EMU7800 DumpBin
+OriginalFilename: EMU7800.DumpBin.exe
+

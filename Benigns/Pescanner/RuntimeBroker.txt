@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     022c4d9908a767ed12221df182d07dd8
+SHA1:    faccbb27c4454fdfec477a2f9c4b9660f9a62463
+ssdeep:  384:+qLbxbrArHRDU/ed9Yx23oODCpf+vFGWH6W+rJNclRDBRJ32JlCoDKb:jLNrArxImE+vFvirY1P32+oDq
+Date:    0x57899140 [Sat Jul 16 01:43:28 2016 UTC]
+EP:      0x402740 .text 0/6
+CRC:     Claimed: 0xd5da, Actual: 0xd5da 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x74c0   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70a0   0x41b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2b34       0x2c00       5.969823    
+.imrsiv    0x4000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x5000       0x3dc        0x200        0.334207    [SUSPICIOUS]
+.idata     0x6000       0xfb8        0x1000       4.796364    
+.rsrc      0x7000       0x870        0xa00        4.091673    
+.reloc     0x8000       0x318        0x400        5.627210    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RuntimeBroker.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Runtime Broker
+OriginalFilename: RuntimeBroker.exe
+Translation: 0x0409 0x04b0
+

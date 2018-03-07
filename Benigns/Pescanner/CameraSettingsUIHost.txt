@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     107e1400e4717574021cd3931bf5b10a
+SHA1:    70d61cda25b7bad9fe77bc7242c4ebda8854358c
+ssdeep:  384:2UREbyrAImg55c+U41XACfy5Vnl+7Qg2JSpOlWydWd+ZxlRDBRJilkoU6Hz:2UREeMInFcQynnv9Pm+x1PhoPHz
+Date:    0x5789917C [Sat Jul 16 01:44:28 2016 UTC]
+EP:      0x403570 .text 0/6
+CRC:     Claimed: 0xb071, Actual: 0xb071 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x7430   0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70a0   0x38d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2e4c       0x3000       6.021904    
+.imrsiv    0x4000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x5000       0x3d4        0x200        0.220113    [SUSPICIOUS]
+.idata     0x6000       0x9de        0xa00        4.969760    
+.rsrc      0x7000       0x808        0xa00        3.920204    
+.reloc     0x8000       0x44c        0x600        5.437491    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CameraSettingsUIHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Camera Settings UI Host
+OriginalFilename: CameraSettingsUIHost.exe
+Translation: 0x0409 0x04b0
+

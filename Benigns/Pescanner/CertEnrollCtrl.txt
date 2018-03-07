@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    43008 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ca181854cfcb4ed09fb8bdb626674959
+SHA1:    165d221b9b1fadc8ea65654c64e8f5bc3dbcb34a
+ssdeep:  768:jnpYP5+iavKHTiPgnwIZPh4uFvy5OeQ80WGlt+6t:8PHOonwq5hkjQEGlt+6
+Date:    0x5789915C [Sat Jul 16 01:43:56 2016 UTC]
+EP:      0x408160 .text 0/5
+CRC:     Claimed: 0x16b9b, Actual: 0x16b9b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc488   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc0b0   0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7ab0       0x7c00       5.630604    
+.data      0x9000       0x528        0x200        0.710250    [SUSPICIOUS]
+.idata     0xa000       0x1056       0x1200       4.793279    
+.rsrc      0xc000       0x550        0x600        3.009092    
+.reloc     0xd000       0xc30        0xe00        6.055440    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EnrollComServer.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Certificate Enrollment Control
+OriginalFilename: EnrollComServer.exe
+Translation: 0x0409 0x04b0
+

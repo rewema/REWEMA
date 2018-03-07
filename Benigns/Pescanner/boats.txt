@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8057856 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     319c5a27919643ebce253a4836333526
+SHA1:    415bed1a58ccb2501a6681c2a3945a0a8d8ebf4b
+ssdeep:  196608:US5NqY9vPEXVETBqwXZm47ACN0QqP0NqwtGJtEzdoiDyBlM8s2olE17HAoAtSJUu:U6793AwXZm4cCNiP2tPovkhK17goAEJB
+Date:    0x4BB77761 [Sat Apr  3 17:14:09 2010 UTC]
+EP:      0x401110 .text 0/5
+CRC:     Claimed: 0x7afdef, Actual: 0x7afdef 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x7091e2L => deflate
+   0x76f921L => deflate
+   0x76f943L => Jean-loup Gailly
+   0x77e641L => inflate
+   0x77e663L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7a3144 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7b396c 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7b5f14 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7b6fbc 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x7b7424 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 256-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+CreateProcessW
+ShellExecuteA
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x64baa4     0x64bc00     6.477132    
+.data      0x64d000     0x14abec     0x14ac00     6.521694    
+.bss       0x798000     0x5960       0x0          0.000000    [SUSPICIOUS]
+.idata     0x79e000     0x400c       0x4200       5.375626    
+.rsrc      0x7a3000     0x14464      0x14600      3.389051    
+

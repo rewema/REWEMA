@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     61c9dfc2b47cf079e68ac4a23745a74c
+SHA1:    d323bc30be097505bffbbd9e676dbc0dd72fbc28
+ssdeep:  192:IrOGTMhRcy8JVKB7zimwKoacMrxVw50pEBsiWCyWh:IKL3cZTKhzjwK/HrCsiWCyW
+Date:    0x57899199 [Sat Jul 16 01:44:57 2016 UTC]
+EP:      0x401860 .text 0/5
+CRC:     Claimed: 0x6303, Actual: 0x6303 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5060   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1484       0x1600       5.660202    
+.data      0x3000       0x390        0x200        0.199776    [SUSPICIOUS]
+.idata     0x4000       0x840        0xa00        4.205266    
+.rsrc      0x5000       0x3f8        0x400        3.291119    
+.reloc     0x6000       0x16c        0x200        5.028176    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dllhst3g.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: COM Surrogate
+OriginalFilename: dllhst3g.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1189216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     43c71d7b910c39758c39dc6c559ad867
+SHA1:    60b0cb2e319bd5fb3eb45541068fe065c398901a
+ssdeep:  24576:JRUCRl5pHK3z6uBAzCZPhZbEFmuCVd5kWaLOC:oCQz6EBuCVd5TaLOC
+Date:    0x5789908C [Sat Jul 16 01:40:28 2016 UTC]
+EP:      0x499f20 .text 0/7
+CRC:     Claimed: 0x122fbc, Actual: 0x122fbc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x114060 0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xacaaa      0xacc00      6.533496    
+.rdata     0xae000      0x57242      0x57400      5.271434    
+.data      0x106000     0xb1bc       0xaa00       5.609147    
+.didat     0x112000     0x1c         0x200        0.259963    [SUSPICIOUS]
+.tls       0x113000     0x15         0x200        0.000000    
+.rsrc      0x114000     0x3f8        0x400        3.292409    
+.reloc     0x115000     0x10c1c      0x10e00      6.623070    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Receiver
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: PPI Receiver App
+OriginalFilename: Receiver.exe
+Translation: 0x0409 0x04b0
+

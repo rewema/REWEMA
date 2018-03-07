@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    133736 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6e248fddbab4fa37f75ce54fbb69828c
+SHA1:    f7066b311742c6b60f1bb53db60a89fc61bbb3d7
+ssdeep:  3072:FfvkTiklUdGD3Dz3RN+CBMB9knrFU1kDAd9toHb:x25DtoChriLo7
+Date:    0x57898E44 [Sat Jul 16 01:30:44 2016 UTC]
+EP:      0x41b1f0 .text 0/6
+CRC:     Claimed: 0x22320, Actual: 0x22320 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1f978  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x1f868  0x10f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF, CR line terminators
+RT_VERSION         0x1f4d0  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1f150  0x37e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1ade0      0x1ae00      6.570706    
+.imrsiv    0x1c000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x1d000      0x6bc        0x400        2.669544    
+.idata     0x1e000      0xd64        0xe00        5.322400    
+.rsrc      0x1f000      0xa50        0xc00        4.126623    
+.reloc     0x20000      0x1214       0x1400       6.433551    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: LicensingUI
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Licensing UI
+OriginalFilename: LicensingUI.exe
+Translation: 0x0409 0x04b0
+

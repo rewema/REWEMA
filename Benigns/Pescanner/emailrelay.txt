@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    802816 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     08de7745e16d0e41882783b0ff4d3264
+SHA1:    d902790330ad8bf3789c3d5eeee34fd32a4ddbd7
+ssdeep:  12288:ZvRRltoSlBXymTTI6HMi5IMxsEfVbcInIiOnjNZOFChujcO:hTltoSlBXyKNVfxBflcIILZQG/
+Date:    0x43C175F6 [Sun Jan  8 20:28:38 2006 UTC]
+EP:      0x481cd0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xc70ae [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: spam
+   0xbbe24L => RCPT TO:
+   0xbbe34L => RCPT TO:
+   0xbbd48L => MAIL FROM:
+   0xb6b9eL => smtp server
+   0xb7fc0L => smtp server
+   0xb8011L => smtp server
+   0xbb79bL => smtp server
+   0xbbc0cL => EHLO 
+   0xbd474L => From: 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc4370  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0xc4670  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0xc4970  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0xc4c70  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0xc4f70  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0xc5270  0x44     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0xc52b8  0x72     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0xc5330  0x7e     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MESSAGETABLE    0xc5740  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_GROUP_ICON      0xc4658  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xc4958  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xc4c58  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xc4f58  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xc5258  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0xc53b0  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_UK       DOS executable (COM)
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9ae16      0x9b000      6.171655    
+.rdata     0x9c000      0x19fea      0x1a000      3.771978    
+.data      0xb6000      0xd6c0       0xc000       5.125586    
+.rsrc      0xc4000      0x1790       0x2000       2.616052    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Graeme Walker, 2002-2005
+InternalName: emailrelay
+FileVersion: 1, 4, 0, 0
+CompanyName:  
+PrivateBuild: 
+LegalTrademarks: 
+Comments: GPL license
+ProductName: E-MailRelay
+SpecialBuild: 
+ProductVersion: 1, 4, 0, 0
+FileDescription: E-MailRelay Application
+OriginalFilename: emailrelay.exe
+Translation: 0x0809 0x04b0
+

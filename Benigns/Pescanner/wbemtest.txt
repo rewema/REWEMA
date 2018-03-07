@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    187904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     61fe55aa612ec1376e845c41b8a9cd72
+SHA1:    47a7aa3f6ec52fe3879dc9cc0de5f3345d3d324c
+ssdeep:  3072:/6JieWaLSO3K7woKsFk0mrlLWivRjhIPFJRAhP2EAekiy:kWaLv67wcS55YDeP
+Date:    0x57898FCF [Sat Jul 16 01:37:19 2016 UTC]
+EP:      0x416db0 .text 0/5
+CRC:     Claimed: 0x2e10a, Actual: 0x2e10a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x31be0  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x227c0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22e28  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23110  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x232f8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x23420  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x242c8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24b70  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25238  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x257a0  0x7ba8   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x2d348  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f8f0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30998  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31320  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x31788  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x31848  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x223e0  0x3da    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19fc8      0x1a000      6.208525    
+.data      0x1b000      0x4630       0x400        2.266025    
+.idata     0x20000      0x1672       0x1800       5.400020    
+.rsrc      0x22000      0xfcb8       0xfe00       6.832870    
+.reloc     0x32000      0x1ef8       0x2000       6.700811    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wbemtest.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: WMI Test Tool
+OriginalFilename: wbemtest.exe
+Translation: 0x0409 0x04b0
+

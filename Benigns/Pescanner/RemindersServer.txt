@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    195072 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     41d15dff9c2874c3efeaf2bd52844242
+SHA1:    47ad1bb56bab11006f1e7d4b9338112b52eb06be
+ssdeep:  3072:yc3/iVf2ATfz+eaGTG8ARSJP5rNiPecsOGwP9yr379rP4QnoME:yc3/iVf2aqeNTG8OS5RomcdXWQ5ME
+Date:    0x57898DAA [Sat Jul 16 01:28:10 2016 UTC]
+EP:      0x408ca0 .text 0/6
+CRC:     Claimed: 0x37407, Actual: 0x37407 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x30060  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2911c      0x29200      6.362320    
+.data      0x2b000      0x1db8       0x1800       4.382284    
+.idata     0x2d000      0x1966       0x1a00       5.417232    
+.didat     0x2f000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x30000      0x440        0x600        2.530343    
+.reloc     0x31000      0x29e0       0x2a00       6.687208    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Reminders WinRT OOP Server
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Reminders WinRT OOP Server
+OriginalFilename: RemindersServer.exe
+Translation: 0x0409 0x04b0
+

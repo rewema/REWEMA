@@ -1,0 +1,77 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    292184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bcbb7c0cd9696068988953990ec5bd11
+SHA1:    3c8243734cf43dd7bb2332ba05b58ccacfa4377c
+ssdeep:  6144:3WK8fc2liXmrLxcdRDLiH1vVRGVOhMp421/7YQ43:mcvgLARDI1KIOzOR3
+Date:    0x3B7DC821 [Sat Aug 18 01:42:57 2001 UTC]
+EP:      0x1005a5e .text 0/3
+CRC:     Claimed: 0x4be4c, Actual: 0x4be4c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0xc7a0   0x2e1a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+RT_ICON            0xf5bc   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf8a4   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xf9cc   0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xfc98   0x18a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xfe24   0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xff64   0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x100fc  0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1020c  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10308  0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10394  0x520    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x108b4  0x5cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10e80  0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11330  0x44a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1177c  0x3ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x11b4c  0x1e     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x11b6c  0x36d13  LANG_ENGLISH SUBLANG_ENGLISH_US       Microsoft Cabinet archive data, 224531 bytes, 5 files
+RT_RCDATA          0x48880  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file
+RT_RCDATA          0x48884  0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       Applesoft BASIC program data
+RT_RCDATA          0x488a8  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x488b0  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x488b8  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x488bc  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x488c4  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x488c8  0xf      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x488d8  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x488dc  0x16     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x488f4  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x488fc  0x1e     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_GROUP_ICON      0x4891c  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x48940  0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x861a       0x8800       6.551021    
+.data      0xa000       0x1be4       0x400        4.184279    
+.rsrc      0xc000       0x3d000      0x3ce00      7.828037    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+InternalName: DXWebSetup
+FileVersion: 9.29.1974.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 9.29.1974.0
+FileDescription: DirectX 9.0 Web setup
+OriginalFilename: dxwebsetup.exe
+Translation: 0x0409 0x04b0
+

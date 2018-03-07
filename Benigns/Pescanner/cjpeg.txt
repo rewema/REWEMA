@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386
+MD5:     c1770c159d7d229d5df641b55cd9e4b2
+SHA1:    470ab078e370c5cb6975736138b2171373aebab6
+ssdeep:  768:RjSlWepxRzDciTQZ8ZRSIaWw0W/HNE25IS2f:+bQ2CV+Z2o
+Date:    0x42873BD2 [Sun May 15 12:08:50 2005 UTC]
+EP:      0x401000 .text 0/5
+CRC:     Claimed: 0x15800, Actual: 0x15800 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xb0e8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xb3d0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xb3e4   0x12c0   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6894       0x6a00       6.234651    
+.data      0x8000       0x70         0x200        0.257997    [SUSPICIOUS]
+.bss       0x9000       0xb0         0x0          0.000000    [SUSPICIOUS]
+.idata     0xa000       0x620        0x800        3.654060    
+.rsrc      0xb000       0x16a4       0x1800       3.488358    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2005 Independent JPEG Group <www.ijg.org>
+InternalName: cjpeg
+FileVersion: 6b.1961.25445
+License: The authors make NO WARRANTY or representation, either express or implied, with respect to this software, its quality, accuracy, merchantability, or fitness for a particular purpose. This software is provided 'AS IS', and you, its user, assume the entire risk as to its quality and accuracy. This software is copyright (C) 1991-1998, Thomas G. Lane. All Rights Reserved except as specified below. Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions: (1) If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation. (2) If only executable code is distributed, then the accompanying documentation must state that 'this software is based in part on the work of the Independent JPEG Group'. (3) Permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences; the authors accept NO LIABILITY for damages of any kind. These conditions apply to any software derived from or based on the IJG code, not just to the unmodified library. If you use our work, you ought to acknowledge us. Permission is NOT granted for the use of any IJG author's name or company name in advertising or publicity relating to this software or products derived from it. This software may be referred to only as 'the Independent JPEG Group's software'. We specifically permit and encourage the use of this software as the basis of commercial products, provided that all warranty or liability claims are assumed by the product vendor. 
+CompanyName: Independent JPEG Group <www.ijg.org>
+PrivateBuild: Patchlevel 4
+LegalTrademarks: Independent JPEG Group\xae, Jpeg\xae, cjpeg\xae
+WWW: http://www.ijg.org
+ProductName: Jpeg
+SpecialBuild: GNU for Win32 <gnuwin32.sourceforge.net>
+ProductVersion: 6b.1961.25445
+FileDescription: Jpeg: library and tools for JPEG images
+OriginalFilename: cjpeg.exe
+Translation: 0x0409 0x04e4
+

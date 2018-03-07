@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22568112 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f2515163a88252c70b112dd7b98866fd
+SHA1:    ead1d3400b9a46b01435ddef721b60816b363cbc
+ssdeep:  393216:FxtagvCBPwRakLEJUzh+lLiZrdEkoPeQvSKPML79pk+mMPoEsmhG5WxE:Fxtagqqc55iwkKeQvrPMLJLVwEzA5IE
+Date:    0x4FC4B854 [Tue May 29 11:51:48 2012 UTC]
+EP:      0x416478 .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0x159440b, Actual: 0x159440b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x214ac  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x634d4  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x73cfc  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x77f24  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7a4cc  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7b574  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7befc  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x7c364  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x7c428  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7c4f4  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7c668  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7ca04  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7cd50  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x7cfe4  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x852cc  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x852dc  0x1a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x8547c  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x854a8  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 256-colors
+RT_VERSION         0x85510  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x859c8  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x143f8      0x14400      6.482217    
+.itext     0x16000      0xbe8        0xc00        6.005799    
+.data      0x17000      0xd9c        0xe00        2.669289    
+.bss       0x18000      0x574c       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1e000      0xf9e        0x1000       4.967783    
+.tls       0x1f000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x20000      0x18         0x200        0.190489    [SUSPICIOUS]
+.rsrc      0x21000      0x64f28      0x65000      5.213269    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2006-2015 MiniTool Solution Ltd., all rights reserved.                                  
+FileVersion: 7.0                 
+CompanyName: MiniTool Solution Ltd.                                      
+Comments: This installation was built with Inno Setup.
+ProductName: MiniTool Power Data Recovery Free Edition                   
+ProductVersion: 7.0                 
+FileDescription: MiniTool Power Data Recovery Free Edition Setup             
+Translation: 0x0000 0x04b0
+

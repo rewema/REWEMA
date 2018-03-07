@@ -1,0 +1,35 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3294720 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1a13b47d1b8ec84cb096ef969688e102
+SHA1:    27d4ce1444f02a64baa6d3638f201bd372e4eb81
+ssdeep:  98304:kxUYiBcPPBzXOwtS36ACskIOrI2NRE9BexBvqC2k/3ZHA/A55HA/A5rmkaI6C2k1:/YiBcPPBzXOEskIOrlNRE9BexBvqC2kD
+Date:    0x4FD63D85 [Mon Jun 11 18:48:37 2012 UTC]
+EP:      0x41a825 .text 1/7
+CRC:     Claimed: 0x0, Actual: 0x3252d0 [SUSPICIOUS]
+Packers: Microsoft Visual C++ V8.0 (Debug)
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0x33d170 0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.textbss   0x1000       0x184e5      0x0          0.000000    [SUSPICIOUS]
+.text      0x1a000      0x360d5      0x36200      5.325632    
+.rdata     0x51000      0x2e68c9     0x2e6a00     6.403307    
+.data      0x338000     0x1be0       0x800        3.292293    
+.idata     0x33a000     0x2095       0x2200       4.858326    
+.rsrc      0x33d000     0x459        0x600        2.251989    
+.reloc     0x33e000     0x44e8       0x4600       3.963620    
+

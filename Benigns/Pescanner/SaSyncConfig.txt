@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    213504 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     23d9cc148eb055c4b962ad617fb6f967
+SHA1:    87dfdf98e45e0d354c51100d95b207c85dde3367
+ssdeep:  3072:JMV4NMV4f5YAFgBci4OEXCrZcsK8eiCI8fLKrkrURNtygaqG2otjwAMV4:JMV4NMV4wci4OEn8eiCIAjrMV4
+Date:    0x485CC25A [Sat Jun 21 08:56:58 2008 UTC]
+EP:      0x42b75e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x41418 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2c4c0  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x2c828  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2d4d0  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2f178  0x3228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x323a0  0x4048   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x363e8  0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 16x16, 256-colors
+RT_VERSION         0x2c1a8  0x318    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x29764      0x29800      4.439086    
+.rsrc      0x2c000      0xa438       0xa600       2.858320    
+.reloc     0x38000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 2004-2008
+Assembly Version: 1.2.3094.14899
+InternalName: SaSyncConfig.exe
+FileVersion: 1.2.3094.14899
+CompanyName: Lopeware
+ProductName: SaSync
+ProductVersion: 1.2.3094.14899
+FileDescription: SaSyncConfig
+OriginalFilename: SaSyncConfig.exe
+

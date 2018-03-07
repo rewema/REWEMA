@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14336 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2f52d1c6d769df3e888708ad5719e79e
+SHA1:    8c6a94e92d830f4909b19120e4dae52c610891c4
+ssdeep:  192:wdlljMosoQAFqysjhdbXI2PTGpLq5Wvc14S5SDGVkH0Wd8WqSX8Q:WMVobFJ+hlXxbG/zS5qTUWd8WD
+Date:    0x57899135 [Sat Jul 16 01:43:17 2016 UTC]
+EP:      0x402350 .text 0/5
+CRC:     Claimed: 0xaa19, Actual: 0xaa19 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5760   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x53c0   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19ac       0x1a00       5.993196    
+.data      0x3000       0xc7c        0x200        0.859645    [SUSPICIOUS]
+.idata     0x4000       0x934        0xa00        4.520827    
+.rsrc      0x5000       0x828        0xa00        3.762191    
+.reloc     0x6000       0x220        0x400        4.283116    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: mrinfo.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Multicast Information
+OriginalFilename: mrinfo.exe
+Translation: 0x0409 0x04b0
+

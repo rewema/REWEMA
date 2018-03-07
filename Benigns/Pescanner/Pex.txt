@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b78947f71cd5f0e941e937f395303039
+SHA1:    9c14ab8bff405e40e4634539cca077e6a1d105bb
+ssdeep:  768:h3TipKwdxbz9HH0TxHH0TxHH0T7s4AsgxoY7r5rHgJHH0T:UdJF0T10T10T7sCyoYNgt0T
+Date:    0x44F311B7 [Mon Aug 28 15:54:31 2006 UTC]
+EP:      0x41190e .text 0/3
+CRC:     Claimed: 0x18e1c, Actual: 0x18e1c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x125a8  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12890  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x129b8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x13260  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x137c8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x14870  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14cd8  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 32x32, 16-colors
+RT_VERSION         0x121d8  0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xf914       0x10000      5.994342    
+.rsrc      0x12000      0x2d38       0x3000       5.419474    
+.reloc     0x16000      0xc          0x1000       0.015920    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright 2006 Talha Tariq [talha.tariq@gmail.com] .All rights reserved.
+Assembly Version: 1.0.0.0
+InternalName: Pex.exe
+FileVersion: 1.0.0.0
+CompanyName: The Wiseuyz
+Comments: Forensic and Intrusion Log Analysis
+ProductName: Forensics and Intrusion Log Analyser
+ProductVersion: 1.0.0.0
+FileDescription: FILA
+OriginalFilename: Pex.exe
+

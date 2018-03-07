@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    984064 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3d6e9dc61e5d0eaef4306295c2cdc8ce
+SHA1:    26c9726436ed38c57e8cd2d19e028cf2b8ab2114
+ssdeep:  24576:Zftyoy9xZvpKA/94QlplJHEfvDWMx7Rutx:ZVGPZRKelpQfx7Qtx
+Date:    0x57898FF8 [Sat Jul 16 01:38:00 2016 UTC]
+EP:      0x4ae790 .text 0/5
+CRC:     Claimed: 0xf38cb, Actual: 0xf38cb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WEVT_TEMPLATE      0xd0180  0x1c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd0348  0x60a    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 128 x 128, 8-bit/color RGB, non-interlaced
+RT_ICON            0xd0958  0x70a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd7a00  0x4ee8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdc8e8  0x3228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdfb10  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe17b8  0x1428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe2be0  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe3888  0x748    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe3fd0  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe44f8  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MESSAGETABLE    0xd00e8  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_GROUP_ICON      0xe4860  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 256-colors
+RT_VERSION         0xcfd48  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xcf3b0  0x994    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+OpenProcessToken
+CreateProcessAsUserW
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc0cec      0xc0e00      6.357038    
+.data      0xc2000      0x7140       0x6600       4.802562    
+.idata     0xca000      0x451c       0x4600       5.721263    
+.rsrc      0xcf000      0x158f8      0x15a00      2.738066    
+.reloc     0xe5000      0xeb78       0xec00       6.703615    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MSASCUI
+FileVersion: 4.10.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 4.10.14393.0
+FileDescription: Windows Defender User Interface
+OriginalFilename: MSASCUI.exe
+Translation: 0x0409 0x04b0
+

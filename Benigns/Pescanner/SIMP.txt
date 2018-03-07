@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    768000 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     53a679863ac516a521b6c2c7b6c9dedd
+SHA1:    6e60085d2055077b30349580cfdcc8b946d0772f
+ssdeep:  12288:2AZo6dGcVxE1+s837xYVlx+GgdZnalf4yjS5b6FY8m/Dt:2N6dGcVxE1+s837xYVlx+jc4KEN8U
+Date:    0x4F633565 [Fri Mar 16 12:43:17 2012 UTC]
+EP:      0x4ac30e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc40e8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xae448  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xbec70  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xae130  0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xbec88  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xaa314      0xaa400      6.396623    
+.rsrc      0xae000      0x10e78      0x11000      4.657804    
+.reloc     0xc0000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 WebExtreme 2011
+Assembly Version: 1.0.0.0
+InternalName: SIMP.exe
+FileVersion: 1.0.0.0
+CompanyName: WebExtreme
+ProductName: SimpleImageResizer
+ProductVersion: 1.0.0.0
+FileDescription: SimpleImageResizer
+OriginalFilename: SIMP.exe
+

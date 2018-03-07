@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4280123 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e6975e94f6056f42e0a781f9e005d14b
+SHA1:    df12ba075e7699a4fe07fcefe07eb8f722071bfe
+ssdeep:  98304:ef6VkjSDJowuObG3kN2I8NvEH7xZxESZPLKbk:S6V7DJF9EkxZxTsbk
+Date:    0x4A66C9E6 [Wed Jul 22 08:12:22 2009 UTC]
+EP:      0x41b912 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x41a56b [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d2d0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d3f8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d960  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dc48  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e4f0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f700  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f728  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f750  0x7a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f7d0  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2f398  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 16-colors
+RT_VERSION         0x2f7f8  0x320    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2f3e8  0x316    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+WinExec
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x211da      0x22000      6.571163    
+.rdata     0x23000      0x2086       0x3000       4.139841    
+.data      0x26000      0x6160       0x6000       2.981339    
+.rsrc      0x2d000      0x2b18       0x3000       4.551813    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 2, 0, 0, 34
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: DownTubeMe 2010 Awesome Install Program
+SpecialBuild: 
+ProductVersion: 2, 0, 0, 34
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0409 0x04b0
+

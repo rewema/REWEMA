@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    136704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d621fecf57bfefc5bfbae749483ad40e
+SHA1:    93f5cd6eb66e3d40b5c535bffaf50a067e191961
+ssdeep:  3072:N75U501M8Wp1icKAArDZz4N9GhbkUNEk95L:WT9p0yN90vE
+Date:    0x578990F2 [Sat Jul 16 01:42:10 2016 UTC]
+EP:      0x406bd0 .text 0/5
+CRC:     Claimed: 0x3068f, Actual: 0x3068f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0x21ab0  0x2e1a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+MUI                0x24cd8  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcbf8   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd260   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd548   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd730   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd858   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe700   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xefa8   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf670   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xfbd8   0xd9d2   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1d5b0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fb58  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20c00  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21588  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x219f0  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x248d0  0x404    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc410   0x7e2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x651c       0x6600       6.307849    
+.data      0x8000       0x1a48       0x200        4.970640    
+.idata     0xa000       0x106e       0x1200       5.057154    
+.rsrc      0xc000       0x18db8      0x18e00      7.155218    [SUSPICIOUS]
+.reloc     0x25000      0x890        0xa00        6.274662    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Wextract                
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: Win32 Cabinet Self-Extractor                                           
+OriginalFilename: WEXTRACT.EXE            
+Translation: 0x0409 0x04b0
+

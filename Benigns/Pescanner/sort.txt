@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21504 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     995f41569f595164cd60c8160c128d05
+SHA1:    bc66c5f68bdd7c2d473786f472edccc10661f409
+ssdeep:  384:i0RnTyULFfjVsEI+4e+lMAw1WjHKXRfa7ZbHWjnWoYwc5:i0tZZsP+3+lMp1k1bwhc5
+Date:    0x57898ECE [Sat Jul 16 01:33:02 2016 UTC]
+EP:      0x403bf0 .text 0/5
+CRC:     Claimed: 0x73b2, Actual: 0x73b2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9710   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9390   0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x29a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x345c       0x3600       6.176654    
+.data      0x5000       0x29c8       0x200        0.350641    [SUSPICIOUS]
+.idata     0x8000       0x782        0x800        4.976090    
+.rsrc      0x9000       0x7d8        0x800        4.276290    
+.reloc     0xa000       0x640        0x800        5.908466    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Sort
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Sort Utility
+OriginalFilename: Sort.EXE
+Translation: 0x0409 0x04b0
+

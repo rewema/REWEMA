@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f32eec58fb6884625203a7772da70012
+SHA1:    e2a097bf0cd5d214357e8e745164c81dec837622
+ssdeep:  48:6GxiBUMY8MKYYhXstUT2LmtFihL1xTN7tFcDbPsFOPta0agL6kH:IoKYsstI2GohjTpHWDs0a
+Date:    0x433A5282 [Wed Sep 28 08:21:22 2005 UTC]
+EP:      0x4027be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x4098 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4420   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4708   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4830   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x7c4        0x1000       2.920013    
+.rsrc      0x4000       0x858        0x1000       2.043958    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2097.16841
+InternalName: BgColor.exe
+FileVersion: 1.0.2097.16841
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2097.16841
+FileDescription:  
+OriginalFilename: BgColor.exe
+

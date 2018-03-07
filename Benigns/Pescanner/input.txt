@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e280852e76120035524626a13acc9f19
+SHA1:    b789b53370d3a5a7aab6377efad25b9b2ae90222
+ssdeep:  384:EyZlE8lY226ELEVmlPPmicyyme19h6oiZJEWvFW:EqlE8GLBcybwh6oix
+Date:    0x39D838A5 [Mon Oct  2 07:26:29 2000 UTC]
+EP:      0x4013e0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x134ff [SUSPICIOUS]
+Packers: Armadillo v2.53b3
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6130   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6430   0x20a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6418   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x6640   0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2c5e       0x3000       6.246971    
+.rdata     0x4000       0x8e4        0x1000       3.544944    
+.data      0x5000       0xa1c        0x1000       1.132255    
+.rsrc      0x6000       0x9c0        0x1000       2.619157    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1994-2000
+InternalName: INPUT
+FileVersion: 4.02.4602.0
+CompanyName: Microsoft Corporation
+SpecialBuild: Active Accessibility SDK
+ProductName: Microsoft Active Accessibility
+ProductVersion: 4.02.4602.0
+FileDescription: Active Accessibility Input API Sample
+OriginalFilename: INPUT.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    589824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     dca25792e3d16acfa41d60cdf9ded106
+SHA1:    39889e46882d28fff7ec33077ce31307b69d12f3
+ssdeep:  6144:1na69YZaDjmNafUjKZ7hLjtpwAazsc6HCfjataRa25N55N9N9uM0adadaOsf+5al:1nF9YZafzgT353xHAsf+S353xHXR
+Date:    0x44F86412 [Fri Sep  1 16:47:14 2006 UTC]
+EP:      0x48c2ce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x9f79e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8e4d8  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8f380  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x8f8e8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x90190  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 48x48, 256-colors
+RT_VERSION         0x8e148  0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8a2d4      0x8b000      6.170263    
+.rsrc      0x8e000      0x21c0       0x3000       3.584860    
+.reloc     0x92000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: (c) 2004 by Thorsten Raab
+Assembly Version: 1.1.9.32017
+InternalName: MyFotoAlbum.exe
+FileVersion: 1.1.9.32017
+CompanyName:  
+LegalTrademarks:  
+Comments: Photo database under GNU GPL
+ProductName: MyFotoAlbum
+ProductVersion: 1.1.9.32017
+FileDescription: MyFotoAlbum
+OriginalFilename: MyFotoAlbum.exe
+

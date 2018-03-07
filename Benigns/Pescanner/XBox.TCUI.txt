@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    343040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 Mono/.Net assembly
+MD5:     1253f925c93168cf8921a3bc0732e6d5
+SHA1:    d4dbfc57038edfc27fa4b4495623d6ef04e61661
+ssdeep:  6144:2HPmAedQI2QS5mr953+SmGZzm4+kL/PCn4Ina6PXgTnm:gmAedQI2QS5mr9dA4+sPC4Ing
+Date:    0x578986E3 [Sat Jul 16 00:59:15 2016 UTC]
+EP:      0x454fba .text 0/3
+CRC:     Claimed: 0x5563a, Actual: 0x5563a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x56090  0x402    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x564a4  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x52fc0      0x53000      5.963161    
+.rsrc      0x56000      0x694        0x800        3.641374    
+.reloc     0x58000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: XBox.TCUI.exe
+FileVersion: 10.0.14393.0
+CompanyName: Microsoft Corporation
+LegalTrademarks: 
+Comments: 
+ProductName: Microsoft (R) Windows (R) Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCUI.UAP
+OriginalFilename: XBox.TCUI.exe
+

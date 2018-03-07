@@ -1,0 +1,102 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    609280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5dd7a329ef1b6b278700781f605687de
+SHA1:    0c0c2524e51d13637abe66cf1be65cc9eaa30f83
+ssdeep:  12288:PfoDjbhRDU2zduLwvxkiChaeiVjEypjDS:PfGhR9zYLwvEQexy9
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x47f308 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x9e226 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x91b4c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x91c80  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x91db4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x91ee8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x9201c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x92150  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x92284  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x923b8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x92588  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9276c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9293c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x92b0c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x92cdc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x92eac  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9307c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9324c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9341c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x935ec  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x936d4  0x2e8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x939bc  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x93a10  0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x93d70  0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x9413c  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x941f8  0x10c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x94304  0x1c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x944c8  0x460    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x94928  0x394    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x94cbc  0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x95060  0x40c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x9546c  0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x9555c  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7078005 records)
+RT_STRING          0x95634  0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x958a8  0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x95c38  0x3ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x95fe4  0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x962bc  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x962cc  0x258    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x96524  0x1351   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x97878  0x275    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x97af0  0x2736   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x9a228  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x9a23c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x9a250  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x9a264  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x9a278  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x9a28c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x9a2a0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x9a2b4  0x14     LANG_CZECH   SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_VERSION         0x9a2c8  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x7e368      0x7e400      6.516471    
+DATA       0x80000      0x14a0       0x1600       3.925911    
+BSS        0x82000      0xd3d        0x0          0.000000    [SUSPICIOUS]
+.idata     0x83000      0x2440       0x2600       4.830375    
+.tls       0x86000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x87000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x88000      0x8e34       0x9000       6.628077    
+.rsrc      0x91000      0x9600       0x9600       5.094842    
+
+Version info
+================================================================================
+LegalCopyright: Tomas Igrini
+InternalName: 
+FileVersion: 0.2.1.1
+CompanyName: 
+LegalTrademarks: 
+Comments: 
+ProductName: Winamp Advanced quick Control
+ProductVersion: 1.0.0.0
+FileDescription: Control ypur winamp quickly
+OriginalFilename: wac.exe
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,122 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3042592 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ba7bfdcd603a7392521e4a688dd40358
+SHA1:    729c9fe38480b238d6659d3d89aa64dbdcde08be
+ssdeep:  49152:ZdgeXwWrwDQyyRcl8xdDt8B4oiW1Y5EXbmczS9F4KWF4g3MAy9q8jOPUcHQmZLQU:Zsm1yIcl5BP1YuXbpzS9Y4gRy93BxmZt
+Date:    0x59305FDB [Thu Jun  1 18:41:31 2017 UTC]
+EP:      0x4d4bdb .text 0/5
+CRC:     Claimed: 0x2efd45, Actual: 0x2efd45 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x1ee06eL => msg
+   0x211682L => msg
+   0x21197cL => msg
+   0x21293cL => msg
+   0x21329fL => msg
+   0x236ccdL => msg
+   0x25498dL => msg
+   0x254995L => msg
+   0x2549dbL => msg
+   0x2549e4L => msg
+   0x254a61L => msg
+   0x254a69L => msg
+   0x254ad1L => msg
+   0x254ad9L => msg
+   0x25da73L => MSG
+   0x25da93L => msg
+   0x25dcb8L => msg
+   0x236a12L => Notice
+   0x246d3cL => Notice
+   0x25ba74L => NOTICE
+   0x22697aL => part
+   0x228b88L => part
+   0x228bb1L => part
+   0x228be0L => part
+   0x228c08L => part
+   0x228c3bL => part
+   0x228d94L => part
+   0x229162L => part
+   0x229226L => part
+   0x238ac0L => part
+   0x23a02eL => part
+   0x23b628L => part
+   0x23b6baL => part
+   0x23cf5cL => part
+   0x23dcffL => part
+   0x23de13L => part
+   0x243e90L => part
+   0x244261L => part
+   0x24880aL => part
+   0x24ab7dL => part
+   0x24b2c8L => part
+   0x24b2f3L => part
+   0x24c369L => part
+   0x24d394L => part
+   0x24d62dL => part
+   0x24de75L => part
+   0x250362L => part
+   0x25047aL => part
+   0x254f6bL => part
+   0x1f6c14L => chat
+   0x1f6c50L => chat
+   0x1f6c8bL => chat
+   0x1f96ecL => Chat
+   0x1fa128L => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+SCID               0x36a340 0x7      LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with no line terminators
+RT_ICON            0x36a348 0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x36a3f8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x36a960 0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x36acc8 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36b970 0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36d618 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x36da80 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36eb28 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3710d0 0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3b30f8 0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 2-colors
+RT_VERSION         0x3b317c 0x41c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x3b3598 0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3b38bc 0x883    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1db45c     0x1db600     6.666300    
+.rdata     0x1dd000     0x93574      0x93600      6.145575    
+.data      0x271000     0xf8008      0x14800      4.403802    
+.rsrc      0x36a000     0x4a140      0x4a200      5.621931    
+.reloc     0x3b5000     0x1762c      0x17800      6.621525    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2010 Valve Corporation
+InternalName: steamcmd (buildbot_steam-relclient-win32-builder_steam_rel_client_win32@steam-relclient-win32-builder)
+FileVersion: 03.98.98.55
+CompanyName: Valve Corporation
+Source Control ID: 3989855
+ProductName: Steam Client Bootstrapper
+ProductVersion: 01.00.00.01
+FileDescription: Steam Client Bootstrapper
+OriginalFilename: steam.exe
+Translation: 0x0409 0x04b0
+

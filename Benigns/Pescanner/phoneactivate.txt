@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    93984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     20576762305a2320ee43e05d9886ba09
+SHA1:    1e260d616ece8d8859e7e66a834268510d063e2e
+ssdeep:  1536:F1yJXyp3ld6vKVPsP0w705aAdnACfC9G9bwRlxdZydpbyoPE5JELKNj6ZahP5r:WJmfku5aCACfCM9FOAZahxr
+Date:    0x578990E2 [Sat Jul 16 01:41:54 2016 UTC]
+EP:      0x40d8d0 .text 0/6
+CRC:     Claimed: 0x2309c, Actual: 0x2309c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x17950  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x138b8  0x3b27   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x173e0  0x56f    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_VERSION         0x13508  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x13180  0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd204       0xd400       6.335872    
+.imrsiv    0xf000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x10000      0x5b8        0x200        0.657338    [SUSPICIOUS]
+.idata     0x11000      0x16fa       0x1800       5.524191    
+.rsrc      0x13000      0x4a28       0x4c00       5.158295    
+.reloc     0x18000      0xbcc        0xc00        6.617478    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: phoneactivate
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Phone Activation UI
+OriginalFilename: phoneactivate.exe
+Translation: 0x0409 0x04b0
+

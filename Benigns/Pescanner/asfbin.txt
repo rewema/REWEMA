@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    393216 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     74e21677d530c664a6f8539b960fb72d
+SHA1:    63f4174c4670f92b65b97acf278b5e851a15ae16
+ssdeep:  6144:+tGWINk5TTih9RlQVtoMV/e2OhuGhkMNWzI887UAyk1W/J6rx06V:+sWINk5XM9Rl4toMV/e2yLNWs8c2Jux
+Date:    0x46306ABF [Thu Apr 26 09:02:55 2007 UTC]
+EP:      0x440f9f .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x61f42 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x61060  0x34c    LANG_POLISH  SUBLANG_DEFAULT          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x494da      0x4a000      6.605130    
+.rdata     0x4b000      0x8772       0x9000       6.189061    
+.data      0x54000      0xc904       0xb000       4.352485    
+.rsrc      0x61000      0x3b0        0x1000       0.977240    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2001-2007
+InternalName: asfbin
+FileVersion: 1, 6, 1, 703
+CompanyName: Radioactive
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: asfbin by Radioactive
+SpecialBuild: 
+ProductVersion: 1, 6, 1, 703
+FileDescription: asfbin
+OriginalFilename: asfbin
+Translation: 0x0000 0x04b0
+

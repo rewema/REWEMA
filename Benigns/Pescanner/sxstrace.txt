@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29696 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a204ed0cceabc754fa7f7f5dfbb1f44d
+SHA1:    fee50588e8a59a270b31153b9d35a6249e344ccc
+ssdeep:  384:16d1wFtDt/BYismm3yMr7gqzYD10n/K5re0a5fG64kSXH4YXip7rDZVQhfN0W2MF:1ISd/BYis3CMfxcW0a5+uNwfNIVw
+Date:    0x57898F16 [Sat Jul 16 01:34:14 2016 UTC]
+EP:      0x405600 .text 0/5
+CRC:     Claimed: 0xf0c7, Actual: 0xf0c7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x13730  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x13390  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x130f0  0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x57a4       0x5800       6.211683    
+.data      0x7000       0xa8c4       0x200        1.958096    
+.idata     0x12000      0x7ac        0x800        5.283868    
+.rsrc      0x13000      0x7f8        0x800        4.322475    
+.reloc     0x14000      0x5c0        0x600        6.472043    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sxstrace.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Sxs Tracing Tool
+OriginalFilename: sxstrace.exe
+Translation: 0x0409 0x04b0
+

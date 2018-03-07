@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     56096ec9de2590da5adb369750aee322
+SHA1:    46f6b565a5ed4efb9f9f9b6e4537fcc3b4288666
+ssdeep:  192:qmUTadkYPdilaGPwrnVI2AhvRXp3trvPTRZDQzXhMhLcTkGeW/lUWb:qmzvPUYWk2RXp3JjRuXyhvGeW/lUWb
+Date:    0x57899184 [Sat Jul 16 01:44:36 2016 UTC]
+EP:      0x402300 .text 0/5
+CRC:     Claimed: 0x12ccc, Actual: 0x12ccc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5358   0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50a0   0x2b4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x194c       0x1a00       5.666186    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x482        0x600        4.038382    
+.rsrc      0x5000       0x740        0x800        4.070109    
+.reloc     0x6000       0x23c        0x400        4.440694    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Tapi Unattend
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Windows(TM) Telephony Unattend Action
+OriginalFilename: TapiUnattend.exe
+Translation: 0x0409 0x04b0
+

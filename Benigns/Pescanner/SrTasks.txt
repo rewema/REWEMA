@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    51200 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     540061654c77cb4d2612b07dc31b4c6a
+SHA1:    8e157399c1f43f7379ec8e2d644020981036c9aa
+ssdeep:  768:6aMXG2KXIydJEkjElNwvuE25kAjOxwHfnBR5vxLi8RQZZgHeFKsEH:l0yd7I2uE25kAjOxwHfBPxhpEKs
+Date:    0x57898E98 [Sat Jul 16 01:32:08 2016 UTC]
+EP:      0x40a850 .text 0/5
+CRC:     Claimed: 0x11569, Actual: 0x11569 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xe750   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe370   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe0f0   0x27f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa01c       0xa200       6.388771    
+.data      0xc000       0x394        0x200        0.220113    [SUSPICIOUS]
+.idata     0xd000       0xc9e        0xe00        4.886416    
+.rsrc      0xe000       0x818        0xa00        3.705362    
+.reloc     0xf000       0x7e4        0x800        6.651180    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: srtasks
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Windows System Protection background tasks.
+OriginalFilename: srtasks.exe
+Translation: 0x0409 0x04b0
+

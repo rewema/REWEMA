@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    112640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     792465bf5e2464e968ad078e537e501f
+SHA1:    7bf76d9f631028db2174012ac0e697be74cf3a58
+ssdeep:  1536:M/1EwMpirI7wS/bwCDqYklQhtOl0u6H0ZWZhwbR+id8UH3juWA1F6+4iyiYvsa4z:c1wv3ilQhEl07kWcbReUH3s7eiyiUm
+Date:    0x57898EB5 [Sat Jul 16 01:32:37 2016 UTC]
+EP:      0x411d20 .text 0/5
+CRC:     Claimed: 0x1dc88, Actual: 0x1dc88 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1cf78  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x16a50  0x2b2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16d08  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17370  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17658  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17780  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18628  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18ed0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x19438  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b9e0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ca88  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1cef0  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x166a0  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x16380  0x31f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11848      0x11a00      6.355028    
+.data      0x13000      0x4c0        0x200        1.132513    
+.idata     0x14000      0x153a       0x1600       5.343706    
+.rsrc      0x16000      0x7070       0x7200       5.650058    
+.reloc     0x1e000      0xef8        0x1000       6.581016    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SpaceAgent
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Storage Spaces Settings
+OriginalFilename: SpaceAgent.exe
+Translation: 0x0409 0x04b0
+

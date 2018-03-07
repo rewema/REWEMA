@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8479031b34e1f72e08eb5ec618368822
+SHA1:    0d2eaa86b7908f05e9440fbf07d0bfad0770a450
+ssdeep:  384:aDfQx42X5iIDBrXIhWrwWlPXuNvBQAMYJQ2JQSkdowyoX:ibxqI6LuI30lJBkvT
+Date:    0x578991A9 [Sat Jul 16 01:45:13 2016 UTC]
+EP:      0x401810 .text 0/5
+CRC:     Claimed: 0xb7e7, Actual: 0xb7e7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5a50   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x60b8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x61e0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7088   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x75f0   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9b98   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x59f8   0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xa000   0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 16-colors
+RT_VERSION         0x5630   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x5270   0x3ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1084       0x1200       5.442578    
+.data      0x3000       0x3a8        0x200        0.626320    [SUSPICIOUS]
+.idata     0x4000       0x516        0x600        4.496083    
+.rsrc      0x5000       0x5060       0x5200       4.689249    
+.reloc     0xb000       0x18c        0x200        5.340991    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: cliconfg.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: SQL Client Configuration Utility EXE
+OriginalFilename: cliconfg.exe
+Translation: 0x0409 0x04b0
+

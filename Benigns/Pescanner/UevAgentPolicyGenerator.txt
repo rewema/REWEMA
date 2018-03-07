@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     41f8b8b7351ba168e243292c6ceb66a8
+SHA1:    6fe425296b7945d16d22c0bff39da9b0fa45bca4
+ssdeep:  384:oCvFVSXIlLo6X1OhTyERd79kwMt3jt/KJSaI3DDvQS114fOmDH1J/8rfZuKRSfDl:ohIlL/XArfD2ZRP2VFk8vnjHn6tRsd
+Date:    0x57898B43 [Sat Jul 16 01:17:55 2016 UTC]
+EP:      0x40b3a6 .text 0/3
+CRC:     Claimed: 0xe159, Actual: 0xe159 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xc090   0x42a    LANG_NEUTRAL SUBLANG_NEUTRAL          ARC archive data, squeezed
+RT_MANIFEST        0xc4cc   0x290    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x93ac       0x9400       5.136122    
+.rsrc      0xc000       0x760        0x800        4.095843    
+.reloc     0xe000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: UevAgentPolicyGenerator.exe
+FileVersion: 10.0.14393.0
+CompanyName: Microsoft Corporation
+LegalTrademarks: 
+Comments: 
+ProductName: Microsoft (R) Windows (R) Operating System
+ProductVersion: 10.0.14393.0
+FileDescription:  
+OriginalFilename: UevAgentPolicyGenerator.exe
+

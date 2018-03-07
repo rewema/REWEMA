@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4887124 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     244fbfd90b0c937a5390e3613cf045db
+SHA1:    9928341bcf36f0e3e3f75ce095dd81391b40e3d0
+ssdeep:  98304:1abfpja2diNb5GBeIyu4BZdsiHKa1xvaAi2K76DibDMxBRrIf8B:1aTpj3diNb4Dh9MKSvaAmrDMx3rIfE
+Date:    0x4B1AE3CC [Sat Dec  5 22:50:52 2009 UTC]
+EP:      0x4030fa .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x4add7a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x4c370  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4c9d8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4d880  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e128  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4e690  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e978  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x4eaa0  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4eb58  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4ec78  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4edd0  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4efd8  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4f0d0  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4f1c0  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 16-colors
+RT_VERSION         0x4f210  0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4f4f0  0x3ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c4c       0x5e00       6.440106    
+.rdata     0x7000       0x129c       0x1400       5.046835    
+.data      0x9000       0x25c58      0x400        4.801004    
+.ndata     0x2f000      0x1d000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x4c000      0x38b0       0x3a00       5.291866    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Virtual Access Foundation
+FileVersion: 1.10
+CompanyName: Virtual Access Foundation
+ProductName: Virtual Access
+Original Filename: VA_Setup_6_3_0_5.exe
+ProductVersion: 6.3.0.5
+FileDescription: Virtual Access Installer
+Translation: 0x0000 0x04e4
+

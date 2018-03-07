@@ -1,0 +1,81 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    721504 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     06f6db72adabc5e858f38ef69014ce52
+SHA1:    c1beb7e83c9fe748641e382b0c5f2d275ee82d77
+ssdeep:  12288:+4gt6hGAfQy37bQDq20XjI7XHgZQKhJgeCmvDNwJ:+ghG5m7KX0XULHgZpJEywJ
+Date:    0x55E674BC [Wed Sep  2 04:02:04 2015 UTC]
+EP:      0x2e02c135 .text 0/4
+CRC:     Claimed: 0xb95f1, Actual: 0xb95f1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9d648  0x4b2f   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xa2178  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa4720  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa57c8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa6150  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa6808  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa6c70  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa9218  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaa2c0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaac48  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xab300  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xab768  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xadd10  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaedb8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaf740  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xafdf8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb0260  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb2808  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb38b0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb4238  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb48f0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb4d58  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0xb51c0  0x614    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xb57d4  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xb57e8  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 256-colors
+RT_GROUP_ICON      0xb5844  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 48x48, 256-colors
+RT_GROUP_ICON      0xb5890  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 48x48, 256-colors
+RT_GROUP_ICON      0xb58dc  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 48x48, 256-colors
+RT_VERSION         0xb5928  0x4a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb5dcc  0x256    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessA
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5f70f      0x5f800      6.448631    
+.data      0x61000      0x3bd30      0x32000      7.635849    [SUSPICIOUS]
+.rsrc      0x9d000      0x19024      0x19200      6.016320    
+.reloc     0xb7000      0x3368       0x3400       6.684141    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2010 Microsoft Corporation.  All rights reserved.
+InternalName: Cache
+FileVersion: 14.0.7159.5000
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Office 2010
+ProductVersion: 14.0.7159.5000
+FileDescription: Microsoft Office Document Cache
+OriginalFilename: msosync.exe
+Translation: 0x0000 0x04e4
+

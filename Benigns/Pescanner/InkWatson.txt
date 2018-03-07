@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    344576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1acafb2c4c1ff854d682f7742b41fc37
+SHA1:    697f461dda5f3e9812bcd3f171a32217eecf7ef5
+ssdeep:  6144:Jjkeob8EOfbCf56TJXxsiJM5SfY9PiPMWUcecLJyQjOZypq5XgcinO:piTfaJsSfYd3TcFy4o5XB
+Date:    0x4A5BC78D [Mon Jul 13 23:47:25 2009 UTC]
+EP:      0x100d178 .text 0/4
+CRC:     Claimed: 0x5cd0e, Actual: 0x5cd0e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x538a0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x4f060  0xb5     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x4f118  0xd7     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+UIFILE             0x4f1f0  0x42db   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+RT_ICON            0x2ba38  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c8e0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d188  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d6f0  0xa5b4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x37ca8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a250  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3b2f8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3b7c8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3be30  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c118  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3c240  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d0e8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d990  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3def8  0xd617   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x4b510  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4dab8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4eb60  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x3b760  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x4efc8  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x534d0  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2b590  0x4a4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x28572      0x28600      6.429493    
+.data      0x2a000      0x998        0x800        1.087490    
+.rsrc      0x2b000      0x28998      0x28a00      7.296256    [SUSPICIOUS]
+.reloc     0x54000      0x2440       0x2600       6.551147    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: InkWatson.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Handwriting Recognition Error Reporting Wizard
+OriginalFilename: InkWatson.exe
+Translation: 0x0409 0x04b0
+

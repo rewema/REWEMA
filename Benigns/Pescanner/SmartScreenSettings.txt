@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    72704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     09a0ea8cae050ca74e1fb2e42ed93766
+SHA1:    331f8e8550067f7c70b075812776a3fc11d173d3
+ssdeep:  768:TChXC2G784CutpELtlASG/qsg75lAeAS4AsNzmdUCDRkV/L7p:TCY2G789YSG/qZ751sNz0UCdkV/L7
+Date:    0x5789910F [Sat Jul 16 01:42:39 2016 UTC]
+EP:      0x403b50 .text 0/5
+CRC:     Claimed: 0x1dab3, Actual: 0x1dab3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14290  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7be0   0x1ea9   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x9a90   0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdcb8   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10260  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11cc8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12d70  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x136f8  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13db0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14218  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x7818   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x72d0   0x546    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x333c       0x3400       6.216869    
+.data      0x5000       0x4c8        0x200        0.395833    [SUSPICIOUS]
+.idata     0x6000       0x9d4        0xa00        4.886362    
+.rsrc      0x7000       0xd360       0xd400       4.741557    
+.reloc     0x15000      0x350        0x400        5.863553    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SmartScreenSettings
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: SmartScreenSettings
+OriginalFilename: SmartScreenSettings.exe
+Translation: 0x0409 0x04b0
+

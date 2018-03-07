@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    47616 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     396d5c493d568125efa44b1742b25154
+SHA1:    415d0a2c114e2262a4b02605edda8f439811367b
+ssdeep:  768:wmvkCl57szTADhftyEwdF4bzbIeIh3qwg9FEGbROBDP5DPLkOquoaHNjs:ZvkCltcS1yh+t03sbEoOqPaHNY
+Date:    0x57899097 [Sat Jul 16 01:40:39 2016 UTC]
+EP:      0x4092e0 .text 0/6
+CRC:     Claimed: 0x18356, Actual: 0x18356 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xe750   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe3a0   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe0f0   0x2af    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8c20       0x8e00       6.213200    
+.data      0xa000       0x498        0x200        0.183339    [SUSPICIOUS]
+.idata     0xb000       0x104c       0x1200       4.641408    
+.didat     0xd000       0x28         0x200        0.292958    [SUSPICIOUS]
+.rsrc      0xe000       0x818        0xa00        3.708377    
+.reloc     0xf000       0x648        0x800        5.835674    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: setx.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Setx - Sets environment variables
+OriginalFilename: setx.exe
+Translation: 0x0409 0x04b0
+

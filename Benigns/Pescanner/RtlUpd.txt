@@ -1,0 +1,146 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1522320 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a555d7b3455264b89ee32392cd27655e
+SHA1:    6f3c5f9530ed733f8fdd1ad6f8becb2cb652f86b
+ssdeep:  24576:QoAdE1VDpxHhPpD5U6rqjsxwSoPdVoBjCvuF17+2NdJfiOgUv+FtibXka:QOZpD5jrq5SoPdVoXiOgU+FtibXka
+Date:    0x50B33E42 [Mon Nov 26 10:02:42 2012 UTC]
+EP:      0x427005 .text 0/4
+CRC:     Claimed: 0x17728b, Actual: 0x17728b 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x51f7aL => This program cannot be run in DOS mode
+   0xd255aL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+DIFX64             0x55f2c  0x805e0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (DLL) (GUI) Mono/.Net assembly
+DIFX86             0xd650c  0x4dfe0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit
+RT_CURSOR          0x1244ec 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x124620 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1246d4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x124808 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x12493c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x124a70 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x124ba4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x124cd8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x124e0c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x124f40 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x125074 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1251a8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1252dc 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x125410 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x125544 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x125678 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1257ac 0x4662   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x129e10 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x129ec8 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12a00c 0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16c034 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16e5dc 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16f684 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x16faec 0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16fba8 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16fc90 0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x16fcc4 0x1fe    LANG_SPANISH SUBLANG_NEUTRAL          data
+RT_STRING          0x16fec4 0x1f0    LANG_NORWEGIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x1700b4 0x1de    LANG_CATALAN SUBLANG_DEFAULT          data
+RT_STRING          0x170294 0x112    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x1703a8 0x196    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x170540 0x1ca    LANG_DANISH  SUBLANG_DEFAULT          data
+RT_STRING          0x17070c 0x18e    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x17089c 0x274    LANG_GREEK   SUBLANG_DEFAULT          data
+RT_STRING          0x170b10 0x1de    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x170cf0 0x1f0    LANG_FINNISH SUBLANG_DEFAULT          data
+RT_STRING          0x170ee0 0x234    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x171114 0x1f2    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_STRING          0x171308 0x1b0    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x1714b8 0x140    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x1715f8 0xfe     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0x1716f8 0x20a    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x171904 0x1ea    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_STRING          0x171af0 0x1e4    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0x171cd4 0x19c    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_STRING          0x171e70 0x274    LANG_SERBIAN SUBLANG_DEFAULT          data
+RT_STRING          0x1720e4 0x1c4    LANG_SLOVAK  SUBLANG_DEFAULT          data
+RT_STRING          0x1722a8 0x1ce    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_STRING          0x172478 0x1c8    LANG_THAI    SUBLANG_DEFAULT          data
+RT_STRING          0x172640 0x22c    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_STRING          0x17286c 0x234    LANG_INDONESIAN SUBLANG_DEFAULT          data
+RT_STRING          0x172aa0 0x1fc    LANG_SLOVENIAN SUBLANG_DEFAULT          data
+RT_STRING          0x172c9c 0x208    LANG_BASQUE  SUBLANG_DEFAULT          data
+RT_STRING          0x172ea4 0xfe     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x172fa4 0x20e    LANG_PORTUGUESE SUBLANG_PORTUGUESE       data
+RT_STRING          0x1731b4 0x266    LANG_FRENCH  SUBLANG_FRENCH_CANADIAN  data
+RT_STRING          0x17341c 0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1734a0 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1734cc 0x192    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x173660 0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x173b44 0x31a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x173e60 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x17413c 0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1741c8 0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x174274 0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x174354 0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x174818 0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x174a7c 0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x174aa8 0x42     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x174aec 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b10 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b24 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b38 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b4c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b60 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b74 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b88 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174b9c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174bb0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174bc4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174bd8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174bec 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174c00 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x174c14 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x174c28 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 256-colors
+RT_VERSION         0x174c68 0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       SysEx File - OctavePlateau
+RT_MANIFEST        0x175058 0x13e    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3c2cb      0x3d000      6.592049    
+.rdata     0x3e000      0xfe9a       0x10000      4.827345    
+.data      0x4e000      0x6878       0x3000       3.832522    
+.rsrc      0x55000      0x120198     0x121000     5.259668    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2012 Realtek Semiconductor Corp.
+InternalName: RtlUpd
+FileVersion: 2, 8, 0, 8
+CompanyName: Realtek Semiconductor Corp.
+Comments: Developed  by Archeng
+ProductName: Realtek HD Auido Update and remove driver Tool
+ProductVersion: 2, 8, 0, 8
+FileDescription: Driver Update and remove for Windows x64 or x86_32
+OriginalFilename: RtlUpd.EXE
+Translation: 0x0409 0x04b0
+

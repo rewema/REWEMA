@@ -1,0 +1,97 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1425408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     44fd1bb004c294dc6b90428c66a3fd55
+SHA1:    f26375c67f232a088b1aa98351034d1bfd85b8ae
+ssdeep:  24576:auHCKQO/DveyaPO/C2TwuyJaOnNj104WJHOTDT0:PxDHC2Q7nNZT
+Date:    0x448ECDE5 [Tue Jun 13 14:38:29 2006 UTC]
+EP:      0x4fe9af .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x161406 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x114fd9L => deflate
+   0x13f615L => deflate
+   0x144b9eL => deflate
+   0x144bf7L => deflate
+   0x114ffbL => Jean-loup Gailly
+   0x11a83dL => inflate
+   0x13f63dL => inflate
+   0x144ad6L => inflate
+   0x144b1fL => inflate
+   0x144b64L => inflate
+   0x11a85fL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x170df8 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x170f48 0x134    LANG_FRENCH  SUBLANG_FRENCH           AmigaOS bitmap font
+RT_CURSOR          0x171098 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x1711e8 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x171338 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x171488 0x134    LANG_FRENCH  SUBLANG_FRENCH           AmigaOS bitmap font
+RT_CURSOR          0x1715d8 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x171728 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x171878 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x1719c8 0x134    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_CURSOR          0x171b18 0x134    LANG_FRENCH  SUBLANG_FRENCH           AmigaOS bitmap font
+RT_BITMAP          0x175228 0xc0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x1752e8 0x6c     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ICON            0x171c68 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x1721d0 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x172320 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x172888 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x1729d8 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x172f40 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x173090 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x1735f8 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x173748 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x173cb0 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x173e00 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x174368 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x1744b8 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x174a20 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x174b70 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x1750d8 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_MENU            0x170d40 0xb4     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_CURSOR    0x1719b0 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x171080 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x171c50 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x170f30 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x171320 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x1715c0 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x1711d0 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x171710 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x171860 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x171b00 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_CURSOR    0x171470 0x14     LANG_FRENCH  SUBLANG_FRENCH           Lotus 1-2-3
+RT_GROUP_ICON      0x174490 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x1722f8 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x173720 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x173dd8 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x173068 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x174b48 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x1729b0 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x175200 0x22     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_MANIFEST        0x175358 0x292    LANG_FRENCH  SUBLANG_FRENCH           XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xfdd80      0xfe000      6.571063    
+.rdata     0xff000      0x39116      0x3a000      4.608958    
+.data      0x139000     0x36730      0x1d000      5.755107    
+.rsrc      0x170000     0x55f0       0x6000       3.879701    
+

@@ -1,0 +1,98 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    828408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     955dc56dc263dbf2b433829192d88cd9
+SHA1:    52b82b890509791da6bcc95a7efb5312e64c77a4
+ssdeep:  12288:NjtJT4tfK++eHy2iCi0MWd1Av3bopxMuog/TXeaGE82I1rOH1nV/Qtvfd:fZ/+7MRuog/TXeW2O7IX
+Date:    0x57731BA2 [Wed Jun 29 00:51:46 2016 UTC]
+EP:      0x41a070 .text 0/6
+CRC:     Claimed: 0xccfc8, Actual: 0xccfc8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xaf7f0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb0898  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb1220  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb16b8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb1d20  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb2008  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb21f0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb2318  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb31c0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb3a68  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb4130  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb4698  0x9739   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xbddd8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc0380  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc1428  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc1db0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xc4438  0x356    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc4338  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc22d8  0x82e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc2b08  0x482    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc2f90  0x616    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc35a8  0x7da    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc4790  0x256    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc49e8  0x34e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc4d38  0x172    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc3d88  0x5ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xc57f0  0x86     LANG_SWEDISH SUBLANG_NEUTRAL          data
+RT_STRING          0xc58d8  0x5c     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0xc59f8  0x8c     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0xc5460  0x80     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0xc53f0  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xc54e0  0x80     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0xc5650  0x8e     LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0xc5560  0x5e     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0xc5998  0x5c     LANG_KOREAN  SUBLANG_KOREAN           data
+RT_STRING          0xc5768  0x82     LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0xc5a88  0xa0     LANG_POLISH  SUBLANG_DEFAULT          data
+RT_STRING          0xc56e0  0x86     LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0xc5b28  0x7e     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_STRING          0xc5ba8  0x72     LANG_TURKISH SUBLANG_DEFAULT          data
+RT_STRING          0xc5878  0x5c     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0xc5938  0x5c     LANG_CHINESE SUBLANG_CHINESE_HONGKONG data
+RT_STRING          0xc55c0  0x8a     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_ICON      0xb1688  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 256-colors
+RT_GROUP_ICON      0xc2218  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0xc4eb0  0x53c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc5c20  0x27e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2d86a      0x2da00      6.582497    
+.rdata     0x2f000      0x7cbc8      0x7cc00      6.224333    
+.data      0xac000      0x16f8       0xa00        2.294548    
+.tls       0xae000      0x9          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0xaf000      0x16ea0      0x17000      6.330605    
+.reloc     0xc6000      0x598c       0x5a00       6.414200    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1996-2016 Adobe Systems Incorporated. All Rights Reserved. Adobe and Flash are either trademarks or registered trademarks in the United States and/or other countries.
+InternalName: Adobe Flash Player Control Panel Applet 22.0
+FileVersion: 22,0,0,209
+CompanyName: Adobe Systems Incorporated
+LegalTrademarks: Adobe Flash Player
+ProductName: Adobe Flash Player Control Panel Applet
+ProductVersion: 22,0,0,209
+FileDescription: Adobe Flash Player Control Panel Applet
+OriginalFilename: FlashPlayerCPLApp.cpl
+Translation: 0x0409 0x04b0
+

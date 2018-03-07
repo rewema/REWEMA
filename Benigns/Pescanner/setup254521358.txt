@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    142848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4c0b9419e515cd223e779f8f10780452
+SHA1:    86c16b5b7cb24eae2dc7921a1a9934cf8151c76b
+ssdeep:  3072:7ARAEzUI3AOGfte0D9P9HjT0rIm7f1dZJZgJ3DMeJCdB7JT5bLG:7ARdb3NGfYm9VTwImJdE0S
+Date:    0x38CE7D66 [Tue Mar 14 17:56:54 2000 UTC]
+EP:      0x413060 .text 0/4
+CRC:     Claimed: 0x25b04, Actual: 0x25b04 
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x28310  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x285f8  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_STRING          0x28720  0x2a     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x287a4  0x822    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x28fc8  0x4fe    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x294c8  0x7fc    LANG_GERMAN  SUBLANG_GERMAN           Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x29cc4  0x101c   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x2ace0  0x8d4    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x2b5b4  0x14a    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x2b700  0x194    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x2b894  0x458    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x2bcec  0x742    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_ICON      0x2c430  0x22     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2c454  0x508    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18946      0x18a00      6.599939    
+.rdata     0x1a000      0x1b4c       0x1c00       5.478199    
+.data      0x1c000      0xb430       0x3a00       2.451888    
+.rsrc      0x28000      0x5000       0x4a00       3.657678    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1987-2000 Microsoft Corp.
+InternalName: SETUP.EXE
+FileVersion: 6.00.8804
+CompanyName: Microsoft Corporation
+LegalTrademarks: Microsoft\xae ist eine eingetragene Marke der Microsoft Corporation. Windows(TM) ist eine Marke der Microsoft Corporation.
+Comments: March 14, 2000
+ProductName: Microsoft\xae Visual Basic f\xfcr Windows
+ProductVersion: 6.00.8804
+FileDescription: Setup Bootstrap f\xfcr die Visual Basic-Werkzeuge zum Erstellen von Installationsprogrammen
+OriginalFilename: SETUP.EXE
+Translation: 0x0407 0x04e4
+

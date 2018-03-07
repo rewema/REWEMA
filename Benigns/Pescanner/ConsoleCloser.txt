@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5632 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     498ec425c185c5311472df12e98e2271
+SHA1:    338e557c9b69ab6535a4aec2eabf4565bb996465
+ssdeep:  48:6J1UhhM15WuJi4JP3pozhmZ98/icX3Hvd4txldOatg6oFWSfbNtm:C0QhJvq//nFq+OgzNt
+Date:    0x53A1841E [Wed Jun 18 12:20:46 2014 UTC]
+EP:      0x402a4e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x10378 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4370   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa54        0xc00        4.404469    
+.rsrc      0x4000       0x560        0x600        3.939264    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2012
+Assembly Version: 1.0.0.0
+InternalName: ConsoleCloser.exe
+FileVersion: 1.0.0.0
+ProductName: ConsoleCloser
+ProductVersion: 1.0.0.0
+FileDescription: ConsoleCloser
+OriginalFilename: ConsoleCloser.exe
+

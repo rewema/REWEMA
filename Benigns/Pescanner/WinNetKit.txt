@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     7a798ddf2d1965f6c602f8b0a7554a10
+SHA1:    a9ae0c24a7a82b5e7be8e4270cf8e99bf44efcc2
+ssdeep:  768:bAhKZ+wq2nxHjyzzzzzzzzzzzzzzzzzzzzzzzzUdeNdd9YN4AXLUFDE2:bAmq2xHWzzzzzzzzzzzzzzzzzzzzzzzv
+Date:    0x3DAAFC16 [Mon Oct 14 17:17:10 2002 UTC]
+EP:      0x11008d5e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xe112 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc428   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc710   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc838   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xc118   0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6d64       0x7000       5.403141    
+.sdata     0xa000       0x65         0x1000       0.240108    [SUSPICIOUS]
+.rsrc      0xc000       0x860        0x1000       2.056119    
+.reloc     0xe000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1017.19793
+InternalName: WinNetKit.exe
+FileVersion: 1.0.1017.19793
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1017.19793
+FileDescription:  
+OriginalFilename: WinNetKit.exe
+

@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     662b67dbc6aff5403926deffbdcc798f
+SHA1:    fd837c2c1e9354804c1c51c2fc935cb411056636
+ssdeep:  384:vtLTzqkF9Szu3iTWnpI/vP96uhcnuxMSAC3dN4toGp0:13z5F7JCf
+Date:    0x44C78395 [Wed Jul 26 15:00:37 2006 UTC]
+EP:      0x40684e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xaa72 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8058   0x2b8    LANG_NEUTRAL SUBLANG_NEUTRAL          COM executable for DOS
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4854       0x5000       5.307263    
+.rsrc      0x8000       0x310        0x1000       0.812148    [SUSPICIOUS]
+.reloc     0xa000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.9.0.0
+InternalName: ReadWrite_RS232.exe
+FileVersion: 0.9.0.0
+ProductName: ReadWrite_COM
+ProductVersion: 0.9.0.0
+FileDescription: ReadWrite_COM
+OriginalFilename: ReadWrite_RS232.exe
+

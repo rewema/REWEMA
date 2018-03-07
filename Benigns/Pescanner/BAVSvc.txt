@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2038248 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     0e05f6dabe6d5edd25ddb0356a33ac98
+SHA1:    2f117b8f260cd25507f02af2b17620ac13b40ef0
+ssdeep:  49152:hm+4ufjF90h1vRMkqRx6J7ggLgI57HhsYBZHUONZxAIIIIIIII5T2IIII:E+RH0Dv+kqRxI7xHzh2IIIIIIII5qII/
+Date:    0x539AD7D9 [Fri Jun 13 10:52:09 2014 UTC]
+EP:      0x48cedf .text 0/4
+CRC:     Claimed: 0x1f79ca, Actual: 0x1f79ca 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1eb200 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ef428 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f19d0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f2a78 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f3400 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1f3868 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 64x64, 256-colors
+RT_VERSION         0x1f38b4 0x2ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1f3ba0 0x165    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+CreateRemoteThread
+ReadProcessMemory
+OpenProcessToken
+StartServiceCtrlDispatcherW
+CreateProcessAsUserW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18e31f     0x18e400     6.233128    
+.rdata     0x190000     0x4feae      0x50000      4.766149    
+.data      0x1e0000     0xa5c8       0x5200       5.056304    
+.rsrc      0x1eb000     0x8d08       0x8e00       5.910044    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2013 Baidu, Inc. All rights reserved.
+InternalName: Baidu Antivirus
+FileVersion: 4,4,4,73449
+CompanyName: Baidu, Inc.
+ProductName: Baidu Antivirus
+ProductVersion: 4,4,4,73449
+FileDescription: Baidu Antivirus Service
+Translation: 0x0409 0x04b0
+

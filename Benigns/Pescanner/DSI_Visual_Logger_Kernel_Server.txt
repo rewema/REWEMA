@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0628d1e8c1593dc8e81e395f8b1d01c4
+SHA1:    6bd3fcdae1197973496cb7b8b2e6df8c33088c5f
+ssdeep:  384:0ZOm8U1EpxdCiNvf4EXuG/KUUaCRlnKM++2dD3WyxzI9xs8vn:0ZPSPU0vfLpKUaXnKD+0Jlwxt
+Date:    0x42E40F90 [Sun Jul 24 22:00:48 2005 UTC]
+EP:      0x4014dc .text 0/3
+CRC:     Claimed: 0xed0b, Actual: 0xed0b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TYPELIB            0x7b3c   0xe98    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+_IID_CLOGGER       0x7b14   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+_IID_CLOGGERMGR    0x7b28   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+_SRCIID_CLOGGER    0x7b00   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x79d0   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x76e8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x75c0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x7590   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x72e0   0x2b0    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4860       0x5000       5.378836    
+.data      0x6000       0x4d4        0x1000       0.000000    
+.rsrc      0x7000       0x19d4       0x2000       3.135452    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: DSI_Visual_Logger_Kernel_Server
+FileVersion: 1.00
+CompanyName: DSI
+ProductName: DSI Visual Logger Kernel
+OLESelfRegister: 
+ProductVersion: 1.00
+OriginalFilename: DSI_Visual_Logger_Kernel_Server.exe
+

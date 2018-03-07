@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    548864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b8485f997a08377f9012d33018d4e3ee
+SHA1:    fccdbdeec67fd6334ab6aaf1d2bcf267bbe11c15
+ssdeep:  6144:PZZGV4RuuJUtuufVG2BNuuJUtGZ5osTOVEGJwW+FC/XgeoI/GsTrqXST1ItVNYZV:Pva4Ruukbuu/o/VgpFC/tHDTFanNDuu
+Date:    0x53DCAEB1 [Sat Aug  2 09:26:09 2014 UTC]
+EP:      0x476b4e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x8cf8c [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x3ae18L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x78650  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x78cb8  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x78fa0  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x79188  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x792b0  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x7a158  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x7aa00  0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x7b0c8  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x7b630  0x91db   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x84810  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x86db8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x87e60  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x887e8  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x88c50  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x78370  0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x88d10  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x74b54      0x74c00      7.008943    [SUSPICIOUS]
+.rsrc      0x78000      0x10f00      0x11000      6.374604    
+.reloc     0x8a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2014
+Assembly Version: 1.0.0.0
+InternalName: HIDinterception.exe
+FileVersion: 1.0.0.0
+ProductName: HIDinterception
+ProductVersion: 1.0.0.0
+FileDescription: HIDinterception
+OriginalFilename: HIDinterception.exe
+

@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    250032 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5309d58dcdea03107264e7e536a96e15
+SHA1:    dda5fc0e6f98a45ab7e2c735b0c785f0da5359ae
+ssdeep:  3072:Cp9X4hlBOuPZyCFtnGHwuZUF/TzgwDmcLJCrOxdZJ+XXknfpnk4RVshdmC6zyPUt:CiTHnJD/DGCjO0f243Idmx4Ut
+Date:    0x593A0E94 [Fri Jun  9 02:57:24 2017 UTC]
+EP:      0x405810 .text 0/5
+CRC:     Claimed: 0x4a56d, Actual: 0x4a56d 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x31f3eL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x362f0  0x5b30   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (DLL) (native) Intel 80386 32-bit
+RT_ICON            0x268e8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27790  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28038  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x285a0  0xa230   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x327d0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34d78  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35e20  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x26160  0x430    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x253e0  0x554    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25938  0x36e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25ca8  0x4b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x36288  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 48x48, 256-colors
+RT_VERSION         0x26590  0x358    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3be20  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateServiceA
+StartServiceA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13404      0x13600      6.601005    
+.rdata     0x15000      0xbddc       0xbe00       4.708245    
+.data      0x21000      0x31e8       0x1400       3.611121    
+.rsrc      0x25000      0x170b0      0x17200      7.008523    [SUSPICIOUS]
+.reloc     0x3d000      0x1224       0x1400       6.326527    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002-2016 Mark Russinovich
+InternalName: Sysinternals NotMyfault
+FileVersion: 4.01
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals NotMyfault
+ProductVersion: 4.01
+FileDescription: Driver Bug Test Program
+OriginalFilename: NotMyfault.exe
+Translation: 0x0409 0x04b0
+

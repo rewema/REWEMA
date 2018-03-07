@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    73728 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f75352c31627211d1fb6112e9c2f1d3b
+SHA1:    c0dc0b76939cea82085ed4c9d382b86dcc2b664f
+ssdeep:  1536:onwXgL8fJXzB1syblPjrbSl2ANVgqJhW1rh4v0fLIu:onwffJtBBzSlNNVgCsqqIu
+Date:    0x483C9C00 [Tue May 27 23:40:48 2008 UTC]
+EP:      0x11010b4e .text 0/3
+CRC:     Claimed: 0x138dd, Actual: 0x138dd 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x12058  0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xeb54       0xf000       5.725058    
+.rsrc      0x12000      0x3b0        0x1000       0.983210    [SUSPICIOUS]
+.reloc     0x14000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: (c) 2005 Joannes Vermorel
+Assembly Version: 0.2.0.1224
+InternalName: NGridPlasma.exe
+FileVersion: 0.2.0.1224
+CompanyName: NGrid
+Comments: NGrid - plasma library - ngrid.sourceforge.net
+ProductVersion: 0.2.0.1224
+FileDescription: NGrid.Plasma
+OriginalFilename: NGridPlasma.exe
+

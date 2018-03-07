@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    221888 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2f03fabc62e03f5e9bc4e1f2838d5e74
+SHA1:    39bd6e3469312aa04874d0d170662b995b34617e
+ssdeep:  3072:C1XLhX+lyZcAoCi67gbwZG9p7kddIIMIJ24NEV6DtHb5reWhAwh0HzEmo73:YVX5ZrouvZGAdIIekDV6weTo73
+Date:    0x575A1855 [Fri Jun 10 01:31:01 2016 UTC]
+EP:      0x417e30 .text 0/5
+CRC:     Claimed: 0x365b9, Actual: 0x365b9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x340a0  0x40c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x344ac  0x2e3    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+CreateServiceW
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2cc64      0x2ce00      6.343171    
+.data      0x2e000      0x3524       0x1600       3.599313    
+.idata     0x32000      0x119c       0x1200       5.492706    
+.rsrc      0x34000      0x790        0x800        4.758878    
+.reloc     0x35000      0x21d0       0x2200       6.643303    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: ServiceModelReg.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: WCF Generic Command for Vista Setup
+OriginalFilename: ServiceModelReg.exe
+Translation: 0x0409 0x04b0
+

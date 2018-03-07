@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    94208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     aade77f2c6aad8bb394795c93c2b43cd
+SHA1:    660db917d2f2467bb483c3e635ecf7a7e6bff2f6
+ssdeep:  768:gyPJlUN5Ih0TjRxIQIQeiXmZkGImoescevzigxw/BJtKIXsFNUnvvLHxrT0IA4dE:gO+/IOTjzIQIiakGIm1wisw/8cxEa2
+Date:    0x57898E58 [Sat Jul 16 01:31:04 2016 UTC]
+EP:      0x406130 .text 0/5
+CRC:     Claimed: 0x268a5, Actual: 0x268a5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa940   0x3e4b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xe790   0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x129b8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14f60  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x169c8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17a70  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x183f8  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18ab0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x18f18  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0xa5a0   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0xa2a0   0x2fb    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x67ac       0x6800       6.212815    
+.data      0x8000       0x6ac        0x200        2.592623    
+.idata     0x9000       0x812        0xa00        4.463607    
+.rsrc      0xa000       0xef90       0xf000       5.673967    
+.reloc     0x19000      0x7e4        0x800        6.537979    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Work Folders
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Work Folders
+OriginalFilename: WorkFolders.exe
+Translation: 0x0409 0x04b0
+

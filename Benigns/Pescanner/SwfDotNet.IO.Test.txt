@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     17417d5f61ccf367cf7ea04f80861542
+SHA1:    05f684d408024b8172e9637903e6b28393ecab70
+ssdeep:  384:THCRoegoDWc6BeuXkK+VNx2uNJXtaQaLio8CocI47xO8fJCgL+Lq2Z8GEGEGEGEL:TODK+nTnAIKB2ZywwWvFnu
+Date:    0x433006BB [Tue Sep 20 12:55:23 2005 UTC]
+EP:      0x40e09e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x154ca [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x10448  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x10730  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x10858  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x10118  0x32c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xc0a4       0xd000       5.129592    
+.rsrc      0x10000      0x880        0x1000       2.089223    
+.reloc     0x12000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2089.25061
+InternalName: SwfDotNet.IO.Test.exe
+FileVersion: 1.0.2089.25061
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2089.25061
+FileDescription:  
+OriginalFilename: SwfDotNet.IO.Test.exe
+

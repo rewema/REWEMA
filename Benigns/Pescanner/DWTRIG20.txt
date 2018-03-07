@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     05b1a80146571f9db6b9f9a3407ece8c
+SHA1:    daa72018c50a20f0daa1e18c6f98ac670669b07e
+ssdeep:  768:Q1rgstvpiFAFYaIylkOZMwRCNLcbeG/Hq6gxmUiS366bqCgl:Q1UmxIyYclkOZB4NgbeG/H4mUhbqCg
+Date:    0x45F723E6 [Tue Mar 13 22:21:26 2007 UTC]
+EP:      0x30006139 .text 0/4
+CRC:     Claimed: 0x17edc, Actual: 0x17edc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x22060  0x51c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6402       0x6600       6.426241    
+.data      0x8000       0x181ec      0x200        1.161238    
+.cdata     0x21000      0x4          0x200        0.081539    [SUSPICIOUS]
+.rsrc      0x22000      0x580        0x600        3.129926    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002-2003 Microsoft Corporation.  All rights reserved.
+InternalName: dwtrig20.exe
+FileVersion: 11.0.8160
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Watson Subscriber for SENS Network Notifications
+ProductVersion: 11.0.8160
+FileDescription: Watson Subscriber for SENS Network Notifications
+OriginalFilename: dwtrig20.exe
+Translation: 0x0000 0x04e4
+

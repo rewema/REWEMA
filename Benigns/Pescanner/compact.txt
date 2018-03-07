@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     02179eecc304a9af7dd2f5a5b28ae0a3
+SHA1:    0d9f00e6ecf05009ee1a7bc13db1c47e5f09b8d2
+ssdeep:  768:fdMd1p9eIsK/K1hbSXqTIICbWhf2olLfkcAKAnUVVPehd47XN1NKNT:fdMd1p9erhUWiUV4hd47XNDKN
+Date:    0x57898F17 [Sat Jul 16 01:34:15 2016 UTC]
+EP:      0x407cb0 .text 0/5
+CRC:     Claimed: 0x19907, Actual: 0x19907 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xf730   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xf398   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf0f0   0x2a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x760c       0x7800       6.288166    
+.data      0x9000       0x3e80       0x200        1.514926    
+.idata     0xd000       0x10a2       0x1200       4.833245    
+.rsrc      0xf000       0x7f8        0x800        4.339279    
+.reloc     0x10000      0x76c        0x800        6.496527    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: compact
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: File Compress Utility
+OriginalFilename: COMPACT.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    44032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     40e22559c1755beeb1caf9fd63f450cc
+SHA1:    b6b78d224e0e3907c57cac0b6c25f138a68eb5f9
+ssdeep:  768:JufdFqPKCVdIRz4GZ0PfvielYcA4Avbq+ezTIz+nbnvTelSNcRIFPWzpHtbB:JufdFqPddIRcGZKf69zVBz+nbnqnpHtV
+Date:    0x57898FF2 [Sat Jul 16 01:37:54 2016 UTC]
+EP:      0x407020 .text 0/5
+CRC:     Claimed: 0xf2d6, Actual: 0xf2d6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc758   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc3a0   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0f0   0x2af    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+CreateServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7608       0x7800       6.089272    
+.data      0x9000       0x564        0x200        1.658728    
+.idata     0xa000       0x16d4       0x1800       5.220984    
+.rsrc      0xc000       0x820        0xa00        3.717472    
+.reloc     0xd000       0xb8c        0xc00        6.630212    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ScrCons
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: WMI Standard Event Consumer - scripting
+OriginalFilename: ScrCons
+Translation: 0x0409 0x04b0
+

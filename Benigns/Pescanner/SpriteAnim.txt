@@ -1,0 +1,83 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    634880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e1885dc4abf3cc900616d2e9215e06d7
+SHA1:    ce3bb683910bf54be4d18e3f67fd5f3d12d5c6c6
+ssdeep:  12288:yIOZK3wgLtwsHE3ztfm4AwKy0jERVSSVlMpqh7XeLmOhYPC:yLuwQHE44AwKy0IWcllhY0
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4848c8 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x9c33c [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x85599L => deflate
+   0x855bbL => Jean-loup Gailly
+   0x873a9L => inflate
+   0x873cbL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x9c820  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x9c954  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x9ca88  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x9cbbc  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x9ccf0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x9ce24  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x9cf58  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9d08c  0x468    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x9d4f4  0x10a8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x9e59c  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x9ea04  0xb90    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x9f594  0x594    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x9fb28  0xb5c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa0684  0x2f4    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6684789 records)
+RT_STRING          0xa0978  0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          PCX ver. 2.5 image data
+RT_STRING          0xa0a70  0x248    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa0cb8  0x620    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa12d8  0x420    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa16f8  0x4a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa1b9c  0x590    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa212c  0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa21f4  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7078005 records)
+RT_STRING          0xa22a8  0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa2578  0x478    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xa29f0  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0xa2d58  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa30e0  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa30f0  0x4a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xa3590  0x121    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xa36b4  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xa36c8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xa36dc  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xa36f0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xa3704  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xa3718  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xa372c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0xa3740  0x22     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_MANIFEST        0xa3764  0x245    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x82d80      0x82e00      6.565615    
+.itext     0x84000      0x944        0xa00        5.997292    
+.data      0x85000      0x4080       0x4200       3.947313    
+.bss       0x8a000      0x3a4c       0x0          0.000000    [SUSPICIOUS]
+.idata     0x8e000      0x2944       0x2a00       5.211836    
+.tls       0x91000      0x34         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x92000      0x18         0x200        0.205446    [SUSPICIOUS]
+.reloc     0x93000      0x8b04       0x8c00       6.628501    
+.rsrc      0x9c000      0x7a00       0x7a00       4.630195    
+

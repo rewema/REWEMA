@@ -1,0 +1,32 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1319c32cbee1c4d2676ceea7f8fcb6ef
+SHA1:    2ce9f634ad8673aad2fc7d6a85df40f66ebd2925
+ssdeep:  768:zxgI7p1+nHtNbWATivG7+s19/L6TJT9g/eJWqM+yh6Q6p6FEmVMXVMEVRNU6cUJ5:lgI7peFivG7r19/L6TJT9g/ewqM+yh6r
+Date:    0x41015DD3 [Fri Jul 23 18:49:55 2004 UTC]
+EP:      0x401690 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x12eef [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PYTHONSCRIPT       0x4074   0x3a16   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x81c        0x1000       3.689713    
+.rdata     0x2000       0x6b6        0x1000       2.677763    
+.data      0x3000       0x5d4        0x1000       1.178040    
+.rsrc      0x4000       0x3a8c       0x4000       5.055623    
+

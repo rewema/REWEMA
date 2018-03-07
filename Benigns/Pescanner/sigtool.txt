@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    114688 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8765f279d01705dca95e828cd65c9852
+SHA1:    e5eedd12956dfa3c18cb5e6fd16f8543cedc2da1
+ssdeep:  3072:adIEzLW8vD1QvKxBRrI71pTM/ZdUgBRsykm4HchWhvh49LPFO9FViDLM8N+Z:UZh9xBJE1FM/ZdUgBRsykm4Hch0vh49C
+Date:    0x554800CD [Mon May  4 23:29:17 2015 UTC]
+EP:      0x40b86c .text 0/4
+CRC:     Claimed: 0x20fcc, Actual: 0x20fcc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x152b0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15598  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x156c0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16568  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16e10  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17378  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19920  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a9c8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b350  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1b7b8  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 32x32, 16-colors
+RT_VERSION         0x1b83c  0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1bb34  0x155    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xadd2       0xb000       6.182392    
+.rdata     0xc000       0x7eb8       0x8000       6.041976    
+.data      0x14000      0x970        0x1000       0.220096    [SUSPICIOUS]
+.rsrc      0x15000      0x6c8c       0x7000       5.869334    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005-2015 Cisco Systems, Inc. / ClamWin Pty Ltd
+InternalName: sigtool.exe
+FileVersion: 0, 98, 7, 0
+ProductName: ClamWin Antivirus
+ProductVersion: 0, 98, 7, 0
+FileDescription: ClamWin Antivirus
+OriginalFilename: sigtool.exe
+Translation: 0x0000 0x0409
+

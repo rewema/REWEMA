@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    46248 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     de8d32efbbfcabb8d7a9432c3b03e3e0
+SHA1:    7e7b658143dc0240442981192ecb428576b16111
+ssdeep:  768:N8EMZ2rWW7NP/8+RfPsX50tkr/05ssSeeau0itGRy+PE9ik1EeEBdoDXo:N8E1CW5P/8+RfPytrMGRbF0q+PaFKeE7
+Date:    0x575A1421 [Fri Jun 10 01:13:05 2016 UTC]
+EP:      0x4046c0 .text 0/6
+CRC:     Claimed: 0x1a7e9, Actual: 0x1a7e9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa0a0   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa468   0x2dd    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x50f3       0x5200       6.350315    
+.data      0x7000       0xca8        0x200        0.421433    [SUSPICIOUS]
+.idata     0x8000       0xcde        0xe00        5.102725    
+.didat     0x9000       0x14         0x200        0.213101    [SUSPICIOUS]
+.rsrc      0xa000       0x748        0x800        4.828789    
+.reloc     0xb000       0x510        0x600        6.081601    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: aspnet_wp.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: aspnet_wp.exe
+OriginalFilename: aspnet_wp.exe
+Translation: 0x0409 0x04b0
+

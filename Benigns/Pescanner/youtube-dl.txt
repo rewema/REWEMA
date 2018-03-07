@@ -1,0 +1,105 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6242107 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     fe7b3f473a7e733aee9fdd62c7107497
+SHA1:    6770e6d8de3802cd8523c14cda2306f433edc461
+ssdeep:  98304:m6yK77+9mpHnAGM0/gliobMp9yZBDjdt7m86PgWkmO+yqpZkpdDGPTK6:m6b7+e6OoApCxt56PbT+qorCrK6
+Date:    0x49180192 [Mon Nov 10 09:40:34 2008 UTC]
+EP:      0x402b28 .text 0/4
+CRC:     Claimed: 0x510d, Actual: 0x5fc154 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x3db2L => This program cannot be run in DOS mode
+YARA: encoding
+   0x1337edL => deflate
+   0x133974L => deflate
+   0x13380fL => Jean-loup Gailly
+   0x1338d4L => inflate
+   0x134cc5L => inflate
+   0x133824L => Mark Adler
+   0x134ce7L => Mark Adler
+YARA: irc
+   0x124fd4L => join
+   0x12ff4dL => join
+   0x1d67bdL => join
+   0x1d67fdL => join
+   0x1ddcf8L => join
+   0x1e3f70L => join
+   0x1f4c0dL => Join
+   0x1f5984L => Join
+   0x20eeacL => join
+   0x20ef62L => join
+   0x21d08eL => join
+   0x229c36L => join
+   0x23681eL => join
+   0x147decL => MsG
+   0x183c84L => Msg
+   0x1d90e2L => msg
+   0x1d90e8L => msg
+   0x3d2788L => nick
+   0x5ee87eL => nick
+   0x20e418L => NOTICE
+   0x20ec24L => NOTICE
+   0x223744L => Notice
+   0x2481a4L => notice
+   0x1d79e2L => part
+   0x1d7a0dL => part
+   0x1f8a44L => part
+   0x1f9aa2L => part
+   0x202645L => part
+   0x202695L => part
+   0x214d02L => part
+   0x219199L => part
+   0x21c7e0L => part
+   0x21c80eL => part
+   0x21c8e3L => part
+   0x21c911L => part
+   0x21e971L => part
+   0x21e990L => part
+   0x22997dL => part
+   0x2299abL => part
+   0x229a70L => part
+   0x229a9eL => part
+   0x2370ddL => part
+   0x23710bL => part
+   0x2371d0L => part
+   0x2371feL => part
+   0x23d1fcL => part
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PYTHON27.DLL       0x7164   0x258800 LANG_NEUTRAL SUBLANG_NEUTRAL          PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit
+PYTHONSCRIPT       0x25f964 0xb7a    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x2604e0 0x224    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x260704 0x256    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2084       0x2200       6.094396    
+.rdata     0x4000       0x912        0xa00        4.706900    
+.data      0x5000       0x1668       0xc00        4.529601    
+.rsrc      0x7000       0x25995c     0x259a00     6.659449    
+
+Version info
+================================================================================
+ProductVersion: 2016.1.15
+ProductName: youtube_dl
+FileVersion: 2016.1.15
+OriginalFilename: youtube-dl.exe
+FileDescription: YouTube video downloader
+Translation: 0x0409 0x04b0
+

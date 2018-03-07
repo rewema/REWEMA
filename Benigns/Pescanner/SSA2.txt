@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    274432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     51b8f0dfa70235b2f5bdaf5a8c701c7a
+SHA1:    a10aef109efc5a3ff6ed399116f01bad1bc9e44b
+ssdeep:  3072:68fMF/6+WGyXUL/k9t1rMUAiN++/ZOJB+TLdjkhjlLg4gPIwX:V+WGyXvzAiN+00v+TLdj
+Date:    0x41F6E4E0 [Wed Jan 26 00:31:28 2005 UTC]
+EP:      0x43f4ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x4ed2f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x40500  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x407e8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x40910  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x411b8  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x42060  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 32x32, 16-colors
+RT_VERSION         0x40178  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3d4b4      0x3e000      5.519116    
+.rsrc      0x40000      0x20a0       0x3000       2.498579    
+.reloc     0x44000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 2004-2005(c) Andrew Stampor
+Assembly Version: 2.1.0.0
+InternalName: SSA2.exe
+FileVersion: 2.1.0.0
+CompanyName: Arphahat
+LegalTrademarks:  
+Comments: The easy way to save screenshots to a file.
+ProductName:  
+ProductVersion: 2.1.0.0
+FileDescription: ScreenShotAssistant
+OriginalFilename: SSA2.exe
+

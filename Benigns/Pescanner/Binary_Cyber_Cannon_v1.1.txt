@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    497152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     0da719996aeb1be11c9f54d7533473f1
+SHA1:    614fa2f4b66878fdb4ea4086c8699771083bf033
+ssdeep:  12288:e9/avdIU7z83iTwiDXj0xIU7z8PiTwiDXj:6/0yuz83iTwiDXjxuz8PiTwiDXj
+Date:    0x4D694FF6 [Sat Feb 26 19:09:42 2011 UTC]
+EP:      0x44d42e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x88a0e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4e568  0xef7a   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x5d4e8  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6dd10  0x5488   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x73198  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x773c0  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x79968  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x7aa10  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x7b398  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x7b800  0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x4e280  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x7b878  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4b434      0x4b600      6.636808    
+.rsrc      0x4e000      0x2da68      0x2dc00      5.938874    
+.reloc     0x7c000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2011
+Assembly Version: 1.0.0.0
+InternalName: rofldos.exe
+FileVersion: 1.0.0.0
+CompanyName: Microsoft
+ProductName: rofldos
+ProductVersion: 1.0.0.0
+FileDescription: rofldos
+OriginalFilename: rofldos.exe
+

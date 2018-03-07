@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    723968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     44251ed3e5262611c3b7383a9eb507fc
+SHA1:    970e4ccdfc853abaa10828a87863793cc5f2912d
+ssdeep:  12288:XA6AHwCQNNIwNYi64ch3GEGtBSRAhkxrieFTnYltqQ3mRvSc:XSPQN2wNYi6rQEchslnWtqlv
+Date:    0x4C20FFAF [Tue Jun 22 18:23:43 2010 UTC]
+EP:      0x4b20ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xb9ddf [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xb40a0  0x2c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xb4368  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xb00b4      0xb0200      7.150481    [SUSPICIOUS]
+.rsrc      0xb4000      0x558        0x600        3.963190    
+.reloc     0xb6000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: kurt schaf GPLv3
+Assembly Version: 0.1.0.0
+InternalName: SupiDupiLyricCrawler.exe
+FileVersion: 0.1.0.0
+ProductVersion: 0.1.0.0
+FileDescription: SupiDupiLyricCrawler
+OriginalFilename: SupiDupiLyricCrawler.exe
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    139776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     01e93956f921de5043af0bc813a35846
+SHA1:    71805bfd1529851e15255ad791e8e56d02b73e61
+ssdeep:  3072:WMDD/WSj9F9L9F979O9F9vQ772V0b2lWF1Xe2RQ4/72gP9:lDuyzhzR6z07q0b2lWF1O2Rn2y
+Date:    0x4DC573B4 [Sat May  7 16:30:44 2011 UTC]
+EP:      0x42220e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2727e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x24468  0x11a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x25610  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x24130  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x25628  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x20214      0x20400      6.018432    
+.rsrc      0x24000      0x1818       0x1a00       5.603026    
+.reloc     0x26000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 2008-2010 (c) Lazar Laszlo
+Assembly Version: 2.14.4144.33322
+InternalName: PumasViewer.exe
+FileVersion: 2.14.4144.33322
+Comments: Image viewer
+ProductName: PumasViewer
+ProductVersion: 2.14.4144.33322
+FileDescription: PumasViewer
+OriginalFilename: PumasViewer.exe
+

@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2829281bdf88c2b6daf95280b00b33d2
+SHA1:    64bcc9f643ecd70d6c39c8c8386aae9973ee95d6
+ssdeep:  192:tMW05ovNmD0tY98QAD0oZUWq1MP0/IiP1oynXk6+bauc:qUmomDADUJ1MP0wM1C6Gg
+Date:    0x4601A545 [Wed Mar 21 21:36:05 2007 UTC]
+EP:      0x402562 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1564b [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5060   0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessA
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1740       0x2000       5.221780    
+.rdata     0x3000       0x6b1        0x1000       2.600092    
+.data      0x4000       0x710        0x1000       1.053282    
+.rsrc      0x5000       0x3a8        0x1000       0.948845    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: License: MPL 1.1/GPL 2.0/LGPL 2.1
+InternalName: xulrunner
+FileVersion: Personal
+CompanyName: Mozilla Foundation
+PrivateBuild: 
+LegalTrademarks: Mozilla
+Comments: 
+ProductName: XULRunner
+ProductVersion: Personal
+FileDescription: 
+OriginalFilename: xulrunner-stub.exe
+Translation: 0x0000 0x04b0
+

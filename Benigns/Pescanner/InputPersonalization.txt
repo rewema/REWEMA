@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    304640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     51323bbfc58e2fc1f790fa0192113f52
+SHA1:    101f69bb43291c2aa5381edb07fd8818de13c685
+ssdeep:  6144:aBvTtV4wPqO4k1dGDNQdwC0G5m0ed8zgY6m05I:aBvZOS1aDNLc5FsYP
+Date:    0x57898F86 [Sat Jul 16 01:36:06 2016 UTC]
+EP:      0x4355d0 .text 0/6
+CRC:     Claimed: 0x4ca37, Actual: 0x4ca37 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4ac10  0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x42518  0xb5     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x425d0  0x218    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x427e8  0x212    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x42a00  0x250    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x42c50  0x6134   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x49170  0x1a9a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x48d88  0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x422a0  0x272    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3b8bc      0x3ba00      6.385095    
+.data      0x3d000      0x1694       0xa00        3.487651    
+.idata     0x3f000      0x1d30       0x1e00       5.521768    
+.didat     0x41000      0xb8         0x200        1.705441    
+.rsrc      0x42000      0x8d18       0x8e00       4.929645    
+.reloc     0x4b000      0x2f5c       0x3000       6.714586    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: InputPersonalization.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Input Personalization Server
+OriginalFilename: InputPersonalization.exe
+Translation: 0x0409 0x04b0
+

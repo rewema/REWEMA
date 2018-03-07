@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    57661 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3ff55d267bc839d4b1b1fd7770e42a23
+SHA1:    e48160e477a3bffc9d7c620135e3f125c2097545
+ssdeep:  768:LpaDuRbNbNqGWqsKZOtPQjqbqUmNdvHtLE8Jf/8VUsqX4AgC9JrJN7PffhxdOa:LpBx8GFl04jUma8Jf/r9RDrP7Pffrdv
+Date:    0x41744B47 [Mon Oct 18 23:01:27 2004 UTC]
+EP:      0x403c4b .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x1ba51 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2e2c8  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e930  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2ee98  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f560  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fe08  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fec0  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2ffe0  0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x300f8  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x30300  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x303f8  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x304e8  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_MANIFEST        0x30518  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5a48       0x5c00       6.369870    
+.rdata     0x7000       0x10b4       0x1200       4.987360    
+.data      0x9000       0x1b3f4      0x400        5.074198    
+.ndata     0x25000      0x9000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x2e000      0x3000       0x2800       2.760003    
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1b7af5de542aced976404383416f6722
+SHA1:    1f28ddc8dbfc58a6c627669e56673d914a9a6c5c
+ssdeep:  1536:Sv6jLwUkDK9VTR79jdqgr69rhswJlXOPJ6XcfU:SewUdV79jdaD+PJ6XcfU
+Date:    0x3C36E78C [Sat Jan  5 11:46:20 2002 UTC]
+EP:      0x40419f .text 0/3
+CRC:     Claimed: 0x1a3db, Actual: 0x1a3db 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x11190  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11478  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x11980  0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x11d98  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x115a0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x115c8  0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc206       0xd000       6.337169    
+.data      0xe000       0x2598       0x1000       1.981491    
+.rsrc      0x11000      0xe78        0x1000       3.475246    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: MSILOADR
+FileVersion: 7.00.9466
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Visual Studio .NET
+OleSelfRegister: 
+ProductVersion: 7.00.9466
+FileDescription: Microsoft (R) Visual Studio Windows Installer Bootstrapper
+OriginalFilename: MSILOADR.BIN
+Translation: 0x0409 0x04b0
+

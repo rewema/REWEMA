@@ -1,0 +1,81 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    403968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bbef548f144a3a53988fa3f74180ed32
+SHA1:    96f155d409e34f2cb4274ecf70937bdf53d37b4b
+ssdeep:  3072:U2ddQ131iI9wqG0B19rWM5QExF+qpzQQOjnrZjHv7NPbKVbChf2OPZ5dfMZbQERI:UhdG01WYQEehZjHTNdZMJoHi
+Date:    0x585AAAF3 [Wed Dec 21 16:16:51 2016 UTC]
+EP:      0x401290 .text 0/6
+CRC:     Claimed: 0x6eb27, Actual: 0x6eb27 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x14628  0x668    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x14c90  0x2e8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x14f78  0x1e8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x15160  0x128    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x15288  0xea8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x16130  0x8a8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x169d8  0x6c8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x170a0  0x568    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x17608  0x42028  LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x59630  0x10828  LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x69e58  0x25a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x6c400  0x10a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x6d4a8  0x988    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x6de30  0x468    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_RCDATA          0x6e298  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x6e2a0  0x8      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x6e2a8  0x5f     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x6e308  0x14     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x6e31c  0x5e1    LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with very long lines, with no line terminators
+RT_RCDATA          0x6e900  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x6e904  0x3      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x6e908  0x43     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x6e94c  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x6e950  0x32     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x6e984  0x73     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x6e9f8  0x38     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x6ea30  0x64     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_GROUP_ICON      0x6ea94  0xca     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 14 icons, 48x48, 16-colors
+RT_VERSION         0x6eb60  0x2b8    LANG_NEUTRAL SUBLANG_DEFAULT          COM executable for DOS
+RT_MANIFEST        0x6ee18  0x14b    LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6080       0x6200       5.982433    
+.data      0x8000       0x40         0x200        0.163808    [SUSPICIOUS]
+.rdata     0x9000       0x510        0x600        5.013546    
+.bss       0xa000       0x8e30       0x0          0.000000    [SUSPICIOUS]
+.idata     0x13000      0xaa8        0xc00        4.652641    
+.rsrc      0x14000      0x5af64      0x5b000      3.701971    
+
+Version info
+================================================================================
+LegalCopyright: Arduino LLC
+InternalName: arduino
+FileVersion: 1.8.0
+CompanyName: Arduino LLC
+LegalTrademarks: 
+ProductName: Arduino
+ProductVersion: 1.8.0
+FileDescription: Arduino IDE
+OriginalFilename: arduino.exe
+Translation: 0x0409 0x04e4
+

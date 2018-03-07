@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e77f683fc6736e75183845a2850810d5
+SHA1:    f24209c640a53edd20c4224cdc2a66f05978d171
+ssdeep:  768:C/sRabUUtKZ6PNtotEYZ7J4FfhoHF1PNhD:/cbUUtKWwz4Ffh2PNx
+Date:    0x57898F46 [Sat Jul 16 01:35:02 2016 UTC]
+EP:      0x404e30 .text 0/5
+CRC:     Claimed: 0x1418c, Actual: 0x1418c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xacc0   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x97e8   0x14d6   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9418   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9160   0x2b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x543c       0x5600       5.866403    
+.data      0x7000       0x3fc        0x200        0.986553    [SUSPICIOUS]
+.idata     0x8000       0xe54        0x1000       4.964628    
+.rsrc      0x9000       0x1da8       0x1e00       3.985825    
+.reloc     0xb000       0x768        0x800        6.343498    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EmbeddedAppLauncher.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Embedded App Launcher
+OriginalFilename: EmbeddedAppLauncher.exe
+Translation: 0x0409 0x04b0
+

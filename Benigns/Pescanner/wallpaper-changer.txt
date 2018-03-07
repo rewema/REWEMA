@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29417 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d53d5467a15ef4b0780f331f2b348d8f
+SHA1:    6ab37cc47ea2f1a5ae3ba45727f46084520d7577
+ssdeep:  384:D7MgToGvElTu+rZKL2HEj+fGlzaFPnPRORfwKkCgi0LMWvDQ8kMPSFRq:P/ToGvEZu+0L2HEjVlyjAmDQ8kMP0Rq
+Date:    0x4CCA5FE7 [Fri Oct 29 05:47:19 2010 UTC]
+EP:      0x401290 .text 0/6
+CRC:     Claimed: 0x129e0, Actual: 0xfd9e [SUSPICIOUS]
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x123b8  0x568    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_RCDATA          0x12920  0x9      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x1292c  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x12930  0x12     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x12944  0x5      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x1294c  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x12950  0x3      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x12954  0x19     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x12970  0x30     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x129a0  0x4      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x129a4  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x129a8  0x4      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x129ac  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x129b0  0x32     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x129e4  0x73     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x12a58  0x35     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x12a90  0x68     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_GROUP_ICON      0x12af8  0x14     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x47b0       0x4800       5.974786    
+.data      0x6000       0xc0         0x200        0.326395    [SUSPICIOUS]
+.rdata     0x7000       0x420        0x600        4.446248    
+.bss       0x8000       0x8cb0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x11000      0xadc        0xc00        4.720912    
+.rsrc      0x12000      0xb0c        0xc00        3.295511    
+

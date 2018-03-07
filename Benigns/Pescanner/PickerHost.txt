@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45936 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     54956ac828120e5026d5ebc2f306aa40
+SHA1:    fc4250270cbb3e536b740421cedd3b65a2907470
+ssdeep:  768:Q6nlUyPPcrUNSoeEz7DPA7q/jgLB+Ox6qj3C4PC2G1PDoP5:Fn+yPPckSoeEk+/8LB96q7C4K2ePDoh
+Date:    0x5789911E [Sat Jul 16 01:42:54 2016 UTC]
+EP:      0x405f80 .text 0/6
+CRC:     Claimed: 0x12b30, Actual: 0x12b30 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xb548   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb0a0   0x4a4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6604       0x6800       6.101938    
+.imrsiv    0x8000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x9000       0x484        0x200        2.004687    
+.idata     0xa000       0xc60        0xe00        4.742998    
+.rsrc      0xb000       0x8f0        0xa00        4.373273    
+.reloc     0xc000       0x964        0xa00        6.398669    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: PickerHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: File Picker UI Host
+OriginalFilename: PickerHost.exe
+Translation: 0x0409 0x04b0
+

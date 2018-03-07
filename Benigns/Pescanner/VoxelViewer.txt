@@ -1,0 +1,97 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    543232 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5466b91922c8a45a8bd70625a6374c65
+SHA1:    a0e0357b0ce6590d9d79de6ccccb51152880e83d
+ssdeep:  12288:d04aBn9k6taEZ/JXTBkdzfUW7fRcXY6goW9h/Xx2cDKk+SdQtclbz:dE91tV1TBkuW7fRcXYAWjXMFk+SdlF
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x472240 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x85c17 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x83ad4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x83c08  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x83d3c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x83e70  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x83fa4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x840d8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x8420c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x84340  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x84510  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x846f4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x848c4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x84a94  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x84c64  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x84e34  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x85004  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x851d4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x853a4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x85574  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x8560c  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x856a4  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x8598c  0x140    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x85acc  0x43c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x85f08  0x3e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x862f0  0x254    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x86544  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x8662c  0x12c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x86758  0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x86a68  0x3f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x86e58  0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x871b8  0x428    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x875e0  0x160    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209071 records)
+RT_STRING          0x87740  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7602275 records)
+RT_STRING          0x8782c  0x20c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x87a38  0x3c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x87df8  0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x88150  0x2d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x88424  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x88434  0x22c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x88660  0x1f1a   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x8a57c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8a590  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8a5a4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8a5b8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8a5cc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8a5e0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8a5f4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x8a608  0x14     LANG_DUTCH   SUBLANG_DUTCH            MS Windows icon resource - 1 icon
+RT_VERSION         0x8a61c  0x5d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x71288      0x71400      6.554613    
+DATA       0x73000      0x1330       0x1400       4.121526    
+BSS        0x75000      0xdb1        0x0          0.000000    [SUSPICIOUS]
+.idata     0x76000      0x2650       0x2800       4.814155    
+.tls       0x79000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x7a000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x7b000      0x7614       0x7800       6.637092    
+.rsrc      0x83000      0x7c00       0x7c00       4.594045    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: VoxelViewer
+FileVersion: 1.0.0.1
+CompanyName: 
+LegalTrademarks: 
+Comments: Originally made by Jan Horn, modified by Stuart Carey (Stucuk), adapted for voxel coloring by Koen van de Sande. Released under Academic Free License. Homepage: http://voxelcoloring.sourceforge.net
+ProductName: OpenGL Voxel Viewer
+ProductVersion: 1.0.0.0
+FileDescription: Originally made by Jan Horn, modified by Stuart Carey (Stucuk), adapted for voxel coloring by Koen van de Sande. Released under Academic Free License. Homepage: http://voxelcoloring.sourceforge.net
+OriginalFilename: VoxelViewer.exe
+Translation: 0x0409 0x04e4
+

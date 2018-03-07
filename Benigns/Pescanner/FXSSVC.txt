@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    527360 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     0da3553d2d52f8529b67c38d6dd0e15a
+SHA1:    a4897cf3ffb382f86701cd61adebb740d9f8bb66
+ssdeep:  6144:JZ5EpH4SWhXl8upNchOuUuNfg+tHlOn9UGkJskhr0wNbeFaCdszKvi9MG:L5E1mVLENffBTJRhTyNdY9M
+Date:    0x57899049 [Sat Jul 16 01:39:21 2016 UTC]
+EP:      0x46e2b0 .text 0/6
+CRC:     Claimed: 0x86570, Actual: 0x86570 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7b400  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7b6e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x7b810  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x7b838  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7b160  0x2a0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x72348      0x72400      6.398457    
+.data      0x74000      0x2524       0x1e00       2.035869    
+.idata     0x77000      0x288e       0x2a00       5.593993    
+.didat     0x7a000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x7b000      0xbc8        0xc00        4.136454    
+.reloc     0x7c000      0x8c48       0x8e00       6.814556    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: FXSSVC.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Fax Service
+OriginalFilename: FXSSVC.EXE
+Translation: 0x0409 0x04b0
+

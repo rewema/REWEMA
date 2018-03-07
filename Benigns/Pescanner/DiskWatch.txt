@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     1f9d10af4d6704cfca9f028792528109
+SHA1:    7b8ff740812cf7100cff006d1e4e233128ede699
+ssdeep:  768:6DheDhf9aDGZzzD8t2VdPlQaGoViPEZwGDh:6D4Dh4aZzZlGoaEZwGD
+Date:    0x4585C1A7 [Sun Dec 17 22:16:07 2006 UTC]
+EP:      0x408dae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1641b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc430   0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xccd8   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xc0e8   0x344    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6db4       0x7000       5.438693    
+.sdata     0xa000       0x67         0x1000       0.243783    [SUSPICIOUS]
+.rsrc      0xc000       0xcf0        0x1000       2.795558    
+.reloc     0xe000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Fox Valley Technical College 2006
+Assembly Version: 1.0.0.0
+InternalName: DiskWatch.exe
+FileVersion: 1.0.0.0
+CompanyName: Fox Valley Technical College
+ProductName: DiskWatch
+ProductVersion: 1.0.0.0
+FileDescription: DiskWatch
+OriginalFilename: DiskWatch.exe
+

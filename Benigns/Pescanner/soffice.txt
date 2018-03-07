@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    60008 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ad5bd868abb0c0ebcef16bcb656fedc0
+SHA1:    d2a7d9924a1f5ee1efd0e9e450e54dc7f13edf0f
+ssdeep:  768:zDdNVd+mx+yVzxzKgYMrk10hgJfQN1IDRzHbSAzOWru7F:zBwxyVzxzKgnrku/N1I13SA6F
+Date:    0x56588EB3 [Fri Nov 27 17:11:15 2015 UTC]
+EP:      0x40243d .text 0/5
+CRC:     Claimed: 0x140e3, Actual: 0x140e3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x61f0   0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xae18   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb380   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbc28   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcad0   0x1ffd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_GROUP_ICON      0xead0   0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0xeb1c   0x32c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xee48   0x206    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2216       0x2400       6.078750    
+.rdata     0x4000       0xcdc        0xe00        4.666534    
+.data      0x5000       0x37c        0x200        0.307544    [SUSPICIOUS]
+.rsrc      0x6000       0x9050       0x9200       6.322079    
+.reloc     0x10000      0x3c8        0x400        5.991792    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000-2015 by LibreOffice contributors. All rights reserved.
+InternalName: soffice
+FileVersion: 4.4.7.2
+CompanyName: The Document Foundation
+ProductName: LibreOffice
+ProductVersion: 4.4.7.2
+FileDescription: LibreOffice
+OriginalFilename: soffice.exe
+Translation: 0x0409 0x04e4
+

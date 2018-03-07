@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    94208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     13b54ad3d65e53c92ddb4e167042adc4
+SHA1:    2c70b5fcb4ed406abe32747226373276d27457ec
+ssdeep:  1536:BV3ZJWTEPNl+W9PIzp8FMbxUFx8nXfbE63FdKajUV5N:B7JWoPiW9+l88XfAaoV5N
+Date:    0x46040E84 [Fri Mar 23 17:29:40 2007 UTC]
+EP:      0x4159de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x25f63 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x16058  0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x139e4      0x14000      6.184760    
+.rsrc      0x16000      0x328        0x1000       0.833348    [SUSPICIOUS]
+.reloc     0x18000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2006
+Assembly Version: 1.0.0.0
+InternalName: LabViewServer.exe
+FileVersion: 1.0.0.0
+ProductName: LabViewServer
+ProductVersion: 1.0.0.0
+FileDescription: LabViewServer
+OriginalFilename: LabViewServer.exe
+

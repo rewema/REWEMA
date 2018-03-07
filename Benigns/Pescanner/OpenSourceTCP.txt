@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61952 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2f0fca9400113f233b8781544472a07b
+SHA1:    07ee43ddfad428b3aed6003ea88055c5a66dc829
+ssdeep:  768:Oa54+/uTscvbEJ3zavuYA4tOaynttxh7/DALU3Q8VgypRMPTV:sPT+e7tODtx1/XRV9pGPT
+Date:    0x44E18BED [Tue Aug 15 08:55:09 2006 UTC]
+EP:      0x401614 .text 0/5
+CRC:     Claimed: 0x13ad3, Actual: 0x13ad3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x127b8  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x124d0  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x123a8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x12378  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x12150  0x228    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc2c4       0xc400       5.763983    
+.data      0xe000       0x219c       0x200        0.000000    
+.idata     0x11000      0x8cc        0xa00        5.122614    
+.rsrc      0x12000      0x8e8        0xa00        2.776820    
+.reloc     0x13000      0x1354       0x1400       6.446386    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: OpenSourceTCP
+FileVersion: 1.00
+CompanyName: Beta
+ProductName: OpenSourceTCP
+ProductVersion: 1.00
+OriginalFilename: OpenSourceTCP.exe
+

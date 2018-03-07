@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16896 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c029f689f80736ede25cd0fa8a57e3dd
+SHA1:    cfdfc363b78863556381e8319fc3c5914771aa60
+ssdeep:  192:ZfYq5n7fG4G08M0sc+KNs0kzXXLQYTXPcckoeSMNRrATRkgW6nW84:ZfvJVGIrc+o0XXRn94RrxgW6nW84
+Date:    0x57899152 [Sat Jul 16 01:43:46 2016 UTC]
+EP:      0x4029d0 .text 0/5
+CRC:     Claimed: 0x103c5, Actual: 0x103c5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x6740   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x6398   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60f0   0x2a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x23c4       0x2400       5.975230    
+.data      0x4000       0x388        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x886        0xa00        4.633328    
+.rsrc      0x6000       0x808        0xa00        3.725272    
+.reloc     0x7000       0x2b0        0x400        4.945337    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: FIXMAPI
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: FIXMAPI 1.0 MAPI Repair Tool
+OriginalFilename: FIXMAPI.EXE
+Translation: 0x0409 0x04b0
+

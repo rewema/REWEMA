@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    74621 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ee4705303520c3fef2054053825f01dd
+SHA1:    97ac435f8ecce3d6c16c392b91574f42216d78c3
+ssdeep:  1536:xjLaMv3xnCwNz0DxkJsEEtTdHnydrHbX52eeAWc4c:5eYBCwqDxkJsEEtT1ydr7X4W4c
+Date:    0x44D64C7F [Sun Aug  6 20:09:35 2006 UTC]
+EP:      0x403166 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x17a2c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3a1f0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3a758  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3b000  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x3b468  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3b568  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3b660  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3b6c0  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0x3b6f0  0x2c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5bfe       0x5c00       6.487045    
+.rdata     0x7000       0x11fe       0x1200       5.277855    
+.data      0x9000       0x264d4      0x400        5.224787    
+.ndata     0x30000      0xa000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x3a000      0x19b8       0x1a00       3.509520    
+
+Version info
+================================================================================
+LegalCopyright: GPL
+FileVersion: 0.0.0.1
+CompanyName: 
+Comments: Allows GVim to be run from a removable drive.  For additional details, visit portablegvim.sf.net
+FileDescription: GVim Portable
+OriginalFilename: GVimPortable.exe
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    159744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ca9679c359c363d6294635259fa13ab0
+SHA1:    7a65f1e244b8f47a9d07974e500c617f9a1e47ce
+ssdeep:  3072:6ze/MjTPK3u45/z1RqR1Ip77IMbKnWn1aHr8UoK5IiPab9:mOMjTPN45/z1RqRgMM2WnME4IiPab
+Date:    0x4903BD9C [Sun Oct 26 00:45:16 2008 UTC]
+EP:      0x425f5e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2c5de [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x26058  0x4d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x23f64      0x24000      5.955218    
+.rsrc      0x26000      0x530        0x1000       1.370655    
+.reloc     0x28000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 dannylum.com 2007-2008
+Assembly Version: 2.5.0.0
+InternalName: D2DMapEditor.exe
+FileVersion: 2.5.0
+CompanyName: http://www.dannylum.com
+Comments: D2D Map Editor is an open source software under the GNU General Public License (GPL). For more information about this software, please visit http://d2dmapeditor.sourceforge.net/
+ProductName: D2D Map Editor
+ProductVersion: 2.5.0
+FileDescription: D2D Map Editor (Beta 2.5.0)
+OriginalFilename: D2DMapEditor.exe
+

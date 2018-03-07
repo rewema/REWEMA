@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    58880 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b0cf93b7d4bd87f1f79eed054128532f
+SHA1:    1d385bbc40537bc8e0257158789284d900802a42
+ssdeep:  768:eZt/YOkQa1f0zf6ehi0n0Um5aOmCuJ4wNdiMmxMu0boJV8LLmHQdw8DXzod+x/Em:It/iQic71sKCJoiK8aL0Yw8w+xcfcnB
+Date:    0x57898EDA [Sat Jul 16 01:33:14 2016 UTC]
+EP:      0x40b810 .text 0/5
+CRC:     Claimed: 0x12407, Actual: 0x12407 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xf780   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xf3b0   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf0f0   0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbaf8       0xbc00       6.254933    
+.data      0xd000       0x570        0x200        1.887014    
+.idata     0xe000       0xe24        0x1000       4.874120    
+.rsrc      0xf000       0x848        0xa00        3.773185    
+.reloc     0x10000      0x868        0xa00        6.104836    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: whoami.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: whoami - displays logged on user information
+OriginalFilename: whoami.exe
+Translation: 0x0409 0x04b0
+

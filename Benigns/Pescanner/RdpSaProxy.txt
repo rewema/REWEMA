@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23552 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ef06f4eb8c08ba12802d8b161a930603
+SHA1:    ec0f5f6a0394ac749ffc69c532107c2ffeee5ecc
+ssdeep:  384:/L5k/aLdITBPd0f/X5J19YFN1X/Gg/ZEv9WB9VW:j5fRsBPdO/f1i3Gv2
+Date:    0x57898D88 [Sat Jul 16 01:27:36 2016 UTC]
+EP:      0x4040f0 .text 0/5
+CRC:     Claimed: 0x6275, Actual: 0x6275 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x7530   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70a0   0x48d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3884       0x3a00       6.067485    
+.data      0x5000       0x43c        0x200        0.519767    [SUSPICIOUS]
+.idata     0x6000       0xa48        0xc00        4.539523    
+.rsrc      0x7000       0x8e8        0xa00        4.366509    
+.reloc     0x8000       0x594        0x600        6.470596    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RdpSaProxy.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: RDP Session Agent Proxy
+OriginalFilename: RdpSaProxy.exe
+Translation: 0x0409 0x04b0
+

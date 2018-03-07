@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    356352 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9f5bf44c2f82a7b07edb1a856dde02ec
+SHA1:    96ad2e8376cec6993a8edbf4227f2e5a1102e3c5
+ssdeep:  6144:1QLV0VhSapkgtHOnvwCSmJYzT2omrKSlgjOZCy0a2FrpZ/3Ln:8IpttHWsNGhrlGyyFrr/
+Date:    0x410D351E [Sun Aug  1 18:23:26 2004 UTC]
+EP:      0x438e08 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x66530 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: irc
+   0x4e891L => join
+   0x4ec09L => join
+   0x4896cL => msg
+   0x511d9L => msg
+   0x49e43L => part
+   0x48638L => ping
+   0x49864L => Ping
+   0x504faL => ping
+   0x509faL => ping
+   0x50de4L => Ping
+   0x48457L => quit
+   0x48904L => quit
+   0x4e823L => quit
+   0x4f061L => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7860a0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x786388 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x43f02      0x44000      6.701972    
+.rdata     0x45000      0x1cea       0x2000       5.169514    
+.data      0x47000      0x73eb5c     0xf000       4.891988    
+.rsrc      0x786000     0x3a0        0x1000       1.275621    
+

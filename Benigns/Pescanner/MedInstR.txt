@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    123392 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 Mono/.Net assembly
+MD5:     827ca5308c91415f99bb21f4c19913a3
+SHA1:    f1f74652e6ef2bf69e8f693af594c4c3762cc0b2
+ssdeep:  768:1vPnonxCryhI1n8QSwiB4PBEUgIEz2aSw0EAdI+cPf0yLVbYYXgc/CYj0EAdI+cG:1InxCqU8pB48IEz2Y0E/ZZj0E/ZZC
+Date:    0x5859A884 [Tue Dec 20 21:54:12 2016 UTC]
+EP:      0x412a82 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2215c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x14100  0xc828   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x20938  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x2095c  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x20cd4  0x51f    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x10a88      0x10c00      5.481410    
+.rsrc      0x14000      0xd1f8       0xd200       5.197577    
+.reloc     0x22000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2010
+Assembly Version: 1.0.0.0
+InternalName: MedInstR.exe
+FileVersion: 1.0.0.0
+CompanyName: Microsoft
+LegalTrademarks: 
+Comments: 
+ProductName: WindowsApplication1
+ProductVersion: 1.0.0.0
+FileDescription: WindowsApplication1
+OriginalFilename: MedInstR.exe
+

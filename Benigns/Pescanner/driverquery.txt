@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    67584 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7067dc875ffc581c0fc3ef88489f2337
+SHA1:    4bb4d86b70de10f370dfb6f3b288507557652f63
+ssdeep:  1536:kSJkUmeeNcASrq4ccng6Bca+FyCbjf9EA1QnW8ubxE1J:AeeNdmcEYl/Fz5lbxk
+Date:    0x57898F81 [Sat Jul 16 01:36:01 2016 UTC]
+EP:      0x40d0a0 .text 0/5
+CRC:     Claimed: 0x13359, Actual: 0x13359 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x12768  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x123a8  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x120f0  0x2b4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd6f0       0xd800       6.177243    
+.data      0xf000       0x4cc        0x200        0.909806    [SUSPICIOUS]
+.idata     0x10000      0x1322       0x1400       5.308949    
+.rsrc      0x12000      0x830        0xa00        3.743489    
+.reloc     0x13000      0xb90        0xc00        6.626892    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: driverquery.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Queries the drivers on a system
+OriginalFilename: drvqry.exe
+Translation: 0x0409 0x04b0
+

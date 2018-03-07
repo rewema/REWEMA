@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    258048 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     19bb0722fdbeb638df3b66b1ac1552f1
+SHA1:    7d9f036a3b49b9b9c6b0eb41b789837e188a8da0
+ssdeep:  6144:0d2ixsDAM3VUVuQxBNua1sT4Q74QcnCxY:kxcVQxzB1sRcC
+Date:    0x40191F8E [Thu Jan 29 14:58:22 2004 UTC]
+EP:      0x416ddd .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x4e847 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x41410  0x420    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41830  0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x41c10  0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x41100  0x310    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ba54      0x2c000      6.528666    
+.rdata     0x2d000      0xd7ec       0xe000       4.571581    
+.data      0x3b000      0x5478       0x2000       3.410801    
+.rsrc      0x41000      0x10c0       0x2000       2.048683    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2001 - 2004 Helge Klein
+InternalName: SetACL
+FileVersion: 2, 0, 2, 0
+CompanyName:  
+Comments: SetACL command line version
+ProductName:   SetACL
+ProductVersion: 2, 0, 2, 0
+FileDescription: SetACL 2
+OriginalFilename: SetACL.exe
+Translation: 0x0409 0x04b0
+

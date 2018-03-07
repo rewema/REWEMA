@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    41984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     269b6f2c3d8253015e649f36754cb197
+SHA1:    86552617c17a6b9cac8d992260e2a22034fbb7aa
+ssdeep:  768:Gis4jzsXfLI+c7EA3jA5k4/iTNco2N8Yrv+M6:wX+7T3syUiTNhYiM6
+Date:    0x57899145 [Sat Jul 16 01:43:33 2016 UTC]
+EP:      0x4068b0 .text 0/6
+CRC:     Claimed: 0x12b55, Actual: 0x12b55 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd060   0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xc800   0x85a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc420   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc160   0x2be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+ReadProcessMemory
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x678c       0x6800       6.280456    
+.data      0x8000       0xdac        0x200        0.291424    [SUSPICIOUS]
+.idata     0x9000       0x160a       0x1800       4.829967    
+.didat     0xb000       0x18         0x200        0.259963    [SUSPICIOUS]
+.rsrc      0xc000       0x1150       0x1200       4.091736    
+.reloc     0xe000       0x8b8        0xa00        6.329333    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RdrLeakDiag.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Windows Resource Leak Diagnostic
+OriginalFilename: RdrLeakDiag.exe
+Translation: 0x0409 0x04b0
+

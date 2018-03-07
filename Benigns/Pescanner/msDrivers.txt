@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     40174719835363d3145c82048f60dfb0
+SHA1:    b21da2f71e43f5a9fb94a657a548e238a076265a
+ssdeep:  384:vExbMpaTBzJeYfIml7DMyygZVUoUSqerh6o0lLqWz6n7g:sDyYf4yFsBQh6oQLqWd
+Date:    0x43BD3641 [Thu Jan  5 15:07:45 2006 UTC]
+EP:      0x4020c0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x17252 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x8240   0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x84a8   0x2318   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa7c0   0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xae88   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xab98   0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xaa28   0x170    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xb170   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xb188   0x340    LANG_NEUTRAL SUBLANG_DEFAULT          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x393e       0x4000       6.129736    
+.rdata     0x5000       0xc6a        0x1000       4.497083    
+.data      0x6000       0x13bc       0x1000       1.397974    
+.rsrc      0x8000       0x34c8       0x4000       2.813428    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Grame 2001
+InternalName: msDrivers
+FileVersion: 1.01
+CompanyName: Grame
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: msDrivers
+SpecialBuild: 
+ProductVersion: 1.01
+FileDescription: MidiShare Drivers Manager
+OriginalFilename: msDrivers.exe
+Translation: 0x0000 0x04b0
+

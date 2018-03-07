@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    137545 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6556d696b95858ac0a7f27135f352f01
+SHA1:    7b75ea408b25ac7c0f030f8176b5d3a2e921e311
+ssdeep:  1536:aqafNK++7+R4nKTJC4ax/Bdc7qXrq/n3pJkh/cUawmDRpNvWGNXDE5i9gwsUwpRX:aq8B4nKTsbQqXc5iQ7ai9NsUEhEkh
+Date:    0xBDB63A2E [SUSPICIOUS]
+EP:      0x401000 CODE 0/7
+CRC:     Claimed: 0x0, Actual: 0x21e7b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x63f0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x66d8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6800   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x76a8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7f50   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x84b8   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaa60   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbb08   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0xbf70   0x1f2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc164   0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xc3e0   0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xc474   0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xc4c8   0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xc5d0   0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xc69c   0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 32x32, 16-colors
+RT_VERSION         0xc714   0x2a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x1000       0x1000       6.133368    
+DATA       0x2000       0x1000       0xc00        4.687448    
+.idata     0x3000       0x1000       0x600        3.628499    
+.edata     0x4000       0x1000       0x200        1.215597    
+.reloc     0x5000       0x1000       0x200        4.405584    
+.rsrc      0x6000       0x7000       0x6a00       3.685075    
+.debug     0xd000       0x19000      0x18349      5.538211    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2008-2009 Gss EziSoft
+InternalName: CmdTwain
+FileVersion: 0.03
+CompanyName: Gss EziSoft
+FileDescription: A program to run your document scanner
+OriginalFilename: CmdTwain.exe
+Translation: 0x0409 0x04e4
+

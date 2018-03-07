@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d8cf3904014497ecd090c2b7bba315b8
+SHA1:    1d75b18ee674b2a9f0914e37804f4fb6052f0c98
+ssdeep:  768:/xQrgbMXL+YCKIYrQfXgA/4rRj7OIHPnCZxp:/4jnIYMfXUOEPnCZn
+Date:    0x590CFA2E [Fri May  5 22:18:22 2017 UTC]
+EP:      0x40148c .text 0/3
+CRC:     Claimed: 0xc5b8, Actual: 0xc5b8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xb7f4   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xb50c   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xb3e4   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xb3b4   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0xb150   0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x89e8       0x9000       5.697696    
+.data      0xa000       0xa5c        0x1000       0.000000    
+.rsrc      0xb000       0x924        0x1000       2.017846    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: GBS2GB
+FileVersion: 1.17
+Comments: Free thingie to make debugging GBS files in BGB feasable.
+ProductName: GBS2GB
+ProductVersion: 1.17
+OriginalFilename: GBS2GB.exe
+

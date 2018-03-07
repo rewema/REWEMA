@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4a45fd52ea6cde911c178360be10f390
+SHA1:    608bf3e90f001aad4b5af84e5eeb751485ecc8aa
+ssdeep:  384:/TJFb172RDI7UBjqksDcn7+aiD/2/SB/fKqSkK50u9Fy8PUEWynno:/Hb9UxaAT+KqbKmury8PUMn
+Date:    0x408F980E [Wed Apr 28 11:39:58 2004 UTC]
+EP:      0x401304 .text 0/3
+CRC:     Claimed: 0x161da, Actual: 0x161da 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x87b4   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x84cc   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x83a4   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x8374   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x8150   0x224    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5b98       0x6000       5.236523    
+.data      0x7000       0x9fc        0x1000       0.000000    
+.rsrc      0x8000       0x8e4        0x1000       1.910596    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: DataDump
+FileVersion: 1.00
+CompanyName: Halwanisms
+ProductName: DataDumpProj
+ProductVersion: 1.00
+OriginalFilename: DataDump.exe
+

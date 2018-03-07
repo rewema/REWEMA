@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     386703889145071a22011c74dd141cbb
+SHA1:    f5524f5249004176930e4eec4930301fd44a4036
+ssdeep:  384:wmranRAYyRBgbda4ZVQ2XgHXHPxJQO8sDG/pMqWO3Wn:wKanRAYy8QegD8v/pMqg
+Date:    0x5789916E [Sat Jul 16 01:44:14 2016 UTC]
+EP:      0x403870 .text 0/5
+CRC:     Claimed: 0x8045, Actual: 0x8045 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x7538   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70a0   0x491    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x305c       0x3200       6.138982    
+.data      0x5000       0x46c        0x200        0.285782    [SUSPICIOUS]
+.idata     0x6000       0xbac        0xc00        4.728978    
+.rsrc      0x7000       0x8d0        0xa00        4.319404    
+.reloc     0x8000       0x328        0x400        5.717128    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bootim
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: boot immersive menus
+OriginalFilename: bootim.exe
+Translation: 0x0409 0x04b0
+

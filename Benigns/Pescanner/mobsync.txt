@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    93696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     89abad52870b9df217a187cf87865880
+SHA1:    bfedde8411ad34bc2480e5d0dc9fc45673fe4f9c
+ssdeep:  1536:PfRhGe9h9GtoWGPoCGVjGWmt8CXZ+63x+w4JD+0NL+fKb:7M6WGPo9St8WHxSD+09+Sb
+Date:    0x5789913F [Sat Jul 16 01:43:27 2016 UTC]
+EP:      0x404740 .text 0/6
+CRC:     Claimed: 0x23354, Actual: 0x23354 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8b18   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9180   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9468   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9590   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa438   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xace0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb248   0xa4dd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15728  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17cd0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18d78  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x191e0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x8778   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x82e0   0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3fac       0x4000       6.304074    
+.data      0x5000       0x590        0x200        0.321014    [SUSPICIOUS]
+.idata     0x6000       0xbda        0xc00        4.850962    
+.didat     0x7000       0x8          0x200        0.040781    [SUSPICIOUS]
+.rsrc      0x8000       0x11278      0x11400      7.343826    [SUSPICIOUS]
+.reloc     0x1a000      0x440        0x600        5.391513    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: mobsync.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Sync Center
+OriginalFilename: mobsync.exe
+Translation: 0x0409 0x04b0
+

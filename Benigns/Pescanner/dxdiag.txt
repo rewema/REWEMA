@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    303104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ae9391b26e21a0274a899b2bcc1cba79
+SHA1:    1f04aea35fa4b7d68adf3576f3de1575396f9eed
+ssdeep:  3072:ux/iv5FRIuzfVkN8oUbyyrALwIeCDi3lPPX519xrc08FFcyRlRzHCmGkvAFBrak8:Ga5XVGLMlpT7Yvtpi/k4jpRadcPRV/o
+Date:    0x5789911D [Sat Jul 16 01:42:53 2016 UTC]
+EP:      0x425ba0 .text 0/5
+CRC:     Claimed: 0x4d1bc, Actual: 0x4d1bc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4b380  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44c20  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x45288  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x45570  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x45698  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x46540  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x46de8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x47350  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x498f8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4a9a0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4ae90  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4b178  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4b2a0  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4ae08  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x4b350  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_VERSION         0x44868  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x443c0  0x4a1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3d6bc      0x3d800      6.176153    
+.data      0x3f000      0x2ee0       0x1000       3.528272    
+.idata     0x42000      0x119c       0x1200       5.486899    
+.rsrc      0x44000      0x7460       0x7600       5.644018    
+.reloc     0x4c000      0x2b78       0x2c00       6.779197    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dxdiag.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft DirectX Diagnostic Tool
+OriginalFilename: dxdiag.exe
+Translation: 0x0409 0x04b0
+

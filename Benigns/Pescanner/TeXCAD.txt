@@ -1,0 +1,101 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4598801 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     af6ada05de60dccca2654134a476993f
+SHA1:    097022e3ee4ac8c2e8c5ae0175f07ac80976faed
+ssdeep:  98304:WIgNwi3mBWwc5cRj7hpRqrJ/SWLpZJO+ecHrm+DO/7DM+GfVAUBHF9EzWx1sG2ww:WIgNwi3mxc5cRjdpRqrJ/SWLpZJO+ecY
+Date:    0x55F5A018 [Sun Sep 13 16:11:04 2015 UTC]
+EP:      0x4014c0 .text 0/17
+CRC:     Claimed: 0x46ece5, Actual: 0x46ece5 
+
+TLS callbacks
+================================================================================
+    0x57a080
+    0x57a040
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x207930 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x207a68 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x207ba0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x207cd8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x207e10 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x207f48 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x208080 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x2081b8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_BITMAP          0x2082f0 0x5c08   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x20def8 0xed8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x20edd0 0x9e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20f7b8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20faa0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20fd88 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x210070 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x210358 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x2108c0 0xda     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2109a0 0x24e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ACCELERATOR     0x210bf0 0x78     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x210c68 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x210c80 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x210c98 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x210cb0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x210cc8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x210ce0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x210cf8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x210d10 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x210d28 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x210d40 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x210d58 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x210d70 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x210d88 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x210da0 0x44c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x2111f0 0x17d    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x198a4c     0x198c00     6.200696    
+.data      0x19a000     0x1020       0x1200       1.860288    
+.rdata     0x19c000     0x27238      0x27400      5.714789    
+/4         0x1c4000     0x34fac      0x35000      5.116545    
+.bss       0x1f9000     0x70c0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x201000     0x31d8       0x3200       5.548523    
+.CRT       0x205000     0x34         0x200        0.273546    [SUSPICIOUS]
+.tls       0x206000     0x20         0x200        0.201344    [SUSPICIOUS]
+.rsrc      0x207000     0xa370       0xa400       3.514506    
+/14        0x212000     0x1068       0x1200       2.820176    
+/29        0x214000     0x12be4b     0x12c000     5.834145    
+/41        0x340000     0x141bf      0x14200      4.703321    
+/55        0x355000     0x43a20      0x43c00      5.221702    
+/67        0x399000     0x1cd0       0x1e00       4.906081    
+/80        0x39b000     0xad17       0xae00       4.688856    
+/91        0x3a6000     0x20b62      0x20c00      4.385327    
+/102       0x3c7000     0xb198       0xb200       3.980640    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2003 .. 2015 Free Software Foundation
+InternalName: TeXCAD
+FileVersion: Ver. 4.3
+CompanyName: Free Software Foundation, Inc.
+Authors: Georg Horn, J\xf6rn Winkelmann, Gautier de Montmollin
+Comments: TeXCAD is a program for drawing or retouching {picture}s in LaTeX.
+ProductName: TeXCAD
+ProductVersion: 4.3
+FileDescription: TeXCAD, a LaTeX {picture} drawing program
+OriginalFilename: TeXCAD.exe
+Translation: 0x0409 0x04e4
+

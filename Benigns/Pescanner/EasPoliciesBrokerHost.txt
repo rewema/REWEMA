@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     11fb1adeaa733c4fc59135cbfb1e14e5
+SHA1:    3324b4e1e38f2bdc4af6cd3fdef1fdec6b57b792
+ssdeep:  192:fd/5uP9X/pTbDqBGBgMPKbc1XcKwv1UW6HW:fuP9X/txPcK81UW6HW
+Date:    0x57899134 [Sat Jul 16 01:43:16 2016 UTC]
+EP:      0x401a30 .text 0/5
+CRC:     Claimed: 0x94a0, Actual: 0x94a0 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5888   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5498   0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x3a3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x105c       0x1200       5.466473    
+.data      0x3000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x7d8        0x800        4.730707    
+.rsrc      0x5000       0x950        0xa00        4.298790    
+.reloc     0x6000       0x194        0x200        5.424089    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EasPoliciesBrokerHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Exchange Active Sync Policies Broker
+OriginalFilename: EasPoliciesBrokerHost.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    53248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     47fbbd5a59293b7f5e89f848886f5e81
+SHA1:    dacb26a892a76457fbba56a415fee1d1e42bed7f
+ssdeep:  768:dr6t/Bw0L90L90L90L90LYGAKe/YKuKQWCpbeFKq:C/Cy9y9y9y9yYGAKBktGbq9
+Date:    0x455626FC [Sat Nov 11 19:39:40 2006 UTC]
+EP:      0x40aeae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1bff8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xe3f0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe6d8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe800   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xe118   0x2d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8eb4       0x9000       5.867800    
+.sdata     0xc000       0x70         0x1000       0.270962    [SUSPICIOUS]
+.rsrc      0xe000       0x828        0x1000       1.982249    
+.reloc     0x10000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Rinaldin 2006
+Assembly Version: 1.0.0.0
+InternalName: jwb2.exe
+FileVersion: 1.0.0.0
+CompanyName: Rinaldin
+ProductName: jwb2
+ProductVersion: 1.0.0.0
+FileDescription: jwb2
+OriginalFilename: jwb2.exe
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    69632 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c967ddb6a29d22ad1e31cf1af7022d65
+SHA1:    06ba74e9c818741f3a7e3f0a4342bdf51a887a5d
+ssdeep:  768:AuLbr9Nxn4ROJlOdY8kh9qhH7snHMoqSbTddQuVWeJeV:AgrbKOlOT8qYcFV
+Date:    0x3E54641F [Thu Feb 20 05:14:07 2003 UTC]
+EP:      0x4016f4 .text 0/3
+CRC:     Claimed: 0x183a7, Actual: 0x183a7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x127bc  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x124d4  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x123ac  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1237c  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x12150  0x22c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdf9c       0xe000       5.809812    
+.data      0xf000       0x22bc       0x1000       0.000000    
+.rsrc      0x12000      0x8ec        0x1000       1.931341    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: WinSip
+FileVersion: 0.00.0003
+CompanyName: Salient Networks
+ProductName: WinSIP
+ProductVersion: 0.00.0003
+OriginalFilename: WinSip.exe
+

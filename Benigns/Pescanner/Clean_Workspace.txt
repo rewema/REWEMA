@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0ab18aca9348d939b7779f47b204f0ff
+SHA1:    42190e55325ce6a958e6adbca2fde52619724041
+ssdeep:  192:HwOf00ZTBUnsNKdBEYByRKibdARzMWKxsBvBGFzUzinoCB5P1oyncfp9i5ewzegD:f1ZTCnsNIeYiKGdWKmBID1Sfp4Nl4Tw
+Date:    0x42CCE1AB [Thu Jul  7 08:02:51 2005 UTC]
+EP:      0x402a60 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xff5d [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5270   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5558   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5680   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5898   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x5b98   0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x5cf8   0x564    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66c8   0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x5868   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x5b80   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x6260   0x464    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1eb2       0x2000       5.723083    
+.rdata     0x3000       0xffe        0x1000       4.956160    
+.data      0x4000       0x2e8        0x1000       0.866417    [SUSPICIOUS]
+.rsrc      0x5000       0x1720       0x2000       2.553712    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) Hai Jin's Personal Tools 2005
+InternalName: Clean Workspace
+FileVersion: 1, 3, 0, 1
+CompanyName: Hai Jin's Personal Tools
+PrivateBuild: 
+LegalTrademarks: Hai Jin's Personal Tools
+Comments: Clearn visual studio workspaces
+ProductName: Clean Workspace Application
+SpecialBuild: 
+ProductVersion: 1, 3, 0, 1
+FileDescription: Clean Workspace MFC Application
+OriginalFilename: Clean Workspace.EXE
+Translation: 0x0409 0x04b0
+

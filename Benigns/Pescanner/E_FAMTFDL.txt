@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    175616 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a2c04c853bd69a1d92ecd4b8203d76b7
+SHA1:    1ad45deba34570a1fea064d0217047c007539b31
+ssdeep:  3072:Do0UaipcPhN3d4oJVaVMgIs7xB8MpopETDLrXnq414trawPzimbCEhCrIYrv2sB2:GB8MSL4YrtzimbCBEG
+Date:    0x473C177B [Thu Nov 15 09:55:07 2007 UTC]
+EP:      0x1008ec7 .text 0/3
+CRC:     Claimed: 0x2d9e1, Actual: 0x2d9e1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d150  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d438  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d560  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2e408  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_VERSION         0x2e438  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x27aec      0x27c00      6.465384    
+.data      0x29000      0x351c       0x1600       3.157621    
+.rsrc      0x2d000      0x1750       0x1800       3.131102    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) SEIKO EPSON CORP. 2006
+InternalName: E_S40MT7
+FileVersion: 5.02
+CompanyName: SEIKO EPSON CORPORATION
+ProductName: EPSON Status Monitor 3
+ProductVersion: 5.02
+FileDescription: EPSON Status Monitor 3
+OriginalFilename: E_S40MT7.EXE
+Translation: 0x0409 0x04b0
+

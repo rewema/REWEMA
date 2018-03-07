@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    93624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5370250bff3bb820cce8bd64a58e8f3d
+SHA1:    d765a7763223f9e624c92d967cd10b2b9e5a580c
+ssdeep:  1536:5GarUa6LowvuhdNYh2Gf9rg6hzGPnGKDx6eCw1+Q4C8tf+b1oLs2Rh:P5BuYAVrgUCPnhVRCC+t88
+Date:    0x4E807C62 [Mon Sep 26 13:21:38 2011 UTC]
+EP:      0x4038af .text 0/6
+CRC:     Claimed: 0x22cb8, Actual: 0x22cb8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x10c2c8 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10e870 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10f918 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1107c0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x111068 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1115d0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x111a38 0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x111b38 0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x111c58 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x111cb8 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x111d18 0x2b8    LANG_NEUTRAL SUBLANG_NEUTRAL          COM executable for DOS
+RT_MANIFEST        0x111fd0 0x2e1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x728c       0x7400       6.499709    
+.rdata     0x9000       0x2b6e       0x2c00       4.497933    
+.data      0xc000       0x72b9c      0x200        1.804941    
+.ndata     0x7f000      0x8d000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x10c000     0x62b8       0x6400       4.820124    
+.reloc     0x113000     0xfd6        0x1000       4.033183    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2013 Pixbyte Development SL
+FileVersion: 1.1.0.2
+CompanyName: Pixbyte Development SL
+Comments: http://www.bdnextcopy.com
+ProductName: BDneXtCOPY Developer
+FileDescription: BDneXtCOPY Developer
+Translation: 0x0000 0x04b0
+

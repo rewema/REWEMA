@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22528 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a42e590e384dbbaea788f73c601da963
+SHA1:    778ea96431d9d86bc3b7c6ad055a9cb150ee1aba
+ssdeep:  384:4Hm8MXAxa0GJsu9JfeI1Hd0FVLxPXZPqLdMnBXLei1Wa7DWMZrF:/0GJD3DkVxVq5MBXLeibDx
+Date:    0x57898F4E [Sat Jul 16 01:35:10 2016 UTC]
+EP:      0x4036d0 .text 0/5
+CRC:     Claimed: 0x6b58, Actual: 0x6b58 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7130   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0x6100   0xc68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x6d68   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2f34       0x3000       5.990664    
+.data      0x4000       0x468        0x200        1.090812    
+.idata     0x5000       0x8ac        0xa00        4.692974    
+.rsrc      0x6000       0x1208       0x1400       3.665015    
+.reloc     0x8000       0x338        0x400        5.750744    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sdiagnhost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Scripted Diagnostics Native Host
+OriginalFilename: sdiagnhost.exe
+Translation: 0x0409 0x04b0
+

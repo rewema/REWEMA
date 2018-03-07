@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12288 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     95ac38c5379fc3a728d3c5e8b70de839
+SHA1:    9e707609691d605408bc1510b511ff93f583d204
+ssdeep:  192:yiBG/yV0ZGfBL/3j+9Hluj45R4IauoaT2iPaR/1Ddk+75IYk:eQ0mpq9HlgAR4NpZ9R/1hkO5IT
+Date:    0x468E43AB [Fri Jul  6 13:29:15 2007 UTC]
+EP:      0x4045ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x10cb2 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x60a0   0x264    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x6308   0x1d9    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x25b4       0x2600       5.541358    
+.rsrc      0x6000       0x4e8        0x600        3.702900    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: 09b-IOPriority.exe
+FileVersion: 0.0.0.0
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: 09b-IOPriority.exe
+

@@ -1,0 +1,98 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6711536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     15908aa9d6ade382c1f11a312e7d3f65
+SHA1:    005d437d7ae29d6fdfd4168eb33fb76e56c0ed4d
+ssdeep:  196608:vePvJPn9+/owAssWRYZr5f9kbY4iiqCYVwjefWKCZWDjPqDdu:vqBPn9+/owAsseYZrp9kbY4iiqCYVwjq
+Date:    0x54E66344 [Thu Feb 19 22:27:16 2015 UTC]
+EP:      0x429738 .text 0/3
+CRC:     Claimed: 0x673e1e, Actual: 0x673e1e 
+
+Signature scans
+================================================================================
+YARA: irc
+   0xddc72L => Join
+   0xe4931L => join
+   0x26c8a2L => Join
+   0x319557L => Join
+   0x32b610L => msg
+   0xae6bfL => part
+   0x63374L => quit
+   0x1ad048L => Quit
+   0x318ffaL => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+CUSTOM             0x67accd 0x6ad4   LANG_NEUTRAL SUBLANG_NEUTRAL          Little-endian UTF-16 Unicode English text, with very long lines, with CRLF line terminators
+CUSTOM             0x6792fd 0x19d0   LANG_NEUTRAL SUBLANG_NEUTRAL          Little-endian UTF-16 Unicode text, with CRLF, CR line terminators
+RT_ICON            0x678455 0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x677bad 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x677645 0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x67509d 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x673ff5 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x673b8d 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x672ce5 0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x67243d 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x671ed5 0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x66f92d 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x66e885 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x66e41d 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_STRING          0x66e28d 0x190    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x66e113 0x17a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66df3d 0x1d6    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x66dd9f 0x19e    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x66dc4d 0x152    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x66da65 0x1e8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x66d9a7 0xbe     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x66d90f 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66d83f 0xd0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x66d78f 0xb0     LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x66d6cf 0xc0     LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x66d5fb 0xd4     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x66d52f 0xcc     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x66d487 0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66d3e7 0xa0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x66d301 0xe6     LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0x66d247 0xba     LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x66d15d 0xea     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x66d097 0xc6     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x66cff3 0xa4     LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x66cf4b 0xa8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x66ce8f 0xbc     LANG_ITALIAN SUBLANG_ITALIAN          AmigaOS bitmap font
+RT_STRING          0x66ce05 0x8a     LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x66cd57 0xae     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_ICON      0x66ccfd 0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x66cca3 0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x66c6f0 0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x66ca18 0x28b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x64cf18     0x64d000     6.117521    
+.data      0x64e000     0x1dedc      0x1000       0.000000    
+.rsrc      0x66c000     0x157a1      0x16000      4.586764    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: Diego Uscanga
+InternalName: yct
+FileVersion: 3.08.8007
+CompanyName: DsNET
+Comments: Download videos from Internet
+ProductName: aTube Catcher
+ProductVersion: 3.08.8007
+FileDescription: aTube Catcher to download and convert videos.
+OriginalFilename: yct.exe
+

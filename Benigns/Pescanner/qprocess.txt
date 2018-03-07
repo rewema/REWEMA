@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4ece5ba3dd967dca60a0d6a82a7c2b0b
+SHA1:    df1e31d88e72b5f9ec9e2642227033ff81534f9d
+ssdeep:  384:n09tT0SlB9wOVRT+qFrp+B6acXtQ+2wFLR2dUbBWLgE+2Wzb/:4T0KBpo+rbAu
+Date:    0x57898D89 [Sat Jul 16 01:27:37 2016 UTC]
+EP:      0x404530 .text 0/5
+CRC:     Claimed: 0x14754, Actual: 0x14754 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8740   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a0   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2ad    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3c54       0x3e00       6.220461    
+.data      0x5000       0x1864       0x200        0.791029    [SUSPICIOUS]
+.idata     0x7000       0xad0        0xc00        4.772108    
+.rsrc      0x8000       0x808        0xa00        3.700472    
+.reloc     0x9000       0x42c        0x600        5.293264    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: qprocess
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Query Process Utility
+OriginalFilename: qprocess.exe
+Translation: 0x0409 0x04b0
+

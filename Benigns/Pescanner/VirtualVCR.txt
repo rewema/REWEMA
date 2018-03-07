@@ -1,0 +1,87 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    286720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2d2faef7f51de95b8987392df5c22529
+SHA1:    b2392e30d6728b34561c0f10a56dfd6c24b5431a
+ssdeep:  3072:lRxNra6pqYYTmKllPDjjwUOJ1B763VTXqRyPvA+PtyEXCzRnyMpzJ7lBC99wd4v0:lA6p6mRl63VWCA+PUESzRyiO1gau
+Date:    0x3F4BB363 [Tue Aug 26 19:22:11 2003 UTC]
+EP:      0x41bc42 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x47b0e [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x71b38  0x242a   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_BITMAP          0x7a770  0x8af6   LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_BITMAP          0x83268  0x20e8   LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_ICON            0x73f68  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x74e10  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x756b8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x75c20  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x781c8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x79270  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x79bf8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7a0c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x88b50  0x322    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_MENU            0x88e78  0x1a2    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x7a6a8  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x7a558  0x14c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85350  0xba     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x86a60  0x1be    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x874f0  0x29c    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x86c20  0x1d6    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x86478  0x28a    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x86708  0x354    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x86df8  0x458    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x87790  0x33a    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x86170  0x232    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x87250  0x29c    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x87ad0  0x19a    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x863a8  0xcc     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x85410  0x1c4    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x855d8  0x774    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x85d50  0x18e    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x85ee0  0xb8     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x85f98  0x1d4    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x87c70  0xc58    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x888c8  0x284    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_STRING          0x89378  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x7a548  0x10     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7a060  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x7a530  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x89020  0x354    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_MANIFEST        0x71870  0x2c2    LANG_NEUTRAL SUBLANG_DEFAULT          XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2335a      0x24000      6.399140    
+.rdata     0x25000      0x2f94       0x3000       5.397070    
+.data      0x28000      0x486c8      0x5000       4.418048    
+.rsrc      0x71000      0x183d8      0x19000      5.652306    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2003
+InternalName: VirtualVCR
+FileVersion: 1, 0, 0, 1
+CompanyName: SoroSuub
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: SoroSuub VirtualVCR
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 1
+FileDescription: VirtualVCR
+OriginalFilename: VirtualVCR.exe
+Translation: 0x041d 0x04b0
+

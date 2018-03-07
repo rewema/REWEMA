@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ed0fde686788caec4f2cb1ec9c31680c
+SHA1:    81ae63b87eaa9fa5637835d2122c50953ae19d34
+ssdeep:  1536:6HB0UxMkzOt7HcvJGt5AdHIOWnToIf12Z9:6hAWJGSCTBf12Z9
+Date:    0x4523D04B [Wed Oct  4 15:16:27 2006 UTC]
+EP:      0x406937 .text 0/4
+CRC:     Claimed: 0x1701b, Actual: 0x1701b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0xe178   0xa08    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xeb80   0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xed20   0x204    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xef24   0x25a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xf180   0x114    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf294   0x152    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5da2       0x6000       6.434686    
+.rdata     0x7000       0x4f2c       0x5000       6.854886    
+.data      0xc000       0x1c0c       0x1000       0.675917    [SUSPICIOUS]
+.rsrc      0xe000       0x13e8       0x2000       4.743785    
+

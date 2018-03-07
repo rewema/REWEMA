@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    777896 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     d9d50d64a289d17b1f69ebabae460dc1
+SHA1:    9317084764a18f795ff9a1a4e9080280ccb102a4
+ssdeep:  6144:vSUtD6D/uKQO05KyQa3U+IoqsIbq/KpEnwSTCrTtNH05IRnprIk6TuR:vSUtD6D9c52a3U+Ioq7AwBU56pMk6TU
+Date:    0x5883F4F1 [Sat Jan 21 23:55:29 2017 UTC]
+EP:      0x40c479 .text 0/5
+CRC:     Claimed: 0xc7058, Actual: 0xc7058 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x51f36L => This program cannot be run in DOS mode
+   0x5571eL => This program cannot be run in DOS mode
+   0xaf1b6L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x59cd0  0x624b0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (console) Mono/.Net assembly
+BINRES             0x564e8  0x37e8   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (DLL) (native) Intel 80386 32-bit
+RT_VERSION         0x56150  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xbc180  0x37b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c476      0x1c600      6.581489    
+.rdata     0x1e000      0x11a94      0x11c00      4.546790    
+.data      0x30000      0x2527c      0x23400      0.593014    [SUSPICIOUS]
+.rsrc      0x56000      0x66500      0x66600      4.651128    
+.reloc     0xbd000      0x1e84       0x2000       6.555939    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2006-2016 Mark Russinovich
+InternalName: Accesschk
+FileVersion: 6.10
+CompanyName: Sysinternals - www.sysinternals.com
+SpecialBuild:  
+ProductName: Sysinternals AccessChk
+ProductVersion: 6.10
+FileDescription: Reports effective permissions for securable objects
+OriginalFilename: accesschk.exe
+Translation: 0x0409 0x04b0
+

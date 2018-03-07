@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2947584 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8fa24ff5f74a31ec3edeea310308229f
+SHA1:    018faa73b390c0ccce0528c169be16f26be498db
+ssdeep:  49152:8Af691axutWLoQJafs6ULocKJWjOCYJBtJkBa2TrieQsNSw/inJQxM+rSU6I+N6s:8f919WkQOs/kzp7TvkcxeQsN9/IJ5UOP
+Date:    0x3A5B1B81 [Tue Jan  9 14:09:05 2001 UTC]
+EP:      0x403f8f .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x2d9769 [SUSPICIOUS]
+Packers: WinZip 32-bit SFX v8.x module
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa0d0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x0      0x0      LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+RT_GROUP_ICON      0xa4e0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5486       0x5600       6.455427    
+.rdata     0x7000       0xbd2        0xc00        5.084300    
+.data      0x8000       0x1735       0xe00        6.880742    
+.rsrc      0xa000       0x508        0x600        3.235318    
+_winzip_   0xb000       0x2c8000     0x2c8000     7.998949    [SUSPICIOUS]
+

@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    46592 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     66bded5b2c6369a1a79e286fdb399c4d
+SHA1:    a6ed743e7f31947fd8e4119bbb6ed113485ce23d
+ssdeep:  768:z8HQm1s7zZL/cTWZCMROS05hygMrWYBHpR8/znmNcI/z32EXD2:z4S7zN/cTWZCMROXWWY5pR8/zozV
+Date:    0x57898F64 [Sat Jul 16 01:35:32 2016 UTC]
+EP:      0x4082b0 .text 0/5
+CRC:     Claimed: 0x13879, Actual: 0x13879 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd428   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0xc840   0xa3     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xc8e8   0x2d7    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0xcbc0   0x868    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc4a0   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0xc1e0   0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+StartServiceW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7ce0       0x7e00       6.290319    
+.data      0x9000       0x538        0x200        1.140931    
+.idata     0xa000       0x1036       0x1200       4.986354    
+.rsrc      0xc000       0x1510       0x1600       4.486168    
+.reloc     0xe000       0x928        0xa00        6.465740    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BDEUISRV.DLL
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: BDE UI Launcher
+OriginalFilename: BDEUISRV.DLL
+Translation: 0x0409 0x04b0
+

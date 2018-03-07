@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    886784 bytes
+Type:    PE32 executable for MS Windows (native) Intel 80386 32-bit
+MD5:     814b8f7c56b2ae547e82a90b451a0eed
+SHA1:    6a5bbb0b68524a0480ad055cee1499e05ac3339b
+ssdeep:  12288:cqXw3LtvHz1L77A73CFVrIBHIv45bxDRPkbDPpxnePNxwLBAvo8GTbe13:cZ3dH5LnAjCFVRbDPpxneP0LBAAXbe1
+Date:    0x57898F5A [Sat Jul 16 01:35:22 2016 UTC]
+EP:      0x410500 .text 0/5
+CRC:     Claimed: 0xe08df, Actual: 0xe08df 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd7e70  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x953e8  0x426ec  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xd7ad8  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x95140  0x2a3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8daf4      0x8dc00      6.309798    
+.data      0x8f000      0x3260       0x2e00       4.385312    
+.idata     0x93000      0x103a       0x1200       5.344368    
+.rsrc      0x95000      0x42f40      0x43000      3.493324    
+.reloc     0xd8000      0x36cc       0x3800       6.694992    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AutoChk
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Auto Check Utility
+OriginalFilename: AutoChk.Exe
+Translation: 0x0409 0x04b0
+

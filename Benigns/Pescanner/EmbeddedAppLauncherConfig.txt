@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38752 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bad3a5a06c39f350f8c9ab553fdcf7e4
+SHA1:    d314bb7c8059c0916f712e9dc370dc01af5569e2
+ssdeep:  768:wmUqZjp2+G1iAacSQtXAU/cFITFOGNk5p1P9H:wmUajE+CiAjS4XAXITLNkNP9H
+Date:    0x57898F08 [Sat Jul 16 01:34:00 2016 UTC]
+EP:      0x405e30 .text 0/5
+CRC:     Claimed: 0x1779d, Actual: 0x1779d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x9360   0x3f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90a0   0x2bd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x57fc       0x5800       5.922154    
+.data      0x7000       0x3c4        0x200        0.183339    [SUSPICIOUS]
+.idata     0x8000       0x8da        0xa00        4.800177    
+.rsrc      0x9000       0x758        0x800        4.186037    
+.reloc     0xa000       0x544        0x600        6.208921    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: EmbeddedAppLauncherConfig.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Embedded App Launcher config
+OriginalFilename: EmbeddedAppLauncherConfig.exe
+Translation: 0x0409 0x04b0
+

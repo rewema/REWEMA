@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    147456 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f97e168ac7407ef93955073e2a2b5517
+SHA1:    1af3fcb842c561ad113cd533919d27e02a615348
+ssdeep:  1536:hXPgg7mMwl8GGPAVyVxyVxyV+ibAQA0WUGWUGWUbx6Y6I1mtEj4azWqD:NoY5wl8GGIV007iczxKKe6Y6I/UNK
+Date:    0x43D29D55 [Sat Jan 21 20:45:09 2006 UTC]
+EP:      0x110228de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2b156 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x24058  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x208e4      0x21000      6.396789    
+.rsrc      0x24000      0x368        0x1000       0.907252    [SUSPICIOUS]
+.reloc     0x26000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2212.28354
+InternalName: Classroom.exe
+FileVersion: 1.0.2212.28354
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2212.28354
+FileDescription:  
+OriginalFilename: Classroom.exe
+

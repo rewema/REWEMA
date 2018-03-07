@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    111104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     58893b271b5fea2fda87a813e9cd938d
+SHA1:    c144f42fc259183736f1e827565e1ae92a3c6b4f
+ssdeep:  3072:Tl++z+ZysJwhxdpiPtUsfIaq2FXQV30qVz4:pF1nJsthfIaqEXQV31
+Date:    0x57898F83 [Sat Jul 16 01:36:03 2016 UTC]
+EP:      0x4127d0 .text 0/6
+CRC:     Claimed: 0x233ce, Actual: 0x233ce 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1c5e8  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x19938  0xa3     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x199e0  0x27d    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x19c60  0x28f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x19ef0  0x2ae    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x1a1a0  0x30a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x1a4b0  0x2f0    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x1a7a0  0x1e44   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x19570  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x192a0  0x2cb    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13e38      0x14000      6.134000    
+.data      0x15000      0x6a4        0x400        2.273861    
+.idata     0x16000      0x1446       0x1600       5.177771    
+.didat     0x18000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x19000      0x36d0       0x3800       5.018899    
+.reloc     0x1d000      0x1868       0x1a00       6.603941    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: raserver.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Remote Assistance COM Server
+OriginalFilename: raserver.exe
+Translation: 0x0409 0x04b0
+

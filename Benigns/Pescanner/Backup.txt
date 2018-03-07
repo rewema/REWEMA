@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    77824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e4649dc2ca14740447ee9a50717efd56
+SHA1:    f1b48bd2767f9cbe11dd6239648ef05623fe808b
+ssdeep:  1536:uTqwcge2SynfhzPAB4kUooCtAojY3/kE:4he0nJzZkxoCKojY3/k
+Date:    0x46ADC8A4 [Mon Jul 30 11:16:52 2007 UTC]
+EP:      0x40f51e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x14b67 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x123e8  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x13090  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x120e8  0x300    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xd524       0xe000       6.291625    
+.sdata     0x10000      0x72         0x1000       0.272203    [SUSPICIOUS]
+.rsrc      0x12000      0x10a8       0x2000       4.194167    
+.reloc     0x14000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa92007 by Flagman
+Assembly Version: 1.0.0.2
+InternalName: Backup.exe
+FileVersion: 1.0.0.2
+CompanyName: Flagman's World
+ProductName: Backup Portable
+ProductVersion: 1.0.0.2
+FileDescription: Backup Portable
+OriginalFilename: Backup.exe
+

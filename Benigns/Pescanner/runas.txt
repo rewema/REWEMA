@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17920 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     33fab7726b2cf776490242088eb27a74
+SHA1:    2ff5fd323635d7463465a5f6ead87e5427f14c00
+ssdeep:  384:obuRy2PO8G/VVtFHKZkXV7MGXuJEa6NHWFOWaA:o0vZKtKYMaDa6Nip
+Date:    0x57898ED9 [Sat Jul 16 01:33:13 2016 UTC]
+EP:      0x402dd0 .text 0/5
+CRC:     Claimed: 0x513f, Actual: 0x513f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x6718   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x6390   0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60f0   0x29d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+CreateProcessWithLogonW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x26fc       0x2800       5.921415    
+.data      0x4000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0xa3e        0xc00        4.550407    
+.rsrc      0x6000       0x7e8        0x800        4.298109    
+.reloc     0x7000       0x24c        0x400        4.485966    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: runas
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Run As Utility
+OriginalFilename: RUNAS.EXE
+Translation: 0x0409 0x04b0
+

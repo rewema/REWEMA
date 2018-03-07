@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7a66c8858938fb2da1aaccd82d283c57
+SHA1:    d398120e2b91f53059e0eef9a4de9edfd42dabe9
+ssdeep:  384:0ppWYK4FJImlpfhJyurjhzIVrhkozFztMWReW:07WnMJldtzIthko5l
+Date:    0x39D836BF [Mon Oct  2 07:18:23 2000 UTC]
+EP:      0x401aef .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xed1a [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7180   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x7480   0x208    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x7688   0x1c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7468   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x7850   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x333e       0x4000       5.687699    
+.rdata     0x5000       0xc9e        0x1000       4.532056    
+.data      0x6000       0xcbc        0x1000       1.654177    
+.rsrc      0x7000       0xc00        0x1000       3.019713    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1994-2000
+InternalName: ACCEVENT (Unicode)
+FileVersion: 4.02.4602.0
+CompanyName: Microsoft Corporation
+SpecialBuild: Active Accessibility SDK
+ProductName: Microsoft Active Accessibility
+ProductVersion: 4.02.4602.0
+FileDescription: Active Accessibility Event Tester (Unicode)
+OriginalFilename: ACCEVENT.EXE
+Translation: 0x0409 0x04b0
+

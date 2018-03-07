@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1110564 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     da7db29e783780f3a581e6e0bf4c595d
+SHA1:    dd1cb1163c5572951c9cd27f5a8dd550b33c58a4
+ssdeep:  24576:s4nN0gktMU54pUt9BQyMGyG1vYLuv4Hoqf2F9h4N9SRwbyj3R1Xq7+63X:s4igAP58U5hyAgI99ZRwe3a7LX
+Date:    0x57F3C70B [Tue Oct  4 15:13:15 2016 UTC]
+EP:      0x4070b4 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x111879 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xd480   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd768   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xd8b8   0x176    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xd890   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xd1b0   0x2d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xda30   0x5b2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x624c       0x6400       6.546825    
+.rdata     0x8000       0x136c       0x1400       4.454216    
+.data      0xa000       0x2514       0x200        0.518774    [SUSPICIOUS]
+.rsrc      0xd000       0xfe8        0x1000       4.366379    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1999-2016 Igor Pavlov
+InternalName: 7zipInstall
+FileVersion: 16.04
+CompanyName: Igor Pavlov
+ProductName: 7-Zip
+ProductVersion: 16.04
+FileDescription: 7-Zip Installer
+OriginalFilename: 7zipInstall.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,125 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    852992 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     012e52e08bf6857adc22d84f50215d3d
+SHA1:    cd4c06abbfb4c88e08f56782c857d98adb2b26d8
+ssdeep:  12288:n7tGxv85xU+w8uNanjUZS2nD0X57BCl3siNWUhj/u:BMsw8PwZ5cgdWUVu
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x493c90 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xd23d0 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xa9ef0  0x134    LANG_SPANISH SUBLANG_SPANISH_ARGENTINA data
+RT_CURSOR          0xaa024  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xaa158  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xaa28c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xaa3c0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xaa4f4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xaa628  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xaa75c  0x134    LANG_SPANISH SUBLANG_SPANISH_ARGENTINA data
+RT_CURSOR          0xaa890  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xaa9c4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xaab94  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xaad78  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xaaf48  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xab118  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xab2e8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xab4b8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xab688  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xab858  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xaba28  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xabbf8  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xabce0  0x268    LANG_SPANISH SUBLANG_SPANISH_ARGENTINA data
+RT_BITMAP          0xabf48  0xb0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xabff8  0x25a8   LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xae5a0  0x10a8   LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xaf648  0x988    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xaffd0  0x468    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xb0438  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb048c  0x1bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb0648  0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb0a50  0x2d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb0d24  0x26c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb0f90  0x238    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb11c8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb12fc  0x140    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb143c  0xfc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb1538  0x24c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb1784  0x1d4    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xb1958  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xb1a44  0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb1e28  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xb1f10  0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb2008  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xb2130  0x470    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb25a0  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb28fc  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb2c84  0x42c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb30b0  0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb31a0  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7078005 records)
+RT_STRING          0xb3278  0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb34ec  0x3e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb38cc  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xb3c54  0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xb3f2c  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0xb3f3c  0x598    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xb44d4  0x2163f  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd5b14  0x14     LANG_SPANISH SUBLANG_SPANISH_ARGENTINA Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5b28  0x14     LANG_SPANISH SUBLANG_SPANISH_ARGENTINA Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5b3c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5b50  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5b64  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5b78  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5b8c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5ba0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd5bb4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0xd5bc8  0x3e     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 4 icons, 48x48, 256-colors
+RT_VERSION         0xd5c08  0x394    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_MANIFEST        0xd5f9c  0x245    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+WriteProcessMemory
+ShellExecuteW
+ShellExecuteA
+InternetReadFile
+InternetConnectA
+HttpSendRequestA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x92d0c      0x92e00      6.552920    
+DATA       0x94000      0x1ea0       0x2000       4.045566    
+BSS        0x96000      0x1231       0x0          0.000000    [SUSPICIOUS]
+.idata     0x98000      0x2bb0       0x2c00       5.043063    
+.tls       0x9b000      0x98         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x9c000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x9d000      0xb0a0       0xb200       6.634010    
+.rsrc      0xa9000      0x2d200      0x2d200      4.375761    
+
+Version info
+================================================================================
+LegalCopyright: arturo182
+InternalName: AutoUpdater.exe
+FileVersion: 0.0.1.0
+CompanyName: AutoUpdater for SansaManager
+LegalTrademarks: arturo182
+Comments: Visit www.thesansa.com :)
+ProductName: AutoUpdater for SansaManager
+ProductVersion: 0.0.1.0
+FileDescription: AutoUpdater for SansaManager
+OriginalFilename: aup.exe
+Translation: 0x0415 0x04e2
+

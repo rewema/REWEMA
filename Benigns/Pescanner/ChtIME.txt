@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    170496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d4f109514834cc321f058c9a7ed68a9b
+SHA1:    6322041c8b616507f48b4467e18a8076865435fa
+ssdeep:  3072:IY++ayFS3Xni9EqpCB04ysXsEEIyONs5Jtb1ktL47/x82kY:Dbasoni9EqpCBUsXaUe5v1ktkd
+Date:    0x5789912E [Sat Jul 16 01:43:10 2016 UTC]
+EP:      0x420330 .text 0/5
+CRC:     Claimed: 0x30118, Actual: 0x30118 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x29330  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x290a0  0x28f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24d38      0x24e00      6.280988    
+.data      0x26000      0xb48        0x400        2.869292    
+.idata     0x27000      0x15b8       0x1600       5.544804    
+.rsrc      0x29000      0x6c8        0x800        3.962792    
+.reloc     0x2a000      0x2518       0x2600       6.682489    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Microsoft IME
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft IME
+OriginalFilename: ChtIME.exe
+Translation: 0x0409 0x04b0
+

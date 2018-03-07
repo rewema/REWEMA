@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1710680 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6df26d637c0c5fefcd248ee130837c2b
+SHA1:    1c989a62b2437245487c2d0f314dd38abc33a5e1
+ssdeep:  24576:uljES7IX6kiGYTDZNjN6xs1WeNOeuFB9X6gbu185BxbiFAfn+gxohTQtMmp4:ulkLYTDZPNy6gKRS+VhTyp4
+Date:    0x56980C0F [Thu Jan 14 20:58:55 2016 UTC]
+EP:      0x409747 .text 0/4
+CRC:     Claimed: 0x1a3d46, Actual: 0x1a3d46 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2e088  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2e1e0  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dd88  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d7e0  0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d870  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d988  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2da88  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2db68  0x11e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2dc88  0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2dd30  0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2e070  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_MANIFEST        0x2d2d0  0x50a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd0dc       0xd200       6.580680    
+.rdata     0xf000       0x305c       0x3200       5.032898    
+.data      0x13000      0x19238      0x1000       4.012227    
+.rsrc      0x2d000      0x1338       0x1400       4.500321    
+

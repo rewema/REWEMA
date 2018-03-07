@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6740464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5b198771322665551800ec8b534cb997
+SHA1:    af792d31f630f6aa43da1229f720874af0bcca80
+ssdeep:  196608:tIquDfpLQNIJ77BCXo9Zmjd87BZ5v3IuT/+qPv:tYDfdXJ7BC49ge7Bn3TWqX
+Date:    0x57ED49F6 [Thu Sep 29 17:05:58 2016 UTC]
+EP:      0x407cde .text 0/4
+CRC:     Claimed: 0x673488, Actual: 0x673488 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c190  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c5f8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d6a0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x1fc48  0x64fb51 LANG_NEUTRAL SUBLANG_NEUTRAL          Zip archive data, at least v2.0 to extract
+RT_GROUP_ICON      0x66f7a0 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_MANIFEST        0x66f7d0 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10884      0x10a00      6.633419    
+.rdata     0x12000      0x66e8       0x6800       4.929537    
+.data      0x19000      0x2edc       0x1200       2.552496    
+.rsrc      0x1c000      0x653958     0x653a00     7.999780    [SUSPICIOUS]
+

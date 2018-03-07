@@ -1,0 +1,78 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1359872 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fabcc08a2d36eb83b4bfaedf1660b069
+SHA1:    599dc059bbb4db1006029316be0ba42de8f906f4
+ssdeep:  24576:ZOoI92qrIGamAAamjteWg30WPHc5bTXX6NYS2Uu50cAl+Dl+:lIEiHBoWg37fc5vX6NYTUu44D4
+Date:    0x40009DB2 [Sun Jan 11 00:49:54 2004 UTC]
+EP:      0x4abfc6 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x156881 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x119bf9L => deflate
+   0x119c1bL => Jean-loup Gailly
+   0x11a725L => inflate
+   0x11a747L => Mark Adler
+YARA: irc
+   0x11e278L => msg
+   0x11e281L => nick
+   0x11e3f4L => Nick
+   0x11e758L => nick
+   0x12b4cbL => NICK
+   0x12b5a6L => NICK
+   0x12f8fcL => NICK
+   0x136088L => part
+   0x11e808L => ping
+   0x11e38cL => QUIT
+   0x11e3bcL => QUIT
+   0x12ae92L => QUIT
+   0x12aebaL => Quit
+   0x12cd50L => QUIT
+   0x12cd6fL => Quit
+   0x12cd8aL => Quit
+   0x11e23cL => chat
+   0x11e25aL => chat
+   0x11e47aL => chat
+   0x11e4bcL => CHAT
+   0x11e4c8L => CHAT
+   0x11e4d8L => chat
+   0x11e51dL => chat
+   0x122dddL => chat
+   0x122e14L => chat
+   0x122e30L => chat
+   0x129ffeL => CHAT
+   0x12a6b1L => chat
+   0x12b24aL => chat
+   0x12b33fL => Chat
+   0x12c2a7L => Chat
+   0x12ccd3L => CHAT
+   0x12cd93L => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x176130 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x176430 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x176418 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x176718 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xeaa70      0xeb000      6.675862    
+.rdata     0xec000      0x30d00      0x31000      4.593865    
+.data      0x11d000     0x58c20      0x2e000      6.164567    
+.rsrc      0x176000     0x730        0x1000       1.718933    
+

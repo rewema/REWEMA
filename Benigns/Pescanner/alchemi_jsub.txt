@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     0b72dec0e40b163bcf22fe299676a902
+SHA1:    c6a3732fe9d3ece88c004ce899e7f53dea62b78b
+ssdeep:  192:kfKX4wwwasmunXO8KOn8aCo1HdRLV7sWrf5+ee11fhRxAc4YJ6PNqlaRWKy9pJ2:kiX4www2unhzbCAH7La+IeghcAhKm2
+Date:    0x47028CBE [Tue Oct  2 18:23:58 2007 UTC]
+EP:      0x11004d2e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x7746 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x64d8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x67c0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x68e8   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2d34       0x3000       5.177055    
+.rsrc      0x6000       0x910        0x1000       2.233504    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2006 The University of Melbourne
+Assembly Version: 1.0.6.24119
+InternalName: alchemi_jsub.exe
+FileVersion: 1.0.6.24119
+CompanyName: http://www.alchemi.net
+Comments: .NET Grid Computing Framework
+ProductName: Alchemi
+ProductVersion: 1.0.6
+FileDescription: Alchemi Job Submitter
+OriginalFilename: alchemi_jsub.exe
+

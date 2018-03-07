@@ -1,0 +1,85 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    178472 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1df86707be9d6ac083faf1aedfabdce6
+SHA1:    737da335b357462d08a864b8afda0aa7049c0a2e
+ssdeep:  3072:YcmVWD5ltbmP3Q7ytSHME4GlOYtC/+v5aU7+XvAoSVX7j8dvXdv+K9sFU8VyOg:vmJI1MEBE+B+XvAb5AZN+FPh
+Date:    0x4E1471B8 [Wed Jul  6 14:31:20 2011 UTC]
+EP:      0x40354b .text 0/5
+CRC:     Claimed: 0x300e1, Actual: 0x300e1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2566e8 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x258c90 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x259d38 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25abe0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25b488 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x25b9f0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x25be58 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25bf80 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25c180 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25c278 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25c368 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25c568 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25c660 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25c750 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25c950 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25ca48 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25cb38 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25cd38 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25ce30 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25cf20 0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d118 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d208 0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d2f0 0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d4e0 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d5c8 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d6a8 0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d898 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25d980 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25da60 0x1f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25dc50 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x25dd38 0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x25de18 0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x25de80 0x490    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x25e310 0x3bd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x63a2       0x6400       6.480448    
+.rdata     0x8000       0x18f2       0x1a00       4.888285    
+.data      0xa000       0x6669c      0x200        1.429877    
+.ndata     0x71000      0x1e5000     0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x256000     0x86d0       0x8800       5.040948    
+
+Version info
+================================================================================
+LegalCopyright: John T. Haller
+InternalName: PortableApps.com Updater
+FileVersion: 1.999.999.42
+CompanyName: PortableApps.com
+LegalTrademarks: PortableApps.com is a trademark of Rare Ideas, LLC.
+Comments: Application and platform updater.  For additional details, visit PortableApps.com
+ProductName: PortableApps.com Updater
+ProductVersion: 1.999.999.42
+FileDescription: PortableApps.com Updater
+OriginalFilename: PortableApps.comUpdater.exe
+Translation: 0x0000 0x04b0
+

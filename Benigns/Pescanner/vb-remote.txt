@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2777150 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1093e2daf8ec6de7a9b7a571ed37f8c4
+SHA1:    345a5790efac4c73ff6f39faea09f52007cec189
+ssdeep:  49152:RZ8Pd0F7BhXy/JyBS5SqZsFg/YAuYQ5JdUnCc50Dh9jRP7aski+jaOLfLpmRtzsp:RZ8qzSJyIZsOYd15JdUn55OjRPmsLde
+Date:    0x3FA73AD8 [Tue Nov  4 05:36:24 2003 UTC]
+EP:      0x4058be .text 0/4
+CRC:     Claimed: 0x2abbb3, Actual: 0x2abbb3 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BFS                0xf4d0   0x294cf4 LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf168   0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x2a41c8 0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x2a4e70 0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x2a4e98 0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9194       0xa000       5.990150    
+.rdata     0xb000       0x9fc        0x1000       3.222492    
+.data      0xc000       0x25f0       0x3000       3.596355    
+.rsrc      0xf000       0x296110     0x297000     7.990212    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 
+InternalName: vb-remote.exe
+FileVersion: 0.0.0.0
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 0.0.0.0
+FileDescription: 
+OriginalFilename: vb-remote.exe
+

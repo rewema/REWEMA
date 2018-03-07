@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     437855dc82ea296731537a52e5c21344
+SHA1:    071c5df84a53e32c93af8c122ba284460d995b81
+ssdeep:  384:4tuB+PMMdonSN7Ek3WULnn3yb32XSgABQ1+DhElAWKgWaI1:3tMdoSN7EkGgCb3pxBrElQwI
+Date:    0x57898D89 [Sat Jul 16 01:27:37 2016 UTC]
+EP:      0x403fe0 .text 0/5
+CRC:     Claimed: 0xc7c9, Actual: 0xc7c9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x7538   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70a0   0x498    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+StartServiceW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3774       0x3800       6.024033    
+.data      0x5000       0x3fc        0x200        0.220113    [SUSPICIOUS]
+.idata     0x6000       0xbc2        0xc00        5.030938    
+.rsrc      0x7000       0x908        0xa00        4.414309    
+.reloc     0x8000       0x4a4        0x600        5.782574    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RdpSaUacHelper.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: RDP Session Agent UAC Helper
+OriginalFilename: RdpSaUacHelper.exe
+Translation: 0x0409 0x04b0
+

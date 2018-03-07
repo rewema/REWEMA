@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1372472 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     13e901eec0347a024450962c48385120
+SHA1:    81be376134962a0d7df35dffa31cc77f7fbeed8e
+ssdeep:  24576:xKAd/monVAqRVzkBhtK6sURiJ8Tr5wWjsrwrPsrf8NRbAraf2jzDr:QsnVAqR8K6sOi6T1wWjskbswNRkUCzP
+Date:    0x5645C8B2 [Fri Nov 13 11:25:38 2015 UTC]
+EP:      0x486382 .text 0/5
+CRC:     Claimed: 0x15c66a, Actual: 0x15c66a 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xba619L => deflate
+   0xba63bL => Jean-loup Gailly
+   0xa825dL => inflate
+   0xa827fL => Mark Adler
+   0xba650L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+ZIPRES             0xda440  0x63a42  LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Zip archive data, at least v2.0 to extract
+RT_ICON            0x13de84 0x4228   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x1420ac 0x25a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x144654 0x10a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x1456fc 0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x145b64 0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x145fcc 0xb4     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x146080 0x40     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x1460c0 0x13a    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x1461fc 0x8c     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x146288 0x14c    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x1463d4 0x182    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x146558 0x90     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x1465e8 0x90     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x146678 0x4a     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_GROUP_ICON      0x1466c4 0x3e     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 4 icons, 64x64, 256-colors
+RT_GROUP_ICON      0x146704 0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_VERSION         0x146718 0x2d4    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_MANIFEST        0x1469ec 0x222    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ReadProcessMemory
+OpenProcess
+OpenProcessToken
+StartServiceW
+CreateProcessAsUserW
+CreateServiceW
+StartServiceCtrlDispatcherW
+ShellExecuteExW
+ShellExecuteW
+InternetReadFileExA
+InternetConnectW
+HttpSendRequestExA
+InternetConnectA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa4abf      0xa4c00      6.555570    
+.rdata     0xa6000      0x2a322      0x2a400      5.039514    
+.data      0xd1000      0x8a64       0x4a00       5.193043    
+.rsrc      0xda000      0x6cc10      0x6ce00      7.950006    [SUSPICIOUS]
+.reloc     0x147000     0xc98e       0xca00       5.303668    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2010 Baidu Inc. All rights reserved.
+FileVersion: 43.23.1000.467
+CompanyName: Baidu.com, Inc.
+ProductName: spark
+ProductVersion: 43.23.1000.467
+FileDescription: spark
+OriginalFilename: SparkUpdate.exe
+Translation: 0x0804 0x04b0
+

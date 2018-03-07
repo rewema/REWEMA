@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2756670 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4524f0bdf8b9659c80e7701a8505b092
+SHA1:    83327c98c2ee33c2491c7c87f656c47b3debc75b
+ssdeep:  49152:B3o7F7BhXy/JyBP5SqZsFg/YAuYQ5JdUnCc50Dh9jucPkNfUvLcOLfLpmRtzs9Ut:BY7zSJy7ZsOYd15JdUn55OjucPkNMvwH
+Date:    0x3FA73AD8 [Tue Nov  4 05:36:24 2003 UTC]
+EP:      0x4058be .text 0/4
+CRC:     Claimed: 0x2a8505, Actual: 0x2a8505 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BFS                0xfe10   0x28fdfc LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf168   0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x29fc10 0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x29ff78 0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_VERSION         0x29ffa0 0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9194       0xa000       5.990150    
+.rdata     0xb000       0x9fc        0x1000       3.222612    
+.data      0xc000       0x25f0       0x3000       3.596355    
+.rsrc      0xf000       0x291218     0x292000     7.992781    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 
+InternalName: vb-player.exe
+FileVersion: 0.0.0.0
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 0.0.0.0
+FileDescription: 
+OriginalFilename: vb-player.exe
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    143360 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     5cd466ca480b823feddb678d854cd4bb
+SHA1:    ac38730bf7615e2e061ac9576523000744d0ef76
+ssdeep:  3072:mHwZGiAEdvfVPn63Q77N43CwyUccbbBa:7AmP2Q7J0rIc
+Date:    0x4FFC931D [Tue Jul 10 20:39:57 2012 UTC]
+EP:      0x42168e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x31982 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x220a0  0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x22448  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1f694      0x20000      6.344226    
+.rsrc      0x22000      0x638        0x1000       2.017671    
+.reloc     0x24000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2011 Charlie Poole
+Assembly Version: 0.9.0.0
+InternalName: nunit-editor.exe
+FileVersion: 0.9.0.0
+CompanyName: NUnit Software
+Comments: Standalone NUnit project editor
+ProductName: NUnit Project Editor
+ProductVersion: 0.9.0.0
+FileDescription: NUnit Project Editor
+OriginalFilename: nunit-editor.exe
+

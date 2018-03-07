@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    270848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f4f6a1bbf5b25884d9d41d9be79c7e1b
+SHA1:    8c21ca3bc703799132bb9f1f9d23c860390e395f
+ssdeep:  6144:AfNpWnG7LGl3mBwKIfmguFlGewI/5UPkUVji5QIlr3Zbj:RnG7L03mwmguD
+Date:    0x4E00FA63 [Tue Jun 21 20:09:07 2011 UTC]
+EP:      0x4012a0 .text 0/6
+CRC:     Claimed: 0x48366, Actual: 0x48366 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3b234  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3b51c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3b644  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c4ec  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3cd94  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3d2fc  0x42a7   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x415a4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43b4c  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44bf4  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4505c  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 32x32, 16-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x20e28      0x21000      6.207711    
+.data      0x22000      0xe724       0xe800       5.261189    
+.rdata     0x31000      0x2304       0x2400       4.343657    
+.bss       0x34000      0x140        0x0          0.000000    [SUSPICIOUS]
+.idata     0x35000      0x5efc       0x6000       5.726332    
+.rsrc      0x3b000      0xa0e0       0xa200       6.628494    
+

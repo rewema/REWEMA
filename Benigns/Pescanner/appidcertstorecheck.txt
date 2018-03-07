@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16896 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3edf848818dd0c56100f007bd871626b
+SHA1:    a6a0b354fac55033fb1a6b46eda79480caf3486c
+ssdeep:  384:LxWfp+3HqXJ6c2XPt1MObBNDI96eW0aK1W9:LxWR+Zc0hFNDI60aK
+Date:    0x57899142 [Sat Jul 16 01:43:30 2016 UTC]
+EP:      0x402940 .text 0/6
+CRC:     Claimed: 0x13889, Actual: 0x13889 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x7368   0x3f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70a0   0x2c2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2150       0x2200       5.844985    
+.data      0x4000       0x3cc        0x200        0.214733    [SUSPICIOUS]
+.idata     0x5000       0xa94        0xc00        4.463494    
+.didat     0x6000       0x20         0x200        0.350320    [SUSPICIOUS]
+.rsrc      0x7000       0x760        0x800        4.145875    
+.reloc     0x8000       0x2dc        0x400        5.255968    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AppIDCertstoreCheck.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: AppID Certificate Store Verification Task
+OriginalFilename: AppIDCertstoreCheck.exe
+Translation: 0x0409 0x04b0
+

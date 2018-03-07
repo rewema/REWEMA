@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25088 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5d62e3d4f94c05ba6dca8effee9b4405
+SHA1:    129c513bf1d27fb52f5998472f46f299c0af6022
+ssdeep:  384:Iaar56L0NJzIdSTnAjX1MURXplqjbLcjsLWDdh4Z17eYWn7pOWdJoyh:IabswPTlqA4LWX016R7pNJoy
+Date:    0x57899139 [Sat Jul 16 01:43:21 2016 UTC]
+EP:      0x4043a0 .text 0/6
+CRC:     Claimed: 0x755b, Actual: 0x755b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8790   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8398   0x3f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2a5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3dd8       0x3e00       5.908785    
+.data      0x5000       0x678        0x200        1.394258    
+.idata     0x6000       0xb16        0xc00        4.590170    
+.didat     0x7000       0x4c         0x200        0.729278    [SUSPICIOUS]
+.rsrc      0x8000       0x858        0xa00        3.803975    
+.reloc     0x9000       0x5e8        0x600        6.640457    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CheckNetIsolation
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: AppContainer Network Isolation Diagnostic Tool
+OriginalFilename: CheckNetIsolation.exe
+Translation: 0x0409 0x04b0
+

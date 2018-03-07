@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1602048 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b5efad36cf49c2a373e9f89d5359edfd
+SHA1:    e3da47b18a24787a6c78af7f20a752703f4d2447
+ssdeep:  49152:RL6hxeZxTJnFDr41hE21msojZbq0sTqs0X:Fx9FPQWZsmZbMT
+Date:    0x57898E70 [Sat Jul 16 01:31:28 2016 UTC]
+EP:      0x57db80 .text 0/6
+CRC:     Claimed: 0x187aa2, Actual: 0x187aa2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x183710 0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1830a0 0x66a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17df3e     0x17e000     7.590079    [SUSPICIOUS]
+.data      0x17f000     0xb88        0x400        2.402176    
+.idata     0x180000     0x128c       0x1400       5.386617    
+.didat     0x182000     0x10         0x200        0.164765    [SUSPICIOUS]
+.rsrc      0x183000     0xab0        0xc00        4.592091    
+.reloc     0x184000     0x6654       0x6800       6.298164    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: 
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Application Impact Telemetry Static Analyzer
+OriginalFilename: 
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,142 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    974336 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b0af26971cbd134d97ab430e34d6599d
+SHA1:    97a125b0c47ddffd10b34d195fffe970ac3a94fa
+ssdeep:  24576:mG1IP8UA0lGYzUAxw+Jjxq5z+eSgJM1wQ7rWUiyzPDpMIxFtU5Z1Z7x:muIxtgNZ
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4b7894 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xfb3dd [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xcf484  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_CURSOR          0xcf5b8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xcf6ec  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xcf820  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xcf954  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xcfa88  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xcfbbc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xcfcf0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_CURSOR          0xcfe24  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xcff58  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd0128  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd030c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd04dc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd06ac  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd087c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd0a4c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd0c1c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd0dec  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd0fbc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd118c  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd124c  0x7b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd1a04  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd1ae4  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd1bc4  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd1cec  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd1dcc  0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd1e94  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd1f54  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd2014  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd20f4  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd21b4  0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd21fc  0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd2244  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd2324  0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd236c  0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd23b4  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd249c  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xd255c  0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd2624  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd26bc  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd2754  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xd2834  0xea8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xd36dc  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3730  0x1d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3908  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xd3934  0x1c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3afc  0x458    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3f54  0x4a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd43f8  0x41c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd4814  0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd4bf8  0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd4fdc  0x340    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd531c  0x2cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd55e8  0x3c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd59a8  0x36c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd5d14  0x1ec    LANG_NEUTRAL SUBLANG_NEUTRAL          PCX ver. 2.5 image data
+RT_STRING          0xd5f00  0x13c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd603c  0x2c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6304  0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6470  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7274574 records)
+RT_STRING          0xd6558  0x138    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xd6690  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6a2c  0x3f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6e20  0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd71d0  0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd755c  0x374    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd78d0  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd79b0  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6422629 records)
+RT_STRING          0xd7a6c  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd7dd4  0x498    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd826c  0x330    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd859c  0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd88b0  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0xd88c0  0x718    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd8fd8  0x16575  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xef550  0x6e1    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xefc34  0x292c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xf2560  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf2574  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf2588  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf259c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf25b0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf25c4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf25d8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf25ec  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf2600  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0xf2614  0x14     LANG_SPANISH SUBLANG_SPANISH_MODERN   MS Windows icon resource - 1 icon
+RT_VERSION         0xf2628  0x2c0    LANG_SERBIAN SUBLANG_DEFAULT          data
+RT_MANIFEST        0xf28e8  0x245    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xb690c      0xb6a00      6.554683    
+DATA       0xb8000      0x2b00       0x2c00       4.787954    
+BSS        0xbb000      0xffd        0x0          0.000000    [SUSPICIOUS]
+.idata     0xbc000      0x281c       0x2a00       4.925066    
+.tls       0xbf000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0xc0000      0x18         0x200        0.186583    [SUSPICIOUS]
+.reloc     0xc1000      0xcba8       0xcc00       6.636609    
+.rsrc      0xce000      0x24c00      0x24c00      5.717619    
+
+Version info
+================================================================================
+LegalCopyright: (c) Joan-Carles Leon
+InternalName: 
+FileVersion: 2.1.1.481
+CompanyName: 
+LegalTrademarks: 
+Comments: 
+ProductName: Easy Screen Share
+ProductVersion: 1.0.0.0
+FileDescription: 
+OriginalFilename: 
+Translation: 0x040a 0x04e4
+

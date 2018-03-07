@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1503232 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f9aaf1891dc8419c3193a63642886733
+SHA1:    eb6792f337f03710e55858aeb6285e5ec4595a89
+ssdeep:  24576:iZoCpe9iQTgzPBHpxD5zREEExwFcKvX7w6p4kZ1IBaejJNWCD1e5X:idpCiQqpzAGv7wdI1IBaejJNWnh
+Date:    0x43373786 [Sun Sep 25 23:49:26 2005 UTC]
+EP:      0x4fddbb .text 0/4
+CRC:     Claimed: 0x1764fb, Actual: 0x1764fb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x172100 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x1723e8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x172400 0x47c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+
+Suspicious IAT alerts
+================================================================================
+CreateServiceA
+StartServiceA
+StartServiceCtrlDispatcherA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x12f49c     0x130000     6.275574    
+.rdata     0x131000     0x3a70a      0x3b000      5.462529    
+.data      0x16c000     0x57ac       0x2000       3.263244    
+.rsrc      0x172000     0x880        0x1000       2.252985    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2003 Trevor Hogan, Portions (C) 2004 Harold Feit
+InternalName: XBNBT
+FileVersion: 8, 1, 3, 5
+CompanyName: =Xotic=
+PrivateBuild: Beta Release
+Comments: =Xotic= Edition of BNBT
+ProductName: XBNBT - Based on BNBT
+SpecialBuild: XBNBT Additional Features enabled - check http://xbnbt.sourceforge.net/ for details.
+ProductVersion: 8, 1, 3, 5
+FileDescription: XBNBT - Based on BNBT
+OriginalFilename: BNBT.EXE
+Translation: 0x0809 0x04b0
+

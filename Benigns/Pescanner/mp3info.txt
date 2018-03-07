@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    204800 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7bfa45a5c3f32de0d51eb7cb7ec6ee91
+SHA1:    6cc640e9bacd4fe82f2e23d91facc83de7a1bd18
+ssdeep:  3072:pQ/IXnxj/k/qv3qXyQ64JAe3TG1scfdqrVrnhaDWsSZ4lTs:mqxAO3GXJ/DG1GrVOz
+Date:    0x40B8C021 [Sat May 29 16:53:53 2004 UTC]
+EP:      0x417462 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x41939 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_DIALOG          0x33300  0x11c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_VERSION         0x330a0  0x25c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24ad8      0x25000      6.547493    
+.rdata     0x26000      0x7dce       0x8000       4.853088    
+.data      0x2e000      0x483c       0x3000       2.887337    
+.rsrc      0x33000      0x420        0x1000       1.037672    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002-2004
+InternalName: MP3Info
+FileVersion: 0.8
+ProductName: MP3Info
+ProductVersion: 0.8
+FileDescription: MP3Info
+OriginalFilename: MP3Info.exe
+Translation: 0x0000 0x04b0
+

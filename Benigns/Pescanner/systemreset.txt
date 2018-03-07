@@ -1,0 +1,94 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    320152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a5ef440ac0c84294d1e19320d6d7cbaf
+SHA1:    b5f83c03d16e43069124917d7a7ae7756694c35f
+ssdeep:  6144:mooAzcHbhGR2Irf5TqdyEXruRoQVlwpfOPpLF7KURQGEEEsND0ZCYWh9AiTImjWS:NoAzc7hGIIrf5TqdyEXruRoQVlwpfg
+Date:    0x57898F97 [Sat Jul 16 01:36:23 2016 UTC]
+EP:      0x41a1d0 .text 0/6
+CRC:     Claimed: 0x5dc9c, Actual: 0x5dc9c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4c7a8  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x26190  0xecf    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x27060  0xecf    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x27f30  0x127c   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x29f60  0x105a   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x2afc0  0x102d   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x2bff0  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x2cda0  0x11a6   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x2f1d0  0x102d   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x31240  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x31ff0  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x32da0  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x356c8  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x36478  0xf06    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x37380  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x38130  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x39c90  0xed8    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x24238  0xf52    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x25190  0xffe    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x291b0  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x34900  0xdc2    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x30200  0x103d   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x3ab68  0xebb    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x3ba28  0xf92    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x3d960  0xe8b    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x3e7f0  0xf56    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x3f748  0xdeb    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x40538  0xdec    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x41328  0xde6    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x42110  0x1e80   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x43f90  0x1338   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x452c8  0x126f   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x46538  0xdef    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x47328  0xdb4    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x480e0  0xdb4    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x3c9c0  0xf9f    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x2df48  0x1282   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x33b50  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x48e98  0xe22    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x38ee0  0xda9    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x49cc0  0xdee    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x4aab0  0xdf1    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0x4b8a8  0xefc    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_VERSION         0x23900  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x23cb8  0x57d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1cfac      0x1d000      6.285585    
+.imrsiv    0x1e000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x1f000      0x1798       0xa00        3.746497    
+.idata     0x21000      0x1dfe       0x1e00       5.740914    
+.rsrc      0x23000      0x29880      0x29a00      4.938379    
+.reloc     0x4d000      0x1ef8       0x2000       6.651921    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: systemreset.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: System Reset for Windows
+OriginalFilename: systemreset.exe
+Translation: 0x0409 0x04b0
+

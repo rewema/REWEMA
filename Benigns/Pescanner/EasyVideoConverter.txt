@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    76800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b7a16cd13846bbf7d1f70baa84419e17
+SHA1:    a82382f8d60df81ce1fc36564ee505bfe8eb6241
+ssdeep:  1536:8KhCRRdRLahZvhN0d06FCDEjj9sIFsK3:8FmpUoK3
+Date:    0x4CF6A4CA [Wed Dec  1 19:40:58 2010 UTC]
+EP:      0x402000 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x21762 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x16058  0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x12388      0x12400      4.840078    
+.rsrc      0x16000      0x368        0x400        2.861215    
+.reloc     0x18000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+InternalName: EasyVideoConverter.exe
+FileVersion: 1.0.3987.37229
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.3987.37229
+FileDescription: EasyVideoConverter
+OriginalFilename: EasyVideoConverter.exe
+

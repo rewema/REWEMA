@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7223b4c2b0bdbfc4fe677e06ad8c9731
+SHA1:    6cf73104128e65a4c5da0ac345a7fad2c1d0a490
+ssdeep:  768:/twleIP5pD63KwRtsido3UKct5zip4Tway+19vxMEfNGjWAKB:yltttidaLmEp4T9QiiWA
+Date:    0x5789912F [Sat Jul 16 01:43:11 2016 UTC]
+EP:      0x4097c0 .text 0/5
+CRC:     Claimed: 0x138ad, Actual: 0x138ad 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14700  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x14370  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x140f0  0x27d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8f2c       0x9000       6.300474    
+.data      0xa000       0x7e08       0x400        3.074251    
+.idata     0x12000      0x1120       0x1200       5.088466    
+.rsrc      0x14000      0x7c8        0x800        4.263973    
+.reloc     0x15000      0xca8        0xe00        6.487258    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ftp.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: File Transfer Program
+OriginalFilename: ftp.exe
+Translation: 0x0409 0x04b0
+

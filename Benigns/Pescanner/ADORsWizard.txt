@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e0d5cd86d3d716fe0a9b87ed0611335f
+SHA1:    13c5250e41b0c268f76e0d43a820bc05bc4bff7e
+ssdeep:  384:XyCn+WoD1zCBJcrgN8GrtTz4SFqlS+AxIDJUepm2muG6LAz6Q614PUX7QMv96wyv:ilRJxSFhIFpWuG6LAz6Q8G47v96wI
+Date:    0x39D23403 [Wed Sep 27 17:53:07 2000 UTC]
+EP:      0x40537c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x19722 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x9e80   0x134    LANG_ITALIAN SUBLANG_ITALIAN          Hitachi SH big-endian COFF object, not stripped
+RT_ICON            0x92a0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9588   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x96d8   0x178    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x9850   0x27a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x9ad0   0x96     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9fd0   0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x9fb8   0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_ICON      0x96b0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x9b68   0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4f92       0x5000       6.113413    
+.rdata     0x6000       0x1f5e       0x2000       4.645484    
+.data      0x8000       0xde8        0x1000       4.817080    
+.rsrc      0x9000       0x1050       0x2000       2.018743    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2000
+InternalName: ADORsWizard
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: ADORsWizard Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: ADORsWizard MFC Application
+OriginalFilename: ADORsWizard.EXE
+Translation: 0x0409 0x04b0
+

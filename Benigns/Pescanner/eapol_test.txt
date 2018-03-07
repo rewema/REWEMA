@@ -1,0 +1,500 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3900075 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b1303b97a3acb9242ed74d84f084579f
+SHA1:    2637032cb0f7922a5e329b140a2187d3ee975cf1
+ssdeep:  98304:pDgeyHyFc6EwlpW4aBl1wI5xBm8PGfxOnGcHtQ2JsJufe9WjKMBctMawW0XtnA7G:pDAyFcvwffaBl1wI5TGfyGcu9wmu
+Date:    0x529A34BF [Sat Nov 30 18:55:59 2013 UTC]
+EP:      0x401570 .text 0/17
+CRC:     Claimed: 0x3c1e48, Actual: 0x3c1e48 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x270abeL => deflate
+   0x280301L => deflate
+   0x2f200bL => deflate
+   0x2f20ccL => deflate
+   0x37a656L => deflate
+   0x37a789L => deflate
+   0x3b4d9fL => deflate
+   0x3b4dadL => deflate
+   0x3b4dbbL => deflate
+   0x3b7903L => deflate
+   0x280323L => Jean-loup Gailly
+   0x270ad1L => inflate
+   0x2824a1L => inflate
+   0x2f6e00L => inflate
+   0x2f6ee8L => inflate
+   0x2f6efaL => inflate
+   0x2f6f07L => inflate
+   0x37a3f2L => inflate
+   0x3b4f5fL => inflate
+   0x3b4f9cL => inflate
+   0x3b5c11L => inflate
+   0x280338L => Mark Adler
+   0x2824c3L => Mark Adler
+   0x233fa0L => OpenSSL
+   0x233fb8L => OpenSSL
+   0x233fe5L => OpenSSL
+   0x233ff9L => OpenSSL
+   0x234014L => OpenSSL
+   0x23404cL => OpenSSL
+   0x23408cL => OpenSSL
+   0x2340f4L => OpenSSL
+   0x234117L => OpenSSL
+   0x234130L => OpenSSL
+   0x234157L => OpenSSL
+   0x234174L => OpenSSL
+   0x23419cL => OpenSSL
+   0x2341c8L => OpenSSL
+   0x2341f4L => OpenSSL
+   0x234224L => OpenSSL
+   0x234264L => OpenSSL
+   0x2342acL => OpenSSL
+   0x2342e4L => OpenSSL
+   0x23432cL => OpenSSL
+   0x234350L => OpenSSL
+   0x234380L => OpenSSL
+   0x2343b0L => OpenSSL
+   0x234560L => OpenSSL
+   0x234594L => OpenSSL
+   0x2346dcL => OpenSSL
+   0x234be8L => OpenSSL
+   0x234cafL => OpenSSL
+   0x234ea8L => OpenSSL
+   0x234f20L => OpenSSL
+   0x234f58L => OpenSSL
+   0x234fa8L => OpenSSL
+   0x234fecL => OpenSSL
+   0x23501cL => OpenSSL
+   0x235054L => OpenSSL
+   0x235088L => OpenSSL
+   0x235108L => OpenSSL
+   0x23520cL => OpenSSL
+   0x235238L => OpenSSL
+   0x235268L => OpenSSL
+   0x235324L => OpenSSL
+   0x23535cL => OpenSSL
+   0x235394L => OpenSSL
+   0x2353dcL => OpenSSL
+   0x2353fcL => OpenSSL
+   0x23542cL => OpenSSL
+   0x235478L => OpenSSL
+   0x2355e4L => OpenSSL
+   0x2356d0L => OpenSSL
+   0x2359a0L => OpenSSL
+   0x2359c8L => OpenSSL
+   0x2359f0L => OpenSSL
+   0x235a14L => OpenSSL
+   0x235a3cL => OpenSSL
+   0x235a64L => OpenSSL
+   0x235a9cL => OpenSSL
+   0x235ac4L => OpenSSL
+   0x235aecL => OpenSSL
+   0x23dcdbL => OpenSSL
+   0x23dcfaL => OpenSSL
+   0x2408f7L => OpenSSL
+   0x244253L => OpenSSL
+   0x24a16eL => OpenSSL
+   0x24b32eL => OpenSSL
+   0x24b52fL => OpenSSL
+   0x24b873L => OpenSSL
+   0x2510aeL => OpenSSL
+   0x25198eL => OpenSSL
+   0x252ad7L => OpenSSL
+   0x252b6cL => OpenSSL
+   0x2545ccL => OpenSSL
+   0x25460fL => OpenSSL
+   0x25476cL => OpenSSL
+   0x2559c9L => OpenSSL
+   0x255a6dL => OpenSSL
+   0x255b00L => OpenSSL
+   0x255b18L => OpenSSL
+   0x255d8eL => OpenSSL
+   0x264b4cL => OpenSSL
+   0x2657ccL => OpenSSL
+   0x26652eL => OpenSSL
+   0x26656cL => OpenSSL
+   0x2665b0L => OpenSSL
+   0x2665f0L => OpenSSL
+   0x26876cL => OpenSSL
+   0x269b7bL => OpenSSL
+   0x269b8eL => OpenSSL
+   0x269b99L => OpenSSL
+   0x269baaL => OpenSSL
+   0x269be3L => OpenSSL
+   0x269c2cL => OpenSSL
+   0x269c8cL => OpenSSL
+   0x269fd5L => OpenSSL
+   0x26a02dL => OpenSSL
+   0x2755adL => OpenSSL
+   0x276a9dL => OpenSSL
+   0x276c4cL => OpenSSL
+   0x276d70L => OpenSSL
+   0x277010L => OpenSSL
+   0x2770d0L => OpenSSL
+   0x277185L => OpenSSL
+   0x2772cfL => OpenSSL
+   0x2777adL => OpenSSL
+   0x27782eL => OpenSSL
+   0x27b877L => OpenSSL
+   0x27b897L => OpenSSL
+   0x27b9cdL => OpenSSL
+   0x27bc38L => OpenSSL
+   0x27bcccL => OpenSSL
+   0x27f271L => OpenSSL
+   0x27f28cL => OpenSSL
+   0x2e5ae2L => OpenSSL
+   0x2e5d1bL => OpenSSL
+   0x2e6000L => OpenSSL
+   0x2e60a4L => OpenSSL
+   0x2edc58L => OpenSSL
+   0x3a1403L => OpenSSL
+   0x3a9a42L => OpenSSL
+   0x3b2281L => OpenSSL
+   0x3b22d5L => OpenSSL
+   0x3b2e49L => OpenSSL
+   0x2ebc86L => SSLeay
+   0x2ebe21L => SSLeay
+   0x3a169bL => SSLeay
+   0x3aaa58L => SSLeay
+   0x3acb5fL => SSLeay
+YARA: irc
+   0x204856L => Join
+   0x2048a5L => join
+   0x2048bcL => join
+   0x2050a9L => Join
+   0x20583eL => join
+   0x205cd2L => join
+   0x2063adL => join
+   0x2063c4L => join
+   0x2064aaL => join
+   0x20657aL => join
+   0x2066e4L => join
+   0x20675dL => join
+   0x2069a2L => join
+   0x206a63L => join
+   0x206a9aL => join
+   0x206fdfL => join
+   0x207000L => join
+   0x207cb5L => JOIN
+   0x238659L => join
+   0x38b677L => join
+   0x38b88aL => join
+   0x38bcd3L => join
+   0x38bd5bL => join
+   0x38bd76L => join
+   0x38bd8eL => join
+   0x1ff0d8L => msg
+   0x1ff110L => msg
+   0x1ff140L => msg
+   0x1ff178L => msg
+   0x200c6eL => msg
+   0x200ccaL => msg
+   0x20115dL => msg
+   0x201175L => msg
+   0x2011b9L => msg
+   0x201d82L => msg
+   0x201dc6L => msg
+   0x201e3fL => msg
+   0x201e70L => msg
+   0x201ecfL => msg
+   0x201f19L => msg
+   0x201f49L => msg
+   0x20228dL => msg
+   0x2022f2L => msg
+   0x2024b9L => msg
+   0x20259aL => msg
+   0x2025c8L => msg
+   0x21425fL => msg
+   0x21556bL => msg
+   0x2155d9L => msg
+   0x2156a8L => msg
+   0x215719L => msg
+   0x2165bdL => msg
+   0x21bbb1L => msg
+   0x21bbe1L => msg
+   0x21ebf4L => MSG
+   0x2206e1L => MSG
+   0x221611L => msg
+   0x2217f6L => MSG
+   0x222d7fL => msg
+   0x225d61L => msg
+   0x22e9c5L => msg
+   0x22e9f5L => msg
+   0x23048bL => msg
+   0x2307f4L => msg
+   0x230868L => msg
+   0x23089bL => msg
+   0x23099cL => msg
+   0x231207L => msg
+   0x231297L => msg
+   0x2312ecL => msg
+   0x231311L => msg
+   0x2313b6L => msg
+   0x2313ebL => msg
+   0x231427L => msg
+   0x243ae7L => msg
+   0x246f31L => msg
+   0x246f3aL => msg
+   0x246f85L => msg
+   0x246f8dL => msg
+   0x247045L => msg
+   0x24704dL => msg
+   0x2470b5L => msg
+   0x2470bdL => msg
+   0x257333L => msg
+   0x273d40L => MSG
+   0x273d60L => msg
+   0x273f64L => msg
+   0x2eca54L => msg
+   0x2ed683L => msg
+   0x2f2b43L => msg
+   0x2f32e4L => msg
+   0x2f32f4L => msg
+   0x2f330dL => msg
+   0x2f3328L => msg
+   0x2f333dL => msg
+   0x2f3351L => msg
+   0x2f3364L => msg
+   0x2f3375L => msg
+   0x2f8c32L => msg
+   0x2f8c46L => msg
+   0x2f8c68L => msg
+   0x2f8c7bL => msg
+   0x2f8c94L => msg
+   0x2f8ca9L => msg
+   0x2f8cbfL => msg
+   0x2f8ccfL => msg
+   0x2f8cedL => msg
+   0x2f8cffL => msg
+   0x2f8d16L => msg
+   0x2f8d31L => msg
+   0x2f8d47L => msg
+   0x2f8d57L => msg
+   0x2f8d6bL => msg
+   0x2f8d83L => msg
+   0x2f8d96L => msg
+   0x2f8db0L => msg
+   0x2f8dc3L => msg
+   0x2f8dd6L => msg
+   0x2f8dedL => msg
+   0x2f8e0cL => msg
+   0x2f8e22L => msg
+   0x2f8e40L => msg
+   0x2f8e4fL => msg
+   0x2f8e60L => msg
+   0x2f8e72L => msg
+   0x2f8e8dL => msg
+   0x2f8ea7L => msg
+   0x2f8eb2L => msg
+   0x2fb34fL => msg
+   0x2fb357L => msg
+   0x2fb364L => msg
+   0x2fb373L => msg
+   0x2fb385L => msg
+   0x2fb399L => msg
+   0x2fd5b0L => msg
+   0x2fd803L => msg
+   0x2fd81cL => msg
+   0x2fd85eL => msg
+   0x2fd8fcL => msg
+   0x2fda0aL => msg
+   0x2fdaf1L => msg
+   0x2fdb70L => msg
+   0x3139bdL => msg
+   0x38a410L => msg
+   0x38a425L => msg
+   0x38a431L => msg
+   0x38a44dL => msg
+   0x38a460L => msg
+   0x38a46eL => msg
+   0x38a47eL => msg
+   0x38e549L => msg
+   0x38e77aL => msg
+   0x38e78cL => msg
+   0x38e7a0L => msg
+   0x38e7b2L => msg
+   0x38e7c8L => msg
+   0x38e7d9L => msg
+   0x38e7eeL => msg
+   0x38e80aL => msg
+   0x38ecc0L => msg
+   0x38f093L => msg
+   0x38f62cL => msg
+   0x38f693L => msg
+   0x38f6a0L => msg
+   0x38f959L => msg
+   0x38fa45L => msg
+   0x38fe13L => msg
+   0x38fe2dL => msg
+   0x39021aL => msg
+   0x3902c0L => msg
+   0x3902dbL => msg
+   0x3903e9L => msg
+   0x390692L => msg
+   0x39645fL => msg
+   0x396642L => msg
+   0x396ac7L => msg
+   0x398268L => msg
+   0x3983c0L => msg
+   0x3983ecL => msg
+   0x39840aL => msg
+   0x39841eL => msg
+   0x398432L => msg
+   0x398443L => msg
+   0x398453L => msg
+   0x398472L => msg
+   0x39848aL => msg
+   0x3984a6L => msg
+   0x3984c1L => msg
+   0x3984d6L => msg
+   0x3984f2L => msg
+   0x398509L => msg
+   0x39851cL => msg
+   0x39852eL => msg
+   0x398542L => msg
+   0x398556L => msg
+   0x398561L => msg
+   0x398572L => msg
+   0x398585L => msg
+   0x39859bL => msg
+   0x3985baL => msg
+   0x3985d2L => msg
+   0x3985edL => msg
+   0x398607L => msg
+   0x39862aL => msg
+   0x39863fL => msg
+   0x398658L => msg
+   0x39866fL => msg
+   0x398686L => msg
+   0x3986ccL => msg
+   0x3993cfL => msg
+   0x3993e5L => msg
+   0x20886eL => Notice
+   0x20af93L => Notice
+   0x20afc2L => Notice
+   0x20b60cL => Notice
+   0x23da59L => notice
+   0x23dae0L => notice
+   0x2570c2L => Notice
+   0x2729c3L => NOTICE
+   0x277c77L => Notice
+   0x22449dL => part
+   0x24a166L => part
+   0x24b326L => part
+   0x24b527L => part
+   0x24b86bL => part
+   0x2510a6L => part
+   0x251986L => part
+   0x252acfL => part
+   0x252b64L => part
+   0x2545c4L => part
+   0x254607L => part
+   0x254764L => part
+   0x255a65L => part
+   0x255d86L => part
+   0x264b44L => part
+   0x2657c4L => part
+   0x266526L => part
+   0x266564L => part
+   0x2665a8L => part
+   0x2665e8L => part
+   0x268764L => part
+   0x269c24L => part
+   0x269c84L => part
+   0x26a025L => part
+   0x2755a5L => part
+   0x2772c7L => part
+   0x2777a5L => part
+   0x277826L => part
+   0x27b54bL => part
+   0x27b9c5L => part
+   0x27f269L => part
+   0x2f0cebL => part
+   0x2f0d0aL => part
+   0x2f0dc9L => part
+   0x2f0e45L => part
+   0x38a34eL => part
+   0x38a363L => part
+   0x38aa7fL => part
+   0x38d8c3L => part
+   0x38d995L => part
+   0x38ff8aL => part
+   0x38ffb8L => part
+   0x38ffe2L => part
+   0x393979L => part
+   0x3986f0L => part
+   0x399960L => part
+   0x39b8f4L => part
+   0x39bebfL => part
+   0x39ffe8L => part
+   0x3a0eb0L => part
+   0x3a5b0aL => part
+   0x3a5fdfL => part
+   0x3a6cdaL => part
+   0x3a8f88L => part
+   0x3aa17bL => part
+   0x3aa4eeL => part
+   0x3aa52fL => part
+   0x3aaa01L => part
+   0x3b0130L => part
+   0x3b4ed6L => part
+   0x3b5155L => part
+   0x3b51c7L => part
+   0x3b52b8L => part
+   0x3b52d1L => part
+   0x238fc9L => PING
+YARA: sniffer
+   0x2ff6bcL => wpcap.dll
+   0x24089eL => pcap_findalldevs
+   0x2ff17eL => pcap_findalldevs
+   0x3b5cd4L => pcap_findalldevs
+   0x3b5db8L => pcap_findalldevs
+   0x24079dL => pcap_open
+   0x2ff1daL => pcap_open
+   0x3b5d04L => pcap_open
+   0x3b8151L => pcap_open
+   0x24085cL => pcap_compile
+   0x2ff15eL => pcap_compile
+   0x3b5bd3L => pcap_compile
+   0x3b68a8L => pcap_compile
+   0x2ff14eL => pcap_close
+   0x3b5f36L => pcap_close
+   0x3b6135L => pcap_close
+
+
+TLS callbacks
+================================================================================
+    0x5e4c60
+    0x5e4c10
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1f11e4     0x1f1200     6.047368    
+.data      0x1f3000     0xa970       0xaa00       4.966327    
+.rdata     0x1fe000     0x87628      0x87800      5.890573    
+/4         0x286000     0x50e70      0x51000      5.049084    
+.bss       0x2d7000     0x14300      0x0          0.000000    [SUSPICIOUS]
+.edata     0x2ec000     0x29263      0x29400      6.159071    
+.idata     0x316000     0x1930       0x1a00       5.087755    
+.CRT       0x318000     0x18         0x200        0.114463    [SUSPICIOUS]
+.tls       0x319000     0x20         0x200        0.231158    [SUSPICIOUS]
+.reloc     0x31a000     0x10a7c      0x10c00      6.621796    
+/14        0x32b000     0x310        0x400        1.881343    
+/29        0x32c000     0xda81       0xdc00       5.869585    
+/41        0x33a000     0x2b76       0x2c00       4.674260    
+/55        0x33d000     0x3606       0x3800       6.073038    
+/67        0x341000     0x144        0x200        3.437404    
+/78        0x342000     0x9b15       0x9c00       4.332138    
+/89        0x34c000     0xc40        0xe00        3.025739    
+

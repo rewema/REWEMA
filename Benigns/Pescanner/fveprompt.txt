@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    158208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e731171e5006ee026daba4195dd180e8
+SHA1:    a14c9a8db2372ba9559da782429d721aa495a823
+ssdeep:  3072:kvkSXyZRn5qXeTIWwl/xi87wnVS570M9kdatGCO+xmBc+hMPhPsx2:wnqRnaywp4DVs7nyatGt+SYF
+Date:    0x57898F06 [Sat Jul 16 01:33:58 2016 UTC]
+EP:      0x40e7e0 .text 0/5
+CRC:     Claimed: 0x29764, Actual: 0x29764 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x282a8  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12cf0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13358  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13640  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13828  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13950  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x147f8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x150a0  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15768  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x15cd0  0xe0d4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x23da8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26350  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x273f8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27d80  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x281e8  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x12918  0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x123c0  0x554    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe8aa       0xea00       6.663365    
+.data      0x10000      0x5ec        0x400        2.694849    
+.idata     0x11000      0x994        0xa00        5.334167    
+.rsrc      0x12000      0x16378      0x16400      7.130780    [SUSPICIOUS]
+.reloc     0x29000      0x904        0xa00        6.314908    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: FVEPROMPT
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 10.0.14393.0
+FileDescription: BitLocker Drive Encryption
+OriginalFilename: FVEPROMPT.EXE
+Translation: 0x0409 0x04b0
+

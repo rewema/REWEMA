@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    77824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b8ff7bb9bf4e98c3cf1814036ff04649
+SHA1:    5f1f50936e2bbb93d75dde240c1a14fad1fc870f
+ssdeep:  1536:U3lw8sJfnltKhm5HXiuZFgu8u+JqYcYHUnFMiNr8Gq6YbjWacMLNT0SFu:Khm5HvngY+b0u8YbjT0SFu
+Date:    0x3E4D0ADB [Fri Feb 14 15:27:23 2003 UTC]
+EP:      0x40507f .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x13644 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x13840  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13da8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14650  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x137e8  0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x15528  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x15590  0x352    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x154f8  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0x13250  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x13578  0x26e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa900       0xb000       6.441387    
+.rdata     0xc000       0x2e2a       0x3000       5.289161    
+.data      0xf000       0x3550       0x1000       1.699890    
+.rsrc      0x13000      0x28e8       0x3000       2.115541    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002
+InternalName: BounceThis
+FileVersion: 1, 3, 0, 0
+CompanyName: LinearSolutions
+Comments: http://bouncethis.linear.cc/
+ProductName:  BounceThis
+ProductVersion: 1, 3, 0, 0
+FileDescription: BounceThis
+OriginalFilename: BounceThis.exe
+Translation: 0x0409 0x04b0
+

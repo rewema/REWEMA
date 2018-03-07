@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2b9907adc5828b39bc150da60aa5f60b
+SHA1:    d7caeb2805f4abc92090d0eb464ad9a054f753e9
+ssdeep:  384:1NaQ4lhmzQ5YZQ5m2+TidpwV6fyyJC9xf+B/YyzadbBD:3r56fySC7qGdbBD
+Date:    0x3FEBD1B3 [Fri Dec 26 06:14:11 2003 UTC]
+EP:      0x11004d4e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xe3c0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8440   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8728   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x8850   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x8118   0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2d54       0x2e00       5.379193    
+.sdata     0x6000       0x71         0x200        1.585988    
+.rsrc      0x8000       0x878        0xa00        2.974043    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1455.25620
+InternalName: DocLib_DocSync.exe
+FileVersion: 1.0.1455.25620
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1455.25620
+FileDescription:  
+OriginalFilename: DocLib_DocSync.exe
+

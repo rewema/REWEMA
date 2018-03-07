@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25088 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8ba20d53b4fb03195ad2d401d1388592
+SHA1:    2d0a923e867034c41ed4e0f4cb01f342e1052c9c
+ssdeep:  384:ngeQrphbmcLelWRzVBlfBg1PE9iU3ogAv9QasXFZg8XImvCSGFETUYjWV6Ww/m:gLhbBBVXfBgG14IvSYGOm
+Date:    0x57898D8A [Sat Jul 16 01:27:38 2016 UTC]
+EP:      0x404c90 .text 0/5
+CRC:     Claimed: 0x153fb, Actual: 0x153fb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc738   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc3a0   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0f0   0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x43b4       0x4400       6.232507    
+.data      0x6000       0x4fe2       0x200        1.513722    
+.idata     0xb000       0x972        0xa00        5.031669    
+.rsrc      0xc000       0x800        0x800        4.356288    
+.reloc     0xd000       0x548        0x600        6.182574    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: qwinsta
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Query Session Utility
+OriginalFilename: qwinsta.exe
+Translation: 0x0409 0x04b0
+

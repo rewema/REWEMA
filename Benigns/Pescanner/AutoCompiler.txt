@@ -1,0 +1,32 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1605120 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3e88a4e884d52f781b8ac57a2e75914a
+SHA1:    e3bbd2998641eeffd020661e1d534641ab58faec
+ssdeep:  24576:av4Ag5B4yYzvWqa448Os/NVh+NDvJJFd+1ZSO7c2Z8UM5TCIdM8PIuvXuP1t:7AoB4laM4i/fWRk1wOx8zBrS8IuveT
+Date:    0x45E1B8F4 [Sun Feb 25 16:27:32 2007 UTC]
+EP:      0xa6b4d0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x1916a0 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x66c0a4 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x66d150 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x4e4000     0x0          0.000000    [SUSPICIOUS]
+UPX1       0x4e5000     0x187000     0x186800     7.919031    [SUSPICIOUS]
+.rsrc      0x66c000     0x2000       0x1400       5.914398    
+

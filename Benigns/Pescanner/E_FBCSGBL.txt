@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    176128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8a783334010d70b8401444f909e0280c
+SHA1:    ead17f830296df37dace0e9b7a76179f6397a691
+ssdeep:  3072:rv8yQCcnt8d4v2bOcwqwL7nLcBu2XXyPo+4AFk5gwWC8PpehF63wsQOiEbttX/2T:kAr+4wk5gwt+mIwswEZtXY
+Date:    0x4AADBF20 [Mon Sep 14 03:57:20 2009 UTC]
+EP:      0x101424a .text 0/3
+CRC:     Claimed: 0x2ce6a, Actual: 0x2ce6a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2e130  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2e418  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x2e430  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e748  0x3a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+OpenProcessToken
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x28a9c      0x28c00      6.389272    
+.data      0x2a000      0x343c       0x1400       3.241351    
+.rsrc      0x2e000      0xaf0        0xc00        4.394440    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) SEIKO EPSON CORP. 2009
+InternalName: E_SACS27
+FileVersion: 2.00
+CompanyName: SEIKO EPSON CORPORATION
+ProductName: EPSON Status Monitor 3
+ProductVersion: 2.00
+FileDescription: EPSON Status Monitor 3
+OriginalFilename: E_SACS27.EXE
+Translation: 0x0411 0x04b0
+

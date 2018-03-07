@@ -1,0 +1,105 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6902597 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8bae9b1505dfe92e5b60e6aef65c6ad1
+SHA1:    7159cf7aac0b21f1beb02ced28f45aab13cb945c
+ssdeep:  98304:qNfVfC7qDT5eW14aRHxkv9IRZpcWpscIzXI6iZHZMAF31urRQiog/sC/lnq:2VfSUKcGv9Q3c9c4piJZp319GBBq
+Date:    0x3DCB15D2 [Fri Nov  8 01:39:30 2002 UTC]
+EP:      0x40fc50 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x6a2968 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x167a1L => deflate
+   0x167c3L => Jean-loup Gailly
+   0x172e9L => inflate
+   0x1730bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x28c90  0x7188   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24490  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24778  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x248a0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25178  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25460  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25d08  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x25e60  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26148  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26318  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26600  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x267d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26ab8  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26c88  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26f70  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27140  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27428  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x275f8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x278e0  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27ab0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27d98  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27f68  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28250  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x283a0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28688  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28858  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28b40  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x23ab8  0x29e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x23d58  0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x23f08  0x1ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x240c8  0x168    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x24230  0x25a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x23970  0x142    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x25148  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x25e30  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x262f0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x267a8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x26c60  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x27118  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x275d0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x27a88  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x27f40  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x28378  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x28830  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x28c68  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2fe18  0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x30110  0x2a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x15995      0x15a00      6.605328    
+.rdata     0x17000      0x2f96       0x3000       5.318811    
+.data      0x1a000      0x8e14       0x4e00       2.993758    
+.rsrc      0x23000      0xd3b8       0xd400       3.559124    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002
+InternalName: PxIns
+FileVersion: 1, 0, 0, 1
+CompanyName: WheresJames.com
+Comments: Copyright 2002 Where's James
+ProductName:   PxIns
+ProductVersion: 1, 0, 0, 1
+FileDescription: PxIns
+OriginalFilename: PxIns.exe
+Translation: 0x0409 0x04b0
+

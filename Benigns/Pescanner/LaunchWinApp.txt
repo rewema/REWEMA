@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    34304 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4dde4b81d9e20dfbf1eaa16891c05c45
+SHA1:    217af808dfbafb835148594bfb4cd859b2bb4fa8
+ssdeep:  768:kadlUVf/QHiGqNRzXXG68kkqHRFr7GVAtVJGm8B:Vd+VfXGqrdkqHRFXlJGm8
+Date:    0x5789918F [Sat Jul 16 01:44:47 2016 UTC]
+EP:      0x405d10 .text 0/5
+CRC:     Claimed: 0x16bc6, Actual: 0x16bc6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa060   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x63a8       0x6400       6.247808    
+.data      0x8000       0x5a0        0x200        2.557059    
+.idata     0x9000       0xca6        0xe00        4.876522    
+.rsrc      0xa000       0x410        0x600        2.442965    
+.reloc     0xb000       0x6d8        0x800        6.054220    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: LaunchWinApp
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Launch Windows App
+OriginalFilename: LaunchWinApp.exe
+Translation: 0x0409 0x04b0
+

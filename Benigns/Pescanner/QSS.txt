@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6424647 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     abd7c1f8652646e57f11ff89c3069a4a
+SHA1:    d8fd50caf246800c3b19d4cc2ce7996e5c6c686a
+ssdeep:  98304:E1Ri2fG/jOpYhKqLhoh/LaGSQ/z8ekjihqpRpjzSHqKQ0DcyaYbBKe3P2Yy:E/JuCSQ/z8ekjiYpRpOqKpaMBz3P
+Date:    0x4626B2F4 [Thu Apr 19 00:08:20 2007 UTC]
+EP:      0x422094 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x624ea1 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x43e69fL => This program cannot be run in DOS mode
+   0x4c14baL => This program cannot be run in DOS mode
+   0x595455L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5b208  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5ceb0  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x5d418  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5d700  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x5dfa8  0x42     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x5dfec  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x5e000  0x32c    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x5e32c  0x37f    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessA
+WriteProcessMemory
+OpenProcessToken
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x47a42      0x48000      6.582164    
+.rdata     0x49000      0x9a70       0xa000       4.563700    
+.data      0x53000      0x742c       0x6000       3.274969    
+.rsrc      0x5b000      0x36ac       0x4000       6.652753    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2007 Macrovision Corporation
+InternalName: Setup
+FileVersion: 14.0.162
+CompanyName: Macrovision Corporation
+Internal Build Number: 62562
+ProductName: InstallShield
+ProductVersion: 14.0
+FileDescription: Setup.exe
+OriginalFilename: Setup.exe
+Translation: 0x0409 0x04b0
+

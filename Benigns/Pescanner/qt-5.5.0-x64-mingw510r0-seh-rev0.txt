@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17776376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d42566475a489631aac3225bba311311
+SHA1:    5e77d0d78fdb112a35964e5e00df5ad212029dd6
+ssdeep:  393216:JutjSfWmXzi10ejAldcysk71WEZ6nv7EfQo5t5ai0w0oouEU5UOC:JQYNm1/Cdcysi15Iv7AJabw0Utg
+Date:    0x53BCF615 [Wed Jul  9 07:58:13 2014 UTC]
+EP:      0x4113bc .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x1101281 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c4ac  0x24bf   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1e96c  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f194  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x333bc  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35964  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36a0c  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x37394  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x377fc  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x37864  0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x37938  0xa4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x379dc  0x2ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x37c88  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x37fd4  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x38268  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x40550  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x40560  0x150    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x406b0  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x406dc  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 256-colors
+RT_VERSION         0x40744  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40c38  0x5e8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf12c       0xf200       6.391483    
+.itext     0x11000      0xb44        0xc00        5.732071    
+.data      0x12000      0xc88        0xe00        2.246313    
+.bss       0x13000      0x56b4       0x0          0.000000    [SUSPICIOUS]
+.idata     0x19000      0xdd0        0xe00        4.971882    
+.tls       0x1a000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1b000      0x18         0x200        0.204488    [SUSPICIOUS]
+.rsrc      0x1c000      0x25220      0x25400      4.041390    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion:                     
+CompanyName: Yuri V. Krugloff                                            
+Comments: This installation was built with Inno Setup.
+ProductName: Qt 5.5.0 x64 MinGW 5.1.0 seh                                
+ProductVersion: 5.5.0 rev0                                        
+FileDescription: Qt 5.5.0 x64 MinGW 5.1.0 seh Setup                          
+Translation: 0x0000 0x04b0
+

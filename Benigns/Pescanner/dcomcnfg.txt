@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f9a962dfbd24183e87613211088b863d
+SHA1:    e540052be41c60ab8c7de8e0e78d49b3adff3325
+ssdeep:  192:BrfkaTbhJFXbaRo/1PT+yNt9fifVWZEWF32:BrfkQJFXbfdb+yTgWZEWF32
+Date:    0x57898F6F [Sat Jul 16 01:35:43 2016 UTC]
+EP:      0x4018d0 .text 0/5
+CRC:     Claimed: 0xc7d2, Actual: 0xc7d2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x48a8   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x4518   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40f0   0x428    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xfc4        0x1000       5.745609    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x454        0x600        3.922644    
+.rsrc      0x4000       0x970        0xa00        4.471454    
+.reloc     0x5000       0x180        0x200        5.291423    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DCOMCNFG.EXE
+FileVersion: 2001.12.10941.16384 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: COM+
+OriginalFilename: DCOMCNFG.EXE
+Translation: 0x0409 0x04b0
+

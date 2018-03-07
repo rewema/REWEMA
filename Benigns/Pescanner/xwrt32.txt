@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    747947 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     da852c526db97ae238e87b2d5f22fde1
+SHA1:    e1202a69feb6dc8fce2e333afdf11c807a2dbcbb
+ssdeep:  12288:0QxFr9FydLsBinx1gj4NDHP5HRQJIUKTanqbXGckSF8S62q2:NKdLQ4SEjkJIUKTVbWcAS62q2
+Date:    0x10000    [Thu Jan  1 18:12:16 1970 UTC] [SUSPICIOUS]
+EP:      0x4014e0 .text 0/7
+CRC:     Claimed: 0xbae1c, Actual: 0xbae1c 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x78de1L => deflate
+   0x79420L => deflate
+   0x87a0aL => deflate
+   0xa59ccL => deflate
+   0xa59daL => deflate
+   0xa59eaL => deflate
+   0xb494eL => deflate
+   0x78e03L => Jean-loup Gailly
+   0x7939cL => inflate
+   0x7ab21L => inflate
+   0x88514L => inflate
+   0x885a5L => inflate
+   0xa5c22L => inflate
+   0xa5d46L => inflate
+   0xb4b36L => inflate
+   0x78e18L => Mark Adler
+   0x7ab43L => Mark Adler
+
+
+TLS callbacks
+================================================================================
+    0x45b6f0
+    0x45b6a0
+    0x45e460
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x71a04      0x71c00      6.224016    
+.data      0x73000      0x4bfc       0x4c00       0.090259    [SUSPICIOUS]
+.rdata     0x78000      0xaf0c       0xb000       6.389085    
+.bss       0x83000      0x61608      0x0          0.000000    [SUSPICIOUS]
+.idata     0xe5000      0xef4        0x1000       5.031532    
+.CRT       0xe6000      0x38         0x200        0.338880    [SUSPICIOUS]
+.tls       0xe7000      0x20         0x200        0.204488    [SUSPICIOUS]
+

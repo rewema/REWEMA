@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    33280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     475a79507ccbddcf820375660e775def
+SHA1:    22c04c5e8efc9e735bb71d6a8b4cfe0151209311
+ssdeep:  768:Sm6fhsXKZkrWcwMa4uZlqiKQvn5TA62lBcwP4:Sm6fhsXKZkrWcwMa4uZlqiKQBTABP4
+Date:    0x57898ED2 [Sat Jul 16 01:33:06 2016 UTC]
+EP:      0x4061b0 .text 0/5
+CRC:     Claimed: 0x12cec, Actual: 0x12cec 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa340   0x434    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa0a0   0x29a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x580c       0x5a00       5.131116    
+.data      0x7000       0x1404       0x1000       6.252226    
+.idata     0x9000       0x558        0x600        4.603429    
+.rsrc      0xa000       0x778        0x800        4.129691    
+.reloc     0xb000       0x4fc        0x600        5.850332    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DDODiag
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DDODiag is a tool that collects Device Display Object (DDO) information from the system and logs it
+OriginalFilename: DDODiag.exe
+Translation: 0x0409 0x04b0
+

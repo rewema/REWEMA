@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    53248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7fd7aa5303423e6c69123f28df7a14f4
+SHA1:    5c768518425d8cba11594fc3f9f815886f625e99
+ssdeep:  768:mZzkA6oZbSjvXqcoGVMGsYXjsbBvt9D76C8Kjx5xqjTDX:m5l6oZ+TXqcgGLlLR
+Date:    0x42A6B907 [Wed Jun  8 09:23:19 2005 UTC]
+EP:      0x401408 .text 0/3
+CRC:     Claimed: 0x11814, Actual: 0x11814 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xd7c0   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xd4d8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xd3b0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xd380   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0xd150   0x230    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x98a0       0xa000       5.030934    
+.data      0xb000       0x154c       0x1000       0.000000    
+.rsrc      0xd000       0x8f0        0x1000       1.942235    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: SoundConverter
+FileVersion: 1.00
+CompanyName: RSC
+ProductName: SoundConverter
+ProductVersion: 1.00
+OriginalFilename: SoundConverter.exe
+

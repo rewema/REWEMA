@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    78848 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e5b1e1fd8ce4b20b80da6dc411ab196a
+SHA1:    d643ea0672f511c7caa5497c86a0354a5204e40c
+ssdeep:  1536:A5Qv8jJDyRbCu6SRbq9itNkNdK7me3fXqcXYMhnETnRpuBaEb3V:mjERbCu6SRbqSNkNdK7mMfXpoEnETaBl
+Date:    0x57899001 [Sat Jul 16 01:38:09 2016 UTC]
+EP:      0x410e80 .text 0/5
+CRC:     Claimed: 0x190b6, Actual: 0x190b6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14780  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x143b0  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x140f0  0x2bf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1061c      0x10800      6.135258    
+.data      0x12000      0x490        0x200        0.183339    [SUSPICIOUS]
+.idata     0x13000      0xf4c        0x1000       5.217795    
+.rsrc      0x14000      0x848        0xa00        3.793735    
+.reloc     0x15000      0xb24        0xc00        6.518845    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bootcfg.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: BootCfg - Lists or changes the boot settings.
+OriginalFilename: bootcfg.exe
+Translation: 0x0409 0x04b0
+

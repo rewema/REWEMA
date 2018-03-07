@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     673f8cbdf24d274f4abca07721e16192
+SHA1:    979971b9a394795101b6c25d787419275441b678
+ssdeep:  384:6G6mnKglYRoINFq4VDm0Q97vkZ4JziJM0iShQmvoR2rGOqoDt5wY/Tv1Q4QLmu+V:6gKb7FVDir8nEShBlrG0peApd
+Date:    0x4816DD97 [Tue Apr 29 08:34:31 2008 UTC]
+EP:      0x4064d0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xfad5 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9450   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9738   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x9888   0x10a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x9998   0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xa000   0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xadc8   0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xa030   0x296    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xa730   0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xa4b0   0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xa2c8   0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xa3d0   0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xaa58   0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xab20   0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xad18   0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xadf8   0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x9a98   0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x9860   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x9b08   0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9db0   0x24c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x59e5       0x6000       6.209479    
+.rdata     0x7000       0x884        0x1000       3.175066    
+.data      0x8000       0x189        0x1000       0.395991    [SUSPICIOUS]
+.rsrc      0x9000       0x1e40       0x2000       3.657379    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2007
+InternalName: TEST1
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+ProductName: msg2cfg Module
+ProductVersion: 1, 0, 0, 1
+FileDescription: test1 Module
+OriginalFilename: msg2cfg.exe
+Translation: 0x0409 0x04b0
+

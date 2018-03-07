@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    154264 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     046041dd9778c176eb7b4c32449e59c4
+SHA1:    4ec463461532203d9f152c94a73f991dc40d05d2
+ssdeep:  3072:738BPLzvm6VNLM7clP+sBZUFEfC87twDmzMs0Qp+ECRB:7sjDuWjMEK8TP2f
+Date:    0x575D88F3 [Sun Jun 12 16:08:19 2016 UTC]
+EP:      0x4054d6 .text 0/5
+CRC:     Claimed: 0x2eb97, Actual: 0x2eb97 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x250a0  0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x253c8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x132e4      0x13400      6.612167    
+.rdata     0x15000      0xb74e       0xb800       4.644861    
+.data      0x21000      0x31e8       0x1400       3.349192    
+.rsrc      0x25000      0x548        0x600        3.794284    
+.reloc     0x26000      0x10e8       0x1200       6.471886    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005-2016 Mark Russinovich
+InternalName: Whois
+FileVersion: 1.14
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Whois
+ProductVersion: 1.14
+FileDescription: Domain information lookup
+OriginalFilename: whois.exe
+Translation: 0x0409 0x04b0
+

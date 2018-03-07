@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    101376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2e436ecb9920c2480f0721eafe756a99
+SHA1:    db53511499756ac3a8737a2fc47abe5a1cd189d5
+ssdeep:  3072:keu41eT6r4G2x5Im2DgH1mVWDmGm99vy2er:4O4G2xCmImzCrar
+Date:    0x4A5BC62B [Mon Jul 13 23:41:31 2009 UTC]
+EP:      0x1002855 .text 0/4
+CRC:     Claimed: 0x18fb2, Actual: 0x18fb2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x19b70  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5b88   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x61f0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x64d8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6600   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x74a8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7d50   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x82b8   0xdd68   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x16020  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x185c8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19670  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x19ad8  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x5800   0x388    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5350   0x4ac    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ec4       0x3000       5.940497    
+.data      0x4000       0x60c        0x400        2.550644    
+.rsrc      0x5000       0x14c48      0x14e00      7.325647    [SUSPICIOUS]
+.reloc     0x1a000      0x460        0x600        3.882500    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: chkrzm.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Internet Checkers
+OriginalFilename: chkrzm.exe
+Translation: 0x0409 0x04b0
+

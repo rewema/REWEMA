@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    41984 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     41f829d353bea197037fe394fc7980fd
+SHA1:    37055e69730bb557a7c27d6d5b6ecca554163b91
+ssdeep:  768:0rezMckiWjrC0mxRlmkMUaIXhZNKNQNGenli3ANroarX4oV2NZi:0DhiWZmlmqjhZsN203iMarXdVi
+Date:    0x5789911E [Sat Jul 16 01:42:54 2016 UTC]
+EP:      0x407e50 .text 0/5
+CRC:     Claimed: 0xc215, Actual: 0xc215 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc768   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc3a8   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0f0   0x2b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x75dc       0x7600       6.318277    
+.data      0x9000       0x758        0x400        0.716387    [SUSPICIOUS]
+.idata     0xa000       0x113a       0x1200       4.925324    
+.rsrc      0xc000       0x830        0xa00        3.733086    
+.reloc     0xd000       0x918        0xa00        6.469415    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TypePerf.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Command line performance monitor
+OriginalFilename: TypePerf.exe
+Translation: 0x0409 0x04b0
+

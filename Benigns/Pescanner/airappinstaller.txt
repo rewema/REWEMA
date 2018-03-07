@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    310960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b44dea39eb10e4ae95d46be300c228fd
+SHA1:    e6538657877c5f45c0f1710f34a24f4da429828e
+ssdeep:  384:WvQkizD4LlJyZjXH101x/joc1E1k3Hn87EtpevMo0inYPL9RKkPPnsr25:7k2d101x/joc1Ck3Hn87MpiMoHGpgC
+Date:    0x57C5DA08 [Tue Aug 30 19:10:00 2016 UTC]
+EP:      0x401188 .text 0/5
+CRC:     Claimed: 0x4e174, Actual: 0x4e174 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5250   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x60f8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69a0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6f08   0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x48f30  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4b4d8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4c580  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4c9e8  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 48x48, 256-colors
+RT_VERSION         0x4ca50  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4cd88  0x37e    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1b9        0x200        5.684152    
+.rdata     0x2000       0x1720       0x1800       4.050811    
+.data      0x4000       0x110        0x200        2.553761    
+.rsrc      0x5000       0x48108      0x48200      3.871141    
+.reloc     0x4e000      0x392        0x400        1.111706    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2007-2016, Adobe Systems Inc.
+InternalName: AIRAppInstaller.exe
+FileVersion: 23.0.0.257
+CompanyName: Adobe Systems Inc.
+ProductName: Adobe AIR 
+ProductVersion: 23.0
+FileDescription: Adobe AIR Application Installer
+OriginalFilename: AIRAppInstaller.exe
+Translation: 0x0409 0x04b0
+

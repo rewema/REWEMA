@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    998128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f6761ba5b9400509754bbe2e641a199c
+SHA1:    523351c2ca95a3981ceef51a2cdbda13faed1e95
+ssdeep:  24576:j8A2fZc668VjN/4RpVTeZyey02tA9vK1Pn:jN2iQL4RpViZyey0d9S
+Date:    0x50A160F5 [Mon Nov 12 20:49:57 2012 UTC]
+EP:      0x473ff0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0xf5d5a, Actual: 0xf5d5a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5d3e0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5e288  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5eb30  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5f098  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x60d40  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x619e8  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x61d50  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x642f8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x753e4  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x76290  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x76b3c  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x770a8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x79654  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7a700  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x7ab6c  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x6ab6c  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x7abcc  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7af08  0x48f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x46000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x47000      0x2e000      0x2d400      7.922727    [SUSPICIOUS]
+.rsrc      0x75000      0x7000       0x6600       5.406018    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) Adobe Systems Incorporated
+InternalName: host.exe
+FileVersion: 3.3.5.2
+CompanyName: Solid State Networks
+ProductName: Adobe Flash Player Installer
+ProductVersion: 3.3.5.2
+FileDescription: Adobe Flash Player Installer
+OriginalFilename: host.exe
+Translation: 0x0409 0x04e4
+

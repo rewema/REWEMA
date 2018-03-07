@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    188567 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7b790a34e123dbc6a16cd43338c89f10
+SHA1:    d0ff216f496e961f3ca165509dc2e8c2228a46fb
+ssdeep:  3072:pE+62F1yCvvFnxyNt7ee+k+BWTv1yZSjXKK9hTzo2f+QlwAb:py2F1yCvpwKe+k+BMveSjx9lxFWo
+Date:    0x3BB736AE [Sun Sep 30 15:13:50 2001 UTC]
+EP:      0x407850 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x32113 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2c598  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c880  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x2b3d0  0x58e    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x2b960  0x142    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x2baa8  0x52e    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x2bfd8  0x24a    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x2c228  0x1d2    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x2c400  0x194    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2c9a8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2c9d0  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1da79      0x1e000      5.346782    
+.rdata     0x1f000      0x1852       0x2000       3.570259    
+.data      0x21000      0x7924       0x6000       2.295389    
+.idata     0x29000      0x1025       0x2000       2.642503    
+.rsrc      0x2b000      0x2403       0x3000       2.297752    
+.reloc     0x2e000      0x15bc       0x2000       4.730468    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2001 Avery Lee, All Rights Reserved
+InternalName: Setup
+FileVersion: 1.4
+CompanyName:  
+PrivateBuild: 
+LegalTrademarks: 
+Comments: *Not* required to use VirtualDub!
+ProductName: VirtualDub
+SpecialBuild: 
+ProductVersion: 1.4
+FileDescription: VirtualDub Setup Utility
+OriginalFilename: Setup.exe
+Translation: 0x0409 0x04b0
+

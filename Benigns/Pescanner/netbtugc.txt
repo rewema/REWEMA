@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22016 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     938cc8152839d97307f3b9aca5216793
+SHA1:    4926c4cd4986e4d2f1bc20436d33d2528c60a39d
+ssdeep:  384:Fsmj2osEmqxLbiaOG0dcXvpgbCbgXCgGcJmScLScQbKbIiLbp/W/tFWwr:rEbOXvyCLG9cecQwIipKbr
+Date:    0x5789911D [Sat Jul 16 01:42:53 2016 UTC]
+EP:      0x404090 .text 0/5
+CRC:     Claimed: 0x8b46, Actual: 0x8b46 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7760   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a0   0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2af    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x37fc       0x3800       6.419244    
+.data      0x5000       0x4e8        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0x850        0xa00        4.500880    
+.rsrc      0x7000       0x828        0xa00        3.726860    
+.reloc     0x8000       0x3a8        0x400        6.274403    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: netbtugc.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: NetBT Unattend Generic Command
+OriginalFilename: netbtugc.exe
+Translation: 0x0409 0x04b0
+

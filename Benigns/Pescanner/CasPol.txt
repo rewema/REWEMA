@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    107680 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     aa99dd1bc69908ccc8313610c0309ab5
+SHA1:    80c24ba70da321fe4cacf11f21e36d69f74cdc29
+ssdeep:  3072:Zm4jcblN7Fk2Gg1xRIhU9eBDMmdcZA4vkdRJnfIUEHo:ZmqcblN7Fk2Gg1xRIhU98k/v4JfQo
+Date:    0x575A1278 [Fri Jun 10 01:06:00 2016 UTC]
+EP:      0x417626 .text 0/3
+CRC:     Claimed: 0x23a55, Actual: 0x23a55 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x18090  0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1849c  0x482    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1562c      0x15800      5.481009    
+.rsrc      0x18000      0x924        0xa00        4.492608    
+.reloc     0x1a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: caspol.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: Microsoft .NET Framework CAS Policy Manager
+OriginalFilename: caspol.exe
+Translation: 0x0409 0x04b0
+

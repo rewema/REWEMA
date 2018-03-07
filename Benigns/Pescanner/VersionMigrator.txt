@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5120 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     9b553fe512ae3aec2c5b4187722c8bc6
+SHA1:    9172ccbc56742b06769d1eff902ea39e27b0b471
+ssdeep:  48:6c5aTC6rY/zlv75dI11HIK+IHQHHHHxHXr7yLp6woVLt1LOEgXkVF0YrNOJlaFRr:QC5lv7412nnhrORoBa+kYd0Cd
+Date:    0x3FDC2490 [Sun Dec 14 08:51:28 2003 UTC]
+EP:      0x4029fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xae89 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa04        0xc00        4.427577    
+.rsrc      0x4000       0x3b8        0x400        3.082717    
+.reloc     0x6000       0xc          0x200        0.061163    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1443.12344
+InternalName: VersionMigrator.exe
+FileVersion: 1.0.1443.12344
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName: Bamboo.Prevalence
+ProductVersion: 1.0.1443.12344
+FileDescription: VersionMigrator
+OriginalFilename: VersionMigrator.exe
+

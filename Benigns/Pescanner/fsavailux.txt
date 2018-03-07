@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ff7a9951b19c631b9f204e428bb0fc44
+SHA1:    d2ede6030c611bd93a36862e315aa7dd2976ee12
+ssdeep:  384:gDnrVkIwJDDNz9TNXRJjukuVgNWgVWWIj:uR4pprkkogB
+Date:    0x57898F67 [Sat Jul 16 01:35:35 2016 UTC]
+EP:      0x402320 .text 0/5
+CRC:     Claimed: 0xd641, Actual: 0xd641 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5980   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x55d8   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x4e4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1964       0x1a00       5.871393    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x9d2        0xa00        5.251358    
+.rsrc      0x5000       0xa48        0xc00        4.184475    
+.reloc     0x6000       0x244        0x400        4.502382    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: fsavailux.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\fsavailux
+OriginalFilename: fsavailux.exe
+Translation: 0x0409 0x04b0
+

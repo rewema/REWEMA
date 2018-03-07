@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    78336 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     eea54c27cfeec3ced8a90f409a2e23c8
+SHA1:    2a3452cc16dc249cc51983d1b09974c3dbf6ef73
+ssdeep:  1536:5yiuh8+PLrAwyzuxzTC5vLmDfaUXR1QZF6hg:8Z8+PLrAwySxzTyzmDfacYF6h
+Date:    0x57898E94 [Sat Jul 16 01:32:04 2016 UTC]
+EP:      0x40c950 .text 0/7
+CRC:     Claimed: 0x21708, Actual: 0x21708 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x16c40  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16478  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16760  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x16888  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x168b0  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x161d0  0x2a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc198       0xc200       6.437624    
+.wpp_sf    0xe000       0x262        0x400        4.293807    
+.data      0xf000       0x4940       0x3a00       0.672462    [SUSPICIOUS]
+.idata     0x14000      0xd36        0xe00        5.054395    
+.didat     0x15000      0x8          0x200        0.040781    [SUSPICIOUS]
+.rsrc      0x16000      0xd10        0xe00        3.919817    
+.reloc     0x17000      0xe60        0x1000       6.460821    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: nslookup.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: nslookup
+OriginalFilename: nslookup.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    59904 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ecb768001dc8424e9b1ff3ac1e89c937
+SHA1:    58ea87ff0a63c55e6609152c5b731755016d9872
+ssdeep:  1536:rRRsxYLSn2XmD+FcvgauM1DCulDYF1uUZYZNi:A2Y2cvBlDYF1RZcN
+Date:    0x57899133 [Sat Jul 16 01:43:15 2016 UTC]
+EP:      0x40c800 .text 0/5
+CRC:     Claimed: 0x1152c, Actual: 0x1152c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x50728  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x50398  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x500f0  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbffc       0xc000       6.297040    
+.data      0xd000       0x406c4      0x200        0.199776    [SUSPICIOUS]
+.idata     0x4e000      0x10f0       0x1200       5.054927    
+.rsrc      0x50000      0x7f0        0x800        4.316877    
+.reloc     0x51000      0x88c        0xa00        6.212770    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: reg.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Registry Console Tool
+OriginalFilename: reg.exe
+Translation: 0x0409 0x04b0
+

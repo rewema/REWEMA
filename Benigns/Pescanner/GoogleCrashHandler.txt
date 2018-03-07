@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    288848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     33e6e5822e22a5e1dea523c06155fd07
+SHA1:    7bb34d5c0f241f1c5002e78523d644f459680ed4
+ssdeep:  6144:YeTnucBlr9gkBMVqDgaqL9ursAOT9bIaxBvx+a/KA:PnDBlrsVqD5qJlR9bZPx+a/t
+Date:    0x58FAB2C3 [Sat Apr 22 01:32:51 2017 UTC]
+EP:      0x4162fd .text 0/6
+CRC:     Claimed: 0x53853, Actual: 0x53853 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x43800  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x43928  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x43e90  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44178  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44a20  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x45088  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x45f30  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x45f90  0x2fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x43220  0x5de    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+ReadProcessMemory
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2b310      0x2b400      6.670524    
+.rdata     0x2d000      0x11a9a      0x11c00      5.455401    
+.data      0x3f000      0x2c2c       0xe00        3.641162    
+.gfids     0x42000      0x14c        0x200        2.553825    
+.rsrc      0x43000      0x3290       0x3400       5.140678    
+.reloc     0x47000      0x2748       0x2800       6.603037    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2007-2010 Google Inc.
+InternalName: Google Update
+FileVersion: 1.3.33.5
+CompanyName: Google Inc.
+ProductName: Google Update
+ProductVersion: 1.3.33.5
+FileDescription: Google Crash Handler
+OriginalFilename: GoogleUpdate.exe
+Translation: 0x0409 0x04b0
+

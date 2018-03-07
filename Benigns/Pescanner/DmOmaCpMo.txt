@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fa9e0abb2c2d997bf94ff26ed242cde3
+SHA1:    57c0e23350d9c0c6deab8a81490e48fc04618c06
+ssdeep:  384:Isec7B8rXwdGuoBBOXigMXdyebfDmAdW6pxeW:Isp7B8rwdBoBB77Dmgx
+Date:    0x57898E0C [Sat Jul 16 01:29:48 2016 UTC]
+EP:      0x402880 .text 0/5
+CRC:     Claimed: 0x8720, Actual: 0x8720 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6060   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x248c       0x2600       6.000151    
+.data      0x4000       0x3ec        0x200        0.488626    [SUSPICIOUS]
+.idata     0x5000       0xc4c        0xe00        4.433117    
+.rsrc      0x6000       0x418        0x600        2.454312    
+.reloc     0x7000       0x29c        0x400        4.934238    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DmOmaCpMo
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for OMA-CP Client
+OriginalFilename: DmOmaCpMo.exe
+Translation: 0x0409 0x04b0
+

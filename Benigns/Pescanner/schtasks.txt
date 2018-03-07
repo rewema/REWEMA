@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    185344 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4b95f8d55cd14bd3d38bf24a521d3577
+SHA1:    37f91d720d8bd11ae48e016b65bc6027d3bd8445
+ssdeep:  3072:5WC2/ZPT19uOFQpUGgFdXMMkdtD7P1GZazA:APdTqOFQpUHp257P1G
+Date:    0x57899004 [Sat Jul 16 01:38:12 2016 UTC]
+EP:      0x420110 .text 0/6
+CRC:     Claimed: 0x3057a, Actual: 0x3057a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2f7c8  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2f408  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2f0f0  0x315    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2378c      0x23800      6.235669    
+.data      0x25000      0x62a4       0x5e00       0.609671    [SUSPICIOUS]
+.idata     0x2c000      0x158c       0x1600       5.271024    
+.didat     0x2e000      0x84         0x200        0.975298    [SUSPICIOUS]
+.rsrc      0x2f000      0x890        0xa00        3.948033    
+.reloc     0x30000      0x1770       0x1800       6.667996    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: schtasks.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Task Scheduler Configuration Tool
+OriginalFilename: sctasks.exe
+Translation: 0x0409 0x04b0
+

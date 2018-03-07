@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    31232 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a7a8990035457ce44e9565363a872784
+SHA1:    9d81f2cf0df7a9d3da137954d33dc4a7bde32966
+ssdeep:  384:9hS6Pzjqa0uyfceLqIQdoMJVOXejbBSuxulJX1zgdu1cZjUWfuWse2Dnr:CqvqJUIqFVUuxupkdu1e8ear
+Date:    0x578990FA [Sat Jul 16 01:42:18 2016 UTC]
+EP:      0x404a50 .text 0/5
+CRC:     Claimed: 0x9177, Actual: 0x9177 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x95b0   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8580   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8868   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x89b8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8ca0   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8df0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x90d8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x8990   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x8dc8   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x9200   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x9228   0x388    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x82d0   0x2a9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x42f4       0x4400       6.148536    
+.data      0x6000       0x544        0x200        0.809384    [SUSPICIOUS]
+.idata     0x7000       0xe7c        0x1000       4.842639    
+.rsrc      0x8000       0x1688       0x1800       4.142378    
+.reloc     0xa000       0x6b4        0x800        6.111723    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: proquota
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ProQuota
+OriginalFilename: proquota.exe
+Translation: 0x0409 0x04b0
+

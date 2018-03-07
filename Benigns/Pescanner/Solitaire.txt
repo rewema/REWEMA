@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    733696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8481f88acb60c4cea5dd028d2c1f4128
+SHA1:    4525d956164c796bef173fdb7a6057da52324714
+ssdeep:  12288:oAY9gf5OER0EYreYClElLsOo0+85rbPTNUAEXTfjI4awAJ8wy:uk5OER0EYreYCl+LHowxPSE4a4
+Date:    0x4A5BC63C [Mon Jul 13 23:41:48 2009 UTC]
+EP:      0x1034b28 .text 0/4
+CRC:     Claimed: 0xb3f15, Actual: 0xb3f15 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb1608  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9c820  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9ce88  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9d170  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9d298  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9e140  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9e9e8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9ef50  0xb5e6   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xaa538  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xacae0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xadb88  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xadff0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xb1238  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9c380  0x49b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xae088  0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8c0f4      0x8c200      6.280499    
+.data      0x8e000      0xd7cc       0x8a00       4.408655    
+.rsrc      0x9c000      0x156f8      0x15800      7.303364    [SUSPICIOUS]
+.reloc     0xb2000      0x876e       0x8800       5.154845    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: solitaire.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for Solitaire Game
+OriginalFilename: solitaire.exe
+Translation: 0x0409 0x04b0
+

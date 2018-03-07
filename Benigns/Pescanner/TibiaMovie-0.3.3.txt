@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86476 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8c493aaf2ab71dbcb9c3ce7a0cc863f7
+SHA1:    4439eca6cac92259898401cdce0e36607188f5b9
+ssdeep:  1536:9o4PGNajGJBuk8Js/QU3DJP4IYiIWGDhLj393znSgKmOhPihsCqgp8:9o4+7/uk8Js/QUlSfDhXhfTOghDp8
+Date:    0x420381AE [Fri Feb  4 14:07:42 2005 UTC]
+EP:      0x403e27 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x163a0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2d298  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d600  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d8e8  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d9a0  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2dae8  0x13c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2dc28  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2dd28  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2de48  0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2df10  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2df70  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_MANIFEST        0x2df88  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x596c       0x5a00       6.441019    
+.rdata     0x7000       0x10b4       0x1200       4.987360    
+.data      0x9000       0x1b3f4      0x400        5.121233    
+.ndata     0x25000      0x8000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x2d000      0x2000       0x1200       4.154678    
+

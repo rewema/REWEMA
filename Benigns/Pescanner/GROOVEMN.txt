@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    944008 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     818cb3b1d36f079b03e79e23d0fbd83a
+SHA1:    2a60afd7bf7d1b198070ab199691bb2c0cc315c3
+ssdeep:  12288:LrOhVDAtqamBAP3m+lk46pOpQCYXTI7XHgZQKhJgeCmmekTH:v6DAtqamBAfx6rpAXYXkLHgZpJEjekTH
+Date:    0x4BAAE1B3 [Thu Mar 25 04:08:19 2010 UTC]
+EP:      0x2e08aba1 .text 0/4
+CRC:     Claimed: 0xe8314, Actual: 0xe8314 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xe80a0  0x4c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xe8560  0x57e    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+CreateProcessA
+OpenProcess
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa6c78      0xa6e00      6.420655    
+.data      0xa8000      0x3f0ac      0x34c00      7.420574    [SUSPICIOUS]
+.rsrc      0xe8000      0xae0        0xc00        4.512084    
+.reloc     0xe9000      0x8600       0x8600       6.686164    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2010 Microsoft Corporation.  All rights reserved.
+InternalName: GrooveMN
+FileVersion: 14.0.4761.1000
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Office 2010
+ProductVersion: 14.0.4761.1000
+FileDescription: Microsoft SharePoint Workspace Monitor
+OriginalFilename: GrooveMN.exe
+Translation: 0x0000 0x04e4
+

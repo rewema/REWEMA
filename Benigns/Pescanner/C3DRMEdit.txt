@@ -1,0 +1,103 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    703488 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c0884e0c5ee999840b56a35a06aff277
+SHA1:    a11d72a5c72b11e54311fb6ca02822affec38304
+ssdeep:  12288:Qo+LHrg1qhCqRy0Ej+zekkAwtQxEc0vfa:L+LHSqhbyNEe2xF6fa
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x46d2e8 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xb5095 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x7eb9c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7ecd0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7ee04  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7ef38  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7f06c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7f1a0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7f2d4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7f408  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7f5d8  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7f7bc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7f98c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7fb5c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7fd2c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7fefc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x800cc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8029c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8046c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8063c  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x806d4  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8076c  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x80a54  0x1ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x80c00  0x528    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x81128  0x140    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x81268  0x124    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8138c  0x478    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x81804  0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x81b90  0x578    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x82108  0x494    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8259c  0x4e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x82a84  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x82b6c  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_STRING          0x82c38  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x82f70  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x832f8  0x340    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x83638  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x83648  0x21c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x83864  0x19f5   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x8525c  0x278    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x854d4  0x3f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x858cc  0x261    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x85b30  0x2c13d  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xb1c70  0x280    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xb1ef0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xb1f04  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xb1f18  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xb1f2c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xb1f40  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xb1f54  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xb1f68  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0xb1f7c  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_VERSION         0xb1f90  0x314    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x6c3a8      0x6c400      6.485088    
+DATA       0x6e000      0x10c0       0x1200       3.856207    
+BSS        0x70000      0x911        0x0          0.000000    [SUSPICIOUS]
+.idata     0x71000      0x2386       0x2400       4.999158    
+.tls       0x74000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x75000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x76000      0x7620       0x7800       6.641277    
+.rsrc      0x7e000      0x34400      0x34400      2.907867    
+
+Version info
+================================================================================
+LegalCopyright: (c) 2001 Kai Uwe Schmidt
+InternalName: C3DRMEdit
+FileVersion: 0.1.0.6
+CompanyName: Kai Uwe Schmidt
+LegalTrademarks: C3DRMEdit
+Comments: 
+ProductName: C3DRMEdit
+ProductVersion: 0.10
+FileDescription: C3DRMEdit
+OriginalFilename: c3drmedit.exe
+Translation: 0x0407 0x04e4
+

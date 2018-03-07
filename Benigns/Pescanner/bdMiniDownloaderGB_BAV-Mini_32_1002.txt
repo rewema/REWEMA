@@ -1,0 +1,92 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1019752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     abdde90b066731c3bb19450658175b7e
+SHA1:    82b6070fc0f9da2bb3cb13205bdd2ae379c18757
+ssdeep:  24576:N04u9NzUZa7nZ5+flUaUeBeFjNcXtATO7MLrJ:kT7n0bBeFj6dAT2MLF
+Date:    0x536AF90B [Thu May  8 03:24:59 2014 UTC]
+EP:      0x47d4d2 .text 0/5
+CRC:     Claimed: 0x105e54, Actual: 0x105e54 
+
+Signature scans
+================================================================================
+YARA: spam
+   0xa85b0L => RCPT TO:
+   0xa85bcL => RCPT TO:
+   0xa8550L => MAIL FROM:
+   0xa8560L => MAIL FROM:
+   0xa8578L => MAIL FROM:
+   0xa8598L => MAIL FROM:
+   0xa84dcL => EHLO 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PNG                0xbe5e8  0x516    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 284 x 105, 8-bit/color RGBA, non-interlaced
+PNG                0xbeb00  0x516    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 284 x 105, 8-bit/color RGBA, non-interlaced
+PNG                0xbf018  0x3b5    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 1 x 19, 8-bit/color RGB, non-interlaced
+PNG                0xbf3d0  0xb64    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 36 x 24, 8-bit/color RGBA, non-interlaced
+PNG                0xbff34  0xb64    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 36 x 24, 8-bit/color RGBA, non-interlaced
+PNG                0xc0a98  0xb45    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 36 x 24, 8-bit/color RGBA, non-interlaced
+PNG                0xc15e0  0x1080   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 40 x 46, 8-bit/color RGBA, non-interlaced
+PNG                0xc2660  0x4a7    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 48 x 12, 8-bit/color RGBA, non-interlaced
+PNG                0xc2b08  0x498    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 48 x 12, 8-bit/color RGBA, non-interlaced
+PNG                0xc2fa0  0x428    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 48 x 12, 8-bit/color RGBA, non-interlaced
+PNG                0xc33c8  0x418    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 9 x 4, 8-bit/color RGBA, non-interlaced
+PNG                0xc37e0  0x2adc   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 65 x 66, 8-bit/color RGBA, non-interlaced
+PNG                0xc62bc  0x82     LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 8 x 5, 8-bit/color RGBA, non-interlaced
+PNG                0xc6340  0x82     LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 6 x 3, 8-bit/color RGBA, non-interlaced
+PNG                0xc63c4  0x3a4    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 4 x 4, 8-bit/color RGBA, non-interlaced
+PNG                0xc6768  0x4cf    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 72 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0xc6c38  0x427    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 72 x 18, 8-bit/color RGBA, non-interlaced
+PNG                0xc7060  0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 412 x 1, 8-bit/color RGB, non-interlaced
+RT_ICON            0xc7404  0x11971  LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xd8d78  0x10828  LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0xe95a0  0x4228   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0xed7c8  0x25a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0xefd70  0x10a8   LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0xf0e18  0x468    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_MENU            0xf1280  0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xf12cc  0x5a     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0xf1328  0x338    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_MANIFEST        0xf1660  0x165    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+HttpSendRequestW
+InternetConnectW
+InternetReadFile
+OpenProcess
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9ac5a      0x9ae00      6.630219    
+.rdata     0x9c000      0x19b78      0x19c00      4.998281    
+.data      0xb6000      0x76ac       0x4a00       3.686265    
+.rsrc      0xbe000      0x337c8      0x33800      7.099488    [SUSPICIOUS]
+.reloc     0xf2000      0xa410       0xa600       5.570226    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2013 Baidu Inc. All Rights Reserved.
+InternalName: bdMiniDownload.exe
+FileVersion: 1.0.0.2
+CompanyName: Baidu Inc.
+ProductName: 
+SparkMiniDownloader
+ProductVersion: 1.0.0.2
+FileDescription: SparkMiniDownloader
+OriginalFilename: bdMiniDownload.exe
+Translation: 0x0804 0x04b0
+

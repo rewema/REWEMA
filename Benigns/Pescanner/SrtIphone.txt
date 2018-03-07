@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    271360 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     620160039e810b279d417a7152f0e02e
+SHA1:    2736561e9f16d8156f75188134bae903a87a7e99
+ssdeep:  3072:fNT7clCkqznd75xWI2skqD0JAcxXJO8dMNT7clCkqznd75xWI2skqD0:fNznd753av0Nznd753
+Date:    0x4AAE9F0A [Mon Sep 14 19:52:42 2009 UTC]
+EP:      0x425cae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x4b8b5 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x28548  0x4359   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x2c8a8  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3d0d0  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x412f8  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x438a0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x44948  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x452d0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x45738  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 256-colors
+RT_VERSION         0x28250  0x2f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x457a0  0x536    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x23cb4      0x23e00      5.099981    
+.sdata     0x26000      0x97         0x200        2.198232    
+.rsrc      0x28000      0x1dcd8      0x1de00      4.747185    
+.reloc     0x46000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2009
+Assembly Version: 0.3.5.0
+InternalName: SrtIphone.exe
+FileVersion: 0.3.5.0
+CompanyName: Microsoft
+ProductName: SrtIphone
+ProductVersion: 0.3.5.0
+FileDescription: SrtIphone
+OriginalFilename: SrtIphone.exe
+

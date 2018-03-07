@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7aa22c33d8c35e6f59adb2d02c8702c7
+SHA1:    498cfb67463720261efa096e11a294882883a5f3
+ssdeep:  192:AvInNmiffEOXXqTeEt2TKSDLolf9kBGJ1KDJD/QWcEB:10iRXXqQK2UMA1KDOWcE
+Date:    0x57899148 [Sat Jul 16 01:43:36 2016 UTC]
+EP:      0x401b30 .text 0/5
+CRC:     Claimed: 0x5150, Actual: 0x5150 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x6c00   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55a8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5890   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x59b8   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6860   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_VERSION         0x6890   0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x51e0   0x3c5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13ac       0x1400       5.987942    
+.data      0x3000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x4ac        0x600        4.231936    
+.rsrc      0x5000       0x1cd0       0x1e00       3.757069    
+.reloc     0x7000       0x174        0x200        5.128952    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: HH 1.41
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: HTML Help
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae HTML Help Executable
+OriginalFilename: HH.exe
+Translation: 0x0409 0x04b0
+

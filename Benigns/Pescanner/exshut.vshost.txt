@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11608 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b4d5137244bb4259a208b815e7c9f7b9
+SHA1:    76f6be34e0e95bf8948cbe5efb197c2de0fee06a
+ssdeep:  192:aHU+SwxBUW9sWvQKPnEtObMacxc8hjXHUz1Tr+foFc5:Ru2W9sWvLXci2jXHU
+Date:    0x4BA2084B [Thu Mar 18 11:02:35 2010 UTC]
+EP:      0x402a6e .text 0/3
+CRC:     Claimed: 0x302b, Actual: 0x302b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa74        0xc00        5.207534    
+.rsrc      0x4000       0x430        0x600        2.492258    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: vshost-clr2.exe
+FileVersion: 10.0.30319.1
+CompanyName: Microsoft Corporation
+Comments: vshost-clr2.exe
+ProductName: Microsoft (R) Visual Studio (R) 2010
+ProductVersion: 10.0.30319.1
+FileDescription: vshost-clr2.exe
+OriginalFilename: vshost-clr2.exe
+

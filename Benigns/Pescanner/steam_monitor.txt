@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    427808 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     800ab8605f96cc73c137f9e0d4fd1341
+SHA1:    a4fe1f605553cb2d390911fba43411b19f2be9e8
+ssdeep:  6144:8J0WidF6R30tGYER0u+GIIIIIIIhIIIIIIIIIIIIIIIUrxq:8J0WidF62tim5rxq
+Date:    0x59305FBC [Thu Jun  1 18:41:00 2017 UTC]
+EP:      0x403bd4 .text 0/5
+CRC:     Claimed: 0x70a57, Actual: 0x70a57 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+SCID               0x21340  0x7      LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with no line terminators
+RT_ICON            0x21348  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x213f8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x21960  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x21cc8  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22970  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24618  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x24a80  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25b28  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x280d0  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6a0f8  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 2-colors
+RT_VERSION         0x6a17c  0x404    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x6a580  0x30c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6a88c  0x336    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11ee5      0x12000      6.673996    
+.rdata     0x13000      0x80e0       0x8200       5.943678    
+.data      0x1c000      0x487c       0x1600       3.377547    
+.rsrc      0x21000      0x49bc4      0x49c00      5.607034    
+.reloc     0x6b000      0x1240       0x1400       6.355213    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2016 Valve Corporation
+InternalName: steam_monitor.exe (buildbot_steam-relclient-win32-builder_steam_rel_client_win32@steam-relclient-win32-builder)
+FileVersion: 03.98.98.55
+CompanyName: Valve Corporation
+Source Control ID: 3989855
+ProductName: Steam
+ProductVersion: 01.00.00.01
+FileDescription: steam_monitor.exe
+OriginalFilename: steam_monitor.exe
+Translation: 0x0409 0x04b0
+

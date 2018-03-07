@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    112640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1b3703417e44e905b3da8e2d0596a275
+SHA1:    761443ebb96ef6bdda8a531d90d3bbe5cffc8be4
+ssdeep:  3072:tre7QKT/cGNRmISCpN+CBm3EdCUu6W1UHOItIJZ:JX8tmI3BoivHwUHOfZ
+Date:    0x4A6916C7 [Fri Jul 24 02:04:55 2009 UTC]
+EP:      0x100e3de .text 0/3
+CRC:     Claimed: 0x255af, Actual: 0x255af 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1e910  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f1d0  0x9e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1f1b8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x1e180  0x33c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1e4c0  0x44b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19338      0x19400      6.448258    
+.data      0x1b000      0x2a98       0xc00        2.194290    
+.rsrc      0x1e000      0x1270       0x1400       3.712351    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) SEIKO EPSON CORP. 2009
+InternalName: E_ADDNET
+FileVersion: 1.11 built by: WinDDK
+CompanyName: SEIKO EPSON CORPORATION
+ProductName: EPSON Ebapi Network Setup
+ProductVersion: 1.11
+FileDescription: Ebapi Network Installer
+OriginalFilename: E_ADDNET.EXE
+Translation: 0x0409 0x04b0
+

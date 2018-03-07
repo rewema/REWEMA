@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     737cbeb19bc3cb524d84ee38868773a5
+SHA1:    d4d07c513053881ff822ecca6780095d8590d67e
+ssdeep:  384:iVtY7/xLG99HbybuBA3W3DV+d7/PvT96u3QvP0AN7p96u3QvP0AN7HWx2J5VjwRG:6tY7HpWTkGP1kP1o2pyUbP1
+Date:    0x4A10E8CE [Mon May 18 04:49:18 2009 UTC]
+EP:      0x40a36e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1a57c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc4a8   0x1f68   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xe410   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xc130   0x378    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xe428   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8374       0x8400       5.589499    
+.rsrc      0xc000       0x2618       0x2800       4.620472    
+.reloc     0x10000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2009 Chinmay N. Muranjan
+Assembly Version: 3.1.3424.37479
+InternalName: DLSync_GUI.exe
+FileVersion: 3.1.*
+Comments: Plugin for HTML Directory Lister
+ProductName: DLSync_GUI
+ProductVersion: 3.1.*
+FileDescription: Plugin for HTML Directory Lister
+OriginalFilename: DLSync_GUI.exe
+

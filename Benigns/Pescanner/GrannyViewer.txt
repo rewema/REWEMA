@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    274432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ee968673fd0f531c93f8f181fe20b75f
+SHA1:    8174d0f74a555f0c282c4fea2d1f36a6d46b9b39
+ssdeep:  3072:0LyZ/qgdD8sYjJuouX1/gDQjEVrHsDyyLw+Cfr7aKiwHdYIh/i4vOg4LkYQSg6x:0QCgSrlU/YFdALJvwHxha1jmSg
+Date:    0x43E773A4 [Mon Feb  6 16:04:52 2006 UTC]
+EP:      0x428b7a .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x46f1a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x41088  0x608    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3f750  0x2e8    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x3fa38  0x8a8    LANG_KOREAN  SUBLANG_KOREAN           data
+RT_ICON            0x40308  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40608  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x408f0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x416c0  0x456    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x41b18  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40d88  0x2fe    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40a40  0x22e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40c70  0x114    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x420b8  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x43050  0x7c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x430d0  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_STRING          0x43210  0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x43178  0x96     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42168  0x42     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x421f8  0x296    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42598  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42948  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x428d8  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42490  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x427f8  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x421b0  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0x42c70  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42d38  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42f30  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x42fe0  0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x41d80  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x405f0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x40a18  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x402e0  0x22     LANG_KOREAN  SUBLANG_KOREAN           MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x41df8  0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x41690  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2d7a4      0x2e000      6.365999    
+.rdata     0x2f000      0xd85e       0xe000       5.047970    
+.data      0x3d000      0x1d88       0x1000       3.357347    
+.rsrc      0x3f000      0x4260       0x5000       3.364273    
+
+Version info
+================================================================================
+LegalCopyright: GPL
+InternalName: grnview.exe
+FileVersion: 0, 4, 0, 0
+CompanyName: harkon
+ProductName: Iris Granny Viewer
+ProductVersion: 0, 4, 0, 0
+FileDescription: Iris Granny Viewer
+OriginalFilename: grnview.exe
+Translation: 0x0412 0x03b5
+

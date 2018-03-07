@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    162304 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     9bcbde0bec8afe0192b21b8897de5a23
+SHA1:    553d7d598cb586fa4700f21a525849f76ccaedbd
+ssdeep:  3072:rxyqTH3C5PD+6rv2KUvs4Mi9ejWpMe9heI+WpCRjbmwJfVzHbab:BDAD+6rjqsNi9wWuui+S/zzH
+Date:    0x57899063 [Sat Jul 16 01:39:47 2016 UTC]
+EP:      0x41ccd0 .text 0/7
+CRC:     Claimed: 0x349a8, Actual: 0x349a8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x29440  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x290b0  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x21f40      0x22000      6.341427    
+.wpp_sf    0x23000      0x488        0x600        5.248999    
+.data      0x24000      0x9d8        0x600        4.516542    
+.idata     0x25000      0x236a       0x2400       5.219254    
+.didat     0x28000      0x24         0x200        0.312494    [SUSPICIOUS]
+.rsrc      0x29000      0x508        0x600        2.875877    
+.reloc     0x2a000      0x1d64       0x1e00       6.651650    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SIH Client
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: SIH Client
+OriginalFilename: sihclient.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    274432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6d3f7a16773b82b27f9bfa7c3ab88ab4
+SHA1:    ac6463672314f90f8d3cee88d3e737dabcfd551a
+ssdeep:  3072:P9fKVNjkNVP02iV8r2vyE2D6kN2b44SL3R0QWPtcy4LMo:1k6NRpkbkQ0xuT4LMo
+Date:    0x4C05F2DE [Wed Jun  2 05:57:50 2010 UTC]
+EP:      0x412d65 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x46ec1 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x24dd8  0x1ec28  LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x43a00  0x5c4    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x235d0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x238b8  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x23a08  0xda     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x23ae8  0xa0     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x23b88  0x5f0    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x24178  0x296    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x24410  0x56a    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x24980  0x122    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x442b8  0x32     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x447f8  0x24     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED Lotus 1-2-3
+RT_STRING          0x442f0  0xfa     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x44578  0x136    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x444a8  0xd0     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x443f0  0x60     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x44450  0x54     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x446b0  0x58     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x44708  0xa4     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED DBase 3 index file
+RT_STRING          0x447b0  0x48     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x44820  0x2a     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ACCELERATOR     0x24aa8  0x70     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_GROUP_ICON      0x239e0  0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x24b18  0x2bc    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_MANIFEST        0x44068  0x250    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED XML  document text
+None               0x43fc8  0x9b     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x186ab      0x19000      6.514813    
+.rdata     0x1a000      0x21c6       0x3000       3.931580    
+.data      0x1d000      0x54c4       0x4000       2.433137    
+.rsrc      0x23000      0x21850      0x22000      2.695900    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2008
+InternalName: AppWizard
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+ProductName: AppWizard Module
+ProductVersion: 1, 0, 0, 1
+FileDescription: AppWizard Module
+OriginalFilename: AppWizard.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,150 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15711744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     62b255f798045684235de2ffd5fa555c
+SHA1:    db682c71474a62cb491c74b508f837b92dac8057
+ssdeep:  393216:sMyZ0PPzXtGLuzDz3qzh3Rjy0cHUlL/UPJsv6tWKFdu9CF40:sxqPPrtP0cl
+Date:    0x56660F47 [Mon Dec  7 22:59:19 2015 UTC]
+EP:      0xbd34ac .text 0/6
+CRC:     Claimed: 0x0, Actual: 0xefc661 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0xd65413L => join
+   0x8543b8L => msg
+   0x86ee9cL => msg
+   0xab33e3L => Msg
+   0xab4956L => msg
+   0xab5382L => msg
+   0xab993dL => msg
+   0xabd1e9L => Msg
+   0xabd1edL => msg
+   0xabeb82L => msg
+   0xaf079aL => msg
+   0xd0cb8fL => msg
+   0xd0cbc8L => msg
+   0xd0cbfaL => msg
+   0xd0cc27L => msg
+   0xd0cca7L => msg
+   0xd1d046L => Msg
+   0xd1d0deL => Msg
+   0xd25af5L => msg
+   0xd25b4aL => msg
+   0xd2a01dL => msg
+   0xd376b9L => msg
+   0xd376c1L => msg
+   0xd37729L => msg
+   0xd37731L => msg
+   0xd377e5L => msg
+   0xd377edL => msg
+   0xd3785bL => msg
+   0xd37864L => msg
+   0xd84618L => MSG
+   0xd8470fL => MSG
+   0xd88f64L => msg
+   0xd9a063L => msg
+   0xd9a073L => MSG
+   0xd9a1a0L => msg
+   0xd083daL => notice
+   0xd29c42L => Notice
+   0xd3066cL => Notice
+   0xd901b0L => Notice
+   0xd90994L => NOTICE
+   0xd9766cL => NOTICE
+   0xd44280L => part
+   0xd58b04L => part
+   0xd9ea1bL => part
+   0x85aff4L => ping
+   0xb6b50dL => Quit
+   0xbee233L => quit
+   0xbfac49L => quit
+   0xbfbf46L => Quit
+   0xc608f3L => quit
+   0xd0cc30L => QUIT
+   0xd19b98L => quit
+   0xd66184L => quit
+   0xd848abL => QUIT
+   0xd821f9L => chat
+YARA: spam
+   0xd0cb98L => rcpt to:
+   0xd0cb6cL => mail from:
+   0xd0cd04L => SMTP server
+   0xd22ec0L => SMTP server
+   0xd7b397L => casino
+   0xd834dcL => casino
+   0xd0cc78L => ehlo 
+   0x85419bL => from: 
+   0x859a60L => from: 
+   0x859a82L => from: 
+   0x859aebL => from: 
+   0x859b06L => from: 
+   0x859b40L => from: 
+   0x85a121L => from: 
+   0x85a151L => from: 
+   0x85a208L => from: 
+   0xd88051L => from: 
+   0xd89e39L => from: 
+   0xd9d816L => Subject: 
+   0xd5a0acL => Postcard
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xe5d400 0x11668  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xe6ea68 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe7f290 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe834b8 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe85a60 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe86b08 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe86fd0 0x8e4c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xe8fe20 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xea0648 0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xea9af0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xeadd18 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xeb02c0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xeb1368 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xeb1cf0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe86f70 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 256-colors
+RT_GROUP_ICON      0xeb2158 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0xeb21d0 0x334    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xeb2508 0x27e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+ShellExecuteW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x84fc86     0x84fe00     6.714654    
+.rdata     0x851000     0x5d0e72     0x5d1000     7.107859    [SUSPICIOUS]
+.data      0xe22000     0x39550      0x2ba00      6.059004    
+.qtmetad   0xe5c000     0x454        0x600        3.714913    
+.rsrc      0xe5d000     0x55788      0x55800      6.143988    
+.reloc     0xeb3000     0x593c4      0x59400      6.593318    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa92006-2015 The qBittorrent project
+InternalName: qbittorrent
+FileVersion: v3.3.1
+CompanyName: The qBittorrent project
+ProductName: qBittorrent
+ProductVersion: v3.3.1
+FileDescription: qBittorrent - A Bittorrent Client
+OriginalFilename: qbittorrent.exe
+Translation: 0x0409 0x04b0
+

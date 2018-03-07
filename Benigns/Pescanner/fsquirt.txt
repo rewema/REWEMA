@@ -1,0 +1,84 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    133632 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1aba9d0bd70c38922e3e375fec246f6c
+SHA1:    1f270982057de58a90c7744072ee3773f01c9cd5
+ssdeep:  1536:R0CslG0dk/42GXQoLXHtEryPuO2NTk9/sG8OGbqkl+k0MTgFveWbXkbTsUFncUwp:N0dk8QoJErwt/sUGbl+FbFveIkcUKh
+Date:    0x57898E6E [Sat Jul 16 01:31:26 2016 UTC]
+EP:      0x40cae0 .text 0/5
+CRC:     Claimed: 0x2176f, Actual: 0x2176f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x22af8  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13018  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13680  0x4c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13b48  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13e30  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14018  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x141c0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x142e8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15190  0xba8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15d38  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x165e0  0x608    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16be8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17150  0x295b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x19ab0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c058  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1dac0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1eb68  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f4f0  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fba8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x20118  0x496    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x205b0  0x346    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x208f8  0x26a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20b68  0x150    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20cb8  0x1c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20e80  0x88     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20f08  0x278    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22918  0x1de    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x21180  0x62     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x21248  0x5f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x22100  0x7ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x21840  0x75e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x21fa0  0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x228f0  0x28     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x211e8  0x5c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x20010  0x102    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 18 icons, 48x48, 16-colors
+RT_VERSION         0x12ca0  0x374    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x127b0  0x4ec    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd344       0xd400       6.283190    
+.data      0xf000       0x548        0x200        2.128007    
+.idata     0x10000      0x1766       0x1800       5.487644    
+.rsrc      0x12000      0x10bd8      0x10c00      4.725387    
+.reloc     0x23000      0xba4        0xc00        6.631048    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: fsquirt.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: 
+OriginalFilename: fsquirt.exe
+Translation: 0x0409 0x04b0
+

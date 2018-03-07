@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8192 bytes
+Type:    PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit
+MD5:     fff7a8f294ebfdc157e71ff9dd61c7c0
+SHA1:    e4550307085b08f3fff9565f681cfa5446997daa
+ssdeep:  96:Kh0ZTLPO5Rsa6zgK14WcE8mPTMW5CKaafNEWauWwbj:Kh0ZTTOvx6zgVGTczafmWauW2
+Date:    0x57899174 [Sat Jul 16 01:44:20 2016 UTC]
+EP:      0x10001530 .text 0/5
+CRC:     Claimed: 0x9b5c, Actual: 0x9b5c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4450   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x40b0   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdc3        0xe00        5.612313    
+.data      0x2000       0x34c        0x200        0.228726    [SUSPICIOUS]
+.idata     0x3000       0x218        0x400        2.955413    
+.rsrc      0x4000       0x518        0x600        2.918093    
+.reloc     0x5000       0x120        0x200        4.081225    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wcodstub.dll
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DirectPlay Stub
+OriginalFilename: wcodstub.dll
+Translation: 0x0409 0x04b0
+

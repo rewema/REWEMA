@@ -1,0 +1,127 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1120256 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d821c6c6ca0e501d2e9ef601d9f5506d
+SHA1:    6edf7746dfff34ee9849d62ab92a068c7bb038b8
+ssdeep:  12288:BAft+khrXyVZDcofJ8JoyqohTxWBS1QZpZR1IThD68mc852WlxgaWRJ93kXeymbI:KV+khADcofJ8wohTx5epnqSxgaWCXbm
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4dfb98 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x11a804 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xdff01L => deflate
+   0xdff23L => Jean-loup Gailly
+   0xe1d11L => inflate
+   0xe1d33L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x1021c4 0x134    LANG_GERMAN  SUBLANG_GERMAN           AmigaOS bitmap font
+RT_CURSOR          0x1022f8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x10242c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x102560 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x102694 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1027c8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x1028fc 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x102a30 0x134    LANG_GERMAN  SUBLANG_GERMAN           DBase 3 index file
+RT_CURSOR          0x102b64 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x102c98 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x102e68 0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x10304c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x10321c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1033ec 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1035bc 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x10378c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x10395c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x103b2c 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x103cfc 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x103ecc 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x103fb4 0x468    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x10441c 0x10a8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x1054c4 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x105518 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10556c 0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1055b4 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x105e5c 0x7a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x106600 0x848    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x106e48 0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1070b0 0x13c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x1071ec 0x250    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10743c 0x228    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x107664 0x240    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1078a4 0x120    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1079c4 0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x107af4 0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x107bd4 0x508    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1080dc 0x4b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x108590 0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1088ec 0x890    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10917c 0xb34    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x109cb0 0xa60    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10a710 0x6cc    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x10addc 0x4d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10b2b0 0x1c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10b474 0x104    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10b578 0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10b6e4 0x37c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10ba60 0x5d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10c038 0x4a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10c4d8 0x4b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10c988 0x580    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10cf08 0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10cfd0 0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7078005 records)
+RT_STRING          0x10d084 0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10d354 0x478    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10d7cc 0x374    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10db40 0x344    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10de84 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10de94 0x7d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x10e664 0x487c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x112ee0 0x340    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x113220 0xaf8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x113d18 0x44a    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x114164 0x6041   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11a1a8 0x1e1    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11a38c 0x130e   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11b69c 0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x11b9fc 0x14     LANG_GERMAN  SUBLANG_GERMAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba10 0x14     LANG_GERMAN  SUBLANG_GERMAN           Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba24 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba38 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba4c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba60 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba74 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba88 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x11ba9c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x11bab0 0x22     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_MANIFEST        0x11bad4 0x245    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+WriteProcessMemory
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdd198      0xdd200      6.538212    
+.itext     0xdf000      0xc24        0xe00        5.842910    
+.data      0xe0000      0x5204       0x5400       3.946587    
+.bss       0xe6000      0x405c       0x0          0.000000    [SUSPICIOUS]
+.idata     0xeb000      0x2d22       0x2e00       5.160161    
+.tls       0xee000      0x40         0x0          0.000000    [SUSPICIOUS]
+.rdata     0xef000      0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0xf0000      0x10060      0x10200      6.596634    
+.rsrc      0x101000     0x1ae00      0x1ae00      4.452898    
+

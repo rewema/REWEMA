@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    30208 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     61208948f885f2e95f2a8d8aa2b90fed
+SHA1:    823e9b8239734c3b00c2b7fddbf632c918a2e1b9
+ssdeep:  384:jippH3l2anBdjfqTBX6COoB64qzL7l7jKFG7H9K0oSmtrH0y2NXmscZQ8Z9/YVpY:G2anziNb0xJ0q0pQ6dYqXI0R
+Date:    0x5789911B [Sat Jul 16 01:42:51 2016 UTC]
+EP:      0x4051f0 .text 0/6
+CRC:     Claimed: 0xe618, Actual: 0xe618 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x11748  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x113a0  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x110f0  0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4a64       0x4c00       6.347061    
+.data      0x6000       0x8e78       0x200        1.103556    
+.idata     0xf000       0xe74        0x1000       4.663582    
+.didat     0x10000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x11000      0x810        0xa00        3.741200    
+.reloc     0x12000      0x6b0        0x800        6.103365    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: findstr
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Find String (QGREP) Utility
+OriginalFilename: FINDSTR.EXE
+Translation: 0x0409 0x04b0
+

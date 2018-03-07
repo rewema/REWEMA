@@ -1,0 +1,39 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25088 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     19863bcedd4eb99bc4dfda9b53c3116e
+SHA1:    036d2cd18e234251550f3c92e1d7093c5c3c5e18
+ssdeep:  768:QmegbRHerRNcVnx5RNc+2RNc+cwRNc+8gbRHerDZ/CkSOajl:QXgbRHerRNcVHRNc+2RNc+/RNc+8gbRh
+Date:    0x456C61C8 [Tue Nov 28 16:20:24 2006 UTC]
+EP:      0x401270 .text 0/6
+CRC:     Claimed: 0x10c67, Actual: 0x10c67 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa0a0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xaf48   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c90       0x1e00       5.376826    
+.data      0x3000       0x2450       0x2600       0.024642    [SUSPICIOUS]
+.rdata     0x6000       0x1f0        0x200        4.808555    
+.bss       0x7000       0x1870       0x0          0.000000    [SUSPICIOUS]
+.idata     0x9000       0x658        0x800        3.736188    
+.rsrc      0xa000       0xf5c        0x1000       5.825698    
+

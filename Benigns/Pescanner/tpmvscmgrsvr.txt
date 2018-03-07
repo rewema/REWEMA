@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    106496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4bea18048e169a682758171959cb33a8
+SHA1:    b2e67645ec83d58277a2aa2ba2ce29522b66f4a0
+ssdeep:  1536:PtZnk0hzRFiG1ILcIeFv2WGvFJ0G/qKQtyWQM0p9rfkgENcdb0HWnNbveyqwq/sY:lSNCqcIxtixyWQMGfkgqcdbpzeyqwqv
+Date:    0x578990FA [Sat Jul 16 01:42:18 2016 UTC]
+EP:      0x413330 .text 0/5
+CRC:     Claimed: 0x1a0ad, Actual: 0x1a0ad 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1a770  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1a3b0  0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x1a0f0  0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x15f78      0x16000      6.318712    
+.data      0x17000      0xa5c        0x400        3.551505    
+.idata     0x18000      0x1904       0x1a00       5.339510    
+.rsrc      0x1a000      0x838        0xa00        3.782813    
+.reloc     0x1b000      0x1304       0x1400       6.574452    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TpmVscMgrSvr
+FileVersion: 1.00 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TPM Virtual Smart Card Manager COM Server
+OriginalFilename: TpmVscMgrSvr.exe
+Translation: 0x0409 0x04b0
+

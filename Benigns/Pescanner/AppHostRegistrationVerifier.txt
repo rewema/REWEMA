@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    82432 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a35ddd2d4472a47cfc1e4961eb0e66f5
+SHA1:    a092cf661fa86367c189a73d7d871c44cfb314f2
+ssdeep:  1536:G+6aYDLIQy9r85m7YGpXS5re45AiM9FgZ+NfYPU6c9eKyY:G+rYDL5m7YFe4qiMYlP1c9eKyY
+Date:    0x578991CA [Sat Jul 16 01:45:46 2016 UTC]
+EP:      0x40ec00 .text 0/5
+CRC:     Claimed: 0x21249, Actual: 0x21249 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x154e0  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x150b0  0x42c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10e08      0x11000      6.333517    
+.data      0x12000      0x7c4        0x200        3.706035    
+.idata     0x13000      0x142c       0x1600       5.127378    
+.rsrc      0x15000      0x5a8        0x600        3.185700    
+.reloc     0x16000      0xf90        0x1000       6.603798    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: App Uri Handlers Registration Verifier
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: App Uri Handlers Registration Verifier
+OriginalFilename: AppHostNameRegistrationVerifier.exe
+Translation: 0x0409 0x04b0
+

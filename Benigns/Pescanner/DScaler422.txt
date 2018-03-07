@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2499811 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b79df95c1db1a563d7df89872c3d19c1
+SHA1:    0f235be835ced970c18fad2ef1d3dd6e4fc60a71
+ssdeep:  49152:Sh9M6pN1HmhJTsX6zQ4SW4fRnvYyYZczCDjwdzrwbYMrIp4rEQzBGwAzPDv:SXMw1GhJkg/4fRnv/pCDezr9MrIp4rtQ
+Date:    0x4B7D4605 [Thu Feb 18 13:52:05 2010 UTC]
+EP:      0x4163c4 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x2644ef [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2347c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x235a4  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x23b0c  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23df4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2469c  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x24b04  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25bac  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x25c70  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x25d3c  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x25eb0  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2624c  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x26598  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2682c  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x2eb14  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x2eb24  0x180    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2eca4  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x2ecd0  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x2ed2c  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x2f1e4  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14620      0x14800      6.460971    
+.itext     0x16000      0xb34        0xc00        5.800398    
+.data      0x17000      0xd9c        0xe00        2.671945    
+.bss       0x18000      0x5710       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1e000      0xf9e        0x1000       4.967783    
+.tls       0x1f000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x20000      0x18         0x200        0.190489    [SUSPICIOUS]
+.reloc     0x21000      0x1944       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x23000      0xc744       0xc800       4.318175    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2012 DScaler Team                                                                     
+FileVersion:                     
+CompanyName:                                                             
+Comments: This installation was built with Inno Setup.
+ProductName: DScaler                                                     
+ProductVersion:                     
+FileDescription: DScaler Setup                                               
+Translation: 0x0000 0x04b0
+

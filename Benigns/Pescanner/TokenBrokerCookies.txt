@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d63d1df8ad6ef442c687a05833967f50
+SHA1:    3288df42161f2f9295d38d34bea5d430d63bc0e7
+ssdeep:  384:TGj082NsKmxAk09+3Jm4fSKxVeXLsxm1KWl8KcysSQu1WiKWUTQF:Kj082NlUAk0A44f7jKDl/cLSzv
+Date:    0x578990EE [Sat Jul 16 01:42:06 2016 UTC]
+EP:      0x403a50 .text 0/6
+CRC:     Claimed: 0x103b0, Actual: 0x103b0 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8380   0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80a0   0x2db    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3530       0x3600       5.931827    
+.data      0x5000       0x470        0x200        2.145157    
+.idata     0x6000       0x99a        0xa00        4.723187    
+.didat     0x7000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x8000       0x758        0x800        4.143638    
+.reloc     0x9000       0x44c        0x600        5.231729    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TokenBrokerCookies
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Token Broker Cookie Helper
+OriginalFilename: TokenBrokerCookies.exe
+Translation: 0x0409 0x04b0
+

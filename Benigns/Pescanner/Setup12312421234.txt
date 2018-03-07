@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1873543 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6f9474e3dae709269fb7d904a0abf0b1
+SHA1:    d61258d7029deaa77d368ff8209406e4f43a7d63
+ssdeep:  49152:QNSVnRm9lfYlpVAfvrhhmmLQohSU9oTJpMP1yahZX3:/ZwlfYlp0vrh4mLQoh/1nZn
+Date:    0x3B780AC2 [Mon Aug 13 17:13:38 2001 UTC]
+EP:      0x4021af .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1d55bb [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x60f0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x63d8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x63f0   0x24c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2126       0x2200       6.194416    
+.rdata     0x4000       0x779        0x800        4.781720    
+.data      0x5000       0x478        0x400        3.957659    
+.rsrc      0x6000       0x640        0x800        2.970091    
+
+Version info
+================================================================================
+LegalCopyright: (C) 2003 DoDucTruong@hotmail.com
+FileDescription: http://www.VOANews.com/SpecialEnglish
+FileVersion: 1.0.1
+CompanyName: EVN, NCS, N-Line System, PSMKorea, NER:D
+

@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    155648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ee20a16dd4556365639e3f27c38459d4
+SHA1:    df8f4963425965ae21b348f4f73700ead75775cc
+ssdeep:  1536:PSRTyQE17vvj28RbAw0M+2Yps7m9A02AhkDeFY2245srGtAR2QB0Dulod24pMbGd:IyH17lVAUak
+Date:    0x3D2F82B6 [Sat Jul 13 01:30:30 2002 UTC]
+EP:      0x401548 .text 0/3
+CRC:     Claimed: 0x33025, Actual: 0x33025 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2531c  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x25308  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x250f0  0x218    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22a80      0x23000      5.685082    
+.data      0x24000      0xac0        0x1000       0.000000    
+.rsrc      0x25000      0x604        0x1000       1.826601    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: Lcdpainter
+FileVersion: 1.00
+CompanyName: TR
+ProductName: LcdPainter
+ProductVersion: 1.00
+OriginalFilename: Lcdpainter.exe
+

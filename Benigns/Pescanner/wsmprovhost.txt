@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    39424 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     16a98e2531deca7a218abdc7cf8300d4
+SHA1:    f31fe9b5ed4abc5598cb0c5261f28b2fce1ad28a
+ssdeep:  768:bU/RVX/phafGN/Fl6gz8Vv73HJhrJQ+5dFSm1ZqnJkOzG:bq3vL2GN9Ry3xv6nJkOzG
+Date:    0x57898FB7 [Sat Jul 16 01:36:55 2016 UTC]
+EP:      0x404df0 .text 0/6
+CRC:     Claimed: 0x12ab2, Actual: 0x12ab2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xc428   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0a0   0x388    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7638       0x7800       6.188025    
+.data      0x9000       0x4b0        0x200        2.310847    
+.idata     0xa000       0xb4e        0xc00        4.913319    
+.didat     0xb000       0x5c         0x200        0.701109    [SUSPICIOUS]
+.rsrc      0xc000       0x7f0        0x800        4.537419    
+.reloc     0xd000       0x584        0x600        6.301116    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wsmprovhost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host process for WinRM plug-ins
+OriginalFilename: wsmprovhost.exe
+Translation: 0x0409 0x04b0
+

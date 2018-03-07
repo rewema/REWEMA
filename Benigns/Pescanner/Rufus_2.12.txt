@@ -1,0 +1,111 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    949880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a1951ded627b647d449cb451daff192f
+SHA1:    ed704dd3dc89b861f4ede5532c80dabf66c35ca5
+ssdeep:  24576:BLfnp9Tz4p6BSa+AHBA0gdAJU5BU2n+p1oklY1C:1nTzNvHd/JkWQwoAYw
+Date:    0x0        [Thu Jan  1 00:00:00 1970 UTC] [SUSPICIOUS]
+EP:      0x678390 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0xf65ed, Actual: 0xf65ed 
+Packers: UPX 2.93 - 3.00 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+TLS callbacks
+================================================================================
+    0x678f46
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x279be4 0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x27de10 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2803bc 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x281468 0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x281df4 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xc7248  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_ICON            0xc76b0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc7b18  0x816    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc8330  0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc84a0  0x16e    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc8610  0x4f4    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc8b08  0xac     LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc8bb8  0x102    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc8cc0  0x252    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc8f18  0x330    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_DIALOG          0xc9248  0x160    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xc93a8  0x10581  LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xd9930  0xb65d   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xe4f90  0xe43    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xe5dd8  0x2cb6   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xe8a90  0x3f74   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xeca08  0x9da8   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xf67b0  0x7436   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0xfdbe8  0x7db2   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x1059a0 0x3331   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x108cd8 0x1940   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x10a618 0x1b93   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x10c1b0 0x155d   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x10d710 0x114f   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x10e860 0x1c31   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x110498 0x1cf1   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x112190 0x150b   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x1136a0 0x1b3d   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x1151e0 0x1699   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x116880 0x15a7   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x117e28 0x1c3c   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x119a68 0x1fb7   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x11ba20 0x1889   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x11d2b0 0x1e4e   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x11f100 0x193a   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x120a40 0x1e71   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x1228b8 0x22e1   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x124ba0 0x1426   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x125fc8 0x200    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x1261c8 0x8e88   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x12f050 0x200    LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x12f250 0x10bf7  LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x13fe48 0x855c   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x1483a8 0x2000   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x14a3a8 0x7b50   LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x151ef8 0xe1cf1  LANG_NEUTRAL SUBLANG_NEUTRAL          empty
+RT_RCDATA          0x233bf0 0x800    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2343f0 0x40000  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2743f0 0x332    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x274728 0x34b    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x282260 0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 64x64, 256-colors
+RT_GROUP_ICON      0x274ac8 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x274ae0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Non-ISO extended-ASCII text, with no line terminators
+RT_VERSION         0x2822b0 0x350    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x282604 0x767    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x19d000     0x0          0.000000    [SUSPICIOUS]
+UPX1       0x19e000     0xdb000      0xdb000      7.999721    [SUSPICIOUS]
+.rsrc      0x279000     0xb000       0xa200       3.935863    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2011-2017 Pete Batard (GPL v3)
+InternalName: Rufus
+FileVersion: 2.12.1054
+CompanyName: Akeo Consulting (http://akeo.ie)
+LegalTrademarks: http://www.gnu.org/copyleft/gpl.html
+ProductName: Rufus
+ProductVersion: 2.12.1054
+FileDescription: Rufus
+OriginalFilename: rufus.exe
+Translation: 0x0000 0x04b0
+

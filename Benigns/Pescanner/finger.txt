@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    13824 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     36055fad37aa9a02198e461d56d5f7b7
+SHA1:    0aad77068197277028e1d223a71f681dda6f39ad
+ssdeep:  192:FWO2GW7AYNlv0XtHDLTKpO5pOQ6MuEFyubIDcIW20WZ7aS:p2GwAY/0XtbuODO2AubUjW20W8S
+Date:    0x5789913B [Sat Jul 16 01:43:23 2016 UTC]
+EP:      0x401fa0 .text 0/5
+CRC:     Claimed: 0xdf61, Actual: 0xdf61 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5768   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x53c8   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x2d8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16ac       0x1800       5.686385    
+.data      0x3000       0x530        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x954        0xa00        4.576254    
+.rsrc      0x5000       0x830        0xa00        3.795088    
+.reloc     0x6000       0x22c        0x400        4.353018    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: finger.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCPIP Finger Command
+OriginalFilename: finger.exe
+Translation: 0x0409 0x04b0
+

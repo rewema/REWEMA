@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b9b768ad6a101118b3c220152f04fc72
+SHA1:    da881df8385cdd1406510fd6c59a7234a3cf1295
+ssdeep:  384:fjdur+HpeuzJTT1XCllGLyPBTlfWvcWz7:fEweuB+BTCx
+Date:    0x5789912D [Sat Jul 16 01:43:09 2016 UTC]
+EP:      0x403260 .text 0/5
+CRC:     Claimed: 0xb368, Actual: 0xb368 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x6770   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x63b0   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60f0   0x2be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x296c       0x2a00       6.088424    
+.data      0x4000       0x500        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x7ba        0x800        4.953804    
+.rsrc      0x6000       0x838        0xa00        3.754482    
+.reloc     0x7000       0x340        0x400        5.915511    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wpnpinst.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Support exe for Internet Printing
+OriginalFilename: wpnpinst.exe
+Translation: 0x0409 0x04b0
+

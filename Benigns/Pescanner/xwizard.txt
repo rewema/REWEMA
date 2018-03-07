@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    57344 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3c70f039ee4c07511abd82b5664fb91b
+SHA1:    52c040c88f8d7653beb0f85f82ba610af73c99b9
+ssdeep:  768:o5ObzBwv/bqaWLtpJwzh/rIo8YeTWs2IkRDzsq4ytZZZL2YCX4ib:o4KvGaiwVTIo18URDoq4OZZZLlCIib
+Date:    0x578990B4 [Sat Jul 16 01:41:08 2016 UTC]
+EP:      0x405110 .text 0/5
+CRC:     Claimed: 0xe864, Actual: 0xe864 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xfdd8   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9b68   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa1d0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa4b8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa5e0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb488   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbd30   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc298   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe840   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf8e8   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xfd50   0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x97b0   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9300   0x4a9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x51e0       0x5200       6.109905    
+.data      0x7000       0x5e4        0x200        3.668606    
+.idata     0x8000       0xeb4        0x1000       4.823532    
+.rsrc      0x9000       0x6ea8       0x7000       5.822038    
+.reloc     0x10000      0x614        0x800        5.652808    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: xwizard.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Extensible Wizards Host Process
+OriginalFilename: xwizard.exe
+Translation: 0x0409 0x04b0
+

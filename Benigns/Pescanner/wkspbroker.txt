@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    223648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     854be77fb5e90d4ca0e75e257ff14183
+SHA1:    81439fbf8477a833144f40887d151b49a5e2fc68
+ssdeep:  3072:4UWbt88Ps0if5POzOgXWv/HVXE8Wal3toQkEgFDBZzbqRk4hYx6iJkuoeagbmbsb:4UWbtRqtOzCqfJESXx4hKWuoFHbsR1
+Date:    0x57898D91 [Sat Jul 16 01:27:45 2016 UTC]
+EP:      0x42a0c0 .text 0/6
+CRC:     Claimed: 0x438ff, Actual: 0x438ff 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0x32818  0x3f7    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+REGISTRY           0x32c10  0x2b5    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x32ec8  0x14ac   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x32438  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x32190  0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2c988      0x2ca00      6.440268    
+.imrsiv    0x2e000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x2f000      0x5ec        0x200        2.813782    
+.idata     0x30000      0x18a2       0x1a00       5.437552    
+.rsrc      0x32000      0x2378       0x2400       4.899844    
+.reloc     0x35000      0x30bc       0x3200       6.742148    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wkspbroker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: RemoteApp and Desktop Connection Runtime Broker
+OriginalFilename: wkspbroker.exe
+Translation: 0x0409 0x04b0
+

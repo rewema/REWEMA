@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     85449c56339bfef1af92ea9e034d5d84
+SHA1:    c62bb2114365b82797045014edf81b783b233766
+ssdeep:  192:lAX7UYJHjXvWS72TYMDgABotwTOsZKW/GWL:4vXuS8YuqtJoKW/GWL
+Date:    0x57898F1D [Sat Jul 16 01:34:21 2016 UTC]
+EP:      0x401850 .text 0/5
+CRC:     Claimed: 0x4bbc, Actual: 0x4bbc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5d00   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5988   0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x893    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10cc       0x1200       5.616777    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x538        0x600        4.497174    
+.rsrc      0x5000       0xdc8        0xe00        4.848146    
+.reloc     0x6000       0x16c        0x200        5.023225    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: InfDefaultInstall.EXE
+FileVersion: 5.2.3668.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 5.2.3668.0
+FileDescription: INF Default Install
+OriginalFilename: InfDefaultInstall.EXE
+Translation: 0x0409 0x04b0
+

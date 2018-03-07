@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36352 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     6f55f67b45b4f92dff89a7ad9ece6809
+SHA1:    94539146479327ebcbabb3fa646351bb74e4cd5b
+ssdeep:  768:zzpb5lM8K8dUE9aDkH7snKweGrQX8lIFfZB3F5xfbYS3z:TlM8KG8kbeFQ0IZb1bYS3z
+Date:    0x57899132 [Sat Jul 16 01:43:14 2016 UTC]
+EP:      0x4070e0 .text 0/5
+CRC:     Claimed: 0x16a95, Actual: 0x16a95 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xa748   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xa398   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa0f0   0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6854       0x6a00       5.977751    
+.data      0x8000       0x3f4        0x200        0.398265    [SUSPICIOUS]
+.idata     0x9000       0xdb2        0xe00        4.875195    
+.rsrc      0xa000       0x810        0xa00        3.727646    
+.reloc     0xb000       0x5cc        0x600        6.480242    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: UNLODCTR.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Unload PerfMon Counters
+OriginalFilename: UNLODCTR.EXE
+Translation: 0x0409 0x04b0
+

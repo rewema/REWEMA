@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    189792 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f5bfc12ff6f75b6cbf9c15dba7a70958
+SHA1:    c4cc478e215abc150c9e2b3e76f69eb42e2e23e8
+ssdeep:  3072:pRaLY+FQmmt0fSoD7HMgkeLP4jxlQVY8hn7n49GQGTrpCPsluk:p8Ymmt0fSoD7H1keD4dIr7n49BArck
+Date:    0x57899072 [Sat Jul 16 01:40:02 2016 UTC]
+EP:      0x423060 .text 0/5
+CRC:     Claimed: 0x3d33f, Actual: 0x3d33f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2c060  0x3f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x260f0      0x26200      6.051974    
+.data      0x28000      0x1260       0xe00        4.467039    
+.idata     0x2a000      0x1d6a       0x1e00       5.636415    
+.rsrc      0x2c000      0x458        0x600        2.613137    
+.reloc     0x2d000      0x2b94       0x2c00       6.356867    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: AppVShNotify.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Application Virtualization Client Shell Notifier
+OriginalFilename: AppVShNotify.exe
+Translation: 0x0409 0x04b0
+

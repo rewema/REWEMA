@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    316928 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     6cd9ea23fb19422a34f59b12ff1a14ad
+SHA1:    74cddd07caee0622ec61e6844ce668df022b2d71
+ssdeep:  6144:QXMMLuqjQyFw3x5v9LGUZ0mXwbhrdmEr8NyhW:cMMLuqUAe7FLGU2mXwb3gy
+Date:    0x4FD6C107 [Tue Jun 12 04:09:43 2012 UTC]
+EP:      0x425bd8 .text 0/5
+CRC:     Claimed: 0x515fe, Actual: 0x515fe 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x9b0a0  0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9b35c  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x377c0      0x37800      6.693613    
+.rdata     0x39000      0xe700       0xe800       5.137789    
+.data      0x48000      0x52c04      0x2800       3.825817    
+.rsrc      0x9b000      0x4b8        0x600        4.549861    
+.reloc     0x9c000      0x4278       0x4400       6.334540    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Info-ZIP 1997 - 2008
+InternalName: zip
+FileVersion: 3.0
+CompanyName: Info-ZIP
+ProductName: Zip
+ProductVersion: 3.0
+FileDescription: Info-ZIP Zip for Win32 console
+OriginalFilename: zip.exe
+Translation: 0x0409 0x04e4
+

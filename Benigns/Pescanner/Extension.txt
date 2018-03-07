@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     95d4bde368d6356cdfde597bc1acc1fc
+SHA1:    ac6526177f9be2dc6be9812d6ddc57be10d714fe
+ssdeep:  384:5wZVS6TX8TkqhZMr/Wlz7uCXsS4/oM7a/LRqnXU9aNtm:2ZV3qv+elH8ho8k9aNt
+Date:    0x44C8E8B7 [Thu Jul 27 16:24:23 2006 UTC]
+EP:      0x40561e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x958e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x83f0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x86d8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x8800   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x8118   0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3624       0x4000       5.179371    
+.sdata     0x6000       0x88         0x1000       0.326771    [SUSPICIOUS]
+.rsrc      0x8000       0x828        0x1000       1.993160    
+.reloc     0xa000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2006
+Assembly Version: 1.0.0.0
+InternalName: Extension.exe
+FileVersion: 1.0.0.0
+ProductName: WindowsApplication1
+ProductVersion: 1.0.0.0
+FileDescription: WindowsApplication1
+OriginalFilename: Extension.exe
+

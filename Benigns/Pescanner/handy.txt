@@ -1,0 +1,77 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1388544 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5f6f8481fc06980df45bc95c3ffa3500
+SHA1:    905e6a0590606e97c54a361dd700ee887bfe179d
+ssdeep:  24576:RWLgFPUozdsRYcTSyyBKz8ay4SgySBItiwGX:RiRJsAyGI5G
+Date:    0x45DA252E [Mon Feb 19 22:31:10 2007 UTC]
+EP:      0x42b2bc .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x15e58b [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x43909L => deflate
+   0x4392bL => Jean-loup Gailly
+   0x43a09L => inflate
+   0x43a2bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x5dbb0  0x83a88  LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0xe1638  0x5eee8  LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x140520 0x16978  LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x5c2c8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x5b4c0  0x6da    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x5bba0  0x2ee    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5c5c8  0x216    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5c7e0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5d168  0x24a    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5d3b8  0x228    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5d5e0  0xfe     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5d6e0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5d7b0  0x166    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5d918  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x5db00  0xaa     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x156e98 0x272    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x157110 0x1fa    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x157310 0x54     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ACCELERATOR     0x5c258  0x70     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x5c5b0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x5be90  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x41da4      0x42000      6.575542    
+.rdata     0x43000      0x9d4a       0xa000       4.879459    
+.data      0x4d000      0xd57c       0x9000       4.771645    
+.rsrc      0x5b000      0xfc368      0xfd000      5.968608    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1999,2000,2001,2002
+InternalName: Handy
+FileVersion: 1
+CompanyName: Irwell Expert Systems
+PrivateBuild: 
+LegalTrademarks: 
+Comments: I can't beleive you're really reading this junk.....
+ProductName: Handy - Lynx Emulator
+SpecialBuild: 
+ProductVersion: See About Box
+FileDescription: lynx
+OriginalFilename: Handy.exe
+Translation: 0x0809 0x04b0
+

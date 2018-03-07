@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    116824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1b389656d41d458413fb9e09f42105f5
+SHA1:    c415d6904ac23599ea53b4f8ee4acbba8bfeb0f2
+ssdeep:  1536:GeBT/Xgp1/wARe4wf10R72GRh1DPRtkFnFK/lXpXWFE2Ys+40RjlpRZHl+:GeB7gIB4HKm/lgYs+4ylD+
+Date:    0x507DEB20 [Tue Oct 16 23:17:52 2012 UTC]
+EP:      0x4046c6 .text 0/5
+CRC:     Claimed: 0x25bb5, Actual: 0x25bb5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1b3fc  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1b524  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1b88c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1b9b4  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1bd1c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1be44  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c1ac  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c2d4  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1c63c  0x5f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1cc30  0x16a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1cd9c  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x1cdc0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x1cde4  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x1ce08  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x1ce2c  0x32c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1d158  0x26c    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1014d      0x10200      6.660051    
+.rdata     0x12000      0x56a6       0x5800       5.385734    
+.data      0x18000      0x2fd8       0x1400       3.320552    
+.rsrc      0x1b000      0x23c4       0x2400       3.874698    
+.reloc     0x1e000      0x1684       0x1800       4.856595    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2008-2012 Mark Russinovich and Bryce Cogswell
+InternalName: Desktops
+FileVersion: 2.0
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Desktops
+ProductVersion: 2.0
+FileDescription: Sysinternals Desktops
+OriginalFilename: Desktops
+Translation: 0x0409 0x04b0
+

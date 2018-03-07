@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b89a60330635c969107f28ecee789ab6
+SHA1:    266b88001345d8f8562020dd45d514a7bd3c6b50
+ssdeep:  384:aWlmr+Wd1T1c9KSIF6zeYB/aFzdHDTtitNPdSmPv3IPzxaFDFa:aWMCYc4Ss6znByBatNP4m3YLxuFa
+Date:    0x43595491 [Fri Oct 21 20:50:25 2005 UTC]
+EP:      0x401400 .text 0/3
+CRC:     Claimed: 0xd7e4, Actual: 0xd7e4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc344   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xc330   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xc0f0   0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x81dc       0x9000       5.138839    
+.data      0xa000       0x19f8       0x1000       0.000000    
+.rsrc      0xc000       0x62c        0x1000       1.741789    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: ColorTunnel
+FileVersion: 2.00
+CompanyName: FollowTheWatch Software
+ProductName: ColorTunnel
+ProductVersion: 2.00
+OriginalFilename: ColorTunnel.exe
+

@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2596896 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4aa8eddf4f23fba18e7eef481027b435
+SHA1:    3d38cf0046a55851e849f31ac90e01cb205ad1c0
+ssdeep:  49152:oRcWANMb9HnIYk7CATKXg8Tqfh0PTiz5wfK7XOsZRQfucCGp47Q91Z6GlyH3r:oqMhHnIYkVT0gT0riz5UKLLQG5V7QDZ6
+Date:    0x5771A014 [Mon Jun 27 21:52:20 2016 UTC]
+EP:      0x40e9df .text 0/5
+CRC:     Claimed: 0x27ed2e, Actual: 0x27ed2e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+DOWNLOADER.INI     0x2b398  0xc0c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+SZIP               0x2bfa4  0x23f77  LANG_NEUTRAL SUBLANG_NEUTRAL          7-zip archive data, version 0.3
+SZIP               0x4ff1c  0x1b12d  LANG_NEUTRAL SUBLANG_NEUTRAL          7-zip archive data, version 0.3
+SZIP               0x6b04c  0x8703   LANG_NEUTRAL SUBLANG_NEUTRAL          7-zip archive data, version 0.3
+SZIP               0x73750  0x201a6f LANG_NEUTRAL SUBLANG_NEUTRAL          7-zip archive data, version 0.3
+RT_ICON            0x2751c0 0x1628   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x2767e8 0xea8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x277690 0x8a8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x277f38 0x6c8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x278600 0x568    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x278b68 0x4c     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 5 icons, 64x64, 256-colors
+RT_VERSION         0x278bb4 0x40c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x278fc0 0x547    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d872      0x1da00      6.667112    
+.rdata     0x1f000      0x5ae8       0x5c00       4.891414    
+.data      0x25000      0x5b8c       0x1800       4.250113    
+.rsrc      0x2b000      0x24e508     0x24e600     7.998429    [SUSPICIOUS]
+.reloc     0x27a000     0x228a       0x2400       5.017778    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2016 AO Kaspersky Lab. All Rights Reserved.
+InternalName: Setup
+FileVersion: 17.0.0.611
+CompanyName: Kaspersky Lab
+LegalTrademarks: Registered trademarks and service marks are the property of their respective owners
+ProductName: Kaspersky Anti-Virus
+ProductVersion: 17.0.0.611
+FileDescription: Kaspersky Anti-Virus [17.0.0.611.0.167.0]
+OriginalFilename: Setup.exe
+Translation: 0x0409 0x04b0
+

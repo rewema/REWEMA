@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    466944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     535560619ae66e2f3ccd7a7ea68c4199
+SHA1:    9203892fb917079fef04587a3d89d07473ad88ee
+ssdeep:  12288:cfIYOX5gc2YkYEMGfnOI8c+r3El4GYUclY5md29:7YOX5gc2YoMGfOI8c+r3El4GYU
+Date:    0x417F0D72 [Wed Oct 27 02:52:34 2004 UTC]
+EP:      0x434220 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x7e570 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x42060  0x32e48  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40400  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x406e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x41e00  0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40838  0x15c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40998  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40a60  0x456    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40eb8  0x56c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41428  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x414e0  0x3be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x418a0  0x160    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41a00  0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x41a58  0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x74ea8  0x6c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x40810  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x41ab0  0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x41f30  0x12e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x33dca      0x34000      6.180400    
+.rdata     0x35000      0x31ca       0x4000       4.093449    
+.data      0x39000      0x600c       0x4000       4.624008    
+.rsrc      0x40000      0x34f18      0x35000      2.553837    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004
+InternalName: inkcode
+FileVersion: 1, 5, 0, 1
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: inkcode Application
+SpecialBuild: 
+ProductVersion: 1, 5, 0, 1
+FileDescription: inkcode MFC Application
+OriginalFilename: inkcode.EXE
+Translation: 0x0409 0x04b0
+

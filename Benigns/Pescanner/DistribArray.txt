@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4608 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     07630450bd713b24f2dbe36debf5e3dd
+SHA1:    9f77d703124bdb1c2ae2476c77f75584a269cca0
+ssdeep:  96:rXcVz/s4l4sw4M48lOs8GIYvyxfSLVnDQABMG4N0df:Tch/sMVwdLOqRLVDWU
+Date:    0x403F7525 [Fri Feb 27 16:49:41 2004 UTC]
+EP:      0x4029de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1092d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x9e4        0xa00        5.004363    
+.rsrc      0x4000       0x348        0x400        2.616475    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: DistribArray.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: DistribArray.exe
+

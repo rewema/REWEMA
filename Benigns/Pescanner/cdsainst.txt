@@ -1,0 +1,35 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    142848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2af4b5105c4fbd22d7a442710f14d90e
+SHA1:    32f98bd268f1a8da9b9e8c55a3e553b352576c4b
+ssdeep:  3072:ypsAkomP2jbus7PdKMsdvz3sXpSiEgCdeOeUe7e7e7eDeieDe006oIQPNg:0sZujbvFydvz3sXpSipCxGQP
+Date:    0x3818C5DB [Thu Oct 28 21:53:31 1999 UTC] [SUSPICIOUS]
+EP:      0x406aa0 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x2647f [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x260f0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x263d8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x26500  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14e70      0x15000      6.471540    
+.rdata     0x16000      0x5188       0x5200       4.023950    
+.data      0x1c000      0x8b88       0x7400       4.146771    
+.idata     0x25000      0xc88        0xe00        5.026329    
+.rsrc      0x26000      0x524        0x600        2.532499    
+

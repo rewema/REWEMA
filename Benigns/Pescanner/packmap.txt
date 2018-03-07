@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    101888 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     78c345e9c54201acb0b18fec4c8f9943
+SHA1:    2ea28cde5451fa8954e3a77ceb4541830c2e4745
+ssdeep:  3072:cRmoLLIyDFo4xMZqKVa9REsrlLzcJwdJis7I:cMo/IoCZGs6I
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4153a0 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x22ac6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x1d218  0x1f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1d410  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6553701 records)
+RT_STRING          0x1d5e0  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6488165 records)
+RT_STRING          0x1d6cc  0x1b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1d880  0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1dc64  0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1dfbc  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1e270  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x1e280  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x14664      0x14800      6.422162    
+DATA       0x16000      0x5a4        0x600        3.981769    
+BSS        0x17000      0x98d        0x0          0.000000    [SUSPICIOUS]
+.idata     0x18000      0xb5c        0xc00        4.662293    
+.tls       0x19000      0xc          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1a000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x1b000      0x194c       0x1a00       6.580050    
+.rsrc      0x1d000      0x1400       0x1400       3.445300    
+

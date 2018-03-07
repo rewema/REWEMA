@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4480edfeef31fe4fa0213528edbbc1ea
+SHA1:    18a93f83970989b8518bdf91dfdb4bb4465d2938
+ssdeep:  768:hwzqy32JApTyn/9A/CGhctry9As18tLLKL/:hcEOYunKM6o
+Date:    0x4A5BC1E1 [Mon Jul 13 23:23:13 2009 UTC]
+EP:      0x10047e2 .text 0/4
+CRC:     Claimed: 0x1108c, Actual: 0x1108c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc8b0   0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x8850   0x3d92   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8470   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8190   0x2dd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_MANIFEST        0xc5e8   0x2c2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x46d2       0x4800       6.471186    
+.data      0x6000       0x1084       0x200        1.091777    
+.rsrc      0x8000       0x49a0       0x4a00       4.041349    
+.reloc     0xd000       0x61e        0x800        4.772537    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: psxrun.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft Windows Subsystem for UNIX-based Applications
+ProductVersion: 6.1.7600.16385
+FileDescription: SUA Subsystem Nonconsole Session Manager
+OriginalFilename: psxrun.exe
+Translation: 0x0409 0x04b0
+

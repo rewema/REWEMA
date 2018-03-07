@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17408 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     dad18c89b888f42154f29c25b18f4fe9
+SHA1:    757a038ea22445a2f26b31e3837ed302954226a1
+ssdeep:  384:D5iDoEQjkjC8S5LCXd9FkYhDO8FNWYwWLQD:9iD2jkjHjBM8F5Jk
+Date:    0x5789911A [Sat Jul 16 01:42:50 2016 UTC]
+EP:      0x4029c0 .text 0/6
+CRC:     Claimed: 0xb183, Actual: 0xb183 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7770   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a8   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2b5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2184       0x2200       6.104935    
+.data      0x4000       0xd98        0x200        0.634044    [SUSPICIOUS]
+.idata     0x5000       0xa70        0xc00        4.360411    
+.didat     0x6000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x7000       0x838        0xa00        3.757138    
+.reloc     0x8000       0x2a4        0x400        4.952628    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: cmdkey.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Credential Manager Command Line Utility
+OriginalFilename: cmdkey.exe
+Translation: 0x0409 0x04b0
+

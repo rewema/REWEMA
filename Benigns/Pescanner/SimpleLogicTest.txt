@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     7cd387c67346cf104ebd7fffb2a3144c
+SHA1:    99a984b1b73e3b2f17a44e8f0511d61819b5b92d
+ssdeep:  48:6O4fJJc5fNGz/akyAgoh+PLUgdoywvIAAvFcXHttoRuOPtglZ+0C6lZ9L9VH:lIJJcez/akyAEPgX1AvFcOO+0Ce
+Date:    0x43EF3788 [Sun Feb 12 13:26:32 2006 UTC]
+EP:      0x402a4e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xa1e3 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4440   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4728   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4850   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa54        0x1000       3.834805    
+.rsrc      0x4000       0x878        0x1000       2.073485    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2234.30496
+InternalName: SimpleLogicTest.exe
+FileVersion: 1.0.2234.30496
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2234.30496
+FileDescription:  
+OriginalFilename: SimpleLogicTest.exe
+

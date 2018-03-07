@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    349184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d5a3015adec2f6420c51994984718b51
+SHA1:    9ead30d77c6e51aac1e121451996eaa3842fb50d
+ssdeep:  6144:VgPz/KHVxHEVHHHQVb1kHVqHVqHQQbTuTRTHTfTEHVf2XTMTITQT+VreZsTqIVTa:CPzQH+S+
+Date:    0x57898EE7 [Sat Jul 16 01:33:27 2016 UTC]
+EP:      0x4094a0 .text 0/5
+CRC:     Claimed: 0x5eb94, Actual: 0x5eb94 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x56900  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0xf918   0x31646  LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_ICON            0x40f60  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x415c8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x418b0  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x41a98  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x41bc0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42a68  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43310  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x439d8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x43f40  0xe0d4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x52018  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x545c0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55668  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55ff0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x56458  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x56518  0x3e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf420   0x4f5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9b1d       0x9c00       5.796085    
+.data      0xb000       0x484        0x200        2.816782    
+.idata     0xc000       0x2df6       0x2e00       5.679211    
+.rsrc      0xf000       0x479e8      0x47a00      6.489199    
+.reloc     0x57000      0x9c8        0xa00        6.512377    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bdechangepin.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: BitLocker Drive Encryption: PIN Change Tool
+OriginalFilename: bdechangepin.exe
+Translation: 0x0409 0x04b0
+

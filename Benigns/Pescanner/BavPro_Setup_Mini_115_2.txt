@@ -1,0 +1,98 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1211240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f65d4edc1efc1b778ded8a8700956e2d
+SHA1:    103a7ac1c15ba16d511b5d8ab30492fdde5a4085
+ssdeep:  24576:xpIsPBFKaYtSTACnhVS94MzhcNmFYNMsjFxTPq:9FK9STnhAzSeY+sjF1S
+Date:    0x52BD4374 [Fri Dec 27 09:08:04 2013 UTC]
+EP:      0x489782 .text 0/4
+CRC:     Claimed: 0x12a853, Actual: 0x12a853 
+
+Signature scans
+================================================================================
+YARA: spam
+   0x103db0L => RCPT TO:
+   0x103dbcL => RCPT TO:
+   0x103d50L => MAIL FROM:
+   0x103d60L => MAIL FROM:
+   0x103d78L => MAIL FROM:
+   0x103d98L => MAIL FROM:
+   0x103cdcL => EHLO 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1236d0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1278f8 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x129ea0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12af48 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12b3b0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12b818 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12bc80 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12c0e8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12c550 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12c9b8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12ce20 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12d288 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12d6f0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12db58 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12dfc0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12e428 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x12e890 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x12e980 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x12e9b0 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 64x64, 256-colors
+RT_GROUP_ICON      0x12e9f0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea04 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea18 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea2c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea40 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea54 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea68 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea7c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12ea90 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12eaa4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12eab8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x12eacc 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x12eae0 0x2ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x12edcc 0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+CreateProcessAsUserW
+OpenProcessToken
+ShellExecuteW
+ShellExecuteExW
+HttpSendRequestW
+InternetConnectW
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe950f      0xe9600      6.521585    
+.rdata     0xeb000      0x2c29e      0x2c400      4.825905    
+.data      0x118000     0xa7f8       0x4200       4.399220    
+.rsrc      0x123000     0xc138       0xc200       5.990646    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2013 Baidu, Inc. All rights reserved.
+InternalName: Baidu Antivirus
+FileVersion: 4,4,0,55042
+CompanyName: Baidu, Inc.
+ProductName: Baidu Antivirus
+ProductVersion: 4,4,0,55042
+FileDescription: Baidu Antivirus Updater
+Translation: 0x0409 0x04b0
+

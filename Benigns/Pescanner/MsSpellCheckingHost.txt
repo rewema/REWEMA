@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    62464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     077ceb54b09218dc4e4d724f97616ff1
+SHA1:    f1eb659e772db6d1bbc12e1396642c8109c10e09
+ssdeep:  768:Uf5lR9ZI6weAZJzpj2unCIM9wBf3LWNz8YLEkUi36LOS9ZhY9h1lZdbEpbApC463:URlR9VmjWULWNzVUeLLZVEpbApC4rG
+Date:    0x57898EEA [Sat Jul 16 01:33:30 2016 UTC]
+EP:      0x409ef0 .text 0/5
+CRC:     Claimed: 0x1b47f, Actual: 0x1b47f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x11520  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x11020  0x4fa    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+WEVT_TEMPLATE      0x10800  0x81a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x10428  0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x101b0  0x273    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb440       0xb600       6.132854    
+.data      0xd000       0x7fc        0x400        3.988791    
+.idata     0xe000       0x10ee       0x1200       4.983334    
+.rsrc      0x10000      0x1618       0x1800       4.236257    
+.reloc     0x12000      0xbdc        0xc00        6.638508    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MsSpellCheckingHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Spell Checking Host
+OriginalFilename: MsSpellCheckingHost.exe
+Translation: 0x0409 0x04b0
+

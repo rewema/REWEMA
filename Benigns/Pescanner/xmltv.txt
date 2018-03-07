@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8646718 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a6ca1ccf5df1ee9b557b70b513d8cd11
+SHA1:    f85dc7419b5e09393f7710fd16737f28c320a545
+ssdeep:  196608:CTR0U7e87ZPEmK0ejfDJ7e65MkftHlkugDenTmiG2V42rc:CTSmeKE3Nj97eSUjDeTmiH42Y
+Date:    0x3FA73AD8 [Tue Nov  4 05:36:24 2003 UTC]
+EP:      0x4058be .text 0/4
+CRC:     Claimed: 0x845ce3, Actual: 0x845ce3 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BFS                0xf450   0x82f248 LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf168   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x83e698 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x83e7c0 0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x83e7e8 0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9194       0xa000       5.990150    
+.rdata     0xb000       0x9fc        0x1000       3.221940    
+.data      0xc000       0x25f0       0x3000       3.596355    
+.rsrc      0xf000       0x82fb90     0x830000     7.988982    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: GNU General Public License http://www.gnu.org/licenses/gpl.txt
+InternalName: xmltv.exe
+FileVersion: 2009.8.10.0
+CompanyName: XMLTV Project http://www.xmltv.org
+LegalTrademarks: 
+ProductName: xmltv
+ProductVersion: 0.5.56.0
+FileDescription: EXE bundle of XMLTV tools to manage TV Listings
+OriginalFilename: xmltv.exe
+

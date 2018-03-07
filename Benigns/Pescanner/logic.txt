@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     75703e27984df9941d28ce70487fb568
+SHA1:    b7551cf89fc20b3e8a1e107a043d5e87091559d7
+ssdeep:  96:QaU+D+/NrzauiW9/lZuc1a5MXzrhhIkf4JmLHAJA77WL3Z823li2ZrPidQUD2Z/m:It/F9P15DEkAJmLms7OZXpLZ03R
+Date:    0x43EF3788 [Sun Feb 12 13:26:32 2006 UTC]
+EP:      0x40391e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x67bc [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4418   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4700   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4828   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x2fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1924       0x2000       4.604570    
+.rsrc      0x4000       0x850        0x1000       2.034134    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2234.30496
+InternalName: logic.exe
+FileVersion: 1.0.2234.30496
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2234.30496
+FileDescription:  
+OriginalFilename: logic.exe
+

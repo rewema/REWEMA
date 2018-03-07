@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    353280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2f116efeee641176c0ef0c0670263690
+SHA1:    80d6fee7d2190e9ffd0eef4dc0b51c662cf72f5b
+ssdeep:  6144:/ap0yN90QE0Fml97y9edHwgKNWZLE1fTp+7F39qxj8klz5w:Ty90hi9kiRTp8qxwUi
+Date:    0x57899132 [Sat Jul 16 01:43:14 2016 UTC]
+EP:      0x406bd0 .text 0/5
+CRC:     Claimed: 0x61126, Actual: 0x61126 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0xc928   0x2e1a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+RT_ICON            0xf744   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfdac   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10094  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1027c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x103a4  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1124c  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11af4  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x121bc  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12724  0xd9d2   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x200f8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x226a0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23748  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x240d0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x24538  0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x24804  0x18a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x24990  0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x24ad0  0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x24c68  0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x24d78  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x24e74  0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x24f00  0x520    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25420  0x5cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x259ec  0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25e9c  0x44a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x262e8  0x3ce    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x266b8  0x32822  LANG_ENGLISH SUBLANG_ENGLISH_US       Microsoft Cabinet archive data, 206882 bytes, 8 files
+RT_RCDATA          0x58edc  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_RCDATA          0x58ee0  0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x58f04  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x58f0c  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x58f14  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x58f18  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x58f1c  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x58f24  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x58f28  0x15     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x58f40  0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_GROUP_ICON      0x58f48  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x59004  0x404    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x59408  0x7e2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x651c       0x6600       6.306543    
+.data      0x8000       0x1a48       0x200        4.970640    
+.idata     0xa000       0x106e       0x1200       5.057154    
+.rsrc      0xc000       0x4e000      0x4dc00      7.770027    [SUSPICIOUS]
+.reloc     0x5a000      0x890        0xa00        6.274662    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Wextract                
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: Win32 Cabinet Self-Extractor                                           
+OriginalFilename: WEXTRACT.EXE            
+Translation: 0x0409 0x04b0
+

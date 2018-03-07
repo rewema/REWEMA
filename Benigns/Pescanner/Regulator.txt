@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    647168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     6294f237c18655879538b2f667439647
+SHA1:    7cd23d4020ac16d2c1390962da05cd3c18b7a3ce
+ssdeep:  6144:FAZq4PIuM6PGm04SkFyeIVyeCHQ0WgwV6DKPOc3:iZq4QuM6PD041yXVyzHQ8Y6DK
+Date:    0x40BBABB9 [Mon May 31 22:03:37 2004 UTC]
+EP:      0x486b3e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xa6e90 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x88568  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x89410  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x89cb8  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x8a220  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x9aa48  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x9cff0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x9e098  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x9e500  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 48x48, 256-colors
+RT_VERSION         0x88208  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x84b44      0x85000      5.512165    
+.rsrc      0x88000      0x16568      0x17000      4.425140    
+.reloc     0xa0000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: 2004 Roy Osherove
+Assembly Version: 2.0.3.0
+InternalName: Regulator.exe
+FileVersion: 2.0.3.0
+CompanyName: Roy Osherove
+LegalTrademarks:  
+Comments: The Regulator
+ProductName: The Regulator
+ProductVersion: 2.0.3.0
+FileDescription: The Regulator
+OriginalFilename: Regulator.exe
+

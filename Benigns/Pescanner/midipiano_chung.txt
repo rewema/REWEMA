@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    486912 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a6adc1102b988708e28e4c29dcb20714
+SHA1:    5080a245cbd470e534d7030c226a52a40813cc6c
+ssdeep:  12288:W5qG4h8qa4THiyQ+dUdvKeDEl0TIVYkPTSl:cyQ+dQvbc0TIOkWl
+Date:    0x52235207 [Sun Sep  1 14:41:11 2013 UTC]
+EP:      0x401284 .text 0/10
+CRC:     Claimed: 0x7fb63, Actual: 0x7fb63 
+
+TLS callbacks
+================================================================================
+    0x4639e8
+    0x4639b4
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5b200c0 0x4540   LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x5b24600 0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x63510      0x63600      6.648889    
+.data      0x65000      0x25d8       0x2600       4.687605    
+.rdata     0x68000      0x2b68       0x2c00       6.564436    
+.bss       0x6b000      0x5aafb84    0x0          0.000000    [SUSPICIOUS]
+.edata     0x5b1b000    0xd0b        0xe00        5.516936    
+.idata     0x5b1c000    0x1950       0x1a00       5.602140    
+.CRT       0x5b1e000    0x18         0x200        0.114463    [SUSPICIOUS]
+.tls       0x5b1f000    0x20         0x200        0.291424    [SUSPICIOUS]
+.rsrc      0x5b20000    0x4614       0x4800       3.255541    
+.reloc     0x5b25000    0x6d18       0x6e00       6.819430    
+

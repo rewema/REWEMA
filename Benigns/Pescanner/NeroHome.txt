@@ -1,0 +1,78 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    697904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     682426517e2ebfde5177d616ff205a73
+SHA1:    30faf00cae5f644d9adf055e73a72b370119dd15
+ssdeep:  6144:qaTI42X/iKBCyMkM2xIiUfGOKYdYt0dinQ1fSjcuf+ZmrQ9mNP:qJXX/i8/zOxmnQlHmrQ9O
+Date:    0x465D4E78 [Wed May 30 10:14:16 2007 UTC]
+EP:      0x415a62 .text 0/4
+CRC:     Claimed: 0xb7519, Actual: 0xb7519 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+DICTIONARY         0x23630  0x971    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x24050  0x79     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x240d0  0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+RESID              0x23fa8  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24378  0xa068   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e3e0  0x2868   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30c48  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x316b0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31d18  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x32000  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x321e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x32310  0x12428  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44738  0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x49360  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4a988  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4b830  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4c0d8  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4c7a0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4cd08  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8ed30  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9f558  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa3780  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa5d28  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa6dd0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa7758  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0xa8068  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xa7bc0  0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 21 icons, 16-colors
+RT_VERSION         0xa7cf0  0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x176b0      0x18000      6.296915    
+.rdata     0x19000      0x8d40       0x9000       5.091617    
+.data      0x22000      0xa6c        0x1000       1.718263    
+.rsrc      0x23000      0x85120      0x86000      4.777101    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1995-2006 Nero AG and its licensors
+InternalName: NeroMediaBrowser
+FileVersion: 2,0,13,1
+CompanyName: Nero AG
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Nero Home
+SpecialBuild: 
+ProductVersion: 2,0,13,1
+FileDescription: Nero Home
+OriginalFilename: NeroHome.exe
+Translation: 0x0000 0x04b0
+

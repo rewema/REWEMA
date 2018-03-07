@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e051296db680cc2f1f7ad1547394073a
+SHA1:    d4833ca3ac8814641ea366d1a0d973c7f6cd9c6b
+ssdeep:  768:0eF3iEe+zsUnVrsNmwaNznka90fuvnozszuhdica9k24G0In3BhzhWM1GOVz173E:zF3iEe+RnVlNz7P+6sa9k8Z3qOTjE
+Date:    0x57899177 [Sat Jul 16 01:44:23 2016 UTC]
+EP:      0x4067f0 .text 0/5
+CRC:     Claimed: 0x1bacb, Actual: 0x1bacb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa720   0x1a13   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xc138   0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x10360  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12908  0x1a68   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x14370  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x15418  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x15da0  0x6b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x16458  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x168c0  0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x16938  0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xa280   0x49e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6340       0x6400       6.232398    
+.data      0x8000       0x878        0x400        3.203807    
+.idata     0x9000       0xc08        0xe00        4.843339    
+.rsrc      0xa000       0xccf8       0xce00       5.088258    
+.reloc     0x17000      0x630        0x800        5.720747    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DevicePairing
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Device Pairing Application
+OriginalFilename: DevicePairing.exe
+Translation: 0x0409 0x04b0
+

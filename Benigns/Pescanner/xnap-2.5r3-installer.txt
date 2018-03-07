@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1272983 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bc6d82dfdaacb3d6a2ae8450adf04679
+SHA1:    47ab4154bc5b3d7b2a52f57319119f83f5095f64
+ssdeep:  24576:seuQO1mih0JyxlKN8exJ9Ye04bP+xpD7RmpY943UXz:seMmeIxJymbP+x92lq
+Date:    0x3BEB2B8F [Fri Nov  9 01:04:15 2001 UTC]
+EP:      0x404a6a .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x13be10 [SUSPICIOUS]
+Packers: Nullsoft PIMP Install System v1.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x12b28  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x12c80  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12828  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12280  0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12310  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12428  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12528  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12608  0x11e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12728  0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x127d0  0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x12b10  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6522       0x6600       6.434330    
+.rdata     0x8000       0xf62        0x1000       5.103035    
+.data      0x9000       0x822c       0x600        4.431154    
+.rsrc      0x12000      0xdd8        0xe00        3.437257    
+

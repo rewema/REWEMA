@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    35840 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c1a2b1da0df1127ae2d89bbbd511fa29
+SHA1:    fe29fe6810706172235d5afaa37017a8084a8422
+ssdeep:  768:JzDoyDTKBTMaKF1D5ynjOjJqTOQ3MUhH:J3oAT6n3TOQ33
+Date:    0x57899146 [Sat Jul 16 01:43:34 2016 UTC]
+EP:      0x4051d0 .text 0/6
+CRC:     Claimed: 0x12dd4, Actual: 0x12dd4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0xae80   0x1b3    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xb038   0x115    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TEXTINCLUDE        0x9838   0x1b     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x9858   0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9480   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x91f0   0x28e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4bbc       0x4c00       6.229267    
+.data      0x6000       0x4b8        0x200        0.853058    [SUSPICIOUS]
+.idata     0x7000       0xe76        0x1000       4.630161    
+.didat     0x8000       0x30         0x200        0.468880    [SUSPICIOUS]
+.rsrc      0x9000       0x2150       0x2200       4.565397    
+.reloc     0xc000       0x5b0        0x600        6.476866    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: upnpcont.dll
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: UPnP Device Host Container
+OriginalFilename: upnpcont.dll
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    138920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     607a332709458f781c20ab49940c4b64
+SHA1:    923409be6c1b183c74da221dd23a42b4b981ba19
+ssdeep:  1536:uMpeguHQeJD3z7NF0Y1g/z1EwyjcOzk954H6STYSs+sRd1cccTMTsWjcdLEs6y2S:Js5HQeh/vgLewZUFYdmJ4s6puehSE+EU
+Date:    0x57C10093 [Sat Aug 27 02:53:07 2016 UTC]
+EP:      0x403980 .text 0/5
+CRC:     Claimed: 0x2b4ae, Actual: 0x2b4ae 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_DIALOG          0x20348  0x194    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20140  0x204    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x204e0  0x32c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x20810  0x303    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xec84       0xee00       6.587497    
+.rdata     0x10000      0xba70       0xbc00       4.610293    
+.data      0x1c000      0x313c       0x1400       3.426407    
+.rsrc      0x20000      0xb18        0xc00        4.014952    
+.reloc     0x21000      0x1030       0x1200       6.324847    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000-2016 Mark Russinovich
+InternalName: Autolog
+FileVersion: 3.10
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Autologon
+ProductVersion: 3.10
+FileDescription: Autologon configuration
+OriginalFilename: Autolog.exe
+Translation: 0x0409 0x04b0
+

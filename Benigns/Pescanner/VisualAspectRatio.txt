@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     49cc2086258f3b20c4392ab3ad1ab347
+SHA1:    8c40bb32dcec546a976e19afeda92b13577e2ef0
+ssdeep:  192:HnUqw9cLEyzN36ogF52GILoTp+l8v7TF+EEuWlF:HUBcLztA2GQuol8v7x+PuWl
+Date:    0x4EF3A6E9 [Thu Dec 22 21:53:45 2011 UTC]
+EP:      0x4041be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xf6bd [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x60a0   0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x63d8   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x21c4       0x2200       5.426789    
+.rsrc      0x6000       0x5c8        0x600        4.116055    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2011
+Assembly Version: 1.0.0.0
+InternalName: VisualAspectRatio.exe
+FileVersion: 1.0.0.0
+CompanyName: Microsoft
+ProductName: VisualAspectRatio
+ProductVersion: 1.0.0.0
+FileDescription: VisualAspectRatio
+OriginalFilename: VisualAspectRatio.exe
+

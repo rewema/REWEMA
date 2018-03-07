@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    110080 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     311c9d7c41b050d8176e3c9a75127f08
+SHA1:    baa31fd0222164d52e004665f84058243b526701
+ssdeep:  3072:YyBqpCTrzpC8tNuqPNedukc0Cu6HKpDg9USHpysI1:YKr1C8tNubcVSDg9USH
+Date:    0x5789913B [Sat Jul 16 01:43:23 2016 UTC]
+EP:      0x417a20 .text 0/5
+CRC:     Claimed: 0x1eddc, Actual: 0x1eddc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1c480  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1c0b0  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17224      0x17400      6.412497    
+.data      0x19000      0x630        0x200        2.699118    
+.idata     0x1a000      0x173c       0x1800       5.217794    
+.rsrc      0x1c000      0x548        0x600        3.005104    
+.reloc     0x1d000      0x15b0       0x1600       6.739602    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TrustedInstaller.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Modules Installer
+OriginalFilename: TrustedInstaller.exe
+Translation: 0x0409 0x04b0
+

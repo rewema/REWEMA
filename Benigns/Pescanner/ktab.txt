@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15936 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     09c754efaee0da93817d5dc0a5ffe8b4
+SHA1:    b5e1de3ae0e35ccdd57f463cd7057b13ff7c4936
+ssdeep:  384:Gpst5cnbKZmSHhV8p2ee84SzSMnYPLr7wJl:GpsYnBS/8p7e8RC7wJl
+Date:    0x57E48D0F [Fri Sep 23 02:01:51 2016 UTC]
+EP:      0x40137c .text 0/5
+CRC:     Claimed: 0x137a6, Actual: 0x137a6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x43d4   0x673    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8da        0xa00        5.673112    
+.rdata     0x2000       0x7aa        0x800        5.028339    
+.data      0x3000       0x3ac        0x200        0.773622    [SUSPICIOUS]
+.rsrc      0x4000       0xa48        0xc00        5.254808    
+.reloc     0x5000       0x1d8        0x200        5.080019    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2016
+InternalName: ktab
+FileVersion: 8.0.1110.14
+Full Version: 1.8.0_111-b14
+CompanyName: Oracle Corporation
+ProductName: Java(TM) Platform SE 8
+ProductVersion: 8.0.1110.14
+FileDescription: Java(TM) Platform SE binary
+OriginalFilename: ktab.exe
+Translation: 0x0000 0x04b0
+

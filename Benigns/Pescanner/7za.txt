@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    237056 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e0806809deb51774f044937d2f0ea1dc
+SHA1:    f5ea1d3d9659b6364b74e750a6f68a31e0305c34
+ssdeep:  3072:rp5h/HhsMXRpy9tG4OVGvUPtlkONVMZSgFvwagK5ZKBQauhp8aZnIML17pc73Bb:rbhqYpy98PHzkfZSgFo85kB2hzTdsB
+Date:    0x4987F063 [Tue Feb  3 07:21:07 2009 UTC]
+EP:      0x48c140 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x47074 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8d05c  0x2c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x52000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x53000      0x3a000      0x39400      7.920387    [SUSPICIOUS]
+.rsrc      0x8d000      0x1000       0x600        2.756275    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1999-2009 Igor Pavlov
+InternalName: 7za
+FileVersion: 4.65
+CompanyName: Igor Pavlov
+ProductName: 7-Zip
+ProductVersion: 4.65
+FileDescription: 7-Zip Standalone Console
+OriginalFilename: 7za.exe
+Translation: 0x0409 0x04b0
+

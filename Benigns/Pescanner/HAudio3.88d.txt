@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    554787 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d23b1ce621de60c064c0fe36c5800366
+SHA1:    0f53720393b6f44e7300b59beee9246b5a3c63d6
+ssdeep:  12288:/KG1flCxm/+k8PlPQaQhWL8CyfSuET4uMDI+44:/P1NF/+k8XQcaSuE8ZD1Z
+Date:    0x3A80C690 [Wed Feb  7 03:52:48 2001 UTC]
+EP:      0x401dc5 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x87b87 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7270   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7558   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x7818   0x274    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x82b0   0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x76a8   0x16e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x7a90   0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7680   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x7d60   0x54c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2d0c       0x3000       6.233264    
+.rdata     0x4000       0xd06        0x1000       5.176685    
+.data      0x5000       0x1820       0x1000       2.921913    
+.rsrc      0x7000       0x13b8       0x2000       2.643959    
+
+Version info
+================================================================================
+Website: http://www.gkware.com
+LegalCopyright: Copyright \xa9 Gero Kuehn 1997 - 2001
+InternalName: WINSFX
+FileVersion: 2.00.0
+CompanyName: Gero Kuehn
+ProductName: GkWare Self extractor
+ProductVersion: 2.00.0
+FileDescription: GkWare Self extractor
+em@il: support@gkware.com
+This is not the support/contact adress for the content of the archive.This email is only for questions about the setup-generator software and this self-extractor stub.
+
+Please check the content of the archive for other contact details !
+OriginalFilename: WINSFX.EXE
+Translation: 0x0407 0x04b0
+

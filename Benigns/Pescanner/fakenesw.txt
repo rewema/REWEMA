@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1729115 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3c4f32cb87ec74d1d13174f25b286bc3
+SHA1:    4a3da96d1816ca9701026927d78991f1f92281ff
+ssdeep:  24576:ihO4tYJfNFk/XF20ARrAWRzWsEKunyY+ATtyvz:i7tYJfNFqF20ARrRze2vz
+Date:    0x4680C22D [Tue Jun 26 07:37:17 2007 UTC]
+EP:      0x4012a0 .text 0/6
+CRC:     Claimed: 0x1a6e81, Actual: 0x1a6e81 
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: irc
+   0x1966d2L => msg
+   0x14d87bL => Nick
+   0x15126cL => nick
+   0x152368L => notice
+   0x1350a4L => CHAT
+   0x138eb1L => CHAT
+   0x13f543L => CHAT
+   0x153408L => chat
+   0x153441L => chat
+   0x18be58L => chat
+   0x18be75L => chat
+   0x18be97L => chat
+   0x18beb1L => chat
+   0x18bed0L => chat
+   0x18beecL => chat
+   0x193deaL => chat
+   0x193e97L => chat
+   0x1a4229L => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6720ec 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6723d4 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x672c7c 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd0bdc      0xd0c00      6.131053    
+.data      0xd2000      0x63c90      0x63e00      2.558619    
+.rdata     0x136000     0x2bd68      0x2be00      6.216821    
+.bss       0x162000     0x50b030     0x0          0.000000    [SUSPICIOUS]
+.idata     0x66e000     0x3434       0x3600       5.206918    
+.rsrc      0x672000     0xca0        0xe00        3.410348    
+

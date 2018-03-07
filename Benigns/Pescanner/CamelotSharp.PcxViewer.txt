@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8192 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     271205fa2fc317892038cb92ea26f4f9
+SHA1:    77beab2e081b6152aa65d5ab89a84bd3d172b7c7
+ssdeep:  96:soJ0GJBAP8SabpH535R06ZAq3v6MRFpYi+2q2gaqXTfQJM0aZ:AP8SaZ535R09Yvxxq2EXLQJC
+Date:    0x3DFD1297 [Sun Dec 15 23:39:03 2002 UTC]
+EP:      0x4030ee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x4db0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4410   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x46f8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4820   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x2f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x10f4       0x1200       5.147250    
+.rsrc      0x4000       0x848        0xa00        2.904667    
+.reloc     0x6000       0xc          0x200        0.077633    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1080.1171
+InternalName: TestPcx.exe
+FileVersion: 1.0.1080.1171
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1080.1171
+FileDescription:  
+OriginalFilename: TestPcx.exe
+

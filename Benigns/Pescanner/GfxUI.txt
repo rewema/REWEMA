@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6232048 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     82d2d18ec555896cb1d11ac68d8f3d4b
+SHA1:    cce61a13940037c38f8175a6e4e73d56302d1610
+ssdeep:  98304:NBrczVC5h5lzcf4sYHrexLTvSXFZP+DunI54O+gqL1cYQtfXEmlsvmLTnVCeilhq:Nyc5jaOHix3U71nI53qxcFt8ml1tAxC
+Date:    0x513A99AC [Sat Mar  9 02:08:44 2013 UTC]
+EP:      0x9c83be .text 0/3
+CRC:     Claimed: 0x5fbea8, Actual: 0x5fbea8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5ca6e0 0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5cad48 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5cb030 0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5cb218 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x5cb340 0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5cc1e8 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5cca90 0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5cd158 0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x5cd6c0 0x10adc  LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x5de1a0 0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5ee9c8 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5f0f70 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5f2018 0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5f29a0 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x5f2e08 0xca     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 14 icons, 48x48, 16-colors
+RT_VERSION         0x5ca358 0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5c63c4     0x5c6400     7.743166    [SUSPICIOUS]
+.rsrc      0x5ca000     0x28ed8      0x29000      6.604058    
+.reloc     0x5f4000     0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Intel Corporation.  All rights reserved.
+Assembly Version: 8.15.10.3062
+InternalName: GfxUI.exe
+FileVersion: 8.15.10.3062
+CompanyName: Intel Corporation
+LegalTrademarks: Intel
+ProductName: Intel Graphics Properties
+ProductVersion: 8.15.10.3062
+FileDescription: GfxUI
+OriginalFilename: GfxUI.exe
+

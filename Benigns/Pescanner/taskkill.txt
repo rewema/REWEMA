@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    75776 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b4794c350b825853a8c6c6fd2e3d606c
+SHA1:    c181eead6a710ef2a18c5972c8d2040a845d05e8
+ssdeep:  1536:MZIul06HfQhZEXyl3g740o5zQMfgyhP/q+bgVxDWW:QBYh+ilw2tQMfpC+bgVxyW
+Date:    0x57899167 [Sat Jul 16 01:44:07 2016 UTC]
+EP:      0x40de30 .text 0/5
+CRC:     Claimed: 0x1be8b, Actual: 0x1be8b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14838  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x14490  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x140f0  0x39b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf148       0xf200       6.194002    
+.data      0x11000      0x4cc        0x200        0.909806    [SUSPICIOUS]
+.idata     0x12000      0x1470       0x1600       5.366169    
+.rsrc      0x14000      0x900        0xa00        4.206550    
+.reloc     0x15000      0xe84        0x1000       6.456410    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: taskkill.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Terminates Processes
+OriginalFilename: taskkill.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    858624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0a6425acc7ece851f3cac07ff65b2199
+SHA1:    ffa8f7e20654b6a89991155a92d656a4b6136309
+ssdeep:  6144:NAeh7kAr7eWBp4KjYy8Z84duSFYb4pQzZ7/NORt9LwKQ55tliQEOJfRlljzqQHqe:fhYAXeWgBA9mlwFE4U4FHo
+Date:    0x3F7AFA5B [Wed Oct  1 16:01:31 2003 UTC]
+EP:      0x40e0c4 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xd7974 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x15640  0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x15900  0x40428  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55d40  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x560a8  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x57d50  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x58a28  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x58d10  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_MENU            0x58e60  0x152    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x58fb8  0x3c2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x59380  0x556    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd34b0  0x4aa    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3e10  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3960  0x4a     LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0xd39f8  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3a50  0x106    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd39b0  0x46     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (5505112 records)
+RT_STRING          0xd3b58  0xc6     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3c20  0x168    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd3d88  0x86     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x59e98  0x1e31c  LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+RT_RCDATA          0x781b8  0x766    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+RT_RCDATA          0x78920  0x546f6  LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+RT_RCDATA          0xcd018  0x6494   LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+RT_GROUP_ICON      0x589f8  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x58e38  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x598d8  0x2fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x59bd8  0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+None               0x55d28  0x16     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdd90       0xde00       6.380349    
+.rdata     0xf000       0x414e       0x4200       5.185406    
+.data      0x14000      0x528        0x600        3.466803    
+.rsrc      0x15000      0xbef00      0xbf000      4.649128    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa92003, Koterpillar.
+InternalName: Battle Checkers.exe
+FileVersion: 1.3.6
+CompanyName: Nebo Hodimo
+ProductName: Battle Checkers
+ProductVersion: 1.3.6
+FileDescription: Battle Checkers game
+OriginalFilename: Battle Checkers.exe
+Translation: 0x0000 0x04b0
+

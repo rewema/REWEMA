@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    43184 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a8c0b99b47deea88d5ac6d04821def99
+SHA1:    f36aa3325dfa4d6fdb19acfffb5b394ba4cca249
+ssdeep:  768:ppGPOA9KJEFsU69rMJ3yBz6Xlt2xJxZ3UiTtmi/:XGtPasCB6uxJj3UQmi/
+Date:    0x5525F207 [Thu Apr  9 03:29:11 2015 UTC]
+EP:      0x4046c0 .text 0/5
+CRC:     Claimed: 0x133f1, Actual: 0x133f1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x81d8   0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x8304   0x1ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x84b0   0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x8520   0xf4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x8614   0x23c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x8850   0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8948   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8d0c   0x2de    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4044       0x4200       6.219663    
+.data      0x6000       0x54c        0x200        2.373276    
+.idata     0x7000       0xa62        0xc00        4.732481    
+.rsrc      0x8000       0xfec        0x1000       4.115264    
+.reloc     0x9000       0x538        0x600        6.268384    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CVTRES.EXE
+FileVersion: 12.00.52512.0 built by: VSWINSERVICING
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 12.00.52512.0
+FileDescription: Microsoft\xae Resource File To COFF Object Conversion Utility
+OriginalFilename: CVTRES.EXE
+Translation: 0x0409 0x04b0
+

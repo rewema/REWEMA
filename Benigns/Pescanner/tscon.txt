@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     c6ea34c2d9a6d7541e7e4c0dca380795
+SHA1:    6e140fefe34b732220e05fcdf38718d936e649aa
+ssdeep:  384:4vrzYf9G/TQ9qrfb/qXsBakXjAJyc4E8TTWjegW2X:4fY1G/06/M6xThMX
+Date:    0x57898D8B [Sat Jul 16 01:27:39 2016 UTC]
+EP:      0x403b00 .text 0/5
+CRC:     Claimed: 0xce9e, Actual: 0xce9e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8740   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a0   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x80f0   0x2af    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3224       0x3400       6.150137    
+.data      0x5000       0x1702       0x200        0.854333    [SUSPICIOUS]
+.idata     0x7000       0x81e        0xa00        4.379097    
+.rsrc      0x8000       0x808        0xa00        3.700773    
+.reloc     0x9000       0x354        0x400        5.860503    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: tscon
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Session Connection Utility
+OriginalFilename: tscon.exe
+Translation: 0x0409 0x04b0
+

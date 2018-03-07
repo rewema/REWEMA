@@ -1,0 +1,34 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f643c1f707df28fe641a8bd01295f1b9
+SHA1:    921178c337efcbfa5ef4026f4b2dfec998b867a7
+ssdeep:  192:mVr2EZAZ8IOjzMj0jor64zXicVOznSRFBll5kee4hPIFUDnvtBMRkdpBCx:ya4KzXhVOSrOd4lIFov75nBC
+Date:    0x45C86A0C [Tue Feb  6 11:44:12 2007 UTC]
+EP:      0x401260 .text 0/5
+CRC:     Claimed: 0xc4e4, Actual: 0xc4e4 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MENU            0xb0a0   0x116    LANG_NORWEGIAN SUBLANG_NORWEGIAN_BOKMAL data
+RT_DIALOG          0xb1b8   0xac     LANG_NORWEGIAN SUBLANG_NORWEGIAN_BOKMAL data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1ec0       0x2000       5.669522    
+.data      0x3000       0xf0         0x200        1.742796    
+.bss       0x4000       0x56a0       0x0          0.000000    [SUSPICIOUS]
+.idata     0xa000       0x654        0x800        3.780290    
+.rsrc      0xb000       0x264        0x400        1.909164    
+

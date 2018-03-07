@@ -1,0 +1,90 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    873808 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9f2d1fb8d497653838eb73ea8163fd16
+SHA1:    197520407a34d5268104715d7028baefb57c1d0a
+ssdeep:  24576:tirW2+Mf7k3KvkTgXuquveY+W2o8oT3ezMrl9cekcHhXh9HJUiWUXsmqsqzl87a+:tcj+MfI3KvkTgXuquveY+W2o8oT3ezMj
+Date:    0x54336EBA [Tue Oct  7 04:40:26 2014 UTC]
+EP:      0x40322e .text 0/5
+CRC:     Claimed: 0xd8520, Actual: 0xd8520 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x378d2L => This program cannot be run in DOS mode
+   0x3a6d6L => This program cannot be run in DOS mode
+   0x3eedaL => This program cannot be run in DOS mode
+   0x49cdeL => This program cannot be run in DOS mode
+   0x4aee2L => This program cannot be run in DOS mode
+   0x4bee6L => This program cannot be run in DOS mode
+   0x572eaL => This program cannot be run in DOS mode
+   0x584eeL => This program cannot be run in DOS mode
+   0x594f2L => This program cannot be run in DOS mode
+   0x5b8f6L => This program cannot be run in DOS mode
+   0x5cafaL => This program cannot be run in DOS mode
+   0x7ee38L => This program cannot be run in DOS mode
+   0x81c3cL => This program cannot be run in DOS mode
+   0x82e40L => This program cannot be run in DOS mode
+   0x8e244L => This program cannot be run in DOS mode
+   0x99048L => This program cannot be run in DOS mode
+   0x9d84cL => This program cannot be run in DOS mode
+   0xa1650L => This program cannot be run in DOS mode
+   0xa3054L => This program cannot be run in DOS mode
+   0xa4258L => This program cannot be run in DOS mode
+   0xd27c7L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4c358  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4e900  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f9a8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50850  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x510f8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x51760  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x51cc8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x52130  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x52418  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x52540  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x52740  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x52838  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x52898  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 16-colors
+RT_VERSION         0x52920  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x52c38  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x60ce       0x6200       6.469683    
+.rdata     0x8000       0x1460       0x1600       4.945965    
+.data      0xa000       0x2afb8      0x600        3.895316    
+.ndata     0x35000      0x17000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x4c000      0x7120       0x7200       5.823334    
+
+Version info
+================================================================================
+LegalCopyright: Mozilla Corporation
+FileVersion: 53.0.3
+CompanyName: Mozilla Corporation
+LegalTrademarks: Firefox is a Trademark of The Mozilla Foundation.
+ProductName: Firefox
+ProductVersion: 53.0.3
+FileDescription: Firefox Helper
+OriginalFilename: helper.exe
+Translation: 0x0409 0x04b0
+

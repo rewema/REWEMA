@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86656 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     120eb24dd379e3d8eb8c9e065d4b06fa
+SHA1:    66bd0b48de7e977d3bdc5fa2e666f18e4b5fe48a
+ssdeep:  1536:hNTBApxsdWLla3e7ByUN+ZpHJ4epTVs77Yose0:PBKI3e7BAm6Vs7rse0
+Date:    0x51543B87 [Thu Mar 28 12:45:59 2013 UTC]
+EP:      0x40c9c2 .text 0/4
+CRC:     Claimed: 0x16a88, Actual: 0x16a88 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x17160  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17448  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x17570  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x17bd8  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x17598  0x63d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+StartServiceCtrlDispatcherW
+CreateServiceW
+StartServiceW
+CreateProcessAsUserW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbeca       0xc000       6.365295    
+.rdata     0xd000       0x395a       0x3a00       4.911595    
+.data      0x11000      0x5004       0x2e00       1.236810    
+.rsrc      0x17000      0xf80        0x1000       4.595617    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2000-2013 The Apache Software Foundation.
+InternalName: Commons Daemon Service Runner
+FileVersion: 1.0.15.0
+CompanyName: Apache Software Foundation
+Comments: 
+ProductName: Commons Daemon Service Runner
+ProductVersion: 1.0.15.0
+FileDescription: Commons Daemon Service Runner
+OriginalFilename: prunsrv.exe
+Translation: 0x0409 0x04b0
+

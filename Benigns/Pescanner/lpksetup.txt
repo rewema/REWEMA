@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    622592 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     43e68a94b79da720b199718ecc8d05ef
+SHA1:    bb4d1025e45a5746e2a01407d56fe305906e37d4
+ssdeep:  12288:ToNA8BXGy1kVnOEmrogbJ8eLl0A7a3cKamVxgBab9q12dKMyLrVeI6vQ5OhWTx9U:ToNA8BXGyEn1mrogbJ5L5m3cKamVxgBE
+Date:    0x57898E1F [Sat Jul 16 01:30:07 2016 UTC]
+EP:      0x46bbc0 .text 0/5
+CRC:     Claimed: 0x9d328, Actual: 0x9d328 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x99c00  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x96fb8  0x2c42   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7e8c8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7ef30  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7f218  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7f400  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7f528  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x803d0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x80c78  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x81340  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x818a8  0x10e64  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x92710  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x94cb8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x95d60  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x966e8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x96b50  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x96c10  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7e430  0x496    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+OpenProcess
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x73690      0x73800      6.485779    
+.data      0x75000      0x5008       0x600        3.968542    
+.idata     0x7b000      0x250e       0x2600       5.647302    
+.rsrc      0x7e000      0x1bcf8      0x1be00      7.202884    [SUSPICIOUS]
+.reloc     0x9a000      0x59f4       0x5a00       6.735488    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: lpksetup
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Language Pack Installer
+OriginalFilename: lpksetup.exe
+Translation: 0x0409 0x04b0
+

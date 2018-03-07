@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9216 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     9a7b8cdf39acafbc0aaca4ebc2f3bcfe
+SHA1:    f77c37966128dc5bf1c13d6f0dd9b5096ea10df6
+ssdeep:  96:Cn9EOX72XUAB18Ajxh2hmDWPTMukKc8wHbZ4JM5cceXkbOIEWdbqWwHqH:YTX72XLB1YTwFluM5c1XkSBWdbqWf
+Date:    0x578991C2 [Sat Jul 16 01:45:38 2016 UTC]
+EP:      0x4016d0 .text 0/6
+CRC:     Claimed: 0x425c, Actual: 0x425c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5060   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd9c        0xe00        5.469030    
+.data      0x2000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x4dc        0x600        4.053096    
+.didat     0x4000       0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x5000       0x410        0x600        2.447146    
+.reloc     0x6000       0x14c        0x200        4.571201    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: nethost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: EXE for configuring VPN proxy
+OriginalFilename: nethost.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    17408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     70d0a31cf8ae6e3e19af484bb99a33a8
+SHA1:    cbff617d7764d0c75d216367316cb15c6c09869b
+ssdeep:  384:T/NZpNUJxU57wabItLsbsi0MgGxysrCjeW8wGsLz3q5u4Y3AoRs:rVWfU6uam
+Date:    0x4F50F321 [Fri Mar  2 16:19:45 2012 UTC]
+EP:      0x4058fe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x602f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x60a0   0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x6390   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3904       0x3a00       5.265446    
+.rsrc      0x6000       0x580        0x600        4.048245    
+.reloc     0x8000       0xc          0x200        0.061163    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright 2011
+Assembly Version: 1.0.4444.29392
+InternalName: emlextract.exe
+FileVersion: 1.0.4444.29392
+ProductName: emlextract
+ProductVersion: 1.0.4444.29392
+FileDescription: emlextract
+OriginalFilename: emlextract.exe
+

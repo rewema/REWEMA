@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    47280 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     83dc9c9643f493d3b557547875dcee02
+SHA1:    481b7001aee9e9333adc5ebc118b0cac7e37f258
+ssdeep:  768:pXTpI5Mf3drVDPwfkRRO3xX/vhz0sPgnntN87m45vi32EBgoDno:jI5GdJDIsR4dhz0LnXB41u2EBRc
+Date:    0x575A1421 [Fri Jun 10 01:13:05 2016 UTC]
+EP:      0x405270 .text 0/5
+CRC:     Claimed: 0x10f3e, Actual: 0x10f3e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa0a0   0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa49c   0x2e0    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5654       0x5800       6.307782    
+.data      0x7000       0x1334       0x200        1.677422    
+.idata     0x9000       0xc48        0xe00        4.832199    
+.rsrc      0xa000       0x77c        0x800        4.760424    
+.reloc     0xb000       0x5a0        0x600        6.486613    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: aspnet_state.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: Microsoft ASP.NET State Server
+OriginalFilename: aspnet_state.exe
+Translation: 0x0409 0x04b0
+

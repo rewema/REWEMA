@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2093056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7051d104c22899eaa53aac6453c3b648
+SHA1:    2476ba1d50c9a483d8b2598049f6088e417eaeae
+ssdeep:  49152:hegvo7pBpncOWn+KO8jy9MfrH991Tb0d:0O4XSn+F8jKMfhX
+Date:    0x492390AD [Wed Nov 19 04:06:05 2008 UTC]
+EP:      0x548f08 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x201bab [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x1848d9L => deflate
+   0x1848fbL => Jean-loup Gailly
+   0x187c91L => inflate
+   0x187cb3L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+VFF                0x1ff090 0x1fd4   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+CreateProcessW
+OpenProcess
+ShellExecuteExW
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16e966     0x16f000     6.643150    
+.rdata     0x170000     0x697f6      0x6a000      4.368347    
+.data      0x1da000     0x2460c      0x22000      5.062321    
+.rsrc      0x1ff000     0x2068       0x3000       4.156447    
+

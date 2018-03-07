@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    62816 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     213e8245f5c041451ae2a0802926f360
+SHA1:    9fb7d25e488059d7fd71ff5049709c7356b29ac4
+ssdeep:  1536:Gq29SO+FGrjnutwAzyk7jZMd3UkG/cCpLZzPFZrqYBPwro:e+8rmzyk7jGe7/d5ZLFZrqYBso
+Date:    0x57899160 [Sat Jul 16 01:44:00 2016 UTC]
+EP:      0x409600 .text 0/6
+CRC:     Claimed: 0x13a4c, Actual: 0x13a4c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x10060  0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa50c       0xa600       6.270132    
+.data      0xc000       0x608        0x200        2.623231    
+.idata     0xd000       0x1320       0x1400       5.046190    
+.didat     0xf000       0x28         0x200        0.335016    [SUSPICIOUS]
+.rsrc      0x10000      0x450        0x600        2.567857    
+.reloc     0x11000      0xbf4        0xc00        6.626209    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CloudExperienceHost Broker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: CloudExperienceHost Broker
+OriginalFilename: CloudExperienceHostBroker.exe
+Translation: 0x0409 0x04b0
+

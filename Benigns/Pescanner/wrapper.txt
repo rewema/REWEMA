@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    352024 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e8d19dc9836d5d97ca562a298d673d92
+SHA1:    0bbebd751ec50a5d12338581e0348a116308b3a8
+ssdeep:  6144:yecvmmW+rPeFTEPWHUwDPLK5Qw9HmJeS:ylC9EPWHUwDPu5
+Date:    0x4D0EBF92 [Mon Dec 20 02:29:38 2010 UTC]
+EP:      0x420412 .text 0/4
+CRC:     Claimed: 0x60d6e, Actual: 0x60d6e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6a650  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6a778  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6ace0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b148  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b430  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6bcd8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6cd80  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6d3e8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e290  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x708c0  0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x70838  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 16-colors
+RT_VERSION         0x6a2b0  0x3a0    LANG_JAPANESE SUBLANG_DEFAULT          data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+OpenProcessToken
+CreateServiceW
+StartServiceW
+StartServiceCtrlDispatcherW
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3422b      0x34400      6.639776    
+.rdata     0x36000      0x186ea      0x18800      3.891881    
+.data      0x4f000      0x1a828      0x1600       3.203817    
+.rsrc      0x6a000      0x6980       0x6a00       3.369559    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1999, 2010 Tanuki Software, Ltd.  All rights reserved.
+InternalName: wrapper
+FileVersion: 3, 5, 7, 0
+CompanyName: Tanuki Software, Ltd.
+ProductName: Java Service Wrapper Community
+ProductVersion: 3, 5, 7, 0
+FileDescription: Java Service Wrapper Community Edition 3.5.7
+OriginalFilename: wrapper.exe
+Translation: 0x0009 0x04b0
+

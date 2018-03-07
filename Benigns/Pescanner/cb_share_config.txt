@@ -1,0 +1,34 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    165376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ef0ce2db035a4bc33ad20ea774bd6bfc
+SHA1:    9ab5d778ecf8e1474233d9f769bff5d70c793a10
+ssdeep:  3072:VgatrQrG8pYfsx2LCmdVkeCqp0Vk8baAlinTLPlMqw/GcMTpp:9ASs8gWmVk8mAwnTLPlMqw/GcMTpp
+Date:    0x0        [Thu Jan  1 00:00:00 1970 UTC] [SUSPICIOUS]
+EP:      0x4012c0 .text 0/8
+CRC:     Claimed: 0x362d6, Actual: 0x362d6 
+
+TLS callbacks
+================================================================================
+    0x40dcf0
+    0x40dca0
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x175ac      0x17600      6.186247    
+.data      0x19000      0xc8         0x200        1.490618    
+.rdata     0x1a000      0x3c64       0x3e00       4.669923    
+.eh_fram   0x1e000      0x76c4       0x7800       4.649876    
+.bss       0x26000      0xab0        0x0          0.000000    [SUSPICIOUS]
+.idata     0x27000      0x4fd0       0x5000       5.773282    
+.CRT       0x2c000      0x18         0x200        0.114463    [SUSPICIOUS]
+.tls       0x2d000      0x20         0x200        0.224820    [SUSPICIOUS]
+

@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2084864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9b8b304b8faf687003babc055f5fff72
+SHA1:    b5da4932eec5e94311b16e9470b3ca74b98487d2
+ssdeep:  49152:uAIYLUZqX1Be30tH9w3q675otyWvNN8jyq8CPe0:jLz1Be3iH9wa1UWvNiHF
+Date:    0x421F06C6 [Fri Feb 25 11:06:46 2005 UTC]
+EP:      0x56e510 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x201e00 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x212f80 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_CURSOR          0x2130d0 0x134    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0x1f8dc0 0x8420   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2011e0 0x12d8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2024b8 0xff1c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f6818 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f6b00 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f73d0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f76b8 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f7f88 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1f84f0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x212680 0x2e8    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0x212980 0x2e8    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_ICON            0x212c80 0x2e8    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0x1f5600 0x57e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f5b80 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f5c40 0x6ae    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f62f0 0x12a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f6420 0x3f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x2130b8 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_CURSOR    0x213208 0x14     LANG_ITALIAN SUBLANG_ITALIAN          Lotus 1-2-3
+RT_GROUP_ICON      0x1f73a8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x1f7f60 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x1f8d98 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x212968 0x14     LANG_ITALIAN SUBLANG_ITALIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x212c68 0x14     LANG_ITALIAN SUBLANG_ITALIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x212f68 0x14     LANG_ITALIAN SUBLANG_ITALIAN          MS Windows icon resource - 1 icon
+RT_VERSION         0x2123d8 0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16e555     0x16f000     6.673227    
+.rdata     0x170000     0x38140      0x39000      4.292228    
+.data      0x1a9000     0x4ba78      0x35000      5.261574    
+.rsrc      0x1f5000     0x1e220      0x1f000      5.730124    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 MIT
+InternalName: CsoundAV
+FileVersion: 1, 0, 0, 1
+CompanyName: MIT
+ProductName: CsoundAV
+ProductVersion: 1, 0, 0, 1
+FileDescription: CsoundAV
+OriginalFilename: CsoundAV.exe
+Translation: 0x0410 0x04b0
+

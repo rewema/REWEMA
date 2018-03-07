@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2d24eefe1a62683c4092ba1334ad36b0
+SHA1:    d968e17cdb79a00a2c4ab6bb905bc216c8616a6e
+ssdeep:  192:nfrawcFsWAManh1ak5g5shDYOYdJATz838Cge/aW:fWwcFsWAManfak5g5sFtoATI38g/x
+Date:    0x3E6E516A [Tue Mar 11 21:13:14 2003 UTC]
+EP:      0x40437e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xcd51 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6430   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6718   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6840   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2384       0x2400       5.362531    
+.rsrc      0x6000       0x868        0xa00        2.948189    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1165.41797
+InternalName: RecordTest.exe
+FileVersion: 1.0.1165.41797
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1165.41797
+FileDescription:  
+OriginalFilename: RecordTest.exe
+

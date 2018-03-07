@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    229584 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9eb92488ba203ba99ff632500689a221
+SHA1:    a7d457e6c368e2fe2bfeeb4d91bed9d80031e88a
+ssdeep:  3072:CI8Qc7w08PoegCFYVyHjxLFNrO7QY/bb7PHLm9CHrsYeS/dknBJqdkGlE:lpFLuV+LFSjHqCQvS/Gq+uE
+Date:    0x59386923 [Wed Jun  7 20:59:15 2017 UTC]
+EP:      0x414200 .text 0/6
+CRC:     Claimed: 0x41ab9, Actual: 0x41ab9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TYPELIB            0x274d0  0xdd0c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x270b0  0x420    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+OpenProcessToken
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16c7a      0x16e00      6.480548    
+.rdata     0x18000      0xaaac       0xac00       4.749641    
+.data      0x23000      0x2500       0x2000       3.402965    
+.tls       0x26000      0x9          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x27000      0xe1e0       0xe200       4.426600    
+.reloc     0x36000      0x21e8       0x2200       6.622591    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Microsoft OneDrive
+FileVersion: 17.3.6917.0607
+CompanyName: Microsoft Corporation
+PrivateBuild: ship.onedrive.client-iC (by _qcloud2 on SN2SCH101711711)
+ProductName: Microsoft OneDrive
+ProductVersion: 17.3.6917.0607
+FileDescription: Microsoft OneDriveFile Co-Authoring Executable
+OriginalFilename: FileCoAuth.exe
+Translation: 0x0409 0x04b0
+

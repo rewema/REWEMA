@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    622592 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     8130e835b806b27e1a98d1f2310853cb
+SHA1:    31f078cee3d47bb9a52bce4b22f1de746c378940
+ssdeep:  3072:cJLNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN8Yk7JNNNNZXKNN4:vCi
+Date:    0x487EFC56 [Thu Jul 17 08:01:26 2008 UTC]
+EP:      0x4828ee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x9c25d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x84590  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x94db8  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x97360  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x98408  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x98870  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 256-colors
+RT_VERSION         0x84178  0x418    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x808f4      0x81000      3.115438    
+.rsrc      0x84000      0x148b0      0x15000      2.796292    
+.reloc     0x9a000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2007-2008 Aditya Shah. All rights reserved.
+Assembly Version: 2.0.0.0
+InternalName: WinampPptInterface.exe
+FileVersion: 2.0.0.0
+CompanyName: Aditya Shah
+Comments: Remote control for Winamp and Powerpoint
+ProductName: Winamp and Powerpoint Remote
+ProductVersion: 2.0.0.0
+FileDescription: Winamp and Powerpoint Remote
+OriginalFilename: WinampPptInterface.exe
+

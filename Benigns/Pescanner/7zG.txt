@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    101376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c9405211f830bd6d91ced421b8046c95
+SHA1:    7fdf11fc8b88aa7a38bcbc9396ba7a44851a12ad
+ssdeep:  1536:ur+G9cRJbNodkhzV7iRbhou228pTN/ilya9iimjm+/rBOs9NLfLA:uaG9cDNDVhj/Mya9fuvEoNw
+Date:    0x4CE54FB0 [Thu Nov 18 16:09:20 2010 UTC]
+EP:      0x43e4b0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x1c716 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3f584  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3f870  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3f99c  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3b2d0  0x424    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3b1a8  0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3aeb0  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x38fc0  0x75c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x387c0  0x7fa    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x38580  0x23a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3b6f8  0x212    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3b910  0x280    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bb90  0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3be08  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_STRING          0x3c100  0x72     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bdd8  0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bcc8  0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bd10  0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bda8  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_STRING          0x3c178  0xf4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c270  0x6a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bbd8  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bc50  0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3bc80  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x40848  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_VERSION         0x4087c  0x2a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40b24  0x1fa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x27000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x28000      0x17000      0x16800      7.913145    [SUSPICIOUS]
+.rsrc      0x3f000      0x2000       0x2000       3.089674    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 1999-2010 Igor Pavlov
+InternalName: 7zg
+FileVersion: 9.20
+CompanyName: Igor Pavlov
+ProductName: 7-Zip
+ProductVersion: 9.20
+FileDescription: 7-Zip GUI
+OriginalFilename: 7zg.exe
+Translation: 0x0409 0x04b0
+

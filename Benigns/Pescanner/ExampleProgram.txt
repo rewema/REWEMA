@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38655 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1fd9de05d8973b4f4ed923f3ff517cbb
+SHA1:    c3c61c8470558dfa73aa3f8899b26d16f1983ffa
+ssdeep:  768:oHJd0TpH2+bQ2dUWVX9Hfv1JMWmtLEJOyuBxG0D3mjfS3XJV/UYjfnl:opgpHzb9dZVX9fHMvG0D3XJV/bjfl
+Date:    0x4B1AE3CC [Sat Dec  5 22:50:52 2009 UTC]
+EP:      0x4030fa .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xfcb5 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x37268  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x375d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x378b8  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x37a00  0x13c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x37b40  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x37c40  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x37d60  0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x37e28  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x37e88  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_MANIFEST        0x37ea0  0x3be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c4c       0x5e00       6.440106    
+.rdata     0x7000       0x129c       0x1400       5.046835    
+.data      0x9000       0x25c58      0x400        4.801004    
+.ndata     0x2f000      0x8000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x37000      0x1260       0x1400       4.289579    
+

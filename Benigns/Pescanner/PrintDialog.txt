@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    101224 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     48ec7c312fa6475ec23327f080d9adec
+SHA1:    36c5d13969e288355cf3da6e72ccc1aabe7c2e4c
+ssdeep:  768:NNtx0DxblL2o36deLGSqPqZhzOeeer9ZXMl1PRwY:34DxZq3FGhwjPiY
+Date:    0x57899123 [Sat Jul 16 01:42:59 2016 UTC]
+EP:      0x401dc0 .text 0/6
+CRC:     Claimed: 0x1dbec, Actual: 0x1dbec 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x19e08  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6510   0x70a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd5b8   0xc828   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x19de0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 96x96, 256-colors
+RT_VERSION         0x6170   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1434       0x1600       5.568398    
+.imrsiv    0x3000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x4000       0x394        0x200        0.249053    [SUSPICIOUS]
+.idata     0x5000       0x70c        0x800        4.390121    
+.rsrc      0x6000       0x13ed8      0x14000      4.356262    
+.reloc     0x1a000      0x1dc        0x200        6.161680    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Print Dialog
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Print Dialog
+OriginalFilename: PrintDialog.EXE
+Translation: 0x0409 0x04b0
+

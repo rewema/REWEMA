@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    139264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f4bc48fd10d2386df2855af455df6b23
+SHA1:    08d4e5be0eb9d15e0ecfcc1123836bf775ad6a18
+ssdeep:  1536:E4rxql6NN/YIkTeSDjPoEt84rxql6NN/YIkTe:vxC6NBYRT9jhHxC6NBYRT
+Date:    0x48811597 [Fri Jul 18 22:13:43 2008 UTC]
+EP:      0x11016dce .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2de7e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1a4e8  0x9868   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x23d50  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x1a0e8  0x400    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x14dd4      0x15000      4.989497    
+.sdata     0x18000      0x84         0x1000       0.329203    [SUSPICIOUS]
+.rsrc      0x1a000      0x9d68       0xa000       3.810361    
+.reloc     0x24000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: MaxxHi5
+Assembly Version: 1.0.3121.39686
+InternalName: MaxxHi5 Loop Player.exe
+FileVersion: 1.0.3121.39686
+CompanyName: MaxxHi5
+LegalTrademarks:  
+Comments: Play's samples or loops for your sound design projects!
+ProductName: MaxxHi5 Loop Player
+ProductVersion: 1.0.3121.39686
+FileDescription: MaxxHi5 Loop Player
+OriginalFilename: MaxxHi5 Loop Player.exe
+

@@ -1,0 +1,92 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    244736 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7db413989bddfd23af251b26fc9f6055
+SHA1:    bec2ebf815bd690be58408c32d962bcd96144587
+ssdeep:  6144:GH6JkGUE9rFiZA5KNXwy3Odjp19k5KNXf:rJkibyMKVwy3OdLaKV
+Date:    0x57898F17 [Sat Jul 16 01:34:15 2016 UTC]
+EP:      0x411e30 .text 0/5
+CRC:     Claimed: 0x3ee6c, Actual: 0x3ee6c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x3ca08  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x3b048  0x13ba   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII English text, with CRLF line terminators
+RT_ICON            0x16c48  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x172b0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17598  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x176c0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18568  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18e10  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x19378  0x60f4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1f470  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21a18  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22ac0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x22fc0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x23100  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23768  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23a50  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x23b78  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24a20  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x252c8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x25830  0x594e   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x2b180  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d728  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e7d0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2ecd0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f338  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f620  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2f748  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x305f0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30e98  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x31400  0x60f4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x374f8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x39aa0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ab48  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x3c408  0x474    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c880  0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x22f28  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x230e8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x2ec38  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x3afb0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x16860  0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessAsUserW
+CreateProcessW
+OpenProcess
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11bdc      0x11c00      6.079909    
+.data      0x13000      0x9c0        0x200        0.846226    [SUSPICIOUS]
+.idata     0x14000      0x1716       0x1800       5.365592    
+.rsrc      0x16000      0x26ae8      0x26c00      6.679215    
+.reloc     0x3d000      0x146c       0x1600       6.427636    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: PresentationHost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Presentation Foundation Host
+OriginalFilename: PresentationHost.exe
+Translation: 0x0409 0x04b0
+

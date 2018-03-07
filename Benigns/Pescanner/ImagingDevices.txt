@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    103104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     523ccd263fe87516af05886e4ce80d1e
+SHA1:    fd5fbf98773b881f29737ae01c352042e069e2f3
+ssdeep:  1536:CjpCxtfTRVp/G/3W9hKBJjAqQCe1nwdsmZY5TT90bjUoBZ:BnRVJogh4ydDeuwY9T9Mwo3
+Date:    0x57899119 [Sat Jul 16 01:42:49 2016 UTC]
+EP:      0x402180 .text 0/5
+CRC:     Claimed: 0x1f19b, Actual: 0x1f19b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x17bb8  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5800   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5e68   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6150   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6278   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7120   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x79c8   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7f30   0xbd63   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x13c98  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16240  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x172e8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x17750  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x177e8  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5330   0x4ca    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17d4       0x1800       5.976120    
+.data      0x3000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x650        0x800        4.119619    
+.rsrc      0x5000       0x12c88      0x12e00      7.085708    [SUSPICIOUS]
+.reloc     0x18000      0x200        0x200        6.294886    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ImagingDevices.cpl
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Imaging Devices Control Panel
+OriginalFilename: ImagingDevices.cpl
+Translation: 0x0409 0x04b0
+

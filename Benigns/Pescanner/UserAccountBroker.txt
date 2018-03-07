@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    31496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1848938da29835a18407b321ec05aa82
+SHA1:    5bf87c998e2f741e08cb39614c36c41a6f1b7218
+ssdeep:  384:/rVNoobDcP/gwAHgT+3bcbXu9PXHt2Cq+2wNmpl2jGNVW8uW7xJlRDBRJ05jlpfT:hNo6YP/gwAHgUIXuTNjGNV31P+T
+Date:    0x5789918C [Sat Jul 16 01:44:44 2016 UTC]
+EP:      0x403cc0 .text 0/6
+CRC:     Claimed: 0xdfc2, Actual: 0xdfc2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8540   0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80a0   0x49c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x35ac       0x3600       6.172329    
+.imrsiv    0x5000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x6000       0x3a8        0x200        0.183339    [SUSPICIOUS]
+.idata     0x7000       0xbfe        0xc00        4.990611    
+.rsrc      0x8000       0x918        0xa00        4.400201    
+.reloc     0x9000       0x484        0x600        5.646899    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: UserAccountBroker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: User Account Control Panel Host
+OriginalFilename: UserAccountBroker.exe
+Translation: 0x0409 0x04b0
+

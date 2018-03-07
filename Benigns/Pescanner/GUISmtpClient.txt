@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    69632 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f09899638f9371978595a7c593f894d5
+SHA1:    1028e228b762627ed2079741b07752e99a67e02c
+ssdeep:  768:q0iG6+D8Lrg7lKi/18N6g6Kua8cPen7cd3dQ888888888WnQeGP87BiKupz/Jx8n:/mrS/1E6KH8AHd3djeGk8XJ
+Date:    0x43584F1A [Fri Oct 21 02:14:50 2005 UTC]
+EP:      0x40f16e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x117bf [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x10428  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x10550  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x10838  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x10118  0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xd174       0xe000       5.255740    
+.rsrc      0x10000      0x860        0x1000       2.093967    
+.reloc     0x12000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Open source
+Assembly Version: 1.2.0.0
+InternalName: GUISmtpClient.exe
+FileVersion: 1.2.0.0
+Comments: Simple Program to send mail
+ProductName: GUISmtpClient
+ProductVersion: 1.2.0.0
+FileDescription: SmtpClient
+OriginalFilename: GUISmtpClient.exe
+

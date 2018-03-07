@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4817408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bba2d5b29cff439cac4656c8a59bfe41
+SHA1:    6641c379308170fb7c437762d164baeba397e067
+ssdeep:  98304:D52UxQe4riQEoMEotIPrPyyqcEzFS5c3Jui47dhREnl++un:jmiK2mr6ySFl5vWdfElZY
+Date:    0x39931289 [Thu Aug 10 20:37:29 2000 UTC]
+EP:      0x408790 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x4a303a [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINARY             0x38240  0x47400d LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ac428 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ac710 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x4ac250 0xec     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4ac340 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x4acc70 0x4fa    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4ac838 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4ac860 0x410    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c4aa      0x1c600      6.594144    
+.rdata     0x1e000      0x2788       0x2800       5.576726    
+.data      0x21000      0x16908      0x3e00       2.389189    
+.rsrc      0x38000      0x475170     0x475200     7.999804    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 RealNetworks, Inc. 1995-2000
+InternalName: RNSETUP
+FileVersion: 6.0.9.346
+CompanyName: RealNetworks, Inc.
+LegalTrademarks: RealAudio(tm) is a trademark of RealNetworks, Inc.
+ProductName: Shell executable of Setup program (32-bit) 
+ProductVersion: 6.0.9.346
+FileDescription: Shell executable of Setup program
+DistCode: PN01
+OriginalFilename: RNSetup.DLL
+Translation: 0x0409 0x04e4
+

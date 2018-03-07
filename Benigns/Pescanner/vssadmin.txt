@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    112128 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7c49576cf1abd8b22fd819fdb9f5917a
+SHA1:    e50cada1ab0f487d73c02d5ea2d8de2a4557a281
+ssdeep:  3072:+G4LJaB3Wlz3cPMXBFy+iSNoT45lkWPanAtb:+G4LJM3Wlz3cPMRLNXlwA1
+Date:    0x57898F0B [Sat Jul 16 01:34:03 2016 UTC]
+EP:      0x415570 .text 0/5
+CRC:     Claimed: 0x28085, Actual: 0x28085 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1c7b0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1c3b0  0x400    LANG_ENGLISH SUBLANG_ENGLISH_US       SysEx File - OctavePlateau
+RT_MANIFEST        0x1c0f0  0x2bf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17c1c      0x17e00      5.830145    
+.data      0x19000      0x478        0x200        2.216026    
+.idata     0x1a000      0x1070       0x1200       5.215518    
+.rsrc      0x1c000      0x880        0xa00        3.843821    
+.reloc     0x1d000      0x14ec       0x1600       6.651809    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: VSSADMIN.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Command Line Interface for Microsoft\xae Volume Shadow Copy Service 
+OriginalFilename: VSSADMIN.EXE
+Translation: 0x0409 0x04b0
+

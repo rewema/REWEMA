@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    462248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     98e0b50ea8cef62c0270e82955f62604
+SHA1:    e86d448cde78ff1c77ae2734f64cc8e535dea23f
+ssdeep:  12288:1hjytaYOtpb9zouIXSyLS07cFZSKKYPh1a05poAqbUfOD:1MaYOtpZcDXhWbFZQYPhH5poAsUfA
+Date:    0x575F7B8B [Tue Jun 14 03:35:39 2016 UTC]
+EP:      0x441f33 .text 0/4
+CRC:     Claimed: 0x7d68e, Actual: 0x7d68e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6e1c0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x70768  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x71810  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x71ca8  0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x71d20  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x71d60  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x71c78  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 48x48, 256-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+OpenProcessToken
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x51556      0x52000      6.593835    
+.rdata     0x53000      0x14b22      0x15000      4.790612    
+.data      0x68000      0x5754       0x4000       4.216055    
+.rsrc      0x6e000      0x3e58       0x4000       5.763680    
+

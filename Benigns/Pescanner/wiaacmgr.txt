@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    85504 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     73c072230bf92531acb1b7ec25af3593
+SHA1:    eeaa87f7f1e6bee9322b514196dd62543b021689
+ssdeep:  1536:lpG572BDBmNrEnXeSFsTalip+UmBo6AtfzH6:TGxeDBmNr2X4TalimBo6I
+Date:    0x578990DE [Sat Jul 16 01:41:50 2016 UTC]
+EP:      0x40a7a0 .text 0/5
+CRC:     Claimed: 0x1bcc1, Actual: 0x1bcc1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x161e0  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0xe810   0x541    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xed58   0x3b5    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xf110   0x3c2    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x15748  0x6d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf4d8   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfb40   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfe28   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xff50   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10df8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x116a0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x11c08  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x141b0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15258  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x156c0  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x15e20  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe420   0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9fb4       0xa000       6.201492    
+.data      0xb000       0xabc        0x800        4.131635    
+.idata     0xc000       0x1064       0x1200       5.022659    
+.rsrc      0xe000       0x82d8       0x8400       5.117526    
+.reloc     0x17000      0xb20        0xc00        6.465236    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WIAACMGR
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Picture Acquisition Wizard
+OriginalFilename: WIAACMGR.EXE
+Translation: 0x0409 0x04b0
+

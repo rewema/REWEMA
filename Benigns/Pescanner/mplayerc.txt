@@ -1,0 +1,301 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4316160 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d989bdf39f3fb1e3d42af36415fa4201
+SHA1:    932ec24b8981976a5ac2886627d9c9dfbcc649e0
+ssdeep:  98304:yZR89fDhDZGciZtdh/FK9G9MBMlFwE5cs+lzamVqIARzAXos3wcYM1dYoUAxdEZ3:yghEtdh/F79xwE5cs+lzamVqIARzAXoD
+Date:    0x46BC99F0 [Fri Aug 10 17:01:36 2007 UTC]
+EP:      0x63003f .text 0/5
+CRC:     Claimed: 0x42c291, Actual: 0x42c291 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x2ef011L => deflate
+   0x2ef033L => Jean-loup Gailly
+   0x2f2611L => inflate
+   0x2f2633L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0x39ee8c 0x3a00   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+FILE               0x3a288c 0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 1 x 1, 4-bit colormap, non-interlaced
+FILE               0x3a2954 0x17de   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 193 x 136, 8-bit/color RGB, non-interlaced
+FILE               0x3a4134 0x3604   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 245 x 159, 8-bit/color RGB, non-interlaced
+FILE               0x3a7738 0x145a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 166 x 127, 8-bit/color RGB, non-interlaced
+FILE               0x3a8b94 0x43e4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 206 x 148, 8-bit/color RGB, non-interlaced
+FILE               0x3acf78 0xf72    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 227 x 133, 8-bit colormap, non-interlaced
+FILE               0x3adeec 0x9083   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 233 x 233, 8-bit/color RGB, non-interlaced
+FILE               0x3b6f70 0xf022   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 241 x 198, 8-bit/color RGB, non-interlaced
+FILE               0x3c5f94 0x5c     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+FILE               0x3c5ff0 0x5b     LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 1 x 20
+FILE               0x3c604c 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 110 x 20
+FILE               0x3c6130 0x7f     LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 10 x 20
+FILE               0x3c61b0 0x9d     LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 15 x 20
+FILE               0x3c6250 0x2b     LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 1 x 1
+FILE               0x3c627c 0x15f    LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 515 x 20
+FILE               0x3c63dc 0x321    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 22 x 30, 8-bit/color RGB, non-interlaced
+FILE               0x3c6700 0xa1     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 1 x 30, 8-bit/color RGB, non-interlaced
+FILE               0x3c67a4 0x67a    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 28 x 30, 8-bit/color RGB, non-interlaced
+FILE               0x3c6e20 0x97     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 4 x 1, 8-bit/color RGB, non-interlaced
+FILE               0x3c6eb8 0x5f     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 4 x 1, 8-bit/color RGB, non-interlaced
+FILE               0x3c6f18 0x61     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 1 x 4, 8-bit/color RGB, non-interlaced
+FILE               0x3c6f7c 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 4 x 4, 8-bit/color RGB, non-interlaced
+FILE               0x3c7030 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 4 x 4, 8-bit/color RGB, non-interlaced
+FILE               0x3c70a8 0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 4 x 19, 8-bit/color RGB, non-interlaced
+FILE               0x3c7118 0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 1 x 19, 8-bit/color RGB, non-interlaced
+FILE               0x3c717c 0x6b     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 4 x 19, 8-bit/color RGB, non-interlaced
+FILE               0x3c71e8 0x9e     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 13 x 19, 8-bit/color RGB, non-interlaced
+FILE               0x3c7288 0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 1 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c731c 0xed     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 25 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c740c 0x8f     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 23 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c749c 0x95     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 25 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c7534 0xbe     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 24 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c75f4 0xb5     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 22 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c76ac 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 23 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c775c 0xbe     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 28 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c781c 0xb7     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 31 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c78d4 0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 28 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c79e4 0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 28 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c7b80 0xef     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 55 x 28, 8-bit/color RGB, non-interlaced
+FILE               0x3c7c70 0xad     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 10 x 21, 8-bit/color RGB, non-interlaced
+FILE               0x3c7d20 0x848    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C++ program text, with CRLF line terminators
+FILE               0x3c8568 0x16e    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+FILE               0x3c86d8 0x2d2    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C program text, with CRLF line terminators
+FILE               0x3c89ac 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+FILE               0x3c8b94 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C program text, with CRLF line terminators
+FILE               0x3c8e70 0x192    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C program text, with CRLF line terminators
+FILE               0x3c9004 0x183    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+FILE               0x3c9188 0x1eb    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C program text, with CRLF line terminators
+FILE               0x3c9374 0x37d    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C program text, with CRLF line terminators
+FILE               0x3c96f4 0x5b6    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C++ program text, with CRLF line terminators
+FILE               0x3c9cac 0x223    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+FILE               0x3c9ed0 0x247    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C++ program text, with CRLF line terminators
+FILE               0x3ca118 0x4f8    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C++ program text, with CRLF line terminators
+FILE               0x3ca610 0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+FILE               0x3ca6d8 0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII C program text, with CRLF line terminators
+RT_CURSOR          0x3ca780 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3ca8b4 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3ca968 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x3caa9c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cabd0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x3cad04 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cae38 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3caf6c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cb0a0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cb1d4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cb308 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cb43c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cb570 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x3cb6a4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cb7d8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3cb90c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3cba40 0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3cc228 0x674    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3cc89c 0x620    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3ccebc 0x71c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3cd5d8 0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3cd730 0xe128   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3db858 0x1b28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3dd380 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3dd438 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3dd57c 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3dd864 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3dd98c 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ddc74 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ddf5c 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3de244 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3de36c 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3dec14 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3df17c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3df5e4 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3df8cc 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3df9f4 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e089c 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e1144 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3e16ac 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e3c54 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e4cfc 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3e5164 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e600c 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e68b4 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3e6e1c 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e93c4 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3ea46c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3ea8d4 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3eb17c 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3eb6e4 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3fbf0c 0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4053b4 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4095dc 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40bb84 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40cc2c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x40d094 0x1268   LANG_CZECH   SUBLANG_DEFAULT          data
+RT_MENU            0x40e2fc 0xc30    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_MENU            0x40ef2c 0x11b8   LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4100e4 0x340    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x410424 0x394    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4107b8 0x2ec    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x410aa4 0x218    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x410cbc 0x154    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x410e10 0x150    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x410f60 0x1e8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x411148 0x14c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x411294 0x17c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x411410 0xe0     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4114f0 0x27c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x41176c 0x2c0    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x411a2c 0xec     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x411b18 0x60     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x411b78 0x1c4    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x411d3c 0x300    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x41203c 0x344    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x412380 0x180    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x412500 0x1b4    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4126b4 0x378    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x412a2c 0x40     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x412a6c 0x40     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x412aac 0x40     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x412aec 0x604    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4130f0 0x85c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x41394c 0x3c0    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x413d0c 0x948    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x414654 0x434    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x414a88 0x4d8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x414f60 0x580    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4154e0 0x318    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4157f8 0x1b8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4159b0 0xc04    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4165b4 0x2c4    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x416878 0x174    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4169ec 0x9f0    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4173dc 0x404    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4177e0 0x128    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x417908 0x94     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x41799c 0x94     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x417a30 0x5d0    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x418000 0x118    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x418118 0xd0     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4181e8 0x44     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x41822c 0x114    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x418340 0x24c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x41858c 0x24c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4187d8 0xe8     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x4188c0 0x34     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x4188f4 0x48     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41893c 0x10a    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418a48 0x128    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418b70 0x82     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418bf4 0x80     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418c74 0x3e     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418cb4 0x108    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418dbc 0x16c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418f28 0x2c     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x418f54 0x3a4    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x4192f8 0xc72    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x419f6c 0x58c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41a4f8 0x6b2    LANG_CZECH   SUBLANG_DEFAULT          PDP-11 overlaid separate executable not stripped
+RT_STRING          0x41abac 0xb0     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41ac5c 0x166    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41adc4 0x128    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41aeec 0x226    LANG_CZECH   SUBLANG_DEFAULT          AmigaOS bitmap font
+RT_STRING          0x41b114 0x1e0    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41b2f4 0x14c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41b440 0x180    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41b5c0 0x1f4    LANG_CZECH   SUBLANG_DEFAULT          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x41b7b4 0x196    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41b94c 0x124    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41ba70 0x498    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41bf08 0x4f4    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41c3fc 0x1e4    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41c5e0 0x178    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41c758 0x13e    LANG_CZECH   SUBLANG_DEFAULT          PCX ver. 2.5 image data
+RT_STRING          0x41c898 0x19c    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41ca34 0x17a    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41cbb0 0x144    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41ccf4 0x48     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41cd3c 0x82     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41cdc0 0x2a     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41cdec 0x192    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41cf80 0x4e2    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41d464 0x31a    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41d780 0x2dc    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41da5c 0x8a     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41dae8 0xac     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41db94 0xde     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41dc74 0x4c4    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41e138 0x264    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x41e39c 0x2c     LANG_CZECH   SUBLANG_DEFAULT          DBase 3 index file
+RT_STRING          0x41e3c8 0x42     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_GROUP_CURSOR    0x41e40c 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e430 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e444 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e458 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e46c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e480 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e494 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e4a8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e4bc 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e4d0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e4e4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e4f8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e50c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e520 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x41e534 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x41e548 0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x41e5dc 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x41e5f0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x41e604 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x41e67c 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x41e6c8 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 48x48, 256-colors
+RT_VERSION         0x41e724 0x354    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_HTML            0x41ea78 0x3db    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x41ee54 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x41ef30 0x2c8    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x41f1f8 0xed96   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x42df90 0x2875   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_MANIFEST        0x430808 0x199    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+None               0x4309a4 0x39     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x4309e0 0xa9     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x430a8c 0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+OpenProcessToken
+ShellExecuteW
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x27cddc     0x27ce00     6.611263    
+_TEXT64    0x27e000     0x568        0x600        5.326874    
+.rdata     0x27f000     0xd584a      0xd5a00      5.785007    
+.data      0x355000     0x4685c      0x35e00      6.095129    
+.rsrc      0x39c000     0x94ab2      0x94c00      6.409688    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002-2007 Gabest
+InternalName: Media Player Classic
+FileVersion: 6, 4, 9, 0+
+CompanyName: Gabest
+Comments: http://gabest.org/
+ProductName: Media Player Classic
+ProductVersion: 6, 4, 9, 0+
+FileDescription: Media Player Classic
+OriginalFilename: mplayerc.exe
+Translation: 0x0409 0x04b0
+

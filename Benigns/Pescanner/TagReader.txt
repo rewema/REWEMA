@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    188416 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     29d0ce3564deff7e55d2428ff083aa64
+SHA1:    dfd62503813de26c2d5b1d397afdad71cedea9f5
+ssdeep:  1536:wkql4H2cnuK2PNqEeftf+go3U9TC04+ta2o9rgBCcOkWwzJHpVYOZL60DuWNqT:wkukdpereCcOkWKJJNp60DuUqT
+Date:    0x3F98A978 [Fri Oct 24 04:24:24 2003 UTC]
+EP:      0x401da0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x30c1f [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5280   0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15aa8  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ef50  0x5488   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x243d8  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28600  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2aba8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2bc50  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c5d8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x2cab8  0x262    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2ca40  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x2cd20  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1105       0x2000       3.612271    
+.rdata     0x3000       0xc88        0x1000       4.146890    
+.data      0x4000       0x128        0x1000       0.066764    [SUSPICIOUS]
+.rsrc      0x5000       0x28028      0x29000      3.742735    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2003
+InternalName: TagReader
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: TagReader Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: TagReader MFC Application
+OriginalFilename: TagReader.EXE
+Translation: 0x0409 0x04b0
+

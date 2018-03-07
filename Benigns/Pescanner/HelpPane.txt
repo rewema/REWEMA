@@ -1,0 +1,100 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    883712 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4b00e1b8d15fac6bed43c24bccad023b
+SHA1:    93135696e1aa39eebf61a7c64294dbc8093ef82f
+ssdeep:  12288:FjN7lasSYUayTVy+NXKPXPiXuHNHGb6bH/zx/GCLW/nh/XS:hNBasSYUayRy+
+Date:    0x57898E33 [Sat Jul 16 01:30:27 2016 UTC]
+EP:      0x4437d0 .text 0/6
+CRC:     Claimed: 0xe5ffe, Actual: 0xe5ffe 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd4e58  0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0xd3378  0x107    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0xd3930  0xac4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0xd43f8  0xa60    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc56c0  0x12e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc69a8  0x1b28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc4a98  0xc28    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xccb30  0x12e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcde18  0x1b28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcbf08  0xc28    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xd0568  0x12e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xd1850  0x1b28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcf940  0xc28    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc90f8  0x12e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xca3e0  0x1b28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc84d0  0xc28    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xa6de0  0x2428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xa9208  0x4028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xa54b8  0x1928   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x9f068  0x2428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xa1490  0x4028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x9d740  0x1928   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xb68d0  0x2428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xb8cf8  0x4028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xb4fa8  0x1928   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xbe648  0x2428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xc0a70  0x4028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xbcd20  0x1928   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xaeb58  0x2428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xb0f80  0x4028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xad230  0x1928   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x52ff0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x53658  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x53940  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x53b28  0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x53cd0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x53df8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x54ca0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55548  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55c10  0x608    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x56218  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x56780  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x987a8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9ad50  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9bdf8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9c780  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9ce38  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x9d2a0  0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 16 icons, 48x48, 16-colors
+RT_VERSION         0x9d388  0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd3480  0x4ad    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4afd8      0x4b000      6.343208    
+.data      0x4c000      0x2e9c       0x2a00       4.447198    
+.idata     0x4f000      0x1ed0       0x2000       5.539124    
+.didat     0x51000      0x34         0x200        0.438285    [SUSPICIOUS]
+.rsrc      0x52000      0x82f68      0x83000      2.519119    
+.reloc     0xd5000      0x4a88       0x4c00       6.662003    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: HelpPane.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Help and Support
+OriginalFilename: HelpPane.exe
+Translation: 0x0409 0x04b0
+

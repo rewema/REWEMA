@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    221696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6a1337363c6ea5851302c928e05ae60d
+SHA1:    09ddb2f01435e082547214be99fac365edf91717
+ssdeep:  3072:tpTlstD7trOt9pfslMYO9mXn9H0LeinObM6gZy5ChoTiR:tvw1rOt9pdYamXnrdbMKw
+Date:    0x5789915E [Sat Jul 16 01:43:58 2016 UTC]
+EP:      0x402890 .text 0/5
+CRC:     Claimed: 0x4252a, Actual: 0x4252a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5940   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5fa8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6290   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6478   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x65a0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7448   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7cf0   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x83b8   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8920   0xcbcd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x154f0  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25d18  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f1c0  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x333e8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35990  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36a38  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x373c0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x37828  0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 16 icons, 48x48, 16-colors
+RT_VERSION         0x37910  0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x5420   0x51b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1ec4       0x2000       5.856885    
+.data      0x3000       0x458        0x200        0.299051    [SUSPICIOUS]
+.idata     0x4000       0x8b8        0xa00        4.663230    
+.rsrc      0x5000       0x32c90      0x32e00      5.669941    
+.reloc     0x38000      0x29c        0x400        5.020359    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ielowutil.exe
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: Internet Low-Mic Utility Tool
+OriginalFilename: ielowutil.exe
+Translation: 0x0409 0x04b0
+

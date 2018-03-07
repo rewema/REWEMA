@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    66048 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     241ff26c3a5760975a3f02a4725be73d
+SHA1:    d9d2779bbed1ca617cc92badc79d9edc69af8140
+ssdeep:  768:7Vx4L0iqODaJQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM:7VxIqODaJfFrGUUUUUUUUUUUU3+
+Date:    0x57898EEF [Sat Jul 16 01:33:35 2016 UTC]
+EP:      0x402410 .text 0/5
+CRC:     Claimed: 0x15929, Actual: 0x15929 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x11bc8  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5b00   0x18c8   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x73c8   0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb5f0   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdb98   0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf600   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x106a8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11030  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x116e8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x11b50  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x5790   0x370    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x52d0   0x4bc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1cc4       0x1e00       5.968192    
+.data      0x3000       0x3ec        0x200        0.199776    [SUSPICIOUS]
+.idata     0x4000       0xa70        0xc00        4.434347    
+.rsrc      0x5000       0xcc98       0xce00       4.742141    
+.reloc     0x12000      0x264        0x400        4.685935    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: NewDev.EXE
+FileVersion: 5.2.3668.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 5.2.3668.0
+FileDescription: Device driver software installation
+OriginalFilename: NewDev.EXE
+Translation: 0x0409 0x04b0
+

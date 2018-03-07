@@ -1,0 +1,95 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    159744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cedf64c1d39edc7bc5f37677461b284f
+SHA1:    1a4979d53cdd3967d45f6f5e9dbee795a200f7b1
+ssdeep:  3072:8A/vlhaNGnIc0XLPOSM3jmS1t7tS18Uvwg+Cl1UXE:B/vGNGnyTOoIYveClq
+Date:    0x43E3749C [Fri Feb  3 15:19:56 2006 UTC]
+EP:      0x40bc18 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x35b71 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WAVE               0x225a0  0x331c   LANG_RUSSIAN SUBLANG_RUSSIAN          RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 22050 Hz
+WAVE               0x258c0  0x1208   LANG_RUSSIAN SUBLANG_RUSSIAN          RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 22050 Hz
+RT_BITMAP          0x21a88  0xa28    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x224b0  0xf0     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_ICON            0x1a8a0  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ae08  0x8a8    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_ICON            0x1b6d8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1bc58  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c1d8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c758  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ccd8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1d258  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1d7d8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1dd58  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e2d8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e858  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1edd8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1f358  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1f8d8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1fe58  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x203d8  0x568    LANG_RUSSIAN SUBLANG_RUSSIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0x20940  0x8a8    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_MENU            0x21690  0x252    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_MENU            0x218e8  0x1a0    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_DIALOG          0x19910  0x724    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_DIALOG          0x1a038  0x51a    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_DIALOG          0x1a558  0x344    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_GROUP_ICON      0x1b6b0  0x22     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x1bc40  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1c1c0  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1c740  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1ccc0  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1d240  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1d7c0  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1fe40  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1e840  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1f340  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1dd40  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1e2c0  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1edc0  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1f8c0  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x203c0  0x14     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x211e8  0x22     LANG_RUSSIAN SUBLANG_RUSSIAN          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x21210  0x47c    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x104b8      0x11000      6.330656    
+.rdata     0x12000      0x2030       0x3000       4.040346    
+.data      0x15000      0x37b8       0x4000       1.901877    
+.rsrc      0x19000      0xdac8       0xe000       5.322287    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 YSoft 2002-2006
+InternalName: CopyFile
+FileVersion: 2, 3, 0, 0
+CompanyName: YSoft
+PrivateBuild: 
+LegalTrademarks: YSoft is acronym of Paul Yaroshenko <samepaul@gmail.com>
+Comments: Copy utility for slow network
+ProductName: YSoft CopyFile
+SpecialBuild: 
+ProductVersion: 2, 3, 0, 0
+FileDescription: CopyFile is an utility for copying files over slow and unstable networks
+OriginalFilename: CopyFile.exe
+Translation: 0x0400 0x04b0
+

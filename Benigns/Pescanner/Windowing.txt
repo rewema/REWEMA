@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f9dc3b86353f55990300f8c7131252a0
+SHA1:    7c9b6275a0fd8cd2ab9e5b9959b92a45b99e5956
+ssdeep:  192:AgjmT/hyqxZdYNT3mzyijBA1nEle89dS+2/46juEsw:AVyqbWNT2F9ARElpS5jEw
+Date:    0x40957958 [Sun May  2 22:42:32 2004 UTC]
+EP:      0x403c8e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc32d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1c94       0x2000       4.947581    
+.rsrc      0x4000       0x338        0x1000       0.822370    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: Windowing.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: Windowing.exe
+

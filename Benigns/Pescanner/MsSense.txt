@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1887272 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ddbee07ef57af98c895409ee08ad8235
+SHA1:    579437e6f9103fff9ee7b9011b0e5713a67fa5df
+ssdeep:  24576:aOZp+U5czpfueMXBgRK5mILpeSyPdhJN2NEFF6inVu76VF8gGw/I47bOVuC:tX5GYxgRJKyPWW60u7gmgjfOVuC
+Date:    0x57898F88 [Sat Jul 16 01:36:08 2016 UTC]
+EP:      0x55ece0 .text 0/6
+CRC:     Claimed: 0x1d2dbb, Actual: 0x1d2dbb 
+
+TLS callbacks
+================================================================================
+    0x560010
+    0x560090
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1c1f78 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x1c0500 0x1a72   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1c0110 0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+StartServiceW
+OpenProcessToken
+ReadProcessMemory
+OpenProcess
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19c0e4     0x19c200     6.399468    
+.data      0x19e000     0x1abf0      0xa600       5.104727    
+.idata     0x1b9000     0x506c       0x5200       5.749673    
+.tls       0x1bf000     0xc1         0x200        0.000000    
+.rsrc      0x1c0000     0x2068       0x2200       3.423990    
+.reloc     0x1c3000     0x13f6c      0x14000      6.686055    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MsSense.exe
+FileVersion: 10.1407.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.1407.14393.0
+FileDescription: Windows Defender Advanced Threat Protection Service Executable
+OriginalFilename: MsSense.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    823296 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     952257b7c6622750c02806d25b5b1c37
+SHA1:    08b2a86cf115d556b716b8a36bac9671f27cb76c
+ssdeep:  6144:ABhVtw3iJVacong/5B4M9+7etInuhVtw3iJVacong/5B4M9+7e:wfGg4M9+aoOfGg4M9+a
+Date:    0x4F508B2A [Fri Mar  2 08:56:10 2012 UTC]
+EP:      0x46c22e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xd2bd3 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6e518  0x42028  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xb0540  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc0d68  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc4f90  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc7538  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc85e0  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc8f68  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc93d0  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 256-colors
+RT_VERSION         0x6e208  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6a234      0x6b000      4.550460    
+.rsrc      0x6e000      0x5b438      0x5c000      4.289524    
+.reloc     0xca000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 ORION INNOVATE 2012 RangaD
+Assembly Version: 1.0.0.0
+InternalName: DrWin32.exe
+FileVersion: 1.0.0.0
+CompanyName: ORION INNOVATE
+ProductName: DrWin32
+ProductVersion: 1.0.0.0
+FileDescription: DrWin32
+OriginalFilename: DrWin32.exe
+

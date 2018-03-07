@@ -1,0 +1,87 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9483646 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8f10c7bda2c09f7ded8aa9b8c30eca28
+SHA1:    442d6786ec9f4d41a3ee004a73f494964fd90dd2
+ssdeep:  196608:eljeoKvQxVniutLDqoZya645131Edxonz4A0Mx:mKvQDDqAf
+Date:    0x50F5D62B [Tue Jan 15 22:20:27 2013 UTC]
+EP:      0x401110 .text 0/15
+CRC:     Claimed: 0x9154ed, Actual: 0x9154ed 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x53ca41L => deflate
+   0x79870aL => deflate
+   0x7987e3L => deflate
+   0x8a9ff2L => deflate
+   0x8aa000L => deflate
+   0x8aa00eL => deflate
+   0x8f3cacL => deflate
+   0x53ca63L => Jean-loup Gailly
+   0x538e0aL => inflate
+   0x53cbc1L => inflate
+   0x798428L => inflate
+   0x8a9becL => inflate
+   0x8aa076L => inflate
+   0x8aa0b3L => inflate
+   0x8f21daL => inflate
+   0x53cbe3L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5ac3f0 0x148    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5ac538 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5ac9a0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5ada48 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5b1c70 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5c2498 0x148    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5c25e0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c2a48 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5c3af0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5c7d18 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5d8540 0x148    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5d8688 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x5d8af0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5d9b98 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5dddc0 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x5ee5e8 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 8x8, 256-colors
+RT_GROUP_ICON      0x5ee634 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 8x8, 256-colors
+RT_GROUP_ICON      0x5ee680 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 8x8, 256-colors
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+OpenProcess
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4cd3bc     0x4cd400     6.004213    
+.data      0x4cf000     0x672c       0x6800       0.191394    [SUSPICIOUS]
+.rdata     0x4d6000     0x9e4a0      0x9e600      5.921226    
+.bss       0x575000     0x31778      0x0          0.000000    [SUSPICIOUS]
+.idata     0x5a7000     0x4af0       0x4c00       5.362177    
+.rsrc      0x5ac000     0x426cc      0x42800      3.365306    
+/4         0x5ef000     0x1188       0x1200       2.913861    
+/19        0x5f1000     0x5fdb       0x6000       5.444007    
+/35        0x5f7000     0xe0ff4      0xe1000      6.245662    
+/47        0x6d8000     0x382c       0x3a00       4.783386    
+/61        0x6dc000     0xcae6       0xcc00       6.019706    
+/73        0x6e9000     0x46f4       0x4800       3.703772    
+/86        0x6ee000     0x5501       0x5600       5.083920    
+/97        0x6f4000     0xbb28       0xbc00       4.144128    
+/108       0x700000     0x10a48      0x10c00      4.551373    
+

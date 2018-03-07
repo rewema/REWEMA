@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8192 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e78aab5015c9ec58e6bc1752000c2045
+SHA1:    029060cd5361a61171f201cf92a7ded6c1d1f988
+ssdeep:  96:1hh3wM8Xs4ffW8YmMNvMOfBWPfPqw/wtCbPyfQCwzNt:/q+87MvMOJWHPtKf5S
+Date:    0x58780402 [Thu Jan 12 22:32:34 2017 UTC]
+EP:      0x4032be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xfd59 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4090   0x45a    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x44fc   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x12c4       0x1400       4.948565    
+.rsrc      0x4000       0x6ec        0x800        3.732598    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Ala Ibrahim Hadid 2009 - 2017
+Assembly Version: 1.0.6221.42377
+InternalName: KurdishCultureGenerator.exe
+FileVersion: 1.0.0.0
+CompanyName: 
+LegalTrademarks: 
+Comments: This will generate Kurdish culture for systems that not support kurdish.
+ProductName: KurdishCultureGenerator
+ProductVersion: 1.0.0.0
+FileDescription: KurdishCultureGenerator
+OriginalFilename: KurdishCultureGenerator.exe
+

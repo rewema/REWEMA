@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    106496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     8acb64d8fd2ad3d9c726850cb04ed228
+SHA1:    bb0423fefa93293af7733dc7a816c30927b51d8b
+ssdeep:  768:hGB/4lEHCiDSH5MEj3sr7t2Z7wwwwkwwp3oqEMFKYUYrO36TNtozRQ7:IB/C5MEj3w39EMPUYC36TN0R
+Date:    0x426960C3 [Fri Apr 22 20:38:27 2005 UTC]
+EP:      0x417c0e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1b089 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x183e0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x19488  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x180e8  0x2f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x15c14      0x16000      5.302482    
+.rsrc      0x18000      0x14a0       0x2000       2.379728    
+.reloc     0x1a000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Siu Sun
+Assembly Version: 1.0.7.0
+InternalName: Text2id3.exe
+FileVersion: 1.0.7.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.7.0
+FileDescription: Text2ID3
+OriginalFilename: Text2id3.exe
+

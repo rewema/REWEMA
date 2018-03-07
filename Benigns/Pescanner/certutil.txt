@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1164288 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8994f93a67de3896f0c819010b24c92a
+SHA1:    658250dd97e3a1e3966ea02ed402a3105830abae
+ssdeep:  24576:aYYlVXQOCXVLh6YK1vtKnsKn6n8tD69ziiWKheC9EUgqOFU:JjFQR1vtKF+/lgqOF
+Date:    0x57898F85 [Sat Jul 16 01:36:05 2016 UTC]
+EP:      0x4f5380 .text 0/6
+CRC:     Claimed: 0x121bc6, Actual: 0x121bc6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x112e68 0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x112698 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x112980 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x112aa8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x112ad0 0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1121b0 0x4e4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xfe47c      0xfe600      6.401585    
+.data      0x100000     0xb774       0x9000       3.450760    
+.idata     0x10c000     0x4a40       0x4c00       5.677490    
+.didat     0x111000     0x124        0x200        2.306561    
+.rsrc      0x112000     0xf40        0x1000       4.557289    
+.reloc     0x113000     0xea1c       0xec00       6.782882    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CertUtil.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: CertUtil.exe
+OriginalFilename: CertUtil.exe
+Translation: 0x0409 0x04b0
+

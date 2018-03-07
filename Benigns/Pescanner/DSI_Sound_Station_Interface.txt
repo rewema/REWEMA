@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4132864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e1895e92fc8030db8aeb2b8f0df9f743
+SHA1:    8be176d8e9e44ade02767786ec4960347e9b0b9e
+ssdeep:  49152:x8RJa+v/xdBXgYwlxN+R9b/rIG2g687AT5:xwPxdhkxN+R9b/rIG2g6Oc5
+Date:    0x430FC0B3 [Sat Aug 27 01:24:03 2005 UTC]
+EP:      0x41543c .text 0/3
+CRC:     Claimed: 0x3f4552, Actual: 0x3f9766 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x427370 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x42735c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x4270f0 0x26c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3ed000     0x3ed000     6.417023    
+.data      0x3ee000     0x3818c      0x1000       0.000000    
+.rsrc      0x427000     0x17ba       0x2000       0.943354    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: DSI_Sound_Station_Interface
+FileVersion: 1.05.0056
+CompanyName: DSI
+ProductName: SoundStation
+ProductVersion: 1.05.0056
+OriginalFilename: DSI_Sound_Station_Interface.exe
+

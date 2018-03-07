@@ -1,0 +1,164 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1481216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e9dabbaae6f9b21d8887d43beda0471f
+SHA1:    968c5a3959d4d1457dc53ec0c552a2bb61ffd622
+ssdeep:  24576:hdDXt37iJJjN7zZckkvuWUpsLG5L3PYfFPQwt2Wn0V3f:h1ZubkvuBIG5jUPN/05
+Date:    0x586F6D51 [Fri Jan  6 10:11:29 2017 UTC]
+EP:      0x516f0c .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x16bba6 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x13bbd4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_CURSOR          0x13bd08 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x13be3c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x13bf70 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x13c0a4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x13c1d8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x13c30c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x13c440 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13c574 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13c6a8 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13c7dc 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13c910 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13ca44 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13cc14 0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13cdf8 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13cfc8 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13d198 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13d368 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13d538 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13d708 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13d8d8 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13daa8 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13dc78 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13dd38 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13de18 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13def8 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13dfd8 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13e098 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13e158 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13e238 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13e2f8 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13e3d8 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13e4c0 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x13e580 0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13ea38 0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13eef0 0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13f3a8 0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13f860 0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13fd18 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x140340 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x140968 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x140f90 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1415b8 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x141be0 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x142208 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x142830 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x142e58 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x143480 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x143aa8 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x143b78 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x143c60 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x143d48 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x143e30 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x143f00 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x143fd0 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x1440a0 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x144188 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x144258 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x144340 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x144420 0xfe13   LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x154234 0x468    LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   GLS_BINARY_LSB_FIRST
+RT_ICON            0x15469c 0x25a8   LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_ICON            0x156c44 0x10a8   LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_ICON            0x157cec 0x10828  LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_ICON            0x168514 0x4228   LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   data
+RT_DIALOG          0x16c73c 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x16c790 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16c7e4 0x78     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16c85c 0x504    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16cd60 0x3c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16d120 0x1c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16d2e0 0x18c    LANG_NEUTRAL SUBLANG_NEUTRAL          PCX ver. 2.5 image data
+RT_STRING          0x16d46c 0x120    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16d58c 0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x16d684 0x298    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16d91c 0x370    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16dc8c 0x14c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6553710 records)
+RT_STRING          0x16ddd8 0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16dea4 0x190    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x16e034 0x2f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16e324 0x3f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16e71c 0x37c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16ea98 0x36c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16ee04 0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16f194 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x16f264 0xa0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7471216 records)
+RT_STRING          0x16f304 0x2b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16f5bc 0x404    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16f9c0 0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16fcd0 0x2f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x16ffc4 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x16ffd4 0x690    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x170664 0x21d    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x170884 0x1e77   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1726fc 0x12ec   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x1739e8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x1739fc 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a10 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a24 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a38 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a4c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a60 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a74 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a88 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x173a9c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x173ab0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x173ac4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x173ad8 0x5a     LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0x173b34 0x284    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x173db8 0x352    LANG_FRENCH  SUBLANG_FRENCH_BELGIAN   XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x114a6c     0x114c00     6.552677    
+.itext     0x116000     0xf78        0x1000       6.287337    
+.data      0x117000     0x33e8       0x3400       4.018311    
+.bss       0x11b000     0x5758       0x0          0.000000    [SUSPICIOUS]
+.idata     0x121000     0x3d86       0x3e00       5.164192    
+.tls       0x125000     0x38         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x126000     0x18         0x200        0.210826    [SUSPICIOUS]
+.reloc     0x127000     0x122fc      0x12400      6.649420    
+.rsrc      0x13a000     0x3a200      0x3a200      6.456661    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 0.4.0.36
+CompanyName: 
+LegalTrademarks: 
+Comments: 
+ProductName: STL Viewer
+ProductVersion: 0.1
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f702595ff05fdf64e6bf629a523abb7e
+SHA1:    0a542aeac16f95151b24db0e5b86262d2bd13cbe
+ssdeep:  384:iFf7aKIauapaJaqaYpaHaijjGzMIGRTPVEIkQLBSEsB25JMhD30snm/zM:iPX7t7kQLBCA5J+xm4
+Date:    0x5171C1FA [Fri Apr 19 22:15:22 2013 UTC]
+EP:      0x401434 .text 0/3
+CRC:     Claimed: 0xd18f, Actual: 0xd18f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8d04   0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x837c   0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x8358   0x24     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 24x24, 256-colors
+RT_VERSION         0x8160   0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x93cc   0x258    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x58ac       0x6000       5.479841    
+.data      0x7000       0xa80        0x1000       0.000000    
+.rsrc      0x8000       0x1624       0x2000       3.182604    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: tools
+FileVersion: 1.00
+CompanyName: Home
+ProductName: tools
+ProductVersion: 1.00
+OriginalFilename: tools.exe
+

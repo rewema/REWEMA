@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    77824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f9b664ef118db03abbe0378b3e6b1ca4
+SHA1:    7c2f0029a34e4c75c43df162a26208583683c676
+ssdeep:  1536:ZFhEGCPosC1uhccQtvg7ea6GT+Mbbassvjv/oOIiK:ZyC1uUtvgs9ssvL/oOIi
+Date:    0x3D576925 [Mon Aug 12 07:52:05 2002 UTC]
+EP:      0x4069fa .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x19308 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x143f8  0x5b8    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x149c8  0x5b8    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_MENU            0x14360  0x94     LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_MENU            0x15800  0xa2     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_MENU            0x14310  0x4a     LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_MENU            0x157a8  0x56     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x14f98  0x382    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_DIALOG          0x15320  0x484    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_STRING          0x158b8  0x114    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_STRING          0x15a68  0xd0     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x159d0  0x94     LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_STRING          0x15b38  0xbe     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ACCELERATOR     0x158a8  0x10     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_ICON      0x149b0  0x14     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x14f80  0x14     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb0d5       0xc000       6.320310    
+.rdata     0xd000       0x14fe       0x2000       3.974257    
+.data      0xf000       0x433c       0x2000       2.767131    
+.rsrc      0x14000      0x1bf8       0x2000       3.229265    
+

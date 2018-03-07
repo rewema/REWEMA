@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8704 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fa4b14440ba8eb5bb9e008523e4d3c3a
+SHA1:    0f06c522a9851a7100ba3a28057f85855f5bcebd
+ssdeep:  96:h9ixUHYyjSqhbmZl8/MU0D1YmkCifS7FjozaSqH/nhofbymXKorPhXjb7l6:zixuThCl+mYmkviFjozaSqHfhiyIb5
+Date:    0x3E9B0399 [Mon Apr 14 18:53:13 2003 UTC]
+EP:      0x4038ee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1099e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x38c    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x18f4       0x1a00       5.138364    
+.rsrc      0x4000       0x3e8        0x400        3.296755    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (C) 2001-2003 Gerry Shaw
+Assembly Version: 0.8.2.35796
+InternalName: NAnt.exe
+FileVersion: 0.8.2.35796
+CompanyName: http://nant.sourceforge.net
+LegalTrademarks:  
+Comments: A .NET Build Tool
+ProductName: NAnt
+ProductVersion: 0.8.2.35796
+FileDescription: NAnt
+OriginalFilename: NAnt.exe
+

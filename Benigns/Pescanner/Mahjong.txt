@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    688640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8f9401fea49ae62a83a728342997764a
+SHA1:    83c255e871a8397e559c7342747f483aa061fde1
+ssdeep:  12288:n3Uv9cIPKYVtEg+SYDT2s2otXpDDgazRtes0rqjUAE1AKgIJpXr:chP/VtEg+SYDT2s2otX1B+dYIJpX
+Date:    0x4A5BC63E [Mon Jul 13 23:41:50 2009 UTC]
+EP:      0x102eb29 .text 0/4
+CRC:     Claimed: 0xad4f8, Actual: 0xad4f8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xa4a68  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8d840  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8dea8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8e190  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8e2b8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8f160  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8fa08  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8ff70  0xda1d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x9d990  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9ff38  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa0fe0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa1448  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xa4690  0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8d380  0x4ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xa14e0  0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7ee76      0x7f000      6.335350    
+.data      0x80000      0xcf54       0x8800       4.383235    
+.rsrc      0x8d000      0x17b58      0x17c00      7.445183    [SUSPICIOUS]
+.reloc     0xa5000      0x87dc       0x8800       5.133451    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: mahjong.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for Mahjong Titans Game
+OriginalFilename: mahjong.exe
+Translation: 0x0409 0x04b0
+

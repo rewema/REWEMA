@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    217088 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e20af278141a6091fb1ae351cd0cba09
+SHA1:    3d866bf9d0b2d072ae63bde6a437c0518798ddb7
+ssdeep:  3072:ITR31VS1VaU+X0LfFZMjqNQbEksn2pWls93BT:4jVS1YU+iHHXQWU3B
+Date:    0x433BF38A [Thu Sep 29 14:00:42 2005 UTC]
+EP:      0x1103186e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x35c68 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x32488  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x34a30  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x320e8  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2f874      0x30000      5.754712    
+.rsrc      0x32000      0x2a48       0x3000       4.292458    
+.reloc     0x36000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: (c) 2005, csammisrun
+Assembly Version: 0.0.2098.14421
+InternalName: sh-aim.exe
+FileVersion: 0.0.2098.14421
+CompanyName: csammisrun
+LegalTrademarks:  
+Comments: An open-source multi-protocol IM client
+ProductName: #aim
+ProductVersion: 0.0.2098.14421
+FileDescription: #aim
+OriginalFilename: sh-aim.exe
+

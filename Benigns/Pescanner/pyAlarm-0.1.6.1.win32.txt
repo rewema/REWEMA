@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2575461 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     740933bf79649d2289cc4289c154186b
+SHA1:    bc88d078c042bd405d062a2645c7a99051fb1ef2
+ssdeep:  49152:BnQuxFa/rNR2q7C62gbuLJFIfj9qXFQkbhvfCbxDNIkJEM0zF7R:RQuraa4egbuLJFKj9qak5oDNDEzF9
+Date:    0x417A21C3 [Sat Oct 23 09:17:55 2004 UTC]
+EP:      0x403c4b .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x279e45 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d2b0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d818  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e0c0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ef68  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x30590  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x306d8  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x307d8  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x308f8  0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x309c0  0xd2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x30a98  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x30af8  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_VERSION         0x30b38  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5a48       0x5c00       6.369870    
+.rdata     0x7000       0x10b4       0x1200       4.987360    
+.data      0x9000       0x1b3f4      0x400        5.074198    
+.ndata     0x25000      0x8000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x2d000      0x4000       0x3e00       5.230994    
+
+Version info
+================================================================================
+LegalCopyright: (C)opyright 2003,2004,2005 by Dave Fancella
+FileVersion: 0.1.6.1
+CompanyName: pyAlarm
+Comments: pyAlarm is an alarm clock I wrote because I can't wake up.
+ProductName: pyAlarm
+FileDescription: pyAlarm
+Translation: 0x0409 0x0000
+

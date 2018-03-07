@@ -1,0 +1,146 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3346992 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e2070708365752882750705aeda4e834
+SHA1:    ffd5cc757a47391103af75981a0e7ec9c021e50d
+ssdeep:  49152:6K7tZlRNSibESyyo5ffeWClB0rBQ8JtYmW+Q5RMC52qnERn2J:X7tfRNbb25HeWCI9t4+Q5RB26ER2J
+Date:    0x4390CBC9 [Fri Dec  2 22:33:45 2005 UTC]
+EP:      0x4035fc .text 0/4
+CRC:     Claimed: 0xd1bce, Actual: 0x33bfde [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x415aL => This program cannot be run in DOS mode
+   0xbd1faL => This program cannot be run in DOS mode
+   0x12614fL => This program cannot be run in DOS mode
+   0x12d1beL => This program cannot be run in DOS mode
+   0x132224L => This program cannot be run in DOS mode
+   0x138291L => This program cannot be run in DOS mode
+   0x13e30bL => This program cannot be run in DOS mode
+   0x14f399L => This program cannot be run in DOS mode
+YARA: encoding
+   0x11ab47L => deflate
+   0x11aca8L => deflate
+   0x122d6eL => deflate
+   0x123385L => deflate
+   0x14981eL => deflate
+   0x14bb2dL => deflate
+   0x14bb8bL => deflate
+   0x14bf24L => deflate
+   0x149840L => Jean-loup Gailly
+   0x11adb9L => inflate
+   0x11aec0L => inflate
+   0x122f8bL => inflate
+   0x123b92L => inflate
+   0x14a34eL => inflate
+   0x14bc89L => inflate
+   0x14be2cL => inflate
+   0x14be5aL => inflate
+   0x14a370L => Mark Adler
+YARA: irc
+   0x9f4adL => join
+   0xa62fcL => join
+   0xa7138L => join
+   0xc3990L => join
+   0xd30f3L => join
+   0xd81daL => join
+   0xd8745L => join
+   0xd9083L => join
+   0xd90b0L => join
+   0xda9daL => join
+   0xdaa14L => join
+   0xdd247L => Join
+   0xe3f6cL => join
+   0xe8d40L => join
+   0xece50L => join
+   0xed0daL => join
+   0xede5cL => join
+   0xef799L => join
+   0xf4005L => join
+   0xf497fL => join
+   0xf4bb5L => join
+   0xfb6f2L => join
+   0xfba56L => join
+   0xfbb27L => join
+   0xfd43cL => join
+   0xfdcf3L => join
+   0x10093aL => join
+   0x105962L => join
+   0x105e08L => join
+   0x10e521L => join
+   0x10fa0dL => join
+   0x10fa2eL => join
+   0x122866L => join
+   0x123495L => join
+   0x124243L => join
+   0xf49a6L => msg
+   0xf49fbL => msg
+   0xf4accL => msg
+   0xf4b48L => msg
+   0xf4bdcL => msg
+   0xf4c31L => msg
+   0xf4ca0L => msg
+   0xf7486L => msg
+   0xf7495L => msg
+   0xf74abL => msg
+   0xf74c4L => msg
+   0xf74d7L => msg
+   0xf74ebL => msg
+   0x14bc7fL => msg
+   0x14bd63L => msg
+   0x14bdb4L => msg
+   0x14be84L => msg
+   0x15ec52L => MSG
+   0xce302L => part
+   0xdd260L => part
+   0x117a80L => part
+   0x117b74L => part
+   0x117f14L => part
+   0xa7618L => QUIT
+   0xf5e60L => QUIT
+   0xfa2bcL => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xd4398  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xd4900  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xd51a8  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0xd4120  0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x273c       0x3000       5.882188    
+.rdata     0x4000       0xc6628      0xc7000      6.557334    
+.data      0xcb000      0x8388       0x1000       1.437098    
+.rsrc      0xd4000      0x11d0       0x2000       3.177203    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: 
+SpecialBuild: 
+ProductVersion: 
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0400 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    155136 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bb77223b02f392982efe55c5a4ac652d
+SHA1:    096dd2f8b6b6131be1807b4d3f78339fcb4fb427
+ssdeep:  3072:SB+e6/Wcn6AoSliI1yfQJ6Dg5Ncubv7hh5iHvf9LOfTzv6IXcvP:SB2Wc9l18s6Dg5ND73APOiIXU
+Date:    0x5789909B [Sat Jul 16 01:40:43 2016 UTC]
+EP:      0x41b3e0 .text 0/6
+CRC:     Claimed: 0x3514d, Actual: 0x3514d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x27060  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x20a14      0x20c00      6.255802    
+.data      0x22000      0x1814       0x1000       4.333961    
+.idata     0x24000      0x1282       0x1400       5.033446    
+.didat     0x26000      0x20         0x200        0.249130    [SUSPICIOUS]
+.rsrc      0x27000      0x420        0x600        2.476323    
+.reloc     0x28000      0x2140       0x2200       6.644727    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Legacy Net UX Host
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Legacy Net UX Host
+OriginalFilename: LegacyNetUXHost.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    26336 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     82420991da070776c65accee063bc139
+SHA1:    10e05b3e312b581a3dc5f2a92c3704626fda022c
+ssdeep:  384:uU68FLdH5WXC92PPWdkWv2GBZotMKW7bWYEmYlRDBRJl6lfMsHf:d68F15/MXg92GBZom33ET1Pl4Mof
+Date:    0x57899126 [Sat Jul 16 01:43:02 2016 UTC]
+EP:      0x402890 .text 0/6
+CRC:     Claimed: 0xcc6a, Actual: 0xcc6a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7d10   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x7a68   0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_VERSION         0x7668   0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7150   0x513    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x200c       0x2200       5.883682    
+.imrsiv    0x4000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x5000       0x41c        0x200        0.346693    [SUSPICIOUS]
+.idata     0x6000       0x970        0xa00        4.830165    
+.rsrc      0x7000       0xde8        0xe00        4.828725    
+.reloc     0x8000       0x2ac        0x400        4.966343    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SystemSettingsRemoveDevice.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: SystemSettingsRemoveDevice
+OriginalFilename: SystemSettingsRemoveDevice.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2756608 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     37b37fbdcef3941466ddae2dcf5580be
+SHA1:    dad51fd2a92d77cd5d34b7c1e0da36e59c3e3459
+ssdeep:  12288:opZgfK5Z8GPOnTu1liEehJV/JA+zO34qd1sevsvkgwpnnGHpkAdDZbfPiKZaxO7+:oAU0l
+Date:    0x3F9AD986 [Sat Oct 25 20:13:58 2003 UTC]
+EP:      0x40c9f0 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2ae12f [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x3a200  0x266428 LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2a0628 0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x123a0  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22bc8  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2c070  0x5488   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x314f8  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35720  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x37cc8  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x38970  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x392f8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x397d8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39ad8  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x39760  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_GROUP_ICON      0x39ac0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x39e90  0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x2a0920 0xb2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcb72       0xd000       6.063269    
+.rdata     0xe000       0x2418       0x3000       3.833061    
+.data      0x11000      0x2dc        0x1000       0.728106    [SUSPICIOUS]
+.rsrc      0x12000      0x28e9d8     0x28f000     4.021352    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2003
+InternalName: CatalogForm
+FileVersion: 1, 2, 0, 0
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: CatalogForm Application
+SpecialBuild: 
+ProductVersion: 1, 2, 0, 0
+FileDescription: CatalogForm MFC Application
+OriginalFilename: CatalogForm.EXE
+Translation: 0x0409 0x04b0
+

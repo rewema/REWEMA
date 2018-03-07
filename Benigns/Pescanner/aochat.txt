@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    100352 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3bd5ddea31f20967f23cf60f388e74b7
+SHA1:    7a3036e31ba1195ddb1f2acad55450a75c2778de
+ssdeep:  3072:bZaYYs6wi45KbdL4hQ64AuoojGomB0oJK64XVRFFB+lZ8ITUKfPs801QOVWTXu4o:bUP3AyGFJQFFBaZ8ITUpTVFuY3x
+Date:    0x36D921F7 [Sun Feb 28 11:01:11 1999 UTC] [SUSPICIOUS]
+EP:      0x401679 .text 0/2
+CRC:     Claimed: 0x0, Actual: 0x1fa7c [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0xf20eL => JOIN
+   0xf508L => JOIN
+   0x8d69L => msg
+   0xb6edL => msg
+   0xc698L => msg
+   0x1257fL => msg
+   0x12697L => msg
+   0x12764L => msg
+   0x13ab9L => msg
+   0x15003L => msg
+   0x29cbL => nick
+   0x2cc6L => nick
+   0x93fdL => nick
+   0xf0edL => NICK
+   0x14ebeL => nick
+   0x16e75L => nick
+   0xf48bL => PART
+   0xf51eL => PART
+   0xf2e5L => PING
+   0x9bfaL => chat
+   0xa063L => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x2130   0xdea    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x2f1c   0x20     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x2f3c   0x1684a  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x19788  0x1e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x197a8  0x1a8    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb08        0xc00        5.853216    
+.rsrc      0x2000       0x18000      0x17a00      5.788017    
+
+Version info
+================================================================================
+Translation: 0x0407 0x04b0
+InternalName: aochat
+FileVersion: 1.00
+OriginalFilename: aochat.exe
+ProductVersion: 1.00
+

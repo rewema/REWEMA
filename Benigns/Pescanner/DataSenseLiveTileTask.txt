@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    93184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1e42d5ccb126b3cc4a87e75be084f443
+SHA1:    63f1479c7bdb319841d4d8b52385ade114de0fa2
+ssdeep:  768:ExPszlU4JHZPOG3GzNu+87Nz+Xc/AmQOqvdOVss6zQiQ:Wsz+4JFOGKuB/At1ess6zQiQ
+Date:    0x5789916E [Sat Jul 16 01:44:14 2016 UTC]
+EP:      0x406f30 .text 0/6
+CRC:     Claimed: 0x1dc97, Actual: 0x1dc97 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc600   0x123    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGB, non-interlaced
+RT_ICON            0xc728   0x70a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x137d0  0x3228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x169f8  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x186a0  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19348  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x197b0  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0xc220   0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7574       0x7600       6.218917    
+.data      0x9000       0x578        0x200        2.479033    
+.idata     0xa000       0xad6        0xc00        4.777093    
+.didat     0xb000       0x34         0x200        0.429194    [SUSPICIOUS]
+.rsrc      0xc000       0xd810       0xda00       2.867522    
+.reloc     0x1a000      0x788        0x800        6.386905    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Data Sense Live Tile Task
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Data Sense Live Tile Task
+OriginalFilename: DataSenseLiveTileTask.exe
+Translation: 0x0409 0x04b0
+

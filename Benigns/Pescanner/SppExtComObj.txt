@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    564224 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c7e3e7f0bf719512e36fecfe5bcbd34f
+SHA1:    cc6f863f676bf61a0d426623eea662e2d3d33335
+ssdeep:  12288:Fig0QblKwdw+1BPZMyy9vOCfSfwFDc8gqgd1Y4DHMfbJ+ch:8Odw+1BPZMRvOCafwRgqmYsyV+
+Date:    0x57899078 [Sat Jul 16 01:40:08 2016 UTC]
+EP:      0x41f6a0 .text 0/5
+CRC:     Claimed: 0x93628, Actual: 0x93628 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x89368  0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x890a0  0x2c8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x83aac      0x83c00      7.594378    [SUSPICIOUS]
+.data      0x85000      0x146c       0x1000       3.489623    
+.idata     0x87000      0x1458       0x1600       5.253410    
+.rsrc      0x89000      0x718        0x800        4.128600    
+.reloc     0x8a000      0x2cb0       0x2e00       6.486988    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SppExtComObj
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: KMS Connection Broker
+OriginalFilename: SppExtComObj.exe
+Translation: 0x0409 0x04b0
+

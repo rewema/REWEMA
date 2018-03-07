@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ed066062b0060878a1bb6f8b75eb382e
+SHA1:    63080223238be0dc6fb54945fa66296530b994d3
+ssdeep:  384:R76WK1lmZvHBA0fkUC50WtXVb2gMxf0DtWrhWmEM:RF0ovmQ9C50BbxS2vEM
+Date:    0x57899122 [Sat Jul 16 01:42:58 2016 UTC]
+EP:      0x403860 .text 0/5
+CRC:     Claimed: 0x13403, Actual: 0x13403 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8768   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83b0   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3212       0x3400       6.024222    
+.data      0x5000       0x137c       0x200        0.285782    [SUSPICIOUS]
+.idata     0x7000       0x806        0xa00        4.279531    
+.rsrc      0x8000       0x830        0xa00        3.740523    
+.reloc     0x9000       0x388        0x400        6.105317    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: PrintBrm.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Print BRM command line tool
+OriginalFilename: PrintBrm.exe
+Translation: 0x0409 0x04b0
+

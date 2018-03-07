@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c9928de63676ae1d5ff68b80a2f08fde
+SHA1:    5a27eb56849ab98b1e023560f8e8388b4967f57b
+ssdeep:  384:pmotnkKd0TlQCxfrwntajXjDWLi9k+7y/Q1nDcZdKDGKDsUlZP:/nkpTBPJn7qcnDcrUXP
+Date:    0x4250D1E1 [Mon Apr  4 05:34:25 2005 UTC]
+EP:      0x401010 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1a197 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9178   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x9460   0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x9d08   0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xabb0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xacd8   0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 32x32, 16-colors
+RT_VERSION         0xad18   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x35be       0x4000       5.957113    
+.rdata     0x5000       0x7a0        0x1000       3.173793    
+.data      0x6000       0x29dc       0x3000       0.360581    [SUSPICIOUS]
+.rsrc      0x9000       0x2000       0x2000       3.997223    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000
+InternalName: _IsIcoRes.exe
+FileVersion: 11.00.28844
+CompanyName: InstallShield Software Corp.
+ProductName: InstallShield
+ProductVersion: 11.00
+FileDescription: InstallShield
+OriginalFilename: _IsIcoRes.exe
+Translation: 0x0409 0x04b0
+

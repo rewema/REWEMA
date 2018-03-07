@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ede772df1e5f0493d74e561b60a052a4
+SHA1:    51427829dd51128ec591d3a5c98a97f5f83a8e5e
+ssdeep:  192:PjSI6zbIg79eiJnOkpt0kbo1oyypzvqlVd7pG:PGzUg5eiY1spzvqnrG
+Date:    0x3E3A4933 [Fri Jan 31 10:00:19 2003 UTC]
+EP:      0x4021ae .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x93bf [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x51e0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x54c8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x5618   0x132    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x5750   0x1b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x5c50   0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x55f0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x5908   0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16b5       0x2000       4.733624    
+.rdata     0x3000       0xf3c        0x1000       4.593159    
+.data      0x4000       0x1f8        0x1000       0.460159    [SUSPICIOUS]
+.rsrc      0x5000       0xca8        0x1000       2.829864    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002
+InternalName: AutomationClient
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: AutomationClient Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: AutomationClient MFC Application
+OriginalFilename: AutomationClient.EXE
+Translation: 0x0409 0x04b0
+

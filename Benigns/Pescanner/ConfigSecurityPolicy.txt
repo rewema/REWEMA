@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    227840 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5e4da52dd7e35f3452767b6a36fa8c3a
+SHA1:    fb0a08da5f8b15c8f80f28d9f45a6cc8b00b0fc2
+ssdeep:  6144:+6GQaPzzXcP85BiPsZsGxJwtBRk7Rz0++tkbM0H9:taPzzcPn0ZoRmRzqtsHd
+Date:    0x57898FC4 [Sat Jul 16 01:37:08 2016 UTC]
+EP:      0x426a50 .text 0/5
+CRC:     Claimed: 0x3f8e5, Actual: 0x3f8e5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+XML                0x35ad0  0x18bc   LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+RT_VERSION         0x356c8  0x404    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x350f0  0x5d7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessAsUserW
+OpenProcess
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2c144      0x2c200      6.132127    
+.data      0x2e000      0x35e4       0x3000       4.770525    
+.idata     0x32000      0x20fc       0x2200       5.509891    
+.rsrc      0x35000      0x2390       0x2400       4.505288    
+.reloc     0x38000      0x3c44       0x3e00       6.576858    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ConfiguSecurityPolicy.exe
+FileVersion: 4.10.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 4.10.14393.0
+FileDescription: Microsoft Security Client Policy Configuration Tool
+OriginalFilename: ConfiguSecurityPolicy.exe
+Translation: 0x0409 0x04b0
+

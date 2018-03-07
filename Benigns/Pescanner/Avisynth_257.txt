@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2820758 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b1fbd60dd9722870d6ada86092b063ea
+SHA1:    1fef9d0fed847c942c98367d3c17cd5393941707
+ssdeep:  49152:lCm58xlCSGzzxe2rbGnhBfOUrip68beWwMZSwe8hGLxus7h7Tnp4ZtEO5Cc9:lPUGXg2fGnhBLu64twMwweLL17TpuF5T
+Date:    0x42B737D5 [Mon Jun 20 21:40:37 2005 UTC]
+EP:      0x431500 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x2c0a15 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2e2c8  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x322cc  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x323f8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2ed40  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2edf8  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2ef18  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f070  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f278  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f370  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f410  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x326e4  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_MANIFEST        0x3270c  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x2c000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x2d000      0x5000       0x4800       7.829142    [SUSPICIOUS]
+.rsrc      0x32000      0x1000       0xc00        4.524461    
+

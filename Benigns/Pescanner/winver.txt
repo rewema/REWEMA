@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    57344 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d93830f17d450c7d418534ced70e263b
+SHA1:    ee2ea7f03579a3653187e74f2dc9a697be26c60b
+ssdeep:  768:tfGMR4qGz+GSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wUXP:tDRnGz+xakkn6oYY0ewiP8y
+Date:    0x57899136 [Sat Jul 16 01:43:18 2016 UTC]
+EP:      0x401870 .text 0/5
+CRC:     Claimed: 0x1abbe, Actual: 0x1abbe 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x10108  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4858   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ec0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x51a8   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5390   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x54b8   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6360   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6c08   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x72d0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7838   0x402e   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xb868   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xde10   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xeeb8   0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf840   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xfca8   0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0xfd68   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x43c0   0x491    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xea4        0x1000       5.566552    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x5dc        0x600        4.709862    
+.rsrc      0x4000       0xc1d8       0xc200       6.284265    
+.reloc     0x11000      0x14c        0x200        4.698363    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: winver
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Version Reporter Applet
+OriginalFilename: WINVER.EXE
+Translation: 0x0409 0x04b0
+

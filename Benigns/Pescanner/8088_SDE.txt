@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    659456 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     94e3fc9da66edee04eaf1679654888b2
+SHA1:    d6c438dc69f8abf6eede663cbe65cb0919b94dce
+ssdeep:  3072:oaAdwHoR1ptK3bw+baMu3pnmqkc1Xq45Bv9iIQhrWZbb/ST6wOKuwT+9drJp6ObD:oaACG1xfMMpHkcRq4vv97Qh76JSJYZ
+Date:    0x41882219 [Wed Nov  3 00:11:05 2004 UTC]
+EP:      0x49f9ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xa4eb4 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa0428  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa0710  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa0838  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa0118  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x9d9b4      0x9e000      5.371780    
+.rsrc      0xa0000      0x860        0x1000       2.068448    
+.reloc     0xa2000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1767.34532
+InternalName: 8088_SDE.exe
+FileVersion: 1.0.1767.34532
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1767.34532
+FileDescription:  
+OriginalFilename: 8088_SDE.exe
+

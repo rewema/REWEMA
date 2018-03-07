@@ -1,0 +1,98 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    421888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4e2a0951735c4777c70b3a828568f6cd
+SHA1:    d2b84d1289597b524ca4e6458f1476c7fa4de306
+ssdeep:  6144:OVYEJiwn7rM6x2mMEDHlixcHTR+n6y7Yg5ZtL70Ja:/EJiw746UmbDg2zR+6gR1z
+Date:    0x45DCE037 [Thu Feb 22 00:13:43 2007 UTC]
+EP:      0x4154f4 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x73cd3 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x67c88  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x67dc0  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x688e0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x68a18  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x67198  0x518    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x67ea0  0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x68570  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x68628  0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x68798  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x662c8  0x8a8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x66d60  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x67048  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x676d0  0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x66b88  0x1d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x65b40  0x54a    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x66090  0x236    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x68488  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68af8  0x11e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x68c18  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x68d90  0x86     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x68e18  0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69dc0  0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69ee0  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x68ea8  0x3c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x68f30  0x296    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x692d0  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69680  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69610  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x691c8  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69530  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x68ee8  0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0x699a8  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69a70  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69c68  0x86     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x69cf0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6a028  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6a058  0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6b508  0x124    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x6a1a8  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6aa20  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6a740  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6a690  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6b3f8  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6acc8  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6b190  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6b4d8  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_ACCELERATOR     0x67910  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x68d78  0x18     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (58114 records)
+RT_GROUP_CURSOR    0x67e78  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x68ad0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x66b70  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x67170  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x67980  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x676b0  0x20     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4acc2      0x4b000      6.583762    
+.rdata     0x4c000      0x10e9c      0x11000      4.664794    
+.data      0x5d000      0x7388       0x3000       4.622197    
+.rsrc      0x65000      0x6630       0x7000       3.669656    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2006
+InternalName: BezViewer
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: BezViewer Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: BezViewer MFC Application
+OriginalFilename: BezViewer.EXE
+Translation: 0x0409 0x04b0
+

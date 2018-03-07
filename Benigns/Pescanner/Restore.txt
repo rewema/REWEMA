@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    72376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f354b4f0324f0514a60d09fab25d8b44
+SHA1:    62252770ce10aa073f3a7d4958ce3b4dbcb2d578
+ssdeep:  1536:xpgpHzb9dZVX9fHMvG0D3XJf+31aVf9KCcf22e4o:rgXdZt9P6D3XJf+31a0CcOJ
+Date:    0x4B1AE3CC [Sat Dec  5 22:50:52 2009 UTC]
+EP:      0x4030fa .text 0/5
+CRC:     Claimed: 0x137ea, Actual: 0x137ea 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3a328  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c8d0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d978  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3e820  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3f1a8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3fa50  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40118  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x40680  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x40ae8  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40be8  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x40d08  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x40d68  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 48x48, 256-colors
+RT_VERSION         0x40de0  0x28c    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+RT_MANIFEST        0x41070  0x2d7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c4c       0x5e00       6.440106    
+.rdata     0x7000       0x129c       0x1400       5.046835    
+.data      0x9000       0x25c58      0x400        4.801004    
+.ndata     0x2f000      0xb000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x3a000      0x7348       0x7400       6.503502    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2011 Ori Rejwan
+FileVersion: 1.0
+CompanyName: Ori Rejwan
+ProductName: UMPlayer De-association
+ProductVersion: 1.0
+FileDescription: UMPlayer Filetype De-association tool
+Translation: 0x0000 0x04e4
+

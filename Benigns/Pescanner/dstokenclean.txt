@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2a37131971e018182bcbacab76091841
+SHA1:    90ffed0f0b3907a096a03df68bba175bacb1be79
+ssdeep:  192:r25YrwHkXfSTRpH/MP67Wdc1XkgIApDWzEW:rWYekXfERdky7Wdg1DWzEW
+Date:    0x57899189 [Sat Jul 16 01:44:41 2016 UTC]
+EP:      0x401d80 .text 0/5
+CRC:     Claimed: 0xb2df, Actual: 0xb2df 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5060   0x408    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1544       0x1600       5.732472    
+.data      0x3000       0x424        0x200        0.346693    [SUSPICIOUS]
+.idata     0x4000       0x664        0x800        4.093241    
+.rsrc      0x5000       0x468        0x600        2.602231    
+.reloc     0x6000       0x1cc        0x200        5.893636    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Data Sharing Service Maintenance Driver
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Data Sharing Service Maintenance Driver
+OriginalFilename: dstokenclean.exe
+Translation: 0x0409 0x04b0
+

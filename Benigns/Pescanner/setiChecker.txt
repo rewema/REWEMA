@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    237568 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     972345f7165d352bade09f2a9bc0f7bb
+SHA1:    a56aaedce5678e5b75395292dd51c956f055019c
+ssdeep:  3072:XLxRT+iL3NlclXPDbAQK4c8bOcDTd2SDCoykpft/Xo8b/yjMNB/M56s4I:7xPL3NlcZDs74cG2inyjMN
+Date:    0x3FEFDC60 [Mon Dec 29 07:48:48 2003 UTC]
+EP:      0x409a27 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x4865e [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x3b4f0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x3b628  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x33fb8  0x7538   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3b708  0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3bdd8  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3be90  0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x3c000  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33580  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33868  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x339b8  0x28c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3bcf0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c148  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c1d0  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c200  0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c350  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3cbc8  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c8e8  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3c838  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3d5a0  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3ce70  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3d338  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3d680  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_GROUP_CURSOR    0x3b6e0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x33990  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x33c48  0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x21db3      0x22000      6.602298    
+.rdata     0x23000      0x87d2       0x9000       4.593715    
+.data      0x2c000      0x6488       0x3000       3.382484    
+.rsrc      0x33000      0xa6b0       0xb000       1.913766    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: setiChecker
+FileVersion: 1, 2, 0, 1
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: setiChecker Application
+SpecialBuild: 
+ProductVersion: 1, 2, 0, 1
+FileDescription: setiChecker MFC Application
+OriginalFilename: setiChecker.EXE
+Translation: 0x0409 0x04b0
+

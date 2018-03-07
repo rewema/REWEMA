@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     815f45ce3293ba22d4ee10f88de922cc
+SHA1:    3893856646a0f60742a9f360c9d9db6b472483f6
+ssdeep:  192:JJH+LPoAuXXk1TQODuUtVp/xMVTIYB4EW1wW:JJkuXXIu4/iiM4EW1wW
+Date:    0x57898E97 [Sat Jul 16 01:32:07 2016 UTC]
+EP:      0x401d40 .text 0/5
+CRC:     Claimed: 0x12b9a, Actual: 0x12b9a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5710   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5380   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x28f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x143c       0x1600       5.609434    
+.data      0x3000       0x790        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x4ea        0x600        4.354082    
+.rsrc      0x5000       0x7d8        0x800        4.327520    
+.reloc     0x6000       0x190        0x200        5.429410    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MIGREGDB.EXE
+FileVersion: 2001.12.10941.16384 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: COM+
+OriginalFilename: MIGREGDB.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    48640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6bf82dafc73453e2513f9bb2bb1cd948
+SHA1:    85972ba57cd4cd93a22bfd5353c1637d5bb56962
+ssdeep:  768:VbNcV6vOGRrTXgNsukwjveW0GR8m1PspBcZGIn:VbNCu5gNnr0GRNPOyGIn
+Date:    0x578990A6 [Sat Jul 16 01:40:54 2016 UTC]
+EP:      0x408a70 .text 0/5
+CRC:     Claimed: 0x19cd9, Actual: 0x19cd9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xdca8   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd9a8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xdc90   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xd618   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0xd180   0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8444       0x8600       6.187911    
+.data      0xa000       0x624        0x200        2.591545    
+.idata     0xb000       0x184a       0x1a00       5.015263    
+.rsrc      0xd000       0xd80        0xe00        4.594781    
+.reloc     0xe000       0x8f0        0xa00        6.369335    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RunOnce
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Run Once Wrapper
+OriginalFilename: RUNONCE.EXE
+Translation: 0x0409 0x04b0
+

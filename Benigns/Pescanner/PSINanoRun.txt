@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    479744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1e31b82a14d30fdb698e42dd45a21d22
+SHA1:    22dc1257b6ff70d7095ea8e8af4cfb64e5d47c63
+ssdeep:  12288:C3zbTBGMr78vzQkfHSxBcu/Jdxq0rNIQ23nGbEbOKKSsMDxACqUBw:yMu/M0rWQ23nGsUSfDxAlL
+Date:    0x56E2C728 [Fri Mar 11 13:24:56 2016 UTC]
+EP:      0x434eb8 .text 0/5
+CRC:     Claimed: 0x79d9e, Actual: 0x79d9e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x710a0  0x328    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_MANIFEST        0x713c8  0x35a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+CreateProcessAsUserW
+OpenProcessToken
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5320a      0x53400      6.579561    
+.rdata     0x55000      0x14788      0x14800      5.100893    
+.data      0x6a000      0x6dc4       0x2c00       4.332932    
+.rsrc      0x71000      0x724        0x800        5.001359    
+.reloc     0x72000      0x6562       0x6600       5.744699    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Panda 2016
+InternalName: PSINanoRun
+FileVersion: 7.5.12.0
+CompanyName: Panda Security, S.L.
+ProductName: Panda Setup Bootstrap Run Utilities
+ProductVersion: 7.5.0.0
+FileDescription: Panda Setup Bootstrap Run Utilities
+OriginalFilename: PSINanoRun.exe
+Translation: 0x0c0a 0x04b0
+

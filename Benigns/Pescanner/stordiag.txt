@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25600 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 Mono/.Net assembly
+MD5:     e19dba6735c5078083530785c1b80398
+SHA1:    d8c267f5533da1f65b1218e401c4e9cb47a03e25
+ssdeep:  384:An4/E+AWVUClB0a9ETtnbMYI1UzscQN0UNUQAzmynEYfP0Kqhihnhacd4SZqxJ4l:An6rUClB19ixbTYcQlxKhs0NbB
+Date:    0x57898818 [Sat Jul 16 01:04:24 2016 UTC]
+EP:      0x40763e .text 0/3
+CRC:     Claimed: 0x12afc, Actual: 0x12afc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8090   0x3aa    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x844c   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x564c       0x5800       5.060795    
+.rsrc      0x8000       0x63c        0x800        3.494158    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: stordiag.exe
+FileVersion: 10.0.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft (R) Windows (R) Operating System
+ProductVersion: 10.0.14393.0
+FileDescription:  
+OriginalFilename: stordiag.exe
+

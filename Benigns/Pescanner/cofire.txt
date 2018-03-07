@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21504 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     95e4e76638dd0e322883b096bbdeb7bc
+SHA1:    19ffa3e93e738a20f1495f3db7ee01f193a5b31e
+ssdeep:  384:gf77+BU9ykmvU6rYFQMqgRXXzTtJWDN30ampZvWLJWQ:A8vrMFQSzJYt0amjgB
+Date:    0x57898F3D [Sat Jul 16 01:34:53 2016 UTC]
+EP:      0x403b90 .text 0/5
+CRC:     Claimed: 0x10073, Actual: 0x10073 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7988   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x75d0   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x4da    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3244       0x3400       6.060223    
+.data      0x5000       0x3a0        0x200        0.811946    [SUSPICIOUS]
+.idata     0x6000       0x8f0        0xa00        4.651967    
+.rsrc      0x7000       0xa50        0xc00        4.205799    
+.reloc     0x8000       0x388        0x400        6.172148    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: cofire.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Corrupted File Recovery Client
+OriginalFilename: cofire.exe
+Translation: 0x0409 0x04b0
+

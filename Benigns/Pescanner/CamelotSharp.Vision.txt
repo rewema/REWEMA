@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    196608 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     97df724b595ab7ecbb686c069e6e4786
+SHA1:    09030a01089d28f65103ac2528a3ee157dcf101e
+ssdeep:  3072:/D6qlYiTHKcYzrQkN1UjL5ZhfH6s2+KIsaA3xNFTwMj:LTHoz0kN1KlZhiT+KItAxNFTh
+Date:    0x3DFD1293 [Sun Dec 15 23:38:59 2002 UTC]
+EP:      0x42e5ce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x3fd48 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x30440  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x30728  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x30850  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x30118  0x328    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2c5d4      0x2d000      6.821115    
+.rsrc      0x30000      0x878        0x1000       2.076771    
+.reloc     0x32000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1080.1170
+InternalName: CamelotSharpVision.exe
+FileVersion: 1.0.1080.1170
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1080.1170
+FileDescription:  
+OriginalFilename: CamelotSharpVision.exe
+

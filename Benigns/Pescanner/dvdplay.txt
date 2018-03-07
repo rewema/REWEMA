@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5e6a3be2a3a85ccb85430027efdddeca
+SHA1:    d61b4da4a2d4e20bcf8353b442078e27d34b8f69
+ssdeep:  96:XftINNxX9DQ6YA9N1HDWPTQ+neHZwS9oCTYDJvkMqf9sPfbhFijEWvBZWw5dgFs:lIN3XFnmTKJ9oCTMkoPjhFioW5ZWs
+Date:    0x5789911A [Sat Jul 16 01:42:50 2016 UTC]
+EP:      0x401640 .text 0/5
+CRC:     Claimed: 0xd69c, Actual: 0xd69c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4c40   0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4460   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4748   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4870   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4898   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x41b0   0x2ab    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xefc        0x1000       5.514939    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x3b8        0x400        4.672887    
+.rsrc      0x4000       0xd10        0xe00        4.037063    
+.reloc     0x5000       0x14c        0x200        4.669014    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dvdplay
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: dvdplay placeholder Application
+OriginalFilename: dvdplay
+Translation: 0x0409 0x04b0
+

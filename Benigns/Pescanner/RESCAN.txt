@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    50688 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6a0a4b6c618fb51adecbf1963651550f
+SHA1:    f6a8ddf87e75d25684a07e664fe66f4496c252af
+ssdeep:  768:HVTqZEGfkXG8omJtV6w0taCrh5Z3OFZJuVni4SmtEAr/30mA13STXv:1TqZEsjmrOtvrZ3OAxbKZWXv
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x408a24 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x17781 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xf300   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xf868   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfb50   0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x107f8  0xdc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x108d4  0xe4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6750325 records)
+RT_STRING          0x109b8  0x244    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10bfc  0x364    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x10f60  0x2a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11200  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x11210  0x90     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x112a0  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0x112d0  0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x7a44       0x7c00       6.446632    
+DATA       0x9000       0x404        0x600        2.877355    
+BSS        0xa000       0x615        0x0          0.000000    [SUSPICIOUS]
+.idata     0xb000       0x83e        0xa00        4.050221    
+.tls       0xc000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xd000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0xe000       0xb68        0xc00        6.436820    
+.rsrc      0xf000       0x2800       0x2800       3.943506    
+
+Version info
+================================================================================
+LegalCopyright: Copyright(C) EPSON America Inc.
+InternalName: RESCAN.EXE
+FileVersion: 1.0.0.0
+CompanyName: EPSON America Inc.
+LegalTrademarks: 
+ProductName: EPSON Printer Driver Installer
+ProductVersion: 1.0.0.0
+FileDescription: Remove unknown device and find new device
+OriginalFilename: RESCAN.EXE
+Translation: 0x0409 0x04e4
+

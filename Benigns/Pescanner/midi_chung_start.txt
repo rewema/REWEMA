@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    18944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d3cbd664dd0be703ccf79082c0680b34
+SHA1:    f547f78287801971f280026c762c9d0db27c8db6
+ssdeep:  384:gdTqsQkJO7b/xzXTS/LL7h4jcylmzP+dNHdcYR/:gdTqQ0/lXYPyc0mM/
+Date:    0x48CD1FA1 [Sun Sep 14 14:28:49 2008 UTC]
+EP:      0x40562e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xf2a8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8400   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x86e8   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x8130   0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x8700   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3634       0x3800       5.582459    
+.sdata     0x6000       0xa1         0x200        2.288692    
+.rsrc      0x8000       0x8f0        0xa00        4.044110    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2008
+Assembly Version: 1.0.0.0
+InternalName: Liberty_start.exe
+FileVersion: 1.0.0.0
+ProductName: Liberty_start
+ProductVersion: 1.0.0.0
+FileDescription: Liberty_start
+OriginalFilename: Liberty_start.exe
+

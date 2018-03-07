@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    94208 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     688f32595d22e82d78d72ab7489c395e
+SHA1:    574c2115dfd5d2c8aceec9dd90b3ff61c1f71d82
+ssdeep:  1536:jJJFtOwi3qbSU8TrOiG2d7OnfClEXvXF5pKC:jJJFgWudTcG7OfClEt54C
+Date:    0x406B2985 [Wed Mar 31 20:26:45 2004 UTC]
+EP:      0x40774b .text 0/4
+CRC:     Claimed: 0x1ae1a, Actual: 0x1ae1a 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x17380  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x17668  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x170f0  0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows COFF PA-RISC object file
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xed6b       0xf000       6.605073    
+.rdata     0x10000      0xe08        0x1000       5.011840    
+.data      0x11000      0x5cb4       0x5000       2.991813    
+.rsrc      0x17000      0x680        0x1000       1.499395    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998
+InternalName: RxSock
+FileVersion: 1.2.0
+License: GNU General Public License. See file COPYING for details
+Author: Darren Abbott
+ProductName: RxSock
+ProductVersion: 1.2.0
+FileDescription: RxSock
+

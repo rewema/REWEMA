@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    54805 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b6871d7c6883475584a86860610f316d
+SHA1:    6aa5ee11aafb048f18a85876a16f886104615640
+ssdeep:  1536:5ZBCOCsoGXcERrJ7k8TCdNztFzXX7LmT7:5DJNooRrJ48OdbFHLmT7
+Date:    0x3E74B734 [Sun Mar 16 17:41:08 2003 UTC]
+EP:      0x404046 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x10bb8 [SUSPICIOUS]
+Packers: Nullsoft Install System v2.0b2, v2.0b3
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d178  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d460  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d5a8  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d6a8  0x15c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2d808  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2d868  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5dca       0x5e00       6.470326    
+.rdata     0x7000       0x11d4       0x1200       5.234490    
+.data      0x9000       0x23bfc      0x400        5.017988    
+.rsrc      0x2d000      0x1000       0xa00        2.892483    
+

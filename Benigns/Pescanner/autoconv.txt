@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    871936 bytes
+Type:    PE32 executable for MS Windows (native) Intel 80386 32-bit
+MD5:     79cf096d4870011992743e59b31135a0
+SHA1:    2db5673d09f40ec7d43807798e43467d09176835
+ssdeep:  24576:9mZLwJL4nCcrsRmVv1HBLXYJuETUpLcW1:UwL4Cc4RmVv1HBLXrEoZcW1
+Date:    0x57898EAE [Sat Jul 16 01:32:30 2016 UTC]
+EP:      0x40e9b0 .text 0/5
+CRC:     Claimed: 0xdcfc2, Actual: 0xdcfc2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd3ea8  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x917b8  0x426ec  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x913f8  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x91140  0x2b5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8a634      0x8a800      6.283270    
+.data      0x8c000      0x32a0       0x2e00       4.393991    
+.idata     0x90000      0xdde        0xe00        5.517640    
+.rsrc      0x91000      0x42f78      0x43000      3.494030    
+.reloc     0xd4000      0x35a4       0x3600       6.742437    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: autoconv
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Auto File System Conversion Utility
+OriginalFilename: AUTOCONV.EXE
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    84672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     716d089587de5acd64ca3a39a41dae14
+SHA1:    74a931d9e9a832fb912433a4f8167efbdfbce43c
+ssdeep:  1536:CZavKlJUK7rExtDdXGdySVdaOwdQqDuwFNtiF1GO1a/g:wcK7rItYdyMdaOuQq6wF+F1GkT
+Date:    0x56244546 [Mon Oct 19 01:20:06 2015 UTC]
+EP:      0x406edc .text 0/5
+CRC:     Claimed: 0x248db, Actual: 0x248db 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0xd184   0xc3     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xd248   0x112    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0xd35c   0x637c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x136d8  0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x13a24  0x65c    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x72c6       0x7400       6.221518    
+.rdata     0x9000       0x2c98       0x2e00       4.359094    
+.data      0xc000       0x894        0x600        3.835267    
+.rsrc      0xd000       0x7080       0x7200       4.583506    
+.reloc     0x15000      0xd5e        0xe00        5.373914    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2015 VMware, Inc.
+InternalName: vmware
+FileVersion: 12.0.1 build-3160714
+CompanyName: VMware, Inc.
+ProductName: VMware Workstation
+ProductVersion: 12.0.1 build-3160714
+FileDescription: VMware Workstation
+OriginalFilename: vmware-shell-ext-thunker.exe
+Translation: 0x0409 0x04b0
+

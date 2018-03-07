@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1019792 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     58425e1aaba4ffa337b72d4cc8569afb
+SHA1:    93dbf427eb6b99a049dd6d29fd44a7b65b1f821d
+ssdeep:  24576:V4sCJbZF6DrTF2zTFH0TZtKwDvli4tcm4ODh:V2bH0TOW9i4tcmJF
+Date:    0x431790EC [Thu Sep  1 23:38:20 2005 UTC]
+EP:      0x401000 .text 0/8
+CRC:     Claimed: 0xfc3c6, Actual: 0xfc3c6 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x2f0d1L => deflate
+   0xdc460L => deflate
+   0xdc581L => deflate
+   0xf1f02L => deflate
+   0xf1f12L => deflate
+   0xf1f20L => deflate
+   0xf72c7L => deflate
+   0x2f0f3L => Jean-loup Gailly
+   0x39511L => inflate
+   0xdc646L => inflate
+   0xdc6b3L => inflate
+   0xf21f1L => inflate
+   0xf21ffL => inflate
+   0xf7493L => inflate
+   0x39533L => Mark Adler
+YARA: irc
+   0x43e8L => join
+   0xc2dL => msg
+   0x99989L => MSG
+   0xa1ee6L => MSG
+   0xa1f6aL => MSG
+   0xcc984L => msg
+   0xdab2L => ping
+   0xdac1L => ping
+   0xf1c29L => ping
+   0xe2e1L => quit
+   0x6e88eL => Quit
+   0xcc08bL => quit
+   0xcc17bL => QUIT
+   0xcca9bL => quit
+   0xee4f6L => quit
+   0xf63e0L => Quit
+   0xf75d4L => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0x148058 0x28a    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4a074      0x4a200      6.486889    
+.data      0x4c000      0xd68        0xe00        2.911221    
+.rdata     0x4d000      0x21fa4      0x22000      4.049296    
+.bss       0x6f000      0xd6040      0x0          0.000000    [SUSPICIOUS]
+.idata     0x146000     0x1aa0       0x1c00       4.837428    
+.rsrc      0x148000     0x2e4        0x400        4.269331    
+.stab      0x149000     0xd50c       0xd600       3.626812    
+.stabstr   0x157000     0x5034a      0x50400      5.474209    
+

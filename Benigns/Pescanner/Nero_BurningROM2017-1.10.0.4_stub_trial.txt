@@ -1,0 +1,75 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3074808 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a9177b948eae0fda932d3a31c3eba318
+SHA1:    88a79b77bef7c125c96ae83875d0ddaa2095f156
+ssdeep:  49152:c1OsuWbHbPa5Khld1kZFdrUxWh/9NVfoYcri0Sd2YRAEI1XaA94r:c1O/27S5C1k5rQmNWYyiRbvUe
+Date:    0x4CE553F7 [Thu Nov 18 16:27:35 2010 UTC]
+EP:      0x414b04 .text 0/5
+CRC:     Claimed: 0x2f09a5, Actual: 0x2f09a5 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x27568  0xa068   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x315d0  0x2868   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33e38  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x348a0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34f08  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x351f0  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x353d8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x35500  0x12428  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x47928  0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4c550  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4db78  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ea20  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f2c8  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4f990  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4fef8  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x91f20  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa2748  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa6970  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa8f18  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa9fc0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xaa948  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xaadb0  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xaae68  0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xaaefc  0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xaaf30  0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 21 icons, 16-colors
+RT_VERSION         0xab05c  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x199ea      0x19a00      6.608494    
+.rdata     0x1b000      0x4494       0x4600       4.368016    
+.data      0x20000      0x5a48       0x3200       1.370539    
+.sxdata    0x26000      0x4          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x27000      0x84350      0x84400      4.724097    
+
+Version info
+================================================================================
+LegalCopyright: (c) 2015 Nero AG and its affiliates
+InternalName: NeroInstaller.exe
+FileVersion: 1.10.0.4
+CompanyName: Nero AG
+ProductName: NeroInstaller
+ProductVersion: 1.10.0.4
+FileDescription: NeroInstaller
+OriginalFilename: NeroInstaller.exe
+Translation: 0x0409 0x04b0
+

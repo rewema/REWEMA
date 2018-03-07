@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    122880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e58ac95a28c9975235543c142bc08a21
+SHA1:    48676846b7d131023002cb540a6c23d2dea39f64
+ssdeep:  3072:Oik9eXAqlHXpVVNTrPsMb7tyxqPQTBfrfgHK3LK:Oik96/VVrPsOtNPQTBjpG
+Date:    0x4364F800 [Sun Oct 30 16:42:40 2005 UTC]
+EP:      0x40f735 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1e7f2 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x12a11L => deflate
+   0x12a33L => Jean-loup Gailly
+   0x16011L => inflate
+   0x16033L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1cac8  0xa28    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1c208  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1a2a0  0x176    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1a418  0x79c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1abb8  0x542    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1b100  0x4ea    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1b5f0  0x6cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1bcc0  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1bea8  0x35a    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1cab0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_MANIFEST        0x1d4f0  0x278    LANG_ENGLISH SUBLANG_ENGLISH_UK       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xea7a       0xf000       6.500556    
+.rdata     0x10000      0x6a4a       0x7000       6.189472    
+.data      0x17000      0x29a8       0x3000       0.074885    [SUSPICIOUS]
+.rsrc      0x1a000      0x3768       0x4000       4.001939    
+

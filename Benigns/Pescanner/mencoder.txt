@@ -1,0 +1,77 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    7881728 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     c9cc12524f04122dd493cc140868690a
+SHA1:    e413e922c0d4ca407e1fb37502c1b1b8385ad266
+ssdeep:  196608:LrPcNT+z0RH8IIbtyW8Q31AE4nLInf8zCjIZzvQ/CSJwcOVEuTSVh:v8T+z0RHrIbtyW8UkOkSjj
+Date:    0x448DB65D [Mon Jun 12 18:45:49 2006 UTC]
+EP:      0x401270 .text 0/6
+CRC:     Claimed: 0x789fc5, Actual: 0x789fc5 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x66a5b1L => deflate
+   0x66a5d3L => Jean-loup Gailly
+   0x5dfd40L => inflate
+   0x6016cdL => inflate
+   0x601793L => inflate
+   0x6017afL => inflate
+   0x66c6d1L => inflate
+   0x66c6f3L => Mark Adler
+YARA: irc
+   0x68d5acL => join
+   0x68d5f6L => join
+   0x68d616L => join
+   0x5b3d9eL => msg
+   0x69823dL => MSG
+   0x5c7ea0L => Nick
+   0x5ce5adL => Nick
+   0x5ce602L => Nick
+   0x5ce8b8L => Nick
+   0x5ce9c3L => Nick
+   0x5cea0fL => Nick
+   0x5cee9dL => Nick
+   0x5ceee1L => Nick
+   0x5cef1fL => Nick
+   0x5cefa6L => Nick
+   0x5cf050L => Nick
+   0x5cf5e1L => Nick
+   0x5de6f7L => Nick
+   0x58710bL => Notice
+   0x5f130cL => notice
+   0x66f568L => Notice
+   0x67101aL => Notice
+   0x671ee3L => NOTICE
+   0x687688L => Notice
+   0x5ba9c0L => part
+   0x5baa04L => part
+   0x5baa94L => part
+   0x5bab1cL => part
+   0x5be62fL => part
+   0x5e15f3L => Part
+   0x5e1927L => PART
+   0x5ed1afL => part
+   0x64d809L => part
+   0x6505c5L => part
+   0x5e7bceL => QUIT
+
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x55bb30     0x55bc00     6.509688    
+.rodata    0x55d000     0x2b30       0x2c00       6.091223    
+.data      0x560000     0x53ec0      0x54000      4.015670    
+.rdata     0x5b4000     0x1d0080     0x1d0200     7.070307    [SUSPICIOUS]
+.bss       0x785000     0x14eb90     0x0          0.000000    [SUSPICIOUS]
+.idata     0x8d4000     0x15bc       0x1600       4.950991    
+

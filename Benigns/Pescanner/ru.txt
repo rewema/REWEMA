@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    142472 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f7a84a63fb361fee68fc9897735efc77
+SHA1:    5d4ebe5bef8afb01a54af98ecb36f1aa928c158e
+ssdeep:  1536:m3m5kzI7PFAhS6AZYz+rqK/OdetztlLspAi1mu54H6STYSsuRucziLsWjcdDAxqv:7vLIQzt5sp5ZUFPvbDAxq80srEkf0
+Date:    0x577B59DF [Tue Jul  5 06:55:27 2016 UTC]
+EP:      0x40570c .text 0/4
+CRC:     Claimed: 0x2b9ba, Actual: 0x2b9ba 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x230a0  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x233b8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10ce4      0x10e00      6.614987    
+.rdata     0x12000      0xc036       0xc200       4.565027    
+.data      0x1f000      0x3488       0x1400       3.359830    
+.rsrc      0x23000      0x538        0x600        3.757120    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2013-2016 Mark Russinovich
+InternalName: Ru
+FileVersion: 1.2
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Ru
+ProductVersion: 1.2
+FileDescription: Registry size usage reporter
+OriginalFilename: Regsize1
+Translation: 0x0409 0x04b0
+

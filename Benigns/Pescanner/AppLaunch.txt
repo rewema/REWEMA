@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    98984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c8c81efb5eab50ecc1c88818f2edac15
+SHA1:    317bea84c35df7ac75333dfeae49301fc505cdd3
+ssdeep:  1536:zdCQC+Tben6RV4hbdZ7Fbk7zrbITCFGIMeaYzuWAEBpi:zdCQZTbe6THXACFGIMjCu7EDi
+Date:    0x575A1267 [Fri Jun 10 01:05:43 2016 UTC]
+EP:      0x40f2b0 .text 0/5
+CRC:     Claimed: 0x20db0, Actual: 0x20db0 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x15148  0x5b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x15700  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x157a8  0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1583c  0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x15c38  0x2dd    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10cc4      0x10e00      5.700307    
+.data      0x12000      0x15c4       0x200        2.242498    
+.idata     0x14000      0xb6a        0xc00        5.280841    
+.rsrc      0x15000      0xf18        0x1000       4.280746    
+.reloc     0x16000      0x13b4       0x1400       6.504083    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: applaunch.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: Microsoft .NET ClickOnce Launch Utility
+OriginalFilename: applaunch.exe
+Translation: 0x0409 0x04b0
+

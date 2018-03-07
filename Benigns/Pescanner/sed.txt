@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    146944 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2fe0d69fe1b569909e59c9a356e6b68b
+SHA1:    10f2d1aba3a5961f14c80e27f581b6cd4b24a347
+ssdeep:  3072:69vOsy9i6nocnk52tWsIqlmGOpuSApvydG0gpQOHS:69vODAcnMjs3SApvyd7OH
+Date:    0x4687BE2B [Sun Jul  1 14:46:03 2007 UTC]
+EP:      0x401280 .text 0/6
+CRC:     Claimed: 0x2a4d7, Actual: 0x2a4d7 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d0e8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2d990  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x2d9a4  0x530    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1f210      0x1f400      6.389752    
+.data      0x21000      0x1f0        0x200        1.703440    
+.rdata     0x22000      0x2910       0x2a00       5.300585    
+.bss       0x25000      0x6230       0x0          0.000000    [SUSPICIOUS]
+.idata     0x2c000      0x8f4        0xa00        4.336197    
+.rsrc      0x2d000      0xed4        0x1000       3.366902    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2007 Free Software Foundation <www.fsf.org>
+InternalName: sed
+FileVersion: 4.1.5.2738
+License: This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License; see www.gnu.org/copyleft/gpl.html. 
+CompanyName: GnuWin32 <http://gnuwin32.sourceforge.net>
+LegalTrademarks: GnuWin32\xae, Sed\xae, sed\xae
+WWW: http://www.gnu.org/software/sed/sed.html
+ProductName: Sed
+ProductVersion: 4.1.5.2738
+FileDescription: Sed: stream editor
+OriginalFilename: sed.exe
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    37888 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     a072c69199415315ed6263b96e6a51e2
+SHA1:    6762e05f6260a53ba6eed5df248b4238cf40df96
+ssdeep:  768:EOcGAY+lkwUOElKe4IoMscBe5TbOPuqmimk3:E5Y+lAOF6IiesEit
+Date:    0x537F68B8 [Fri May 23 15:26:48 2014 UTC]
+EP:      0x40975e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xadcf [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc428   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc710   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc838   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xc160   0x2c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xc860   0x9a8    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x7764       0x7800       5.429375    
+.sdata     0xa000       0xba         0x200        2.606133    
+.rsrc      0xc000       0x1208       0x1400       4.603941    
+.reloc     0xe000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Written by Brice Maurin
+Assembly Version: 1.0.0.0
+InternalName: RemoteCopy.exe
+FileVersion: 1.0.0
+ProductName: RemoteCopy
+ProductVersion: 1.0.0
+FileDescription: RemoteCopy
+OriginalFilename: RemoteCopy.exe
+

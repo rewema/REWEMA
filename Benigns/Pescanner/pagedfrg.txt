@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    215928 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     24898ba51cbaad01a046541cc0a8d26f
+SHA1:    301bb9951b3363c2a7d9fcd75830aace96afee9c
+ssdeep:  1536:uhaJeqI4KNLGLY9NmE8zkt6KSdkmVnTA6uv6d3RXYI5/wRf5UyWaOVWcL21HaeF:AaJrLUMot6JZYFJ56VWY2cO
+Date:    0x44E25699 [Tue Aug 15 23:19:53 2006 UTC]
+EP:      0x403d50 .text 0/4
+CRC:     Claimed: 0x41b60, Actual: 0x41b60 
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x28b2eL => This program cannot be run in DOS mode
+   0x292beL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x4cae0  0x790    LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (native) Intel 80386 32-bit
+BINRES             0x4d270  0x6588   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (native) Intel 80386 32-bit
+RT_CURSOR          0x561f8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x537f8  0x2368   LANG_ENGLISH SUBLANG_ENGLISH_US       Claris clip art?
+RT_ICON            0x55b60  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x4c5b0  0x52a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x56330  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x55e48  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x55e60  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4c320  0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8f3d       0x9000       6.600468    
+.rdata     0xa000       0x115e       0x2000       3.494958    
+.data      0xc000       0x3f4e8      0x1c000      5.266114    
+.rsrc      0x4c000      0xa348       0xb000       4.854883    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2001-2005  Mark Russinovich
+InternalName: pagedfrg
+FileVersion: 2.32
+CompanyName: Sysinternals
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Sysinternals System Defragmenter
+SpecialBuild: 
+ProductVersion: 2.32
+FileDescription: System defragmenter
+OriginalFilename: pagedfrg.exe
+Translation: 0x0409 0x04b0
+

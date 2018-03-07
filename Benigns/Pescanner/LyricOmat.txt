@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    180072 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d735b8b4227e507074fbf69797459757
+SHA1:    ec30421e259a02400b23595a1882cb3ba7e8597d
+ssdeep:  3072:pH+CN6bKBRd0FmJrwSxTeE4O7GUFzlBpFZXqJOJtymueWTXepzkXM5TKp2Cri7:sGqSGFmBwxKr1l3FQKxutTXGwQYO7
+Date:    0x37337F84 [Sat May  8 00:04:20 1999 UTC] [SUSPICIOUS]
+EP:      0x401740 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x31e7b [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4160   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4288   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x4570   0x18c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x46fc   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x4720   0x330    LANG_GERMAN  SUBLANG_GERMAN           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x94c        0xa00        5.809850    
+.rdata     0x2000       0x458        0x600        3.837169    
+.data      0x3000       0x4f8        0x200        1.471593    
+.rsrc      0x4000       0xae8        0xc00        3.151598    
+
+Version info
+================================================================================
+LegalCopyright: Frenzy Softworks
+InternalName: lyricomat
+FileVersion: 28.9.2
+CompanyName: Frenzy Softworks
+Comments: "Reim" SuchMaschine
+ProductName: LyricOmat
+ProductVersion: 28.9.2
+FileDescription: LyricOmat sucht W\xf6rter, die sich reimen
+OriginalFilename: lyricomat.exe
+Translation: 0x0407 0x04e4
+

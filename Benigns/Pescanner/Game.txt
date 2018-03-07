@@ -1,0 +1,181 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6817792 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     445c73fd6976e598322eb79cd34f37f2
+SHA1:    33b035d603278e20a0886ebeec856b2bea75f0ee
+ssdeep:  196608:II8tO1/K+1WZUCXB8qUIs/T+g9qZT5VL2t0lMxn8krpErY7y:II8t+y+1WZUCXB8xIs/T+gmuGkr6rY7y
+Date:    0x4D6E0BFE [Wed Mar  2 09:21:02 2011 UTC]
+EP:      0x7ca586 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x68e0a4 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x5702f9L => deflate
+   0x591a78L => deflate
+   0x5b9d9dL => deflate
+   0x57031bL => Jean-loup Gailly
+   0x570459L => inflate
+   0x5b9d89L => inflate
+   0x57047bL => Mark Adler
+   0x593c08L => OpenSSL
+   0x593e3aL => OpenSSL
+   0x59469eL => OpenSSL
+   0x59498eL => OpenSSL
+   0x595d13L => OpenSSL
+   0x5975e7L => OpenSSL
+   0x597610L => OpenSSL
+   0x597638L => OpenSSL
+   0x597660L => OpenSSL
+   0x5976a5L => OpenSSL
+   0x5976f5L => OpenSSL
+   0x5979c4L => OpenSSL
+   0x5979e4L => OpenSSL
+   0x597a32L => OpenSSL
+   0x5a6163L => OpenSSL
+   0x5a61a4L => OpenSSL
+   0x5a6200L => OpenSSL
+   0x5a6c50L => OpenSSL
+   0x5ac1e8L => OpenSSL
+   0x5ac38aL => OpenSSL
+   0x5acde2L => OpenSSL
+   0x5ace56L => OpenSSL
+   0x5ad1ebL => OpenSSL
+   0x5b0da0L => OpenSSL
+   0x5b1c30L => OpenSSL
+   0x5b1c78L => OpenSSL
+   0x5b1d0cL => OpenSSL
+   0x5b2014L => OpenSSL
+   0x5b2148L => OpenSSL
+   0x5b2315L => OpenSSL
+   0x5b2340L => OpenSSL
+   0x5b236cL => OpenSSL
+   0x5b4d04L => OpenSSL
+   0x5b4e49L => OpenSSL
+   0x5bedb1L => OpenSSL
+   0x5bee22L => OpenSSL
+   0x5bf57fL => OpenSSL
+   0x5bf5c0L => OpenSSL
+   0x5bf5e9L => OpenSSL
+   0x5c1619L => OpenSSL
+   0x5c286dL => OpenSSL
+   0x5c2a68L => OpenSSL
+   0x5c3ab8L => OpenSSL
+   0x5c596cL => OpenSSL
+   0x5c59d4L => OpenSSL
+   0x5c59f5L => OpenSSL
+   0x5c63f4L => OpenSSL
+YARA: irc
+   0x55ce98L => msg
+   0x55cec1L => msg
+   0x59bb49L => msg
+   0x5b6a48L => msg
+   0x5b6c67L => msg
+   0x5b6c77L => MSG
+   0x59be0aL => Notice
+   0x5b80c0L => NOTICE
+   0x5be448L => Notice
+   0x564268L => part
+   0x572d5eL => part
+   0x593e32L => part
+   0x594696L => part
+   0x594986L => part
+   0x595d0bL => part
+   0x5975dfL => part
+   0x597608L => part
+   0x597630L => part
+   0x597658L => part
+   0x59769dL => part
+   0x597a2aL => part
+   0x5a615bL => part
+   0x5a619cL => part
+   0x5a61f8L => part
+   0x5a6c48L => part
+   0x5ac1e0L => part
+   0x5ac382L => part
+   0x5acddaL => part
+   0x5ace4eL => part
+   0x5ad1e3L => part
+   0x5b230dL => part
+   0x5b2338L => part
+   0x5b2364L => part
+   0x5b4cfcL => part
+   0x5b4e41L => part
+   0x5beda9L => part
+   0x5bee1aL => part
+   0x5bf577L => part
+   0x5bf5b8L => part
+   0x5bf5e1L => part
+   0x5c1611L => part
+   0x5c2865L => part
+   0x5c59edL => part
+   0x533124L => Ping
+   0x533140L => Ping
+   0x53315cL => Ping
+   0x53317cL => Ping
+   0x53319cL => Ping
+   0x5562c0L => Ping
+   0x55630cL => Ping
+   0x556334L => Ping
+   0x5288b5L => Quit
+   0x58ff58L => QUIT
+YARA: spam
+   0x58fef8L => RCPT TO:
+   0x58ff08L => RCPT TO:
+   0x58fee8L => MAIL FROM:
+   0x58fe20L => EHLO 
+   0x58f2ecL => Subject: 
+   0x58f49eL => subject: 
+   0x596b50L => Content-Disposition: attachment;
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6918b0 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x692758 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x693000 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x693568 0xf472   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGB, non-interlaced
+RT_ICON            0x6d3730 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e3f58 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e6500 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e75a8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x6e7ce8 0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6913d0 0x124    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6914f8 0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x691608 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x691740 0xdc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x691820 0x8e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6e7a10 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 48x48, 256-colors
+RT_VERSION         0x6e7d30 0x190    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6e7a88 0x259    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x52344c     0x523600     6.671683    
+.rdata     0x525000     0xe3d1e      0xe3e00      5.989422    
+.data      0x609000     0x87fc4      0x22000      5.339805    
+.rsrc      0x691000     0x56ec0      0x57000      3.826804    
+
+Version info
+================================================================================
+FileVersion: 3.3.0.63135
+Unity Version: 3.3.0f4_63135
+ProductVersion: 3.3.0.63135
+Translation: 0x0409 0x04b0
+

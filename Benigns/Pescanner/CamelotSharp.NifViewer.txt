@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ef6880d6cd2d52f9a2f3255b9f3dbb98
+SHA1:    e4f7f242da120c023ebf878d275c515838c9f5bd
+ssdeep:  768:i2PGDFBZnBcxDiud2y801L50v+GF6NXe:p4ZIiud2y2B6Q
+Date:    0x3DFD1296 [Sun Dec 15 23:39:02 2002 UTC]
+EP:      0x407aee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xacd2 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8428   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x8710   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x8838   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x8118   0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5af4       0x6000       5.423293    
+.rsrc      0x8000       0x860        0x1000       2.047849    
+.reloc     0xa000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1080.1171
+InternalName: TestNifViewer.exe
+FileVersion: 1.0.1080.1171
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1080.1171
+FileDescription:  
+OriginalFilename: TestNifViewer.exe
+

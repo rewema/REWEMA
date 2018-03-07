@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    442368 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     63b10a848dc53de6c424001f859e73a7
+SHA1:    1baec5d1da745cf0e20474f1e93ac7844daf9cbe
+ssdeep:  12288:cDvyyeEL4SuN+xuitH0HgQFjUmAoLjuFgJV:AqycnN+VtHygpFgn
+Date:    0x51815F33 [Wed May  1 18:30:11 2013 UTC]
+EP:      0x45da84 .itext 1/10 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x752b8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x75340  0x148    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x75488  0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x757ac  0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x75b68  0x378    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x75ee0  0x148    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209071 records)
+RT_STRING          0x76028  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7602275 records)
+RT_STRING          0x760f4  0x204    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x762f8  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x76694  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x769fc  0x2b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x76cb4  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x76cc4  0x4a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x77168  0x2      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x7716c  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5bc2c      0x5be00      6.195960    
+.itext     0x5d000      0xb54        0xc00        5.997984    
+.data      0x5e000      0x2b38       0x2c00       4.634080    
+.bss       0x61000      0x5024       0x0          0.000000    [SUSPICIOUS]
+.idata     0x67000      0x10e2       0x1200       4.727689    
+.didata    0x69000      0x154        0x200        2.420063    
+.tls       0x6a000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x6b000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x6c000      0x8854       0x8a00       6.576693    
+.rsrc      0x75000      0x2600       0x2600       3.855181    
+
+Version info
+================================================================================
+LegalCopyright: Dloneranger
+InternalName: JoinWav
+FileVersion: 0.2.1.0
+CompanyName: Dloneranger
+LegalTrademarks: Dloneranger
+Comments: Join 32 and 64 bit wav files
+ProductName: JoinWav
+ProductVersion: 0.2.1.0
+FileDescription: JoinWav
+OriginalFilename: JoinWav
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23670376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     57fd8514ab18cc708431b8d5d83fa0c0
+SHA1:    5b297157de30c56a68bc9743e111c40c12c4d23a
+ssdeep:  393216:eV+IW+maGrkxVBjn9wrZkZpe7kTh5z4hHpazuOwztU0Br4xKFO6Lw6pxFPPgT:/IWuLnmrKZsK5z71CMxKFO6LwExFQT
+Date:    0x45E7426C [Thu Mar  1 21:15:24 2007 UTC]
+EP:      0x41396c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1697b29 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x202d0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x203f8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x20960  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x20c48  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x214f0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x22620  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x22648  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x22670  0x7a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x226f0  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x22398  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 16-colors
+RT_VERSION         0x22718  0x320    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x223e8  0x237    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+WinExec
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x167ba      0x17000      6.528358    
+.rdata     0x18000      0x1d4e       0x2000       5.177720    
+.data      0x1a000      0x5724       0x5000       2.976648    
+.rsrc      0x20000      0x2a38       0x3000       4.409585    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 2, 0, 0, 28
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: PATTI Install Program
+SpecialBuild: 
+ProductVersion: 2, 0, 0, 28
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    114176 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5cd1308ec23aeb4588b8c83a159f9b33
+SHA1:    ad6703e5514059d03eb5932c32098ec50a781d13
+ssdeep:  3072:t2Ctv0MdLqPgMlhHbF5Kh8YlMf87+xAO:t1tv0MJqPgUh7F5y8Yuf87+
+Date:    0x57898F68 [Sat Jul 16 01:35:36 2016 UTC]
+EP:      0x417fd0 .text 0/6
+CRC:     Claimed: 0x28170, Actual: 0x28170 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x24728  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x24398  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x240f0  0x2a6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x17c83      0x17e00      6.423342    
+.data      0x19000      0x7c8c       0x200        2.991768    
+.idata     0x21000      0x17fc       0x1800       5.411616    
+.didat     0x23000      0x14         0x200        0.164765    [SUSPICIOUS]
+.rsrc      0x24000      0x7f0        0x800        4.388157    
+.reloc     0x25000      0x1620       0x1800       6.563210    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MTSTOCOM.EXE
+FileVersion: 2001.12.10941.16384 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: COM+
+OriginalFilename: MTSTOCOM.EXE
+Translation: 0x0409 0x04b0
+

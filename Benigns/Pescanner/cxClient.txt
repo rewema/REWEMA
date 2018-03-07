@@ -1,0 +1,110 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    858624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     721eb3604e1ddbe5f25f1a6b30ab30c9
+SHA1:    cb1105a3f44e27402c643411da5ba557df42dd9a
+ssdeep:  12288:D1Z40ayxMNJR0m35Zt1QaGc7pS116s41FZj7kz4SVfSUF:D1i0iJR0MJ9S338rUc
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x48f65c CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xd47af [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xa2ffc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa3130  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa3264  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa3398  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa34cc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa3600  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xa3734  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa3868  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa3a38  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa3c1c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa3dec  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa3fbc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa418c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa435c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa452c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa46fc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa48cc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa4a9c  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa4b5c  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa4c3c  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa4d1c  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa4dfc  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa4ebc  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa4f7c  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa505c  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa511c  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa51fc  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa52e4  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xa53a4  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa543c  0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xa54d4  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xa55b4  0x10828  LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   data
+RT_ICON            0xb5ddc  0x94a8   LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   data
+RT_ICON            0xbf284  0x5488   LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   data
+RT_ICON            0xc470c  0x4228   LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   data
+RT_ICON            0xc8934  0x25a8   LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   data
+RT_ICON            0xcaedc  0x10a8   LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   data
+RT_ICON            0xcbf84  0x988    LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   data
+RT_ICON            0xcc90c  0x468    LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xccd74  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xccdc8  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xccfac  0x1d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcd180  0x180    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xcd300  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcd4e8  0x2f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcd7d8  0xdc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcd8b4  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcd9e4  0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcdc4c  0x400    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xce04c  0x3a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xce3ec  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xce774  0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xceb24  0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xcec14  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7471216 records)
+RT_STRING          0xcecd4  0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcefac  0x424    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcf3d0  0x330    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xcf700  0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xcfa14  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xcfa24  0x2bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xcfce0  0x689b   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd657c  0x88b    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd6e08  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd6e1c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd6e30  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd6e44  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd6e58  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd6e6c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xd6e80  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0xd6e94  0x76     LANG_ARABIC  SUBLANG_ARABIC_ALGERIA   MS Windows icon resource - 8 icons, 256-colors
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x8e6a4      0x8e800      6.552499    
+DATA       0x90000      0x1e98       0x2000       4.528922    
+BSS        0x92000      0xe3d        0x0          0.000000    [SUSPICIOUS]
+.idata     0x93000      0x266e       0x2800       4.843730    
+.tls       0x96000      0x14         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x97000      0x18         0x200        0.184151    [SUSPICIOUS]
+.reloc     0x98000      0x9250       0x9400       6.648592    
+.rsrc      0xa2000      0x35000      0x35000      5.015002    
+

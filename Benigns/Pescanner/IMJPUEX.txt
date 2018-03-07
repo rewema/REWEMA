@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    78848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a205325cfbd85c9f400f9c1716f14975
+SHA1:    57fbd1b885f90088051aafdbc38dbfe2f47132bc
+ssdeep:  1536:u+FvF7QEvKpJufVDjcYH67nIWDK2NLPcrhC8:u+xFTKpJutD4YH67IkK2NLPcrhC
+Date:    0x5789915D [Sat Jul 16 01:43:57 2016 UTC]
+EP:      0x406350 .text 0/5
+CRC:     Claimed: 0x17029, Actual: 0x17029 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xab60   0x2e8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xae48   0x128    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xaf70   0xea8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xbe18   0xba8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xc9c0   0x8a8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xd268   0x6c8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xd930   0x608    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0xdf38   0x568    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xe4a0   0x25a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x10a48  0x1a68   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x124b0  0x10a8   LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x13558  0x988    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x13ee0  0x6b8    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_ICON            0x14598  0x468    LANG_NEUTRAL SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_STRING          0x14c50  0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14ad0  0x180    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_GROUP_ICON      0x14a00  0xca     LANG_NEUTRAL SUBLANG_DEFAULT          MS Windows icon resource - 14 icons, 32x32, 16-colors
+RT_VERSION         0xa400   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0xa790   0x3d0    LANG_NEUTRAL SUBLANG_DEFAULT          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x69e0       0x6a00       6.245130    
+.data      0x8000       0x87c        0x200        3.763867    
+.idata     0x9000       0xbf6        0xc00        5.369193    
+.rsrc      0xa000       0xaf08       0xb000       5.453608    
+.reloc     0x15000      0x76c        0x800        6.360683    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: imjpuex.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft IME
+OriginalFilename: imjpuex.exe
+Translation: 0x0000 0x04b0
+

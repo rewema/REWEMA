@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d91678f6ff6f7e55042bebeb2608b738
+SHA1:    3982399eab872701bc0391bad24744ceaa7810b7
+ssdeep:  384:AdbIOF7nE07MEbNXOrdVusv+S28Z4fy1s1hmbhzRKc6B+GPecqjS5iYiGrBVCIyc:+cOF7n4as128+MRBGPecicNrRgwnw9X
+Date:    0x47D58917 [Mon Mar 10 19:16:39 2008 UTC]
+EP:      0x4074de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x12f3d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8408   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x8530   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x8818   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x8118   0x2f0    LANG_NEUTRAL SUBLANG_NEUTRAL          SysEx File - IDP
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x54e4       0x6000       4.869874    
+.rsrc      0x8000       0x840        0x1000       2.012541    
+.reloc     0xa000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 LionNet 2008
+Assembly Version: 1.0.0.0
+InternalName: SpiderPig.exe
+FileVersion: 1.0.0.0
+CompanyName: LionNet
+ProductName: SNspider
+ProductVersion: 1.0.0.0
+FileDescription: SNspider
+OriginalFilename: SpiderPig.exe
+

@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    73728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5a2aa8f1b81c3fbb44a37fd64f9f6058
+SHA1:    4df268de1f104c05154571c8c7ef024954f06026
+ssdeep:  1536:X7VGruFMeu0OUZirGQxPF3J00l3uU1HIED1fCbWpygzUA:rVGruFi0weSJj16bEL
+Date:    0x57899064 [Sat Jul 16 01:39:48 2016 UTC]
+EP:      0x402920 .text 0/5
+CRC:     Claimed: 0x1aabe, Actual: 0x1aabe 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14b68  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x7bd0   0xf6f    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_ICON            0x8b40   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x91a8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9490   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x95b8   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa460   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xad08   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xb270   0x5da4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x11018  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x135c0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14668  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x14ad0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x7820   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7390   0x489    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22fc       0x2400       5.799948    
+.data      0x4000       0x378        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x1258       0x1400       5.100728    
+.rsrc      0x7000       0xdc48       0xde00       5.989854    
+.reloc     0x15000      0x304        0x400        5.520781    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dpapimig
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: DPAPI Key Migration Wizard
+OriginalFilename: dpapimig.exe
+Translation: 0x0409 0x04b0
+

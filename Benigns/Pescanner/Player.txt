@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    294912 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     753f027c549d41393623bb45212098a2
+SHA1:    457236e856e1c7fcc404734a0836a9a3d8ad4d69
+ssdeep:  3072:4xykFyE9XIc4IuoFir3Dm96liaXD5HX3HIl5KlXpmG8biC5a0176RJ84GyD/Rvxg:6yyiXD5HX3HIlQcG9Cgt7tbRJ
+Date:    0x3F6990F1 [Thu Sep 18 11:03:13 2003 UTC]
+EP:      0x11046c6e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x56752 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x484e8  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x487d0  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x488f8  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x48118  0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x44c74      0x45000      6.903313    
+.rsrc      0x48000      0x920        0x1000       1.867651    
+.reloc     0x4a000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9Aamir Mughal
+Assembly Version: 2.0.0.0
+InternalName: Player.exe
+FileVersion: 2.0.0.0
+CompanyName: \xa9Aamir Mughal
+LegalTrademarks: Aamir Mughal
+Comments: Media Player created by Aamir to play all audio files
+ProductName: Aamir Media Player
+ProductVersion: 2.0.0.0
+FileDescription: Aamir Media Player
+OriginalFilename: Player.exe
+

@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    269888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5a92988b4dec8eafe62f7d2dbe8ab620
+SHA1:    eba90f7d0860442fd26dc64186f928b248e04338
+ssdeep:  6144:Yp9UoLcxO/mmpWtBDGztLq2TVhraKeIvlHJ:+NLcxOumpW3gtm2TjsIvlHJ
+Date:    0x57E48EC8 [Fri Sep 23 02:09:12 2016 UTC]
+EP:      0x4143dd .text 0/5
+CRC:     Claimed: 0x435ab, Actual: 0x435ab 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4fbb8  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x50220  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x50508  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x506f0  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x50818  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x516c0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x51f68  0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x52630  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x52b98  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55140  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x561e8  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56b70  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x56fd8  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 12 icons, 48x48, 16-colors
+RT_VERSION         0x4f850  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4f360  0x4e9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x272ac      0x27400      6.624812    
+.rdata     0x29000      0x63d2       0x6400       4.748862    
+.data      0x30000      0x1e678      0x7a00       3.793325    
+.rsrc      0x4f000      0x8088       0x8200       5.922166    
+.reloc     0x58000      0x2d40       0x2e00       5.309055    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2016
+InternalName: Java(TM) Web Start Launcher
+FileVersion: 11.111.2.14
+Full Version: 11.111.2.14
+CompanyName: Oracle Corporation
+ProductName: Java(TM) Platform SE 8 U111
+ProductVersion: 8.0.1110.14
+FileDescription: Java(TM) Web Start Launcher
+OriginalFilename: javaws.exe
+Translation: 0x0000 0x04b0
+

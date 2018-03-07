@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    91136 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e16175f6ee3e28ede86471c8b033086b
+SHA1:    ca906446d34d5786c5338b465513036ec6075dbb
+ssdeep:  1536:ZMKLcdrlE7ujw5/TFAN77Dj9oVb8JH1i8CgvoZhMX56:tLcdxE7tJiN77DyViH11Cgvo3MJ
+Date:    0x5789911E [Sat Jul 16 01:42:54 2016 UTC]
+EP:      0x4115f0 .text 0/6
+CRC:     Claimed: 0x1e5c4, Actual: 0x1e5c4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x18350  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x180a0  0x2ae    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x125ac      0x12600      5.964086    
+.data      0x14000      0xbfc        0x800        4.724640    
+.idata     0x15000      0x15ac       0x1600       5.240366    
+.didat     0x17000      0x1c         0x200        0.219439    [SUSPICIOUS]
+.rsrc      0x18000      0x6f8        0x800        3.984655    
+.reloc     0x19000      0x1058       0x1200       6.437610    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dispdiag.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Display Diagnostics
+OriginalFilename: dispdiag.exe
+Translation: 0x0000 0x04b0
+

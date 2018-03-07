@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    126976 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     61f88a105c7dd61c5bebd958e340ef90
+SHA1:    b9ee5f5d91064070c496c8a11420b439b2fc6ef5
+ssdeep:  3072:gS/1Ex4IC5wkfmce3+uuTgVd+1KXo6rpyp:piaH/fmce3+jMAKXocyp
+Date:    0x57898FC3 [Sat Jul 16 01:37:07 2016 UTC]
+EP:      0x4138f0 .text 0/6
+CRC:     Claimed: 0x2ea38, Actual: 0x2ea38 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x207d0  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x203e8  0x3e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x200f0  0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a270      0x1a400      6.139919    
+.data      0x1c000      0xaa0        0x800        3.850573    
+.idata     0x1d000      0x19da       0x1a00       5.523146    
+.didat     0x1f000      0x60         0x200        0.852428    [SUSPICIOUS]
+.rsrc      0x20000      0x898        0xa00        3.931386    
+.reloc     0x21000      0x1990       0x1a00       6.652183    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wmicookr.dll
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: WMI Reverse Performance Adapter Maintenance Utility
+OriginalFilename: wmicookr.dll
+Translation: 0x0409 0x04b0
+

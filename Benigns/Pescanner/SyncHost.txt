@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b6bb0dc40a060a98304318714482c16f
+SHA1:    78291b96fe8cd3250c44f5a24f7e1eb09eac7015
+ssdeep:  768:KW55mm4VS2XBr/cDSZ3MRdJC+guibAnPq+WXF37Xcm9P7HuS7vk:KW2c2XV/cDSZ3MRdJVgui8P9WXFgm9Tv
+Date:    0x57899140 [Sat Jul 16 01:43:28 2016 UTC]
+EP:      0x407b00 .text 0/5
+CRC:     Claimed: 0xd1ef, Actual: 0xd1ef 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+REGISTRY           0xb510   0xa3     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xb5b8   0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xb6d0   0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+RT_VERSION         0xb160   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb7f0   0x4c3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7504       0x7600       6.299880    
+.data      0x9000       0x508        0x200        1.033887    
+.idata     0xa000       0xb2e        0xc00        4.975804    
+.rsrc      0xb000       0xcb8        0xe00        4.562496    
+.reloc     0xc000       0x874        0xa00        6.152936    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SyncHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for Windows Sync
+OriginalFilename: SyncHost.EXE
+Translation: 0x0409 0x04b0
+

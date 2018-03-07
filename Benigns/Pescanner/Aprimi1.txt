@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    889416 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     53406e9988306cbd4537677c5336aba4
+SHA1:    06becadb92a5fcca2529c0b93687c2a0c6d0d610
+ssdeep:  24576:+tW4x8xAxCdUcyezFSjaBHFaNlsqK5/oh6iZf1LUXw/vxNI:d4x8xqCGexm8FCspg0iZf1LUXD
+Date:    0x4ACF8EA6 [Fri Oct  9 19:27:34 2009 UTC]
+EP:      0x4191c6 .text 0/5
+CRC:     Claimed: 0xe3861, Actual: 0xe3861 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2f298  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f580  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x2f6a8  0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f7b4  0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2f924  0x582    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2fea8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2ff5c  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2ff9c  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2ffc0  0x618    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x305d8  0x364    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3093c  0x445    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x284da      0x28600      6.556201    
+.data      0x2a000      0x3700       0x1400       2.408617    
+.boxld01   0x2e000      0xc2         0x200        1.752537    
+.rsrc      0x2f000      0x1d84       0x1e00       4.100858    
+.reloc     0x31000      0x2812       0x2a00       4.856853    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: dotNetFx40_Full_setup.exe
+FileVersion: 4.0.30319.01
+CompanyName: Microsoft Corporation
+ProductName: Microsoft .NET Framework 4
+ProductVersion: 4.0.30319.01
+FileDescription: Microsoft .NET Framework 4 Setup
+OriginalFilename: dotNetFx40_Full_setup.exe
+Translation: 0x0409 0x04b0
+

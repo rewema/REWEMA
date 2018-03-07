@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16896 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     9280692881e517d6d52d0f8962907a8f
+SHA1:    e3749e4132a93f277ea918668c9b1cad7b27b6d5
+ssdeep:  384:FA/c2bZzWIkkkPIIxBmQTsHvXG6lBsWvWXiWz/q:y/VJWIkkkPIIxBmQ0sWc
+Date:    0x57898EE1 [Sat Jul 16 01:33:21 2016 UTC]
+EP:      0x402ab0 .text 0/5
+CRC:     Claimed: 0x12211, Actual: 0x12211 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x6738   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x6398   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60f0   0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x20dc       0x2200       5.789146    
+.data      0x4000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0xd6c        0xe00        5.345211    
+.rsrc      0x6000       0x800        0x800        4.364184    
+.reloc     0x7000       0x348        0x400        5.909150    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: doskey
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Keyboard History Utility
+OriginalFilename: DOSKEY.EXE
+Translation: 0x0409 0x04b0
+

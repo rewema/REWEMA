@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    136360 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 Mono/.Net assembly
+MD5:     efa857e2b0cc7c9dfef48a2187b910f7
+SHA1:    9b65fab5453612b114b73f95bfbf55382c5cd1e1
+ssdeep:  3072:nPH3pQCB1vcVZljovWQfvR8M70dB1B57FE20M4EJ+:nPHiC6ZOWQfvKRdBxFE9A+
+Date:    0x575A185E [Fri Jun 10 01:31:10 2016 UTC]
+EP:      0x41e702 .text 0/3
+CRC:     Claimed: 0x27efa, Actual: 0x27efa 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x20090  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x20468  0x4ee    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1c738      0x1c800      5.819038    
+.rsrc      0x20000      0x95c        0xa00        4.454831    
+.reloc     0x22000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: SMSvcHost.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: SMSvcHost.exe
+OriginalFilename: SMSvcHost.exe
+Translation: 0x0409 0x04b0
+

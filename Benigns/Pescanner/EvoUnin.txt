@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    123904 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     59737c03186b43ce897a324d42274960
+SHA1:    ad66616209c5ab29bf9c26b0b5286cec003c6572
+ssdeep:  3072:lh052fvh052KwSb/6eB4ePPPETY0vHdh052M:3UsUWenETY0v/Uv
+Date:    0x47D97558 [Thu Mar 13 18:41:28 2008 UTC]
+EP:      0x417e4e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2a9ab [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1a568  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1aad0  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ae38  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1bae0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1c388  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1d430  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1f0d8  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x21680  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 16x16, 256-colors
+RT_VERSION         0x1a250  0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x216e8  0x4d3    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x15e54      0x16000      6.288730    
+.sdata     0x18000      0x74         0x200        1.656989    
+.rsrc      0x1a000      0x7bc0       0x7c00       5.930264    
+.reloc     0x22000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Evolution Technology 2007
+Assembly Version: 1.0.0.0
+InternalName: EvoUnin.exe
+FileVersion: 1.0.0.0
+CompanyName: Evolution Technology
+ProductName: EvoUnin
+ProductVersion: 1.0.0.0
+FileDescription: EvoUnin
+OriginalFilename: EvoUnin.exe
+

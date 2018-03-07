@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2038876 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d9cc0ee232603c1a0f8280fa2e6c100b
+SHA1:    8e935c1b28baa31e15820547e86b7a61c0787f29
+ssdeep:  49152:7EIUqsezIOe8b5b3CcEt0X2hrIr3GNeQLn6QJuyG/Tft+Rqm:WXEIodb3C0X2hUrGNTXJuHIRqm
+Date:    0x4CCC861E [Sat Oct 30 20:54:54 2010 UTC]
+EP:      0x416478 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x1f4f78 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2338c  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x23c34  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x23cf8  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23dc4  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23f38  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x242d4  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24620  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x248b4  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x2cb9c  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x2cbac  0x1a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2cd4c  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x2cd78  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x2cd8c  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x2d244  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x143f0      0x14400      6.482200    
+.itext     0x16000      0xbe8        0xc00        6.009291    
+.data      0x17000      0xd9c        0xe00        2.675929    
+.bss       0x18000      0x5710       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1e000      0xf9e        0x1000       4.967783    
+.tls       0x1f000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x20000      0x18         0x200        0.190489    [SUSPICIOUS]
+.reloc     0x21000      0x1940       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x23000      0xa7a4       0xa800       4.050740    
+
+Version info
+================================================================================
+LegalCopyright: Free Software Foundation <www.fsf.org>                                                              
+FileVersion: 4.2.1.0             
+CompanyName: GnuWin <gnuwin32.sourceforge.net>                           
+Comments: This installation was built with Inno Setup.
+ProductName: sed                                                         
+ProductVersion: 4.2.1               
+FileDescription: sed: stream editor; Complete package, except sources        
+Translation: 0x0000 0x04b0
+

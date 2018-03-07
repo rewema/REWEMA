@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    292192 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fa87f5f00879a7afecaff6ae935aa874
+SHA1:    a0d340aaaee29342cd33d132553e95403c9804ff
+ssdeep:  3072:YXCLn5CZEkLwhrwZ/kEUIX6rVjMqVVdmabWcONiHNp6ei/EzgHMqVVdmabWcONi/:IsCyMwhrwuCaqg6Rc6Caqg6R8Ga
+Date:    0x57898801 [Sat Jul 16 01:04:01 2016 UTC]
+EP:      0x4355fa .text 0/3
+CRC:     Claimed: 0x53047, Actual: 0x53047 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x36280  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x368f8  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x36bf0  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x36de8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x36f20  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x37dd8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x38690  0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x38d68  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x392e0  0x9a2b   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x42d1c  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x452d4  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4638c  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x46d24  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4719c  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x47268  0x3c2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4763c  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x33600      0x33600      6.695254    
+.rsrc      0x36000      0x1182c      0x11a00      7.085462    [SUSPICIOUS]
+.reloc     0x48000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: AppVStreamingUX.exe
+FileVersion: 10.0.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft (R) Windows (R) Operating System
+ProductVersion: 10.0.14393.0
+FileDescription:  
+OriginalFilename: AppVStreamingUX.exe
+

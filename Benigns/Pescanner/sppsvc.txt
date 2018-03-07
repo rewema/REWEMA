@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4970224 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1a0ad24ca9be922b7e3819a9bfac2a3f
+SHA1:    8df7e35f42e9b3fb1b8a2698afe4162d07e7a263
+ssdeep:  98304:6W+VTEr/TT2o3Q5AciwwwUhr7s3xVgyOvNzU5aQ6:nc+T2H5tHUhns3x6yMRUsN
+Date:    0x57898E7C [Sat Jul 16 01:31:40 2016 UTC]
+EP:      0x5bf840 .text 0/5
+CRC:     Claimed: 0x4c1623, Actual: 0x4c1623 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x490858 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x48e7f0 0x2062   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x48e420 0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x48e160 0x2b9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+StartServiceW
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x47ff80     0x480000     7.528149    [SUSPICIOUS]
+.data      0x481000     0xa654       0x9200       5.958609    
+.idata     0x48c000     0x1daa       0x1e00       5.598590    
+.rsrc      0x48e000     0x2948       0x2a00       3.138989    
+.reloc     0x491000     0x22c44      0x22e00      6.718206    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sppsvc
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Software Protection Platform Service
+OriginalFilename: sppsvc.exe
+Translation: 0x0409 0x04b0
+

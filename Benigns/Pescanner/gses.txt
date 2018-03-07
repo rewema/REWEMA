@@ -1,0 +1,39 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    547328 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7adb5533d6608dc855733299bd8545d0
+SHA1:    9700ee72e271e674782176653656fd19e651e64d
+ssdeep:  12288:DQV+dR++z/oGO0mff44ZNV2AtA/9wfC10c:DHNzq0mfw0oAQbD
+Date:    0x0        [Thu Jan  1 00:00:00 1970 UTC] [SUSPICIOUS]
+EP:      0x5c3020 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x8b723 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c4308 0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x1b9fac 0x32     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1b9fe0 0x671    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1ba654 0x275a   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1bcdb0 0x10b1   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1bde64 0x872    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1be6d8 0x1d8d   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1c4fb4 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_MANIFEST        0x1c4fcc 0x317    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x13e000     0x0          0.000000    [SUSPICIOUS]
+UPX1       0x13f000     0x85000      0x84200      7.920991    [SUSPICIOUS]
+.rsrc      0x1c4000     0x2000       0x1600       6.773849    
+

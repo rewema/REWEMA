@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    513824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cfa7ae018ec544f6c2c64ddf23d3512b
+SHA1:    9fe7f177d76099b004f883f17eef086fc9b0a5a2
+ssdeep:  6144:ZqCrEAeCpH7L8YOhYOBCcESI39XER0u+GIIIIIIIhIIIIIIIIIIIIIIIUoI:ZqCwCpH7L8c21ESI36m5oI
+Date:    0x59305FC6 [Thu Jun  1 18:41:10 2017 UTC]
+EP:      0x40ad68 .text 0/5
+CRC:     Claimed: 0x82a0e, Actual: 0x82a0e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+SCID               0x35340  0x7      LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with no line terminators
+RT_ICON            0x35348  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x353f8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x35960  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x35cc8  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36970  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x38618  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x38a80  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x39b28  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c0d0  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7e0f8  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 2-colors
+RT_VERSION         0x7e17c  0x428    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x7e5a4  0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7e8d4  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ReadProcessMemory
+HttpSendRequestW
+InternetConnectW
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24e53      0x25000      6.649323    
+.rdata     0x26000      0x93b6       0x9400       4.742196    
+.data      0x30000      0x4e68       0x1a00       3.680834    
+.rsrc      0x35000      0x49a54      0x49c00      5.606490    
+.reloc     0x7f000      0x1dfc       0x1e00       6.598406    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2010 Valve Corporation
+InternalName: steamerrorreporter.exe (buildbot_steam-relclient-win32-builder_steam_rel_client_win32@steam-relclient-win32-builder)
+FileVersion: 03.98.98.55
+CompanyName: Valve Corporation
+Source Control ID: 3989855
+ProductName: Steam
+ProductVersion: 03.00.00.01
+FileDescription: steamerrorreporter.exe
+OriginalFilename: steamerrorreporter.exe
+Translation: 0x0409 0x04b0
+

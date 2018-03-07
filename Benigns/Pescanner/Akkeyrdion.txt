@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6638080 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     dd198da6c6961cabcbe776a9987cd428
+SHA1:    ca18c5ed76cb395762b577478b9b5e573a822eab
+ssdeep:  98304:tYRL+d4Nvq67JzRoHA+zIlRZnnLdKHs87JSpT3rJsv6tWKFdu9Cd42:tYY0q/HvzIlRcXJSpvJsv6tWKFdu9C
+Date:    0x5847F7A2 [Wed Dec  7 11:50:58 2016 UTC]
+EP:      0x853666 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x66337b [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x5d08c9L => deflate
+   0x5d08ebL => Jean-loup Gailly
+   0x5e55f9L => inflate
+   0x5e561bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6580c0 0x4360   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x65c420 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+ShellExecuteW
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4bc0ad     0x4bc200     6.538417    
+.rdata     0x4be000     0x18ae60     0x18b000     6.039501    
+.data      0x649000     0xe9dc       0x8e00       4.708052    
+.rsrc      0x658000     0x4438       0x4600       2.109619    
+

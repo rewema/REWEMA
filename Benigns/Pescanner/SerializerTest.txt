@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     dda222778cdb9a178d2bf85e56fcdc80
+SHA1:    b994799681eef5b88525095302c69291934c1b4b
+ssdeep:  384:xorXC3/kD/aWyZ6bnkATgZ6RTckI0gJvIZBAENjbCVEO2X:xoHpsympEO2X
+Date:    0x4F83237D [Mon Apr  9 17:59:25 2012 UTC]
+EP:      0x1100436e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xfa95 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x63f8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x66e0   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6808   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6160   0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x6830   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2374       0x3000       4.067651    
+.rsrc      0x6000       0xa20        0x1000       2.918463    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.4482.17982
+InternalName: SerializerTest.exe
+FileVersion: 1.0.4482.17982
+ProductVersion: 1.0.4482.17982
+FileDescription:  
+OriginalFilename: SerializerTest.exe
+

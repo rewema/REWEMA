@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    18432 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     940e9318c03dea9c11d411223cc084f8
+SHA1:    840c948b6a9dd074518e90d1f8189f3fc8bb941d
+ssdeep:  384:kGKOmzP2y4V23wbre6QX+PdfM/2gOB8WWrWXPT:kgq2bVvbrND6YOW
+Date:    0x57899138 [Sat Jul 16 01:43:20 2016 UTC]
+EP:      0x403240 .text 0/5
+CRC:     Claimed: 0x132d9, Actual: 0x132d9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1b780  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1b3d0  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1b0f0  0x2da    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x289c       0x2a00       6.046826    
+.data      0x4000       0x158f6      0x200        0.220113    [SUSPICIOUS]
+.idata     0x1a000      0x836        0xa00        4.739942    
+.rsrc      0x1b000      0x848        0xa00        3.827977    
+.reloc     0x1c000      0x298        0x400        5.030836    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: nbtinfo.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCP/IP NetBios Information
+OriginalFilename: nbtinfo.exe
+Translation: 0x0409 0x04b0
+

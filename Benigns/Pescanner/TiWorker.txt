@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    197120 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     83f81bd8038a7d9d4ae658cb3b686841
+SHA1:    ecadc96744d724422e835f9b8e72da5eaf3b3ed2
+ssdeep:  3072:irulENnKKphw6s4RTQcWl4aL2cDxhEeoBpMYFqdSqv4StpWMIWW:iri8nRccMBL2IxWeoBJFsVv4StQM
+Date:    0x57899131 [Sat Jul 16 01:43:13 2016 UTC]
+EP:      0x42a960 .text 0/5
+CRC:     Claimed: 0x3ac17, Actual: 0x3ac17 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2e470  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2e0b0  0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2a114      0x2a200      5.999091    
+.data      0x2c000      0x488        0x200        0.512776    [SUSPICIOUS]
+.idata     0x2d000      0xf98        0x1000       5.138605    
+.rsrc      0x2e000      0x538        0x600        2.970738    
+.reloc     0x2f000      0x42f0       0x4400       6.656217    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TiWorker.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Modules Installer Worker
+OriginalFilename: TiWorker.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    149168 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ef0c15d5617d24e51f691b59860fd229
+SHA1:    92cdba2e158500093ec051e130633cb92afc701b
+ssdeep:  3072:M/wbo8YiT1ZhKZUF7QXXafxftLdwzxgk1QEB:t9V7QHULgF7
+Date:    0x5749E9DA [Sat May 28 18:56:26 2016 UTC]
+EP:      0x405426 .text 0/5
+CRC:     Claimed: 0x2e052, Actual: 0x2e052 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x230a0  0x3e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x23488  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11424      0x11600      6.596833    
+.rdata     0x13000      0xbeb6       0xc000       4.579702    
+.data      0x1f000      0x3248       0x1400       3.314280    
+.rsrc      0x23000      0x608        0x800        3.294191    
+.reloc     0x24000      0x10ec       0x1200       6.456303    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005-2016 Mark Russinovich
+InternalName: RegDelNull
+FileVersion: 1.11
+CompanyName: Sysinternals - www.sysinternals.com
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Sysinternals RegDelNull
+SpecialBuild: 
+ProductVersion: 1.11
+FileDescription: Delete Registry keys with embedded Nulls
+OriginalFilename: RegDelNull.exe
+Translation: 0x0409 0x04b0
+

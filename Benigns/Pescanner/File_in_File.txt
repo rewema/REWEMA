@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    80896 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     599d04f6cdd10987ecf1e17977c29019
+SHA1:    dcccfc128a788113d0cb59176358c1a93a55037c
+ssdeep:  768:nbz2/dabqtfRMqxlbziU3YWZunmDbqNz3YcOfw:bzWP3Mq/v93YWZumyNz2
+Date:    0x4F647740 [Sat Mar 17 11:36:32 2012 UTC]
+EP:      0x40e11e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1dead [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x124f8  0x6400   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x188f8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x12130  0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x18910  0x878    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xc124       0xc200       4.974101    
+.sdata     0x10000      0xa2         0x200        2.242718    
+.rsrc      0x12000      0x7188       0x7200       4.234430    
+.reloc     0x1a000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Dannyfox
+Assembly Version: 1.3.0.0
+InternalName: File in File.exe
+FileVersion: 1.3.0.0
+CompanyName: Dannyfox
+LegalTrademarks: http://fileinfile.sourceforge.net/
+Comments: http://fileinfile.sourceforge.net/
+ProductName: File in File
+ProductVersion: 1.3.0.0
+FileDescription: File in File
+OriginalFilename: File in File.exe
+

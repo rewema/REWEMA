@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    159296 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ed141a08605af568747c8f418170fc06
+SHA1:    37b6756b597221cbf56aa924f1be389a62a10089
+ssdeep:  3072:Bruq5zbJEeMW19gFbIFhgnkTj9FTBfYEaf9zQ6NlIb6D:0gMcKUh2knTBgEaf9zQ6Nf
+Date:    0x57E48D0F [Fri Sep 23 02:01:51 2016 UTC]
+EP:      0x418c4a .text 0/6
+CRC:     Claimed: 0x338ff, Actual: 0x338ff 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x1c3a9L => deflate
+   0x207bbL => deflate
+   0x207e5L => deflate
+   0x20b07L => deflate
+   0x1c3cbL => Jean-loup Gailly
+   0x1e8b1L => inflate
+   0x1c3e0L => Mark Adler
+   0x1e8d3L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x280a0  0x344    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x283e4  0x229    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x190b7      0x19200      5.873539    
+.rdata     0x1b000      0x90e6       0x9200       5.250229    
+.data      0x25000      0x17a4       0x1000       0.953305    [SUSPICIOUS]
+.idata     0x27000      0x944        0xa00        4.035038    
+.rsrc      0x28000      0x610        0x800        4.736844    
+.reloc     0x29000      0xae8        0xc00        5.496177    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2016
+InternalName: unpack200
+FileVersion: 8.0.1110.14
+Full Version: 1.8.0_111-b14
+CompanyName: Oracle Corporation
+ProductName: Java(TM) Platform SE 8
+ProductVersion: 8.0.1110.14
+FileDescription: Java(TM) Platform SE binary
+OriginalFilename: unpack200.exe
+Translation: 0x0000 0x04b0
+

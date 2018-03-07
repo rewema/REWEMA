@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    35840 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     755a36263b919a5fec30f7f697b0aa4a
+SHA1:    aeedaf44353bf628b9c503611786aff59ea0732f
+ssdeep:  768:n8pfRks4ZxJXxTnrJikirB7ILn5FvYzmMPljmmpgFUG:S09RnrJikirZdlmmpgB
+Date:    0x57899132 [Sat Jul 16 01:43:14 2016 UTC]
+EP:      0x406e50 .text 0/5
+CRC:     Claimed: 0xf462, Actual: 0xf462 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xa758   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xa3b0   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa0f0   0x2bd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x65cc       0x6600       6.356939    
+.data      0x8000       0x874        0x200        0.183339    [SUSPICIOUS]
+.idata     0x9000       0xc36        0xe00        4.833685    
+.rsrc      0xa000       0x820        0xa00        3.735887    
+.reloc     0xb000       0x7dc        0x800        6.655288    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sfc.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: System Integrity Check and Repair
+OriginalFilename: sfc.exe
+Translation: 0x0409 0x04b0
+

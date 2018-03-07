@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    58368 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     14d348df1a1a94b377bbc9e94ceff368
+SHA1:    2ebd44d2e4e96b8f4acbacb6fdf8dc41411ff390
+ssdeep:  1536:96BORr5XxOZVaWv0GfRsG7TAIwJoaBpoS2F:97Z7ScWcGJX7TAzJoaD3
+Date:    0x578990AD [Sat Jul 16 01:41:01 2016 UTC]
+EP:      0x40ba20 .text 0/6
+CRC:     Claimed: 0x1aedf, Actual: 0x1aedf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x118c0  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x11508  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x110f0  0x417    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb57c       0xb600       6.358447    
+.data      0xd000       0x544        0x200        3.204713    
+.idata     0xe000       0x1210       0x1400       4.689021    
+.didat     0x10000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x11000      0x988        0xa00        4.366656    
+.reloc     0x12000      0x7e4        0x800        6.616453    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: LicensingDiag
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Licensing Diagnostic Tool
+OriginalFilename: LicensingDiag.exe
+Translation: 0x0409 0x04b0
+

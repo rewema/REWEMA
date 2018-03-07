@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4222464 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     481f7849d4d4ef42a863bb7f6fdb137e
+SHA1:    dbe8a112c06aab40e2fca7514df7fe8e4b26db6d
+ssdeep:  49152:Fb1HER9qlb+b8frNS8htZ/VHwiu5c1eianGGW6T4zrpqzNK7N0uH:FbaR9CffrLzVVHwiu5c1eiyGG6O
+Date:    0x5404A17E [Mon Sep  1 16:40:30 2014 UTC]
+EP:      0x588d54 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x416db6 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x369411L => deflate
+   0x369433L => Jean-loup Gailly
+   0x36ca11L => inflate
+   0x36ca33L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x5a50f0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5a53d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x5a5500 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1c274e     0x1c2800     6.581869    
+.rdata     0x1c4000     0x2250ca     0x225200     3.370483    
+.data      0x3ea000     0x1ba06c     0x1ea00      6.370683    
+.rsrc      0x5a5000     0x528        0x600        2.118321    
+

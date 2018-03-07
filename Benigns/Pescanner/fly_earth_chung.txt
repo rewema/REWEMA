@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    276480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     51d89b08707946eb55187d7c83c391e8
+SHA1:    01801dc00feb67c09022aac39ba1d4dc087b240b
+ssdeep:  3072:08TDVG2/MdBUBs30RHNBduIRYB9RZPjk0DzISUxsCutAeE+Fk/DBD5N9HCNNgwvE:HT5G2/pHzvYV1BUxgE+8+k5hhSuA
+Date:    0x4FBF59EB [Fri May 25 10:07:39 2012 UTC]
+EP:      0x401110 .text 0/9
+CRC:     Claimed: 0x47db4, Actual: 0x47db4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x860c0  0x2e8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x863a8  0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x39e20      0x3a000      6.831898    
+.data      0x3b000      0x9e8        0xa00        4.596872    
+.jcr       0x3c000      0x4          0x200        0.000000    
+.rdata     0x3d000      0x2ffc       0x3000       6.331098    
+.bss       0x40000      0x42288      0x0          0.000000    [SUSPICIOUS]
+.edata     0x83000      0xd6f        0xe00        5.231746    
+.idata     0x84000      0x1814       0x1a00       5.125765    
+.rsrc      0x86000      0x3bc        0x400        3.682380    
+.reloc     0x87000      0x2ad0       0x2c00       6.737269    
+

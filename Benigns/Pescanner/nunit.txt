@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6656 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     44d7ee114c4ffd078c378bcbbbfa46a3
+SHA1:    7ea8868194c4b4894ef91599f60d88d6223b41e4
+ssdeep:  48:69W5vpvCfYgLgRJw6FJYIPEtlsPYhmD4dfZuGJ7yM0h4t8/28fmaSfbNtm:R7awgc4i8LoinJ7y3O8/28fuzNt
+Date:    0x501DA47B [Sat Aug  4 22:38:51 2012 UTC]
+EP:      0x40264e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x9df1 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x45f0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x48d8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4a00   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4160   0x48c    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+RT_MANIFEST        0x4a28   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x654        0x800        4.264834    
+.rsrc      0x4000       0xc18        0xe00        3.634755    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (C) 2002-2012 Charlie Poole.
+Copyright (C) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov.
+Copyright (C) 2000-2002 Philip Craig.
+All Rights Reserved.
+Assembly Version: 2.6.1.12217
+InternalName: nunit.exe
+FileVersion: 2.6.1.12217
+CompanyName: NUnit.org
+LegalTrademarks: NUnit is a trademark of NUnit.org
+ProductName: NUnit
+ProductVersion: 2.6.1.12217
+FileDescription: NUnit
+OriginalFilename: nunit.exe
+

@@ -1,0 +1,102 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1194128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     25f0e43995e1fbbbebc9c0223e812af3
+SHA1:    96f64d7007972809e81f77bb52bb7aa1771d7bad
+ssdeep:  24576:2zERNt1TxgyGQatZ9P9Z3Blqk92bdqiAbfD4JeT/TYi+oR:imL1Ng3h9P7ukgbdqiAbfD4o/Tqq
+Date:    0x55918460 [Mon Jun 29 17:46:08 2015 UTC]
+EP:      0x430945 .text 0/5
+CRC:     Claimed: 0x12e257, Actual: 0x12e257 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x61376L => This program cannot be run in DOS mode
+   0x7c40eL => This program cannot be run in DOS mode
+   0xf94f6L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x819c0  0xa1290  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (GUI) Mono/.Net assembly
+BINRES             0x66928  0x1b098  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit
+RT_CURSOR          0x60b10  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x60c60  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x64d68  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x64ea8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x64fe8  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x65ca8  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x66028  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x64928  0x43c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61330  0x216    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x642c0  0xf4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61bf0  0x13e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61640  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x64128  0x198    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61d30  0x14ec   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x64600  0x326    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x60ea0  0x490    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61548  0xf6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x64500  0xfc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x60db0  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63430  0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63220  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63b80  0x5a6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x638c8  0x2b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63548  0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x643b8  0x142    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x632f8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x616b8  0x536    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x668b0  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x60d98  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x60c48  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x65c90  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x64e90  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x64fd0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x66010  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x66590  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x665a8  0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x122c50 0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+VirtualAllocEx
+WriteProcessMemory
+ReadProcessMemory
+CreateProcessW
+OpenProcessToken
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x46f2d      0x47000      6.563277    
+.rdata     0x48000      0x11ba6      0x11c00      4.854692    
+.data      0x5a000      0x54e0       0x1a00       3.842591    
+.rsrc      0x60000      0xc3028      0xc3200      6.199550    
+.reloc     0x124000     0x407c       0x4200       6.678932    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2009-2015 Mark Russinovich
+InternalName: Vmmap
+FileVersion: 3.21
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Vmmap
+ProductVersion: 3.21
+FileDescription: Vmmap - process memory analyzer
+OriginalFilename: Vmmap
+Translation: 0x0409 0x04b0
+

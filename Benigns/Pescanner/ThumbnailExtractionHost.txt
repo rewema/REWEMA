@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ba6077da86983e4f59012b79e8e5d1a2
+SHA1:    86f08106f8a6da26b02da9ee0bb251e90c0eed0a
+ssdeep:  768:6frRvo+V50WxyqxQ7sIdLIaGdCPbU0qQZ5LaOHzUd:UPV50Wkq2sI9IaGcPbU0NZXHzU
+Date:    0x578990B9 [Sat Jul 16 01:41:13 2016 UTC]
+EP:      0x405040 .text 0/6
+CRC:     Claimed: 0x142e8, Actual: 0x142e8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x9548   0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90a0   0x4a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4d18       0x4e00       5.993888    
+.data      0x6000       0x504        0x200        0.633393    [SUSPICIOUS]
+.idata     0x7000       0xae4        0xc00        4.679863    
+.didat     0x8000       0x38         0x200        0.528910    [SUSPICIOUS]
+.rsrc      0x9000       0x938        0xa00        4.447570    
+.reloc     0xa000       0x68c        0x800        5.996530    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ThumbnailExtractionHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Thumbnail Handler Extraction Host
+OriginalFilename: ThumbnailExtractionHost.EXE
+Translation: 0x0409 0x04b0
+

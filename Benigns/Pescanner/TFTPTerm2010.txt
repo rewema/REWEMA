@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    54784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     af0927292bf86a3f6ab0ac5464c224af
+SHA1:    f99f2f5a3662390a1e15a108f19eb0a4d4e05156
+ssdeep:  768:lEOPYWDIQnUPMqx2YN/sXUSTp5E38G+tZgYrxTVja0zZ38ztMvC9bRGLoDIb/XPw:lEOnDPFxZgYxN32b4b/fO3g2gZL6f
+Date:    0x5589D8FF [Tue Jun 23 22:09:03 2015 UTC]
+EP:      0x40e13e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1558b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x12448  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12730  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x12858  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x12160  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x12880  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xc144       0xc200       5.678518    
+.sdata     0x10000      0x95         0x200        2.105662    
+.rsrc      0x12000      0xa70        0xc00        3.687443    
+.reloc     0x14000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2012
+Assembly Version: 1.0.0.0
+InternalName: TFTPTerm2010.exe
+FileVersion: 1.0.0.0
+ProductName: WindowsApplication1
+ProductVersion: 1.0.0.0
+FileDescription: WindowsApplication1
+OriginalFilename: TFTPTerm2010.exe
+

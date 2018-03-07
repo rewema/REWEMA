@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4062386 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     517480c043fa345bd01ac3b9f95cfbb7
+SHA1:    736e48161e589eedfbfb03f3135df69e128f3a92
+ssdeep:  98304:fRIZZyTS57/Kila46zRi1EJsZJyf3xDVcLpguiSylHGn:fAsm//laEhjkxDVuCfwn
+Date:    0x3FDF141F [Tue Dec 16 14:18:07 2003 UTC]
+EP:      0x412c77 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x3e78a1 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1e2d0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e3f8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e960  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ec48  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f4f0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20620  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20648  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x20670  0x7a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x206f0  0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x20398  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 16-colors
+RT_VERSION         0x20718  0x320    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x203e8  0x237    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+WinExec
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14fd6      0x15000      6.612443    
+.rdata     0x16000      0x1ba6       0x2000       4.854475    
+.data      0x18000      0x5624       0x5000       2.913462    
+.rsrc      0x1e000      0x2a38       0x3000       4.410265    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 2, 0, 0, 21
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Oranje4 Install Program
+SpecialBuild: 
+ProductVersion: 2, 0, 0, 21
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0409 0x04b0
+

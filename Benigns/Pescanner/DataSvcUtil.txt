@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    71344 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 Mono/.Net assembly
+MD5:     c473fc73b38f3c8aa6f4ec9c5428ebed
+SHA1:    ce246c8064b1a0cd5e4b3b9e9775cc51c897e402
+ssdeep:  768:HZ6uwhN4CGwvamnfUzJ3XekkFAMdzxl6Iq8ZMbLbigjiLeEBMYB:HppwvCzJ39kFNdzxMZigj1EBMM
+Date:    0x575A142D [Fri Jun 10 01:13:17 2016 UTC]
+EP:      0x40e9ba .text 0/3
+CRC:     Claimed: 0x191ab, Actual: 0x191ab 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x10090  0x3b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x10454  0x482    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xc9c0       0xca00       5.556750    
+.rsrc      0x10000      0x8dc        0xa00        4.395886    
+.reloc     0x12000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+Assembly Version: 4.0.0.0
+InternalName: DataSvcUtil.exe
+FileVersion: 4.6.1586.0
+CompanyName: Microsoft Corporation
+Comments: DataSvcUtil.exe
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: DataSvcUtil.exe
+OriginalFilename: DataSvcUtil.exe
+

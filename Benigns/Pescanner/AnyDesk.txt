@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1775816 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     300899a1215c8fb210e68a642b0220a4
+SHA1:    8883d157bfa5cef3524ce2cbc227935b8b9b5e5e
+ssdeep:  49152:AQmjpzcrD48pELEq21931t44UuUKA11EzDU9qHkIT:AQMpzw91931t4aZ0wI9qHke
+Date:    0x592DAAA0 [Tue May 30 17:23:44 2017 UTC]
+EP:      0x402028 .text 0/6
+CRC:     Claimed: 0x1b3acf, Actual: 0x1b3acf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6f61c0 0x1bf0   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x6f7db0 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6fa358 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6fb400 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6fb868 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 256-colors
+RT_VERSION         0x6fb8a8 0x258    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6fbb00 0x628    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2c05       0x2e00       6.512644    
+.itext     0x4000       0x54b600     0x0          0.000000    [SUSPICIOUS]
+.rdata     0x550000     0x3ff        0x400        7.106024    [SUSPICIOUS]
+.data      0x551000     0x1a4bcc     0x1a4800     7.999895    [SUSPICIOUS]
+.rsrc      0x6f6000     0x6128       0x6200       5.629719    
+.reloc     0x6fd000     0x3f0        0x400        1.585701    
+
+Version info
+================================================================================
+LegalCopyright: (C) 2016 philandro Software GmbH
+FileVersion: 3.2.5.0
+CompanyName: philandro Software GmbH
+ProductName: AnyDesk
+ProductVersion: 3.2
+FileDescription: AnyDesk
+Translation: 0x0000 0x04e4
+

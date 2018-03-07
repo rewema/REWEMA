@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    947552 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     009eb7525eb2aea39526cca56fb38dec
+SHA1:    bcef0a2f1956a5bab7d045ea9504a13cc931cd45
+ssdeep:  24576:8eN23XWEeXGKTv48Kq1MM4OHUWkYBMxYKrs:JEH5eXGxtqqYKQ
+Date:    0x57898FD8 [Sat Jul 16 01:37:28 2016 UTC]
+EP:      0x413de0 .text 0/6
+CRC:     Claimed: 0xee82e, Actual: 0xee82e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xdb060  0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x944dd      0x94600      6.499540    
+.rdata     0x96000      0x3ac82      0x3ae00      4.394000    
+.data      0xd1000      0x870c       0x8000       4.613344    
+.didat     0xda000      0x10         0x200        0.114463    [SUSPICIOUS]
+.rsrc      0xdb000      0x438        0x600        2.534140    
+.reloc     0xdc000      0xd294       0xd400       6.623313    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ShellExperienceHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Shell Experience Host
+OriginalFilename: ShellExperienceHost.exe
+Translation: 0x0409 0x04b0
+

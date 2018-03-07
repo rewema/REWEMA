@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5120 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d7118f2443de9b20dda33a018220ec0b
+SHA1:    bd1eae11480d81df2fa9540e77e90255631e6677
+ssdeep:  48:6aFP6+0V60BVox1RFK5pyNL7dbyALMRPgIOLc6DmGbEe5GVLzpJs2OPulj0oqKq:toIvHu4VMbRPgIOLZCz3x0o
+Date:    0x3B5DDFDB [Tue Jul 24 20:51:39 2001 UTC]
+EP:      0x402aee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc5bc [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xaf4        0xc00        4.657133    
+.rsrc      0x4000       0x338        0x400        2.573669    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: Installer.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: Installer.exe
+

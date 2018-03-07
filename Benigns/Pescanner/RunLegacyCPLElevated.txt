@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    68096 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e1519821284895922c0de974bb13db8b
+SHA1:    918414136046b47344d79763f9a07bead1797603
+ssdeep:  768:J5ESzPFAYMrwlkDPtRGr+RGSkVhWakkbB5eT905WGnUKxHUe7n8jKBFFptX/7wU1:J6iAYXyjGr+Rxakkn6oYY0ewiP8ae
+Date:    0x578990A5 [Sat Jul 16 01:40:53 2016 UTC]
+EP:      0x403960 .text 0/5
+CRC:     Claimed: 0x1fd2f, Actual: 0x1fd2f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x12f30  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7a20   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8088   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8370   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8558   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8680   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9528   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9dd0   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa498   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xaa00   0x402e   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xea30   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10fd8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12080  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12a08  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x12e70  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x7648   0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x73c0   0x282    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x320c       0x3400       6.144596    
+.data      0x5000       0x46c        0x200        0.285782    [SUSPICIOUS]
+.idata     0x6000       0xb7a        0xc00        4.798535    
+.rsrc      0x7000       0xc000       0xc000       6.265493    
+.reloc     0x13000      0x35c        0x400        5.941983    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RunLegacyCPLElevated
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Run a legacy CPL elevated
+OriginalFilename: RunLegacyCPLElevated.EXE
+Translation: 0x0409 0x04b0
+

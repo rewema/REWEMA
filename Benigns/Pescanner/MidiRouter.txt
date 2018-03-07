@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    90112 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c0151c4a8cb861a8122ded4ac946fe94
+SHA1:    f47d3b3bad287ffc447920400054f39e8dbb82d1
+ssdeep:  1536:uNUP6E5MfSgbBW4oMDGkzRtUE1gT/MENRNkrMkOkUFYRzkR0RntwkmdkVkDcRZDz:uNUP6EG9WgykzROE1K/MENRNkrMkOkUm
+Date:    0x3EC5228C [Fri May 16 17:40:28 2003 UTC]
+EP:      0x4010d8 .text 0/3
+CRC:     Claimed: 0x1ceb5, Actual: 0x1ceb5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x193d0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x193bc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x190f0  0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13d00      0x14000      4.608068    
+.data      0x15000      0x3478       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x19000      0xc78        0x1000       1.784897    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: (c) M. R. Le Voi Systems Consultants (1998)
+InternalName: MidiRouter
+FileVersion: 0.02
+CompanyName: M.R. Le Voi Systems Consultants
+ProductName: Midi Router
+ProductVersion: 0.02
+OriginalFilename: MidiRouter.exe
+

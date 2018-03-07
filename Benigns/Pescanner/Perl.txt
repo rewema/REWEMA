@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3b025398c7a8dc370c3356947b85fa03
+SHA1:    ee1be2ea377df0a2b11d55c0aa9abd4e179c0c98
+ssdeep:  48:qi/UZas0FryyW4uWn4oyl1fnaMnoGAxWVwrGtrEfQd:n/U0s0FyC4oyn/aMj6WvEf
+Date:    0x39AF23A5 [Fri Sep  1 03:33:57 2000 UTC]
+EP:      0x401016 .text 0/4
+CRC:     Claimed: 0x12121, Actual: 0x12121 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4130   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4418   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4540   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4568   0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x15c        0x1000       0.724208    [SUSPICIOUS]
+.rdata     0x2000       0x1aa        0x1000       0.691893    [SUSPICIOUS]
+.data      0x3000       0x3c         0x1000       0.003282    [SUSPICIOUS]
+.rsrc      0x4000       0x920        0x1000       1.944951    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 1987-2000, Larry Wall, Binary build by ActiveState Tool Corp., http://www.ActiveState.com
+InternalName: Perl.exe
+FileVersion: 5,6,0,617
+CompanyName: ActiveState Tool Corp.
+LegalTrademarks: 
+ProductName: ActivePerl
+ProductVersion: Build 617
+FileDescription: Perl Command Line Interpreter
+OriginalFilename: Perl.exe
+Translation: 0x0409 0x04e4
+

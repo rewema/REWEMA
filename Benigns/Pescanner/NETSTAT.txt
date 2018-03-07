@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    33280 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ffe367661afcd0ed0eb8e305a436797a
+SHA1:    79a5027cd9ba4c5bd29d5a5c5ee28c616e2f0fea
+ssdeep:  384:XH/8LvAy7E9FKkUpzMiMJ2D33ns3FIC/UomimtUcuVO55O6ozvAXFuy4ahYvE3G2:XHrRWkUa53Fky1u/oLsu1vEubS6
+Date:    0x5789911A [Sat Jul 16 01:42:50 2016 UTC]
+EP:      0x405ce0 .text 0/5
+CRC:     Claimed: 0x11d30, Actual: 0x11d30 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9778   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x93d0   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x2da    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x535c       0x5400       6.380905    
+.data      0x7000       0xf08        0xa00        0.630516    [SUSPICIOUS]
+.idata     0x8000       0xe6e        0x1000       4.693094    
+.rsrc      0x9000       0x840        0xa00        3.799294    
+.reloc     0xa000       0x4b8        0x600        5.786683    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: netstat.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCP/IP Netstat Command
+OriginalFilename: netstat.exe
+Translation: 0x0409 0x04b0
+

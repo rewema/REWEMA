@@ -1,0 +1,116 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1027072 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7b5eed55029f39d9fedfd9325d5746de
+SHA1:    3595d7fc428183559b0faf41814c33edb5b105cc
+ssdeep:  24576:xsJGq74WYIGy4ZUpUfO3pD3YqLmrl+FYX8jFZTA7b5C:WJp47a53YqLm5+egtAk
+Date:    0x440BCF4B [Mon Mar  6 05:57:31 2006 UTC]
+EP:      0x401270 .text 0/6
+CRC:     Claimed: 0x109f91, Actual: 0x109f91 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Signature scans
+================================================================================
+YARA: irc
+   0xe0050L => Msg
+   0xcd574L => Notice
+   0xe2c73L => Notice
+   0xceb1fL => Part
+   0xcee79L => Part
+   0xe4edbL => part
+   0xe24ccL => Quit
+   0xe49eeL => QUIT
+   0xe4ac8L => QUIT
+   0xe4b08L => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x23e988 0x6618   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x244fa0 0x1c28   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x246bc8 0x3e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x246fb0 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x247298 0x128    LANG_JAPANESE SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x2473c0 0x2e8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_MENU            0x2476a8 0x322    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MENU            0x2479cc 0x286    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x247c54 0xa6     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x247cfc 0x21e    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x247f1c 0x7d4    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x2486f0 0x70c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x248dfc 0x7d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2495d4 0x7b6    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x249d8c 0x3ca    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24a158 0x8d6    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24aa30 0x1b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24abe0 0x268    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24ae48 0x898    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24b6e0 0x108    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24b7e8 0xf8     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24b8e0 0x330    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24bc10 0x3be    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24bfd0 0xfe     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24c0d0 0x46     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24c118 0x64c    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24c764 0x662    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24cdc8 0x5ee    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24d3b8 0x378    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24d730 0x862    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24df94 0x1b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24e144 0x1fa    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24e340 0x1ce    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24e510 0x206    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24e718 0x88     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24e7a0 0x118    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24e8b8 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24e9ec 0x150    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24eb3c 0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x24eca8 0x90     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24ed38 0x104    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x24ee3c 0x122    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24ef60 0x4c     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x24efac 0x322    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x24f2d0 0xda     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_GROUP_ICON      0x24f3ac 0x22     LANG_JAPANESE SUBLANG_DEFAULT          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x24f3d0 0x3f8    LANG_JAPANESE SUBLANG_DEFAULT          data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb9d30      0xb9e00      6.490421    
+.data      0xbb000      0x8a50       0x8c00       5.843134    
+.rdata     0xc4000      0x24930      0x24a00      6.546623    
+.bss       0xe9000      0x152f90     0x0          0.000000    [SUSPICIOUS]
+.idata     0x23c000     0x1b70       0x1c00       5.146479    
+.rsrc      0x23e000     0x117c8      0x11800      4.458485    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1999-2002 Masanao Izumo <mo@goice.co.jp>
+Copyright (C) 1995 Tuukka Toivonen <tt@cgs.fi>
+InternalName: timw32g
+FileVersion: 2, 13, 0, 0
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: TiMidity++ Win32GUI Version
+SpecialBuild: 
+ProductVersion: 2, 13, 0, 0
+FileDescription: timw32g
+OriginalFilename: timw32g.exe
+Translation: 0x0000 0x04e4
+

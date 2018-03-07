@@ -1,0 +1,111 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2491248 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8368a2064c031bed6dfbc14bf604d79c
+SHA1:    89ed09d640687626b742a0e15adc84dfbc03dfac
+ssdeep:  49152:Ka4HUPMSvwD9mnCFDQ+vaE31lhaxxA/P6qMLuWerm0V9Qox3ucI9/Vrb/fR6Gatu:KNU1nmt31lHEZo5ucITVbOlHo
+Date:    0x0        [Thu Jan  1 00:00:00 1970 UTC] [SUSPICIOUS]
+EP:      0x4014e0 .text 0/9
+CRC:     Claimed: 0x260cc2, Actual: 0x260cc2 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x1ebb82L => join
+   0x1ef715L => JOIN
+   0x1ef72bL => JOIN
+   0x1ef73bL => JOIN
+   0x209b8eL => join
+   0x209baeL => join
+   0x209bc1L => join
+   0x209c24L => join
+   0x20a0d8L => join
+   0x235069L => join
+   0x258c0aL => join
+   0x1e5d41L => msg
+   0x2345a9L => msg
+   0x25a1eaL => msg
+   0x1d8d1dL => Nick
+   0x237262L => nick
+   0x237603L => nick
+   0x2582f9L => nick
+   0x25c831L => nick
+   0x1b6ee1L => part
+   0x1c5a5cL => part
+   0x1d9a9aL => part
+   0x1e3f8eL => part
+   0x1f6b13L => part
+   0x1be167L => quit
+   0x1be222L => quit
+   0x1be28aL => quit
+   0x1e52acL => quit
+   0x234631L => quit
+   0x2362c6L => quit
+   0x258687L => quit
+   0x25c6fdL => quit
+
+
+TLS callbacks
+================================================================================
+    0x5a1190
+    0x5a1140
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d7490 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d75b8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d7b20 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d7e08 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d86b0 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d9558 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d99c0 0x810    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2da1d0 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dab58 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2dbc00 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2de1a8 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e23d0 0x828b   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x2ea660 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2eabc8 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2eb470 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ec318 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2ec780 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ed828 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2efdd0 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 12 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x2efe80 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x2efee0 0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x2f0270 0x4a9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a7994     0x1a7a00     6.026884    
+.data      0x1a9000     0x6f4        0x800        5.490688    
+.rdata     0x1aa000     0x885e4      0x88600      5.321447    
+.bss       0x233000     0x98100      0x0          0.000000    [SUSPICIOUS]
+.idata     0x2cc000     0x8c88       0x8e00       5.388587    
+.CRT       0x2d5000     0x34         0x200        0.273546    [SUSPICIOUS]
+.tls       0x2d6000     0x20         0x200        0.210826    [SUSPICIOUS]
+.rsrc      0x2d7000     0x19720      0x19800      6.025524    
+/4         0x2f1000     0x20         0x200        0.572720    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1995-2015
+InternalName: gimp-console-2.8
+FileVersion: 2.8.16.0
+CompanyName: Spencer Kimball, Peter Mattis and the GIMP Development Team
+ProductName: GNU Image Manipulation Program
+ProductVersion: 2.8.16
+FileDescription: GNU Image Manipulation Program
+OriginalFilename: gimp-console-2.8.exe
+Translation: 0x0409 0x04b0
+

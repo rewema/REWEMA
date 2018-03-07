@@ -1,0 +1,106 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    976216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     637657735864768eb5378b5aa51919a2
+SHA1:    c1939e8c702979c336e0c5734b7952c9676b45a6
+ssdeep:  12288:9TcdJ0O7D/bX85dmxlMIsLxJZAveP0pBpSv95gSDjqdTG1wfImqv72Yov/:1e0ODXkdR1LxJUpSvLgAjQTGmImw72Fn
+Date:    0x59114D59 [Tue May  9 05:02:17 2017 UTC]
+EP:      0x470a70 .text 0/7
+CRC:     Claimed: 0xfd395, Actual: 0xfd395 
+
+TLS callbacks
+================================================================================
+    0x427670
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+GOOGLEUPDATEAPPLICATIONCOMMANDS 0xecc38  0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xca960  0x6167   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xd0ac8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd1970  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd3f18  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd47c0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd5868  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd5dd0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd62a0  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd62f0  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd6340  0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd6390  0x5152   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xdb4e8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdc390  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xde938  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdf1e0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe0288  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe07f0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe0cc0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe1b68  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe2410  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe2978  0x7fa    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit colormap, non-interlaced
+RT_ICON            0xe3178  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe5720  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe67c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe6c98  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe7b40  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe83e8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe8950  0x7c8    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit colormap, non-interlaced
+RT_ICON            0xe9118  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xeb6c0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xec768  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xd6238  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 256-colors
+RT_GROUP_ICON      0xd62d8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xd6328  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xd6378  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xe0c58  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 256-colors
+RT_GROUP_ICON      0xe6c30  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 48x48, 256-colors
+RT_GROUP_ICON      0xecbd0  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 48x48, 256-colors
+RT_VERSION         0xecc40  0x450    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xed090  0x4d8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessAsUserW
+OpenProcess
+CreateProcessW
+VirtualAllocEx
+WriteProcessMemory
+CreateRemoteThread
+ReadProcessMemory
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x925aa      0x92600      6.671629    
+.rdata     0x94000      0x2f36e      0x2f400      4.472167    
+.data      0xc4000      0x388c       0x1000       3.334429    
+.didat     0xc8000      0x30         0x200        0.438067    [SUSPICIOUS]
+.tls       0xc9000      0x9          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0xca000      0x23568      0x23600      6.837291    
+.reloc     0xee000      0x60cc       0x6200       6.635011    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2016 Google Inc. All rights reserved.
+InternalName: chrome_exe
+CompanyShortName: Google
+FileVersion: 58.0.3029.110
+CompanyName: Google Inc.
+ProductShortName: Chrome
+ProductName: Google Chrome
+LastChange: 691bdb490962d4e6ae7f25c6ab1fdd0faaf19cd0-refs/branch-heads/3029@{#830}
+ProductVersion: 58.0.3029.110
+FileDescription: Google Chrome
+OriginalFilename: chrome.exe
+Official Build: 1
+Translation: 0x0409 0x04b0
+

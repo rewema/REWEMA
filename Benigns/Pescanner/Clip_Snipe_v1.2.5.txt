@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    585575 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f7acdbc397850af80e9f68003e9946bd
+SHA1:    3aa3460819d4bacc03ecd181fbf666c24654159f
+ssdeep:  12288:BuFUYX44UY5VgEXPGnFlq7NuR7a8E2+Fy84OZNlRuJnOoN0v8yZZ:wFUW1VXPGvq7NI7aFy3O/l4JnOmTs
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x418800 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x90ae7 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x19268  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x19554  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_STRING          0x15674  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x15968  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x15c74  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x15f44  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x15fac  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16060  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x19680  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x64, 4-colors
+RT_MANIFEST        0x196a8  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x11000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x12000      0x7000       0x6a00       7.889984    [SUSPICIOUS]
+.rsrc      0x19000      0x1000       0xc00        4.259974    
+

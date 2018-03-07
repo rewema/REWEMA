@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21504 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f1ad27756f3ad6091edaa5e1fc939703
+SHA1:    25a5ecf0f32d2e3d9aa684510b19b906ed61377e
+ssdeep:  384:kqZsef9gWS14s9atkb/DqaEXKpI8zDBTG2UWgQWH:kqZsefq91tF/XA2+
+Date:    0x57898D89 [Sat Jul 16 01:27:37 2016 UTC]
+EP:      0x403f40 .text 0/5
+CRC:     Claimed: 0x107e6, Actual: 0x107e6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8738   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a0   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2aa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3664       0x3800       6.210120    
+.data      0x5000       0x1622       0x200        0.820836    [SUSPICIOUS]
+.idata     0x7000       0x8e6        0xa00        4.704900    
+.rsrc      0x8000       0x800        0x800        4.344477    
+.reloc     0x9000       0x378        0x400        6.040840    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: chgport
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Change port Utility
+OriginalFilename: chgport.exe
+Translation: 0x0409 0x04b0
+

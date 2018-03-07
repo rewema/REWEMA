@@ -1,0 +1,79 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3953640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     efa72d3ed0120a07326ce02f051e9b42
+SHA1:    8edf758f92513094a94e50b7826cd6f2b7696b8c
+ssdeep:  98304:fzO5v9QOas35WmlzGWspCzGoLwpqJciDOys6GaV32:L0vAspjsE6IMcO9yVm
+Date:    0x324FFFF7 [Mon Sep 30 17:14:31 1996 UTC] [SUSPICIOUS]
+EP:      0x1005cab .text 0/5
+CRC:     Claimed: 0x3cefe9, Actual: 0x3cefe9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0x1a780  0x2e1a   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 272 x 60, 10.00 fps, video: RLE 8bpp
+RT_ICON            0x1d59c  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d884  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1d9ac  0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1dc78  0x184    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1ddfc  0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1df3c  0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1e0d4  0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1e1e4  0xfa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e2e0  0x8c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e36c  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e3ac  0x60a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1e9b8  0x5f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1efac  0x3e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1f394  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1f6ac  0x43e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1faec  0x386    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x1fe74  0x3a939c LANG_ENGLISH SUBLANG_ENGLISH_US       Microsoft Cabinet archive data, 3838876 bytes, 7 files
+RT_RCDATA          0x3c9210 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x3c9214 0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x3c9238 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x3c9240 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x3c9248 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x3c924c 0x7      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x3c9254 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x3c9258 0xa      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x3c9264 0x4      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x3c9268 0x19     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_RCDATA          0x3c9284 0x49     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+RT_GROUP_ICON      0x3c92d0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x3c92f4 0x340    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xeaca       0xec00       6.480159    
+.data      0x10000      0x8c3c       0x2000       3.079727    
+.SharedD   0x19000      0x4          0x200        0.065914    [SUSPICIOUS]
+.rsrc      0x1a000      0x3b0000     0x3af800     7.996431    [SUSPICIOUS]
+.reloc     0x3ca000     0x1766       0x1800       5.817441    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 1997 Microsoft Corporation.
+InternalName: Viewer.exe
+FileVersion: 8.0.1513.01
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Word Viewer for Windows\xae 97
+ProductVersion: 8.0
+FileDescription: Word Viewer Self Extracting Setup
+OriginalFilename: Viewer.exe
+Translation: 0x0409 0x04b0
+

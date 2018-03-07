@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    233640 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4d867033b27c8a603de4885b449c4923
+SHA1:    f1ace1a241bab6efb3c7059a68b6e9bbe258da83
+ssdeep:  3072:OgfbRmDIHA98kK2WndTslNac+dA6YdqhsXCNZpp4GIoHZUFozD3zgJwDmr9u76v9:OSCgkKdcg9vCoaoMpcto
+Date:    0x575E1784 [Mon Jun 13 02:16:36 2016 UTC]
+EP:      0x405f50 .text 0/5
+CRC:     Claimed: 0x3f0f2, Actual: 0x3f0f2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x370a0  0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x373c8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24a98      0x24c00      6.576174    
+.rdata     0x26000      0xccda       0xce00       4.639349    
+.data      0x33000      0x3228       0x1400       3.318248    
+.rsrc      0x37000      0x548        0x600        3.781890    
+.reloc     0x38000      0x1900       0x1a00       6.566449    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1997-2016 Mark Russinovich
+InternalName: VolumeId
+FileVersion: 2.1
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals VolumeId
+ProductVersion: 2.1
+FileDescription: Set disk volume id
+OriginalFilename: volumeid.exe
+Translation: 0x0409 0x04b0
+

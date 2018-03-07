@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    81920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     82ad673a139e1e6b063f545ae3f835f3
+SHA1:    f7b2d83a9830d5b358555aec632ffe95c4412816
+ssdeep:  1536:U+tuQ6sHh5aJcKTRukuWobCOPj5xbXnEXLKYm:U+MoHh8GKQkro1Pj/bXELm
+Date:    0x3F201A2D [Thu Jul 24 17:41:01 2003 UTC]
+EP:      0x40b9bd .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1da41 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x105d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x108b8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x109e0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11288  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x117f0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12898  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x12d60  0x66     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x13120  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x12d00  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 32x32, 16-colors
+RT_VERSION         0x12dc8  0x358    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x102b0  0x319    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xab7c       0xb000       5.741611    
+.rdata     0xc000       0x1bde       0x2000       5.444030    
+.data      0xe000       0x190c       0x2000       4.024308    
+.rsrc      0x10000      0x3170       0x4000       3.817313    
+
+Version info
+================================================================================
+LegalCopyright: License: MPL 1.1/GPL 2.0/LGPL 2.1
+InternalName: 
+FileVersion: Personal
+CompanyName: Mozilla, Netscape
+PrivateBuild: 
+LegalTrademarks: Mozilla, Netscape
+Comments: 
+ProductName: Thunderbird
+ProductVersion: Personal
+FileDescription: Thunderbird
+OriginalFilename: thunderbird.exe
+Translation: 0x0000 0x04b0
+

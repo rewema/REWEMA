@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86528 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2fe1f5a90faf6e6554d6f3b905b36d9e
+SHA1:    73449aa8488339491ef7a8c0d2703297f99da672
+ssdeep:  768:Kj7XrFBM179Ax3gZ4jDWW2M8Te23YUthw9et0veH+2BiU9t73DznxK2s0oBFqiLT:OMQBK4uW2vTe23YUthw9bveXi08F1
+Date:    0x485C0D84 [Fri Jun 20 20:05:24 2008 UTC]
+EP:      0x4150ce .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1d497 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x18438  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x189a0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x19248  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x18160  0x2d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x19270  0x503    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x130d4      0x13200      4.515009    
+.sdata     0x16000      0x86         0x200        1.949203    
+.rsrc      0x18000      0x1778       0x1800       3.741218    
+.reloc     0x1a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2004-2008
+Assembly Version: 1.2.3093.37962
+InternalName: Get.exe
+FileVersion: 1.2.0.0
+CompanyName: Lopeware
+ProductName: SaSync
+ProductVersion: 1.2.0.0
+FileDescription: Get
+OriginalFilename: Get.exe
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8013e1b2128e664fdf2dfd572b0684fa
+SHA1:    f01467c561efca50c43b60715222476a48490513
+ssdeep:  192:/T3WWVpTqhi32ntkm8k/vv7o0dfzbB44SF1:/TGW7B3lm8g8GB44SF1
+Date:    0x426AF6CD [Sun Apr 24 01:30:53 2005 UTC]
+EP:      0x4012d4 .text 0/3
+CRC:     Claimed: 0xf9f6, Actual: 0xf9f6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x67ec   0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6504   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x63dc   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x63ac   0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x6150   0x25c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3188       0x4000       4.515422    
+.data      0x5000       0xa30        0x1000       0.000000    
+.rsrc      0x6000       0x91c        0x1000       1.978280    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: dsi_visual_logger_test
+FileVersion: 1.00
+CompanyName: DSI
+ProductName: dsi_visual_continuity
+ProductVersion: 1.00
+OriginalFilename: dsi_visual_logger_test.exe
+

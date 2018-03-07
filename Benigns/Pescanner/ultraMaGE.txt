@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    474624 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8a6c4a45d341ae91f97369ea0bdf98f0
+SHA1:    60c3c4afb98d8dcd9ca916e2e11e437930c89b2d
+ssdeep:  6144:F1PQ7CIjJlMlBqsD43U88YLKRGWai4YOIrqwF3LkuFdWknqAZYkT9l:7PQ7CcnIGU85LKEWavYO05tkuWkdH9
+Date:    0x4494078F [Sat Jun 17 13:45:51 2006 UTC]
+EP:      0x43a2c5 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x74afe [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x675f8  0x107d4  LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x62158  0x2728   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x64880  0x2728   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x5fa30  0x2728   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_BITMAP          0x66fa8  0x328    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x672d0  0x328    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x77dd0  0x328    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x780f8  0x328    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x55840  0x368    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x55ba8  0xca8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x56850  0x1ca8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x584f8  0x468    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x58960  0x10a8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x59a08  0x25a8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x5c010  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c150  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c290  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c3d0  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c510  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c650  0x568    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5cbd0  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5cd10  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x5cff8  0x8a8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x5d8a0  0x10a8   LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x5e978  0x128    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5eaa0  0x568    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5f008  0x468    LANG_GERMAN  SUBLANG_GERMAN           GLS_BINARY_LSB_FIRST
+RT_ICON            0x5f4a0  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_GROUP_ICON      0x5bfb0  0x5a     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x5c138  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c278  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c3b8  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c4f8  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c638  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5cbb8  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5ccf8  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5e948  0x30     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x5f470  0x30     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 3 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x5f788  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+RT_VERSION         0x78420  0x2e0    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_MANIFEST        0x5f7a0  0x28c    LANG_GERMAN  SUBLANG_GERMAN           XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x476ca      0x47800      6.427412    
+.rdata     0x49000      0x7690       0x7800       4.766851    
+.data      0x51000      0x3d34       0x1200       3.401211    
+.rsrc      0x55000      0x23700      0x23800      3.626256    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2005-2006 Christian Matt
+InternalName: ultraMaGE
+FileVersion: 0, 7, 2, 0
+Comments: Unicode Version
+ProductName: ultraMaGE
+ProductVersion: 0, 7, 2, 0
+FileDescription: ultraMaGE
+OriginalFilename: ultraMaGE.exe
+Translation: 0x0407 0x04b0
+

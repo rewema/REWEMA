@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     75421841331f0516cc52932028383dde
+SHA1:    e10be6ffe4fabac396b07729845381d76c76c8c2
+ssdeep:  96:txKsz2619X9iYxBg49DRE2DWPToCSRHiZHpUpvo8cceXkbOY8DJdMs2bKveLZiEY:Zz1X8eBeTeDo8c1XkSLNmWayWzz
+Date:    0x57899190 [Sat Jul 16 01:44:48 2016 UTC]
+EP:      0x401510 .text 0/5
+CRC:     Claimed: 0xda00, Actual: 0xda00 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4538   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x40a0   0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd84        0xe00        5.672379    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x552        0x600        4.377539    
+.rsrc      0x4000       0x8c8        0xa00        4.320546    
+.reloc     0x5000       0x140        0x200        4.531777    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: systray
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Systray .exe stub
+OriginalFilename: systray.exe
+Translation: 0x0409 0x04b0
+

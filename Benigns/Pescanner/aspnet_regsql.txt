@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    127160 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     386b27699d1fbe1b73ef8e47d98272db
+SHA1:    7cfd38d51785b06087b0a58bfd517065395ff2a5
+ssdeep:  3072:nHxJ7IftJvUSSdkX8oTxYSCAKFAJoXGlMtIsEQoa:HxifjvRMoV5OeBu5oa
+Date:    0x575A1419 [Fri Jun 10 01:12:57 2016 UTC]
+EP:      0x41c316 .text 0/3
+CRC:     Claimed: 0x241c6, Actual: 0x241c6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x1e090  0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1e480  0x47b    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1a31c      0x1a400      5.514154    
+.rsrc      0x1e000      0x900        0xa00        4.372012    
+.reloc     0x20000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: aspnet_regsql.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: aspnet_regsql.exe
+OriginalFilename: aspnet_regsql.exe
+Translation: 0x0409 0x04b0
+

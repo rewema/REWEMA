@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    83456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     c3542ee1b9198274179b797c9b2a4633
+SHA1:    312578bd25df2bf1aa93d55e1f8a3b4c8517f5c3
+ssdeep:  768:5MfVsa/qhZ4nlWDvrKlFhDjbb/hjZiL5IgmEc:C7/aS4Dv2jhDn5ZG5IgmEc
+Date:    0x578990D2 [Sat Jul 16 01:41:38 2016 UTC]
+EP:      0x18099d0 .text 0/6
+CRC:     Claimed: 0x23508, Actual: 0x23508 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1c728  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x1c390  0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1c0f0  0x29e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9575       0x9600       6.467635    
+.data      0xb000       0xde70       0x8400       0.206020    [SUSPICIOUS]
+.idata     0x19000      0x102e       0x1200       4.921572    
+.didat     0x1b000      0x1c         0x200        0.271697    [SUSPICIOUS]
+.rsrc      0x1c000      0x7f0        0x800        4.323366    
+.reloc     0x1d000      0xb64        0xc00        6.601537    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: netsh.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Network Command Shell
+OriginalFilename: netsh.exe
+Translation: 0x0409 0x04b0
+

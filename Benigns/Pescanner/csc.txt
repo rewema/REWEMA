@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2170512 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f36a0b590675530d28603680b95b46f4
+SHA1:    b11fffe09402c867d5d7ed4ee528f5e4f3e4f307
+ssdeep:  49152:bP4Fd8J8z9Y/ql8WrCh5RzwxSOnvWQdjtU1vJuGolFh:bAFdVX3+h5RMHvQJuGU
+Date:    0x575A1843 [Fri Jun 10 01:30:43 2016 UTC]
+EP:      0x46cee0 .text 0/6
+CRC:     Claimed: 0x21303f, Actual: 0x21303f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x1fe0a0 0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1fe474 0x2d7    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1f4c78     0x1f4e00     6.372833    
+.data      0x1f6000     0x47d8       0x2400       1.225557    
+.idata     0x1fb000     0x1b88       0x1c00       5.696784    
+.didat     0x1fd000     0x40         0x200        0.672834    [SUSPICIOUS]
+.rsrc      0x1fe000     0x74c        0x800        4.333887    
+.reloc     0x1ff000     0x14334      0x14400      6.607499    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: csc.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: Visual C# Command Line Compiler
+OriginalFilename: csc.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    105984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e5897f3a6613669c94aaaf92f7722ff6
+SHA1:    1058963feaebc24f410f1d3e85d8fdcf47a8bc48
+ssdeep:  3072:ep18IMoR7qQeTrLR2t8jxotTcm7QNfh6qZ:epmxoR7qQeTrLR20oJiR
+Date:    0x578990AA [Sat Jul 16 01:40:58 2016 UTC]
+EP:      0x413240 .text 0/5
+CRC:     Claimed: 0x263ee, Actual: 0x263ee 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x1a360  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1a0a0  0x2bd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x15e88      0x16000      6.303652    
+.data      0x17000      0xa5c        0x400        3.565539    
+.idata     0x18000      0x18ec       0x1a00       5.328074    
+.rsrc      0x1a000      0x730        0x800        4.109782    
+.reloc     0x1b000      0x12e8       0x1400       6.562515    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: RmtTpmVscMgrSvr
+FileVersion: 1.00 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TPM Virtual Smart Card Manager DCOM Server
+OriginalFilename: RmtTpmVscMgrSvr.exe
+Translation: 0x0409 0x04b0
+

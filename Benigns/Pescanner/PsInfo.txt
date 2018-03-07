@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    313496 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     624adb0f45cbb9cadad83c264df98891
+SHA1:    e839ce1e0446d8da889935f411f0fb7ad54d4b3e
+ssdeep:  3072:wGicIgBsA+8vctYpleMKZUFEd0iVcxWHYGsDJXU+l9koZUFvEjqcVtb5BR+pEz2D:rl0eXEdB4FdjSvYqWdM4hM
+Date:    0x577B704B [Tue Jul  5 08:31:07 2016 UTC]
+EP:      0x40a0cf .text 0/4
+CRC:     Claimed: 0x590ee, Actual: 0x590ee 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x2acaeL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x36460  0x1daa0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (console) Intel 80386 32-bit
+RT_VERSION         0x36110  0x350    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x53f00  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+CreateServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1918e      0x19200      6.612876    
+.rdata     0x1b000      0xfb06       0xfc00       4.463320    
+.data      0x2b000      0xaafc       0x1600       3.431961    
+.rsrc      0x36000      0x1e080      0x1e200      6.308100    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001-2016 Mark Russinovich
+InternalName: PsInfo
+FileVersion: 1.78
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals PsInfo
+ProductVersion: 1.78
+FileDescription: Local and remote system information viewer
+OriginalFilename: Psinfo.exe
+Translation: 0x0409 0x04b0
+

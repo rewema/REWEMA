@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5341171cd30698b6390598b4cd7d9e12
+SHA1:    f1e0baca0d5cc6bb6127e6de978645f6140cc584
+ssdeep:  384:3JwkQCNIdIcUu3Nq3kzCSTHcwdIXzMTRGluYubYWSOmWbp6sb:3JwBmINTzCST8wdXTklu9bDzp6sb
+Date:    0x57899140 [Sat Jul 16 01:43:28 2016 UTC]
+EP:      0x4039c0 .text 0/5
+CRC:     Claimed: 0x97ab, Actual: 0x97ab 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7768   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73d8   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2e3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x300c       0x3200       6.293179    
+.data      0x5000       0xbf4        0xa00        0.295719    [SUSPICIOUS]
+.idata     0x6000       0xa4a        0xc00        4.305890    
+.rsrc      0x7000       0x830        0xa00        3.797348    
+.reloc     0x8000       0x350        0x400        5.873029    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: arp.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: TCP/IP Arp Command
+OriginalFilename: arp.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     4631f19d26ec108b69b5c91b873ddf0c
+SHA1:    f5bcb2299ddd962b762ed2f202735bd1d8ca2705
+ssdeep:  96:nI3Kd5dFuX/Bq2OQl/tLPTgGTe1iIyHfC0a:A2+02p/tLPTgGTaDy0
+Date:    0x433A5281 [Wed Sep 28 08:21:21 2005 UTC]
+EP:      0x402cde .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x6f50 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4420   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4708   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4830   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xce4        0x1000       4.744790    
+.rsrc      0x4000       0x858        0x1000       2.044289    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2097.16840
+InternalName: Bmp2Swf.exe
+FileVersion: 1.0.2097.16840
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2097.16840
+FileDescription:  
+OriginalFilename: Bmp2Swf.exe
+

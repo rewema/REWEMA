@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    307200 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7512e5590bef2406307c4b130dde8f14
+SHA1:    a2bd00dc9f195446772780462d26decc42e518d4
+ssdeep:  3072:7nmLfJjLyZ/0a7JGhJifiiXrYZ+5CGB1EwVmOpNxzrIov/T6ThJS:T0YYZiFfEwXpNxfvWThU
+Date:    0x49CF40A8 [Sun Mar 29 09:34:32 2009 UTC]
+EP:      0x402d90 .text 0/3
+CRC:     Claimed: 0x4ba81, Actual: 0x4ba81 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4d32c  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x4d318  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x4d0f0  0x228    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4797c      0x48000      5.666162    
+.data      0x49000      0x3e04       0x1000       0.000000    
+.rsrc      0x4d000      0xfd4        0x1000       5.160209    
+
+Version info
+================================================================================
+Translation: 0x0804 0x04b0
+InternalName: ChatClient
+FileVersion: 2.02.0018
+CompanyName: CH
+ProductName: ChatClient
+ProductVersion: 2.02.0018
+OriginalFilename: ChatClient.exe
+

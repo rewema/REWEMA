@@ -1,0 +1,173 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1757137 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     48a98dc74aa9dd55cb7e66833adfa96e
+SHA1:    36771c41eaa623d3612fe8777754722ba2112f7a
+ssdeep:  12288:XIDSPa+23TKSmsxhZS1Ts6UI8x0jw/xxgkHivqNiLGkIeYX8GthgLD91kDSP/u/7:XhPa0Ts6zx1VP/fyI3HXMuDA
+Date:    0x50AFCAEA [Fri Nov 23 19:13:46 2012 UTC]
+EP:      0x40220c .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x1b6947 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x2140L => Join
+   0x2adfL => join
+   0x5274L => join
+   0x52c6L => join
+   0x18ff5L => join
+   0x1b3feL => join
+   0x1ba0aL => join
+   0x1bc5fL => join
+   0x23abeL => join
+   0x24ac7L => join
+   0x258d0L => join
+   0x258f8L => join
+   0x25954L => join
+   0x2597fL => join
+   0x25f34L => join
+   0x26ff2L => join
+   0x27300L => join
+   0x276b1L => join
+   0x27a6dL => join
+   0x28651L => join
+   0x34173L => join
+   0x3b49fL => join
+   0x3bf25L => join
+   0x3f734L => join
+   0x3f90cL => join
+   0x41d52L => join
+   0x463deL => join
+   0x47324L => join
+   0x47b45L => join
+   0x482dbL => join
+   0x4862bL => join
+   0x4a1e2L => join
+   0x4f3edL => join
+   0x50e06L => join
+   0x5a3fcL => join
+   0x64286L => join
+   0x87c2fL => join
+   0xd0bf8L => join
+   0xd1422L => join
+   0x11e704L => join
+   0x11e756L => join
+   0x1354a5L => join
+   0x140374L => Join
+   0x1426c3L => join
+   0x142efeL => join
+   0x14714aL => join
+   0x14788fL => join
+   0x1496a4L => join
+   0x14de50L => join
+   0x14e0e9L => join
+   0x15371aL => join
+   0x153a1eL => join
+   0x1556e1L => join
+   0x157055L => join
+   0x1576faL => join
+   0x157785L => join
+   0x15e6eeL => Join
+   0x15e8b3L => join
+   0x1602b8L => join
+   0x160a03L => join
+   0x160dfeL => join
+   0x163d88L => join
+   0x16462bL => join
+   0x165d44L => join
+   0x1666a2L => join
+   0x1666c7L => join
+   0x1667a2L => join
+   0x167ec3L => join
+   0x16b5d3L => join
+   0x16e8e0L => join
+   0x16fdc0L => join
+   0x1761efL => join
+   0x17621bL => join
+   0x17633bL => join
+   0x177c18L => join
+   0x177d1eL => join
+   0x17938fL => join
+   0x17a983L => join
+   0x17b6d3L => join
+   0x186f9aL => join
+   0x9e31L => msg
+   0x139b8L => msg
+   0x2e293L => msg
+   0x30d02L => msg
+   0x313d4L => msg
+   0x326ffL => msg
+   0x341aaL => msg
+   0x35a44L => msg
+   0x3626dL => msg
+   0x37d89L => msg
+   0x11b545L => msg
+   0x11b85fL => msg
+   0x11c057L => msg
+   0x1232c1L => msg
+   0x12ce48L => msg
+   0x14474dL => msg
+   0x144763L => msg
+   0x1447fdL => msg
+   0x144b3fL => msg
+   0x152c1dL => msg
+   0x152cdfL => msg
+   0x152d1bL => msg
+   0x152e24L => msg
+   0x181affL => msg
+   0x181b7bL => msg
+   0x184ffbL => msg
+   0x143fafL => notice
+   0x144038L => notice
+   0x52f1L => part
+   0xea07L => part
+   0x25869L => part
+   0x2590fL => part
+   0x25f82L => part
+   0x261a1L => part
+   0x7ef98L => part
+   0x81c08L => part
+   0x81cf3L => part
+   0x81e07L => part
+   0xce0e2L => part
+   0x11854eL => part
+   0x11e781L => part
+   0x127e97L => part
+   0x1303b9L => part
+   0x140755L => part
+   0x140cceL => part
+   0x140d96L => part
+   0x14105bL => part
+   0x15e79aL => part
+   0x15eaf6L => part
+   0x16d39cL => part
+   0x18168fL => part
+   0x183f59L => part
+   0x17a332L => Ping
+   0x17a33cL => ping
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x18f0d0 0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x18ff78 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x190820 0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 48x48, 256-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x176a       0x1800       6.175877    
+.rdata     0x3000       0xa64        0xc00        4.726919    
+.data      0x4000       0x18a5cc     0x18a400     5.247766    
+.rsrc      0x18f000     0x1844       0x1a00       5.801290    
+.reloc     0x191000     0x15c6       0x1600       2.500657    
+

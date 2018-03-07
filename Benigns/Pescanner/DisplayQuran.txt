@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    980480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1103fc216b275321d9afc450b12c4585
+SHA1:    1ea60b3284e66faab666054199fff68c9d0f812a
+ssdeep:  6144:NIkPgSk7v920tOM5z3HpvgzBRLpegpKoty4lsxZWX/ZeiD8i2X5QDDZMgl0q0Oqx:NZmCL5KS8i5/spYbxig6V
+Date:    0x502F7801 [Sat Aug 18 11:09:53 2012 UTC]
+EP:      0x4012a0 .text 0/4
+CRC:     Claimed: 0xfb8e3, Actual: 0xfb8e3 
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: irc
+   0x43dddL => join
+   0x5d775L => join
+   0x991f9L => join
+   0xc76aaL => join
+   0xcc001L => join
+   0x3640L => part
+   0x366aL => part
+   0x3733L => part
+   0x5ac3L => part
+   0x5aeeL => part
+   0x11363L => part
+   0x11607L => part
+   0x19f27L => part
+   0x1b41fL => part
+   0x1b4c9L => part
+   0x1e3c7L => part
+   0x1f6acL => part
+   0x29b80L => part
+   0x29ca1L => part
+   0x2c16eL => part
+   0x4d7b8L => part
+   0x5718bL => part
+   0x6c149L => part
+   0x6dcb0L => part
+   0x6ec56L => part
+   0x6fef7L => part
+   0x85cb3L => part
+   0x8ddf0L => part
+   0x93f7dL => part
+   0x958cfL => part
+   0x9d7f9L => part
+   0xa9d1fL => part
+   0xb2e4aL => part
+   0xb7ffcL => part
+   0xd6ec9L => part
+   0xda4baL => part
+   0xdb19eL => part
+   0xdb1bbL => part
+   0xe17eaL => part
+   0xeae94L => part
+   0xd6572L => quit
+   0xdf9a8L => chat
+
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x135c       0x1400       5.743523    
+.data      0x3000       0xed500      0xed600      4.742010    
+.bss       0xf1000      0xf8         0x0          0.000000    [SUSPICIOUS]
+.idata     0xf2000      0x6a4        0x800        4.775765    
+

@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    35328 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b181fe8ee5d34a36994a9cca5750c0c7
+SHA1:    c5e861c10730bf1200c40b667cce00d164b475e9
+ssdeep:  384:ytOSqlnvpXZemjaBxspKvz0//W0fgWkvE0g7QmmrIPjPsbFe+4rDWW:OOPv8j0/NN03AO
+Date:    0x57899152 [Sat Jul 16 01:43:46 2016 UTC]
+EP:      0x402d10 .text 0/5
+CRC:     Claimed: 0x14a24, Actual: 0x14a24 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xaff8   0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x6828   0x47ce   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x6448   0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6160   0x2e5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24c4       0x2600       5.845466    
+.data      0x4000       0x418        0x200        0.342786    [SUSPICIOUS]
+.idata     0x5000       0x7e4        0x800        4.745289    
+.rsrc      0x6000       0x50e0       0x5200       4.106869    
+.reloc     0xc000       0x2f4        0x400        5.393776    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BackgroundTransferHost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Download/Upload Host
+OriginalFilename: BackgroundTransferHost.exe
+Translation: 0x0409 0x04b0
+

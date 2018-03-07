@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16056 bytes
+Type:    PE32 executable for MS Windows (native) Intel 80386 32-bit
+MD5:     17141511b178b2a0664f77eab7aed9f7
+SHA1:    178d9101acd7b07a55cbf4d270d43c2178b69ff9
+ssdeep:  384:2+e8SiaQKZVC8PW5DnWzGDtwzfaDBRJYPlkoU6ty:iUKZVhCO8wO1PtoPw
+Date:    0x57898D85 [Sat Jul 16 01:27:33 2016 UTC]
+EP:      0x401260 .text 0/5
+CRC:     Claimed: 0x4b6d, Actual: 0x4b6d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4740   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x4398   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40f0   0x2a1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x78b        0x800        5.542653    
+.data      0x2000       0x324        0x200        0.162990    [SUSPICIOUS]
+.idata     0x3000       0x1fc        0x200        4.643910    
+.rsrc      0x4000       0x808        0xa00        3.691048    
+.reloc     0x5000       0x4c         0x200        1.079098    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: CSRSS.Exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Client Server Runtime Process
+OriginalFilename: CSRSS.Exe
+Translation: 0x0409 0x04b0
+

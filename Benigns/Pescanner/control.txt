@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    114688 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     359de40504bf90efd590c248b71c8b81
+SHA1:    4361e1b498ca3025e641280fc4f71bf93ae5201c
+ssdeep:  1536:dvJSk5ae/qzSpZ3r1q6QkjfkQUk8+k6kawM1x8Dkf8dani25imKvM:Ska7Sp5+1k12b/Af885RKv
+Date:    0x5789916E [Sat Jul 16 01:44:14 2016 UTC]
+EP:      0x402090 .text 0/5
+CRC:     Claimed: 0x1d779, Actual: 0x1d779 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6c30   0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7698   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7d00   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7fe8   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x81d0   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x82f8   0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9920   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa7c8   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb070   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb738   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xbca0   0xa480   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x16120  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a348  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c8f0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d998  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e320  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1e788  0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 16 icons, 64x64, 16-colors
+RT_VERSION         0x6898   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6400   0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x234c       0x2400       5.580251    
+.data      0x4000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x79a        0x800        4.696813    
+.rsrc      0x6000       0x18870      0x18a00      6.893492    
+.reloc     0x1f000      0x234        0x400        4.250723    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Control
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Control Panel
+OriginalFilename: CONTROL.EXE
+Translation: 0x0409 0x04b0
+

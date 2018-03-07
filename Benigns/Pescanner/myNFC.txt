@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2337792 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     abdaab694a2cf4d4158fdc010c7f06f3
+SHA1:    96e2f8c7d667e3234faae00c39fc8ffc06f04c4c
+ssdeep:  24576:2S8xJw/kxy3/4i6EyuP+l6yq1UhCsoGNW8zAdNXkQTxgN47M5apJhkwXhOLp9TKE:zyxe/4kfPchCefcNVT9Oyk+hO/TmxJ
+Date:    0x4EF490BB [Fri Dec 23 14:31:23 2011 UTC]
+EP:      0x5a1a37 .text 0/5
+CRC:     Claimed: 0x24ab8b, Actual: 0x24ab8b 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x1ba4a0L => join
+   0x1bd7d0L => join
+   0x1f1b4cL => msg
+   0x1f1b70L => msg
+   0x1f1b8cL => msg
+   0x1fadbeL => MSG
+   0x1fc68eL => msg
+   0x1fc6acL => MSG
+   0x200a41L => MSG
+   0x200ab6L => MSG
+   0x201dc5L => msg
+   0x1bf809L => part
+   0x206e64L => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0x23b058 0x256    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a3ccb     0x1a3e00     6.596350    
+.rdata     0x1a5000     0x6b06a      0x6b200      4.356509    
+.data      0x211000     0x2931c      0x11e00      4.567267    
+.rsrc      0x23b000     0x2b0        0x400        5.201782    
+.reloc     0x23c000     0x19478      0x19600      6.282926    
+

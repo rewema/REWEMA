@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    152064 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     01499b8cd0ccdeee001f7d02b3bd6389
+SHA1:    6a301776ff498c3b00aecc3f0722386ec7227253
+ssdeep:  3072:Ix/EXRd7KA4KULtT0yAkOtFDEOC51WhL1pZrlEPNn7Yo:IcRd7KA4KULtT0yAkOt5EOC51gpJlEPJ
+Date:    0x536C8B79 [Fri May  9 08:02:01 2014 UTC]
+EP:      0x401290 .text 0/7
+CRC:     Claimed: 0x31fba, Actual: 0x31fba 
+
+TLS callbacks
+================================================================================
+    0x4070a0
+    0x407060
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2e0a0  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e430  0x362    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11240      0x11400      6.159480    
+.data      0x13000      0x120d8      0x12200      0.534373    [SUSPICIOUS]
+.bss       0x26000      0x4af0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x2b000      0xa0c        0xc00        4.666215    
+.CRT       0x2c000      0x18         0x200        0.114463    [SUSPICIOUS]
+.tls       0x2d000      0x20         0x200        0.224820    [SUSPICIOUS]
+.rsrc      0x2e000      0x794        0x800        4.429973    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2007, 2013 Oracle and/or its affiliates. All rights reserved.
+InternalName: nbexec
+FileVersion: 8.0.0.0
+Full Version: 09062013
+CompanyName: Oracle Corporation
+ProductName: NetBeans Platform Launcher 8.0
+ProductVersion: 8.0.0.0
+FileDescription: NetBeans Platform Launcher
+OriginalFilename: nbexec.exe
+Translation: 0x0000 0x04b0
+

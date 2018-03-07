@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    194752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3b106adc6173cd3dc779bfcf983beeb9
+SHA1:    f650a68e628f757538e9c3cc4bdae435144719e4
+ssdeep:  3072:z3/lrnTitrte5LrZgoXafH4rcKjuzkmCkpjMGhYhsKzOjmOlSjk5k+BW9bmzfgXr:z3NrnTitrte5LrZgo8YBuvRyhsLjmO+L
+Date:    0x562447E2 [Mon Oct 19 01:31:14 2015 UTC]
+EP:      0x41978e .text 0/5
+CRC:     Claimed: 0x3ed5e, Actual: 0x3ed5e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2c0a0  0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2c3ec  0x663    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d241      0x1d400      6.254156    
+.rdata     0x1f000      0xaeb3       0xb000       5.012920    
+.data      0x2a000      0x10f8       0xc00        4.421092    
+.rsrc      0x2c000      0xa50        0xc00        5.290377    
+.reloc     0x2d000      0x3978       0x3a00       5.298922    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2015 VMware, Inc.
+InternalName: unity-helper
+FileVersion: 12.0.1 build-3160714
+CompanyName: VMware, Inc.
+ProductName: VMware Workstation
+ProductVersion: 12.0.1 build-3160714
+FileDescription: VMware Unity Helper
+OriginalFilename: vmware-unity-helper.exe
+Translation: 0x0409 0x04b0
+

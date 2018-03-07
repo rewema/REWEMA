@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    722648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     90b4d45f1532edba7eccf2597bedfb29
+SHA1:    f7fd049c0f81ea9587d37f4c293749aca021ca5a
+ssdeep:  12288:dBiQx+pVJUFQRyQ0PrwKR2g30IicLLyjjYR/FErac:dBvx+u6g2KR2g30IP2jj0/FErv
+Date:    0x592EBB27 [Wed May 31 12:46:31 2017 UTC]
+EP:      0x47a9a0 .text 0/5
+CRC:     Claimed: 0xb5344, Actual: 0xb5344 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa70a0  0x484    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xa7524  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x86dd5      0x86e00      6.463643    
+.rdata     0x88000      0x1a500      0x1a600      4.561873    
+.data      0xa3000      0x3a8c       0x600        2.690448    
+.rsrc      0xa7000      0x788        0x800        4.642402    
+.reloc     0xa8000      0x6b94       0x6c00       6.663047    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2014 AVG Technologies CZ, s.r.o.
+InternalName: avgdumpx.exe
+FileVersion: 1.203.3.5167
+CompanyName: AVG Technologies CZ, s.r.o.
+PrivateBuild: Win32 Release_Unicode
+ProductName: AVG Framework
+SpecialBuild: FmwCompile_2017_0531_144151(201775), SVNRev d8b69f37acf70ddb4a851eb733f1e7855b0f505c (release/fmw/next), fmw
+ProductVersion: 1.203.3.5167
+FileDescription: AVG Crash Dumper
+OriginalFilename: avgdumpx.exe
+Translation: 0x0000 0x04b0
+

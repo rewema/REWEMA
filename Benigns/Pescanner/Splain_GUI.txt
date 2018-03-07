@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    439808 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     0b694343451ca734c5efd78154226c6f
+SHA1:    1abca7700ba2c547a07ae2241f1ae7984631a8e9
+ssdeep:  3072:t/zlGSzlG5raNOraNwOSzlGSzlG5raNOraNwOOW2TzlG5raNw:XGIGZa+asGIGZa+atMGZa
+Date:    0x4A7D9842 [Sat Aug  8 15:22:42 2009 UTC]
+EP:      0x457c7e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x6ceea [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x584b0  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x68cd8  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6b280  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6c328  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6ccb0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6d118  0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0x581f0  0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x6d168  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x55c84      0x55e00      5.196910    
+.rsrc      0x58000      0x15358      0x15400      5.134828    
+.reloc     0x6e000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2009
+Assembly Version: 1.0.0.0
+InternalName: Splain_GUI.exe
+FileVersion: 1.0.0.0
+ProductName: Splain_GUI
+ProductVersion: 1.0.0.0
+FileDescription: Splain_GUI
+OriginalFilename: Splain_GUI.exe
+

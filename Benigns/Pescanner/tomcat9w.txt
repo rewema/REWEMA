@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    110208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7ba316ca9e5ff204ef9e30f881573c77
+SHA1:    0b48fd55c03fe6abda44f35cf61d2da8bb7e8171
+ssdeep:  1536:m2+ZVqgURvGObTCXxZACle7knY6g8dstmzUSQ:yZVblObu/AC0kbg8StmzUH
+Date:    0x51543B77 [Thu Mar 28 12:45:43 2013 UTC]
+EP:      0x40a158 .text 0/4
+CRC:     Claimed: 0x28aaa, Actual: 0x28aaa 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RTF                0x13c58  0x1640   LANG_ENGLISH SUBLANG_ENGLISH_US       Rich Text Format data, version 1, ANSI
+RT_BITMAP          0x15298  0x6368   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x135a0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13888  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x139d8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13b18  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1bc38  0x250    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1be88  0x192    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c020  0x192    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c1b8  0x358    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c510  0x278    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c788  0x2d6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1ca60  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1cdc8  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1d0d0  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d7e0  0x19c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1d980  0x210    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1db90  0x324    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1df38  0xc2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1deb8  0x7c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x139b0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x13b00  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x13c40  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x1d3d8  0x404    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1b600  0x637    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x964a       0x9800       6.284502    
+.rdata     0xb000       0x2008       0x2200       4.811978    
+.data      0xe000       0x4b1c       0x2a00       0.938321    [SUSPICIOUS]
+.rsrc      0x13000      0xb000       0xb000       4.565016    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2000-2013 The Apache Software Foundation.
+InternalName: Commons Daemon Service Manager
+FileVersion: 1.0.15.0
+CompanyName: Apache Software Foundation
+Comments: Commons Daemon Service Management Tool
+ProductName: Commons Daemon Service Manager
+ProductVersion: 1.0.15.0
+FileDescription: Commons Daemon Service Manager
+OriginalFilename: prunmgr.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    53248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     15f4794649539955c03ecee0592721b5
+SHA1:    eab0e2caeb6a3104f253b4b01cb6b9969e11bc76
+ssdeep:  384:O6Gl1/0X14SXDdrRRO/q9bOJJXtaiRYDCdvrBpL+Lq2Z8GEGEGEGEGEGEEEEE9OW:O6SFqhOpRB2ZLk78UfVV
+Date:    0x42E18D0A [Sat Jul 23 00:19:22 2005 UTC]
+EP:      0x40b51e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1bae8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc438   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xc720   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc848   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xc118   0x31c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x9524       0xa000       5.110443    
+.rsrc      0xc000       0x870        0x1000       2.070041    
+.reloc     0xe000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2029.29381
+InternalName: SwfDotNetTest.exe
+FileVersion: 1.0.2029.29381
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2029.29381
+FileDescription:  
+OriginalFilename: SwfDotNetTest.exe
+

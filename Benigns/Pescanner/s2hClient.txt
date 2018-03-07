@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    176128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     8ad3b6550b185962b4fbe9b134780375
+SHA1:    0cc82c0ebd46da7226091759e184cababe3b12d2
+ssdeep:  3072:DPJxgeCr8f8jHbDDDDDDGDWDDDDDDDDDDDDDDDQDXkIEA9eAxBoc:DEeCYf0DDDDDDGDWDDDDDDDDDDDDDDDI
+Date:    0x438622B4 [Thu Nov 24 20:29:40 2005 UTC]
+EP:      0x4289be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2b6c3 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2a428  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2acd0  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2b238  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_VERSION         0x2a118  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x269c4      0x27000      5.081135    
+.rsrc      0x2a000      0x1260       0x2000       2.636335    
+.reloc     0x2c000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2154.38690
+InternalName: s2hClient.exe
+FileVersion: 1.0.2154.38690
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2154.38690
+FileDescription:  
+OriginalFilename: s2hClient.exe
+

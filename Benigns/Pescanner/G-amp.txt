@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    76288 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8b3c89dc16b5dae4049bf3c3e35ba6d7
+SHA1:    3560093cb0b2a475dc57f79ac4d4fc6e4dfe89a6
+ssdeep:  1536:nKDIBQno6t4wwndW9jrfaPGDZG/o6GGLb82hnF4Rw:O+dWhre+ZD6GGf82hnFiw
+Date:    0x3F1930AD [Sat Jul 19 11:51:09 2003 UTC]
+EP:      0x40aa26 .text 0/4
+CRC:     Claimed: 0x20bef, Actual: 0x20bef 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TEXT               0x23ea0  0x12f5   LANG_FRENCH  SUBLANG_FRENCH           ASCII English text, with CRLF line terminators
+RT_ICON            0x233c8  0x8a8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_MENU            0x23230  0x192    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x23c88  0xae     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x23d38  0xb8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x23df0  0xb0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x23c70  0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+RT_VERSION         0x25198  0x3b4    LANG_FRENCH  SUBLANG_FRENCH           data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9bb2       0x9c00       6.502963    
+.rdata     0xb000       0x2b5a       0x2c00       5.822648    
+.data      0xe000       0x14d04      0x3800       5.889337    
+.rsrc      0x23000      0x2550       0x2600       5.146515    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Gouta Ilyes 2003
+InternalName: amp
+FileVersion: 1, 0, 0, 1
+CompanyName: Gouta Ilyes
+PrivateBuild: 
+LegalTrademarks: 
+Comments: an amp v0.7.6 port on Win32 by Gouta Ilyes
+ProductName: amp
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 1
+FileDescription: MPEG 1/2 audio decoder for Win32
+OriginalFilename: amp.exe
+Translation: 0x040c 0x04b0
+

@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    128512 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2e0a7065967659b0695a159f5dfc0d96
+SHA1:    4ef971377dd4c6aef5d4ba99a5fd08776ac53c44
+ssdeep:  3072:t2bSBQhjWaayEKHVZTwnVS570M9kdatGCO+xmBc+hMPhPsx:t2bSBFDKHVZcVs7nyatGt+SYF
+Date:    0x57898E95 [Sat Jul 16 01:32:05 2016 UTC]
+EP:      0x403c70 .text 0/5
+CRC:     Claimed: 0x26313, Actual: 0x26313 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x21ec0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc908   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xcf70   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd258   0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd440   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd568   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe410   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xecb8   0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf380   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xf8e8   0xe0d4   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1d9c0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ff68  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21010  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21998  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x21e00  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x86b8   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x83f0   0x2c2    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+RT_MANIFEST        0x8a98   0x3e6a   LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3834       0x3a00       5.885017    
+.data      0x5000       0x374        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0x11ec       0x1200       5.206869    
+.rsrc      0x8000       0x19f90      0x1a000      7.198969    [SUSPICIOUS]
+.reloc     0x22000      0x378        0x400        6.087414    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BdeHdCfg
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: BitLocker Drive Encryption: Drive Preparation Tool
+OriginalFilename: BdeHdCfg.exe
+Translation: 0x0409 0x04b0
+

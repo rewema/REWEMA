@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     45e64c8b5ebbbdcb238dfa04d8bd766b
+SHA1:    090e4afb9a2b80c7d59cfcfdb62824118c1385cc
+ssdeep:  192:ZUGV9X0+i2Ro4yTd50lFoYhfkmMWkxWM:So9X0+q4kS2YfMWkxW
+Date:    0x57898EDA [Sat Jul 16 01:33:14 2016 UTC]
+EP:      0x4015a0 .text 0/5
+CRC:     Claimed: 0xa768, Actual: 0xa768 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x43d8   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x46c0   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x46d8   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4130   0x2a5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe14        0x1000       5.379277    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x43e        0x600        3.877960    
+.rsrc      0x4000       0xa88        0xc00        3.858309    
+.reloc     0x5000       0x14c        0x200        4.711366    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: regedt32.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Registry Editor Utility
+OriginalFilename: regedt32.exe
+Translation: 0x0409 0x04b0
+

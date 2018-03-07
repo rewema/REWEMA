@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    281088 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     3c11974a37922aa8198a68bd20cca273
+SHA1:    1a9409ba71eb9189767b36b96b5470c44cfd5403
+ssdeep:  6144:YWi7Vi2ORlaeqKE8HAgy4eiA3xcOXNsu/E0n/qk:9ixisCOXNDd
+Date:    0x537682A1 [Fri May 16 21:26:57 2014 UTC]
+EP:      0x444f7e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x489bf [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x484b0  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x48a18  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x48130  0x380    LANG_NEUTRAL SUBLANG_NEUTRAL          8086 relocatable (Microsoft)
+RT_MANIFEST        0x48a30  0x631    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x42f84      0x43000      5.822084    
+.sdata     0x46000      0xaa         0x200        2.404727    
+.rsrc      0x48000      0x1068       0x1200       4.198271    
+.reloc     0x4a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: GPL License 2009-2014
+Assembly Version: 2.1.0.0
+InternalName: DriverBackup! 2.exe
+FileVersion: 2.1.0.7
+CompanyName: Giuseppe Greco
+Comments: Drivers' backup & restore tool
+ProductName: DriverBackup! 2
+ProductVersion: 2.1.0.7
+FileDescription: DriverBackup! 2
+OriginalFilename: DriverBackup! 2.exe
+

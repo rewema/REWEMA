@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    119752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fca70d3510fcaf827bdbac35fda5c91b
+SHA1:    bc8d6293becd4ca0b056de5eac100a4cb31b589a
+ssdeep:  3072:vYqB9hFKVjx/2atE/JoAQxVC0ZhuW+j4q6:v9B9hFKVjx+atERQxVDue
+Date:    0x591D55BA [Thu May 18 08:05:14 2017 UTC]
+EP:      0x40eb00 .text 0/6
+CRC:     Claimed: 0x2c091, Actual: 0x2c091 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0x1cb78  0xe00    LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 16 x 16, 10.00 fps, video: uncompressed
+RT_ICON            0x16908  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16f70  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17258  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17380  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18228  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18ad0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x19038  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b5e0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c688  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1d978  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1dd48  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1caf0  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x1ddf8  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x16380  0x585    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+HttpSendRequestW
+InternetConnectW
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe3c8       0xe400       6.504285    
+.rdata     0x10000      0x3ac2       0x3c00       5.379443    
+.data      0x14000      0x660        0x200        1.955931    
+.gfids     0x15000      0x58         0x200        0.434165    [SUSPICIOUS]
+.rsrc      0x16000      0x8110       0x8200       5.260439    
+.reloc     0x1f000      0xb64        0xc00        6.572355    
+
+Version info
+================================================================================
+LegalCopyright: License: MPL 2
+InternalName: 
+FileVersion: 53.0.3
+CompanyName: Mozilla Foundation
+BuildID: 20170518000419
+LegalTrademarks: Mozilla
+Comments: 
+ProductName: Firefox
+ProductVersion: 53.0.3
+FileDescription: 
+OriginalFilename: crashreporter.exe
+Translation: 0x0000 0x04b0
+

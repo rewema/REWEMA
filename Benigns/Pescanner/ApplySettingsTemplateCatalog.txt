@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    807936 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ec7f0930084ed878465bf386bc04d582
+SHA1:    6c17da7e355a97274e96124851356e2a1dc3f6ca
+ssdeep:  24576:s6fi5agUhc+C04FPINZqe8G3PZxzaA5JiuQtiOLH4FSC7QJ:s6fHbhJYINZqLG3PZxzaA5JiuQE4YFSj
+Date:    0x57899218 [Sat Jul 16 01:47:04 2016 UTC]
+EP:      0x493520 .text 0/6
+CRC:     Claimed: 0xc9fbc, Actual: 0xc9fbc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xc0060  0x410    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb332c      0xb3400      6.400795    
+.data      0xb5000      0x73c4       0x6200       5.016736    
+.idata     0xbd000      0x14e8       0x1600       5.553543    
+.tls       0xbf000      0x2          0x200        0.000000    
+.rsrc      0xc0000      0x470        0x600        2.628874    
+.reloc     0xc1000      0x9b44       0x9c00       6.629608    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ApplySettingsTemplateCatalog EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ApplySettingsTemplateCatalog EXE
+OriginalFilename: ApplySettingsTemplateCatalog.exe
+Translation: 0x0409 0x04b0
+

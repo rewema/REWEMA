@@ -1,0 +1,121 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1426432 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     0b828080446be7de2f0260abebe97690
+SHA1:    719b8fa7c8e9b2c197e1d99652f07f1963d6b7d7
+ssdeep:  12288:zXN/xSSaB/AXwV4iB0i2MbX42XdEwQ0+rkOTl1ouq1940+7xtvlMpFI966+HLWJA:z9mtjV4iBZoDR+qt1kBurg2b
+Date:    0x4CBA7869 [Sun Oct 17 04:15:37 2010 UTC]
+EP:      0x401130 .text 0/6
+CRC:     Claimed: 0x1611ae, Actual: 0x1611ae 
+
+Signature scans
+================================================================================
+YARA: irc
+   0xea7eL => join
+   0x104ceL => join
+   0x10adaL => join
+   0x10d2fL => join
+   0x13432L => join
+   0x1dc1dL => join
+   0x28356L => join
+   0x39830L => join
+   0x3a232L => join
+   0x3ac2dL => join
+   0x3c6c6L => join
+   0x3ce6aL => join
+   0x42013L => join
+   0x42056L => join
+   0x462acL => join
+   0xcd497L => join
+   0xd2c09L => join
+   0xd6559L => join
+   0xdf8c4L => Join
+   0xf1144L => join
+   0xf20edL => join
+   0xf2792L => join
+   0xf2815L => join
+   0x10b060L => Join
+   0x1199fcL => join
+   0x12686cL => join
+   0x127e7fL => join
+   0x127ea4L => join
+   0x127f7fL => join
+   0x129e1fL => join
+   0x129edbL => join
+   0x12ee8bL => join
+   0x133e6bL => join
+   0x1390eeL => join
+   0x13eb2cL => join
+   0x143e9eL => join
+   0x143ecaL => join
+   0x143ee5L => join
+   0x143f0fL => join
+   0x143f32L => join
+   0x145327L => join
+   0x14714fL => join
+   0x148081L => join
+   0x14c98cL => join
+   0x159639L => join
+   0x139c0L => msg
+   0x428d4L => msg
+   0x46578L => msg
+   0x466a7L => msg
+   0x46af9L => msg
+   0x47938L => msg
+   0xe42b3L => msg
+   0xef29eL => msg
+   0xef2daL => msg
+   0x15157aL => msg
+   0x157a8eL => msg
+   0x158c09L => msg
+   0xe3c42L => notice
+   0xe3ccbL => notice
+   0x66abL => part
+   0x66f8L => part
+   0x406f1L => part
+   0x8fc68L => part
+   0xc8248L => part
+   0xdfafcL => part
+   0xdfccbL => part
+   0xdfd93L => part
+   0xdff9aL => part
+   0x10b279L => part
+   0x13d79dL => part
+   0x14c5b6L => part
+   0x14dca4L => part
+   0x156c7aL => part
+   0xc9e56L => Ping
+   0xc9e60L => ping
+   0x147f5cL => Ping
+   0x147f66L => ping
+   0x1769aL => quit
+   0xfba3aL => quit
+   0xfba7aL => quit
+   0xff0e5L => Quit
+   0xffa83L => quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x15f0a0 0x9c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x15f13c 0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xfec        0x1000       6.046137    
+.data      0x2000       0x15910c     0x159200     5.208568    
+.rdata     0x15c000     0xfc0        0x1000       4.942582    
+.bss       0x15d000     0x78         0x0          0.000000    [SUSPICIOUS]
+.idata     0x15e000     0x65c        0x800        4.334542    
+.rsrc      0x15f000     0x504        0x600        4.447799    
+

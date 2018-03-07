@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15094038 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d0179b1ecf533de12a496fcf2b8e99eb
+SHA1:    b91cfae1ee70cf22c8d766d73f208dbdd7cbc60d
+ssdeep:  393216:5ZYTHaVusbm6N5bnvDqy3+u/FQsrmhnjIhSd:5ZgsRP/fFQ0mhn1d
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x409820 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xe69c91 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1027c  0x651c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x16798  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16a8c  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16d98  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x17068  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x170d0  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x17184  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_GROUP_ICON      0x17234  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x17248  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x175f0  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x8f94       0x9000       6.591639    
+DATA       0xa000       0x248        0x400        2.709326    
+BSS        0xb000       0xe64        0x0          0.000000    [SUSPICIOUS]
+.idata     0xc000       0x8f0        0xa00        4.294210    
+.tls       0xd000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xe000       0x18         0x200        0.199108    [SUSPICIOUS]
+.reloc     0xf000       0x884        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x10000      0x787c       0x7a00       4.055568    
+
+Version info
+================================================================================
+InternalName: 
+FileVersion:                     
+CompanyName:                                                             
+Comments: This installation was built with Inno Setup: http://www.innosetup.com
+ProductName: 
+ProductVersion: 
+FileDescription: bbc2mp3 Setup                                               
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

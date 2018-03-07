@@ -1,0 +1,75 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    815104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     853673120ae23c8cb43daceffb0b4465
+SHA1:    d71a9116cd10cd9a79837dffb1c3d9420f376eb4
+ssdeep:  24576:dZT30Zhry+WNhs/BSo5bkwR1lY9Jthl5dRVpNBFZ9x1JthNBFZ9x1Jthl5dRVpNF:dZTkZhrfWNhs/Bj55Rg9Jthl5dRVpNBj
+Date:    0x57899027 [Sat Jul 16 01:38:47 2016 UTC]
+EP:      0x469460 .text 0/6
+CRC:     Claimed: 0xc771c, Actual: 0xc771c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7edb8  0x2868   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x81620  0x16e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x82d08  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x83770  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x83dd8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x840c0  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x842a8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x843d0  0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x88ff8  0x2ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8bca0  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8d2c8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8e170  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8ea18  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8f0e0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8f648  0xea46   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x9e090  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xae8b8  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb7d60  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbbf88  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbe530  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbf5d8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbff60  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xc03c8  0x13a    LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 22 icons, 16-colors
+RT_VERSION         0x7e9e8  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7e520  0x4c3    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7440c      0x74600      6.228819    
+.data      0x76000      0x2120       0x1800       4.037742    
+.idata     0x79000      0x3cd8       0x3e00       5.823529    
+.didat     0x7d000      0xe0         0x200        1.914366    
+.rsrc      0x7e000      0x42508      0x42600      5.496262    
+.reloc     0xc1000      0xa7fc       0xa800       6.754902    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: ClientConsole.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft  Windows Fax and Scan
+OriginalFilename: ClientConsole.EXE
+Translation: 0x0409 0x04b0
+

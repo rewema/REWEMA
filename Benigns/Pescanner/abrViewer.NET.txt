@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    172032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     cfdfcfc55768530fad606e1c35936297
+SHA1:    5c97d040229d73e828efde03eaa3412d7acf2b5c
+ssdeep:  3072:mBIxaPllPsd5eF+FIoOR9v+WnxP313cvbF:HUHPGGoODv5xPl3cj
+Date:    0x46251079 [Tue Apr 17 18:22:49 2007 UTC]
+EP:      0x1102896e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x33a2b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2a3a8  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2a690  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2a7b8  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x2a118  0x28c    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x26974      0x27000      6.018496    
+.rsrc      0x2a000      0x7e0        0x1000       1.887639    
+.reloc     0x2c000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 2.0.2663.34884
+InternalName: abrViewer.NET.exe
+FileVersion: 2.0.2663.34884
+ProductVersion: 2.0.2663.34884
+FileDescription:  
+OriginalFilename: abrViewer.NET.exe
+

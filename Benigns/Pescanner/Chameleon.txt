@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     2a0ab2c469078284e1e0e9a5632a1b53
+SHA1:    9858142cba5db0b12ee09467e25f2730b111ddcb
+ssdeep:  1536:oV+xqMz9PujFcv3IsJYXfRM6ahaw6kuKiOj3JPZ4z:ot49ocfIs6O6y76kmkR8
+Date:    0x46B073D7 [Wed Aug  1 11:51:51 2007 UTC]
+EP:      0x41250e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x23f25 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x143c8  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x15070  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x140e8  0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x10514      0x11000      6.736435    
+.rsrc      0x14000      0x1088       0x2000       2.692997    
+.reloc     0x16000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 BilgeAdam 2007
+Assembly Version: 1.0.0.0
+InternalName: Chameleon.exe
+FileVersion: 1.0.0.0
+CompanyName: BilgeAdam
+ProductName: GUI
+ProductVersion: 1.0.0.0
+FileDescription: GUI
+OriginalFilename: Chameleon.exe
+

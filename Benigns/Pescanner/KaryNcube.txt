@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     a8b872b53f419ae9a992f2615da05407
+SHA1:    43f41e1c1c6a3d12ace9bbf947dbed5574d1b315
+ssdeep:  384:qOTHgnczEIDhr9Hdemp/m5xZwPbNoO+1weets3NBT9DZa+X:qOU9Ih9Pxkxevi9B9NaC
+Date:    0x4433F106 [Wed Apr  5 16:32:06 2006 UTC]
+EP:      0x40605e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x16579 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8058   0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4064       0x5000       4.836939    
+.rsrc      0x8000       0x368        0x1000       0.911456    [SUSPICIOUS]
+.reloc     0xa000       0xc          0x1000       0.012639    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2286.36063
+InternalName: KaryNcube.exe
+FileVersion: 1.0.2286.36063
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2286.36063
+FileDescription:  
+OriginalFilename: KaryNcube.exe
+

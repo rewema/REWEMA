@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    564488 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c6eef9e4c29d941aa343cdc87a886968
+SHA1:    c180eb8813a0f6a499f13ebd7d0e095063523702
+ssdeep:  12288:EmdKgnrMRE2r6uhvBnOOYZNL32yHzVz6XFeQUztQXb:Emd3nISU6yZnOdNL32yHhzCTUztQXb
+Date:    0x578990DC [Sat Jul 16 01:41:48 2016 UTC]
+EP:      0x472570 .text 0/5
+CRC:     Claimed: 0x95916, Actual: 0x95916 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+TYPELIB            0x857a8  0x760    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x853c8  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x85100  0x2c2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x80174      0x80200      7.676491    [SUSPICIOUS]
+.data      0x82000      0xfa8        0xa00        1.552240    
+.idata     0x83000      0x1aa8       0x1c00       5.197051    
+.rsrc      0x85000      0xf08        0x1000       4.025284    
+.reloc     0x86000      0x2a94       0x2c00       6.453452    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: GenValObj
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Software Protection Platform Admin Object
+OriginalFilename: GenValObj.exe
+Translation: 0x0409 0x04b0
+

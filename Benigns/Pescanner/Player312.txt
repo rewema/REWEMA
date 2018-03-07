@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    135168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f863da04534339f7b9ed9150b159f4e1
+SHA1:    f1d01ab4ac3cfe945583df06f9c08523d02ebb95
+ssdeep:  3072:D1XiuqQPMky5sUqGhGaM9oZfkS3BpFfkimL:D1XBPPMkyuG
+Date:    0x410AEBA8 [Sat Jul 31 00:45:28 2004 UTC]
+EP:      0x401ce0 .text 0/3
+CRC:     Claimed: 0x2c982, Actual: 0x2c982 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2031c  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x20308  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x200f0  0x218    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d874      0x1e000      5.906134    
+.data      0x1f000      0xc14        0x1000       0.000000    
+.rsrc      0x20000      0x604        0x1000       1.576949    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: Player
+FileVersion: 1.00
+CompanyName: Mabry Software
+ProductName: Player
+ProductVersion: 1.00
+OriginalFilename: Player.exe
+

@@ -1,0 +1,366 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1687552 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     99661758c318b90c6e53aed04e95f3ba
+SHA1:    27ac52bdf5b97803558d267c813022a4f539eddc
+ssdeep:  24576:SwO6X9nd8V11TBdfchYRvef+R9gTQIOtvITnSRm6GOTBn/M3fu15k4:SwdAr9gT/Wm6/TBn2m1d
+Date:    0x3E04E329 [Sat Dec 21 21:54:49 2002 UTC]
+EP:      0x49a495 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1a9960 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0x14f5830 0x2ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+TEXT               0x14f51d0 0x65a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII English text, with CRLF line terminators
+WAVE               0x14f5af0 0x83a    LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, WAVE audio, Microsoft PCM, 8 bit, mono 11025 Hz
+WAVE               0x14f6330 0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 22050 Hz
+RT_CURSOR          0x14f2d10 0x2ec    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f3018 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3168 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f32b8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3408 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_CURSOR          0x14f3558 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f36a8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f37f8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3948 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3a98 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3be8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3d38 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3e88 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f3fd8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f4128 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f4278 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f43c8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f4518 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f4668 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f47b8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f4908 0x8ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f67c8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f6900 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f69e0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f6b18 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f6bf8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f6d30 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f6e10 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f6f48 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f7028 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f7160 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f7240 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f7440 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f7520 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f7720 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_CURSOR          0x14f7800 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f7a00 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f7ae0 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f7ce0 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f7dc0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x14f7ef8 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f7fd8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f8b68 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x14f8ca0 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c6290 0x828    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c6ab8 0x828    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c4fd8 0x268    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c5a68 0x828    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c5240 0x828    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e9218 0x828    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c7848 0x163b8  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14bfb30 0x6e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c0218 0x7e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c0a00 0xce4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c16e8 0xce4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c23d0 0xcc8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c3098 0xcc8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c3d60 0xe50    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14ddc80 0x248    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e8860 0x48c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c7760 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x14c72e0 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c7360 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c74e0 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c7560 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c73e0 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c7460 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c7660 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c76e0 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14ddc00 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c75e0 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14c4bb0 0x428    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14ddec8 0x7ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14de678 0xe50    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14df4c8 0xe50    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e0318 0xe50    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e1168 0x218    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e1380 0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e1400 0x7460   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e8cf0 0x268    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14e8f58 0x2c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14f8128 0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14f87f8 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14f88b0 0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14f8a20 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b6d00 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b6fe8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14b7110 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b79b8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14b7f60 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b8248 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b8af0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14b8c48 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b8f48 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b9248 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b9548 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b9830 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14b9980 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b9c68 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14b9db8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14ba0a0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14ba1f0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14ba4d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x14ba628 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14ba910 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bb1e0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bb4c8 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bbd98 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bc080 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bc950 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bcc38 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bd508 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bd7f0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14be0c0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14be3a8 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bec78 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bef78 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14bf260 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x14e9b08 0x126    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x14e9c30 0xce0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x14ea910 0x1f2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eac10 0x184    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0c90 0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ead98 0x4ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eb248 0x488    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eb6d0 0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ebaa8 0x6b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ec160 0x36a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ec4d0 0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ec5b8 0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ec650 0x326    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ec978 0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ecca8 0x976    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ed620 0x5c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ed740 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f2660 0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ed8c8 0x500    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eddc8 0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ede98 0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ee288 0x70c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ee998 0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eea00 0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eeaa8 0x13e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eebe8 0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eec90 0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14eed38 0x50c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ef248 0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ef308 0x39a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ef6a8 0x56e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14efc18 0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14efd50 0x266    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14effb8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f00e0 0x682    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0768 0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0810 0x2d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0d60 0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0ae0 0x1ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1268 0x278    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f14e0 0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f15e8 0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1178 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f19c0 0x112    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1ad8 0x36     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1b10 0x332    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1e48 0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1f20 0x740    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f27f8 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0d28 0x36     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0e70 0x13e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f0fb0 0x86     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1038 0x13e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14ed680 0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f1210 0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f8710 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f8d80 0x11e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x14f8ea0 0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb270 0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb2e0 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x14fb340 0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9018 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9068 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x14f9150 0x1a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f92f8 0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f93a8 0x66     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9410 0x7e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9490 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcaa8 0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcb00 0x104    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcc08 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x14fb098 0x90     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc3b0 0x52     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fa718 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fa778 0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fa820 0x160    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fa980 0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       Sendmail frozen configuration  - version t
+RT_STRING          0x14faae0 0x164    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fac48 0xaa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14facf8 0xc2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fadc0 0x14c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14faf10 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb128 0x142    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb3b0 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb428 0x11e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fbaf8 0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb548 0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb678 0x136    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb7b0 0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fbb80 0x1be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb8c0 0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fb9f0 0x6e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fba60 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fbd40 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fbdb8 0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fbe88 0xf6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc408 0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc4f0 0xea     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc5e0 0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fbf80 0x178    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc0f8 0x150    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc248 0x166    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc7e0 0x164    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc948 0x15c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcc38 0xa4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc668 0x66     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc6d0 0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x14fc720 0x58     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fc778 0x62     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9570 0x9e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9658 0x1cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9ac0 0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fa080 0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9e00 0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9828 0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9d20 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14f9610 0x46     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0x14fa3a8 0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fa470 0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fa668 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcce0 0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcd68 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcd98 0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fe388 0x124    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x14fdaf8 0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fcee8 0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fd850 0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fd570 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fd3d0 0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fe278 0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fdb48 0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fe010 0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x14fe358 0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_ACCELERATOR     0x14eab08 0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (2900 records)
+RT_ACCELERATOR     0x14f9000 0x18     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (58114 records)
+RT_GROUP_CURSOR    0x14f3150 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3000 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f32a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f33f0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f48f0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3540 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3690 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f37e0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3930 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3a80 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3bd0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3d20 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3e70 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f3fc0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f4110 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f47a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f4260 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f43b0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f4500 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f4650 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f51b8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f69b8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f8d58 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f6bd0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f6de8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f7000 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f7218 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f74f8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f77d8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f7ab8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f7d98 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f7fb0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x14f8110 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x14b7f20 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14b8c18 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14b8f30 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x14b9230 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x14b9530 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x14b9958 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14b9d90 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14ba1c8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14ba600 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14bb1b8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14bbd70 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14bc928 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14bd4e0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14be098 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14bec50 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x14bef60 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x14bfb08 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x14f28f0 0x41c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x14e9a40 0x26     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x14e9a68 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x14e9ab0 0xe      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x14e9a98 0x18     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x14e9ac0 0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x14e9af0 0x12     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd95af      0xda000      6.556513    
+.rdata     0xdb000      0x1d18a      0x1e000      4.592188    
+.data      0xf9000      0x13b96a8    0x57000      5.882223    
+.rsrc      0x14b3000    0x4b4b0      0x4c000      5.245311    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002 by WildTangent
+InternalName: GEditPro
+FileVersion: 0, 71, 0, 0
+CompanyName: trilobiteWorks. & krouerien da humvreou
+PrivateBuild: 
+LegalTrademarks: 
+Comments: World Editor for the Genesis3D realtime 3D rendering engine
+ProductName: GEditPro
+SpecialBuild: Only fixes
+ProductVersion: 0, 71, 0, 0
+FileDescription: GEditPro
+OriginalFilename: GEditPro.exe
+Translation: 0x0409 0x04b0
+

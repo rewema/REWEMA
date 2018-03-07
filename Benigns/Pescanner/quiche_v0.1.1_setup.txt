@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2824583 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0cc245d7a52defd49f48bad311940219
+SHA1:    5325a54d7d37ff61380804ecebeeab89bdef0e50
+ssdeep:  49152:O1YM5za9Kka2kczd7PpiGRuF4sweIJIXCmWNp669Jt3Wv4dLpGbt6rGz+R:Kza0r2kcxtRcoFJIXCX669BStR+R
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x418fa0 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x2bb744 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x21318  0x2e8    LANG_HEBREW  SUBLANG_DEFAULT          data
+RT_STRING          0x21600  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x21668  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x21754  0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_STRING          0x21824  0x27c    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x21aa0  0x380    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x21e20  0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x220e0  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x220f0  0x104    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x221f4  0x14     LANG_HEBREW  SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_VERSION         0x22208  0x308    LANG_HEBREW  SUBLANG_DEFAULT          data
+RT_MANIFEST        0x22510  0x284    LANG_HEBREW  SUBLANG_DEFAULT          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x17fbc      0x18000      6.514303    
+DATA       0x19000      0x1b80       0x1c00       3.462958    
+BSS        0x1b000      0x949        0x0          0.000000    [SUSPICIOUS]
+.idata     0x1c000      0xd70        0xe00        4.758877    
+.tls       0x1d000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1e000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x1f000      0x1824       0x1a00       6.522308    
+.rsrc      0x21000      0x1800       0x1800       4.140582    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002-2003, Pantaray Software Systems
+InternalName: 
+FileVersion: 3.5.0.3
+CompanyName: Pantaray Software Systems
+LegalTrademarks: 
+Comments: 
+ProductName: 
+ProductVersion: 3.5.0.2
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

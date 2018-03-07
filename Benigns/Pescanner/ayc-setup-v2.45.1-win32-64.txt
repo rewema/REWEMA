@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    33373958 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cf3438a21f7aae5aa00c599e75128d78
+SHA1:    dba4cd883d244e2b23f230f7eb9f7dddbf78b0b5
+ssdeep:  786432:sDu9I+ZllWuRZgkkct6MZs/IPqFQn3Qea8s:8um0ll3Xg3khZse9nDaF
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x40aa98 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x1fe2673 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x123b4  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1281c  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x138c4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15e6c  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a094  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2a8bc  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6c8e4  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6cbd8  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6cee4  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6d1b4  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x6d21c  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6d2d0  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x6d380  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x6d3ac  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x6d408  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6d8fc  0x62c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xa1d0       0xa200       6.643749    
+DATA       0xc000       0x250        0x400        2.740125    
+BSS        0xd000       0xe94        0x0          0.000000    [SUSPICIOUS]
+.idata     0xe000       0x97c        0xa00        4.486076    
+.tls       0xf000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x10000      0x18         0x200        0.190489    [SUSPICIOUS]
+.reloc     0x11000      0x91c        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x12000      0x5bf28      0x5c000      2.428098    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion:                     
+CompanyName: Adithya FRK                                                 
+Comments: This installation was built with Inno Setup.
+ProductName: Advanced Youtube Client - AYC                               
+ProductVersion: 2.45.1                                            
+FileDescription: Advanced Youtube Client - AYC Setup                         
+Translation: 0x0000 0x04b0
+

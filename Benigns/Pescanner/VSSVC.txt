@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1017856 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1e2a8c962d8a1fe95f04c94c1bec0d85
+SHA1:    58d2e344f28642b4c7e6596a3208160ee0ca5b56
+ssdeep:  24576:22xbJbNwRR/yybwNCc1QaVwdU9VCoWm1hVsqf:22tJ5wRRBwNC0ZFrCox/Vsqf
+Date:    0x57898EE9 [Sat Jul 16 01:33:29 2016 UTC]
+EP:      0x456f00 .text 0/6
+CRC:     Claimed: 0xfdfc3, Actual: 0xfdfc3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xece60  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0xe87e0  0x1fb4   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0xea798  0x26c4   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe8428  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe8180  0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe1e94      0xe2000      6.069894    
+.data      0xe3000      0xb98        0x400        3.006413    
+.idata     0xe4000      0x272a       0x2800       5.315231    
+.didat     0xe7000      0xa8         0x200        1.236357    
+.rsrc      0xe8000      0x4f40       0x5000       4.509425    
+.reloc     0xed000      0xe4f0       0xe600       6.809496    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: VSSVC.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Volume Shadow Copy Service
+OriginalFilename: VSSVC.EXE
+Translation: 0x0409 0x04b0
+

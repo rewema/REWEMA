@@ -1,0 +1,76 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11885069 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f751425bf50759a5e74b63c856a7489e
+SHA1:    ab36679972a2ea847164c77e5b95e92f0f1a6755
+ssdeep:  196608:yItPFZ9nPwpgMvO7awyi91Oir+cBxFBS71hNB6VbcPdXC7WIFb8ODeQKK:3ZvBPygwO7atw+kx7SvNB6xihPY5aQ
+Date:    0x3A26184E [Thu Nov 30 09:05:18 2000 UTC]
+EP:      0x40811d .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xb5bcbb [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x287e5L => This program cannot be run in DOS mode
+   0x19a320L => This program cannot be run in DOS mode
+   0x337e5bL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x16978  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16c78  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x16da0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17308  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x175f0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17e98  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x18d40  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x19408  0xfe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x196c8  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x19508  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x195d0  0xf2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x197c0  0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19948  0x266    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19bb0  0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19d20  0x16e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x19e90  0x4ea    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1a380  0x1a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x16c60  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x193a8  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x16450  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd225       0xe000       6.276055    
+.rdata     0xf000       0x177a       0x2000       4.395908    
+.data      0x11000      0x4ddc       0x3000       1.278540    
+.rsrc      0x16000      0x4528       0x5000       3.822431    
+
+Version info
+================================================================================
+LegalCopyright: Copyright\xa9 1990-2000 InstallShield Software Corporation     
+FileVersion: 3.03.099                                                    
+CompanyName: Installshield Software Corporation                          
+Comments:                                                             
+ProductName: InstallShield\xae                                              
+ProductVersion: 3.03                                                        
+FileDescription: Setup Launcher                                              
+Translation: 0x0409 0x04e4
+

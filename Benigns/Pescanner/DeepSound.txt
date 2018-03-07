@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    99328 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     101bd8a24aa76719543ca817e966a220
+SHA1:    fe2d527554bf2d2de52da9b6c44855348f8c4c75
+ssdeep:  1536:k0BXKcVmQnpKdoWN7FJHBgI3zTG/TTaAh3SMORlD/Kc:l6cVmEUdoWbngI3m/93dOR5Cc
+Date:    0x5655E8D8 [Wed Nov 25 16:59:04 2015 UTC]
+EP:      0x416e9e .text 0/3
+CRC:     Claimed: 0x2443e, Actual: 0x2443e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x18720  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1acc8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x18130  0x5f0    LANG_NEUTRAL SUBLANG_NEUTRAL          SysEx File - Passport
+RT_MANIFEST        0x1ace0  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x14ea4      0x15000      6.870740    
+.rsrc      0x18000      0x2ed0       0x3000       4.781542    
+.reloc     0x1c000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Jospin (Jozef B\xe1tora) 2008-2015
+Assembly Version: 2.0.0.32372
+InternalName: DeepSound.exe
+FileVersion: 2.0.0.*
+CompanyName: Jpinsoft
+Comments: DeepSound is a steganography tool that hides secret data into audio files. The application might be used as a copyright marking software for wave, flac and audio CD. DeepSound also support encrypting secret files using AES-256(Advanced Encryption Standard) to improve data protection.
+
+In loving memory of my Dad, Jozef B\xe1tora (1952 ~ 2015)
+ProductName: DeepSound
+ProductVersion: 2.0.0.*
+FileDescription: DeepSound 2.0
+OriginalFilename: DeepSound.exe
+

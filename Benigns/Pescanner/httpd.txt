@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22528 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3fd1a2079eb3ff7f158d135e5caa96e3
+SHA1:    405e8ba2942acba15926641a085442e18bc012be
+ssdeep:  384:AwBL29UXU2uvqo8XseGUyFcir/F8kYTzqFK+90m4d/sqtI06w1QVV7:RBGSuyo8XsHcir/F8kncjOqG06
+Date:    0x561CC534 [Tue Oct 13 08:47:48 2015 UTC]
+EP:      0x402702 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xe2ca [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6160   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6448   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6570   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6598   0x754    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6cf0   0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1cb4       0x1e00       5.758275    
+.rdata     0x3000       0x1ddc       0x1e00       5.316729    
+.data      0x5000       0x3dc        0x200        0.344228    [SUSPICIOUS]
+.rsrc      0x6000       0xe70        0x1000       3.518954    
+.reloc     0x7000       0x5dc        0x600        5.847566    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2015 The Apache Software Foundation.
+InternalName: httpd.exe
+FileVersion: 2.4.17
+CompanyName: Apache Software Foundation
+Comments: Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ProductName: Apache HTTP Server
+ProductVersion: 2.4.17
+FileDescription: Apache HTTP Server
+OriginalFilename: httpd.exe
+Translation: 0x0409 0x04b0
+

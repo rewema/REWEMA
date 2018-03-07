@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    107008 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     eeea1f28fe960b2ca15a199b8ee96e5e
+SHA1:    b44f2287f2454a6be22c314564c1822fc7876616
+ssdeep:  3072:5PPh4AbEaznWfH22ZsuX2xKwMPTnaSrIrvDi:E+znWjZnXeKwMLnaqY
+Date:    0x57899109 [Sat Jul 16 01:42:33 2016 UTC]
+EP:      0x403780 .text 0/5
+CRC:     Claimed: 0x25b50, Actual: 0x25b50 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1ba30  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6808   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e70   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7158   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7280   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8128   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x89d0   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8f38   0xebfd   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x17b38  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1a0e0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1b188  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1b5f0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x1b688  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6350   0x4b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2f6c       0x3000       6.191198    
+.data      0x4000       0x46c        0x200        0.285782    [SUSPICIOUS]
+.idata     0x5000       0xb26        0xc00        4.776815    
+.rsrc      0x6000       0x15b00      0x15c00      7.340234    [SUSPICIOUS]
+.reloc     0x1c000      0x330        0x400        5.833989    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Fondue
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Features on Demand UX
+OriginalFilename: Fondue.EXE
+Translation: 0x0409 0x04b0
+

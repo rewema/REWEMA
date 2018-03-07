@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     6fda841935a04922c2c3b0eecb2bfc30
+SHA1:    1d2aa19c9ae54a4ea17c1c712ff1e52af4162496
+ssdeep:  768:1/YuA/FV4gB2ZyiYb9RyDl8qKj1pqpY5g5:Kqc9QHKnqpH5
+Date:    0x42847EF3 [Fri May 13 10:18:27 2005 UTC]
+EP:      0x408ace .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x16a18 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa418   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa700   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa828   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa118   0x2fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6ad4       0x7000       5.482821    
+.rsrc      0xa000       0x850        0x1000       2.043130    
+.reloc     0xc000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1959.18553
+InternalName: MP3QL.exe
+FileVersion: 1.0.1959.18553
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1959.18553
+FileDescription:  
+OriginalFilename: MP3QL.exe
+

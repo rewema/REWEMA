@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    773120 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a078fa5cde8f7a634753d341bc45f8ca
+SHA1:    03b1776ad83d897ff7c0994170489a2a926d4485
+ssdeep:  12288:K+qb4CW8ThRZZ7PKmM6quc28OthZ7iAJnrTTJQ/8hQ67Qztf4r74Uteg:fqMCW8ThRZZTKmMp28OthtiAhrCEhQ6R
+Date:    0x57898E0F [Sat Jul 16 01:29:51 2016 UTC]
+EP:      0x4377b0 .text 0/6
+CRC:     Claimed: 0xc6977, Actual: 0xc6977 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb89f0  0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0xa3718  0x3bf    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xa3ad8  0x3da    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xa3eb8  0x37a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0xa34e8  0x230    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+WEVT_TEMPLATE      0x89b40  0x199a2  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa4238  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa48a0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa4b88  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa4d70  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa4e98  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa5d40  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa65e8  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa6cb0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa7218  0xd2d5   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xb44f0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb6a98  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb7b40  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb84c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xb8930  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x897b0  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x89510  0x29e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x80f1c      0x81000      6.340732    
+.data      0x82000      0x2680       0xc00        4.616281    
+.idata     0x85000      0x2d8a       0x2e00       5.327614    
+.didat     0x88000      0x174        0x200        2.623763    
+.rsrc      0x89000      0x2faf8      0x2fc00      5.830186    
+.reloc     0xb9000      0x7e2c       0x8000       6.697653    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SearchIndexer.exe
+FileVersion: 7.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Windows\xae Search
+ProductVersion: 7.0.14393.0
+FileDescription: Microsoft Windows Search Indexer
+OriginalFilename: SearchIndexer.exe
+Translation: 0x0409 0x04b0
+

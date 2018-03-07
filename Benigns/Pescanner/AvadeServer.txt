@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    220160 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     aa837a83720c78be9542dbe41f8600a5
+SHA1:    e6ed2f36cea089744406a6fab099f64005b22f44
+ssdeep:  3072:OjpcyWaeFwWRxDyuvFCJtZFRTUkzJ24/NDLBOLWgJbBU4/NDLBOLWgxb1C:wcyWaedxmtF2CUWglBUCUWgt1
+Date:    0x590B4AC1 [Thu May  4 15:37:37 2017 UTC]
+EP:      0x4288c2 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x395bf [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2a220  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2a898  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2ab90  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x2acc8  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2bb80  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2c438  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x2c9b0  0x828a   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x34c4c  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x37204  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x382bc  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x38734  0x92     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x387d8  0x344    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x38b2c  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x268c8      0x26a00      6.240129    
+.rsrc      0x2a000      0xed1c       0xee00       6.947375    
+.reloc     0x3a000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 NASA 2016
+Assembly Version: 1.0.0.0
+InternalName: AvadeServer.exe
+FileVersion: 1.0.0.0
+CompanyName: NASA Ames
+LegalTrademarks: 
+Comments: 
+ProductName: AvadeServer
+ProductVersion: 1.0.0.0
+FileDescription: AvadeServer
+OriginalFilename: AvadeServer.exe
+

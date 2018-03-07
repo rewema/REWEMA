@@ -1,0 +1,303 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5000910 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1e1be0093a9eb7022f35740e525df006
+SHA1:    b05b0ef8a4f00d2488381da978357ffece033a56
+ssdeep:  98304:VTVnVW6TMr0w+MFNxaw/BwMr/rFerGrEoUKnL2Oh:BVZ1LwZNynCL5h
+Date:    0x489170F9 [Thu Jul 31 07:59:53 2008 UTC]
+EP:      0x40361c .text 0/4
+CRC:     Claimed: 0xf8d13, Actual: 0x4cfa47 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x415aL => This program cannot be run in DOS mode
+   0xde226L => This program cannot be run in DOS mode
+   0x169441L => This program cannot be run in DOS mode
+   0x1826a0L => This program cannot be run in DOS mode
+   0x188385L => This program cannot be run in DOS mode
+   0x18e412L => This program cannot be run in DOS mode
+   0x194499L => This program cannot be run in DOS mode
+   0x19a520L => This program cannot be run in DOS mode
+   0x1a15adL => This program cannot be run in DOS mode
+   0x271698L => This program cannot be run in DOS mode
+   0x277725L => This program cannot be run in DOS mode
+   0x27d7baL => This program cannot be run in DOS mode
+   0x296865L => This program cannot be run in DOS mode
+   0x29d8ecL => This program cannot be run in DOS mode
+   0x2a3970L => This program cannot be run in DOS mode
+YARA: encoding
+   0x10b4b1L => deflate
+   0x10b64bL => deflate
+   0x118b86L => deflate
+   0x119358L => deflate
+   0x1199e8L => deflate
+   0x119d3bL => deflate
+   0x11a8c6L => deflate
+   0x11a918L => deflate
+   0x143064L => deflate
+   0x15679bL => deflate
+   0x1567efL => deflate
+   0x17b0e3L => deflate
+   0x17b12fL => deflate
+   0x17b147L => deflate
+   0x17b173L => deflate
+   0x17e064L => deflate
+   0x1ec9b3L => deflate
+   0x1ecb4dL => deflate
+   0x1fa088L => deflate
+   0x1fa85aL => deflate
+   0x1faeeaL => deflate
+   0x1fb23dL => deflate
+   0x1fbdc8L => deflate
+   0x1fbe1aL => deflate
+   0x235615L => deflate
+   0x248d4cL => deflate
+   0x248da0L => deflate
+   0x28f45cL => deflate
+   0x28f4a8L => deflate
+   0x28f4c0L => deflate
+   0x28f4ecL => deflate
+   0x2923ddL => deflate
+   0x17e086L => Jean-loup Gailly
+   0x2923ffL => Jean-loup Gailly
+   0x10b756L => inflate
+   0x10b87aL => inflate
+   0x1179c8L => inflate
+   0x118b92L => inflate
+   0x11901eL => inflate
+   0x119859L => inflate
+   0x119f8eL => inflate
+   0x11aa96L => inflate
+   0x11aae7L => inflate
+   0x11b504L => inflate
+   0x155dc8L => inflate
+   0x155e03L => inflate
+   0x155f17L => inflate
+   0x1560d2L => inflate
+   0x15620eL => inflate
+   0x17b617L => inflate
+   0x17b663L => inflate
+   0x17b699L => inflate
+   0x17b6e7L => inflate
+   0x17b713L => inflate
+   0x17f5b4L => inflate
+   0x1ecc58L => inflate
+   0x1ecd7cL => inflate
+   0x1f8ecaL => inflate
+   0x1fa094L => inflate
+   0x1fa520L => inflate
+   0x1fad5bL => inflate
+   0x1fb490L => inflate
+   0x1fbf98L => inflate
+   0x1fbfe9L => inflate
+   0x1fca06L => inflate
+   0x248379L => inflate
+   0x2483b4L => inflate
+   0x2484c8L => inflate
+   0x248683L => inflate
+   0x2487bfL => inflate
+   0x28f990L => inflate
+   0x28f9dcL => inflate
+   0x28fa12L => inflate
+   0x28fa60L => inflate
+   0x28fa8cL => inflate
+   0x29392dL => inflate
+   0x17f5d6L => Mark Adler
+   0x29394fL => Mark Adler
+YARA: irc
+   0xb3058L => join
+   0xb3f20L => join
+   0xb761dL => join
+   0xc9fc5L => join
+   0xe5402L => join
+   0x112ddbL => join
+   0x113781L => join
+   0x11393fL => join
+   0x115a1dL => join
+   0x122b14L => join
+   0x1251d6L => join
+   0x125b29L => join
+   0x128763L => join
+   0x12d210L => join
+   0x12d6ccL => join
+   0x136072L => join
+   0x13b182L => join
+   0x13f780L => join
+   0x13fda4L => join
+   0x141849L => join
+   0x142b4cL => join
+   0x147232L => join
+   0x14727bL => join
+   0x1472e4L => join
+   0x147328L => join
+   0x14c43dL => join
+   0x168a43L => join
+   0x1affe0L => join
+   0x1b0b78L => join
+   0x1b0dbaL => join
+   0x1b8e89L => Join
+   0x1c7eb4L => join
+   0x1cda12L => join
+   0x1cdaf7L => join
+   0x1cfc40L => join
+   0x1d9654L => join
+   0x1d99bcL => join
+   0x1d9b93L => join
+   0x1d9c4dL => join
+   0x1d9ca4L => join
+   0x1d9cc8L => join
+   0x1da1a8L => join
+   0x1da1b9L => join
+   0x1da2caL => join
+   0x1da519L => join
+   0x1da6c5L => join
+   0x1dae91L => join
+   0x1db2d3L => join
+   0x1db3deL => join
+   0x1db702L => join
+   0x1db73aL => join
+   0x1dbc14L => join
+   0x1deedcL => join
+   0x1e03d5L => join
+   0x1e03f6L => join
+   0x1f42ddL => join
+   0x1f4c83L => join
+   0x1f4e41L => join
+   0x1f6f1fL => join
+   0x204016L => join
+   0x2066d8L => join
+   0x20702bL => join
+   0x209c65L => join
+   0x20e712L => join
+   0x20ebceL => join
+   0x217574L => join
+   0x21c684L => join
+   0x220c82L => join
+   0x2212a6L => join
+   0x224c1dL => Join
+   0x233dfaL => join
+   0x2350fdL => join
+   0x2397e3L => join
+   0x23982cL => join
+   0x239895L => join
+   0x2398d9L => join
+   0x23e9eeL => join
+   0x25aff4L => join
+   0x2611a3L => join
+   0x261d3bL => join
+   0x261f7dL => join
+   0x267fc8L => join
+   0x26db26L => join
+   0x26dc0bL => join
+   0x26fd54L => join
+   0x1137a8L => msg
+   0x1137f9L => msg
+   0x113869L => msg
+   0x1138dfL => msg
+   0x113966L => msg
+   0x1139b7L => msg
+   0x113a26L => msg
+   0x11e4b3L => msg
+   0x11e4c2L => msg
+   0x11e4d8L => msg
+   0x11e4f1L => msg
+   0x11e504L => msg
+   0x11e518L => msg
+   0x147da5L => msg
+   0x147e03L => msg
+   0x147e42L => msg
+   0x16599fL => msg
+   0x1659b3L => msg
+   0x165a0dL => msg
+   0x165a60L => msg
+   0x17afa6L => msg
+   0x17afbeL => msg
+   0x17b51bL => msg
+   0x17b9bbL => msg
+   0x1f4caaL => msg
+   0x1f4cfbL => msg
+   0x1f4d6bL => msg
+   0x1f4de1L => msg
+   0x1f4e68L => msg
+   0x1f4eb9L => msg
+   0x1f4f28L => msg
+   0x1ff9b5L => msg
+   0x1ff9c4L => msg
+   0x1ff9daL => msg
+   0x1ff9f3L => msg
+   0x1ffa06L => msg
+   0x1ffa1aL => msg
+   0x23a356L => msg
+   0x23a3b4L => msg
+   0x23a3f3L => msg
+   0x257f50L => msg
+   0x257f64L => msg
+   0x257fbeL => msg
+   0x258011L => msg
+   0x28f31fL => msg
+   0x28f337L => msg
+   0x28f894L => msg
+   0x28fd34L => msg
+   0x397d6cL => mSg
+   0x107e6fL => part
+   0x107f7bL => part
+   0x108367L => part
+   0x1300d6L => part
+   0x1b8ea2L => part
+   0x1e9371L => part
+   0x1e947dL => part
+   0x1e9869L => part
+   0x2115d8L => part
+   0x224c36L => part
+   0xb4414L => QUIT
+   0x121d31L => QUIT
+   0x121dd9L => QUIT
+   0x203233L => QUIT
+   0x2032dbL => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xf61b8  0x34a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf9660  0x2b68   LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xfc1c8  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xfc3b0  0x2d28   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xf6178  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 32x32, 256-colors
+RT_VERSION         0xff0d8  0x304    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x275c       0x3000       5.881841    
+.rdata     0x4000       0xe8934      0xe9000      6.594891    
+.data      0xed000      0x80e8       0x1000       0.202630    [SUSPICIOUS]
+.rsrc      0xf6000      0x93e0       0xa000       0.652874    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: q-sync.exe
+FileVersion: 0.8.4.50
+CompanyName: q-tools
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: 
+SpecialBuild: 
+ProductVersion: 0.0.0.0
+FileDescription: FileSynchronisierung
+OriginalFilename: q-sync.exe
+Translation: 0x0400 0x04b0
+

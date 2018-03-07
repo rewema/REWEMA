@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    146432 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     d57f8bbeb14487df153f51e5275252f6
+SHA1:    0f8466ad9650d3165bbc66c9b6454bd0c2441d05
+ssdeep:  3072:rvu2u0BiYyUbCD9loglGsdzkXn8H8kVH1uMF:rvbChloglGCzkX8zVs+
+Date:    0x5789911B [Sat Jul 16 01:42:51 2016 UTC]
+EP:      0x41f170 .text 0/5
+CRC:     Claimed: 0x245a7, Actual: 0x245a7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x24900  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x23788  0x1178   LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_VERSION         0x233f0  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x23140  0x2a9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1ea84      0x1ec00      6.070449    
+.data      0x20000      0x420        0x200        0.411490    [SUSPICIOUS]
+.idata     0x21000      0x15e4       0x1600       5.673198    
+.rsrc      0x23000      0x19d0       0x1a00       3.646742    
+.reloc     0x25000      0x1904       0x1a00       6.623780    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bcdboot.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Bcdboot utility
+OriginalFilename: bcdboot.exe
+Translation: 0x0409 0x04b0
+

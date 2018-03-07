@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    33280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     27e6d03c3e33e9d552acadc827ea366a
+SHA1:    5048977bdca0bc6c167352ae4797c0a1113302c5
+ssdeep:  384:7GanHJnHDSwat5xDNpW7X3Q/tGkV8fvpXRXMgxCKa620:DJSzrHUqIbRBa6
+Date:    0x57899180 [Sat Jul 16 01:44:32 2016 UTC]
+EP:      0x406670 .text 0/5
+CRC:     Claimed: 0xa73c, Actual: 0xa73c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9420   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x9708   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x9720   0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x9150   0x2cd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5f14       0x6000       6.399307    
+.data      0x7000       0x3c4        0x200        0.183339    [SUSPICIOUS]
+.idata     0x8000       0x8b0        0xa00        4.703839    
+.rsrc      0x9000       0x9d8        0xa00        4.307975    
+.reloc     0xa000       0x66c        0x800        5.919391    
+
+Version info
+================================================================================
+InternalName: Twunk_32
+FileVersion: 1,7,1,0
+CompanyName: Twain Working Group
+ProductName: Twain Thunker
+ProductVersion: 1,7,1,0
+FileDescription: Twain.dll Client's 32-Bit Thunking Server
+OriginalFilename: Twunk_32.exe
+Translation: 0x0409 0x04b4
+

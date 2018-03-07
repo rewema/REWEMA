@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86016 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f85065f7b95d830d3309833a132e2280
+SHA1:    c8a7df102b87b6df5d2bc69891a33b56475c58c6
+ssdeep:  1536:H9xXm97VDrk6aK6Uyqp7pyMI7djN/kA2PlR8R:+uO9pK7dB2PlR8R
+Date:    0x40322478 [Tue Feb 17 14:26:00 2004 UTC]
+EP:      0x407621 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1b955 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x15910  0xc0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x159d0  0xc0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x15a90  0xf8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x15b88  0x104    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x15c90  0xf8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x15d88  0xd0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x15e58  0xc8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x15f20  0xc8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x15fe8  0xd0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x160b8  0xd0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x16188  0xc8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x16250  0x104    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x16358  0xc8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x16420  0xd0     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ICON            0x164f0  0xec     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x15430  0x9c     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x154d0  0xd8     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x155a8  0x1d4    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x15780  0x190    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x165e0  0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd78a       0xe000       6.465904    
+.rdata     0xf000       0x21ec       0x3000       3.976026    
+.data      0x12000      0x2238       0x1000       2.853718    
+.rsrc      0x15000      0x15f8       0x2000       2.460509    
+

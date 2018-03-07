@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6138954a630db0970fa8fe8312a974b7
+SHA1:    11f5b58e89959705dab467f7805f42f2f47b7315
+ssdeep:  768:l9n5pCSipbQg8cCZoczc9p3poMj0t6V0/u+5QXjIsE/9vbyCNoOpV:rn5IQrZo73ycjVqxbyCV
+Date:    0x3A3D0C2D [Sun Dec 17 18:55:41 2000 UTC]
+EP:      0x4016cc .text 0/3
+CRC:     Claimed: 0x1281a, Actual: 0x1281a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x11800  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x11518  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x113f0  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x113c0  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x11150  0x270    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc8dc       0xd000       5.369689    
+.data      0xe000       0x2908       0x1000       0.000000    
+.rsrc      0x11000      0x930        0x1000       2.022495    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: 2000 Matt Walston
+InternalName: Info Kiosk
+FileVersion: 0.01.0001
+CompanyName: N/A
+ProductName: Info Kiosk
+ProductVersion: 0.01.0001
+OriginalFilename: Info Kiosk.exe
+

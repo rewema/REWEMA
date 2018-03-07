@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2473785 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     eb4a83b5f97314f49215451ed9f5032c
+SHA1:    da128022b987b7a8ef77faf4aabc379cf92b167a
+ssdeep:  49152:BRIAqnnKAhJQOAxtqfhzmdjtIJo6PzjSzxW58t56brOvifOq/Y4XlMEMsAI5vmY:Bydn2fxEfhwyJoyQ2fOq/9/DAUuY
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x44ebb0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x25d7ed [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4f4b8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x4f5e4  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x4fb50  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4fe3c  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x426d4  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x42798  0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x42888  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x42a58  0x4ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x42f44  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x432a0  0xf4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x43394  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x43458  0x2a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x43700  0x380    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x43a80  0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x43d40  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x43d50  0x218    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x43f68  0x8a00   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x506e8  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_MANIFEST        0x5072c  0x20a    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x33000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x34000      0x1b000      0x1ae00      7.919572    [SUSPICIOUS]
+.rsrc      0x4f000      0x2000       0x1c00       4.496634    
+

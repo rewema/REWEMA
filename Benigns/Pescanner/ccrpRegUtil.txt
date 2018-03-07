@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     dba15e04621efc9b456d49d4d8bb773d
+SHA1:    4e0c68d880851ff87471e15de3e541b2fc9ad7ef
+ssdeep:  192:kB6+0qxeanyD4Gxp4BikBvyq3PnCE4GqyAxDGR0o4IYa3UtcVrGu++Djslh:u6k24EKv7oGQDGR0o4IYcUtwdAn
+Date:    0x35D1DA26 [Wed Aug 12 18:08:38 1998 UTC] [SUSPICIOUS]
+EP:      0x401084 .text 0/5
+CRC:     Claimed: 0x6ded, Actual: 0x6ded 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x71dc   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x70b4   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6dcc   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6ca4   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x6b74   0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a4c   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x6764   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x66ec   0x24     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x6740   0x24     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x6710   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_VERSION         0x6270   0x47c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2fa4       0x3000       4.737380    
+.data      0x4000       0xb70        0x0          0.000000    [SUSPICIOUS]
+.idata     0x5000       0x180        0x200        4.319324    
+.rsrc      0x6000       0x14c4       0x1600       3.526297    
+.reloc     0x8000       0x37e        0x400        5.525662    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: Copyright \xa9 1998 Brad Martinez, CCRP
+InternalName: ccrpRegUtil
+FileVersion: 1.20.0007
+CompanyName: Common Controls Replacement Project (CCRP)
+LegalTrademarks: Brad Martinez, CCRP
+Comments: Registers/unregisters COM servers and type libraries. Usage: ccrpRegUtil.exe [/u] [path]
+ProductName: CCRP Registration Utility
+ProductVersion: 1.20.0007
+FileDescription: CCRP Registration Utility
+OriginalFilename: ccrpRegUtil.exe
+

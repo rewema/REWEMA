@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    665130 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     76abe12b47c808d21f45654203ba9878
+SHA1:    4ea5f4e5333ccf9ac095fd364aba48544908b61d
+ssdeep:  12288:7mz39dIvuT393BPTAC4R8PzjEj58mQLmpHd0lzQli0Ycc3iFSI/uNU/Fq3Hz+lO/:7I39dg6393BECY8vEjemymL0VryFV/uN
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4097f0 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xa3768 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x10354  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x1047c  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x109e4  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x10ccc  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x11574  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11868  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11b74  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11e44  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x11eac  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11f60  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x12010  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x1203c  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x1207c  0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x12478  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x8f14       0x9000       6.576229    
+DATA       0xa000       0x248        0x400        2.724170    
+BSS        0xb000       0xe34        0x0          0.000000    [SUSPICIOUS]
+.idata     0xc000       0x942        0xa00        4.420093    
+.tls       0xd000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xe000       0x18         0x200        0.199108    [SUSPICIOUS]
+.reloc     0xf000       0x880        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x10000      0x2800       0x2800       4.342110    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileDescription: FurySync Setup                                              
+FileVersion: 3.0.0.4             
+Comments: This installation was built with Inno Setup: http://www.innosetup.com
+CompanyName: Freecorp                                                    
+Translation: 0x0409 0x04e4
+

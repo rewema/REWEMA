@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    315392 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b764a08deec3b10570855eb88af20cd0
+SHA1:    99b5e3e6aab8be8230c87cacaa80b60a8c97477b
+ssdeep:  6144:B1RjYrZxYaUKBIZ5EAWIh5zPEUN3fRoXBAV/awyolu3iR/py7rIzFtjHnOZX:TRE9+vp5EP8JPEhrolKiR/pHOZ
+Date:    0x4E1C92A7 [Tue Jul 12 18:29:59 2011 UTC]
+EP:      0x4305b7 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x59c4b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x501e0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x50308  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x505f0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50c58  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x50d08  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50e38  0x330    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x51168  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x511c8  0x2fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x37291      0x38000      6.633502    
+.rdata     0x39000      0x10a72      0x11000      6.349836    
+.data      0x4a000      0x5d24       0x1000       3.562439    
+.rsrc      0x50000      0x14c8       0x2000       2.148629    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997-2011 Simon Tatham.
+InternalName: PSCP
+FileVersion: Release 0.61
+CompanyName: Simon Tatham
+ProductName: PuTTY suite
+ProductVersion: Release 0.61
+FileDescription: Command-line SCP/SFTP client
+OriginalFilename: PSCP
+Translation: 0x0809 0x04b0
+

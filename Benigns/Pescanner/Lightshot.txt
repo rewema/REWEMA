@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    225944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e05782e0b697cadbbc17e78c67280b30
+SHA1:    1aaffed62e2972fdb3d9e976118f46d7fb1713df
+ssdeep:  3072:rqhd3Nc9EDsF2slLsvrD59WYcwIFU9OImpVYe3d3RIj/l867:Md3NcWDY2slLsT/WYcwIe9DkL3pRw1
+Date:    0x4ADA62FD [Sun Oct 18 00:36:13 2009 UTC]
+EP:      0x408799 .text 0/5
+CRC:     Claimed: 0x3c5a8, Actual: 0x3c5a8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x194a8  0x6e37   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x202e0  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x30b08  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x34d30  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x35dd8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x36240  0x10a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3634c  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36404  0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36434  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36460  0x296    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x366f8  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36a20  0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36c9c  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36da4  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x36e80  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x37078  0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x37128  0x44     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x3716c  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x371dc  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0x37228  0x28c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x374b4  0x26e    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10cdc      0x10e00      6.404079    
+.rdata     0x12000      0x343c       0x3600       5.240245    
+.data      0x16000      0x2ea0       0x1200       2.372736    
+.rsrc      0x19000      0x1e722      0x1e800      4.746726    
+.reloc     0x38000      0x1898       0x1a00       4.091300    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2009
+InternalName: Starter
+FileVersion: 1, 0, 0, 1
+ProductName: Starter Module
+ProductVersion: 1, 0, 0, 1
+FileDescription: Starter Module
+OriginalFilename: Starter.exe
+Translation: 0x0409 0x04b0
+

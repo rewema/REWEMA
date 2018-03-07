@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     b4f6b86cdabb946a058d7b4d7bf97590
+SHA1:    571d60f9f55ac915ad12a1abc048f68bc3a699fc
+ssdeep:  768:KHaku/l+Nn1ZNeFAx9b6R1ZhvDKrvxuduD:KHakkl+N1DeFAiPzrKjxmuD
+Date:    0x57898ED9 [Sat Jul 16 01:33:13 2016 UTC]
+EP:      0x406630 .text 0/5
+CRC:     Claimed: 0x12fca, Actual: 0x12fca 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9780   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x93b0   0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5db4       0x5e00       6.272621    
+.data      0x7000       0x48c        0x200        0.183339    [SUSPICIOUS]
+.idata     0x8000       0xaf0        0xc00        4.797379    
+.rsrc      0x9000       0x848        0xa00        3.775160    
+.reloc     0xa000       0x50c        0x600        6.059903    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: waitfor.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: waitfor - wait/send a signal over a network
+OriginalFilename: waitfor.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1607568 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6065ce9dec1fceb33cad64d77781b329
+SHA1:    28228986b437ec2bd9341d50da9610dfbdf1b4c3
+ssdeep:  24576:j/y7SF+PVz79OFHT3FE6/VKn5edLhgefhb+L6lw5O6ZsVJXWwcLE6g32LtXK:jQk+PVzBOJn9ws1gyqcWOkcXWwcg655K
+Date:    0x567F796C [Sun Dec 27 05:38:52 2015 UTC]
+EP:      0x40324f .text 0/5
+CRC:     Claimed: 0x1943ee, Actual: 0x1943ee 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3e3e8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40990  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x41a38  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x428e0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43188  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x437f0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x43d58  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x441c0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x444a8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x445d0  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x44688  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x447a8  0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x449a8  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x44aa0  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x44b40  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x44c30  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 16x16, 16-colors
+RT_VERSION         0x44cb8  0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x44ef8  0x3be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c4a       0x5e00       6.410764    
+.rdata     0x7000       0x115e       0x1200       5.142548    
+.data      0x9000       0x1b078      0x600        4.225220    
+.ndata     0x25000      0x19000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x3e000      0x72b8       0x7400       5.698910    
+
+Version info
+================================================================================
+LegalCopyright: (c) QFX Software Corporation. All Rights Reserved.
+ProductName: KeyScrambler
+FileVersion: 3.11.0.3
+FileDescription: KeyScrambler Installer/Updater
+Translation: 0x0409 0x04e4
+

@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    143360 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b7ed57ec499b92c394b8971961fefbe4
+SHA1:    e0bf799d4311de1fa38eff89bd6d57fbf767eb1f
+ssdeep:  1536:NGmbcVPDJGAvXm0BX/k/GD/9nBfcKQkq7QCDuWUn3a6mnEBYCZ:ombcpvXm09ywesWUn35mBC
+Date:    0x462CB349 [Mon Apr 23 13:23:21 2007 UTC]
+EP:      0x41ca6e .text 0/3
+CRC:     Claimed: 0x2cfe4, Actual: 0x2cfe4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+CEUX               0x1e2d4  0x2      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1e2d8  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1e940  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1ec28  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1ed50  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x209f8  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x216a0  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x21a08  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x228b0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x23158  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x236c0  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0x23744  0x4fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1aa74      0x1b000      5.387983    
+.rsrc      0x1e000      0x5c40       0x6000       4.666542    
+.reloc     0x24000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (C) 2004-2005, 2007 Rocky Lo. Copyright (C) 2002 Ultr@VNC Team Members. Copyright (C) 2000-2002 Const Kaplinsky. Copyright (C) 2002 RealVNC Ltd. Copyright (C) 1999 AT&T Laboratories Cambridge.
+Assembly Version: 1.0.1.17
+InternalName: vncviewer.exe
+FileVersion: 1.0.1.17
+CompanyName: Rocky Lo
+LegalTrademarks:  
+Comments: VNC Viewer on .NET Framework
+ProductName: .NET VNC Viewer
+ProductVersion: 1.0.1.17
+FileDescription: .NET VNC Viewer
+OriginalFilename: vncviewer.exe
+

@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    894976 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     4337a7ef39920521559839da3dcb4b01
+SHA1:    d5e58a89639c8d9187a7b0e4040e05c7244ae63b
+ssdeep:  12288:H3ZATCRM+9f3PYDs3x33AlFlkcdvt3iDN8vSTE5R/:H32zsf/YDqxAPBF3iD+STET
+Date:    0x57898E2B [Sat Jul 16 01:30:19 2016 UTC]
+EP:      0x4b8e20 .text 0/5
+CRC:     Claimed: 0xdafaf, Actual: 0xdafaf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xde630  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xde4d8  0x152    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xde110  0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+OpenProcessToken
+OpenProcess
+CreateServiceW
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcd380      0xcd400      6.262968    
+.data      0xcf000      0xcb54       0x1600       4.176650    
+.idata     0xdc000      0x1e12       0x2000       5.233494    
+.rsrc      0xde000      0x720        0x800        3.072197    
+.reloc     0xdf000      0x9014       0x9200       6.729114    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SensorDataService.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Sensor Data Service
+OriginalFilename: SensorDataService.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    54272 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bfb466b97c831a5a8dc573ff78bbd4be
+SHA1:    4bb622e36a4f841cc22481e9c95cce4b5d235d27
+ssdeep:  768:wzoMuCuEz8H2lJ+e8VFdD+dm7yMlXRYrtc7LLNhMqHk:wLuk+bdD+fS6rm4qH
+Date:    0x57898EE0 [Sat Jul 16 01:33:20 2016 UTC]
+EP:      0x40b130 .text 0/5
+CRC:     Claimed: 0x10400, Actual: 0x10400 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xe750   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xe3a8   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe0f0   0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa864       0xaa00       5.867400    
+.data      0xc000       0x3c0        0x200        0.388783    [SUSPICIOUS]
+.idata     0xd000       0xe76        0x1000       5.032918    
+.rsrc      0xe000       0x818        0xa00        3.725285    
+.reloc     0xf000       0x824        0xa00        6.054082    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bfsvc.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Boot File Servicing Utility
+OriginalFilename: bfsvc.exe
+Translation: 0x0409 0x04b0
+

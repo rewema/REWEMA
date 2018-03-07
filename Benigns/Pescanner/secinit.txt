@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     188ae389058beddba2628b90c832bc3b
+SHA1:    5d3f71838093034f452f0ab50105c14371480f51
+ssdeep:  384:nJjWTxYcgSQ7XC1ucsjvNwe1W8vEzRiW:JwYcgSQu1chTQ
+Date:    0x57898F6E [Sat Jul 16 01:35:42 2016 UTC]
+EP:      0x402830 .text 0/5
+CRC:     Claimed: 0x9b2e, Actual: 0x9b2e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5708   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5388   0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x297    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e5c       0x2000       5.613025    
+.data      0x3000       0x370        0x200        0.264678    [SUSPICIOUS]
+.idata     0x4000       0x700        0x800        4.579179    
+.rsrc      0x5000       0x7d0        0x800        4.252615    
+.reloc     0x6000       0x22c        0x400        4.357905    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: secinit
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Security Init
+OriginalFilename: secinit
+Translation: 0x0409 0x04b0
+

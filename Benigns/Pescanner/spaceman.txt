@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     2ee915bb91b0773b20e14987ccfe9bab
+SHA1:    6bf10f9dd1fb4f9451dc77b65265d9d720988788
+ssdeep:  768:p6TIYHpg/Ryuqlk4823jMOErohfI1j3XA:p6UOg/cui8TJotI1j3w
+Date:    0x57898F48 [Sat Jul 16 01:35:04 2016 UTC]
+EP:      0x406810 .text 0/6
+CRC:     Claimed: 0x1253b, Actual: 0x1253b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb9e0   0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xb4c0   0x51a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xb110   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x68cc       0x6a00       6.246689    
+.data      0x8000       0x518        0x200        2.441685    
+.idata     0x9000       0x9ac        0xa00        4.861811    
+.didat     0xa000       0x20         0x200        0.341839    [SUSPICIOUS]
+.rsrc      0xb000       0xad0        0xc00        3.289641    
+.reloc     0xc000       0x760        0x800        6.465569    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SpaceManager
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Storage Spaces Manager
+OriginalFilename: SpaceMan.exe
+Translation: 0x0409 0x04b0
+

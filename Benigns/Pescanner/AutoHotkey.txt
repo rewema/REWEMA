@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    245248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d960f13a44d3bd8f262df625f5705a63
+SHA1:    7af551a851da5ccb8a98ba980b6b19ec5892884d
+ssdeep:  6144:6YEWkCVo8BqmXMdmE0HEIBM6NBrTva+U7kNk0n:6AkmXMdmEwE1qrTBU7p
+Date:    0x4ABD12A2 [Fri Sep 25 18:57:38 2009 UTC]
+EP:      0x487d60 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x45715 [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8844c  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x88738  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x88864  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x88990  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x88abc  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x88da8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x88ed4  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x83678  0x2c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x84580  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x84668  0x48     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x89000  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x89018  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x89030  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x89048  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x89060  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x89078  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x89090  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x890a8  0x298    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x89344  0x221    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0x4d000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0x4e000      0x3a000      0x3a000      7.921051    [SUSPICIOUS]
+.rsrc      0x88000      0x2000       0x1a00       4.590946    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2009
+InternalName: AutoHotkey
+FileVersion: 1, 0, 48, 05
+ProductName: AutoHotkey
+ProductVersion: 1, 0, 48, 05
+FileDescription: AutoHotkey
+OriginalFilename: AutoHotkey.rc
+Translation: 0x0409 0x04b0
+

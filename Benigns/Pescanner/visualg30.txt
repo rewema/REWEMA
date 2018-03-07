@@ -1,0 +1,153 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3126784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ab38a86831b004c24fc4363269540808
+SHA1:    42e38ebacb6f28c7787538d0884b1814f270d69b
+ssdeep:  49152:JURdEWJfJiONHl0WGObS5fBcoToV7YRtinGdj+tRjFKC7BmCGw+8rW:JUDxGKlp7cR4MML74CGw+8
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x59c324 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x2fbdd7 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x175114L => JOIN
+   0x7869L => MSG
+   0x7881L => MSG
+   0x259c4L => Msg
+   0x7d3acL => Msg
+   0x13e882L => Msg
+   0x969f9L => part
+   0x175710L => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x2943e4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x294518 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x29464c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x294780 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x2948b4 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x2949e8 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x294b1c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x294c50 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x294e20 0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x295004 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2951d4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2953a4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x295574 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x295744 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x295914 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x295ae4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x295cb4 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x295e84 0x488    LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x29630c 0xc58    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x296f64 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x29704c 0x378    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x2973c4 0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x29749c 0x2e8    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0x297784 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2977d8 0x4c     LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x297824 0xaa     LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x2978d0 0x186    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x297a58 0x1ce    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x297c28 0x144    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x297d6c 0x7e     LANG_ENGLISH SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x297dec 0x24     LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x297e10 0x124    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x297f34 0x240    LANG_NEUTRAL SUBLANG_NEUTRAL          PCX ver. 2.5 image data
+RT_STRING          0x298174 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x29845c 0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x298768 0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x298b34 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x298d04 0x16c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x298e70 0x238    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2990a8 0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x299430 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0x299500 0x19c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29969c 0x184    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x299820 0x41c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x299c3c 0x3dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29a018 0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29a3dc 0x3b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29a794 0x430    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x29abc4 0xf4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29acb8 0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x29ad7c 0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29b03c 0x420    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29b45c 0x330    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x29b78c 0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x29baa0 0xcbf    LANG_RUSSIAN SUBLANG_RUSSIAN          PNG image data, 60 x 20, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x29c760 0xd58    LANG_RUSSIAN SUBLANG_RUSSIAN          PNG image data, 33 x 33, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x29d4b8 0xd0d    LANG_RUSSIAN SUBLANG_RUSSIAN          PNG image data, 33 x 33, 8-bit/color RGBA, non-interlaced
+RT_RCDATA          0x29e1c8 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x29e1d8 0x748    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x29e920 0x21b0   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2a0ad0 0x6df    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2a11b0 0x68b6e  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x309d20 0x5a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30a2c0 0x554    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30a814 0x24d    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30aa64 0x5f3    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30b058 0x2262   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30d2bc 0x26ba   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30f978 0x27c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30fbf4 0x31e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x30ff14 0xc2fe6  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x3d2efc 0x762    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x3d3660 0x2a1    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x3d3904 0x218    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x3d3b1c 0x617    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x3d4134 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x3d4148 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x3d415c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x3d4170 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x3d4184 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x3d4198 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x3d41ac 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x3d41c0 0x14     LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN MS Windows icon resource - 1 icon
+RT_VERSION         0x3d41d4 0x484    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+
+Suspicious IAT alerts
+================================================================================
+WriteProcessMemory
+VirtualAllocEx
+ReadProcessMemory
+OpenProcess
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x19b450     0x19b600     6.540717    
+DATA       0x19d000     0x58d8       0x5a00       6.341260    
+BSS        0x1a3000     0xd4dd9      0x0          0.000000    [SUSPICIOUS]
+.idata     0x278000     0x2c32       0x2e00       4.950047    
+.tls       0x27b000     0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x27c000     0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x27d000     0x159e8      0x15a00      6.704836    
+.rsrc      0x293000     0x141800     0x141800     7.707058    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Professor Antonio Carlos Nicolodi
+InternalName: VISUALG30
+FileVersion: 3.0.6.5
+CompanyName: Professor Antonio Carlos Nicolodi
+LegalTrademarks: Professor Antonio Carlos Nicolodi
+Comments: Este software \xe9 GR\xc1TIS e de Dom\xednio P\xfablico; N\xe3o deve ser comercializado !
+ProductName: VISUALG 3
+ProductVersion: 3
+FileDescription: Visualg vers\xe3o 3.0 (Interpretador, editor  e visualizador de Algoritmos)
+OriginalFilename: VISUALG30.EXE
+Translation: 0x0416 0x04e4
+

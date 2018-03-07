@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    66048 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     934073be2a7157bef5cf6b88edae3d29
+SHA1:    d4ec5ba75b46a754b47ad2b3375481583145c10b
+ssdeep:  1536:Q4aTNS2pGY2hnDvwQbr+zI4f0YqmyVDiwOxKHulaOB7j:IS2pGY2aQmTf0hmyVsKOla+7j
+Date:    0x57899000 [Sat Jul 16 01:38:08 2016 UTC]
+EP:      0x40c810 .text 0/5
+CRC:     Claimed: 0x11d0b, Actual: 0x11d0b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x11750  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x113a0  0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x110f0  0x2a9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcf08       0xd000       6.202969    
+.data      0xe000       0x4cc        0x200        0.909806    [SUSPICIOUS]
+.idata     0xf000       0x1242       0x1400       4.951981    
+.rsrc      0x11000      0x818        0xa00        3.723980    
+.reloc     0x12000      0xc7c        0xe00        6.401979    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: GetMac.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Displays NIC MAC information
+OriginalFilename: GetMac.exe
+Translation: 0x0409 0x04b0
+

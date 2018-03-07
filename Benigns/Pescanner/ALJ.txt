@@ -1,0 +1,125 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    606208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4cb91d1472e89adc138615fe6450184c
+SHA1:    0116e1f8e32c8088b8dddc6ccaf9de70195c8f0f
+ssdeep:  12288:F1YNxN92ZxrDedRSdMrH2ad6C/q03dVAVb+BQWu+b:F1YNxNoxr6d0dMDh/TNR5
+Date:    0x40E2F7DF [Wed Jun 30 17:26:55 2004 UTC]
+EP:      0x43ac12 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xa0ff2 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x5f849L => deflate
+   0x5f86bL => Jean-loup Gailly
+   0x60911L => inflate
+   0x60933L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+INI                0x93178  0x926    LANG_ENGLISH SUBLANG_ENGLISH_US       ISO-8859 text, with very long lines, with CRLF line terminators
+MIDI               0x82d90  0x7dab   LANG_ENGLISH SUBLANG_ENGLISH_US       Standard MIDI data (format 1) using 20 tracks at 1/480
+MIDI               0x8ab40  0x8632   LANG_ENGLISH SUBLANG_ENGLISH_US       Standard MIDI data (format 1) using 20 tracks at 1/120
+RT_CURSOR          0x93aa0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x93bd8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x93cb8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x93e08  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x93f58  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0x940a8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x941f8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x94348  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x94498  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x945e8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x94738  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x94888  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x949d8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0x94b28  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x94c78  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x94dc8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x7a0e8  0x5f78   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x80060  0x57c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x95000  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x950b8  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x78e10  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x790f8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x79248  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x792b0  0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x79570  0x2ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x79830  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x79910  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x79cb8  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x94f18  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x95200  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x95288  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x952b8  0x192    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x95450  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x95cc8  0x31a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x959e8  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x96828  0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x95938  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x96718  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x95fe8  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x964b0  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x967f8  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x968b8  0x42     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x93c90  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94480  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x93df0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94330  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x941e0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94b10  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94090  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94720  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x93f40  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x945d0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94870  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x949c0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94c60  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94db0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x94f00  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x79220  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x79dd0  0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_HTML            0x805e0  0x7ce    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x80db0  0x8b2    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x81668  0x792    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x81e00  0x881    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x82688  0x651    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+None               0x82ce0  0xaa     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+InternetReadFile
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5b840      0x5c000      6.569642    
+.rdata     0x5d000      0x13828      0x14000      4.914634    
+.data      0x71000      0x6f34       0x4000       3.581253    
+.rsrc      0x78000      0x1e900      0x1f000      6.346107    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004, Alexf
+InternalName: ALJ
+FileVersion: 0, 0, 0, 0
+CompanyName: Alexf
+Comments: See about page for version date
+ProductName: ALJ Application
+ProductVersion: 0, 0, 0, 0
+FileDescription: ALJ Application
+OriginalFilename: ALJ.EXE
+Translation: 0x0409 0x04b0
+

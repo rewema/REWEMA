@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    145920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     697c39cdbe36bfb7efb68c1d3d2af9b8
+SHA1:    1ca91f750780e3c26ee01f7686401bbdffea58b4
+ssdeep:  3072:zWGZQvwJewRkfxcoAScxybkrOv2ZNYpkIBa2j6f/ACoJO1GBxGPetG:CGubcLPxyQqC3WvKPe
+Date:    0x5789907F [Sat Jul 16 01:40:15 2016 UTC]
+EP:      0x41cc90 .text 0/6
+CRC:     Claimed: 0x3231b, Actual: 0x3231b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x249e8  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x24658  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x240f0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+WriteProcessMemory
+VirtualAllocEx
+ReadProcessMemory
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e0d8      0x1e200      6.295242    
+.data      0x20000      0x914        0x600        0.955266    [SUSPICIOUS]
+.idata     0x21000      0x1e24       0x2000       5.355340    
+.didat     0x23000      0x18         0x200        0.215533    [SUSPICIOUS]
+.rsrc      0x24000      0xab0        0xc00        4.276693    
+.reloc     0x25000      0x1f20       0x2000       6.734460    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DWWIN
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Error Reporting
+OriginalFilename: DWWIN
+Translation: 0x0409 0x04b0
+

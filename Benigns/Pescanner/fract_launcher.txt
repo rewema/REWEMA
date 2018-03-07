@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1822720 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     96a9f19e4967e138f2e81eb98bb529c1
+SHA1:    865fc39f5c4f78aa26fb32c84818ea74431d9b7d
+ssdeep:  24576:GvbfBguIIFPhhXGBHU9XJj4Ji+lywDsnZY+V4EZlOzGfVQIHWT3ByJpbC:Gv7/IiSKoMusZY+V4ClOzGtOTxy
+Date:    0x44ECD678 [Wed Aug 23 22:28:08 2006 UTC]
+EP:      0x4da40e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1c0e54 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x175f89L => deflate
+   0x175fabL => Jean-loup Gailly
+   0x1760e9L => inflate
+   0x17610bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1ca428 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cc9d0 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cd678 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cdae0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d1d08 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1d2690 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 48x48, 256-colors
+RT_MANIFEST        0x1ca1c0 0x262    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xec82a      0xed000      6.443786    
+.rdata     0xee000      0xa3d48      0xa4000      5.571549    
+.data      0x192000     0x37790      0x22000      5.578211    
+.rsrc      0x1ca000     0x86e0       0x9000       5.588688    
+

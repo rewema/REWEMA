@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    48640 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e2a285fbf3beb083a8a1336c28197195
+SHA1:    b0c1a838a6d4d0862289b4a2fb4da375be389077
+ssdeep:  768:bfpKHTiPgnw1VzDtG+6Jc1Ra5yg8U/jGwWyu9:gHOonw3DtsJcLa5ygrrJWyu9
+Date:    0x57899118 [Sat Jul 16 01:42:48 2016 UTC]
+EP:      0x408f90 .text 0/5
+CRC:     Claimed: 0x16a0d, Actual: 0x16a0d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd1a0   0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xc510   0x8e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xcdf8   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc160   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x87e4       0x8800       5.831415    
+.data      0xa000       0x664        0x200        0.183339    [SUSPICIOUS]
+.idata     0xb000       0xea2        0x1000       4.725119    
+.rsrc      0xc000       0x1290       0x1400       4.101865    
+.reloc     0xe000       0xae0        0xc00        6.131079    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: tzutil.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Time Zone Utility
+OriginalFilename: tzutil.exe
+Translation: 0x0409 0x04b0
+

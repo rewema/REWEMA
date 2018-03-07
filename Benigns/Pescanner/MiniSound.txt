@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    93184 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     858158f2f140ef90c73fd0aa54a8a0e3
+SHA1:    e7a6c651fa6a455fb1ac784fe62d550c214db835
+ssdeep:  1536:1QfPPKqKrVA/JJ64AMOX/vbKblSq2cVx23Idrs0I+iewAU5x0r4HEoMewgJN0ciX:1QfPPKqKreKX/vbKblSq2cVx23Idrs0B
+Date:    0x4C3670EB [Fri Jul  9 00:44:27 2010 UTC]
+EP:      0x41791e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x20d7a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1a448  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1a9b0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x1a0e8  0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x15924      0x15a00      5.442439    
+.sdata     0x18000      0xc7         0x200        2.860146    
+.rsrc      0x1a000      0x9c8        0xa00        1.994017    
+.reloc     0x1c000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright Karolina K.Nowak \xa9  2010
+Assembly Version: 0.0.0.0
+InternalName: MiniSound.exe
+FileVersion: 0.6.3.24
+CompanyName: Anodyne Clan
+Comments: Music pure and simple!
+ProductName: MiniSound
+ProductVersion: 0.6.3.24
+FileDescription: MiniSound
+OriginalFilename: MiniSound.exe
+

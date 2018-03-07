@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    118784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     651581a18e505b77c4487f728fc67e55
+SHA1:    2cbc9f30de2833a47f383beaeb0baffabb15a532
+ssdeep:  3072:2I0eoB0zx7K+Qd2Eoyi9/vEBLktCF5sRkC1Qnnrs:2I0foyFAk
+Date:    0x411B1F15 [Thu Aug 12 07:41:09 2004 UTC]
+EP:      0x41bfce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x2ce0d [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c460  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          Claris clip art?
+RT_ICON            0x1c748  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1c870  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1c118  0x344    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x19fd4      0x1a000      5.964101    
+.rsrc      0x1c000      0x898        0x1000       1.823953    
+.reloc     0x1e000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Stefan Plattner
+Assembly Version: 1.0.1685.15634
+InternalName: CallingHome.exe
+FileVersion: 1.0.1685.15634
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1685.15634
+FileDescription: CallingHome
+OriginalFilename: CallingHome.exe
+

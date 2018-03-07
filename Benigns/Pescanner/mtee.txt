@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    11264 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7270d7a7f7d38f2f94b36450a8a33a30
+SHA1:    8d2441feab21a9b2d1eba2d0b5dff46b6da414a3
+ssdeep:  192:dauXKByF2DSZd7x9Id2Q/hlc4bAgzhT3XZVU8lE:dauXXF2DSZef7l5q8lE
+Date:    0x3F4D232A [Wed Aug 27 21:31:22 2003 UTC]
+EP:      0x402833 .data 0/2 [SUSPICIOUS]
+CRC:     Claimed: 0x8df9, Actual: 0x8df9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x30f0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x33d8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x33f0   0x35c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.data      0x1000       0x1f7c       0x2000       6.119312    
+.rsrc      0x3000       0x750        0x800        3.194679    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2001-2003 Ritchie Lawrence
+InternalName: mtee
+FileVersion: 2, 0, 0, 0
+Comments: More commandline utilities at http://www.commandline.co.uk
+ProductName: MTEE
+ProductVersion: 2, 0, 0, 0
+FileDescription: Commandline Standard Stream Splitter
+OriginalFilename: mtee.exe
+Translation: 0x0809 0x04b0
+

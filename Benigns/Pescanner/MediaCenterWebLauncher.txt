@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    57344 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     3865ac777d267a8aa49299d10a076007
+SHA1:    4cb5e3d4b16231e499682de6058d330ec3dd8617
+ssdeep:  768:M3l4ZUbie+8GP7oTmxdxLfJrMpaAlbTQZHcbNYWoBf169:MCyiR8Bi3NimQNYhj
+Date:    0x4A5BB6D1 [Mon Jul 13 22:36:01 2009 UTC]
+EP:      0x40a76e .text 0/3
+CRC:     Claimed: 0x19f85, Actual: 0x19f85 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MANIFEST        0xc5c0   0x26e    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+RT_ICON            0xc830   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xd0d8   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xd640   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe6e8   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xeb50   0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 32x32, 256-colors
+RT_VERSION         0xc1d8   0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8774       0x9000       5.649572    
+.rsrc      0xc000       0x2b90       0x3000       4.940339    
+.reloc     0x10000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MediaCenterWebLauncher.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Windows Media Center Web Launcher
+OriginalFilename: MediaCenterWebLauncher.exe
+Translation: 0x0409 0x04b0
+

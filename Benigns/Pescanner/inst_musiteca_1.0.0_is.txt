@@ -1,0 +1,134 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6438968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     506b8573d8887314cc148d03795f1e15
+SHA1:    20feba711b4864cbee834fc6295158c67bf11064
+ssdeep:  98304:z5EtxA0WGhw5hRELX5FVl+qU6GhsAJOoYN+ftuaQlwFaceKz3Tw8AJfzd0krtj:zSu0WaYGJFr+qRGrgJ+ftfvdrdAVqkhj
+Date:    0x4A300378 [Wed Jun 10 19:03:20 2009 UTC]
+EP:      0x455fc3 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x62d67b [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x76d01L => deflate
+   0x76d23L => Jean-loup Gailly
+   0x7a0b9L => inflate
+   0x7a0dbL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+GIF                0x99e54  0x5731   LANG_NEUTRAL SUBLANG_NEUTRAL          GIF image data, version 89a, 175 x 312
+GIF                0x9f588  0x6592   LANG_ENGLISH SUBLANG_ENGLISH_US       GIF image data, version 89a, 175 x 312
+RT_BITMAP          0xa5b1c  0x14220  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xb9d3c  0x1b5c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xbb898  0x38e4   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xbf17c  0x1238   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xc03b4  0x6588   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xc693c  0x11f88  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xd88c4  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xd8f2c  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xd9214  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xd933c  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xda1e4  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdaa8c  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xdaff4  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdd59c  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xde644  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xdeaac  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xded94  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdf07c  0x1fe    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdf27c  0x296    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdf514  0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdf7f4  0x64     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdf858  0x42     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdf89c  0xe6     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdf984  0x124    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdfaa8  0xe6     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdfb90  0x276    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xdfe08  0x3d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe01e0  0x182    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe0364  0x21c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe0580  0x1fa    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe077c  0x222    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe09a0  0x8c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe0a2c  0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe0df8  0x168    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe0f60  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe114c  0x116    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe1264  0xee     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe1354  0x1d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe1528  0x1ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xe1714  0x256    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe196c  0x160    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe1acc  0x23e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe1d0c  0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe2084  0x252    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe22d8  0x1f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe24cc  0x66c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe2b38  0x366    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe2ea0  0x27e    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (7209065 records)
+RT_STRING          0xe3120  0x518    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe3638  0x882    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe3ebc  0x23e    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_STRING          0xe40fc  0x3ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe44b8  0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe45e4  0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe4630  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe470c  0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe481c  0x20a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe4a28  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe4ae4  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0xe4b8c  0x12a    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_STRING          0xe4cb8  0x422    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe50dc  0x5c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe56a0  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe56e0  0x8f2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe5fd4  0x284    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xe6258  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_GROUP_ICON      0xe62dc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xe62f0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xe6304  0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe6680  0x378    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+ShellExecuteW
+OpenProcess
+CreateProcessW
+WriteProcessMemory
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x73b30      0x73c00      6.615678    
+.rdata     0x75000      0x13374      0x13400      5.129166    
+.data      0x89000      0xfce8       0xa600       3.550343    
+.rsrc      0x99000      0x4d9f8      0x4da00      6.573401    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2009 Acresso Software Inc. and/or InstallShield Co. Inc. All Rights Reserved.
+InternalName: Setup
+FileVersion: 1.0.0
+CompanyName: Rama Studios
+Internal Build Number: 90563
+ProductName: Musiteca
+ProductVersion: 1.0.0
+FileDescription: Musiteca Installer
+OriginalFilename: Setup.exe
+Translation: 0x0409 0x04b0
+

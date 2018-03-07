@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38400 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     46e117f8574f0f06e1a20aaf069a7d84
+SHA1:    a8f3f5bd9ba5ab317615d28667d0576611bd67d5
+ssdeep:  768:gKV9lUrBk3oTy1KgcpMRqpEDSyLwEFVFlubIecuEC/:B+rBk3oe1KgclQSy3FVFlubILuEC/
+Date:    0x57898EC6 [Sat Jul 16 01:32:54 2016 UTC]
+EP:      0x406b40 .text 0/5
+CRC:     Claimed: 0x19027, Actual: 0x19027 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xb358   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb0a0   0x2b2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x67ac       0x6800       5.938005    
+.data      0x8000       0x12c8       0xa00        1.097960    
+.idata     0xa000       0xe58        0x1000       4.759963    
+.rsrc      0xb000       0x710        0x800        4.039153    
+.reloc     0xc000       0x7c0        0x800        6.575125    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: gpscript
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Group Policy Script Application
+OriginalFilename: GPSCRIPT.EXE
+Translation: 0x0409 0x04b0
+

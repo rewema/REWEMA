@@ -1,0 +1,93 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    229376 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c3df532bc600fcbfc513f4dce609a1c2
+SHA1:    1a13a2c6eae74b927a74614a1523738fae89d977
+ssdeep:  3072:uYD+X56y1pIwjseFMCTh148FUiJ8ohZVAQ:5YgUFMCl13L
+Date:    0x50C5C10A [Mon Dec 10 11:01:30 2012 UTC]
+EP:      0x40a02d .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x3fa9a [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1d5e8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x1db50  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x1e0b8  0x5c8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x1e680  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x1ebe8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x1f150  0x1fa8   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x210f8  0xa48    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x21b40  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x220a8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x22610  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x22b78  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x230e0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x23648  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x23bb0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x24118  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x24680  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x24be8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x25150  0x5c8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x33790  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x25718  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x26b80  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x27fe8  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x29450  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x2a8b8  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x2bd20  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x2d188  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x32328  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x30ec0  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x2fa58  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x2e5f0  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x34bf8  0x1468   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x36060  0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x36448  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x369b0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x36f18  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x37480  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x379e8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x37f50  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x384b8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x38a20  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x38f88  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x394f0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x1c930  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x1d1f0  0x36     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x1d1d8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x1d228  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x127c2      0x13000      6.604236    
+.rdata     0x14000      0x1b9a       0x2000       4.576046    
+.data      0x16000      0x5ea4       0x4000       1.761889    
+.rsrc      0x1c000      0x1da58      0x1e000      1.473465    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2008 code::Biscuit
+InternalName: OpenTuner
+FileVersion: 1, 0, 0, 0
+CompanyName: code::Biscuit
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: OpenTuner
+SpecialBuild: 
+ProductVersion: 1, 0, 0, 0
+FileDescription: Open Tuner - Open Source Instrument Tuning Application
+OriginalFilename: oTuner_WCE.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 Mono/.Net assembly
+MD5:     8470b9fb7750af0b82c1c90a47d37d1c
+SHA1:    778b5560deefe12391d7ee06f526b3da7c82b0e7
+ssdeep:  384:Ly2s+fssUg+OSxhDs9W9DA+YvrQKahZNisVUmDsVltVk0dvaeT7QCbmwDV7wJ/Wr:Qrw2dYsbRnlDsV7gewKrPOvD
+Date:    0x57898962 [Sat Jul 16 01:09:54 2016 UTC]
+EP:      0x406db2 .text 0/3
+CRC:     Claimed: 0x159eb, Actual: 0x159eb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8090   0x406    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x84a8   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4db8       0x4e00       5.670820    
+.rsrc      0x8000       0x698        0x800        3.613115    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright (c) Microsoft Corporation. All rights reserved.
+Assembly Version: 10.0.0.0
+InternalName: acu.exe
+FileVersion: 10.0.14393.0
+CompanyName: Microsoft Corporation
+Comments: Contains the Application Container Updater
+ProductName: Microsoft (R) Windows (R) Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: ACU
+OriginalFilename: acu.exe
+

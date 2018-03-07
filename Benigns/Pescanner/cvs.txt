@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1249344 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     06e4b5ef32562b2d30f19d3dddc6ec98
+SHA1:    a27380cc8f71f4b42182763ab67a3f90e46dcf43
+ssdeep:  24576:KJUZy0q0qjhYSuKkmVBQ+BNyfowV/3PDu:K2wr1L/BNXgvC
+Date:    0x40C89B7C [Thu Jun 10 17:33:48 2004 UTC]
+EP:      0x489d90 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x136459 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xfabd9L => deflate
+   0x11dc30L => deflate
+   0x11dc38L => deflate
+   0x11dc54L => deflate
+   0x11dce1L => deflate
+   0xfabfbL => Jean-loup Gailly
+   0xfbb09L => inflate
+   0x11dbb4L => inflate
+   0xfbb2bL => Mark Adler
+
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf6660      0xf7000      4.545442    
+.rdata     0xf8000      0x6206       0x7000       4.377121    
+.data      0xff000      0x2a8f0      0x28000      4.332806    
+.idata     0x12a000     0xe41        0x1000       4.223880    
+.reloc     0x12b000     0x8d80       0x9000       6.289874    
+

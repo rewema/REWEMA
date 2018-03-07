@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    507904 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     856542ecb3abe4ff8d4bebad18ac822b
+SHA1:    158639d361e3ac8078ccb160044cfab9364c6f79
+ssdeep:  6144:gS55eF3jq/fA26FOLJ/0B2Q7tKsQipT9usjuVenRp2AhEpTY9DY7jyaglH7R+EnE:cFz8V6FOLBOVPjuVe+sEpDfTg1nRs0T
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x46a11c CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x82b0a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x826e8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x8281c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x82950  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x82a84  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x82bb8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x82cec  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x82e20  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x82f54  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0x8323c  0x1d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x83410  0x1a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x835b4  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7274574 records)
+RT_STRING          0x8369c  0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x8395c  0x40c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x83d68  0x394    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x840fc  0x414    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x84510  0x114    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x84624  0xe4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6750325 records)
+RT_STRING          0x84708  0x24c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x84954  0x384    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x84cd8  0x3ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x85084  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x8536c  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x8537c  0x250    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x855cc  0x24c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x85818  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8582c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x85840  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x85854  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x85868  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8587c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x85890  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x858a4  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x6916c      0x69200      6.580023    
+DATA       0x6b000      0x3dd4       0x3e00       5.638972    
+BSS        0x6f000      0x48ed       0x0          0.000000    [SUSPICIOUS]
+.idata     0x74000      0x239a       0x2400       4.930998    
+.tls       0x77000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x78000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x79000      0x8a68       0x8c00       6.752655    
+.rsrc      0x82000      0x3a00       0x3a00       3.992885    
+

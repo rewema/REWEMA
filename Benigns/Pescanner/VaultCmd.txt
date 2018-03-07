@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23040 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     25da0179558e24f84a6f7c421bef1022
+SHA1:    5a7023a2d36232dd1f40bbeaf18f38a31931f1be
+ssdeep:  384:UJ5EdzwmgsWQITphFRyTNU6iDPhXbOE3YlDGAvVBFWYFWiOG:+e7utvFRyoPkIYlGAdBhP
+Date:    0x57899145 [Sat Jul 16 01:43:33 2016 UTC]
+EP:      0x404230 .text 0/5
+CRC:     Claimed: 0x6841, Actual: 0x6841 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7758   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a0   0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x389c       0x3a00       6.184792    
+.data      0x5000       0x390        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0xbd2        0xc00        4.745882    
+.rsrc      0x7000       0x820        0xa00        3.735247    
+.reloc     0x8000       0x32c        0x400        5.771660    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Credential Vault Test
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Vault cmdline Program
+OriginalFilename: VAULTCMD.EXE
+Translation: 0x0409 0x04b0
+

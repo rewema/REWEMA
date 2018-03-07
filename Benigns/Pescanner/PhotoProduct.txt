@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    149672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8d0fd14b95428244152989ebf758ea94
+SHA1:    8303a32d90b9b36d12dea7a95da0be6b0249008b
+ssdeep:  3072:yprR40JbDRM4UMGASgRGcROMhY/BcKI19E5X:ilTVuBMG3WGSOMhgpI19q
+Date:    0x4F50B18F [Fri Mar  2 11:39:59 2012 UTC]
+EP:      0x4091cf .text 0/4
+CRC:     Claimed: 0x29c20, Actual: 0x29c20 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x21430  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x21718  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x21840  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x226e8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22f90  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x234f8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25aa0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26b48  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x27028  0x4a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x21390  0x9c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x27088  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x27488  0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x27078  0x10     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x26fb0  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 32x32, 16-colors
+RT_VERSION         0x27130  0x354    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1104a      0x12000      6.468047    
+.rdata     0x13000      0x66ee       0x7000       5.588580    
+.data      0x1a000      0x664c       0x2000       3.469001    
+.rsrc      0x21000      0x64d8       0x7000       4.013307    
+
+Version info
+================================================================================
+LegalCopyright: (c) 2003-2009 Visan / RocketLife.  All rights reserved.
+InternalName: PhotoProduct.exe
+FileVersion: 1, 0, 0, 7702
+CompanyName: Visan / RocketLife
+ProductName: PhotoProduct.exe
+ProductVersion: 1, 0, 0, 7702
+FileDescription: PhotoProduct.exe
+OriginalFilename: PhotoProduct.exe
+Translation: 0x0409 0x04b0
+

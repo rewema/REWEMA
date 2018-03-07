@@ -1,0 +1,29 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    189315 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1a161bbfa768861268183a5fa240b12a
+SHA1:    6083e4382dd90b1b9ed8e7a1579d08708d53b972
+ssdeep:  3072:WrU/BjiI/W8yU34P9k5H0+Y+wzajJJXJaAYTkvbZj11vrwFtP:zBZW9UoPWe+Y+YaNJXJfYTkvbZj11v83
+Date:    0x45DA34B3 [Mon Feb 19 23:37:23 2007 UTC]
+EP:      0x401270 .text 0/7
+CRC:     Claimed: 0x3bec5, Actual: 0x3bec5 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11ac0      0x11c00      6.342870    
+.data      0x13000      0x80         0x200        0.557786    [SUSPICIOUS]
+.rdata     0x14000      0x37a0       0x3800       5.543869    
+.bss       0x18000      0x500        0x0          0.000000    [SUSPICIOUS]
+.idata     0x19000      0x7a8        0x800        4.514421    
+.stab      0x1a000      0x7590       0x7600       3.402767    
+.stabstr   0x22000      0x8698       0x8800       5.495316    
+

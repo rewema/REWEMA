@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    249856 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     aba904a354653cae4e939fcadb1127a0
+SHA1:    84f63d042802d16f160a6d84d834c812a25458e1
+ssdeep:  6144:jzrXQN1uWF8+lSxX7RvGrJtMSYWF8+lSxX7RvGrJtMSbl/NK:jnQNwd9vUnwd9vU/
+Date:    0x4D168B23 [Sun Dec 26 00:24:03 2010 UTC]
+EP:      0x43b17e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x400b9 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x3c058  0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x39184      0x3a000      6.960810    
+.rsrc      0x3c000      0x3b8        0x1000       1.015425    
+.reloc     0x3e000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2009
+Assembly Version: 1.2.4012.2521
+InternalName: TecnoFreak.exe
+FileVersion: 1.2.4012.2521
+CompanyName: Pau Novau Lebrato
+ProductName: TecnoFreak Character Tool
+ProductVersion: 1.2.4012.2521
+FileDescription: TecnoFreak Character Tool
+OriginalFilename: TecnoFreak.exe
+

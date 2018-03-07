@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d1d31068e35f48425350908f97b51391
+SHA1:    9802fff04a3fb7e366f2926774c0ca99deacbeec
+ssdeep:  192:kHBJlnHKkLsNlFK0L8et40L8SP1oynkt1n6LqKKfZl/5pCQPtxEqm:iBrnHxY4Im+1enPBm
+Date:    0x4129AF59 [Mon Aug 23 08:48:25 2004 UTC]
+EP:      0x401c20 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xc908 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6160   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6448   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x6598   0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6570   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6978   0x354    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1042       0x2000       3.500677    
+.rdata     0x3000       0xc36        0x1000       3.697305    
+.data      0x4000       0x1dd4       0x2000       0.731785    [SUSPICIOUS]
+.rsrc      0x6000       0xcd0        0x1000       2.802702    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004
+InternalName: SystemDialogs_Demo
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: SystemDialogs_Demo Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: SystemDialogs_Demo MFC Application
+OriginalFilename: SystemDialogs_Demo.EXE
+Translation: 0x0409 0x04b0
+

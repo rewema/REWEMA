@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    66048 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3d19b373362e9cb8ff0733716532a5d1
+SHA1:    d555134c0dced8d4c4a296f1364deb9adbe9a6e1
+ssdeep:  1536:IL+FKOVZaS4s/SkemIRx+UYMfF8NXDTZYz4vE62:2+MOVZaS4s/SLGM0zlYz4M62
+Date:    0x578990DA [Sat Jul 16 01:41:46 2016 UTC]
+EP:      0x407670 .text 0/5
+CRC:     Claimed: 0x1208d, Actual: 0x1208d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x12060  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd3a0       0xd400       6.224057    
+.data      0xf000       0x6b4        0x400        3.776019    
+.idata     0x10000      0x114a       0x1200       5.156076    
+.rsrc      0x12000      0x408        0x600        2.419967    
+.reloc     0x13000      0xc9c        0xe00        6.328530    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: sihost.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Shell Infrastructure Host
+OriginalFilename: sihost.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4608 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     c42e6f96dc8dff1755cc768284a5752d
+SHA1:    4f8192942c79f3af4c055f7a19ea61ee7a6c9923
+ssdeep:  48:6w6OX79nap9CVoXl/GLn5Sf9eZnXbGzdCxZ3OPul80ejKq:h1qIG1/knkebGzdCvK0e
+Date:    0x403F7527 [Fri Feb 27 16:49:43 2004 UTC]
+EP:      0x4028de .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xf530 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8e4        0xa00        4.397691    
+.rsrc      0x4000       0x340        0x400        2.602437    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: Philosopher.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: Philosopher.exe
+

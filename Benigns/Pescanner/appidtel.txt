@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22528 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     90d8febc9f3f5aa234d971156547cb6e
+SHA1:    62ba043cb41806c50517cb8ccb6d4b8872ad97cb
+ssdeep:  384:zB0829sKmxID12dTovOXcTZY48gpZ1I1xDSvVdHWsOsWp:zB0829lUIATovztpZKbUdwP
+Date:    0x57899140 [Sat Jul 16 01:43:28 2016 UTC]
+EP:      0x403ce0 .text 0/5
+CRC:     Claimed: 0x13342, Actual: 0x13342 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x7060   0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3db4       0x3e00       5.958618    
+.data      0x5000       0x440        0x200        2.003724    
+.idata     0x6000       0x724        0x800        4.735315    
+.rsrc      0x7000       0x438        0x600        2.532702    
+.reloc     0x8000       0x4ec        0x600        5.826747    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: appidtel
+FileVersion: 1.00 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Initializes Appid ManagedInstaller and Smartscreen Telemetry
+OriginalFilename: APPIDTEL.EXE
+Translation: 0x0409 0x04b0
+

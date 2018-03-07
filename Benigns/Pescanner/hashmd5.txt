@@ -1,0 +1,24 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40960 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     534affa344bfb3c99ec233c880c03c4c
+SHA1:    2a1c9c3211facb0ff8fc09f558e57b9d81eab842
+ssdeep:  768:CD/yKjxWALVsGkp2voJfB7ZNNTJ77cly9:QvFpLVDQ2voJpdJ4ly9
+Date:    0x46BDF583 [Sat Aug 11 17:44:35 2007 UTC]
+EP:      0x40142b .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x10494 [SUSPICIOUS]
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5433       0x6000       6.141230    
+.rdata     0x7000       0x1516       0x2000       3.671277    
+.data      0x9000       0x1ca8       0x1000       0.996799    [SUSPICIOUS]
+

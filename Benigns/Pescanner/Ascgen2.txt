@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    343040 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 Mono/.Net assembly
+MD5:     4b0f0e0277e13d18ef66294774123071
+SHA1:    b9ddd59946600cb9955c2d20024c606443f875ff
+ssdeep:  6144:dexICbYl7vGmgDa177QfaRVlorV1jKaD4IBnflHNPaCxK6sYavp0ZQkN:dy1YQDcHRVuHNngcukN
+Date:    0x4E806FE9 [Mon Sep 26 12:28:25 2011 UTC]
+EP:      0x45349a .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x60128 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x54140  0x1628   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55778  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55a70  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x55ba8  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 64x64, 256-colors
+RT_VERSION         0x55be8  0x3b8    LANG_NEUTRAL SUBLANG_NEUTRAL          COM executable for DOS
+RT_MANIFEST        0x55fb0  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x51543      0x51600      6.078279    
+.rsrc      0x54000      0x219a       0x2200       3.820784    
+.reloc     0x58000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Jonathan Mathews
+Assembly Version: 1.0.0.0
+InternalName: Ascgen2.exe
+FileVersion: 2.0.0.1
+CompanyName: Jonathan Mathews Software
+LegalTrademarks: Ascgen
+Comments: http://ascgendotnet.jmsoftware.co.uk/
+ProductName: Ascii Generator 2
+ProductVersion: 2.0.0.1
+FileDescription: Ascii Generator 2
+OriginalFilename: Ascgen2.exe
+

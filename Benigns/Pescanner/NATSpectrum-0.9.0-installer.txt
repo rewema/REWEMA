@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    704582 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     abbaa21551fadc9d4510f024404aac8f
+SHA1:    feda388fbded4d13de68706eaa9709fe857ab08e
+ssdeep:  12288:2Ijrm9ZvIvS50zOGz5laVBJrhZwphlSINCoLN:xGIvS50zOGzPaVhshlDLN
+Date:    0x3C43D05E [Tue Jan 15 06:46:54 2002 UTC]
+EP:      0x40f3b0 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0xb70ae [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RAW_DATA           0x58810  0x41798  LANG_ENGLISH SUBLANG_ENGLISH_US       Zip archive data, at least v2.0 to extract
+RT_BITMAP          0x48370  0xea88   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x57098  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x57f40  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x56df8  0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x587e8  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 48x48, 256-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x37e40      0x38000      4.525893    
+.rdata     0x39000      0x3482       0x4000       4.377113    
+.data      0x3d000      0x8600       0x7000       1.286212    
+.idata     0x46000      0x1041       0x2000       2.666836    
+.rsrc      0x48000      0x6264c      0x63000      7.173249    [SUSPICIOUS]
+.reloc     0xab000      0x2194       0x3000       4.295501    
+

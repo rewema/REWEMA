@@ -1,0 +1,96 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    202090 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5f352e8f455da4b528c9974a03f8d606
+SHA1:    81ccaac364384307078895c6eabfcd86e18da3f6
+ssdeep:  6144:UD1WU6g1oDOc8XNfjhU9Dd0Hyw3UUK1myDO7VzY:a1HZ9aDO5zY
+Date:    0x52AFF32D [Tue Dec 17 06:46:05 2013 UTC]
+EP:      0x403a0a .text 0/5
+CRC:     Claimed: 0x2d3d191, Actual: 0x38f9f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1a98c8 0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ba0f0 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1be318 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c08c0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c1968 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1c1dd0 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c1ef0 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c20f0 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c21e8 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c22d8 0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c23e8 0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c25d8 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c26c0 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c27a0 0x110    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c28b0 0x1f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c2aa0 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c2b88 0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c2c68 0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c2d80 0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c2f78 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3068 0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3150 0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3260 0x1ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3450 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3538 0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3618 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3738 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3938 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3a30 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3b20 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3c40 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3e40 0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c3f38 0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4028 0x114    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4140 0x1f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4338 0xec     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4428 0xe2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4510 0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4628 0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4820 0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1c4910 0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1c49f8 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x1c4a48 0x37c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1c4dc8 0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+ShellExecuteW
+InternetReadFile
+InternetConnectA
+HttpSendRequestA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x78ea       0x7a00       6.495777    
+.rdata     0x9000       0x2f94       0x3000       4.581107    
+.data      0xc000       0x67ebc      0x200        1.639455    
+.ndata     0x74000      0x135000     0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x1a9000     0x1c190      0x1c200      5.720337    
+
+Version info
+================================================================================
+LegalCopyright: Free Time Co., Ltd
+FileVersion: 3.9.5.0
+CompanyName: Free Time Co., Ltd
+LegalTrademarks: Format Factory Application is a trademark of FreeTime
+Comments: Format Factory Media Tools
+ProductName: Format Factory
+ProductVersion: 3.9.5.0
+FileDescription: Format Factory Video/Audio/Picture Converter
+Translation: 0x0409 0x04b0
+

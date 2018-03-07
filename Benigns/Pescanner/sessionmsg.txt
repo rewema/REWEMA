@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    67144 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b96c3877fcf46f86d8acc8acc0b7ac44
+SHA1:    24be15195c433d05c401464e20abab31a3d3860d
+ssdeep:  1536:zKoQjZQBw+wm6qY8c5qs0delvU1rgDNGgSBCVwYRPlu:nQjhkTY8c5qs4BYRtu
+Date:    0x57898D8D [Sat Jul 16 01:27:41 2016 UTC]
+EP:      0x408c20 .text 0/6
+CRC:     Claimed: 0x1f97f, Actual: 0x1f97f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x13668  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x128b8  0x369    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+REGISTRY           0x12c28  0x1d6    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+TYPELIB            0x12e00  0x728    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x13528  0x13a    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_VERSION         0x124c8  0x3f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x12230  0x297    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x94ac       0x9600       6.274287    
+.imrsiv    0xb000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0xc000       0x2d4c       0x200        1.253190    
+.idata     0xf000       0x2044       0x2200       5.532656    
+.rsrc      0x12000      0x1760       0x1800       4.613645    
+.reloc     0x14000      0xac8        0xc00        6.376887    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SessionMsg
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Remote Desktop Services Session Message Server
+OriginalFilename: SessionMsg.exe
+Translation: 0x0409 0x04b0
+

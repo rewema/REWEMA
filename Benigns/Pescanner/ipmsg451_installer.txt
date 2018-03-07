@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1882112 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a859f1102d36bf91cd03dd5f94e3c494
+SHA1:    725f18a7d926a1abab7695c14de75a77c5323616
+ssdeep:  49152:4VTPcF+7irFRCpSjc5eQCnciffVXMlRpx4nvymkV9Ds:4I+76dqVUBMXpx4vDc9
+Date:    0x593F7B5D [Tue Jun 13 05:42:53 2017 UTC]
+EP:      0x40b8da .text 0/6
+CRC:     Claimed: 0x1d94b6, Actual: 0x1d94b6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1de2a0 0x2e8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x1df0d8 0x31e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1de5a0 0x2a2    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x1df3f8 0xae     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1de848 0x9a     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x1df4a8 0xd6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1de8e8 0xbe     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x1df968 0x208    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1df580 0x1de    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x1dfb70 0x358    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1df760 0x202    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_GROUP_ICON      0x1de588 0x14     LANG_JAPANESE SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_MANIFEST        0x1dfec8 0x898    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+RT_MANIFEST        0x1de9a8 0x729    LANG_JAPANESE SUBLANG_DEFAULT          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d169      0x1d200      6.611975    
+.rdata     0x1f000      0xc306       0xc400       6.022774    
+.data      0x2c000      0x1affcc     0x19f200     7.998368    [SUSPICIOUS]
+.gfids     0x1dc000     0xf8         0x200        2.104113    
+.tls       0x1dd000     0x9          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x1de000     0x2760       0x2800       5.143983    
+

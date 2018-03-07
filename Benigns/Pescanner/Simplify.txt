@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29701 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386
+MD5:     508842215a6104d4ca6e2609ed53e141
+SHA1:    cbf3cdffaeef25af24e6872e98ed92e8f14591e5
+ssdeep:  384:4mNqDjChkFzlDmt9pDk9VImUKvQgCpkgbJtQx/RV1pd:+DAkN4tqVImMg8kgbJ6D
+Date:    0x3FAAC03D [Thu Nov  6 21:42:21 2003 UTC]
+EP:      0x401000 .text 0/6
+CRC:     Claimed: 0x9bfd, Actual: 0x9bfd 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8058   0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x27b8       0x2800       6.341465    
+.data      0x4000       0xa0         0x200        0.193570    [SUSPICIOUS]
+.rdata     0x5000       0x36c        0x400        4.118013    
+.bss       0x6000       0x90         0x0          0.000000    [SUSPICIOUS]
+.idata     0x7000       0x410        0x600        3.140394    
+.rsrc      0x8000       0x300        0x400        2.647435    
+
+Version info
+================================================================================
+LegalCopyright: (C) 2003 CAFxX
+InternalName: SimplifyEUI
+FileVersion: Alpha
+CompanyName: CAFxX
+LegalTrademarks: Simplify, CAFxX
+ProductName: Simplify
+ProductVersion: Alpha
+FileDescription: Simplify Encoder
+OriginalFilename: Simplify.exe
+

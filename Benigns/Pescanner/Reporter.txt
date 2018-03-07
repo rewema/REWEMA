@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    188483 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0653fce1cc1255ef69d406fd52391a9c
+SHA1:    327d9d7b615073c6584b7386ec80c40b9b6ce076
+ssdeep:  3072:ADYZHjcEn7oBqfDlRCOAKoy9jY/goz4D8o/htd:AEWI7GgJRCObtdygoSD
+Date:    0x38077E13 [Fri Oct 15 19:18:43 1999 UTC] [SUSPICIOUS]
+EP:      0x405410 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x38527 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x369e0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x36270  0x76e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x36cc8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x36ce0  0x544    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x22390      0x23000      5.270279    
+.rdata     0x24000      0x2616       0x3000       4.240986    
+.data      0x27000      0xd68c       0x2000       0.931345    [SUSPICIOUS]
+.idata     0x35000      0xa54        0x1000       3.127160    
+.rsrc      0x36000      0x164c       0x2000       2.265875    
+.reloc     0x38000      0x1109       0x2000       3.727734    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997, 1999 Microsoft Corporation, Copyright \xa9 1997, 1999 O.N.C.E. (Organizaci\xf3n Nacional de Ciegos Espa\xf1oles)
+InternalName: Reporter
+FileVersion: 1,00,0004
+CompanyName: Microsoft Corporation & O.N.C.E. (Organizaci\xf3n Nacional de Ciegos Espa\xf1oles)
+PrivateBuild: 1, 0, 4 ,0
+LegalTrademarks: 
+Comments: Reporter for SDDP98
+ProductName: MSAM (Microsoft Screen Access Model)
+SpecialBuild: 1, 0, 4 ,0
+ProductVersion: 1, 0, 4, 0
+FileDescription: SDDP record reporter for SDDP98
+OriginalFilename: Reporter.exe
+Translation: 0x0c0a 0x04b0
+

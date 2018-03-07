@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    249923 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     64211a483e5b363226132b4d4fdd2eb8
+SHA1:    68ea687d53d215720c1e38c8e078c2ecfdbe342f
+ssdeep:  3072:uCVddy4VeJoSI1QxiHuBJAYCBWCanlstoFd0Je30YhxutO:uCjdTQJofuxLWYWU
+Date:    0x38077E4E [Fri Oct 15 19:19:42 1999 UTC] [SUSPICIOUS]
+EP:      0x40f140 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x44535 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x43fb0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43b78  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x43e60  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x41580  0x1e80   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x43400  0x222    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x43628  0x2c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x438f0  0x286    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44638  0x322    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44960  0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x44d10  0x33e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x45050  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x453b8  0x3be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x45778  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x440e8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x43f88  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x44100  0x534    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ddf0      0x2e000      5.459545    
+.rdata     0x2f000      0x18f8       0x2000       3.818662    
+.data      0x31000      0xde64       0x2000       1.197968    
+.idata     0x3f000      0x12d0       0x2000       3.136440    
+.rsrc      0x41000      0x5690       0x6000       2.834259    
+.reloc     0x47000      0x1fac       0x2000       6.172999    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997, 1999 Microsoft Corporation, Copyright \xa9 1997, 1999 O.N.C.E. (Organizaci\xf3n Nacional de Ciegos Espa\xf1oles)
+InternalName: SDDPTester
+FileVersion: 1,00,0004
+CompanyName: Microsoft Corporation & O.N.C.E. (Organizaci\xf3n Nacional de Ciegos Espa\xf1oles)
+PrivateBuild: 1, 0, 4, 0
+LegalTrademarks: 
+Comments: Tester for SDDP98
+ProductName: MSAM (Microsoft Screen Access Model)
+SpecialBuild: 1, 0, 4, 0
+ProductVersion: 1, 0, 4, 0
+FileDescription: SDDPTester for SDDP98
+OriginalFilename: SDDPTester.exe
+Translation: 0x0c0a 0x04b0
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a0331b0b1a0a154d68d8b7283e97265a
+SHA1:    e952f72d64f4dcc43cfdc3f9bb862592b2e6de89
+ssdeep:  384:YLu30Tx8Oyv0xkqmGGGxo6UPM3XVI1TrGO6kQxOGFmj4E2pfzWJzWrB:YLukTx8h0x4aoWCcsGWAk
+Date:    0x57898E6C [Sat Jul 16 01:31:24 2016 UTC]
+EP:      0x4044a0 .text 0/6
+CRC:     Claimed: 0x13f46, Actual: 0x13f46 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x80a0   0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8478   0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3c2c       0x3e00       6.165532    
+.imrsiv    0x5000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x6000       0x3a8        0x200        0.220113    [SUSPICIOUS]
+.idata     0x7000       0xd7e        0xe00        4.961744    
+.rsrc      0x8000       0x708        0x800        3.971015    
+.reloc     0x9000       0x478        0x600        5.592188    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DsmUserTask.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Device Setup Manager User Task Handler
+OriginalFilename: DsmUserTask.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,37 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1212928 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7ea81c97e0dd7b20da9d659ebe06c6c6
+SHA1:    5a05f4f32f0824ac9bd4a6e56b15154594b28cc0
+ssdeep:  24576:MIit9rslTlVbwEXzjvqH2b35fLGdhOkBQh6HFrvdo7ujdDfZe1zeA0tyftuVe7dn:Bit9IlTPbwEXzjvqH2b35f6dc6HF7jAw
+Date:    0x456BA877 [Tue Nov 28 03:09:43 2006 UTC]
+EP:      0x401220 .text 0/6
+CRC:     Claimed: 0x1323dd, Actual: 0x1323dd 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x12e104 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1306ac 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x132c54 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x132c68 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10db9c     0x10dc00     6.250361    
+.data      0x10f000     0x2e74       0x3000       4.288724    
+.rdata     0x112000     0x100cc      0x10200      5.662926    
+.bss       0x123000     0x7bf0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x12b000     0x21bc       0x2200       5.267181    
+.rsrc      0x12e000     0x4c7c       0x4e00       4.444827    
+

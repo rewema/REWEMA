@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    306688 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3e3b578a27e92c5aa6491ff3def081a4
+SHA1:    240ab60f80782442a05374d095af017c7fc85db1
+ssdeep:  6144:KSORl2G0BGGrXrQUqgW16gJndEHBrYJKvwVcT:NOmG03XrQU0DEHBrYJKvwVcT
+Date:    0x5789910B [Sat Jul 16 01:42:35 2016 UTC]
+EP:      0x4422d0 .text 0/6
+CRC:     Claimed: 0x4e881, Actual: 0x4e881 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x642e0  0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x640a0  0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x426dc      0x42800      6.048862    
+.data      0x44000      0x1cccc      0x1e00       3.260268    
+.idata     0x61000      0x18da       0x1a00       5.256695    
+.didat     0x63000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x64000      0x6e0        0x800        3.840620    
+.reloc     0x65000      0x3e3c       0x4000       6.756424    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: esentutl.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Extensible Storage Engine Utilities for Microsoft(R) Windows(R)
+OriginalFilename: esentutl.exe
+Translation: 0x0409 0x04b0
+

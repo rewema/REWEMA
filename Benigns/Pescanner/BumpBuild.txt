@@ -1,0 +1,25 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    106496 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     540444a7086eda79aab62034c6b2221c
+SHA1:    ca2286a41e403f0a717a7004cb9b6071267f12cf
+ssdeep:  1536:DhZQs0Q0uyx2aN5eoUcYuypprV6TUt09nq/pG+Ssl:lBjMx15eo94LrMz9nq/pG+Hl
+Date:    0x44417EF6 [Sat Apr 15 23:17:10 2006 UTC]
+EP:      0x403bc0 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1c90a [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x131f6      0x14000      6.110025    
+.rdata     0x15000      0x3048       0x4000       4.469052    
+.data      0x19000      0x60a8       0x1000       1.634005    
+

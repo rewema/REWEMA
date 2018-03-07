@@ -1,0 +1,35 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    643072 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f53a8b9f2cab1edee7c188412efb01ea
+SHA1:    c16eed11f06a8ca3979e5598c5762541af0234e8
+ssdeep:  12288:KGNTA35qbnIi8ZmCsrmqvXi/oNRpDGdcpjoNW3ZgDBk3:pNU3E0Zb2vSA5toUCBk3
+Date:    0x4EE07E77 [Thu Dec  8 09:08:07 2011 UTC]
+EP:      0x401130 .text 0/7
+CRC:     Claimed: 0x9f457, Actual: 0x9f457 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xb30a0  0x1428   LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_GROUP_ICON      0xb44c8  0x14     LANG_ROMANIAN SUBLANG_ROMANIAN         MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x858a0      0x85a00      6.134907    
+.data      0x87000      0x11ecc      0x12000      5.086744    
+.jcr       0x99000      0x4          0x200        0.000000    
+.rdata     0x9a000      0x29fc       0x2a00       6.171372    
+.bss       0x9d000      0x149a0      0x0          0.000000    [SUSPICIOUS]
+.idata     0xb2000      0xf84        0x1000       5.182370    
+.rsrc      0xb3000      0x14dc       0x1600       1.538593    
+

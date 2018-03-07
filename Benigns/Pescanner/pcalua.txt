@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25088 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     69491de6e418be0c4c57d62755a23532
+SHA1:    eb9aa5f83724e5d01cc7a59848db651066f862dc
+ssdeep:  384:Gkmn/Tz6VLn3FfH1Usm+ckE4zcBkTq4azCP4BGaXN5jiDe4nXwcZ9UWsTWINT5Ec:yn7mVLF/1Usm4zakTqRzCP/7LXJKd
+Date:    0x57898ECD [Sat Jul 16 01:33:01 2016 UTC]
+EP:      0x404bb0 .text 0/5
+CRC:     Claimed: 0xd364, Actual: 0xd364 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8738   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83b0   0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2c0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4484       0x4600       6.350551    
+.data      0x6000       0x3c4        0x200        0.296026    [SUSPICIOUS]
+.idata     0x7000       0x9f2        0xa00        5.039818    
+.rsrc      0x8000       0x800        0x800        4.358064    
+.reloc     0x9000       0x3b8        0x400        6.355346    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: 
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Program Compatibility Assistant
+OriginalFilename: 
+Translation: 0x0409 0x04b0
+

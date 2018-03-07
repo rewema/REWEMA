@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3752930d615140525422a751d9e49414
+SHA1:    caed721b0d5f0ff21d21f9ad088b3c6bcd46df50
+ssdeep:  768:kuaSoO981rm7APqHBNK7bRxxGz5zQOvJJ4MPTXsm6vK/8Eb8EcB+:b81rm7NhN0bRx8QOUgTXsmQGhc
+Date:    0x44D66046 [Sun Aug  6 21:33:58 2006 UTC]
+EP:      0x100993b .text 0/4
+CRC:     Claimed: 0x13da2, Actual: 0x13da2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xf100   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xf3e8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xf400   0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherA
+StartServiceA
+CreateServiceA
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9f14       0xa000       6.552778    
+.data      0xb000       0x3764       0x400        6.409633    
+.rsrc      0xf000       0x7f0        0x800        3.837075    
+.reloc     0x10000      0xee6        0x1000       5.176303    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1996-2006 Brother Industries, Ltd.
+InternalName: BrmfRsmg for Windows XP
+FileVersion: 1.45.15.709
+CompanyName: Brother Industries, Ltd.
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: Brother MFL Pro
+SpecialBuild: 
+ProductVersion: 1.45.15.709
+FileDescription: Brother MFL Pro Resource Manager
+OriginalFilename: BrmfRsmg.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     fef138b5da1a2c85023c18240af35dbb
+SHA1:    751b7d4a5196a5e8f0afa66e1eaa1c9f29140e03
+ssdeep:  96:4J7RIF/eBU9sBKiCh+caF5eYWb3gcT43fr4AI6B6cPdwaRPvAW6PrR12bFgLbV+7:4Anms/gpVI6t1PPD6DR1YFgLKAQ1
+Date:    0x4B7840B0 [Sun Feb 14 18:28:00 2010 UTC]
+EP:      0x403a8e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xce71 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1a94       0x1c00       5.315442    
+.rsrc      0x4000       0x410        0x600        2.376353    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2010
+Assembly Version: 1.0.0.0
+InternalName: SubTitleAdjustment.exe
+FileVersion: 1.0.0.0
+CompanyName: Matthijs de Zwart
+Comments: Adjust the start and end time for subtitles
+ProductName: SubTitleAdjustment
+ProductVersion: 1.0.0.0
+FileDescription: SubTitleAdjustment
+OriginalFilename: SubTitleAdjustment.exe
+

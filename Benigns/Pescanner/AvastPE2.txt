@@ -1,0 +1,80 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1536520 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     43f18eec661ee787f9995dacf8eed50c
+SHA1:    ece9279349816701a23e60e79b13e16b29859658
+ssdeep:  24576:D6CKEVJpfrX20zsBjQ2eBpWoZnX2DCO6wuR7PNMTHWCBtiMe+IJZpDj7:2C1/pfjtOWpWM2DCO0DNMTHWVMe+IJZ9
+Date:    0x5902F1CC [Fri Apr 28 07:39:56 2017 UTC]
+EP:      0x4c37a0 .text 0/6
+CRC:     Claimed: 0x180614, Actual: 0x180614 
+
+TLS callbacks
+================================================================================
+    0x4c6c30
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1605a0 0x23c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x157cf0 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x158358 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x158640 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x158768 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x159610 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x159eb8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x15a420 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15c9c8 0x1464   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15de30 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15eed8 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x15f3d8 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15f6c0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15ff90 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x160278 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x1603c8 0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x160430 0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1607e0 0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x160820 0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x15f340 0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x15ff68 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x1603a0 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1579f8 0x2f8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_HTML            0x156d18 0xcd9    LANG_CZECH   SUBLANG_DEFAULT          ASCII C++ program text, with CRLF line terminators
+RT_HTML            0x154610 0x2704   LANG_CZECH   SUBLANG_DEFAULT          HTML document text
+RT_MANIFEST        0x1609c8 0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe63ba      0xe6400      6.397168    
+.rdata     0xe8000      0x5cfb0      0x5d000      5.035421    
+.data      0x145000     0xd204       0xaa00       4.953431    
+.tls       0x153000     0x1d         0x200        0.136464    [SUSPICIOUS]
+.rsrc      0x154000     0xcda8       0xce00       4.864147    
+.reloc     0x161000     0x123a0      0x12400      6.661617    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2014 AVAST Software
+InternalName: AvastPE2.exe
+FileVersion: 17.4.3482.0
+CompanyName: AVAST Software
+ProductName: Avast Antivirus 
+ProductVersion: 17.4.3482.0
+FileDescription: Avast PE
+OriginalFilename: AvastPE2.exe
+Translation: 0x0405 0x04b0
+

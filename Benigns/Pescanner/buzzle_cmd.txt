@@ -1,0 +1,81 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    512000 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     23f942991f4852f42fa7f27f28bf7204
+SHA1:    afd93667e65a6eb674e8f214116cea6f68dd0eb3
+ssdeep:  12288:Gd9Y8CPcakQuOtTWlNS/6ToDl9KCClv0Q:6KL0QLtTIS/8eCx
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x46c1d4 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x81a3e [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x7ca88  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7cbbc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7ccf0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7ce24  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7cf58  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7d08c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x7d1c0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7d2f4  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7d4c4  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7d6a8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7d878  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7da48  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7dc18  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7dde8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7dfb8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7e188  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7e358  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x7e528  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x7e610  0xca8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0x7f2b8  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7f30c  0x208    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7f514  0x210    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7f724  0x1c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7f8ec  0x154    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x7fa40  0x448    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x7fe88  0x10c    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x7ff94  0x17c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x80110  0x448    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x80558  0x550    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x80aa8  0x4a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x80f48  0x59c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x814e4  0x150    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x81634  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7340133 records)
+RT_STRING          0x8171c  0x2a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x819c0  0x474    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x81e34  0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x821f0  0x3a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x82590  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x825a0  0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x82900  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x82914  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x82928  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x8293c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x82950  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x82964  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x82978  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x8298c  0x14     LANG_GERMAN  SUBLANG_GERMAN           MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x6b880      0x6ba00      6.555240    
+DATA       0x6d000      0x1238       0x1400       3.968581    
+BSS        0x6f000      0xe91        0x0          0.000000    [SUSPICIOUS]
+.idata     0x70000      0x247c       0x2600       4.919547    
+.tls       0x73000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x74000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x75000      0x6bf4       0x6c00       6.717871    
+.rsrc      0x7c000      0x6a00       0x6a00       4.469514    
+

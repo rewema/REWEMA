@@ -1,0 +1,37 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c665ee139d25d9adef2fa23b20a9ef26
+SHA1:    5e55172d786a531f903487a81237ee2da44bc588
+ssdeep:  1536:DaEWNthQ1EzMioBmzOmnMKFha2P4UoRIk:uEWNtaI2YJMaae4UoRI
+Date:    0x3A3A2032 [Fri Dec 15 13:44:18 2000 UTC]
+EP:      0x4032fe .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1cff9 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x11180  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x11468  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x115b8  0x58c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x11b48  0x146    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0x11c90  0x1b4    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_GROUP_ICON      0x11590  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9aff       0xa000       6.581892    
+.rdata     0xb000       0xdb0        0x1000       4.925010    
+.data      0xc000       0x479c       0x3000       1.624317    
+.rsrc      0x11000      0xe48        0x1000       3.040133    
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25288 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b9b994ecfc2af0da86a919c8611e5ec2
+SHA1:    7badc7f72cfaf120af60e8845f70e505c877bcfe
+ssdeep:  384:2lSWiX5DlNfUu6ilWn9Whe80aq0GftpBjEX5PxT4bHRN71flO6aoZ:2HuDjfUHFcTiy6bMA
+Date:    0x56CA800B [Mon Feb 22 03:27:07 2016 UTC]
+EP:      0x4017b0 .text 0/5
+CRC:     Claimed: 0xc776, Actual: 0xc776 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4060   0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd24        0xe00        5.654643    
+.data      0x2000       0x378        0x200        0.299051    [SUSPICIOUS]
+.idata     0x3000       0x410        0x600        3.753442    
+.rsrc      0x4000       0x408        0x600        2.502117    
+.reloc     0x5000       0x26a        0x400        2.585404    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WinREBootApp
+FileVersion: 1.0.9200.17225 (win8_gdr_xp(yizho).151021-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 1.0.9200.17225
+FileDescription: WinREBootApp
+OriginalFilename: WinREBootApp.exe
+Translation: 0x0409 0x04b0
+

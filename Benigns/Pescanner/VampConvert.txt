@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1136128 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8a65338c788beeaec14bfdc60daefe35
+SHA1:    4a40cd333f4855910284460e4e2abac6b4350dbd
+ssdeep:  24576:TcRO2GSzAI8qkGQzZJuoygVjpp4JDHTeOQ:BNpZJu2jp4TI
+Date:    0x4AD38A61 [Mon Oct 12 19:58:25 2009 UTC]
+EP:      0x4d1674 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x11560b [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xdcdd9L => deflate
+   0xdcdfbL => Jean-loup Gailly
+   0xdcc5dL => inflate
+   0xdcc7fL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x16234c 0xf0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16243c 0x748    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x162b84 0x6a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x163224 0x524    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x163748 0x3ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x163af4 0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x163e84 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x163f6c 0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6750325 records)
+RT_STRING          0x164030 0x25c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16428c 0x43c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1646c8 0x378    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x164a40 0x2a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x164ce4 0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x16cfcc 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x16cfdc 0x5a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcf844      0xcfa00      6.609978    
+.itext     0xd1000      0x79c        0x800        6.016036    
+.data      0xd2000      0x2e304      0x2e400      4.271202    
+.bss       0x101000     0x52e98      0x0          0.000000    [SUSPICIOUS]
+.idata     0x154000     0xef8        0x1000       4.693367    
+.tls       0x155000     0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x156000     0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0x157000     0xa284       0xa400       6.675675    
+.rsrc      0x162000     0xb600       0xb600       3.978377    
+

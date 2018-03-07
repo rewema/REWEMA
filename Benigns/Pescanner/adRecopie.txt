@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28160 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     116577dbf200b1652240c0a3d0e179cd
+SHA1:    448a55360211b51e00a763339b94c4f98d527342
+ssdeep:  384:fNHeg8S53vZvsa5s7QwZazG+ujvRCaBITfiyJrkMDdqqqq5D7G:fBe3S53RH5OQwZgG+W51WDiyVkMD/nG
+Date:    0x515205E2 [Tue Mar 26 20:32:34 2013 UTC]
+EP:      0x40826e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc6da [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xa0a0   0x2b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xa350   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x6274       0x6400       5.323621    
+.rsrc      0xa000       0x540        0x600        3.900964    
+.reloc     0xc000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2013
+Assembly Version: 1.0.0.0
+InternalName: adRecopie.exe
+FileVersion: 1.0.0.0
+ProductName: adRecopie
+ProductVersion: 1.0.0.0
+FileDescription: adRecopie
+OriginalFilename: adRecopie.exe
+

@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7b482cb5ea73d01dfacf4efb77acefa0
+SHA1:    90758afd327c53b73df8da4cdc3022913f232f1b
+ssdeep:  384:2/67G22JhycmFfyh2uUpQYJh7FmlFbi/KcCd0pjJT1r6YRZurq6olu7WZRW5:wQ23FmFfyYuIxd/KcCd0pFRr0q6ol
+Date:    0x39D835F7 [Mon Oct  2 07:15:03 2000 UTC]
+EP:      0x4016b8 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x12cd6 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x7388   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x7180   0x204    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x7a08   0xec     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x7670   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x7688   0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2ee6       0x3000       6.492403    
+.rdata     0x4000       0x138e       0x2000       4.606969    
+.data      0x6000       0xedc        0x1000       1.272196    
+.rsrc      0x7000       0xaf8        0x1000       2.415603    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1994-2000
+InternalName: BABBLE
+FileVersion: 4.02.4602.0
+CompanyName: Microsoft Corporation
+SpecialBuild: Active Accessibility SDK
+ProductName: Microsoft Active Accessibility
+ProductVersion: 4.02.4602.0
+FileDescription: Active Accessibility Talking Sample
+OriginalFilename: BABBLE.EXE
+Translation: 0x0409 0x04b0
+

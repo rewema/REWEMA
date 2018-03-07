@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    28672 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     53ed550c8902c9f9f7329358fabe855f
+SHA1:    d02df5175da7abb2356300387cac8e1f36911764
+ssdeep:  384:uZ2wOiuXiIK7VsoSzh/h6OUHmAHmGgIl4d:E2XiuX3i+DIzfK
+Date:    0x44715EAE [Mon May 22 06:48:14 2006 UTC]
+EP:      0x405a9e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x16720 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6428   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6710   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6838   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x3aa4       0x4000       5.142960    
+.rsrc      0x6000       0x860        0x1000       2.057148    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2333.18547
+InternalName: DubBuffer.exe
+FileVersion: 1.0.2333.18547
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2333.18547
+FileDescription:  
+OriginalFilename: DubBuffer.exe
+

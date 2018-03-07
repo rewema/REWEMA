@@ -1,0 +1,130 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1867888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     96755f31ceb74885f69a2132fce91f99
+SHA1:    73617783d2b26381f721c1db1e30bb4e2e2e5cc4
+ssdeep:  49152:WewLZbe7W6M/2/zazWM1dR+WTiMPPNWoy:9wLZbe7W6M/27wWM1dXe
+Date:    0x4CD60D50 [Sun Nov  7 02:22:08 2010 UTC]
+EP:      0x51b852 .text 0/5
+CRC:     Claimed: 0x1cc6ca, Actual: 0x1cc6ca 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x15d101L => deflate
+   0x17bf44L => deflate
+   0x15d123L => Jean-loup Gailly
+   0x15cfa9L => inflate
+   0x15cfcbL => Mark Adler
+YARA: irc
+   0x180fb6L => JOIN
+   0x18178bL => join
+   0x1817e2L => join
+   0x18183eL => join
+   0x18184fL => join
+   0x182243L => join
+   0x1af2cfL => notice
+   0x1818baL => part
+   0x17c41bL => QUIT
+   0x17c481L => QUIT
+   0x17c4a3L => QUIT
+   0x17d034L => QUIT
+YARA: spam
+   0x17dbc4L => RCPT TO:
+   0x17dbb4L => MAIL FROM:
+   0x17db98L => EHLO 
+   0x17e2f8L => Content-Disposition: attachment;
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINARY             0x1afb98 0x5d9b   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.01
+TEXT               0x1b5938 0x789    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII English text, with CRLF line terminators
+RT_ICON            0x1aac40 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ab4e8 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ac5b8 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ace60 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1adf30 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ae7d8 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x1af8a8 0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x1afa30 0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x1afa80 0x9c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x1afb20 0x74     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a6a80 0x90     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a6b10 0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a6e58 0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a77c8 0x240    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a6f28 0x51a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a7448 0x200    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a7648 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a7768 0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a7a08 0x22c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a7c38 0x5f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8228 0x420    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8648 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8768 0x270    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a89d8 0x1b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8b90 0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8c28 0x27c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8ea8 0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a8fc8 0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a9298 0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a9310 0x30a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a9620 0x8bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1a9ee0 0x5ca    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1aa4b0 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1aa790 0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b60c8 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b6180 0x302    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b7a50 0x290    LANG_ENGLISH SUBLANG_ENGLISH_US       Sendmail frozen configuration  - version a
+RT_STRING          0x1b7ce0 0x2e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b7fc8 0x68c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b8658 0xacc    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0x1b9128 0x28a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1baa70 0x702    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1bb178 0x57e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b6488 0x15c2   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1b93b8 0x16b2   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1ac590 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x1adf08 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x1af880 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_VERSION         0x1aa900 0x340    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+WriteProcessMemory
+StartServiceW
+CreateServiceW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x150669     0x150800     6.616277    
+.rdata     0x152000     0x4a388      0x4a400      4.739583    
+.data      0x19d000     0x8ea0       0x4600       4.569237    
+.rsrc      0x1a6000     0x156f8      0x15800      5.782997    
+.reloc     0x1bc000     0x1100e      0x11200      6.004248    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2009-2010 PeerBlock, LLC
+InternalName: PeerBlock
+FileVersion: 1, 1, 0, 517
+CompanyName: PeerBlock, LLC
+Comments: http://www.peerblock.com
+ProductName: PeerBlock
+ProductVersion: 1, 1, 0, 517
+FileDescription: PeerBlock
+OriginalFilename: peerblock.exe
+Translation: 0x0409 0x04b0
+

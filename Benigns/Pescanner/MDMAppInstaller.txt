@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    88576 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8bc48a3c8a7782fe02ad44714067233e
+SHA1:    a727ece71d7584633103162718af712c63137d94
+ssdeep:  1536:JwBci+vpjD3hW/9D3D1D6jQENR+R6E6yiA0Ji+iAIg21BF1bkCMhbeuWdD9hf:mBGZzhW/dpejQEN2QuieuWl
+Date:    0x57898FD0 [Sat Jul 16 01:37:20 2016 UTC]
+EP:      0x4113c0 .text 0/5
+CRC:     Claimed: 0x22568, Actual: 0x22568 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x17628  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x170f0  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x174a8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x12570      0x12600      6.319232    
+.data      0x14000      0x530        0x200        1.017212    
+.idata     0x15000      0x106a       0x1200       5.150985    
+.rsrc      0x17000      0x6f0        0x800        3.654730    
+.reloc     0x18000      0x138c       0x1400       6.721687    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MDMAppInstaller.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: MDM App Installer
+OriginalFilename: MDMAppInstaller.exe
+Translation: 0x0409 0x04b0
+

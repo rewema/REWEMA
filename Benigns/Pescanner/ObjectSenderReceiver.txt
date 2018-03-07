@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    13312 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     c03087f0f0c1779169b058432ec322d9
+SHA1:    2319e2e29fe3c28fa128219971958e243b396309
+ssdeep:  192:f8xoTfy7R6ovK06YNjoxvLCa3CJPkTaHAVQldMb1LD:Exwg6ovK06YN6jCwdT4dMBLD
+Date:    0x445CE19E [Sat May  6 17:49:18 2006 UTC]
+EP:      0x404a0e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x8b6a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6058   0x33c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2a14       0x2c00       5.023688    
+.rsrc      0x6000       0x398        0x400        3.016756    
+.reloc     0x8000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2317.33879
+InternalName: ObjectSenderReceiver.exe
+FileVersion: 1.0.2317.33879
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2317.33879
+FileDescription:  
+OriginalFilename: ObjectSenderReceiver.exe
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19968 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bfd4b622457fa90340584399a31ff26a
+SHA1:    e6f897c52314de5ad2766bac57d039bd16795dd2
+ssdeep:  384:eaW09CP88q3BakXPOLlMtFb5LzE0zSWZEWE:eanmqttFPzN
+Date:    0x57898D89 [Sat Jul 16 01:27:37 2016 UTC]
+EP:      0x4039d0 .text 0/5
+CRC:     Claimed: 0x10d13, Actual: 0x10d13 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8740   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83a0   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2ac    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x30ec       0x3200       6.168172    
+.data      0x5000       0x1440       0x200        1.026925    
+.idata     0x7000       0x7fe        0x800        5.013399    
+.rsrc      0x8000       0x808        0xa00        3.703934    
+.reloc     0x9000       0x334        0x400        5.728376    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: chglogon
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Change Logon Utility
+OriginalFilename: chglogon.exe
+Translation: 0x0409 0x04b0
+

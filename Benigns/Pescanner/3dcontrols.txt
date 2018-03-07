@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    978944 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     42686b872e5d546e5a774b04721effe5
+SHA1:    8f2b903ab3d919acc206fbc6818fae762f4b6e95
+ssdeep:  12288:zJR2E92BcLZ6JlyZ7lRw22PJ8W48PByTCB8HVV+UUB1WIpx0S4g4oP6t:WiicLZOypr42iByK8f+UUKIpWS8oPq
+Date:    0x4125F4C7 [Fri Aug 20 12:55:35 2004 UTC]
+EP:      0x48f230 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xfbd2f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x101340 0xea8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ICON            0x1021e8 0x568    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_ICON            0x102750 0x8a8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ICON            0x103028 0x128    LANG_FRENCH  SUBLANG_FRENCH           GLS_BINARY_LSB_FIRST
+RT_MENU            0x103168 0x78     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1031f0 0x556    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x103748 0x198    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1038e0 0x214    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x103af8 0x2ac    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x103da8 0xcd6    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x104a80 0x46     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ACCELERATOR     0x1031e0 0x10     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x102ff8 0x30     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 3 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x103150 0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbd9b5      0xbe000      6.474980    
+.rdata     0xbf000      0x18924      0x19000      5.395823    
+.data      0xd8000      0x281b8      0x13000      4.852336    
+.rsrc      0x101000     0x3ac8       0x4000       3.668136    
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8192 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     110ff26708e36ff1fbed7ed265dac825
+SHA1:    a392d1da5f744a16c0d6d7f85189fb7c9ee200fe
+ssdeep:  96:WK3BEd8hO8kwy44NNklZg0WYu+NXv0FgbqZH/iB9Ee5Gw0ec2d:ZxEd8hOn44NN8Zg0CxFg4u9EdCc2
+Date:    0x3D4A4493 [Fri Aug  2 08:36:35 2002 UTC]
+EP:      0x110031ae .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x6db4 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4420   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4708   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4830   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x308    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x11b4       0x1200       5.216324    
+.rsrc      0x4000       0x858        0xa00        2.796935    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.944.2871
+InternalName: DeleteDupes.exe
+FileVersion: 1.0.944.2871
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.944.2871
+FileDescription:  
+OriginalFilename: DeleteDupes.exe
+

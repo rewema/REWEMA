@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12800 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     d1b908d88fb9eea82933db365d398fdd
+SHA1:    fc43d16bfc5ceffa80d8d3abd0d64969927f8040
+ssdeep:  192:vK9bKr8caQtNYJlXH5NfTvDAxtyLXTek2LWLnWr:vKhmulXH5Nm0F2LWLnW
+Date:    0x5789913C [Sat Jul 16 01:43:24 2016 UTC]
+EP:      0x401d10 .text 0/5
+CRC:     Claimed: 0x12d96, Actual: 0x12d96 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5730   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5398   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x2a6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x133c       0x1400       5.578025    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0xa88        0xc00        4.974224    
+.rsrc      0x5000       0x7f8        0x800        4.316684    
+.reloc     0x6000       0x208        0x400        4.085960    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Recover
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Recover Files Utility
+OriginalFilename: Recover.Exe
+Translation: 0x0409 0x04b0
+

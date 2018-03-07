@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    241664 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ac270bbadbfb07d6bdcd644f2f7dabee
+SHA1:    d61d21e3d18a12931b2b0ae2528917010625e889
+ssdeep:  6144:g0TIlfTqjmuWPvW1raxJKWWTq+ang62+UvQ/KpmOqT:g0cfTqjmbvsraxITq+KYvQ/Kp
+Date:    0x57898EE9 [Sat Jul 16 01:33:29 2016 UTC]
+EP:      0x41dc30 .text 0/5
+CRC:     Claimed: 0x40523, Actual: 0x40523 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x3c010  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x228f0  0xe1e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x23710  0x3746   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27210  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27878  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x27b60  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x27c88  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x28b30  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x293d8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x29940  0xeb7c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x384c0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3aa68  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3bb10  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x3bf78  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x26e58  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x223b0  0x53e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+CreateProcessW
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1d764      0x1d800      6.495784    
+.data      0x1f000      0x4b8        0x200        0.281092    [SUSPICIOUS]
+.idata     0x20000      0x1afc       0x1c00       5.488758    
+.rsrc      0x22000      0x1a0f0      0x1a200      7.368925    [SUSPICIOUS]
+.reloc     0x3d000      0x1244       0x1400       6.482345    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: rstrui.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Windows System Restore
+OriginalFilename: rstrui.exe
+Translation: 0x0409 0x04b0
+

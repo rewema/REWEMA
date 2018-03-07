@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    7651328 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ea4aa014849ef22e51f90b4383547482
+SHA1:    afac94a7f01bf48d89209a112e126d4bc368a72e
+ssdeep:  49152:xID7Pyf/w484EkbXZFtaf52ITozWGWldJWP:xQzyf/wIEkbXZvaf5rozWGWldJWP
+Date:    0x52055FA7 [Fri Aug  9 21:31:19 2013 UTC]
+EP:      0x401e84 .text 0/3
+CRC:     Claimed: 0x757ab6, Actual: 0x757ab6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x75079c 0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x7504b4 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x75038c 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x75035c 0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 3 icons, 32x32, 2-colors
+RT_VERSION         0x750150 0x20c    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x748ed0     0x749000     4.974737    
+.data      0x74a000     0x5090       0x1000       0.000000    
+.rsrc      0x750000     0x8cc        0x1000       1.954712    
+
+Version info
+================================================================================
+Translation: 0x0c0a 0x04b0
+InternalName: karr2
+FileVersion: 1.00.0019
+CompanyName: Company
+ProductName: karr2
+ProductVersion: 1.00.0019
+OriginalFilename: karr2.exe
+

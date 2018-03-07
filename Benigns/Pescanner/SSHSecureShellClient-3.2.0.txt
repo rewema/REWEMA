@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3260416 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c58bab7addccd3a5d4cf8ecbb438ec28
+SHA1:    f445955ace594caf2c971df862d5db4f634dc442
+ssdeep:  49152:nuV5thDTvxhGkbnzT97qMNMgFoIXS6wADDNy5DqgwWKWSTl90YqgYgu4orp2DHK6:k5Tv3FvXyIXFPNqw5JqgYF72D3
+Date:    0x3CDFB481 [Mon May 13 12:41:37 2002 UTC]
+EP:      0x40183c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x320212 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0xd92eL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+SSHLICENSE         0xc1d0   0x2710   LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with no line terminators
+SSHSETUP           0xe8e0   0x5b7d10 LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+RT_ICON            0x5c65f0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_ICON            0x5c68d8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_GROUP_ICON      0x5c6a00 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+RT_VERSION         0x5c6a24 0x464    LANG_ENGLISH SUBLANG_ENGLISH_US       empty
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5976       0x6000       6.379142    
+.rdata     0x7000       0xa82        0x1000       4.016468    
+.data      0x8000       0x3f7c       0x3000       0.756236    [SUSPICIOUS]
+.rsrc      0xc000       0x5bb000     0x5bb000     7.964322    [SUSPICIOUS]
+

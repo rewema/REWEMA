@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    60968 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     721d6eede38c351236343480ccd057e9
+SHA1:    f6eaef085967b172b35fa91eefbdd561ec97d58a
+ssdeep:  1536:PfS+6IemZDvNEYdSRlnSUH2qvqr9PxDtY3cvPEk:1emvEY0bHu9ZDtY3cvMk
+Date:    0x5789911A [Sat Jul 16 01:42:50 2016 UTC]
+EP:      0x4046c0 .text 0/6
+CRC:     Claimed: 0x13878, Actual: 0x13878 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x106a0  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x101c8  0x12c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_ICON            0xa708   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa9f0   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xb898   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc140   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xc6a8   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xec50   0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfcf8   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x10160  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 32x32, 16-colors
+RT_VERSION         0x102f8  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xa300   0x402    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteW
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x40ac       0x4200       6.068828    
+.imrsiv    0x6000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x7000       0x3a4        0x200        0.203682    [SUSPICIOUS]
+.idata     0x8000       0x1256       0x1400       5.057314    
+.rsrc      0xa000       0x6780       0x6800       5.087493    
+.reloc     0x11000      0x49c        0x600        5.717223    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WLRMNDR.EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows logon reminder
+OriginalFilename: WLRMNDR.EXE
+Translation: 0x0409 0x04b0
+

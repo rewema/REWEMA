@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    659648 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5bef81c21ae07f6ac40b0fe8a365176b
+SHA1:    c8b8b80b83c2ec5720b192f8a6436fe8634d42ce
+ssdeep:  6144:pwfgDLOq48nO+MlbYJrO/b2cpgyIr93NJRqZSB8gCJObckau/1v3yaN9seNziab:pygDLOSnO32NJUZSBdJT93yO1Qab
+Date:    0x562447E3 [Mon Oct 19 01:31:15 2015 UTC]
+EP:      0x443105 .text 0/5
+CRC:     Claimed: 0xa6380, Actual: 0xa6380 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x771c0  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x776e8  0x1428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x78b10  0x2d28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7b838  0x14cf8  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_GROUP_ICON      0x90530  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_VERSION         0x90570  0x31c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x9088c  0x653    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4dc16      0x4de00      6.192870    
+.rdata     0x4f000      0x23246      0x23400      5.081081    
+.data      0x73000      0x3fb8       0x3a00       4.828382    
+.rsrc      0x77000      0x19ee0      0x1a000      7.715088    [SUSPICIOUS]
+.reloc     0x91000      0x10128      0x10200      5.110423    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2015 VMware, Inc.
+InternalName: vmkvm
+FileVersion: 12.0.1 build-3160714
+CompanyName: VMware, Inc.
+ProductName: VMware Workstation
+ProductVersion: 12.0.1 build-3160714
+FileDescription: VMware KVM
+OriginalFilename: vmware-kvm.exe
+Translation: 0x0409 0x04b0
+

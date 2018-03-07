@@ -1,0 +1,42 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    192512 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     a24ad08223231e0e478821971b10b79c
+SHA1:    6091e34ca6c4c371ba82cf3aa3ec3f58afb0105e
+ssdeep:  3072:RsVYP4IWUUMK3K7VYP4IWUUMK3KoLWuSAP:RsVYP4IsIVYP4IsM
+Date:    0x467C28C8 [Fri Jun 22 19:53:44 2007 UTC]
+EP:      0x42d77e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x31b20 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2e058  0x2a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2b784      0x2c000      7.089097    [SUSPICIOUS]
+.rsrc      0x2e000      0x2f8        0x1000       0.773001    [SUSPICIOUS]
+.reloc     0x30000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2007
+Assembly Version: 1.0.0.0
+InternalName: WieBot.exe
+FileVersion: 1.0.0.0
+ProductName: WieBot
+ProductVersion: 1.0.0.0
+FileDescription: WieBot
+OriginalFilename: WieBot.exe
+

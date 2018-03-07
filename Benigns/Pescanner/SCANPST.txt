@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     175d2d1226182bc801eeb06a201c0383
+SHA1:    0628ba49c488f28175e10be6c91c5754f5c21a42
+ssdeep:  768:vh6F0Hv3IaqrhPNbl7nKc3CuaEWk0TE/zusG1zhYx2zH2IhNAL47ip1W6boqfg:vk6AXVb7nJSoWk+4GR29iAAC1nboq4
+Date:    0x58C83D94 [Tue Mar 14 18:59:32 2017 UTC]
+EP:      0x2e005787 .text 0/4
+CRC:     Claimed: 0x151ff, Actual: 0x151ff 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xe17c   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xe2a4   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xe58c   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0xe5b0   0x584    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xeb34   0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x659f       0x6600       6.258360    
+.data      0x8000       0x5230       0x200        0.763145    [SUSPICIOUS]
+.rsrc      0xe000       0xde4        0xe00        4.238586    
+.reloc     0xf000       0x73c        0x800        6.454005    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 2010 Microsoft Corporation.  All rights reserved.
+InternalName: scanpst.exe
+FileVersion: 14.0.7180.5000
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks3: Microsoft Outlook\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Outlook
+ProductVersion: 14.0.7180.5000
+FileDescription: Microsoft Outlook Data Files Scan/Repair Utility
+OriginalFilename: scanpst.exe
+Translation: 0x0000 0x04e4
+

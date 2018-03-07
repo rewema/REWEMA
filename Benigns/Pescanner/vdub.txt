@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8704 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     d7bcd131308c275f789b56e73a0fcdb0
+SHA1:    d67b2c9b29e764a84578e0efe455ca3e0909e3fc
+ssdeep:  96:2Xc5TNS3IKJfypCQX7EEyFy4NEsrlfDTv+cuvg+Jagxet1+PNuaCwNKkLft:9T033sCqy4klrTvsg4dxetq9jt
+Date:    0x4B343812 [Fri Dec 25 03:57:06 2009 UTC]
+EP:      0x401150 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x81d1 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4150   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4278   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4560   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x4bc8   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 16-colors
+RT_VERSION         0x4bf8   0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x63b        0x800        5.202466    
+.rdata     0x2000       0x41c        0x600        3.883649    
+.data      0x3000       0x1d         0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x4000       0xf78        0x1000       3.159030    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2005 Avery Lee
+InternalName: VirtualDub
+FileVersion: 1.6.5
+CompanyName:  
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: VirtualDub
+SpecialBuild: Release build
+ProductVersion: 1.6.5
+FileDescription: VirtualDub command-line driver application
+OriginalFilename: vdub.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    139776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     720afb61feb5cdee0dc1397adddb9a87
+SHA1:    d01eb2f8cf1ad0a13ebd345b4b64e617f56bb402
+ssdeep:  3072:jn1Tkn5PqIP3Z85lqKubs3V3iiUVxwOfCrpUSE:b1TaCIP3Z85ldubMhU8Ofh
+Date:    0x4BE34879 [Thu May  6 22:53:45 2010 UTC]
+EP:      0x413cc7 .text 0/5
+CRC:     Claimed: 0x23c01, Actual: 0x23c01 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1f310  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f838  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1fb20  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x203c8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x204f0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0x20a58  0x796    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x211f0  0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x214f8  0x57c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x21a74  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x21ac0  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 32x32, 16-colors
+RT_VERSION         0x21b00  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x21ddc  0x25f    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x142d0      0x14400      6.359715    
+.rdata     0x16000      0x7230       0x7400       4.965697    
+.data      0x1e000      0xb2c        0x800        3.605550    
+.rsrc      0x1f000      0x303c       0x3200       4.723936    
+.reloc     0x23000      0x2b7e       0x2c00       5.993859    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1998
+InternalName: GridCtrlDemo
+FileVersion: 1, 0, 0, 1
+ProductName: GridCtrlDemo Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: GridCtrlDemo MFC Application
+OriginalFilename: GridCtrlDemo.EXE
+Translation: 0x0409 0x04b0
+

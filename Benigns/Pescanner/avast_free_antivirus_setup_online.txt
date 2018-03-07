@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6334848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5534cd89ef44a72507dad0f422de8d87
+SHA1:    af69f98abd5485946f01e9faeb25faa0f8f59d35
+ssdeep:  196608:PYnFEWT/g98HAG7PyrVZgT+YTOEJH+XLWrl:PYnWWs98YVA++Jd+7WJ
+Date:    0x57B5C02C [Thu Aug 18 14:03:24 2016 UTC]
+EP:      0x4377f0 .text 0/6
+CRC:     Claimed: 0x617e74, Actual: 0x617e74 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+FILE               0xfd340  0x1b44e  LANG_CZECH   SUBLANG_DEFAULT          GIF image data, version 89a, 180 x 180
+RT_ICON            0x118ad8 0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x119140 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x119428 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x119550 0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x11a3f8 0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x11aca0 0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x11b208 0xba1e   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x126c28 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1291d0 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12a278 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x12a6e0 0x92     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x118790 0x348    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x12a778 0x437    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+WriteProcessMemory
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbf2aa      0xbf400      6.745027    
+.rdata     0xc1000      0x3304e      0x33200      5.515603    
+.data      0xf5000      0x69e4       0x3c00       3.892142    
+.didat     0xfc000      0x1e8        0x200        3.520335    
+.rsrc      0xfd000      0x2dbb0      0x2dc00      7.586854    [SUSPICIOUS]
+.reloc     0x12b000     0x954c       0x9600       6.637895    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2014 AVAST Software
+InternalName: SfxInst
+FileVersion: 12.3.3154.0
+CompanyName: AVAST Software
+Comments: avast! Antivirus
+ProductName: Avast Antivirus 
+ProductVersion: 12.3.3154.0
+FileDescription: avast! Antivirus Installer
+OriginalFilename: SfxInst.exe
+Translation: 0x0000 0x04b0
+

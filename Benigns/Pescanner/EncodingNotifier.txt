@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    131072 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     81e4d780f0fc63bfc7a42df471877097
+SHA1:    2740a411f0933622828ba63773b7f85cdea1ffd4
+ssdeep:  768:5l/kAXxn9eNs3GZuU79XqPQZZvN0g/U4cNOymYwhQ+xmSKWdKrPQZZvN0g/U4aG3:5lfx993xivWgINOaYdKjivWg+q4x9Y
+Date:    0x535BB5E2 [Sat Apr 26 13:34:26 2014 UTC]
+EP:      0x4013a4 .text 0/3
+CRC:     Claimed: 0x25b65, Actual: 0x25b65 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1eede  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e816  0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1df6e  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1d0c6  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1ba9e  0x1628   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x19ed6  0x1bc8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1722e  0x2ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12606  0x4c28   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x12590  0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 8 icons, 16x16, 256-colors
+RT_VERSION         0x12280  0x310    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1f446  0x284    LANG_NEUTRAL SUBLANG_DEFAULT          XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf860       0x10000      5.976982    
+.data      0x11000      0xe50        0x1000       0.000000    
+.rsrc      0x12000      0xd6ca       0xe000       5.891761    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: Open source / GPL
+InternalName: EncodingNotifier
+FileVersion: 1.00.0018
+CompanyName: Philippe734
+Comments: HandBrake encoding notifier when is done.
+ProductName: Encoding notifier
+ProductVersion: 1.00.0018
+OriginalFilename: EncodingNotifier.exe
+

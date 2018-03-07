@@ -1,0 +1,107 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    468056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     baaca87fe5ac99e0f1442b54e03056f4
+SHA1:    77a8060d1629183e457fdbc2f34143a5070bdd46
+ssdeep:  6144:oX6HSq6r+g2edNFhWU6J2OcbguwuH6oGFfcWJltVSyOdMAsnKTVrt4:W+g2erWJhcsuwuaZEMTVSNGAsKTVrt4
+Date:    0x509EE8D9 [Sat Nov 10 23:52:57 2012 UTC]
+EP:      0x415757 .text 0/4
+CRC:     Claimed: 0x7b26e, Actual: 0x7b26e 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x3e2eaL => This program cannot be run in DOS mode
+   0x5ea5aL => This program cannot be run in DOS mode
+   0x638e2L => This program cannot be run in DOS mode
+   0x67c6aL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x55c9c  0x20770  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (console) Intel 80386 32-bit
+BINRES             0x7640c  0x4e88   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (native) Intel 80386 32-bit
+BINRES             0x7b294  0x4388   LANG_ENGLISH SUBLANG_ENGLISH_US       PE32+ executable for MS Windows (native) Mono/.Net assembly
+BINRES             0x7f61c  0x3e42   LANG_ENGLISH SUBLANG_ENGLISH_US       MS-DOS executable, LE executable for MS Windows (VxD)
+RT_CURSOR          0x83460  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x83594  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x835f8  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x8365c  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x836c0  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x83724  0x64     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x83788  0xb30    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x842b8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x845a0  0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x846d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x849b8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x84ca0  0x5e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85280  0x1f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85474  0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85614  0x45e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85a74  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85ba8  0xbe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85c68  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85d48  0x138    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85e80  0x112    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x85f94  0xc2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x86058  0x2f2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x8634c  0x24a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x86598  0x3d6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x86970  0x174    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x86ae4  0x232    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x86d18  0x382    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x8709c  0x26a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x87308  0xb0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x873b8  0x20c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x875c4  0x176    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x8773c  0x1c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x87900  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x8793c  0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x87adc  0x50     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x87b2c  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x87b68  0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x87c10  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x87c24  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x87c38  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x87c4c  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x87c70  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x87f88  0x2c2    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceA
+CreateServiceA
+OpenProcessToken
+ShellExecuteExA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x32758      0x32800      6.629253    
+.rdata     0x34000      0x8e8e       0x9000       5.625389    
+.data      0x3d000      0x178ac      0x1a00       2.969489    
+.rsrc      0x55000      0x3324c      0x33400      6.211327    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2012 Mark Russinovich
+InternalName: Sysinternals Debug Output Viewer
+FileVersion: 4.81
+CompanyName: Sysinternals
+ProductName: Sysinternals Debugview
+ProductVersion: 4.81
+FileDescription: DebugView
+OriginalFilename: Dbgview.exe
+Translation: 0x0409 0x04b0
+

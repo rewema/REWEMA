@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29523792 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     73b7cb8b15c8982b1dee2833e44474a8
+SHA1:    dee73f4604cb2b8e93718cc980117cc0d09b9160
+ssdeep:  786432:EhB2kav2AhUplXV1CyRg6c3v9X5+TSoXc9lhM:ESv2AMlRRfc31p+Q9lhM
+Date:    0x55A7B084 [Thu Jul 16 13:24:20 2015 UTC]
+EP:      0x4113bc .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0x1c348f2, Actual: 0x1c348f2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c47c  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c5a4  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cb0c  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cdf4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1d69c  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1dd04  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1ebac  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x1ec14  0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1ece8  0xa4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x1ed8c  0x2ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1f038  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1f384  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1f618  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x27900  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x27910  0x150    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x27a60  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x27a8c  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 16-colors
+RT_VERSION         0x27ae8  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x27fdc  0x62c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf134       0xf200       6.391647    
+.itext     0x11000      0xb44        0xc00        5.741238    
+.data      0x12000      0xc88        0xe00        2.247533    
+.bss       0x13000      0x56b8       0x0          0.000000    [SUSPICIOUS]
+.idata     0x19000      0xdd0        0xe00        4.971882    
+.tls       0x1a000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1b000      0x18         0x200        0.204488    [SUSPICIOUS]
+.rsrc      0x1c000      0xc608       0xc800       4.489757    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2000-2017 Freeplane team and others                                                     
+FileVersion:                     
+CompanyName: Open source                                                 
+Comments: This installation was built with Inno Setup.
+ProductName: Freeplane                                                   
+ProductVersion: 1.5.21                                            
+FileDescription: Free mind mapping software. Fast. Simple. Streamlined.      
+Translation: 0x0000 0x04b0
+

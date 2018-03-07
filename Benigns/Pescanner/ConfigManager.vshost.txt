@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    22472 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     378dd10936aaff40eb34d94dc29f2366
+SHA1:    7203dde718aee9002420598a87b5871bd0cd0fa3
+ssdeep:  384:OatEPZIW+wWo1h7h0GftpBjkxFtAHRN7T6lR8sx:JtUWioiPTMhx
+Date:    0x5011D445 [Thu Jul 26 23:35:33 2012 UTC]
+EP:      0x40305e .text 0/3
+CRC:     Claimed: 0xbfd4, Actual: 0xbfd4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x3a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1064       0x1200       5.531725    
+.rsrc      0x4000       0x400        0x400        3.276000    
+.reloc     0x6000       0xc          0x200        0.077633    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+Assembly Version: 11.0.0.0
+InternalName: vshost.exe
+FileVersion: 11.0.50727.1
+CompanyName: Microsoft Corporation
+Comments: vshost.exe
+ProductName: Microsoft\xae Visual Studio\xae 2012
+ProductVersion: 11.0.50727.1
+FileDescription: vshost.exe
+OriginalFilename: vshost.exe
+

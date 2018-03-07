@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    271496 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     1de903c9d0e9567f951212604462539b
+SHA1:    a4bfff62066d16a7103f8bad987496b043af4982
+ssdeep:  6144://wMzBTX5a1Jfq7877hG12ThYlx+tO4h98QeAPPxwY2jy+n4r://wMzxXoDhSmreAPJYyo
+Date:    0x578990B0 [Sat Jul 16 01:41:04 2016 UTC]
+EP:      0x42e1e0 .text 0/5
+CRC:     Claimed: 0x4613d, Actual: 0x4613d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WEVT_TEMPLATE      0x3bc10  0xb7a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x3baf0  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_VERSION         0x3b730  0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3b150  0x5dd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x331a8      0x33200      6.389506    
+.data      0x35000      0x312c       0x2c00       4.510618    
+.idata     0x39000      0x1b52       0x1c00       5.510585    
+.rsrc      0x3b000      0x1790       0x1800       4.489049    
+.reloc     0x3d000      0x3f24       0x4000       6.655764    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: NisSrv.exe
+FileVersion: 4.10.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 4.10.14393.0
+FileDescription: Microsoft Network Realtime Inspection Service
+OriginalFilename: NisSrv.exe
+Translation: 0x0409 0x04b0
+

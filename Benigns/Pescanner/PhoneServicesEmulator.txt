@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5760000 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4b8794423e62fb260b0425c5c176c21a
+SHA1:    2433d4ac4296e1e584c377e1eba6dada8171dc93
+ssdeep:  98304:BElWIG9WeFC6gc9yFg2q/awz7YC6xmHWw74k4Z7N5D9cBUnc:BElWZ9jFbUFg2lwfUxU4kwln
+Date:    0x3A5B1B81 [Tue Jan  9 14:09:05 2001 UTC]
+EP:      0x403f8f .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x584570 [SUSPICIOUS]
+Packers: WinZip 32-bit SFX v8.x module
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa0d0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa3b8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa4e0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5486       0x5600       6.455427    
+.rdata     0x7000       0xbd2        0xc00        5.084300    
+.data      0x8000       0x1735       0xe00        6.891324    
+.rsrc      0xa000       0x508        0x600        2.600479    
+_winzip_   0xb000       0x577000     0x576a00     7.999026    [SUSPICIOUS]
+

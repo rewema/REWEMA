@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    53248 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     6909eda515c9f66cf8b1986377ad3a50
+SHA1:    74cbdd867c09a44e03e607458e2570c2c83a9386
+ssdeep:  384:g6Ye6ubKjnokT71XRvTokc96ubhT071u7Oeb73RH7B7GYdF8Txpw/+KsLIb+VckJ:g6Ye6u2zXMcdeZpyQ/DycBZPql2Ra
+Date:    0x45EBEF13 [Mon Mar  5 10:21:07 2007 UTC]
+EP:      0x40bb4e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x140a6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc470   0xa68    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xced8   0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0xc0e8   0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x9b54       0xa000       5.542501    
+.rsrc      0xc000       0xef0        0x1000       2.930750    
+.reloc     0xe000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2007
+Assembly Version: 2.0.0.0
+InternalName: FamilyPlayer.exe
+FileVersion: 2.0.0.0
+CompanyName: Ercan ACAR
+LegalTrademarks: Ercan ACAR
+Comments: Mediaplayer censor
+ProductName: FamilyPlayer
+ProductVersion: 2.0.0.0
+FileDescription: FamilyPlayer
+OriginalFilename: FamilyPlayer.exe
+

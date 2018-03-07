@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     fb1c4d7ade8f864bf931c7fd1948b555
+SHA1:    bc76aa8f095d7fff72c69d1d704849e1e71b6b50
+ssdeep:  384:nfC/dOQejY9qXIVb/Y0LhakXr3owymfj/IkC56W4kQWk5ff:nKVOQe81/R3M5dk
+Date:    0x57898D89 [Sat Jul 16 01:27:37 2016 UTC]
+EP:      0x403cb0 .text 0/5
+CRC:     Claimed: 0xb3f2, Actual: 0xb3f2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8780   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83b8   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2c1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x33d4       0x3400       6.303867    
+.data      0x5000       0x1a62       0x200        0.960292    [SUSPICIOUS]
+.idata     0x7000       0x81e        0xa00        4.364690    
+.rsrc      0x8000       0x848        0xa00        3.787293    
+.reloc     0x9000       0x370        0x400        6.010846    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: tskill
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Remote Desktop Services End Process Utility
+OriginalFilename: tskill.exe
+Translation: 0x0409 0x04b0
+

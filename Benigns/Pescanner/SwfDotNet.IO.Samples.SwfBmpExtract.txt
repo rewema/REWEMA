@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     098fb6c3d1374529ca0502d1dde9cedf
+SHA1:    9b9a0102311d5e5fbe70a5152b0868d87ee65a85
+ssdeep:  48:6KhoMKbb3zuTPRDWLgjg/mvOPt3KVliG0X/KVlilLiMH:/Kzw5iUcG0X
+Date:    0x432FD0E9 [Tue Sep 20 09:05:45 2005 UTC]
+EP:      0x4025ce .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x54e6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4490   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4778   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x48a0   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4118   0x374    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5d4        0x1000       2.230757    
+.rsrc      0x4000       0x8c8        0x1000       2.151729    
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2089.18172
+InternalName: SwfDotNet.IO.Samples.SwfBmpExtract.exe
+FileVersion: 1.0.2089.18172
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2089.18172
+FileDescription:  
+OriginalFilename: SwfDotNet.IO.Samples.SwfBmpExtract.exe
+

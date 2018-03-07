@@ -1,0 +1,151 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4964352 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     485eff109b2774c7f5c424ad7c818cc9
+SHA1:    05d034494463c339c8ddaef80c500a1661afb4c4
+ssdeep:  49152:Tz+MsBPYJ+SYGU+OMX7IAsBKNDZ92z7tX9bCGA0dltbKfVmeKXc0ZQikRH1TrQ8l:Tz+hmHIAsBKNT2zlAyhEGc0ZwAu
+Date:    0x51003B6F [Wed Jan 23 19:35:11 2013 UTC]
+EP:      0x82b574 .itext 1/10 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x4c59ee [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x42d99dL => deflate
+   0x42d9bfL => Jean-loup Gailly
+   0x42e561L => inflate
+   0x42d9d4L => Mark Adler
+   0x42e583L => Mark Adler
+   0x3ea827L => OpenSSL
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x4a92b4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x4a93e8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x4a951c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x4a9650 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x4a9784 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x4a98b8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x4a99ec 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4a9b20 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x4a9f88 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x4ab030 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x4af258 0x29c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4af4f4 0x29c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4af790 0x3d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4afb68 0x898    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b0400 0x106c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b146c 0x9f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b1e64 0x894    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b26f8 0x87c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b2f74 0x570    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b34e4 0x260    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0x4b3744 0x1f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b3938 0x328    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b3c60 0x49c    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0x4b40fc 0x320    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b441c 0x448    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b4864 0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b4c08 0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b4fd4 0x2bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b5290 0x398    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b5628 0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b59cc 0x48c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b5e58 0x4f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b634c 0x4b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b6804 0xa8c    LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version i
+RT_STRING          0x4b7290 0x4b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b7748 0x5a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b7cec 0x8a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b8590 0x8c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b8e50 0x5d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b9428 0x494    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b98bc 0x238    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b9af4 0x4a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4b9f98 0x41c    LANG_NEUTRAL SUBLANG_NEUTRAL          Dyalog APL incomplete workspace version 68 .0
+RT_STRING          0x4ba3b4 0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4ba628 0x448    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4baa70 0x748    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bb1b8 0x530    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bb6e8 0x4a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bbb90 0x474    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bc004 0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bc3d0 0x4b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bc880 0x400    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bcc80 0x514    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bd194 0xb08    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bdc9c 0x83c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4be4d8 0x2c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4be798 0x444    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bebdc 0xa0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (6422625 records)
+RT_STRING          0x4bec7c 0xe4     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x4bed60 0x33c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bf09c 0x418    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bf4b4 0x350    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bf804 0x3dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4bfbe0 0x488    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c0068 0x3e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c044c 0x5e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c0a34 0x558    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c0f8c 0x37c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c1308 0x384    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c168c 0x3e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c1a74 0x10c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_STRING          0x4c1b80 0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7340133 records)
+RT_STRING          0x4c1c4c 0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c1f34 0x360    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c2294 0x43c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c26d0 0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x4c2a38 0x2c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x4c2d00 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x4c2d10 0x13d8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x4c40e8 0x2      LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x4c40ec 0x2f8c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x4c7078 0x6f5    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x4c7770 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x4c7784 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x4c7798 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x4c77ac 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x4c77c0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x4c77d4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x4c77e8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x4c77fc 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_VERSION         0x4c782c 0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       MIPSEB-LE MIPS-III ECOFF executable not stripped - version 0.79
+RT_MANIFEST        0x4c796c 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x427304     0x427400     6.450835    
+.itext     0x429000     0x25fc       0x2600       6.308415    
+.data      0x42c000     0xe2e8       0xe400       5.861422    
+.bss       0x43b000     0x5cf0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x441000     0x3ed6       0x4000       5.115911    
+.didata    0x445000     0x8ba        0xa00        3.799777    
+.tls       0x446000     0x4c         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x447000     0x18         0x200        0.210826    [SUSPICIOUS]
+.reloc     0x448000     0x5f21c      0x5f400      6.695678    
+.rsrc      0x4a8000     0x1fe00      0x1fe00      4.543192    
+
+Version info
+================================================================================
+FileVersion: 1.0.0.0
+ProductVersion: 1.0.0.0
+Translation: 0x0409 0x04e4
+

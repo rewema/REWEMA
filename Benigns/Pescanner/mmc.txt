@@ -1,0 +1,94 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1543680 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     16fb06a97ebd4ffe95c6ecf154d20fdf
+SHA1:    e3cca23556c4e9b8e1417abb9edaa32a6d3f7205
+ssdeep:  24576:rkfZUCL0kyTTemjUtUHEaj7y7Dphur9t77Mo7wMo7DH0wruH:rfCvGhj+UHEa+eX7e7DHRruH
+Date:    0x5789900F [Sat Jul 16 01:38:23 2016 UTC]
+EP:      0x46c070 .text 0/6
+CRC:     Claimed: 0x18789d, Actual: 0x18789d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1644c0 0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0x121390 0x6d6c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+TYPELIB            0x128100 0xc44    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x1632b8 0x1203   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_CURSOR          0x163168 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_BITMAP          0x144608 0x828    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x144e30 0x2428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x147258 0x9028   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x150280 0xa8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x150328 0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x154f50 0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x128d48 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1293b0 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x129698 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x129880 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1299a8 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12a850 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12b0f8 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12b7c0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12bd28 0x6779   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1324a8 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x134a50 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x135af8 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x136480 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1369a8 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x137010 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1372f8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1374e0 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x137608 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1384b0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x138d58 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x139420 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x139988 0x6779   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x140108 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1426b0 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x143758 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1440e0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_CURSOR    0x1632a0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x1368e8 0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x144548 0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x120ff0 0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_HTML            0x1602e8 0x2e7e   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x15cf30 0x33b5   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_HTML            0x159b78 0x33b7   LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_MANIFEST        0x120ca0 0x34f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_MANIFEST        0x120a20 0x27f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10f1cc     0x10f200     6.221084    
+.data      0x111000     0x85dc       0x7000       5.004975    
+.idata     0x11a000     0x4208       0x4400       5.916179    
+.didat     0x11f000     0x2c0        0x400        2.979308    
+.rsrc      0x120000     0x445d8      0x44600      6.485276    
+.reloc     0x165000     0x19828      0x19a00      6.727300    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: mmc.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Management Console
+OriginalFilename: mmc.exe
+Translation: 0x0409 0x04b0
+

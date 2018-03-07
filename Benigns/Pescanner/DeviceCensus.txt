@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    211456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     bb50961170aeb58bd807b3cf77b37604
+SHA1:    ad6385bde9e680c108a2b392aaf6aec55bd150c8
+ssdeep:  6144:qy+klHzv8je6U/+6iN/FVyCaRILcSy7eAjk:qyjf/CSCoILcvij
+Date:    0x578990A5 [Sat Jul 16 01:40:53 2016 UTC]
+EP:      0x429950 .text 0/6
+CRC:     Claimed: 0x39e28, Actual: 0x39e28 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x34348  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x340a0  0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2da84      0x2dc00      6.276481    
+.data      0x2f000      0x7b4        0x400        2.017205    
+.idata     0x30000      0x2514       0x2600       5.315884    
+.didat     0x33000      0x68         0x200        0.936672    [SUSPICIOUS]
+.rsrc      0x34000      0x6e8        0x800        4.009885    
+.reloc     0x35000      0x24cc       0x2600       6.686827    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DeviceCensus
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Device Census
+OriginalFilename: DeviceCensus.exe
+Translation: 0x0409 0x04b0
+

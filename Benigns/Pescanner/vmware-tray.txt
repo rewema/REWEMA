@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    104128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b5031a2ae63d7a5d45854980956a481d
+SHA1:    c2f28c835214922b8dbbdbc772cd031642a92c04
+ssdeep:  3072:ycXHgKXF7JEMUMnHCfJEOjTosUdOxaeM8n:JXjWMHCfP4dOxafs
+Date:    0x562447E2 [Mon Oct 19 01:31:14 2015 UTC]
+EP:      0x40c5d0 .text 0/5
+CRC:     Claimed: 0x23eae, Actual: 0x23eae 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x15538  0x11b    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15654  0x2de    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15934  0xc1     LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x159f8  0x1cc    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15bc4  0x11b    LANG_JAPANESE SUBLANG_DEFAULT          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15ce0  0x2de    LANG_JAPANESE SUBLANG_DEFAULT          PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x15fc0  0xc1     LANG_JAPANESE SUBLANG_DEFAULT          PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x16084  0x1cc    LANG_JAPANESE SUBLANG_DEFAULT          PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x16250  0x11b    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1636c  0x2de    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1664c  0xc1     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x16710  0x1cc    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+RT_MENU            0x168dc  0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x16a8c  0x164    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_MENU            0x16bf0  0x110    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x16d00  0x244    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f44  0x1da    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_DIALOG          0x17120  0x190    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x172b0  0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x17374  0x7c     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_STRING          0x173f0  0x60     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_GROUP_ICON      0x17450  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x17474  0x22     LANG_JAPANESE SUBLANG_DEFAULT          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x17498  0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x174bc  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x174e0  0x22     LANG_JAPANESE SUBLANG_DEFAULT          MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x17504  0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x17528  0x338    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_MANIFEST        0x17860  0x65f    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED ASCII text, with very long lines, with no line terminators
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd66e       0xd800       6.257396    
+.rdata     0xf000       0x4f24       0x5000       4.730308    
+.data      0x14000      0x934        0x600        3.390403    
+.rsrc      0x15000      0x2ec0       0x3000       6.323672    
+.reloc     0x18000      0x14e0       0x1600       5.526350    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2015 VMware, Inc.
+InternalName: vmware-tray
+FileVersion: 12.0.1 build-3160714
+CompanyName: VMware, Inc.
+ProductName: VMware Workstation
+ProductVersion: 12.0.1 build-3160714
+FileDescription: VMware Tray Process
+OriginalFilename: vmware-tray.exe
+Translation: 0x0409 0x04b0
+

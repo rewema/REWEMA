@@ -1,0 +1,34 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    36864 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     62cd6ce4b43baef0b1bb158e092a3276
+SHA1:    7fd66221e75baae15e6adfff929f2d1dda59e4bf
+ssdeep:  384:ZIiT0wSMtVDaI4P9g81QyXml/NeGnjA2iDC/djotFfA8lnoZGnT2kbS:ZD0wXVv4P0ZLs2aC1iDlnoInT3S
+Date:    0x4408CC02 [Fri Mar  3 23:06:42 2006 UTC]
+EP:      0x401711 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x175eb [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa0e0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa3c8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa4f0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4836       0x5000       6.198869    
+.rdata     0x6000       0xb8c        0x1000       4.234985    
+.data      0x7000       0x2024       0x1000       2.248535    
+.rsrc      0xa000       0x518        0x1000       1.315580    
+

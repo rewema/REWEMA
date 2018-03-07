@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    815104 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5787e5df1a68e7afea82d58e5f0d6549
+SHA1:    85aeb78ccb38d2b711f7c8c66b9c30f58e8b75d4
+ssdeep:  12288:0VnUiPqGC7PkTx1PZhjy45FIed/5eTp7SJ22rN6/8O2fJpUGpFdTvct1cCz:KUGOA1Pbjy4ge501/gTwqCz
+Date:    0x511BB271 [Wed Feb 13 15:34:09 2013 UTC]
+EP:      0x401130 .text 0/5
+CRC:     Claimed: 0xd3594, Actual: 0xd3594 
+
+Signature scans
+================================================================================
+YARA: irc
+   0xa7febL => msg
+   0xa7d7aL => Notice
+   0xc2195L => Notice
+   0xa4a2bL => part
+   0xa4ee4L => part
+   0xa5b44L => part
+   0xa5c0fL => part
+   0xa5c86L => part
+   0xb5984L => part
+   0xb75a6L => part
+   0xb76e5L => part
+   0xb8666L => part
+   0xbcba4L => part
+   0xbef26L => part
+   0xbf1e4L => part
+   0xbfb05L => part
+   0xbfb48L => part
+   0xbfc88L => part
+   0xc0ac6L => part
+   0xc3805L => part
+   0xc4e69L => part
+   0xc4fa5L => part
+   0xf302L => QUIT
+   0x9be01L => quit
+
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x99b5c      0x99c00      6.441847    
+.data      0x9b000      0x13e4       0x1400       3.162425    
+.rdata     0x9d000      0x2a460      0x2a600      5.801047    
+.bss       0xc8000      0x152e8      0x0          0.000000    [SUSPICIOUS]
+.idata     0xde000      0x151c       0x1600       5.170693    
+

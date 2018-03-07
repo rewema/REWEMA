@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4883243 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     48e8019b524061235aeebbd2f9f363db
+SHA1:    a10cfbed125cd052f7d9120b49e5927f35e1d4e3
+ssdeep:  98304:1M1OgZCsFmmYiZbQVLEggiLgVRR+eASomLz560X0wseiDumpLlSc+kfP0pLD3L5N:K0grmmYudgrLgXRBolY0wseVmRlB+k0D
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x409a58 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x4aeb5f [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x112c4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1386c  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13b60  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13e6c  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1413c  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x141a4  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x14258  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x14308  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x14334  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x14348  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x14800  0x47e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x9174       0x9200       6.566254    
+DATA       0xb000       0x24c        0x400        2.735084    
+BSS        0xc000       0xe48        0x0          0.000000    [SUSPICIOUS]
+.idata     0xd000       0x950        0xa00        4.430733    
+.tls       0xe000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xf000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x10000      0x8b4        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x11000      0x3c80       0x3e00       3.858105    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion:                     
+CompanyName: Azazia software                                             
+Comments: This installation was built with Inno Setup.
+ProductName: Data Center Audit                                           
+ProductVersion:                     
+FileDescription: Data Center Audit Setup                                     
+Translation: 0x0000 0x04b0
+

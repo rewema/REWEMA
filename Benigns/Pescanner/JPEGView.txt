@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1137152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     0d7289e15ac9c2c6ab06d19fb2cb4757
+SHA1:    639db09f82f0d8b3462f37b14d6ba318b6dfe1a8
+ssdeep:  24576:pfOvmwdRXfpYJErc6bL9h8Hwbw7yuvVBpbc/PQaf02F255xyCNQuINonW8M0Pcdb:xOvFdRvpYJErc639h8Hwbw7yuvVBpbcB
+Date:    0x5685386D [Thu Dec 31 14:15:09 2015 UTC]
+EP:      0x4b6a10 .text 0/5
+CRC:     Claimed: 0x1221fb, Actual: 0x1221fb 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x11f48c 0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x120134 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x12069c 0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x122344 0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x1224c8 0x11b2   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x12367c 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1236d8 0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12370c 0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x123740 0x238    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x123978 0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x123a50 0x17c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x123bcc 0x160    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x123d2c 0x204    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x123f30 0x256    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x124188 0x718    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x1248a0 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1248d0 0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 256-colors
+RT_VERSION         0x124900 0x2ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x124bec 0x357    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd9681      0xd9800      6.773743    
+.rdata     0xdb000      0x27874      0x27a00      4.909284    
+.data      0x103000     0x1b8e4      0x2400       4.306054    
+.rsrc      0x11f000     0x5f44       0x6000       5.771317    
+.reloc     0x125000     0xbfe8       0xc000       6.179405    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 2006-2015 David Kleiner
+InternalName: JPEGView
+FileVersion: 1.0.34.0
+CompanyName: David Kleiner
+ProductName: JPEGView Application
+ProductVersion: 1.0.34.0
+FileDescription: JPEGView
+OriginalFilename: JPEGView.exe
+Translation: 0x0409 0x04b0
+

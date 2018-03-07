@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10241408 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e9ecf5e6369067e126d0c1a40dc855ae
+SHA1:    2bf46ff50a7bf529ed6d05b77302c44392275c38
+ssdeep:  196608:yYTGRFrEspOq3S2KHInd4sUmF+3XFgEpRvLaUU/fvitbkLq:1T4Ex3Ind4sU6d4vLYA
+Date:    0x4EF098D2 [Tue Dec 20 14:16:50 2011 UTC]
+EP:      0x416478 .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0x9cae3f, Actual: 0x9cae3f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2141c  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x21544  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x21aac  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x21d94  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x2263c  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x22700  0xcc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x227cc  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22940  0x39c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x22cdc  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23028  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x232bc  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x2b5a4  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x2b5b4  0x1a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2b754  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x2b780  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x2b7c0  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x2bc78  0x56b    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x143f0      0x14400      6.482200    
+.itext     0x16000      0xbe8        0xc00        6.009291    
+.data      0x17000      0xd9c        0xe00        2.673751    
+.bss       0x18000      0x5710       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1e000      0xf9e        0x1000       4.967783    
+.tls       0x1f000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x20000      0x18         0x200        0.190489    [SUSPICIOUS]
+.rsrc      0x21000      0xb1e3       0xb200       4.153342    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion: 6.3                 
+CompanyName: AOMEI Technology Co., Ltd.                                  
+Comments: This installation was built with Inno Setup.
+ProductName:                                                             
+ProductVersion: 6.3                 
+FileDescription:                                                             
+Translation: 0x0000 0x04b0
+

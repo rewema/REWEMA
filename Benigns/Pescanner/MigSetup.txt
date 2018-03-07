@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    156440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a1c253bacf7dd8793b99c6eeeeeaf3ac
+SHA1:    590305e4c8cbcc0ee40f62aae717c078ff38cd15
+ssdeep:  1536:S21qkLwZWp1X2DoJUBLZTTNtGvhuhg8peSmxgf9RsEwXSH6PI74FuNyDUOd20E/I:sZWpwBLZGAX3mxgbHwXu405o20EjU
+Date:    0x4A5BC08A [Mon Jul 13 23:17:30 2009 UTC]
+EP:      0x10075ea .text 0/4
+CRC:     Claimed: 0x299f1, Actual: 0x299f1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x25698  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe8f0   0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xef58   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf240   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xf368   0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10210  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10ab8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x11020  0x104e6  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x21508  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x23ab0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24b58  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xe750   0x19a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25360  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x24fc0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xe3c0   0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x25058  0x305    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb23a       0xb400       5.731149    
+.data      0xd000       0x6d0        0x400        5.835071    
+.rsrc      0xe000       0x17778      0x17800      7.449372    [SUSPICIOUS]
+.reloc     0x26000      0x1324       0x1400       4.398880    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: migwiz.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Windows Easy Transfer
+OriginalFilename: migwiz.exe
+Translation: 0x0409 0x04b0
+

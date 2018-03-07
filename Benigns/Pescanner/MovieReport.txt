@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    25600 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b0a98043d0d8ac2cc8638b233cfd8ecf
+SHA1:    1e876a31fbf159825d92d2ab23461ecce723684f
+ssdeep:  384:g7MgToGvElTu+rZKL2HEj+fGlzaFPnPRORfwKkCgi0:i/ToGvEZu+0L2HEjVlyj
+Date:    0x4C25057B [Fri Jun 25 19:37:31 2010 UTC]
+EP:      0x401290 .text 0/6
+CRC:     Claimed: 0xe1f1, Actual: 0xe1f1 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_RCDATA          0x121d8  0x6      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x121e0  0x10     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x121f0  0x2      LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_RCDATA          0x121f4  0x3      LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x121f8  0x19     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x12214  0x32     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x12248  0x73     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+RT_RCDATA          0x122bc  0x35     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII text, with no line terminators
+RT_RCDATA          0x122f4  0x68     LANG_NEUTRAL SUBLANG_DEFAULT          ASCII English text, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x47b0       0x4800       5.974786    
+.data      0x6000       0xc0         0x200        0.326395    [SUSPICIOUS]
+.rdata     0x7000       0x420        0x600        4.446248    
+.bss       0x8000       0x8cb0       0x0          0.000000    [SUSPICIOUS]
+.idata     0x11000      0xadc        0xc00        4.720912    
+.rsrc      0x12000      0x35c        0x400        3.654825    
+

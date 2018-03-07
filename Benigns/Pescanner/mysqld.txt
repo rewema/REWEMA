@@ -1,0 +1,81 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5816960 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     46b80d4a6353d37aea92d0f0fa9878d5
+SHA1:    285bf77ae1316a42a6d4c91338ca20dc00dd7808
+ssdeep:  98304:tkntNyZXxjh07Lr1/cK67hs666lkkkeAAANIbb1111YYdvvV+pAetQGeeGleNNkV:t1PyS5x
+Date:    0x4BE26DD2 [Thu May  6 07:20:50 2010 UTC]
+EP:      0x6e26f2 .text 0/6
+CRC:     Claimed: 0x590da0, Actual: 0x590da0 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x3e6929L => deflate
+   0x3e694bL => Jean-loup Gailly
+   0x3e7e81L => inflate
+   0x3e7ea3L => Mark Adler
+   0x3755b8L => OpenSSL
+   0x3755fdL => OpenSSL
+   0x3e3a58L => SSLeay
+YARA: irc
+   0x370316L => join
+   0x37032cL => join
+   0x3731c4L => join
+   0x3731fcL => join
+   0x373b64L => join
+   0x37ec54L => join
+   0x3859e1L => JOIN
+   0x3861b8L => JOIN
+   0x3881fdL => join
+   0x38820eL => join
+   0x38821eL => join
+   0x388305L => join
+   0x43e4ffL => join
+   0x38a644L => Msg
+   0x38a650L => Msg
+   0x3511e6L => part
+   0x351204L => part
+   0x35120eL => part
+   0x35121dL => PART
+   0x37924bL => part
+   0x388a40L => part
+   0x388a4cL => PART
+   0x3f81cdL => part
+   0x3f81eaL => part
+   0x40723eL => part
+   0x4083f5L => part
+   0x386a44L => Ping
+   0x386ad4L => Quit
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_MESSAGETABLE    0x59f0a0 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x59f158 0x1de    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateServiceA
+StartServiceCtrlDispatcherA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x349ebb     0x34a000     5.845070    
+.rdata     0x34b000     0xdffcc      0xe0000      5.247454    
+.data      0x42b000     0x1708a4     0x15c000     4.504926    
+.idata     0x59c000     0x1913       0x2000       4.115522    
+.tls       0x59e000     0x3a1        0x1000       0.000000    
+.rsrc      0x59f000     0x338        0x1000       3.869742    
+

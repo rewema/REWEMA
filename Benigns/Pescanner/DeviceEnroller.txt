@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    144896 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bd849f086b9953f909edaead8376d72a
+SHA1:    fe2834a3a0ae5df97d1193f2097ed17d72170e3f
+ssdeep:  3072:EdnyPQOQ2P2uNAnQ01SHCvb3Im54XxDDHdMJFDisuASX98H72UqZgGtxqlV:3QOQ2OuRgImADeVizA1HiXyY
+Date:    0x57898E2B [Sat Jul 16 01:30:19 2016 UTC]
+EP:      0x41a030 .text 0/6
+CRC:     Claimed: 0x24b85, Actual: 0x24b85 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WEVT_TEMPLATE      0x23578  0x1dea   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25368  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x21520  0x2054   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x21150  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1b290      0x1b400      6.328980    
+.data      0x1d000      0x8e4        0x400        2.511315    
+.idata     0x1e000      0x1c60       0x1e00       5.231340    
+.didat     0x20000      0x40         0x200        0.468759    [SUSPICIOUS]
+.rsrc      0x21000      0x4418       0x4600       3.353329    
+.reloc     0x26000      0x13e0       0x1400       6.712319    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: API for MDM Enrollment
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: API for MDM Enrollment
+OriginalFilename: deviceenroller.exe
+Translation: 0x0409 0x04b0
+

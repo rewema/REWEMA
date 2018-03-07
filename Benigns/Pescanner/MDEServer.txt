@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    355328 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ce248bf5dbcce552367f2593b4d8433e
+SHA1:    bca9e0f949b4fe0005c0c8d906ca13821d599f29
+ssdeep:  6144:IMo+DybWmEHytF/79u+hPrnQUm3969/xDyHqErCwxwlxoKg5D:IWkWmEHyVu+hjnQUTCKErCwWl/
+Date:    0x57898E96 [Sat Jul 16 01:32:06 2016 UTC]
+EP:      0x44cfc0 .text 0/6
+CRC:     Claimed: 0x618b7, Actual: 0x618b7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x54730  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x54378  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x540f0  0x283    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4de5c      0x4e000      6.571651    
+.data      0x4f000      0x1f48       0x1000       1.812289    
+.idata     0x51000      0x13fc       0x1400       5.291821    
+.didat     0x53000      0x160        0x200        2.733834    
+.rsrc      0x54000      0x7f8        0x800        4.294792    
+.reloc     0x55000      0x5838       0x5a00       6.782490    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Cast to Device Server
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Cast to Device Server
+OriginalFilename: MDEServer.exe
+Translation: 0x0409 0x04b0
+

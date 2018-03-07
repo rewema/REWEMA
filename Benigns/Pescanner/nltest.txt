@@ -1,0 +1,74 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    399360 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     7bd3f38fa02fbea24adeeee9e15712f1
+SHA1:    f3d3abff14a3e48d18c00d8e4f14afeca69ec7af
+ssdeep:  6144:hEIRTT+nUIHd8wmI7Sr0yC925H3nLeueO+ueO+ueC:iIRTT6atRCs5H3nLeueO+ueO+ueC
+Date:    0x57899138 [Sat Jul 16 01:43:20 2016 UTC]
+EP:      0x44a150 .text 0/5
+CRC:     Claimed: 0x66872, Actual: 0x66872 
+
+Signature scans
+================================================================================
+YARA: irc
+   0xf1a3L => JOIN
+   0xf33bL => JOIN
+   0x18bddL => JOIN
+   0x18c3eL => JOIN
+   0x18c46L => JOIN
+   0x18c6aL => JOIN
+   0x18c87L => JOIN
+   0x18cf9L => JOIN
+   0x2197aL => JOIN
+   0x21b0aL => JOIN
+   0x21daeL => JOIN
+   0x31d40L => MSG
+   0x31d88L => MSG
+   0x31ec3L => MSG
+   0x31fdbL => MSG
+   0x32020L => MSG
+   0x5e01L => NOTICE
+   0x695dL => NOTICE
+   0x6995L => NOTICE
+   0xf030L => PART
+   0x276a0L => PART
+   0x2860aL => PART
+   0x2bfefL => PART
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x68770  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x683a8  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x680f0  0x2b1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x498d4      0x49a00      4.851706    
+.data      0x4b000      0x1a538      0x11200      5.803089    
+.idata     0x66000      0x1130       0x1200       5.208577    
+.rsrc      0x68000      0x838        0xa00        3.756547    
+.reloc     0x69000      0x4bd8       0x4c00       5.745674    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: nltestrk.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Logon Server Test Utility
+OriginalFilename: nltestrk.exe
+Translation: 0x0409 0x04b0
+

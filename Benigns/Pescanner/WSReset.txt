@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    89088 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     034f36dc21fb766ae67515a8a7c89425
+SHA1:    d3c5415901c05f46839a89a92b57b613f8eaa39c
+ssdeep:  384:+oeyQTAHcSx3XoMq5U76+60PcW4mvN0jxHSuJaYYuoOBk5A68tBj2lpBCsgWsMWH:ypAHcSxIMZ7Rt13vNsn4FOBkStBWgN
+Date:    0x5789918C [Sat Jul 16 01:44:44 2016 UTC]
+EP:      0x4034c0 .text 0/5
+CRC:     Claimed: 0x23b11, Actual: 0x23b11 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x64a0   0xc828   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12cc8  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14970  0x16a6   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x16018  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x170c0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x17528  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0x17578  0x434    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x61f0   0x2ad    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2d4c       0x2e00       5.935395    
+.data      0x4000       0x394        0x200        0.183339    [SUSPICIOUS]
+.idata     0x5000       0x82e        0xa00        4.391109    
+.rsrc      0x6000       0x119b0      0x11a00      2.754400    
+.reloc     0x18000      0x354        0x400        5.978809    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WSReset.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: This tool resets the Windows Store without changing account settings or deleting installed apps
+OriginalFilename: WSReset.exe
+Translation: 0x0409 0x04b0
+

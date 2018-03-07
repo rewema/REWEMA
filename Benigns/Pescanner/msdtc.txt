@@ -1,0 +1,69 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    139776 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8c5c7992443917ad41c04c1fb6208315
+SHA1:    5dc7b4a14d407a455f62219c11f343e1f0380402
+ssdeep:  1536:7o8WsOAwZ8cxHZBVGaFVA0a4qDLZAQcEzok3E8vroH3S7NtiXE/Lks:zWsON8cZZKa8v7fcmEAkyXiqks
+Date:    0x57898F2A [Sat Jul 16 01:34:34 2016 UTC]
+EP:      0x408370 .text 0/6
+CRC:     Claimed: 0x311b2, Actual: 0x311b2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x277b0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10738  0xa68    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x111a0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11808  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11af0  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11cd8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x11e00  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13428  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x142d0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14b78  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15240  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x157a8  0x94d7   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x1ec80  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x22ea8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x25450  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x264f8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x26e80  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x272e8  0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 16 icons, 64x64, 16-colors
+RT_VERSION         0x273d0  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x10480  0x2b5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x81f0       0x8200       6.008772    
+.data      0xa000       0x24d0       0x200        2.268307    
+.idata     0xd000       0x1276       0x1400       4.900424    
+.didat     0xf000       0x10         0x200        0.158427    [SUSPICIOUS]
+.rsrc      0x10000      0x17880      0x17a00      5.931952    
+.reloc     0x28000      0x8fc        0xa00        6.360050    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MSDTC.EXE
+FileVersion: 2001.12.10941.16384 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft Distributed Transaction Coordinator Service
+OriginalFilename: MSDTC.EXE
+Translation: 0x0409 0x04b0
+

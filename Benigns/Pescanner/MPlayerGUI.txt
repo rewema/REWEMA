@@ -1,0 +1,176 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    413696 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9f4c6f5e89348e649d3da67152cd0c55
+SHA1:    b5590ed40e980970f7cc536b9860fe3bfc9297e8
+ssdeep:  6144:uOtq98xevYIjkZC+ou82u0EYuJr7/KpakpsD1MvQOMm:uOLg6p82u0EYUv/6akjdMm
+Date:    0x4E76EAED [Mon Sep 19 07:10:37 2011 UTC]
+EP:      0x418ccf .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x69c2d [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x64bb0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x64ce8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x5fb20  0x4a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x5fab0  0x6c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x5a840  0x16a    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_BITMAP          0x64dc8  0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x65498  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x65550  0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x656c0  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5a9b0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5acb0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5afb0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5b2b0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5b5b0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5b8b0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5bbb0  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5bcf0  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5be30  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5bf70  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c0b0  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c1f0  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c330  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c470  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c5b0  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c6f0  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c830  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5c970  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5cc58  0x130    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5cdb0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5d098  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5d1e8  0x130    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5d318  0x2e8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5d600  0x128    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5d728  0x668    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5dd90  0x8a8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5e638  0xea8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_ICON            0x5f4e0  0x568    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED GLS_BINARY_LSB_FIRST
+RT_ICON            0x5ffc0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x600e8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x603f8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x606e0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x60808  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x60ec8  0x65e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x61528  0xea     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61700  0x162    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61868  0x80     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63450  0x31c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61aa8  0x232    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x618e8  0x1be    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61ce0  0x21e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x61f00  0x59a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x624a0  0x540    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x629e0  0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x62b68  0x26a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x62dd8  0x242    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63020  0x42e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63770  0x2e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63a58  0x36     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63a90  0x2b2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63d48  0x9c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63de8  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x63ef0  0x2e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x641d8  0x13a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x653b0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x65808  0x90     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66af0  0x2e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x666c0  0x78     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66738  0x1c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66900  0xf6     LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_STRING          0x669f8  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66b20  0xb2     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x65898  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_STRING          0x65968  0x132    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x65ba8  0x260    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x65f58  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x65ee8  0x70     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x65aa0  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x65e08  0xda     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x658d8  0x90     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file (5505112 records)
+RT_STRING          0x66280  0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66348  0x1f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66540  0x180    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66bd8  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66c60  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66c90  0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x66de0  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x67658  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x67378  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x672c8  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x68030  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x67900  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x67dc8  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x68110  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_ACCELERATOR     0x61618  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x64da0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x603d0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x60e70  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x5ac98  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5af98  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5b298  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5b598  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5b898  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5bb98  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5bcd8  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5be18  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5bf58  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c098  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c1d8  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c318  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c458  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c598  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c6d8  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c818  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5c958  0x14     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5cd88  0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x5d1c0  0x22     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x5fa48  0x68     LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED MS Windows icon resource - 7 icons, 32x32, 2-colors
+RT_VERSION         0x64318  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+None               0x646a8  0xa9     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x64758  0x69     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x647c8  0x67     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x64830  0x37b    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x60ea0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3f2be      0x40000      6.458556    
+.rdata     0x41000      0xeeca       0xf000       4.604112    
+.data      0x50000      0x82fd       0x5000       3.017452    
+.rsrc      0x59000      0xf140       0x10000      3.832444    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) Jason Yang
+InternalName: MPlayerGUI
+FileVersion: 0, 6, 79, 0
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 20110919
+ProductName: MPlayerGUI Application
+SpecialBuild: 
+ProductVersion: 0, 0, 0, 0
+FileDescription: MPlayerGUI MFC Application
+OriginalFilename: MPlayerGUI.EXE
+Translation: 0x0409 0x04b0
+

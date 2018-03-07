@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    151728 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e3ea271e748ccdad6a6d3e692d6f337e
+SHA1:    f02e06bc439a28aad6dd957df8d0022f22798a09
+ssdeep:  3072:GJsH2jYVvmuOPybZUFS37ED65lx50kKXRlED:Ej3wIYZNR
+Date:    0x5772AADB [Tue Jun 28 16:50:35 2016 UTC]
+EP:      0x405926 .text 0/4
+CRC:     Claimed: 0x28db2, Actual: 0x28db2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x260a0  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x263d8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13144      0x13200      6.595447    
+.rdata     0x15000      0xc044       0xc200       4.545459    
+.data      0x22000      0x327c       0x1400       3.368941    
+.rsrc      0x26000      0x558        0x600        3.820396    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2000-2016 Mark Russinovich
+InternalName: PsLoggedon
+FileVersion: 1.35
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals PsLoggedon
+ProductVersion: 1.35
+FileDescription: See who's logged on
+OriginalFilename: psloggedon.exe
+Translation: 0x0409 0x04b0
+

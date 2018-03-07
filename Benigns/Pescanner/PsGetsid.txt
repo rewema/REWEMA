@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    287392 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     37f4fb0d6b5505f43fd45a8e208370c5
+SHA1:    b6687d012061ffbf7b5da11ecd54af312f584bd2
+ssdeep:  3072:LAseLJwX+URVPI7BscoxKYcZUFLD6uLEVlwDm8swO6T/9iA+1N3ZUFw7IUokfWRz:FeLJwXTPSSZLgohPliF1MmGTEfnQfp
+Date:    0x577B7354 [Tue Jul  5 08:44:04 2016 UTC]
+EP:      0x407e6b .text 0/4
+CRC:     Claimed: 0x4e254, Actual: 0x4e254 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x250b6L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BINRES             0x29468  0x1d0a0  LANG_ENGLISH SUBLANG_ENGLISH_US       PE32 executable for MS Windows (console) Intel 80386 32-bit
+RT_VERSION         0x29110  0x354    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x46508  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceA
+CreateServiceA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16c24      0x16e00      6.582440    
+.rdata     0x18000      0xc5c8       0xc600       4.702274    
+.data      0x25000      0x37fc       0x1400       3.393325    
+.rsrc      0x29000      0x1d688      0x1d800      6.290780    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1999-2016 Mark Russinovich
+InternalName: PsGetSid
+FileVersion: 1.45
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals PsGetSid
+ProductVersion: 1.45
+FileDescription: Translates SIDs to names and vice versa
+OriginalFilename: PsGetSid.exe
+Translation: 0x0409 0x04b0
+

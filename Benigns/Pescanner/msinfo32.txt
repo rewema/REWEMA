@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    336896 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     156276a25ddd4b3b3b3a5242a2d4e403
+SHA1:    fa9bb18a3147365f0cbdaa8946a4f9891206d07e
+ssdeep:  6144:wO61Hq2L7UF7B8yq1iQ07kc0ckcUt7o8xNZEOHHrpm1XUZLxEZEOHHrpm1XUZLx+:wz1Hq2L+7BtQ07kc0ckcUt3jtLpm1Ewq
+Date:    0x57898F51 [Sat Jul 16 01:35:13 2016 UTC]
+EP:      0x420dd0 .text 0/5
+CRC:     Claimed: 0x5d290, Actual: 0x5d290 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x54930  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x30ec8  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x30fb0  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31618  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31900  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x31ae8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x31c10  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x32ab8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33360  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x33a28  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x33f90  0xa7d9   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x3e770  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x40d18  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x41dc0  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x42748  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x42c70  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x432d8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x435c0  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x437a8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x438d0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x44778  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x45020  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x456e8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x45c50  0xa7d9   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x50430  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x529d8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x53a80  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x54408  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x42bb0  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x54870  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x30b90  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x306b0  0x4da    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x26510      0x26600      5.964908    
+.data      0x28000      0x50c4       0x1400       1.543675    
+.idata     0x2e000      0x1b5c       0x1c00       5.619055    
+.rsrc      0x30000      0x24a18      0x24c00      7.234890    [SUSPICIOUS]
+.reloc     0x55000      0x3dd4       0x3e00       6.793103    
+

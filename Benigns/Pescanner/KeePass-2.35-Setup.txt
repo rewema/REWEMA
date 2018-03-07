@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3107800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     39452f91e52307455d0907fa8bcc2109
+SHA1:    fa17f49b32c178c6a0cb59edd72c205948a486fa
+ssdeep:  49152:g0aFmXSru6KE8GmjekjyWZ51YXyVxteTyHPIe2VSMk9Crh+Dc7S73YF/0qZCLimw:HaAFPE8HepWuCPMOHPp28Mk9CrhOUL0g
+Date:    0x57051F88 [Wed Apr  6 14:39:04 2016 UTC]
+EP:      0x4117dc .itext 1/8 [SUSPICIOUS]
+CRC:     Claimed: 0x2fa25b, Actual: 0x2fa25b 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c41c  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c544  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x1caac  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x1cd94  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x1d63c  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x1d6a4  0xd4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1d778  0xa4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x1d81c  0x2ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1dac8  0x34c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1de14  0x294    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x1e0a8  0x82e8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x26390  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x263a0  0x150    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x264f0  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x2651c  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x2655c  0x4f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x26a50  0x62c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xf244       0xf400       6.375214    
+.itext     0x11000      0xf64        0x1000       5.732201    
+.data      0x12000      0xc88        0xe00        2.296721    
+.bss       0x13000      0x56bc       0x0          0.000000    [SUSPICIOUS]
+.idata     0x19000      0xe04        0x1000       4.597813    
+.tls       0x1a000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1b000      0x18         0x200        0.204488    [SUSPICIOUS]
+.rsrc      0x1c000      0xb200       0xb200       4.146326    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2003-2017 Dominik Reichl                                                              
+FileVersion: 2.35.0.0            
+CompanyName: Dominik Reichl                                              
+Comments: This installation was built with Inno Setup.
+ProductName: KeePass Password Safe                                       
+ProductVersion: 2.35                                              
+FileDescription: KeePass Password Safe 2.35 Setup                            
+Translation: 0x0000 0x04b0
+

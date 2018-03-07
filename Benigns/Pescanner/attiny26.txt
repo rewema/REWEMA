@@ -1,0 +1,226 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3720587 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     6611eb1282a1243b9ccf0cd3227f7f73
+SHA1:    b70fa9d68448dc2904a5a77a3be37302f6eed9ff
+ssdeep:  49152:mK7tZ1oRNm5RNmirYtEA6rchR+pT9oxQ2EefKDJHc/XAwRWYrfIYRlM:77t/oRN2RNHc56rukYNfGe/QwRRrQYR+
+Date:    0x4390CBC9 [Fri Dec  2 22:33:45 2005 UTC]
+EP:      0x4035fc .text 0/4
+CRC:     Claimed: 0xd1bce, Actual: 0x3958b9 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x415aL => This program cannot be run in DOS mode
+   0xbd1faL => This program cannot be run in DOS mode
+   0x103645L => This program cannot be run in DOS mode
+   0x10985cL => This program cannot be run in DOS mode
+   0x10f8cfL => This program cannot be run in DOS mode
+   0x11593cL => This program cannot be run in DOS mode
+   0x11b9a9L => This program cannot be run in DOS mode
+   0x14329eL => This program cannot be run in DOS mode
+   0x1ac4beL => This program cannot be run in DOS mode
+   0x1b352dL => This program cannot be run in DOS mode
+   0x1b8593L => This program cannot be run in DOS mode
+   0x1be600L => This program cannot be run in DOS mode
+   0x1c467aL => This program cannot be run in DOS mode
+   0x1d5708L => This program cannot be run in DOS mode
+YARA: encoding
+   0x137d6fL => deflate
+   0x137ed0L => deflate
+   0x13ff96L => deflate
+   0x1405adL => deflate
+   0x14e7b1L => deflate
+   0x150ac0L => deflate
+   0x150b1eL => deflate
+   0x150eb7L => deflate
+   0x1a0b03L => deflate
+   0x1a0c64L => deflate
+   0x1a8d2aL => deflate
+   0x1a9341L => deflate
+   0x1cfb8dL => deflate
+   0x1d1e9cL => deflate
+   0x1d1efaL => deflate
+   0x1d2293L => deflate
+   0x14e7d3L => Jean-loup Gailly
+   0x1cfbafL => Jean-loup Gailly
+   0x137fe1L => inflate
+   0x1380e8L => inflate
+   0x1401b3L => inflate
+   0x140dbaL => inflate
+   0x14f2e1L => inflate
+   0x150c1cL => inflate
+   0x150dbfL => inflate
+   0x150dedL => inflate
+   0x1a0d75L => inflate
+   0x1a0e7cL => inflate
+   0x1a8f47L => inflate
+   0x1a9b4eL => inflate
+   0x1d06bdL => inflate
+   0x1d1ff8L => inflate
+   0x1d219bL => inflate
+   0x1d21c9L => inflate
+   0x14f303L => Mark Adler
+   0x1d06dfL => Mark Adler
+YARA: irc
+   0x9f4adL => join
+   0xa62fcL => join
+   0xa7138L => join
+   0xc3990L => join
+   0xce102L => join
+   0xd0ddaL => join
+   0xd3cb6L => join
+   0xd4630L => join
+   0xd4866L => join
+   0xdb3a3L => join
+   0xdb707L => join
+   0xdb7d8L => join
+   0xdd0edL => join
+   0xdd9a4L => join
+   0xe05ebL => join
+   0xe5613L => join
+   0xe5ab9L => join
+   0xecf49L => join
+   0xf2030L => join
+   0xf259bL => join
+   0xf2ed9L => join
+   0xf2f06L => join
+   0xf4830L => join
+   0xf486aL => join
+   0xf709dL => Join
+   0xfddc2L => join
+   0x102b96L => join
+   0x124eceL => join
+   0x125158L => join
+   0x12b749L => join
+   0x12cc35L => join
+   0x12cc56L => join
+   0x13fa8eL => join
+   0x1406bdL => join
+   0x14146bL => join
+   0x154beeL => join
+   0x15652bL => join
+   0x15ac72L => join
+   0x15b5ecL => join
+   0x15b822L => join
+   0x16235fL => join
+   0x1626c3L => join
+   0x162794L => join
+   0x1640a9L => join
+   0x164960L => join
+   0x1675a7L => join
+   0x16c5cfL => join
+   0x16ca75L => join
+   0x173f05L => join
+   0x178fecL => join
+   0x179557L => join
+   0x179e95L => join
+   0x179ec2L => join
+   0x17b7ecL => join
+   0x17b826L => join
+   0x17e059L => Join
+   0x184d7eL => join
+   0x189b52L => join
+   0x18dc62L => join
+   0x18deecL => join
+   0x1944ddL => join
+   0x1959c9L => join
+   0x1959eaL => join
+   0x1a8822L => join
+   0x1a9451L => join
+   0x1aa1ffL => join
+   0xd4657L => msg
+   0xd46acL => msg
+   0xd477dL => msg
+   0xd47f9L => msg
+   0xd488dL => msg
+   0xd48e2L => msg
+   0xd4951L => msg
+   0xd7137L => msg
+   0xd7146L => msg
+   0xd715cL => msg
+   0xd7175L => msg
+   0xd7188L => msg
+   0xd719cL => msg
+   0x150c12L => msg
+   0x150cf6L => msg
+   0x150d47L => msg
+   0x150e17L => msg
+   0x15b613L => msg
+   0x15b668L => msg
+   0x15b739L => msg
+   0x15b7b5L => msg
+   0x15b849L => msg
+   0x15b89eL => msg
+   0x15b90dL => msg
+   0x15e0f3L => msg
+   0x15e102L => msg
+   0x15e118L => msg
+   0x15e131L => msg
+   0x15e144L => msg
+   0x15e158L => msg
+   0x1d1feeL => msg
+   0x1d20d2L => msg
+   0x1d2123L => msg
+   0x1d21f3L => msg
+   0x1f73ecL => MSG
+   0x2b392bL => mSg
+   0xe8158L => part
+   0xf70b6L => part
+   0x134ca8L => part
+   0x134d9cL => part
+   0x13513cL => part
+   0x16f114L => part
+   0x17e072L => part
+   0x19da3cL => part
+   0x19db30L => part
+   0x19ded0L => part
+   0xa7618L => QUIT
+   0xd5b11L => QUIT
+   0xd9f6dL => QUIT
+   0x15cacdL => QUIT
+   0x160f29L => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xd4140  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xd4268  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xd4118  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0xd4550  0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x273c       0x3000       5.882188    
+.rdata     0x4000       0xc6628      0xc7000      6.557334    
+.data      0xcb000      0x8388       0x1000       1.437098    
+.rsrc      0xd4000      0x7c8        0x1000       1.865251    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: 
+SpecialBuild: 
+ProductVersion: 
+FileDescription: 
+OriginalFilename: 
+Translation: 0x0400 0x04b0
+

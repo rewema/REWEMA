@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    23552 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     b7e19ee2db2fe3b609d558ad76bcaf28
+SHA1:    33d8e59e9761ad2c8f4cbcb7720a04be40abf812
+ssdeep:  384:33JXHzcxLL+Lq2Z8GEGEGEGEGEGEGEGEGqyuoq/M2UJf5e0Mrx1DVPZ5:3dzO3B2Zp1k0Wrh5
+Date:    0x44EB9E72 [Wed Aug 23 00:16:50 2006 UTC]
+EP:      0x110068be .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x10e38 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa440   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa728   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa850   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa118   0x324    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x48c4       0x4a00       5.400167    
+.sdata     0x8000       0x87         0x200        1.861770    
+.rsrc      0xa000       0x878        0xa00        2.982483    
+.reloc     0xc000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2425.32899
+InternalName: WebServiceTest.exe
+FileVersion: 1.0.2425.32899
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.2425.32899
+FileDescription:  
+OriginalFilename: WebServiceTest.exe
+

@@ -1,0 +1,149 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1288704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b1647c739adc3eb964b4a75c377b6177
+SHA1:    59c42d939d083f7e1ba6c65da49e49a27d8ed18a
+ssdeep:  24576:wn3+XPl8ZLm4Bq1Gmz8Y7+4n37+eD1Z0XrwqBMIH5/:wn31TqGmz8Y7+4qeD1U/
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x515578 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x147d84 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: irc
+   0xdff80L => join
+   0xe0841L => join
+   0xe14e9L => join
+   0xe2405L => join
+   0x104e36L => join
+   0x105489L => join
+   0x105fa4L => JOIN
+   0x107ce3L => JOIN
+   0x10895aL => JOIN
+   0x108f96L => JOIN
+   0x1091a7L => JOIN
+   0x109c1eL => JOIN
+   0x10c968L => JOIN
+   0x139726L => JOIN
+   0x13976cL => JOIN
+   0x1397a8L => JOIN
+   0x139e28L => JOIN
+   0x139e74L => JOIN
+   0x749dL => MSG
+   0x74b5L => MSG
+   0x83c84L => Msg
+   0x10d47aL => MSG
+   0x10d4b5L => MSG
+   0x10a306L => PART
+   0xc5410L => quit
+   0x108b3fL => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x131f00 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x132034 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x132168 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x13229c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x1323d0 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x132504 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x132638 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13276c 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x13293c 0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x132b20 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x132cf0 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x132ec0 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x133090 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x133260 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x133430 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x133600 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x1337d0 0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x1339a0 0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x133a88 0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x133b20 0x98     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x133bb8 0x378    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x133f30 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x1347d8 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13482c 0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1348f0 0x1cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x134abc 0x2f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x134db4 0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x135184 0x508    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13568c 0x418    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x135aa4 0x374    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x135e18 0x44c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x136264 0x444    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1366a8 0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x136a38 0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x136e40 0x59c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x1373dc 0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x137764 0x520    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x137c84 0x4e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13816c 0x300    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0x13846c 0x1f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x138664 0x11c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x138780 0x308    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x138a88 0x1f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x138c7c 0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x138d68 0x104    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x138e6c 0x428    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x139294 0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x139664 0x3b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x139a18 0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x139de4 0x250    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7667816 records)
+RT_STRING          0x13a034 0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13a120 0x1dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13a2fc 0x3ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13a6e8 0x3f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13aadc 0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x13ade8 0x328    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x13b110 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x13b120 0x514    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x13b634 0x5340   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x140974 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x140988 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x14099c 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x1409b0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x1409c4 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x1409d8 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x1409ec 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x140a00 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x140a14 0x3f8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x1145f0     0x114600     6.350562    
+DATA       0x116000     0x2894       0x2a00       4.362919    
+BSS        0x119000     0x1a65       0x0          0.000000    [SUSPICIOUS]
+.idata     0x11b000     0x2828       0x2a00       4.925058    
+.tls       0x11e000     0x60         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x11f000     0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x120000     0x10878      0x10a00      6.632960    
+.rsrc      0x131000     0x10000      0x10000      4.827579    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2002 - 2005.  TECT Software Ltd.  All Rights Reserved.
+InternalName: spgen.exe
+FileVersion: 1.1.0.77
+CompanyName: TECT Software Ltd
+TECT Software Support: support@tectsoft.net
+LegalTrademarks: 
+ProductName: SPGen
+ProductVersion: 1.0.0.0
+FileDescription: SPGen.exe
+TECT Software Home: http://www.tectsoft.net/
+OriginalFilename: spgen.exe
+Translation: 0x0809 0x04e4
+

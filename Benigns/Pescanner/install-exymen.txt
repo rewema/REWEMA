@@ -1,0 +1,149 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4222976 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4dcac3597003ae2a5cc397108e31bfda
+SHA1:    2496b7f651afe9cc5fc7c5071b686765c2adae66
+ssdeep:  98304:a3wSnKYoR+JJp0H9guzgS5uA5goT6IQ4g+gpU8:vR+JJ6dLzgS5fgo44b/8
+Date:    0x3BAC0A99 [Sat Sep 22 03:50:49 2001 UTC]
+EP:      0x419b5d .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x40eb99 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x26ce3L => deflate
+   0x26d91L => deflate
+   0x26db3L => Jean-loup Gailly
+   0x2714dL => inflate
+   0x2716fL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2ee28  0x8a8    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_ICON            0x2f6e8  0x2e8    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_ICON            0x2f9e8  0x2e8    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2e388  0x2b8    LANG_CATALAN SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2d630  0x2b8    LANG_CZECH   SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2e640  0x298    LANG_DANISH  SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2e8d8  0x2bc    LANG_GERMAN  SUBLANG_NEUTRAL          data
+RT_DIALOG          0x32070  0x2a0    LANG_GREEK   SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2eb98  0x290    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_DIALOG          0x30078  0x2b0    LANG_SPANISH SUBLANG_NEUTRAL          data
+RT_DIALOG          0x30328  0x298    LANG_FINNISH SUBLANG_NEUTRAL          data
+RT_DIALOG          0x305c0  0x2c8    LANG_FRENCH  SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2d8e8  0x298    LANG_HUNGARIAN SUBLANG_NEUTRAL          data
+RT_DIALOG          0x30888  0x2b0    LANG_ITALIAN SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2ccc8  0x248    LANG_JAPANESE SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2d168  0x26c    LANG_KOREAN  SUBLANG_NEUTRAL          data
+RT_DIALOG          0x30b38  0x2d8    LANG_DUTCH   SUBLANG_NEUTRAL          data
+RT_DIALOG          0x30e10  0x28c    LANG_NORWEGIAN SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2db80  0x2a4    LANG_POLISH  SUBLANG_NEUTRAL          data
+RT_DIALOG          0x310a0  0x2a4    LANG_PORTUGUESE SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2e0d0  0x2b8    LANG_RUSSIAN SUBLANG_NEUTRAL          data
+RT_DIALOG          0x31348  0x284    LANG_SWEDISH SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2ca30  0x294    LANG_THAI    SUBLANG_NEUTRAL          data
+RT_DIALOG          0x32310  0x2a0    LANG_TURKISH SUBLANG_NEUTRAL          data
+RT_DIALOG          0x315d0  0x290    LANG_INDONESIAN SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2de28  0x2a4    LANG_SLOVENIAN SUBLANG_NEUTRAL          data
+RT_DIALOG          0x31860  0x2a0    LANG_BASQUE  SUBLANG_NEUTRAL          data
+RT_DIALOG          0x2d3d8  0x254    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x31b00  0x2a4    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0x2cf10  0x254    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_DIALOG          0x31da8  0x2c8    LANG_FRENCH  SUBLANG_FRENCH_CANADIAN  data
+RT_STRING          0x35f78  0x514    LANG_CATALAN SUBLANG_NEUTRAL          data
+RT_STRING          0x33b00  0x490    LANG_CZECH   SUBLANG_NEUTRAL          data
+RT_STRING          0x36740  0x538    LANG_DANISH  SUBLANG_NEUTRAL          data
+RT_STRING          0x36f08  0x5ee    LANG_GERMAN  SUBLANG_NEUTRAL          data
+RT_STRING          0x3de78  0x592    LANG_GREEK   SUBLANG_NEUTRAL          data
+RT_STRING          0x377f0  0x49a    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x37f10  0x512    LANG_SPANISH SUBLANG_NEUTRAL          data
+RT_STRING          0x386e8  0x4cc    LANG_FINNISH SUBLANG_NEUTRAL          data
+RT_STRING          0x38e10  0x5a2    LANG_FRENCH  SUBLANG_NEUTRAL          data
+RT_STRING          0x34218  0x48e    LANG_HUNGARIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x396a8  0x538    LANG_ITALIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x32ca8  0x294    LANG_JAPANESE SUBLANG_NEUTRAL          data
+RT_STRING          0x33408  0x268    LANG_KOREAN  SUBLANG_NEUTRAL          data
+RT_STRING          0x39e80  0x590    LANG_DUTCH   SUBLANG_NEUTRAL          data
+RT_STRING          0x3a6c8  0x4c2    LANG_NORWEGIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x34958  0x484    LANG_POLISH  SUBLANG_NEUTRAL          data
+RT_STRING          0x3ade8  0x5ca    LANG_PORTUGUESE SUBLANG_NEUTRAL          data
+RT_STRING          0x357d0  0x51a    LANG_RUSSIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x3b670  0x516    LANG_SWEDISH SUBLANG_NEUTRAL          data
+RT_STRING          0x325b0  0x498    LANG_THAI    SUBLANG_NEUTRAL          data
+RT_STRING          0x3e6d0  0x41a    LANG_TURKISH SUBLANG_NEUTRAL          data
+RT_STRING          0x3bde8  0x4e0    LANG_INDONESIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x35080  0x50a    LANG_SLOVENIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x3c570  0x548    LANG_BASQUE  SUBLANG_NEUTRAL          data
+RT_STRING          0x33808  0x1be    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x3cdd8  0x554    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0x33118  0x1b8    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x3d5e0  0x5a4    LANG_FRENCH  SUBLANG_FRENCH_CANADIAN  data
+RT_STRING          0x36490  0x2aa    LANG_CATALAN SUBLANG_NEUTRAL          data
+RT_STRING          0x33f90  0x286    LANG_CZECH   SUBLANG_NEUTRAL          data
+RT_STRING          0x36c78  0x28e    LANG_DANISH  SUBLANG_NEUTRAL          data
+RT_STRING          0x374f8  0x2f8    LANG_GERMAN  SUBLANG_NEUTRAL          data
+RT_STRING          0x3e410  0x2c0    LANG_GREEK   SUBLANG_NEUTRAL          data
+RT_STRING          0x37c90  0x27a    LANG_ENGLISH SUBLANG_NEUTRAL          data
+RT_STRING          0x38428  0x2ba    LANG_SPANISH SUBLANG_NEUTRAL          data
+RT_STRING          0x38bb8  0x256    LANG_FINNISH SUBLANG_NEUTRAL          data
+RT_STRING          0x393b8  0x2f0    LANG_FRENCH  SUBLANG_NEUTRAL          data
+RT_STRING          0x346a8  0x2ac    LANG_HUNGARIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x39be0  0x29c    LANG_ITALIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x32f40  0x1d4    LANG_JAPANESE SUBLANG_NEUTRAL          data
+RT_STRING          0x33670  0x192    LANG_KOREAN  SUBLANG_NEUTRAL          data
+RT_STRING          0x3a410  0x2b4    LANG_DUTCH   SUBLANG_NEUTRAL          data
+RT_STRING          0x3ab90  0x258    LANG_NORWEGIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x34de0  0x29c    LANG_POLISH  SUBLANG_NEUTRAL          data
+RT_STRING          0x3b3b8  0x2b2    LANG_PORTUGUESE SUBLANG_NEUTRAL          data
+RT_STRING          0x35cf0  0x282    LANG_RUSSIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x3bb88  0x25c    LANG_SWEDISH SUBLANG_NEUTRAL          data
+RT_STRING          0x32a48  0x260    LANG_THAI    SUBLANG_NEUTRAL          data
+RT_STRING          0x3eaf0  0x26c    LANG_TURKISH SUBLANG_NEUTRAL          data
+RT_STRING          0x3c2c8  0x2a4    LANG_INDONESIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x35590  0x23e    LANG_SLOVENIAN SUBLANG_NEUTRAL          data
+RT_STRING          0x3cab8  0x31c    LANG_BASQUE  SUBLANG_NEUTRAL          data
+RT_STRING          0x339c8  0x136    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x3d330  0x2ae    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0x332d0  0x136    LANG_CHINESE SUBLANG_CHINESE_SIMPLIFIED data
+RT_STRING          0x3db88  0x2ea    LANG_FRENCH  SUBLANG_FRENCH_CANADIAN  Sendmail frozen configuration  - version i
+RT_GROUP_ICON      0x2f6d0  0x14     LANG_ENGLISH SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x2f9d0  0x14     LANG_ENGLISH SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x2fcd0  0x14     LANG_ENGLISH SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x2fce8  0x390    LANG_ENGLISH SUBLANG_NEUTRAL          data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2133b      0x22000      6.238150    
+.rdata     0x23000      0x1ba4       0x2000       4.622050    
+.data      0x25000      0x69c4       0x4000       4.479375    
+.rsrc      0x2c000      0x12d60      0x13000      4.249692    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2001
+InternalName: InstallAnywhere Self Extractor
+FileVersion: 4, 0, 2, 0
+CompanyName: Zero G
+Comments: Console output capable
+ProductName: InstallAnywhere
+ProductVersion: 4, 0, 2, 0
+FileDescription: InstallAnywhere Self Extractor
+OriginalFilename: InstallAnywhere Self Extractor.exe
+Translation: 0x0409 0x04b0
+

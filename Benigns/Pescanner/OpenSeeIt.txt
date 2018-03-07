@@ -1,0 +1,108 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    917504 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2d4b8d5ffcb220b19c40febe51dca111
+SHA1:    cb26317d20e50d9ae8690e269a32438484cbeab7
+ssdeep:  24576:FzAaie7W5AbN0lyHLCDMN3WjvzI5ouMHePA:Fjv+rvzSoubPA
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4c330c CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xe9721 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xe50b8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xe51ec  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xe5320  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xe5454  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xe5588  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xe56bc  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xe57f0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe5924  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe5af4  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe5cd8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe5ea8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe6078  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe6248  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe6418  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe65e8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe67b8  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe6988  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xe6b58  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe6c18  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe6cf8  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe6dd8  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe6eb8  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe6f78  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe7038  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe7118  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe71d8  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe72b8  0xe8     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe73a0  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_BITMAP          0xe7460  0x188    LANG_DANISH  SUBLANG_DEFAULT          data
+RT_BITMAP          0xe75e8  0x188    LANG_DANISH  SUBLANG_DEFAULT          data
+RT_BITMAP          0xe7770  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xe7850  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xe8e78  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe8ecc  0x174    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe9040  0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe92b4  0x3ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe9660  0x438    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe9a98  0x370    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xe9e08  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0xea164  0x680    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xea7e4  0x354    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xeab38  0x284    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xeadbc  0x384    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xeb140  0x29c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xeb3dc  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xeb5c0  0x1a4    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xeb764  0x11c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xeb880  0x378    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7077996 records)
+RT_STRING          0xebbf8  0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xebcc0  0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xebdb8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0xebee0  0x470    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xec350  0x364    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xec6b4  0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xeca44  0x42c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xece70  0x160    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209071 records)
+RT_STRING          0xecfd0  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7602275 records)
+RT_STRING          0xed0bc  0x20c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xed2c8  0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0xed698  0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xed9f0  0x2d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xedcc4  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xedcd4  0x470    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xee144  0x1fa8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xf00ec  0x59b    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xf0688  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf069c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf06b0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf06c4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf06d8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf06ec  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xf0700  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0xf0714  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xc2354      0xc2400      6.571134    
+DATA       0xc4000      0x337c       0x3400       4.832000    
+BSS        0xc8000      0xa105       0x0          0.000000    [SUSPICIOUS]
+.idata     0xd3000      0x258a       0x2600       4.925621    
+.tls       0xd6000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0xd7000      0x18         0x200        0.206920    [SUSPICIOUS]
+.reloc     0xd8000      0xb304       0xb400       6.648884    
+.rsrc      0xe4000      0xc800       0xc800       4.903342    
+

@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2114032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     517282527e84f762bb68cdd37ae79523
+SHA1:    363361e9b94c956e714f09abce8745749c313216
+ssdeep:  49152:v1OszXzpo+qnBydkacRH0ZoCRIQi3bz6zghGh90twBO7:v1O6do+qnBydkaPZYQirzqgyytwBO7
+Date:    0x4CE553F7 [Thu Nov 18 16:27:35 2010 UTC]
+EP:      0x414b04 .text 0/5
+CRC:     Claimed: 0x212087, Actual: 0x212087 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x27280  0xfa98   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x36d18  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x392c0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3a368  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x3a7d0  0xa6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a878  0x94     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a90c  0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3a940  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 256-colors
+RT_VERSION         0x3a980  0x338    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3acb8  0x1d2    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x199ea      0x19a00      6.608494    
+.rdata     0x1b000      0x4494       0x4600       4.368016    
+.data      0x20000      0x5a48       0x3200       1.370539    
+.sxdata    0x26000      0x4          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x27000      0x13e8c      0x14000      7.675046    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2012 AVAST Software
+InternalName: AvastBCL-Sfx.exe
+FileVersion: 8.0.1484.29
+CompanyName: AVAST Software
+ProductName: Avast! Browser Cleanup
+ProductVersion: 8.0.1484.29
+FileDescription: Avast! Browser Cleanup Sfx
+OriginalFilename: AvastBCL-Sfx.exe
+Translation: 0x0409 0x04b0
+

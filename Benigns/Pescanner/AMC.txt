@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    442368 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     922367495bb4194586cb327a9e85004d
+SHA1:    6ec8d3372d8dd4a96bf5b542983fbb0929f6ba0f
+ssdeep:  6144:KXpxbyIBqtJtGg+gpjChelXkpFmoBVW1g1x+0VI0ezokO2hG:KzqtdbjCsUW1g1Ec+okF
+Date:    0x40CE7ECC [Tue Jun 15 04:45:00 2004 UTC]
+EP:      0x45d024 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x7601b [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6a900  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x6b1a8  0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x69240  0x1b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x693f8  0xf92    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6a760  0xba     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x6a820  0xda     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x6b738  0x6a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6b710  0x22     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_VERSION         0x6a390  0x3cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5d1f5      0x5e000      5.829032    
+.rdata     0x5f000      0x416a       0x5000       4.816255    
+.data      0x64000      0x4de0       0x5000       5.141729    
+.rsrc      0x69000      0x27a8       0x3000       3.060584    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) Phil Carmalt 2004
+InternalName: Automated Music Composition
+FileVersion: 1,0,0,1
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: http://amc.sourceforge.net/
+ProductName: Automated Music Composition
+SpecialBuild: 
+ProductVersion: 0, 1, 0, 0
+FileDescription: Automated Music Composition
+OriginalFilename: AMC.EXE
+Translation: 0x0809 0x04b0
+

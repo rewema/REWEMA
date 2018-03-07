@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12288 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     08e6dc5d751ef9e7a4b1f87cca3d2bee
+SHA1:    93d71710a7ff6be0618fd371a4d25517e682c841
+ssdeep:  192:F9LUkSpoV1DVXf9kT6pmO/M3qO4J41Ac1X0KOW95WEq:F9LXSaVXU6awlKOW95WEq
+Date:    0x57898F3E [Sat Jul 16 01:34:54 2016 UTC]
+EP:      0x4020c0 .text 0/5
+CRC:     Claimed: 0xceb3, Actual: 0xceb3 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x54a0   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x50b0   0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16ec       0x1800       5.844456    
+.data      0x3000       0x59c        0x200        0.346693    [SUSPICIOUS]
+.idata     0x4000       0x754        0x800        4.522941    
+.rsrc      0x5000       0x568        0x600        3.083043    
+.reloc     0x6000       0x260        0x400        4.581432    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Windows Media Playback EXE
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Media Playback EXE
+OriginalFilename: Windows.Media.Playback.exe
+Translation: 0x0409 0x04b0
+

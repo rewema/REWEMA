@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    156616 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     fb6ca21833e72f7f57a1f5c1618bc319
+SHA1:    3c367959625c10b6ee9f58d4d864fec9333c4f01
+ssdeep:  3072:52YY3lxaGDmXkl3ek+mdcDjd4fOkWu1chez:52tlxaQmXkgmdc3d4fOk2hez
+Date:    0x591D5A0C [Thu May 18 08:23:40 2017 UTC]
+EP:      0x40dd9d .text 0/7
+CRC:     Claimed: 0x322b7, Actual: 0x322b7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x270a0  0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2740c  0x61a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xdb0b       0xdc00       6.588913    
+.rdata     0xf000       0x143ac      0x14400      1.900164    
+.data      0x24000      0xeb0        0x200        0.619377    [SUSPICIOUS]
+.gfids     0x25000      0x30         0x200        0.235064    [SUSPICIOUS]
+.tls       0x26000      0x9          0x200        0.020393    [SUSPICIOUS]
+.rsrc      0x27000      0xa28        0xc00        5.228684    
+.reloc     0x28000      0xe64        0x1000       6.130208    
+
+Version info
+================================================================================
+LegalCopyright: License: MPL 2
+InternalName: Firefox
+FileVersion: 53.0.3
+CompanyName: Mozilla Corporation
+BuildID: 20170518000419
+LegalTrademarks: Mozilla
+Comments: 
+ProductName: Firefox
+ProductVersion: 53.0.3
+FileDescription: Plugin Container for Firefox
+OriginalFilename: plugin-container.exe
+Translation: 0x0000 0x04b0
+

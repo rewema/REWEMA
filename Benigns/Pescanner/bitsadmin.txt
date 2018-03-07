@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    177152 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a0b5d06f8d4431cf3ca3a663de7cbb7d
+SHA1:    e6867f3ca4727f94275552be7c1bed42edc4b9fc
+ssdeep:  3072:LP/+YU8tJON0zXWzgS0pR9OSdkr/4Qi07hJpHumBD:/zX1S0xqr/Hi07hrJ
+Date:    0x57898FE5 [Sat Jul 16 01:37:41 2016 UTC]
+EP:      0x424eb0 .text 0/6
+CRC:     Claimed: 0x2e27e, Actual: 0x2e27e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x40748  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x40398  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x400f0  0x2a8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x26cb8      0x26e00      5.481381    
+.data      0x28000      0x148c4      0x400        2.101083    
+.idata     0x3d000      0x122a       0x1400       5.183563    
+.didat     0x3f000      0x2c         0x200        0.386554    [SUSPICIOUS]
+.rsrc      0x40000      0x810        0xa00        3.735356    
+.reloc     0x41000      0x1df0       0x1e00       6.771178    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: bitsadmin.exe
+FileVersion: 7.8.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 7.8.14393.0
+FileDescription: BITS administration utility
+OriginalFilename: bitsadmin.exe
+Translation: 0x0409 0x04b0
+

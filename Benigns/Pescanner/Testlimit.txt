@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    231584 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3842204e96c9e70987b2ccd68ff6c502
+SHA1:    abe651e98f2edd2dc4449e66eee7e37c733e2e50
+ssdeep:  3072:AR8o9cvNCRslkfw+v0OZKiphWnk0lnZUF4NLLY8hZdTycwvInEQkJ/:ARZdq+v0494xJV3CJ/
+Date:    0x582E3180 [Thu Nov 17 22:38:56 2016 UTC]
+EP:      0x40561e .text 0/5
+CRC:     Claimed: 0x3fa4f, Actual: 0x3fa4f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x370a0  0x328    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x373c8  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x23a3c      0x23c00      6.565744    
+.rdata     0x25000      0xd486       0xd600       4.670421    
+.data      0x33000      0x30fc       0x1400       3.297232    
+.rsrc      0x37000      0x548        0x600        3.777774    
+.reloc     0x38000      0x18e4       0x1a00       6.574578    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2008-2015 Mark Russinovich
+InternalName: Testlimit
+FileVersion: 5.24
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Testlimit
+ProductVersion: 5.24
+FileDescription: Test Windows Limits
+OriginalFilename: Testlimit
+Translation: 0x0409 0x04b0
+

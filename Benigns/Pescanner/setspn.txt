@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     dbe897a9f4a1ae46f226683d5538d482
+SHA1:    f4f493e53a63f78e4e1d6582ffa024ea904480e2
+ssdeep:  384:eU+GyeKt9QblMixq4onf9981ZPqXhGrLGNcxWVKseQWcaW2Md:eU+G89QblMCPkf998DOEZWVKDeCM
+Date:    0x57899130 [Sat Jul 16 01:43:12 2016 UTC]
+EP:      0x4048b0 .text 0/5
+CRC:     Claimed: 0xf53f, Actual: 0xf53f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7770   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a8   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2b7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3f54       0x4000       6.149216    
+.data      0x5000       0xbe4        0x200        0.183339    [SUSPICIOUS]
+.idata     0x6000       0xbf0        0xc00        4.799011    
+.rsrc      0x7000       0x838        0xa00        3.749826    
+.reloc     0x8000       0x3d4        0x400        6.455231    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: setspn
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Query or reset the computer's SPN attribute
+OriginalFilename: setspn.exe
+Translation: 0x0409 0x04b0
+

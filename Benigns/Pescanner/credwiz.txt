@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    30208 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6bb9bccb6406e65f5c68a42c1e8541da
+SHA1:    8e96592c9b7765faf226cdb1dd83bde53bedc11d
+ssdeep:  384:OtuFGSBYyxNr7sLX0gb4+zm+goP1iJvUpHjVXwKNKsgufSQfanPiJIOu2kLWe5Wp:D1YuFQX7zng01IrufSQfA03ublZf
+Date:    0x57899146 [Sat Jul 16 01:43:34 2016 UTC]
+EP:      0x404790 .text 0/5
+CRC:     Claimed: 0x13874, Actual: 0x13874 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9598   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8a70   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x8b98   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9100   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x9568   0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 16-colors
+RT_VERSION         0x86b0   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x81e0   0x4cb    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x406c       0x4200       5.941853    
+.data      0x6000       0xe54        0x200        0.183339    [SUSPICIOUS]
+.idata     0x7000       0xfa2        0x1000       5.003312    
+.rsrc      0x8000       0x1670       0x1800       4.042894    
+.reloc     0xa000       0x56c        0x600        6.399752    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: credwiz.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Credential Backup and Restore Wizard
+OriginalFilename: credwiz.exe
+Translation: 0x0409 0x04b0
+

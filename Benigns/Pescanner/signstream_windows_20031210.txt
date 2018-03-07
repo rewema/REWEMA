@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1814528 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     015b770548aae05a9057ea30407f78ab
+SHA1:    b22fb5b86e51abab374eefd923aba50a5433c3ae
+ssdeep:  49152:7qYqFnBR6aXNu10JAAj+ReeZ42N1/7wmILLRjv:PqPTomODL10v
+Date:    0x3F9FE694 [Wed Oct 29 16:11:00 2003 UTC]
+EP:      0x4011f8 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x1bd567 [SUSPICIOUS]
+Packers: Video-Lan-Client
+
+Signature scans
+================================================================================
+YARA: encoding
+   0xaafdL => deflate
+   0xab1fL => Jean-loup Gailly
+   0x11859L => inflate
+   0x1187bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x472f0  0x2e8    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_ICON            0x475d8  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x47700  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x47c68  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x48510  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x493b8  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x49820  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4a8c8  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x4ce70  0x12e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x4cfa0  0x122    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x4d0c4  0x29e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x4d364  0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 8 icons, 32x32, 16-colors
+RT_MANIFEST        0x4d3dc  0x223    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x258f8      0x25a00      6.522485    
+.data      0x27000      0x2274       0x2400       4.116591    
+.bss       0x2a000      0x1a728      0x0          0.000000    [SUSPICIOUS]
+.idata     0x45000      0x15a8       0x1600       5.031554    
+.rsrc      0x47000      0x6600       0x6600       5.433215    
+

@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    14848 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     87ec16187a0e3e65b5301fd617e76e66
+SHA1:    f96e8998739a6347930f3b5b3a343d8fac4bdb2f
+ssdeep:  192:evlCujcdfYwuAXRBh4CtyTgModOGte6G/fvkxWsGWx6OBme:oUYcZYwzXR/EgMKOKL/xWsGWgOBme
+Date:    0x57898F59 [Sat Jul 16 01:35:21 2016 UTC]
+EP:      0x402330 .text 0/5
+CRC:     Claimed: 0x110ea, Actual: 0x110ea 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5710   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5390   0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x195c       0x1a00       5.795612    
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0xc44        0xe00        4.986235    
+.rsrc      0x5000       0x7d8        0x800        4.276625    
+.reloc     0x6000       0x284        0x400        4.909169    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Subst
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Subst Utility
+OriginalFilename: Subst.Exe
+Translation: 0x0409 0x04b0
+

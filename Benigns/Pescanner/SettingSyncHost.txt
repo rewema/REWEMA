@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    509792 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     2ca2ff0a5f9bea459a686f895829e48a
+SHA1:    1b4aa3ec942d992ba298ed9960a0f80ee84371d7
+ssdeep:  6144:3j5QOQ2OzalPTBh0W0GEKaopJ+S73RrREWd7gqIX4iVeec3m6EppPqSqJoljMLfW:39PTH09G+o7pXEi7ZqbVebEpFuLu
+Date:    0x57898E2B [Sat Jul 16 01:30:19 2016 UTC]
+EP:      0x42af60 .text 0/6
+CRC:     Claimed: 0x80be8, Actual: 0x80be8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_RCDATA          0x75480  0x1dd9   LANG_ENGLISH SUBLANG_ENGLISH_US       DOS batch file text
+RT_VERSION         0x750a0  0x3e0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6eb40      0x6ec00      6.516701    
+.data      0x70000      0xbe4        0x400        1.748180    
+.idata     0x71000      0x2d06       0x2e00       5.366673    
+.didat     0x74000      0xc8         0x200        1.527166    
+.rsrc      0x75000      0x2260       0x2400       5.351552    
+.reloc     0x78000      0x5d2c       0x5e00       6.790174    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SettingSyncHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Host Process for Setting Synchronization
+OriginalFilename: SettingSyncHost.exe
+Translation: 0x0409 0x04b0
+

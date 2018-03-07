@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    193024 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a1175b92987b6437ad28e760e9594367
+SHA1:    136052a31546dc18b44a31739adf7ffb5e21cfe5
+ssdeep:  3072:7w7CDpfAgUIeyOg+kOpXTUWE5KS0HLmXcGb9UmaZ:HBGkeDE5+HmPbra
+Date:    0x5789905C [Sat Jul 16 01:39:40 2016 UTC]
+EP:      0x429120 .text 0/5
+CRC:     Claimed: 0x3ab34, Actual: 0x3ab34 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2fb08  0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2f430  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2f718  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x2f730  0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2f180  0x2aa    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x28c24      0x28e00      5.193333    
+.data      0x2a000      0x247c       0x1600       3.028445    
+.idata     0x2d000      0x1086       0x1200       5.274365    
+.rsrc      0x2f000      0xbe8        0xc00        4.299723    
+.reloc     0x30000      0x2be0       0x2c00       6.606877    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: unregmp2.exe
+FileVersion: 12.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 12.0.14393.0
+FileDescription: Microsoft Windows Media Player Setup Utility
+OriginalFilename: unregmp2.exe
+Translation: 0x0409 0x04b0
+

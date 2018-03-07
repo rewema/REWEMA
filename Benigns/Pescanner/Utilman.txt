@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    74752 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     be7f3d92e756f29b5ffd07220b82f685
+SHA1:    0e1bbe61e9c365a05e4f455384012a3b9e1a55d4
+ssdeep:  1536:e2LFor6LPhyJSoS3Oa3irCB5PTwliSPTcGgoLIbav/5tKcWMVGoPXiS:vmr6jMke7rCSm/Sl
+Date:    0x57899109 [Sat Jul 16 01:42:33 2016 UTC]
+EP:      0x40b470 .text 0/6
+CRC:     Claimed: 0x16945, Actual: 0x16945 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14798  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0x134f0  0xdb2    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_VERSION         0x13150  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x142a8  0x4e9    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ReadProcessMemory
+VirtualAllocEx
+CreateProcessW
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc61c       0xc800       6.120540    
+.imrsiv    0xe000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0xf000       0x968        0x600        2.835494    
+.idata     0x10000      0x2946       0x2a00       5.754389    
+.rsrc      0x13000      0x1870       0x1a00       5.034620    
+.reloc     0x15000      0xd04        0xe00        6.516116    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: utilman2.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Utility Manager
+OriginalFilename: utilman2.exe
+Translation: 0x0409 0x04b0
+

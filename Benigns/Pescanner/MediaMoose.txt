@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    390144 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4135b34154e24f0ec2790f8b25366536
+SHA1:    f6b19d621d8752058ba10b845ab6e9abbbc63c35
+ssdeep:  6144:9vs49AgdVHnG++IYGDh5G1XP2+2FO1NmK1i5kVTIqhFLJgVKZeu4IDqjmvl971EP:K49AgdVL+A61/2+2FO1oKY5wcqhYKguI
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4536d0 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x653c6 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x626b4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x627e8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x6291c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x62a50  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x62b84  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x62cb8  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x62dec  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x62f20  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x63208  0x1fc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x63404  0x210    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x63614  0xec     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x63700  0x2ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x639ec  0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x63df4  0x390    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x64184  0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x64554  0xf4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x64648  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x6470c  0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x649ec  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x64d48  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x64ffc  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x6500c  0x1e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x651ec  0x30f    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x654fc  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x65510  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x65524  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x65538  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x6554c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x65560  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x65574  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_ICON      0x65588  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x52718      0x52800      6.524654    
+DATA       0x54000      0x1020       0x1200       3.701640    
+BSS        0x56000      0xc2d        0x0          0.000000    [SUSPICIOUS]
+.idata     0x57000      0x200e       0x2200       4.833723    
+.tls       0x5a000      0x10         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x5b000      0x18         0x200        0.200582    [SUSPICIOUS]
+.reloc     0x5c000      0x5af4       0x5c00       6.649375    
+.rsrc      0x62000      0x3600       0x3600       4.011043    
+

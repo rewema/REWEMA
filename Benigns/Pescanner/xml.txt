@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2210816 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     35ce739b71cf5911d941523314fe1ae5
+SHA1:    6eb89866332f31474c316910c60606d12bfe9263
+ssdeep:  49152:2CRdgVae3kGvcZ+VhJzVv43WJyTkBAUZLYl9MHGaXYQKuHv:dk8e3kGvzVhtVIW5BAUZLD
+Date:    0x50DD98E8 [Fri Dec 28 13:04:40 2012 UTC]
+EP:      0x401130 .text 0/7
+CRC:     Claimed: 0x227440, Actual: 0x227440 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x13ca8cL => deflate
+   0x13cac9L => deflate
+   0x13caebL => Jean-loup Gailly
+   0x13c9f7L => inflate
+   0x14014dL => inflate
+   0x13cb00L => Mark Adler
+   0x14016fL => Mark Adler
+
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10c3f0     0x10c400     6.471059    
+.data      0x10e000     0xc74        0xe00        3.771722    
+.rdata     0x10f000     0xffd20      0xffe00      7.264961    [SUSPICIOUS]
+.bss       0x20f000     0x54a0       0x0          0.000000    [SUSPICIOUS]
+.edata     0x215000     0x1f0c       0x2000       5.398118    
+.idata     0x217000     0xfd4        0x1000       4.905832    
+.reloc     0x218000     0xb718       0xb800       6.704440    
+

@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    438272 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     860b1c4b1bd354b5221cfd6eea864b81
+SHA1:    cff61e586571d6f68772fe964e74cdac5d5dbcc8
+ssdeep:  12288:k7ROFDuYjEftOpFSMdIxmcKcQCCfX29sUBCTPP4e0YLNyVbI:k7ROFDuYjEftMFrKwcK3CuvH42sV
+Date:    0x3DF4738B [Mon Dec  9 10:42:19 2002 UTC]
+EP:      0x405524 .text 0/4
+CRC:     Claimed: 0x7a241, Actual: 0x7a241 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BFS                0xe7e0   0x5bd74  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe3a8   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xe6b8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xe690   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xe168   0x240    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8e04       0x9000       6.244853    
+.rdata     0xa000       0xaaa        0x1000       3.455080    
+.data      0xb000       0x252c       0x3000       3.528921    
+.rsrc      0xe000       0x5c558      0x5d000      7.985115    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0409 0x040b
+LegalCopyright: 
+InternalName: ;
+FileVersion: 1.0.0.0
+CompanyName: 
+LegalTrademarks: 
+ProductName: 
+ProductVersion: 1.0.0.0
+FileDescription: 
+OriginalFilename: 
+

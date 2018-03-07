@@ -1,0 +1,176 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    835584 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6f60a3487ce868a98c7a30d32584f099
+SHA1:    a737e36d913a451c15b5d2b670e5f1c671b62529
+ssdeep:  12288:Nf0kKF6QiD93Ml2kPZxoF+/o8qZPUvuTh/Lu2C5wQ08Uf:NskKF6QiDNKPZxoEo8nu84
+Date:    0x3E63C6EA [Mon Mar  3 21:19:38 2003 UTC]
+EP:      0x41033c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0xd64d8 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WAVE               0x9cc08  0x1448   LANG_NEUTRAL SUBLANG_NEUTRAL          RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 22050 Hz
+WAVE               0x9e050  0x2ece0  LANG_NEUTRAL SUBLANG_NEUTRAL          RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 22050 Hz
+RT_CURSOR          0x9ca48  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_CURSOR          0xcd4a0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xcd5d8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x5f018  0x1428   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x60440  0x2bf56  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8c398  0x20f4   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x8e490  0x305c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x914f0  0x5134   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x96628  0x4528   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x9ab50  0x1ef4   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xcd6b8  0x5e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcdd88  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcde40  0x16c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xcdfb0  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3b8d0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3c190  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3ca50  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3d2f8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3e3c8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3ec88  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x3f548  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x403f0  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x429c0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x43268  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x44338  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x44bf8  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x45160  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x45a08  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x45e70  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x46f58  0x1bc8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x48b38  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x493f8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x49ca0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4ad70  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4b630  0x1bc8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4d210  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4e0d0  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4e990  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4f250  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4fb10  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x503d0  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x50510  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x50650  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x50ef8  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x51fc8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x52888  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x53148  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x53a08  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x542c8  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55188  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55a48  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56308  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56608  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56ec8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x57788  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x58048  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x586b0  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x58998  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x58ac0  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x59968  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5a210  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x5a778  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5cd20  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x5ddc8  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xcd068  0x128    LANG_ITALIAN SUBLANG_ITALIAN          GLS_BINARY_LSB_FIRST
+RT_ICON            0xcd190  0x2e8    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_MENU            0x9cb98  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x5e2b8  0x160    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x5e418  0x270    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x5e688  0x2ba    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x5e948  0x1fa    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x5eb48  0x320    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x5ee68  0x1ac    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0xcdca0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xce0f8  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xce180  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xce1b0  0x14a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xce300  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xceb78  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xce898  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xce7e8  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xcf550  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xcee20  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xcf2e8  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xcf630  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_GROUP_CURSOR    0x9cb80  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0xcd690  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0xcd478  0x22     LANG_ITALIAN SUBLANG_ITALIAN          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x3c178  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x3ca38  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x3e3a0  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x3ec70  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x3f530  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x42998  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x44310  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x44be0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x46f18  0x3e     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 4 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x48b20  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x493e0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4ad48  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x4b618  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4d1f8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4e0b8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4e978  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4f238  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x4faf8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x503b8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x504f8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x50638  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x51fa0  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x52870  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x53130  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x539f0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x542b0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x55170  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x55a30  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x562f0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x565f0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x56eb0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x57770  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x58030  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x5e230  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_VERSION         0xccd30  0x334    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0x9cbf8  0xc      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Suspicious IAT alerts
+================================================================================
+WinExec
+ShellExecuteA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x274de      0x28000      6.525689    
+.rdata     0x29000      0x844c       0x9000       4.463097    
+.data      0x32000      0x755c       0x4000       2.399522    
+.rsrc      0x3a000      0x95660      0x96000      6.877056    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: CButtonST_Demo
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: CButtonST_Demo Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: CButtonST_Demo MFC Application
+OriginalFilename: CButtonST_Demo.EXE
+Translation: 0x0409 0x04b0
+

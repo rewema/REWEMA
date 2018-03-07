@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    118520 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     83a6c2cafe236652d1559640594a0ea8
+SHA1:    c99aa678f387c00c4470fa3cd7b037d26720960d
+ssdeep:  3072:mL7m5RTfrUna0m2BeIIgJ3155FulLfbt/6:C7m5RTEaseIH515qfA
+Date:    0x51300439 [Fri Mar  1 01:28:25 2013 UTC]
+EP:      0x409025 .text 0/4
+CRC:     Claimed: 0x2281f, Actual: 0x2281f 
+
+Signature scans
+================================================================================
+YARA: sniffer
+   0x16f5eL => wpcap.dll
+   0x16ee2L => pcap_findalldevs
+   0x16f06L => pcap_open
+   0x16f26L => pcap_open
+   0x16f3aL => pcap_compile
+   0x16ea2L => pcap_close
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x370a0  0x440    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x374e0  0x56     LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x12d58      0x13000      6.548080    
+.rdata     0x14000      0x3676       0x4000       4.981614    
+.data      0x18000      0x1e401      0x2000       1.295902    
+.rsrc      0x37000      0x538        0x1000       3.893228    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2010-2013 Riverbed Technology, Inc. Copyright \xa9 2005-2010 CACE Technologies. Copyright \xa9 2003-2005 NetGroup, Politecnico di Torino.
+InternalName: rpcapd
+FileVersion: 4.1.0.2980
+CompanyName: Riverbed Technology, Inc.
+LegalTrademarks: 
+ProductName: WinPcap
+ProductVersion: 4.1.0.2980
+FileDescription: Remote Packet Capture Daemon
+Build Description: 
+OriginalFilename: rpcapd.exe
+Translation: 0x0000 0x04b0
+

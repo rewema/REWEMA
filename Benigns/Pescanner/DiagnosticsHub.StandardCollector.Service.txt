@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    69632 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     06bfff10377726ee09e9cd38e187ef16
+SHA1:    ed40e767f8646793045965b1e16c5c7fdb442359
+ssdeep:  1536:A9DAcwGgKwvNoZs6rnm3+/gpBzH9HGDpIHhnaeNO7B2X13QWF4S:A9yIsQm3+eBdHGSHhPu41gWFX
+Date:    0x57899175 [Sat Jul 16 01:44:21 2016 UTC]
+EP:      0x40ade0 .text 0/5
+CRC:     Claimed: 0x1c5ed, Actual: 0x1c5ed 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x12790  0x428    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x120a0  0x6ea    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcd6c       0xce00       6.139647    
+.data      0xe000       0x55c        0x200        3.098352    
+.idata     0xf000       0x201a       0x2200       5.269859    
+.rsrc      0x12000      0xbb8        0xc00        4.738293    
+.reloc     0x13000      0xc28        0xe00        6.202436    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DiagnosticsHub.StandardCollector.Service.exe
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: Microsoft (R) Diagnostics Hub Standard Collector
+OriginalFilename: DiagnosticsHub.StandardCollector.Service.exe
+Translation: 0x0409 0x04b0
+

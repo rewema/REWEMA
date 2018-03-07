@@ -1,0 +1,65 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    483840 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     095e038f33ff4f71631345c93b84a1fb
+SHA1:    a0dbd66c6b03b3a16ce3bd6ef5c0445e9a84f9c9
+ssdeep:  6144:XBVxyXzrX5j5J0xg5JfDhSHuBzc7vXz+7p6zHpQMEj0pYcJa27iwcHyqlV:DWj5J0gDhSrLzJQQJa27FOyY
+Date:    0x5789900A [Sat Jul 16 01:38:18 2016 UTC]
+EP:      0x448230 .text 0/5
+CRC:     Claimed: 0x7dfaf, Actual: 0x7dfaf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+WEVT_TEMPLATE      0x5d190  0x1c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5d358  0x60a    LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 128 x 128, 8-bit/color RGB, non-interlaced
+RT_ICON            0x5d968  0x70a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x64a10  0x4ee8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x698f8  0x3228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6cb20  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6e7c8  0x1428   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6fbf0  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x70898  0x748    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x70fe0  0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x71508  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MESSAGETABLE    0x5d0f8  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       VMS Alpha executable
+RT_GROUP_ICON      0x71870  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 256-colors
+RT_VERSION         0x5cd48  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5c3b0  0x994    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcess
+OpenProcessToken
+CreateProcessAsUserW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5198c      0x51a00      6.202672    
+.data      0x53000      0x50ac       0x4800       4.809544    
+.idata     0x59000      0x2c14       0x2e00       5.539205    
+.rsrc      0x5c000      0x15908      0x15a00      2.738852    
+.reloc     0x72000      0x730c       0x7400       6.598687    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MSASCUIL
+FileVersion: 4.10.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 4.10.14393.0
+FileDescription: Windows Defender notification icon
+OriginalFilename: MSASCUIL.exe
+Translation: 0x0409 0x04b0
+

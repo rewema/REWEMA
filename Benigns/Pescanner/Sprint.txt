@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    980232 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3b582890d8ca460fbcbd65eb5d01560f
+SHA1:    edfc203453412deb4ed563d9a5c01cce857562ee
+ssdeep:  12288:wtwNE18O9ljvHfn/nnnXETAN9+GdTY3aR:wtwNE18OrgTAOraR
+Date:    0x4B0D49C4 [Wed Nov 25 15:14:12 2009 UTC]
+EP:      0x43168a .text 0/4
+CRC:     Claimed: 0xf383a, Actual: 0xf383a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+ABBYY_SIGNATURE    0x9342c  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+REGISTRY           0x934f0  0x1f4    LANG_NEUTRAL SUBLANG_NEUTRAL          ASCII text, with CRLF line terminators
+TYPELIB            0x936e4  0xb00    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x941e4  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9484c  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x94b34  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x94c5c  0x12428  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa7084  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa7f2c  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xa87d4  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xa8d3c  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xead64  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xed30c  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xee3b4  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xee81c  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 11 icons, 48x48, 16-colors
+RT_VERSION         0xee8bc  0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0xeec3c  0x36e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6203b      0x63000      6.119063    
+.rdata     0x64000      0x29ecb      0x2a000      5.124710    
+.data      0x8e000      0x4ad8       0x4000       4.242728    
+.rsrc      0x93000      0x5bfac      0x5c000      4.373948    
+
+Version info
+================================================================================
+LegalCopyright: (c) 2009 ABBYY. All rights reserved.
+InternalName: Sprint
+FileVersion: 9.0.0.1359
+CompanyName: ABBYY
+LegalTrademarks: ABBYY FineReader is the trademark of ABBYY Software Ltd.
+ProductName: ABBYY FineReader
+ProductVersion: 9.0.0.1359
+FileDescription: ABBYY Sprint
+OriginalFilename: Sprint.exe
+Translation: 0x0409 0x04b0
+

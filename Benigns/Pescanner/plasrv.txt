@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    9216 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8402b86bed1bf0bbb5aebdf460730b10
+SHA1:    7915bcd6f74a1eb364355c2ac74ee9868074ce8c
+ssdeep:  96:dWTNmv2XwclX9NyLL8A7CFJjDWPTEmB+HJ1iMe24MeIS3MV1T3SGDJFMsjE4EWTi:dZvawIXPyHTYxe27eIWMzTis5WWdXWd
+Date:    0x57898F23 [Sat Jul 16 01:34:27 2016 UTC]
+EP:      0x401810 .text 0/5
+CRC:     Claimed: 0x6ca2, Actual: 0x6ca2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4338   0x3c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x40a0   0x297    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe44        0x1000       5.374445    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x3b4        0x400        4.695806    
+.rsrc      0x4000       0x700        0x800        3.978196    
+.reloc     0x5000       0x14c        0x200        4.711612    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: plasrv.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Performance Logs and Alerts DCOM Server
+OriginalFilename: plasrv.exe
+Translation: 0x0409 0x04b0
+

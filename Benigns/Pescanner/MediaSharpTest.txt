@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     0a68683d37c24064d5c6ababe9fe4754
+SHA1:    32fbc86e8cbacba7bf2ceb4d444774a6df2b79e2
+ssdeep:  48:6kGWSmU43Top4/duJZsBgNFBiOKRMLrttakU4lblJ5WF:5RSC5Eqg3BievamzX
+Date:    0x48AB1B28 [Tue Aug 19 19:12:40 2008 UTC]
+EP:      0x4029ee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xc02a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x320    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x9f4        0x1000       3.726064    
+.rsrc      0x4000       0x378        0x1000       0.905408    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 SOFTPAE 2008
+Assembly Version: 1.0.0.0
+InternalName: MediaSharpTest.exe
+FileVersion: 1.0.0.0
+CompanyName: SOFTPAE
+ProductName: MediaSharpTest
+ProductVersion: 1.0.0.0
+FileDescription: MediaSharpTest
+OriginalFilename: MediaSharpTest.exe
+

@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    134656 bytes
+Type:    PE32 executable for MS Windows 32-bit
+MD5:     1e35a0422371e1fb0c0b6df684c78bc4
+SHA1:    0d871e72a95e0c042208b5f18213d9b4e8f77b97
+ssdeep:  3072:zA5NLdgOjSBVCPgDjUYV/JIbvVOnU2wbwNTYCKVfxC:z4KBVigDjBVI2kC8
+Date:    0x4F3CB994 [Thu Feb 16 08:08:52 2012 UTC]
+EP:      0x24e78 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x27417 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1e450  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x20058  0x34     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x214bc  0x3e     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0x1e74c  0x408    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x2008c  0x43a    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0x1eb54  0xb32    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x20964  0xb56    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0x1f688  0x502    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x204c8  0x49a    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x214fc  0x46e    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x22864  0x488    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x2196c  0x520    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x22cec  0x520    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x21e8c  0x53a    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x2320c  0xf2     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x223c8  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x23300  0xcc     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0x22484  0x18a    LANG_ENGLISH SUBLANG_ENGLISH_UK       DBase 3 index file
+RT_STRING          0x233cc  0x1ca    LANG_SPANISH SUBLANG_SPANISH_MODERN   DBase 3 index file
+RT_STRING          0x22610  0x182    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x23598  0x1e8    LANG_SPANISH SUBLANG_SPANISH_MODERN   AmigaOS bitmap font
+RT_STRING          0x22794  0xce     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x23780  0x100    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_GROUP_ICON      0x1e738  0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x1fb8c  0x4cc    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x14144      0x14200      5.750152    
+.rdata     0x16000      0x2ad8       0x2c00       3.943931    
+.data      0x19000      0x2c54       0x2e00       2.825011    
+.pdata     0x1c000      0x1240       0x1400       4.587700    
+.rsrc      0x1e000      0x5880       0x5a00       3.723180    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004 David Johnston, 2009-2012 Mark Billington. Released under the GPL Licence.
+InternalName: oMet_WCE
+FileVersion: 5, 6, 0, 0
+CompanyName: code::Biscuit
+PrivateBuild: 
+LegalTrademarks: 
+Comments: With thanks to David Johnston's "Weird Metronome": this project incorporates some of the Weird Metronome source
+ProductName: Open Metronome
+SpecialBuild: 
+ProductVersion: 5, 6, 0, 0
+FileDescription: Open Metronome
+OriginalFilename: oMet_WCE.exe
+Translation: 0x0409 0x04b0
+

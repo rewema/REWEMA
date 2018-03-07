@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    45056 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f8f18070d0f309bee0727762c6a8bd38
+SHA1:    8e459b767c83be7044e66b2c6e464fdc09d910f9
+ssdeep:  768:8ky4rpVEKxSlGiuoW/MByv2NVAkGaso1Sg6wqvdqUtg0MUsvvvxau:+8pVEKxSlGiuoW/OyRy56wqgUttsvvvn
+Date:    0x4FE916FD [Tue Jun 26 01:57:17 2012 UTC]
+EP:      0x11009c1e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1027a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xa3e0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xa6c8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xa7f0   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xa160   0x27c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xa818   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x7c24       0x8000       5.185565    
+.rsrc      0xa000       0xa08        0x1000       2.915254    
+.reloc     0xc000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.4559.37718
+InternalName: TagEditor.exe
+FileVersion: 1.0.4559.37718
+ProductVersion: 1.0.4559.37718
+FileDescription:  
+OriginalFilename: TagEditor.exe
+

@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12288 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     94c923ca4e94f813d0a63d99a322a12d
+SHA1:    c6b3ef65cc60d32172d503ea9a792243e6d92f54
+ssdeep:  192:U+7AHlC35a0Z5w535H6NQrxdnZhedf0Hj18bEQ0OlFL:U+76435a0Z5w535HKixdn2dfujmb1xFL
+Date:    0x3DFD1295 [Sun Dec 15 23:39:01 2002 UTC]
+EP:      0x403ffe .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x40d6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x6428   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x6710   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x6838   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2004       0x2200       5.282470    
+.rsrc      0x6000       0x860        0xa00        2.931123    
+.reloc     0x8000       0xc          0x200        0.061163    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.1080.1170
+InternalName: TestPakViewer.exe
+FileVersion: 1.0.1080.1170
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 1.0.1080.1170
+FileDescription:  
+OriginalFilename: TestPakViewer.exe
+

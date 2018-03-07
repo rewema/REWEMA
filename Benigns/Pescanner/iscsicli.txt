@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    151040 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     256a7f9ba07fa2de104725f1ef97ee7c
+SHA1:    1264ca3d837d8cddf38baa140e61edc05552baa7
+ssdeep:  3072:VD6n2UP/eH6HcII4vRBDyCanAICgKOKaeqUKOpVk/qfWJTfS1n37M:0X8kDyCsKRaeqUp3WJrM
+Date:    0x5789911D [Sat Jul 16 01:42:53 2016 UTC]
+EP:      0x408c30 .text 0/6
+CRC:     Claimed: 0x2b0f7, Actual: 0x2b0f7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2c400  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12a98  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13100  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x133e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x13510  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x143b8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14c60  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x151c8  0x136e8  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x288b0  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ae58  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2bf00  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2c368  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0x126f8  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x12330  0x3c7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x848c       0x8600       6.098152    
+.data      0xa000       0x43a4       0x200        0.183339    [SUSPICIOUS]
+.idata     0xf000       0x115a       0x1200       4.983273    
+.didat     0x11000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x12000      0x1a4d0      0x1a600      7.537758    [SUSPICIOUS]
+.reloc     0x2d000      0x664        0x800        5.894811    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: iscsicli
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: iSCSI Discovery tool
+OriginalFilename: iscsicli.exe
+Translation: 0x0409 0x04b0
+

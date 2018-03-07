@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    42176 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     92241a317e15d8d89aea5e7c55a1dd58
+SHA1:    e32280f6e4256db917377a143327475abd64964e
+ssdeep:  768:9mdeeaAQ7dU6Iq8y6Mx8d9iwbzVEB/8B:9yejP7dDP8f5lEB/8
+Date:    0x575A13F7 [Fri Jun 10 01:12:23 2016 UTC]
+EP:      0x40773a .text 0/3
+CRC:     Claimed: 0x1918c, Actual: 0x1918c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x8090   0x3e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8488   0x494    LANG_ENGLISH SUBLANG_ENGLISH_US       exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x5740       0x5800       5.061248    
+.rsrc      0x8000       0x920        0xa00        4.346635    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation.  All rights reserved.
+InternalName: AddInProcess32.exe
+FileVersion: 4.6.1586.0 built by: NETFXREL2
+CompanyName: Microsoft Corporation
+PrivateBuild: DDBLD400
+Comments: Flavor=Retail
+ProductName: Microsoft\xae .NET Framework
+ProductVersion: 4.6.1586.0
+FileDescription: AddInProcess.exe
+OriginalFilename: AddInProcess32.exe
+Translation: 0x0409 0x04b0
+

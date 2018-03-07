@@ -1,0 +1,32 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3153920 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386
+MD5:     8f6b13ef22b628d594133689937b18db
+SHA1:    b0854ab601c29d5e3cfd577af4a2418853685aaa
+ssdeep:  98304:R4uBqRn5Nsowr2Y6MKkNMpt6lVeyfxNJLNqqwczc8YA+RX54GhoA11Rv/LHjric:R4dB5lw2Y6MKkNMpt6lVtfiYYA24Ghfz
+Date:    0x3FCB0E4C [Mon Dec  1 09:47:56 2003 UTC]
+EP:      0x401000 .text 0/5
+CRC:     Claimed: 0x31002e, Actual: 0x31002e 
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2dc0c0     0x2dc200     6.188600    
+.data      0x2de000     0xb654       0xb800       5.004284    
+.rdata     0x2ea000     0x15b3c      0x15c00      5.343147    
+.bss       0x300000     0x2d5f0      0x0          0.000000    [SUSPICIOUS]
+.idata     0x32e000     0x446c       0x4600       5.382360    
+

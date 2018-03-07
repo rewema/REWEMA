@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     25829bf64526900e53f842681fe804a7
+SHA1:    d430bfb2544d16ee185524ab5c986e01424a0173
+ssdeep:  384:lNiKAj8wyUT84NUbFOFTXQ6l5U5op69bL6KedMaoah9xEqWxoW:SB8eNaFOFHs3sdMaoa/xEN
+Date:    0x57898FB4 [Sat Jul 16 01:36:52 2016 UTC]
+EP:      0x403320 .text 0/5
+CRC:     Claimed: 0x122fa, Actual: 0x122fa 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7820   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x7458   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x70f0   0x365    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2d2c       0x2e00       6.087291    
+.data      0x4000       0x1068       0x200        0.947866    [SUSPICIOUS]
+.idata     0x6000       0xca0        0xe00        4.615398    
+.rsrc      0x7000       0x8e8        0xa00        4.083840    
+.reloc     0x8000       0x384        0x400        6.164352    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: mofcomp.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: The Managed Object Format (MOF) Compiler 
+OriginalFilename: mofcomp.exe
+Translation: 0x0409 0x04b0
+

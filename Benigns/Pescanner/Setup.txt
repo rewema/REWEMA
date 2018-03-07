@@ -1,0 +1,176 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    482816 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     064fbc9cb2c2ac3afdc224a00db4afbe
+SHA1:    da5b624c3915089a93865e643218520ccdc94d10
+ssdeep:  6144:lXaNjt6LuPHmLyiBvuJiFkJ+2Qw+MMq6FlOUeKJ6qjaHojDuUlzY/rgS9aAA1:1YYuUx65QwDMq6TOUeeDuUlzovaD
+Date:    0x488F1F0E [Tue Jul 29 13:45:50 2008 UTC]
+EP:      0x428ee8 .text 0/4
+CRC:     Claimed: 0x5dca4, Actual: 0x78e4d [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x57932L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x4fb98  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x50200  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x504e8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x50610  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x514b8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x51d60  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x522c8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x54870  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x55918  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x55d80  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x56068  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x56190  0x90     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x56220  0x1b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x563d4  0x1a4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x56578  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 9 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x565fc  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x56620  0x2d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x568f0  0x30f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML document text
+None               0x56c00  0xa      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x56c0c  0x44d4   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x5b0e0  0x4      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x5b0e4  0x15800  LANG_NEUTRAL SUBLANG_NEUTRAL          PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+None               0x708e4  0x2e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70914  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+None               0x70924  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70938  0xe      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70948  0x18     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version  
+None               0x70960  0x18     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version  
+None               0x70978  0x8      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70980  0x6      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70988  0x7a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70a04  0x8a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70a90  0x34     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70ac4  0x3c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70b00  0x12     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70b14  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70b38  0x122    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70c5c  0x1a6    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x70e04  0x410    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71214  0x36     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x7124c  0xe      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x7125c  0x62     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x712c0  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71370  0xa      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x7137c  0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x713c4  0x9a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71460  0x7a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x714dc  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71560  0x17e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x716e0  0x46     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71728  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x717ec  0x4a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71838  0x66     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x718a0  0x100    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x719a0  0xc      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x719ac  0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x719f4  0x20     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71a14  0x42     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71a58  0x74     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71acc  0x6c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71b38  0x9e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71bd8  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71c34  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71c9c  0x58     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71cf4  0x2      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71cf8  0x16     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71d10  0x58     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71d68  0xa6     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71e10  0xe      LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+None               0x71e20  0x30     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71e50  0x12     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71e64  0xb8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71f1c  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x71f2c  0x14c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72078  0x78     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x720f0  0x3c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x7212c  0xce     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x721fc  0x2e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x7222c  0x74     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x722a0  0xb6     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72358  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+None               0x72368  0x1c     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version c
+None               0x72384  0x78     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x723fc  0x6c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72468  0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x724bc  0x4e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x7250c  0x12     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+None               0x72520  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+None               0x72530  0x12     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72544  0x130    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72674  0x56     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x726cc  0x4a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72718  0x6c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72784  0x76     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x727fc  0x44     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72840  0x44     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72884  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x728e0  0xda     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x729bc  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72a40  0xd2     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72b14  0x5e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72b74  0x8c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72c00  0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72cc8  0xd2     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72d9c  0x50     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72dec  0x88     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72e74  0x78     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72eec  0x4e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72f3c  0x8e     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x72fcc  0xa8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x73074  0x6c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x730e0  0x82     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x73164  0xe4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x73248  0x7a     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x732c4  0x6      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x732cc  0x4      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x732d0  0x1b8e   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x74e60  0xa      LANG_NEUTRAL SUBLANG_NEUTRAL          data
+None               0x74e6c  0x202    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteExW
+ShellExecuteW
+ShellExecuteA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x48b92      0x48c00      6.510903    
+.data      0x4a000      0x357c       0x1800       3.178887    
+.rsrc      0x4e000      0x27070      0x27200      5.954220    
+.reloc     0x76000      0x4344       0x4400       5.080248    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: setup.exe
+FileVersion: 9.0.30729.1 built by: SP
+CompanyName: 
+ProductName: 
+ProductVersion: 9.0.30729.1
+FileDescription: Setup
+OriginalFilename: setup.exe
+Translation: 0x0409 0x04b0
+

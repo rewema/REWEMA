@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1938078 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     23ceb9f67d082c67f0b69e77463e0be4
+SHA1:    a480c347e1cb6752ddb9f167f457a7afa7fec402
+ssdeep:  49152:xM1ZTAnM6aO8H0nniJjscbFA7Zx+uurDYJU6XSm5SPJ:a1CnM6arH2K4TaDcE6SPJ
+Date:    0x514E2C2E [Sat Mar 23 22:26:54 2013 UTC]
+EP:      0x40b2f7 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1e8f7c [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d250  0x3047   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x30298  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x40ac0  0x94a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x49f68  0x5488   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4f3f0  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x53618  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55bc0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56c68  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x575f0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x57a58  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 256-colors
+RT_GROUP_ICON      0x57adc  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 48x48, 256-colors
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x19ab6      0x19c00      6.705454    
+.rdata     0x1b000      0x61a4       0x6200       6.668673    
+.data      0x22000      0xa684       0x1800       2.977777    
+.rsrc      0x2d000      0x2ab44      0x2ac00      4.154975    
+

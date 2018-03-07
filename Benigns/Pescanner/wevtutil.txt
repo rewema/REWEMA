@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    171008 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     745a368c5593baeb968d1791a9d9c798
+SHA1:    bfc182a282d32049f9735c4347416eb70ffb7916
+ssdeep:  3072:g4Vp+mDLHF8PUeGUe3zU2CH1bDAvEHYEQEyhTxtdGlVv2nRv5D:gWprWbs3zU2CVjHYEQEUdt4lVvi
+Date:    0x578990AA [Sat Jul 16 01:40:58 2016 UTC]
+EP:      0x41fd00 .text 0/6
+CRC:     Claimed: 0x369cf, Actual: 0x369cf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2a750  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2a398  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2a0f0  0x2a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x24984      0x24a00      6.329141    
+.data      0x26000      0x79c        0x400        3.572384    
+.idata     0x27000      0x19de       0x1a00       5.356414    
+.didat     0x29000      0x8c         0x200        1.306201    
+.rsrc      0x2a000      0x818        0xa00        3.716392    
+.reloc     0x2b000      0x2218       0x2400       6.607536    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: wevtutil.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Eventing Command Line Utility
+OriginalFilename: wevtutil.exe
+Translation: 0x0409 0x04b0
+

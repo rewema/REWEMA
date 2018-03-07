@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    127045 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1aa46bf453785c76aed2d1752be3619b
+SHA1:    46453aea29a24db7992c5f532b9f1b761cac5c59
+ssdeep:  384:eSXexl2TgH2juC+dLu24lF4uyY6FPzqsqWcHoH2p/G4u7jd4SQ2fjhXipLDKU:zub2Tg4C4lF4uyTPzqucHoH2pjCdH1al
+Date:    0x3F3D6F0F [Fri Aug 15 23:38:55 2003 UTC]
+EP:      0x405250 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x2b371 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1b3f0  0x2e8    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_ICON            0x1c9d8  0x2e8    LANG_FRENCH  SUBLANG_FRENCH_CANADIAN  data
+RT_DIALOG          0x1b6f0  0x16a    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1b860  0xa18    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1c278  0x26c    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0x1c4e8  0x1c4    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0x1ccd8  0x58     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_GROUP_ICON      0x1b6d8  0x14     LANG_FRENCH  SUBLANG_FRENCH           MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1ccc0  0x14     LANG_FRENCH  SUBLANG_FRENCH_CANADIAN  MS Windows icon resource - 1 icon
+RT_VERSION         0x1c6b0  0x324    LANG_FRENCH  SUBLANG_FRENCH           data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16bd0      0x17000      1.941961    
+.rdata     0x18000      0xe44        0x1000       2.935815    
+.data      0x19000      0x984        0x1000       0.569329    [SUSPICIOUS]
+.idata     0x1a000      0xd64        0x1000       3.737049    
+.rsrc      0x1b000      0x233c       0x3000       2.242287    
+.reloc     0x1e000      0x85d        0x1000       3.307870    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: Gestionnaire
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: Application Gestionnaire
+ProductVersion: 1, 0, 0, 1
+FileDescription: Application MFC Gestionnaire
+OriginalFilename: Gestionnaire.EXE
+Translation: 0x040c 0x04b0
+

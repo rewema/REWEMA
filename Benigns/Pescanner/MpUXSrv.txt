@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    69984 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1788eee5d6a908dd464308eb72602cfa
+SHA1:    83137b716a02e4b3af37ccba1f6e8572a5299036
+ssdeep:  1536:FVH+ePTauGSPHO4mIo2/EncnPCYJYLFLKFTiuAFX2QGwNzjoP8:3+ePTauG0u4mIoDcqYQf2tazjo0
+Date:    0x57899136 [Sat Jul 16 01:43:18 2016 UTC]
+EP:      0x40ac50 .text 0/6
+CRC:     Claimed: 0x15d7e, Actual: 0x15d7e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x11948  0x390    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x110a0  0x8a5    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xac88       0xae00       6.143107    
+.imrsiv    0xc000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0xd000       0x1330       0xe00        4.831006    
+.idata     0xf000       0x110e       0x1200       5.133641    
+.rsrc      0x11000      0xcd8        0xe00        4.775264    
+.reloc     0x12000      0xf20        0x1000       6.500610    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MpUxSrv.exe
+FileVersion: 4.10.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 4.10.14393.0
+FileDescription: WD modern host server
+OriginalFilename: MpUxSrv.exe
+Translation: 0x0409 0x04b0
+

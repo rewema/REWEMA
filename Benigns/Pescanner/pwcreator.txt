@@ -1,0 +1,67 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    671744 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     39290a0c664a443308ccc12b60c230bb
+SHA1:    360b23495115879c2b3c3842ea7a671927612823
+ssdeep:  6144:aa/z5ukx7TsT88ZJs7qpMCdAN3c8f26C0hWH8Uz0JicIEsSLUcTlWC0W6:aa/FukNB8ZOAdAN3cy26HWH8vzRWCs
+Date:    0x57898F28 [Sat Jul 16 01:34:32 2016 UTC]
+EP:      0x455300 .text 0/5
+CRC:     Claimed: 0xacd89, Actual: 0xacd89 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x9f090  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x9de60  0x122a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x69df0  0x4c28   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6ea18  0x2ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x716c0  0x1628   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x72ce8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x73b90  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x74438  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x74b00  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x75068  0x69e7   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x7ba50  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8c278  0x94a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x95720  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x99948  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9bef0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9cf98  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9d920  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x9dd88  0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 15 icons, 256-colors
+RT_VERSION         0x69a38  0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x69490  0x5a6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x61520      0x61600      6.322222    
+.data      0x63000      0x2c7c       0x2600       4.837557    
+.idata     0x66000      0x289c       0x2a00       5.522923    
+.rsrc      0x69000      0x36188      0x36200      4.123255    
+.reloc     0xa0000      0x7284       0x7400       6.718771    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: pwcreator
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Create a Windows To Go workspace
+OriginalFilename: pwcreator.exe
+Translation: 0x0409 0x04b0
+

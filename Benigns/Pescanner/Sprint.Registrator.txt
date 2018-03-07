@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    70920 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     82410303d428911d59ab66f72632cd1b
+SHA1:    865ef6cb02fabe08d7362ac912604f02bcaaaad7
+ssdeep:  1536:DKpGEpwRXjLE0air6XGW/4UVrfAwlhc0UX2c8eCP:DxsUvE0aw6XGW/j/hcTX2co
+Date:    0x4B0D49B0 [Wed Nov 25 15:13:52 2009 UTC]
+EP:      0x403ffa .text 0/4
+CRC:     Claimed: 0x1988e, Actual: 0x1988e 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+ABBYY_SIGNATURE    0xf108   0xc2     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0xf1cc   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf564   0x383    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7b5b       0x8000       5.962725    
+.rdata     0x9000       0x4d07       0x5000       4.798614    
+.data      0xe000       0x380        0x1000       1.141014    
+.rsrc      0xf000       0x8e8        0x1000       4.709843    
+
+Version info
+================================================================================
+LegalCopyright: (c) 2009 ABBYY. All rights reserved.
+InternalName: Registrator
+FileVersion: 9.0.0.1359
+CompanyName: ABBYY
+LegalTrademarks: ABBYY FineReader is the trademark of ABBYY Software Ltd.
+ProductName: ABBYY FineReader
+ProductVersion: 9.0.0.1359
+FileDescription: ABBYY Registrator
+OriginalFilename: Registrator.exe
+Translation: 0x0409 0x04b0
+

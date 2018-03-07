@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    178040 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     328ba584bd06c3083e3a66cb47779eac
+SHA1:    4ba92a737f5aee970caafdca6b7ad0fb729eaf37
+ssdeep:  3072:QA6W/MgPe2yngeOtUdrdAhJiQV5yiRQfIHOAHp4/gR9ou:PPenBFdAXV5yYZrR
+Date:    0x4B3910B1 [Mon Dec 28 20:10:25 2009 UTC]
+EP:      0x409955 .text 0/4
+CRC:     Claimed: 0x2c1ba, Actual: 0x2c1ba 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x2e0a0  0x34c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e3ec  0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+StartServiceA
+CreateServiceA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x20ca0      0x20e00      6.580076    
+.rdata     0x22000      0x7492       0x7600       5.508976    
+.data      0x2a000      0x3c88       0x1200       2.328272    
+.rsrc      0x2e000      0x548        0x600        4.413644    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2000-2009 Mark Russinovich
+InternalName: PsLoglist
+FileVersion: 2.71
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals PsLogList
+ProductVersion: 2.71
+FileDescription: local and remote event log viewer
+OriginalFilename: psloglist.exe
+Translation: 0x0409 0x04b0
+

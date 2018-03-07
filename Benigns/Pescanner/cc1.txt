@@ -1,0 +1,133 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    12710035 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     e77432c1c06b8614b4a5c43c1903a030
+SHA1:    e4f39beeaf061b0187aaa09c7bb7b013d5420762
+ssdeep:  196608:kGpG6JfaO5WPoWwL9bLhYL7tUOL/ji4THtKUx3BPa9GIAxaOTzZRGRce3WRo9dfE:DxxB9bLentUOBTHtKmxGxRDAsS
+Date:    0x45DA3453 [Mon Feb 19 23:35:47 2007 UTC]
+EP:      0x401270 .text 0/7
+CRC:     Claimed: 0xc24969, Actual: 0xc24969 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Signature scans
+================================================================================
+YARA: irc
+   0x408079L => join
+   0x993356L => join
+   0x99ba6cL => join
+   0x9a9bdeL => join
+   0x9b569eL => join
+   0x9b56e8L => join
+   0x9bfaf9L => join
+   0x9c31a1L => join
+   0x9d1677L => join
+   0x9d3637L => join
+   0xa149d7L => join
+   0xa3c7aeL => join
+   0xa4a208L => join
+   0xa4f90aL => join
+   0xa56086L => join
+   0xa9b505L => join
+   0xacb659L => join
+   0xaf6256L => join
+   0xb2b17aL => join
+   0xb2f70fL => join
+   0xb3f27bL => join
+   0xb607f5L => join
+   0xb737bfL => join
+   0xc0b448L => join
+   0x9bca14L => msg
+   0xa7813cL => msg
+   0xa7e8c5L => msg
+   0xabbef5L => MSG
+   0xbf803fL => msg
+   0xa37a29L => notice
+   0xac7d8dL => notice
+   0xace53dL => notice
+   0xadb8fdL => notice
+   0xbf1239L => notice
+   0xbfce4dL => notice
+   0xbfe893L => notice
+   0xbffa2bL => notice
+   0x387755L => part
+   0x38cf47L => part
+   0x38cf59L => part
+   0x39d44dL => part
+   0x3bd5afL => part
+   0x3e4629L => part
+   0x40ad81L => part
+   0x96f619L => part
+   0x97bc8aL => PART
+   0x98004aL => PART
+   0x98d4a7L => PART
+   0x9e6bf7L => part
+   0x9f0f02L => part
+   0x9f9e28L => part
+   0xa0de21L => part
+   0xa0df33L => part
+   0xa0df87L => part
+   0xa0e1ceL => part
+   0xa50a4aL => part
+   0xa5df10L => part
+   0xa68b4cL => PART
+   0xa979f7L => PART
+   0xae76b1L => part
+   0xae7de0L => part
+   0xaf8defL => part
+   0xaf8f21L => part
+   0xb13733L => part
+   0xb13747L => part
+   0xb13834L => part
+   0xb42b40L => part
+   0xb42bb2L => part
+   0xb42bd5L => part
+   0xb42c85L => part
+   0xb42cc9L => part
+   0xb42d45L => part
+   0xb42d83L => part
+   0xb4f44dL => part
+   0xb528dcL => part
+   0xb5cac4L => part
+   0xb5cacfL => part
+   0xb70711L => part
+   0xb7076eL => part
+   0xb707ddL => part
+   0xb70c10L => part
+   0xb70d64L => part
+   0xb70e18L => part
+   0xb7451aL => part
+   0xb7ea57L => part
+   0xb84d71L => part
+   0xbebe6bL => part
+   0xbebf6cL => part
+   0xc0099fL => part
+   0xc02338L => part
+   0xc0cfd3L => part
+   0xc0cfe5L => part
+   0xc0d02dL => part
+   0xc0d04aL => part
+   0xc136c0L => part
+   0xc13741L => part
+   0xc13786L => part
+   0xc14389L => part
+   0xc17ab4L => part
+
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x3691b0     0x369200     6.568760    
+.data      0x36b000     0x3d00       0x3e00       2.985339    
+.rdata     0x36f000     0xaa840      0xaaa00      5.997001    
+.bss       0x41a000     0x86980      0x0          0.000000    [SUSPICIOUS]
+.idata     0x4a1000     0xa3c        0xc00        4.358446    
+.stab      0x4a2000     0x5488c8     0x548a00     3.926910    
+.stabstr   0x9eb000     0x231a3a     0x231c00     5.548451    
+

@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    90210 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     861955870d6ba2b6e24ffd025e8cd71f
+SHA1:    5f9d5e8b313dad5aec4e8bf1fb49b222ab9b2f72
+ssdeep:  1536:3q5ltHJOykHBZlig9AMoXEdFNld2QJ0VeDQRUAxeCo:ezAAMhdxJ0VeDQRUA3o
+Date:    0x3B6C81E6 [Sat Aug  4 23:14:46 2001 UTC]
+EP:      0x409f00 .text 0/6
+CRC:     Claimed: 0x0, Actual: 0x20170 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x133b0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13698  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x137e8  0x112    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x13900  0x4a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x13da8  0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x13ec0  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x142b0  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x137c0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x13fa8  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xb931       0xc000       4.752905    
+.rdata     0xd000       0x128d       0x2000       1.834718    
+.data      0xf000       0x1ac4       0x2000       3.137864    
+.idata     0x11000      0x13f2       0x2000       3.153265    
+.rsrc      0x13000      0x1766       0x2000       1.977121    
+.reloc     0x15000      0xc42        0x1000       4.846565    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2001
+InternalName: DVF07Name
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: DVF07Name Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: DVF07Name MFC Application
+OriginalFilename: DVF07Name.EXE
+Translation: 0x0409 0x04b0
+

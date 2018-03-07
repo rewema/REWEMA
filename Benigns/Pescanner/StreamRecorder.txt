@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    677888 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     c8fd9feb073aed3a42339fbae4f47a8d
+SHA1:    eb8e4d9c72bcf56939696a9cf9180886d33dc6cb
+ssdeep:  6144:tARXDPF8Nbi7XWOz54o9CzHrNJSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSV:tokMXWM4kOeAhPN9
+Date:    0x4F1C7D72 [Sun Jan 22 21:19:46 2012 UTC]
+EP:      0x48e4be .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xb00b8 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: sniffer
+   0x500d5L => sniffer
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x90528  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x90990  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x91a38  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x93fe0  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x98208  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xa8a30  0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 16x16, 256-colors
+RT_VERSION         0x901f0  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xa8a80  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x8c4c4      0x8c600      5.429818    
+.rsrc      0x90000      0x18c70      0x18e00      2.376052    
+.reloc     0xaa000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright Ohad Schneider \xa9 2012 (Apache 2.0 License)
+Assembly Version: 1.0.6.0
+InternalName: StreamRecorder.exe
+FileVersion: 1.0.6.0
+ProductName: StreamRecorder.NET
+ProductVersion: 1.0.6.0
+FileDescription: StreamRecorder.NET
+OriginalFilename: StreamRecorder.exe
+

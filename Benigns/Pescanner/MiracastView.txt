@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19296 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7f6fa6a9968a1201073d0c597a162e51
+SHA1:    04f3ea4826486d83d7a8390d3796ba25c185c6ea
+ssdeep:  384:Wkeh8XW9HaQpZQDaWbHiWvlRDBRJAlfkPjCCq:1eZx0DPT1PFPm
+Date:    0x5789918F [Sat Jul 16 01:44:47 2016 UTC]
+EP:      0x401dc0 .text 0/6
+CRC:     Claimed: 0xbbd2, Actual: 0xbbd2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6060   0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1434       0x1600       5.567003    
+.imrsiv    0x3000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x4000       0x394        0x200        0.249053    [SUSPICIOUS]
+.idata     0x5000       0x70c        0x800        4.390121    
+.rsrc      0x6000       0x400        0x400        3.300386    
+.reloc     0x7000       0x1dc        0x200        6.161680    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MiracastView
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: MiracastView
+OriginalFilename: MiracastView.EXE
+Translation: 0x0409 0x04b0
+

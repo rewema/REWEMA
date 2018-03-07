@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    82616 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     faa8eb46aea7aac5d0861d299b0f5dd5
+SHA1:    95ae12af1e81c7a31c9fee9d38d307c24f9aa174
+ssdeep:  768:YxGzxvPdIYyu8HIryIc3YaB3CE45nHQSRRbSK7SSW1PYhRR:VzxvmYyBomIcoKCE45nHQ8mPYR
+Date:    0x57899118 [Sat Jul 16 01:42:48 2016 UTC]
+EP:      0x402260 .text 0/6
+CRC:     Claimed: 0x14d31, Actual: 0x14d31 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x14d10  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x12978  0x2396   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6900   0x1876   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x8178   0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc3a0   0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe948   0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x103b0  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11458  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11de0  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x12498  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x12900  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x6568   0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6340   0x226    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x18e4       0x1a00       5.783507    
+.imrsiv    0x3000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x4000       0x440        0x200        0.408296    [SUSPICIOUS]
+.idata     0x5000       0x8b6        0xa00        4.382530    
+.rsrc      0x6000       0xee08       0xf000       3.948042    
+.reloc     0x15000      0x234        0x400        4.307712    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Settings
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Settings
+OriginalFilename: SystemSettings.exe
+Translation: 0x0409 0x04b0
+

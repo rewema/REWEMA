@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    318176 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6023afd76079cb086c345f2b275dd761
+SHA1:    121e281f02ac0ee7d69218da504657a85327651f
+ssdeep:  3072:DO5jN+VSbC8sBKO6viIZ+s7Pm43QnGgOyF1J+3cl+FAhRoaWxqEYFiPqV5uAaf81:DO5BPw2iw0GnXYLL2kPKocv0
+Date:    0x57899015 [Sat Jul 16 01:38:29 2016 UTC]
+EP:      0x425b50 .text 0/7
+CRC:     Claimed: 0x581cf, Actual: 0x581cf 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4b060  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x41fec      0x42000      6.395046    
+.imrsiv    0x43000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x44000      0x745        0x200        2.725427    
+.idata     0x45000      0x4a5c       0x4c00       5.649508    
+.didat     0x4a000      0x1c         0x200        0.269445    [SUSPICIOUS]
+.rsrc      0x4b000      0x3f8        0x400        3.306664    
+.reloc     0x4c000      0x3588       0x3600       6.706254    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: LockAppHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: LockAppHost
+OriginalFilename: LockAppHost.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,75 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1224104 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b642fd21a8f76dfa40213c5d7e501d84
+SHA1:    3ab593b96c6276c020afa3a2c8824a2f90572243
+ssdeep:  24576:ANmJ21FJAe2b/OyKZAUcL+TWMGE905ZtXqhw5v/6VdCgOreKTusJB2t1lh8AkJtl:S8orE2yKi3L+TWiDeJ5ksAkJGEtFizq
+Date:    0x57898E35 [Sat Jul 16 01:30:29 2016 UTC]
+EP:      0x499640 .text 0/7
+CRC:     Claimed: 0x12d054, Actual: 0x12d054 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+IMAGE              0x1154f0 0x423d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
+IMAGE              0xff1f8  0x397a   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+IMAGE              0x102b78 0x3a01   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+IMAGE              0x119730 0x4c89   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+IMAGE              0x106580 0x3a0c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+IMAGE              0x109f90 0x3b17   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+IMAGE              0x10daa8 0x3c1c   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 64 x 64, 8-bit/color RGBA, non-interlaced
+IMAGE              0x1116c8 0x3e22   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+MUI                0x11e3c0 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0xf4278  0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0xf43d8  0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0xf4538  0x129    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+UIFILE             0xf3b40  0x733    LANG_ENGLISH SUBLANG_ENGLISH_US       HTML document text
+RT_ICON            0xf4a08  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xf8c30  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfb1d8  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfcc40  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfdce8  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfe670  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfed28  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xff190  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 7 icons, 64x64, 256-colors
+RT_VERSION         0xf4668  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf3630  0x510    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessAsUserW
+ShellExecuteExW
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xc22f0      0xc2400      6.202116    
+.imrsiv    0xc4000      0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0xc5000      0x283b8      0x26e00      5.186577    
+.idata     0xee000      0x3128       0x3200       5.681748    
+.didat     0xf2000      0x284        0x400        2.764337    
+.rsrc      0xf3000      0x2b4a8      0x2b600      2.967291    
+.reloc     0x11f000     0xdfc0       0xe000       6.534415    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WpcMon.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Family Safety Monitor
+OriginalFilename: WpcMon.exe
+Translation: 0x0409 0x04b0
+

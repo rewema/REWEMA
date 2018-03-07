@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15715367 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b0f46fd784e43b30836e9a2f62879251
+SHA1:    a72e0e6a0f50d90d5310f7c1cb55498890de91cc
+ssdeep:  393216:QDTLk7Qk3HROO11zDfz/0ne7fU6/CTjbz8i+XCNjpAWri3e58N2T9Vqw2:KTLkck3PzDfz2e7fYjMi+w5aw2
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x40bf98 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0xf09a41 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x152c4  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x153ec  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x15954  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x15c3c  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x164e4  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x167d8  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16ae4  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16db4  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x16e1c  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x16ed0  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_GROUP_ICON      0x16f80  0x3e     LANG_DUTCH   SUBLANG_DUTCH            MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_MANIFEST        0x16fc0  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0xb650       0xb800       6.475043    
+DATA       0xd000       0x17e0       0x1800       3.275734    
+BSS        0xf000       0x1198       0x0          0.000000    [SUSPICIOUS]
+.idata     0x11000      0x75e        0x800        4.527106    
+.tls       0x12000      0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x13000      0x18         0x200        0.210826    [SUSPICIOUS]
+.reloc     0x14000      0x854        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x15000      0x2400       0x2400       4.352387    
+

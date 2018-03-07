@@ -1,0 +1,86 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    31015101 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1b26972b4457e32537c9608a698870c4
+SHA1:    78b3b295d75c994023bbad3acbc4ca7650cf1565
+ssdeep:  786432:V/DJlRJoZAl5VhEAJbjQuYtZ+4tbumV0k8Siw15yPz/I:Vfl5YAJguYz+4DV0xCOI
+Date:    0x498AD5FD [Thu Feb  5 12:05:17 2009 UTC]
+EP:      0x41ed51 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1d94116 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x2c64eL => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+IMAGE_FILE         0x26680  0x30f9   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+IMAGE_FILE         0x2977c  0x864    LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.02
+RTF_FILE           0x29fe0  0x2e9    LANG_ENGLISH SUBLANG_ENGLISH_US       Rich Text Format data, version 1, ANSI
+RTF_FILE           0x2a2cc  0xa1     LANG_ENGLISH SUBLANG_ENGLISH_US       Rich Text Format data, version 1, ANSI
+RT_ICON            0x2a370  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2a498  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2aa00  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ace8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x2b590  0x5c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x2b5ec  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2b618  0x84     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2b69c  0x2a6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2b944  0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2bcf8  0xb6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2bdb0  0x204    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2bfb4  0x282    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c238  0xcc     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c304  0x146    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2c44c  0x222    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2c670  0x45c    LANG_ENGLISH SUBLANG_ENGLISH_US       Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x2cacc  0x470    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2cf3c  0x2f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d234  0x598    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2d7cc  0x3d2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2dba0  0x7b6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x2e358  0x2e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2e640  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x2e680  0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2e9c4  0x3cf    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+OpenProcess
+OpenProcessToken
+ShellExecuteA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1f261      0x1f400      6.478405    
+.rdata     0x21000      0x3996       0x3a00       5.626717    
+.data      0x25000      0x6d0        0x600        2.736125    
+.rsrc      0x26000      0x8d94       0x8e00       6.060002    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) M-Dev
+InternalName: 2.0.2
+FileVersion: 2.0.2
+CompanyName: M-Dev
+ProductName: Hiruhi Media Player
+ProductVersion: 2.0.2
+FileDescription: This installer database contains the logic and data required to install Hiruhi Media Player.
+OriginalFileName: 2.0.2.exe
+Translation: 0x0409 0x04b0
+

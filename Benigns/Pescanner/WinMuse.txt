@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    225280 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7ed5a27d6b88a2fc03af0caa4008999c
+SHA1:    198378258776218bfb6611129f518568310067f2
+ssdeep:  3072:psb+MUW6sY4F66Fqjjug609yOXvGSEbb7g3NLaWJwMtG:psbeWpkjjugvyOXvGT43NLFOS
+Date:    0x3F09D4A0 [Mon Jul  7 20:14:24 2003 UTC]
+EP:      0x401ec4 .text 0/3
+CRC:     Claimed: 0x41799, Actual: 0x41799 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x38370  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x3835c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x380f0  0x26c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x33338      0x34000      5.799236    
+.data      0x35000      0x2374       0x1000       0.000000    
+.rsrc      0x38000      0xc18        0x1000       2.345967    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+InternalName: WinMuse
+FileVersion: 1.15
+CompanyName: Design Services
+Comments: Written by Shane Winegard
+ProductName: WinMuse.net
+ProductVersion: 1.15
+OriginalFilename: WinMuse.exe
+

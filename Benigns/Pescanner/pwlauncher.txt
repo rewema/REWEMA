@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    29184 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     5a8df124752e4467ddaa522f098580c5
+SHA1:    69c4a6d51ece42722b13ca3db89f15a0b848ada1
+ssdeep:  768:9W163Y3zarBINLM9Tv9odALR2tybCu7da9Lf:9W12aarBIJM9TNL04CuxaBf
+Date:    0x57898EC3 [Sat Jul 16 01:32:51 2016 UTC]
+EP:      0x4049a0 .text 0/5
+CRC:     Claimed: 0xec4c, Actual: 0xec4c 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x87a0   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83b8   0x3e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2c4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4d48       0x4e00       6.068794    
+.data      0x6000       0x544        0x200        2.462336    
+.idata     0x7000       0xaf4        0xc00        4.896574    
+.rsrc      0x8000       0x868        0xa00        3.802566    
+.reloc     0x9000       0x704        0x800        6.256919    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: pwlauncher.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows To Go Startup Options Command Line Tool
+OriginalFilename: pwlauncher.exe
+Translation: 0x0409 0x04b0
+

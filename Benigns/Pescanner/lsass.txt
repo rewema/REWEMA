@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    43952 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8aeaaf1bfafcacd57014ff63202983f1
+SHA1:    178e6f05a34855c63b01bd248320624590736cc3
+ssdeep:  768:y7F65Ty/sNkhzKp3WgLcCxxSy9cj24yNuP29g2UtM8wKjFT1ProP:AF65TfzxSa1JGG8wKHPro
+Date:    0x578990C4 [Sat Jul 16 01:41:24 2016 UTC]
+EP:      0x4032c0 .text 0/6
+CRC:     Claimed: 0x17e4d, Actual: 0x17e4d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xb360   0x3b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb0a0   0x2be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5eed       0x6000       6.120395    
+.data      0x7000       0x470        0x200        0.657717    [SUSPICIOUS]
+.idata     0x8000       0x105a       0x1200       4.808318    
+.didat     0xa000       0x18         0x200        0.259963    [SUSPICIOUS]
+.rsrc      0xb000       0x710        0x800        4.037982    
+.reloc     0xc000       0x5cc        0x600        6.558854    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: lsass.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Local Security Authority Process
+OriginalFilename: lsass.exe
+Translation: 0x0409 0x04b0
+

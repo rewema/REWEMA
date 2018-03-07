@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    78848 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     10499ba546b6931a4da353d0c714e152
+SHA1:    ed43c66c0160edae09026d2e646d1848b4808b23
+ssdeep:  768:JmS1osNezFaKa5jzDRq1MBGI9cFtUkjFDyMEhsF4TWO18LXJeU:IwNezUKaJzDkFI+FosF4TWO18LXh
+Date:    0x4FD5B2C3 [Mon Jun 11 08:56:35 2012 UTC]
+EP:      0x401110 .text 0/6
+CRC:     Claimed: 0x22c15, Actual: 0x22c15 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x91f4   0x8a88   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x11c7c  0x4988   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16604  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x168ec  0x6ae    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x16f9c  0x124    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x170c0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x170d4  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x39b4       0x3a00       6.202685    
+.data      0x5000       0xb0         0x200        0.931844    [SUSPICIOUS]
+.rdata     0x6000       0x5f0        0x600        5.503858    
+.bss       0x7000       0x260        0x0          0.000000    [SUSPICIOUS]
+.idata     0x8000       0x9ac        0xa00        4.727553    
+.rsrc      0x9000       0xe3bc       0xe400       1.351191    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 Dion Nicolaas 2002-2012
+InternalName: WizApp
+FileVersion: 1.61
+CompanyName: Dion Nicolaas
+ProductName: Wizard's Apprentice
+ProductVersion: 1.61
+FileDescription: Wizard's Apprentice
+OriginalFilename: WizApp.exe
+Translation: 0x0409 0x04b0
+

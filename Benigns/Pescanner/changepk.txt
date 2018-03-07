@@ -1,0 +1,56 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    93472 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cb28835e6d34a40aa292f14ca4291470
+SHA1:    390a94224a9c0053b4df720fdc011c306de018ac
+ssdeep:  768:it+mjVOlLXhd77p6vGiC+CTByYvIGcvzfbxf2tATzeAiVnVPnOC7ZSz7Diidqan/:itZOVR6vLoEdGcvzj07j5UfTn5PBo8r
+Date:    0x5789909B [Sat Jul 16 01:40:43 2016 UTC]
+EP:      0x404920 .text 0/6
+CRC:     Claimed: 0x25953, Actual: 0x25953 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x17dd0  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x96a0   0x3b90   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xd230   0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x11458  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x13a00  0x1a68   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15468  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16510  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x16e98  0x6b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17550  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x179b8  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 256-colors
+RT_VERSION         0x17a30  0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x92d0   0x3cb    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x415c       0x4200       6.285897    
+.imrsiv    0x6000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x7000       0x4fc        0x200        0.391927    [SUSPICIOUS]
+.idata     0x8000       0x9e6        0xa00        5.084123    
+.rsrc      0x9000       0xeea0       0xf000       4.733490    
+.reloc     0x18000      0x434        0x600        5.351265    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: changepk
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Activation
+OriginalFilename: changepk.exe
+Translation: 0x0409 0x04b0
+

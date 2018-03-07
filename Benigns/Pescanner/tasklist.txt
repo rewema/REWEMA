@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    81408 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     973e9ceb8a04059d8c3f65c1793ca6fb
+SHA1:    7954d82876f19aa04af02a11920c798b2ca4bc82
+ssdeep:  1536:OAkPV1tXuLixXlMN4e6FvA6oRmkivXOr/A1kxGx66Li7:ctMmMN4tvA6oRNzIkxm65
+Date:    0x578990D0 [Sat Jul 16 01:41:36 2016 UTC]
+EP:      0x40f190 .text 0/5
+CRC:     Claimed: 0x15f91, Actual: 0x15f91 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x15858  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x15498  0x3bc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x150f0  0x3a4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10648      0x10800      6.174131    
+.data      0x12000      0x4d4        0x200        0.909806    [SUSPICIOUS]
+.idata     0x13000      0x1542       0x1600       5.457126    
+.rsrc      0x15000      0x920        0xa00        4.225759    
+.reloc     0x16000      0xfc4        0x1000       6.719126    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: tasklist.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Lists the current running tasks
+OriginalFilename: tasklist.exe
+Translation: 0x0409 0x04b0
+

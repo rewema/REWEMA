@@ -1,0 +1,26 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    613990 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386
+MD5:     5baf8f0b967168f7a499146d9860f7c9
+SHA1:    a5cdd9beb73b8911eeab1280585ab88af4859e55
+ssdeep:  12288:uprvsYW1mA4yveeys5ZPkJe8PdTYcuvsw:araLtL5ZPkHPd8cuvsw
+Date:    0x3D7E595E [Tue Sep 10 20:43:10 2002 UTC]
+EP:      0x4011d4 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x9e00a [SUSPICIOUS]
+Packers: Video-Lan-Client
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x775e8      0x77600      6.517743    
+.data      0x79000      0x3c30       0x3e00       4.073146    
+.bss       0x7d000      0x504c       0x0          0.000000    [SUSPICIOUS]
+.idata     0x83000      0x7c0        0x800        4.651145    
+

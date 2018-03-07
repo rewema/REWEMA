@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     e4cfae4f69ae08d1316c79528b07e7ea
+SHA1:    7c48d7f677e9e753d296ece8dc9672a7a487ef44
+ssdeep:  384:3PYjABlyciYtJdb3/Em+YoLQScrhHE9MSipIKCL+GTEO/mLfEkvwKwq6uzWW:3PFymPXoLQScFHKMSJ+G/ifD
+Date:    0x5608019A [Sun Sep 27 14:47:54 2015 UTC]
+EP:      0x4061b6 .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x13757 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x8120   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x8258   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x8550   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 16x16, 16-colors
+RT_VERSION         0x8584   0x398    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x892c   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x41bc       0x4200       5.520807    
+.rsrc      0x8000       0xb1c        0xc00        4.127584    
+.reloc     0xa000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2013 Mike Murphy
+Assembly Version: 1.0.0.0
+InternalName: EMU7800.Launcher.exe
+FileVersion: 1.0.0.0
+CompanyName: Mike Murphy
+Comments: Adhoc ROM launcher for EMU7800 D2D Win32
+ProductName: EMU7800
+ProductVersion: 1.0.0.0
+FileDescription: EMU7800 Launcher
+OriginalFilename: EMU7800.Launcher.exe
+

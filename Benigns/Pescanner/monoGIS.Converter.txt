@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    24576 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d13a1c23e24f15120dab5cc122af8ee8
+SHA1:    167a7f0681013571cba2c314ad9bd5383d2cb54c
+ssdeep:  192:D4sfUy8j38xUgV8MkFxew3YaKBqZJ7yMsI+QTiFHdGnyceqADC6gv6WnjCM:DlUypDJg8GYa/UPv9GnyuG8vTWM
+Date:    0x46531A13 [Tue May 22 16:28:03 2007 UTC]
+EP:      0x1100484e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x8c65 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x63c0   0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x66a8   0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x67d0   0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x6118   0x2a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x2854       0x3000       4.566736    
+.rsrc      0x6000       0x7f8        0x1000       1.968459    
+.reloc     0x8000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.2698.31441
+InternalName: org.mGIS.Converter.exe
+FileVersion: 1.0.2698.31441
+ProductVersion: 1.0.2698.31441
+FileDescription:  
+OriginalFilename: org.mGIS.Converter.exe
+

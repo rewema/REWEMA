@@ -1,0 +1,72 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3146644 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     87d3aceba9e7a9644232fa3e76a27a86
+SHA1:    442c59b2bf08f5134631bd33346f82e8544674e9
+ssdeep:  98304:xsx/ARpAbwfPRapKznIkYIPePz8SzZacnCO573jlab0H:2x4oeMEIlIPeQKCOFlabm
+Date:    0x351A66B8 [Thu Mar 26 14:31:20 1998 UTC] [SUSPICIOUS]
+EP:      0x40c110 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x31020d [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0x20ff8  0x2e00   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 32 x 32, 5.00 fps, video:
+RTF                0x20ae4  0x1c2    LANG_ENGLISH SUBLANG_ENGLISH_US       Rich Text Format data, version 1, ANSI
+RT_BITMAP          0x1b530  0x3830   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1f588  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1f6b0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1fc18  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1ff00  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x207e8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f0a4  0x88     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f12c  0x9c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f368  0x220    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1f1c8  0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1ee68  0x23c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1ed60  0x108    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x23df8  0x66e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x24468  0x3a6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x24810  0x4c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x25168  0x13e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x24cd0  0xba     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x24d8c  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x207a8  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_GROUP_ICON      0x20ad0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x20ca8  0x350    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x10c16      0x10e00      6.538330    
+.rdata     0x12000      0x55b        0x600        4.883695    
+.data      0x13000      0x6d34       0x3200       1.703726    
+.idata     0x1a000      0xeaa        0x1000       5.170901    
+.rsrc      0x1b000      0xa2a8       0xa400       4.158389    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1996 InstallShield Software Corporation
+InternalName: STUB.EXE
+FileVersion: 2.02.001
+CompanyName: InstallShield Software Corporation
+ProductName: PackageForTheWeb Stub
+ProductVersion: 2.02.001
+FileDescription: PackageForTheWeb Stub
+OriginalFilename: STUB32.EXE
+Translation: 0x0409 0x04b0
+

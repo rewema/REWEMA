@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    848384 bytes
+Type:    PE32 executable for MS Windows (native) Intel 80386 32-bit
+MD5:     a66518767f2b884aaafab670d15e0995
+SHA1:    3a7795c6c9e9910c46a29ccf58ce6e01684cbf9d
+ssdeep:  12288:ZWT/6jVXRljHloNU241dbPFJaRPtDUouHuSMKBu8wCekDYctY/fpm3131:A+jdjjFoNl41dbnMKBu8wCqct2pm31
+Date:    0x57898F25 [Sat Jul 16 01:34:29 2016 UTC]
+EP:      0x40e430 .text 0/5
+CRC:     Claimed: 0xde7a8, Actual: 0xde7a8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xcde90  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MESSAGETABLE    0x8b7a0  0x426ec  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x8b3f0  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8b140  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x84d24      0x84e00      6.287046    
+.data      0x86000      0x3200       0x2e00       4.381262    
+.idata     0x8a000      0xd9c        0xe00        5.490681    
+.rsrc      0x8b000      0x42f60      0x43000      3.493852    
+.reloc     0xce000      0x321c       0x3400       6.633661    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: autofmt
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Auto File System Format Utility
+OriginalFilename: AUTOFMT.EXE
+Translation: 0x0409 0x04b0
+

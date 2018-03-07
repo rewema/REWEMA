@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    71168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     7e0a8ed80d553f10b42af223adcfef79
+SHA1:    cc17f4ce9055112a33f2b1895455ea2b4e41cc5c
+ssdeep:  768:6Tebw9USfxWf7vJwAVBBhwAVBB2wAVBBswAVBBbuTL6xavgdWyRpo4LliCUhe7lw:e9USfxM72avWyr1fUheZYQ
+Date:    0x4F46E98E [Fri Feb 24 01:36:14 2012 UTC]
+EP:      0x411c6e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x1ddb0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x124a0  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x13148  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x12130  0x36c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x13160  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xfc74       0xfe00       5.792380    
+.rsrc      0x12000      0x1350       0x1400       3.812206    
+.reloc     0x14000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Corey Trager 2010-2011
+Assembly Version: 2.2.7.0
+InternalName: btnet_screen_capture.exe
+FileVersion: 2.2.7.0
+CompanyName: Microsoft
+ProductName: BugTracker.NET
+ProductVersion: 2.2.7.0
+FileDescription: BugTracker.NET Screen Capture
+OriginalFilename: btnet_screen_capture.exe
+

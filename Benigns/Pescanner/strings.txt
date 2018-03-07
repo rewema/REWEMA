@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    149152 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     12179034e59df77eeb0519e4446ca2d9
+SHA1:    e0bdbc7bc731b74a9cb68fec9db808c4c829df88
+ssdeep:  3072:U1/yjJoGOPp/9dGJnZUF5y0g2wDmCwXVhuGEwy:Q/yj4dGM5r31y
+Date:    0x577B7E8E [Tue Jul  5 09:31:58 2016 UTC]
+EP:      0x4058a6 .text 0/5
+CRC:     Claimed: 0x343d1, Actual: 0x343d1 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x230a0  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x23408  0x17d    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x11c74      0x11e00      6.589959    
+.rdata     0x13000      0xb8ec       0xba00       4.657940    
+.data      0x1f000      0x3128       0x1400       3.315882    
+.rsrc      0x23000      0x588        0x600        3.903455    
+.reloc     0x24000      0x1130       0x1200       6.521407    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 1999-2016 Mark Russinovich
+InternalName: Strings
+FileVersion: 2.53
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Strings
+ProductVersion: 2.53
+FileDescription: Search for ANSI and Unicode strings in binary images.
+OriginalFilename: strings.exe
+Translation: 0x0409 0x04b0
+

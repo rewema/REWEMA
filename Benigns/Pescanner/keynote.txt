@@ -1,0 +1,370 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2678784 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     97793abe6989fecb99e89fb880607fdb
+SHA1:    11741324e2ef221b1a4593bb98b5dad2bede9d68
+ssdeep:  49152:0HpcJNO7J/XoaYXC50NpTUgORD7TDdGYT1TDgS/tCgZ:0H4O7J/YBykpTENTxgGFZ
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x5ebff0 .itext 1/9 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x293f29 [SUSPICIOUS]
+Packers: BobSoft Mini Delphi -> BoB / BobSoft
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x1ed245L => deflate
+   0x1eda73L => deflate
+   0x1ed267L => Jean-loup Gailly
+   0x1eda95L => Jean-loup Gailly
+   0x1ed371L => inflate
+   0x1ee649L => inflate
+   0x1ed393L => Mark Adler
+   0x1ee66bL => Mark Adler
+YARA: irc
+   0x146fa8L => Join
+   0x1e4994L => Join
+   0x2582e1L => Join
+   0x2582f2L => Join
+   0x8e3dL => MSG
+   0x8e55L => MSG
+   0x36ef8L => Msg
+   0x87a0cL => Msg
+   0xfef1bL => Msg
+   0x1598f1L => Msg
+   0x1623aaL => Msg
+   0x1623eeL => Msg
+   0x246c62L => part
+   0x165590L => QUIT
+   0x189d18L => Quit
+YARA: spam
+   0x164980L => MAIL FROM:
+   0x164994L => MAIL FROM:
+   0x24fac3L => SMTP server
+   0x24fb93L => SMTP server
+   0x24fed7L => SMTP server
+   0x24feffL => SMTP server
+   0x1641a4L => EHLO 
+   0x165060L => From: 
+   0x165080L => Subject: 
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x228b00 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_CURSOR          0x228c34 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x228d68 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x228e9c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x228fd0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x229104 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x229238 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x22936c 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_CURSOR          0x2294a0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2295d4 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x2297a4 0x1e4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x229988 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x229b58 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x229d28 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x229ef8 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22a0c8 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22a298 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22a468 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22a638 0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22a808 0x168    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0x22a970 0xd68    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22b6d8 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22b798 0x4e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22bc80 0x7b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22c438 0x4e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22c920 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22ca00 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22cae0 0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22cc08 0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22cd00 0x7c     LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0x22cd7c 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22ce5c 0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22cf24 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22cfe4 0x168    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0x22d14c 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22d20c 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22d2ec 0x168    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_BITMAP          0x22d454 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22d514 0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22d55c 0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22d5a4 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22d684 0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22d6cc 0x48     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22d714 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22d7fc 0xc0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22d8bc 0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22d984 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22da1c 0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22dab4 0x188    LANG_ENGLISH SUBLANG_ENGLISH_SOUTH_AFRICA data
+RT_BITMAP          0x22dc3c 0x188    LANG_ENGLISH SUBLANG_ENGLISH_SOUTH_AFRICA data
+RT_BITMAP          0x22ddc4 0x188    LANG_ENGLISH SUBLANG_ENGLISH_SOUTH_AFRICA data
+RT_BITMAP          0x22df4c 0x188    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x22e0d4 0xf8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0x22e1cc 0x188    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_BITMAP          0x22e354 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x22e434 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22e52c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22e624 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22e71c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22e814 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22e90c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22ea04 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22eafc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22ebf4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22ecec 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22ede4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22eedc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22efd4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f0cc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f1c4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f2bc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f3b4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f4ac 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f5a4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f69c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f794 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f88c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22f984 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22fa7c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22fb74 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22fc6c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22fd64 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22fe5c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x22ff54 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23004c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230144 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23023c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230334 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23042c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230524 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23061c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230714 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23080c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230904 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2309fc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230af4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230bec 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230ce4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230ddc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230ed4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x230fcc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2310c4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2311bc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2312b4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2313ac 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2314a4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23159c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231694 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23178c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231884 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23197c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231a74 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231b6c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231c64 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231d5c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231e54 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x231f4c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232044 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23213c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232234 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23232c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232424 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23251c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232614 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23270c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232804 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2328fc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2329f4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232aec 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232be4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232cdc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232dd4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232ecc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x232fc4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2330bc 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2331b4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2332ac 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x2333a4 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23349c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x233594 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23368c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x233784 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x23387c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x233974 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x233a6c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x233b64 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x233c5c 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_BITMAP          0x233d54 0xf8     LANG_RUSSIAN SUBLANG_RUSSIAN          data
+RT_ICON            0x233e4c 0x2e8    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0x234134 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_DIALOG          0x234188 0x52     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2341dc 0x224    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x234400 0x1d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2345d8 0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x234604 0x32c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x234930 0x488    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x234db8 0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x235088 0x560    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2355e8 0x8c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x235eac 0x498    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x236344 0x32c    LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version  
+RT_STRING          0x236670 0x5c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x236c38 0x3d8    LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version c
+RT_STRING          0x237010 0x6cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2376dc 0x4d8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x237bb4 0x618    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x2381cc 0x494    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x238660 0x3d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x238a30 0x588    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x238fb8 0x478    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x239430 0x340    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x239770 0x318    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x239a88 0x644    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23a0cc 0x658    LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version n
+RT_STRING          0x23a724 0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23aae0 0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23ae48 0x580    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23b3c8 0x40c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23b7d4 0x470    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23bc44 0x850    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23c494 0x674    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23cb08 0x4e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23cff0 0x680    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23d670 0x52c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23db9c 0x490    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23e02c 0x6f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23e71c 0x430    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23eb4c 0x7f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23f344 0x534    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23f878 0x520    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x23fd98 0x560    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2402f8 0x2cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2405c4 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x240a2c 0x318    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x240d44 0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2410f4 0x444    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x241538 0x290    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2417c8 0x414    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x241bdc 0x3cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x241fa8 0x370    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x242318 0x1c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2424e0 0x358    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x242838 0x218    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x242a50 0x32c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x242d7c 0x394    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x243110 0x4fc    LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x24360c 0x500    LANG_NEUTRAL SUBLANG_NEUTRAL          AmigaOS bitmap font
+RT_STRING          0x243b0c 0x4b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x243fbc 0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2442c8 0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x244684 0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24474c 0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x244814 0x1a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2449bc 0x2d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x244c8c 0x3f0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x24507c 0x3c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x245444 0x350    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x245794 0x364    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x245af8 0x3b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x245eac 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x245f7c 0xa0     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7471216 records)
+RT_STRING          0x24601c 0x2b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2462d4 0x404    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2466d8 0x310    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x2469e8 0x2f4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x246cdc 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x246cec 0xc38    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x247924 0x2498   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x249dbc 0x2340   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x24c0fc 0xef     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x24c1ec 0x4372   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x250560 0xad9    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25103c 0x2376   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2533b4 0x493    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x253848 0x1826   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x255070 0x6d7    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x255748 0x23c1   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x257b0c 0x1296   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x258da4 0xfb6    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x259d5c 0x9a9    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25a708 0x61e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25ad28 0x576    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25b2a0 0x7cd    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25ba70 0x737    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25c1a8 0x140e   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x25d5b8 0x2ec80  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x28c238 0x76d    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x28c9a8 0x8b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x28d25c 0x8baa   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x295e08 0xba5    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x2969b0 0x4f6    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x296ea8 0x481    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x29732c 0x553    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x297880 0x500    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x297d80 0x5b5    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x298338 0x630    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x298968 0x797    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x299100 0x47b    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x29957c 0x147f   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x29a9fc 0x2c3    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0x29acc0 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x29acd4 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x29ace8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x29acfc 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x29ad10 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x29ad24 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x29ad38 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x29ad4c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x29ad60 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x29ad74 0x14     LANG_SPANISH SUBLANG_SPANISH_MODERN   MS Windows icon resource - 1 icon
+RT_VERSION         0x29ad88 0x4b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteExW
+ShellExecuteW
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e81c0     0x1e8200     6.482554    
+.itext     0x1ea000     0x20b0       0x2200       6.340831    
+.data      0x1ed000     0x99a4       0x9a00       6.270359    
+.bss       0x1f7000     0x6574       0x0          0.000000    [SUSPICIOUS]
+.idata     0x1fe000     0x4260       0x4400       5.246805    
+.tls       0x203000     0x48         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x204000     0x18         0x200        0.210826    [SUSPICIOUS]
+.reloc     0x205000     0x1f284      0x1f400      6.694676    
+.rsrc      0x225000     0x76400      0x76400      4.922466    
+
+Version info
+================================================================================
+LegalCopyright: (c) Daniel Prado 2007-15  (c) Marek Jedlinski, 2000-05
+InternalName: KeyNote NF
+FileVersion: 1.7.9.6
+CompanyName: 
+LegalTrademarks: Free software, MPL 2.0
+Comments: Improvements over version 1.6.5 of Marek's KeyNote
+ProductName: KeyNote NF
+X-MAILTO: dprado.keynote@gmail.com
+ProductVersion: 1.7.9 Beta 6
+FileDescription: KeyNote NF (New Features)
+X-URL: http://code.google.com/p/keynote-nf/
+OriginalFilename: keynote.exe
+X-Fnord: 
+Translation: 0x0409 0x04e4
+

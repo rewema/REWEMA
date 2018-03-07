@@ -1,0 +1,209 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4485314 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     06804c4c169ba159891ae21125dc2845
+SHA1:    50cbfa5ae6d3dbe553d71857584928796878c273
+ssdeep:  98304:wbucLxnPKPMnQ8CcPnrFM7eFo8vfWe18sHNteQuB3zKXFTRpDv+ohj0h3N7Lf1vq:wbux0DCM15fBem449FeaQK5bf
+Date:    0x4F3ED18D [Fri Feb 17 22:15:41 2012 UTC]
+EP:      0x401280 .text 0/6
+CRC:     Claimed: 0x163489, Actual: 0x454523 [SUSPICIOUS]
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x13fd4eL => This program cannot be run in DOS mode
+   0x14d18eL => This program cannot be run in DOS mode
+   0x2154bcL => This program cannot be run in DOS mode
+   0x2196e1L => This program cannot be run in DOS mode
+   0x21c70aL => This program cannot be run in DOS mode
+   0x227733L => This program cannot be run in DOS mode
+   0x22a75fL => This program cannot be run in DOS mode
+   0x230591L => This program cannot be run in DOS mode
+   0x232fc5L => This program cannot be run in DOS mode
+   0x250ff1L => This program cannot be run in DOS mode
+YARA: encoding
+   0x161fe4L => deflate
+   0x1627d3L => deflate
+   0x162e63L => deflate
+   0x1631b6L => deflate
+   0x163d41L => deflate
+   0x163d93L => deflate
+   0x1b7c08L => deflate
+   0x1cb5e5L => deflate
+   0x1cb639L => deflate
+   0x2076bbL => deflate
+   0x207850L => deflate
+   0x24a45cL => deflate
+   0x24a497L => deflate
+   0x24a4e3L => deflate
+   0x24a51bL => deflate
+   0x24e9b8L => deflate
+   0x24e9daL => Jean-loup Gailly
+   0x160ec2L => inflate
+   0x161ff0L => inflate
+   0x16247cL => inflate
+   0x162cd4L => inflate
+   0x163409L => inflate
+   0x163f11L => inflate
+   0x163f62L => inflate
+   0x164a98L => inflate
+   0x1caba3L => inflate
+   0x1cabdeL => inflate
+   0x1cad2aL => inflate
+   0x1caf1cL => inflate
+   0x1cb080L => inflate
+   0x20794bL => inflate
+   0x207a72L => inflate
+   0x24a960L => inflate
+   0x24a99bL => inflate
+   0x24a9f3L => inflate
+   0x24aa19L => inflate
+   0x24aa97L => inflate
+   0x24eae8L => inflate
+   0x24e9efL => Mark Adler
+   0x24eb0aL => Mark Adler
+YARA: irc
+   0x1487fL => join
+   0x2a6a9L => join
+   0x31fdbL => join
+   0x32fe7L => join
+   0x1544faL => join
+   0x15ac7dL => join
+   0x15c4cbL => join
+   0x15ce10L => join
+   0x15cfb9L => join
+   0x15ef7fL => join
+   0x16c61aL => join
+   0x16f399L => join
+   0x16fc9bL => join
+   0x172c15L => join
+   0x1750d6L => JOIN
+   0x17708eL => JOIN
+   0x179ef6L => JOIN
+   0x17a9c1L => JOIN
+   0x17a9c9L => JOIN
+   0x17b022L => JOIN
+   0x17b166L => JOIN
+   0x17c035L => JOIN
+   0x1805deL => JOIN
+   0x183374L => JOIN
+   0x18341aL => JOIN
+   0x183422L => JOIN
+   0x183462L => JOIN
+   0x18348fL => JOIN
+   0x18355aL => JOIN
+   0x18b1b9L => JOIN
+   0x18b402L => JOIN
+   0x18b7d5L => JOIN
+   0x195f28L => join
+   0x1963bcL => join
+   0x19e949L => join
+   0x1a390eL => join
+   0x1a5808L => join
+   0x1a5819L => join
+   0x1a8771L => join
+   0x1a8d2eL => join
+   0x1ab73bL => join
+   0x1ae3c9L => Join
+   0x1b76fdL => join
+   0x1bbe39L => join
+   0x1bbe82L => join
+   0x1bbeebL => join
+   0x1bbf2fL => join
+   0x1c1309L => join
+   0x1d608eL => join
+   0x1d892fL => join
+   0x1e0c37L => join
+   0x1e116eL => join
+   0x1e1fa0L => join
+   0x1e2078L => join
+   0x1e7bdfL => join
+   0x1e8718L => join
+   0x1e8a50L => join
+   0x1f7b90L => join
+   0x1f92e5L => join
+   0x1f9305L => join
+   0x20e239L => join
+   0x214095L => join
+   0x21417aL => join
+   0x15ce34L => msg
+   0x15ce82L => msg
+   0x15ceeeL => msg
+   0x15cf61L => msg
+   0x15cfddL => msg
+   0x15d02bL => msg
+   0x15d096L => msg
+   0x167da0L => msg
+   0x167dafL => msg
+   0x167dc5L => msg
+   0x167ddeL => msg
+   0x167df1L => msg
+   0x167e05L => msg
+   0x1bc9acL => msg
+   0x1bca0aL => msg
+   0x1bca49L => msg
+   0x1da6e4L => msg
+   0x1da6f7L => msg
+   0x1da74eL => msg
+   0x1da79fL => msg
+   0x249b4bL => msg
+   0x249d7bL => msg
+   0x24a897L => msg
+   0x24ad33L => msg
+   0x175f55L => PART
+   0x19077dL => PART
+   0x1ae3e2L => part
+   0x203b2bL => part
+   0x203c33L => part
+   0x204009L => part
+   0x33c4dL => QUIT
+   0x16b6f7L => QUIT
+   0x16b79fL => QUIT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1611a8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x161710 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x161fb8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x162520 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x162dc8 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_GROUP_ICON      0x162dec 0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x162e10 0x25e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x35a4       0x3600       6.128726    
+.data      0x5000       0x150cc0     0x150e00     6.571878    
+.rdata     0x156000     0x370        0x400        4.986602    
+.bss       0x157000     0x8100       0x0          0.000000    [SUSPICIOUS]
+.idata     0x160000     0x6f4        0x800        4.007804    
+.rsrc      0x161000     0x2070       0x2200       5.040942    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 
+CompanyName: 
+PrivateBuild: 
+LegalTrademarks: 
+Comments: 
+ProductName: 
+SpecialBuild: 
+ProductVersion: 
+FileDescription: 
+OriginalFilename: 
+

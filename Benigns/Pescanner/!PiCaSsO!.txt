@@ -1,0 +1,139 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    147456 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     ee169c95cc0fc29746dd57ad149cd1b7
+SHA1:    079a20fae18ea9fa5a1b27667c1c712a0e9b79d2
+ssdeep:  3072:TxnusXTjhv+rPKUqnh+/+IZb0Q9Ya87vt4hdJfK:TluIHhMJc2
+Date:    0x44F16041 [Sun Aug 27 09:05:05 2006 UTC]
+EP:      0x41ab3e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x26441 [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: irc
+   0x12224L => JOIN
+   0x14612L => JOIN
+   0x14d9fL => JOIN
+   0x1161aL => MSG
+   0x12479L => MSG
+   0x12490L => MSG
+   0x124a8L => MSG
+   0x124b6L => MSG
+   0x124d1L => MSG
+   0x124edL => MSG
+   0x12502L => MSG
+   0x12510L => MSG
+   0x12529L => MSG
+   0x12543L => MSG
+   0x12556L => MSG
+   0x1256eL => MSG
+   0x12588L => MSG
+   0x1259cL => MSG
+   0x125b2L => MSG
+   0x125c9L => MSG
+   0x125e1L => MSG
+   0x125f3L => MSG
+   0x1260bL => MSG
+   0x12621L => MSG
+   0x1263eL => MSG
+   0x12651L => MSG
+   0x12665L => MSG
+   0x12678L => MSG
+   0x12695L => MSG
+   0x126acL => MSG
+   0x126ceL => MSG
+   0x126eaL => MSG
+   0x12708L => MSG
+   0x12720L => MSG
+   0x1273eL => MSG
+   0x12756L => MSG
+   0x12779L => MSG
+   0x12796L => MSG
+   0x127b3L => MSG
+   0x127d0L => MSG
+   0x127e7L => MSG
+   0x12807L => MSG
+   0x1281bL => MSG
+   0x1282eL => MSG
+   0x12880L => MSG
+   0x129d9L => MSG
+   0x129e7L => MSG
+   0x129f7L => MSG
+   0x12a38L => MSG
+   0x12ab7L => MSG
+   0x12fe2L => MSG
+   0x12ff4L => MSG
+   0x13bf6L => MSG
+   0x13d21L => MSG
+   0x13d66L => MSG
+   0x13eceL => MSG
+   0x13ee0L => MSG
+   0x13f5bL => MSG
+   0x13f6cL => MSG
+   0x13f83L => MSG
+   0x13f99L => MSG
+   0x1405cL => MSG
+   0x140a0L => MSG
+   0x142b6L => MSG
+   0x147f4L => MSG
+   0x14a72L => MSG
+   0x14a88L => MSG
+   0x14b14L => MSG
+   0x14c48L => MSG
+   0x14fc8L => MSG
+   0x15009L => MSG
+   0x15053L => MSG
+   0x15069L => MSG
+   0x151c0L => MSG
+   0x1527eL => MSG
+   0x13d72L => PING
+   0x13dfbL => PING
+   0x14302L => CHAT
+   0x14410L => CHAT
+   0x14fb2L => CHAT
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c5d0  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cb38  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cea0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1d308  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1dbb0  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1e858  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1f900  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x207a8  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x22450  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x249f8  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 16x16, 256-colors
+RT_VERSION         0x1c268  0x364    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x18b44      0x19000      5.937772    
+.rsrc      0x1c000      0x8a80       0x9000       5.867638    
+.reloc     0x26000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2006 by !PiCaSsO! Team
+Assembly Version: 0.0.0.1
+InternalName: !PiCaSsO!.exe
+FileVersion: 0.01
+CompanyName: !PiCaSsO! developer Team
+Comments: ThE BeSt WoW EmUlAtOr
+ProductName: !PiCaSsO!
+ProductVersion: 0.01
+FileDescription: !PiCaSsO!
+OriginalFilename: !PiCaSsO!.exe
+

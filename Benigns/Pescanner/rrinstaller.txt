@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40448 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d8f7fe8ba690a83aa6f9de90fdc60af9
+SHA1:    18ad04c2f1d41ba177c99d5feb2c3dc923a59494
+ssdeep:  768:ON5B6WXWkVjcbbnYE8HwktFKtOI51SCl+FOd9Q5vfRy1dX:GB6BkVSnYE8HwktFCO+1ToZy1dX
+Date:    0x57898E78 [Sat Jul 16 01:31:36 2016 UTC]
+EP:      0x4072f0 .text 0/6
+CRC:     Claimed: 0xa9a9, Actual: 0xa9a9 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc7b0   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc448   0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0f0   0x358    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7210       0x7400       6.241994    
+.data      0x9000       0x4e0        0x200        0.562133    [SUSPICIOUS]
+.idata     0xa000       0xf8e        0x1000       4.961303    
+.didat     0xb000       0x64         0x200        0.866479    [SUSPICIOUS]
+.rsrc      0xc000       0x878        0xa00        3.988850    
+.reloc     0xd000       0x7c8        0x800        6.527883    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: rrinstaller.exe
+FileVersion: 11.0.14393.0
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae DRM
+OLESelfRegister: 
+ProductVersion: 11.0.14393.0
+FileDescription: R&R installer
+OriginalFilename: rrinstaller.exe
+Translation: 0x0409 0x04b0
+

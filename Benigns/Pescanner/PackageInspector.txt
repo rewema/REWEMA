@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61952 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8614f7f19b2bac5eff8628756249e894
+SHA1:    3db6363a0b527e802f8dc6a1d3f443830bd34865
+ssdeep:  1536:2+sY+LOMlGo3r6BlbQ73/LzvcJZxsUqkfrY1:2+sY+cKPAD3qkfs1
+Date:    0x57898EF9 [Sat Jul 16 01:33:45 2016 UTC]
+EP:      0x40a250 .text 0/5
+CRC:     Claimed: 0x155ff, Actual: 0x155ff 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x10500  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x100b0  0x44c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcce4       0xce00       6.048137    
+.data      0xe000       0x474        0x200        2.003724    
+.idata     0xf000       0xad8        0xc00        4.970356    
+.rsrc      0x10000      0x5c8        0x600        3.282647    
+.reloc     0x11000      0xb7c        0xc00        6.401639    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: PackageInspector
+FileVersion: 1.00 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: PackageInspector allows creation of a catalog containing all executable files laid down by an installer
+OriginalFilename: PACKAGEINSPECTOR.EXE
+Translation: 0x0409 0x04b0
+

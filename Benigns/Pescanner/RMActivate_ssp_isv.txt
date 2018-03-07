@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    485376 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     aa8f721d6ff84383323a1fcee1d79431
+SHA1:    23f173ac74f04bc35977f2121cbbb0590110177f
+ssdeep:  12288:LehJzi1aaAUEo1EsXPHIHDKFT9ReRID8BDkH1:EJziDAUB5/IHDKFT9ReRM8BDc1
+Date:    0x57899020 [Sat Jul 16 01:38:40 2016 UTC]
+EP:      0x414630 .text 0/6
+CRC:     Claimed: 0x80595, Actual: 0x80595 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x77850  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x77360  0x4ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x770f0  0x270    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x72410      0x72600      6.841298    
+.data      0x74000      0xa90        0x400        5.040828    
+.idata     0x75000      0xd20        0xe00        4.965137    
+.didat     0x76000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x77000      0x918        0xa00        3.935571    
+.reloc     0x78000      0x1fd0       0x2000       6.425730    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Windows Rights Management Services Activation for Server Security Processor (Pre-production)
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Rights Management Services Activation for Server Security Processor (Pre-production)
+OriginalFilename: rmactivate_ssp_isv.exe
+Translation: 0x0409 0x04b0
+

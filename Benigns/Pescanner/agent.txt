@@ -1,0 +1,88 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    618496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a325c1dde8913d168905408e89c0be08
+SHA1:    268d56ea9416bcea2f3ede87dc5bd3d0d8169b7d
+ssdeep:  12288:rvZcE4i9yIcxgZFNukiMbm+2ycfA0PUcqbLR:rvCli9dcsbbm+2y/Olqv
+Date:    0x42FBC31B [Thu Aug 11 21:28:59 2005 UTC]
+EP:      0x450e87 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x9ac9f [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+AVI                0x8a300  0x6800   LANG_ENGLISH SUBLANG_ENGLISH_US       RIFF (little-endian) data, AVI, 426 x 61, 5.00 fps, video: RLE 8bpp
+TYPELIB            0x919a0  0x7f88   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x84770  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_BITMAP          0x84ab8  0x38e4   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x82810  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x830b8  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x83d60  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x842c8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x883a0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x88c48  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x898f0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x89e58  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x848c0  0x1f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x912d0  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x91938  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x91580  0x218    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x91060  0x26e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x90e68  0x1f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x91798  0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x90b00  0x364    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a1b0  0x15e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a310  0x140    LANG_ENGLISH SUBLANG_ENGLISH_US       Sendmail frozen configuration  - version 4
+RT_STRING          0x99ce0  0x96     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x99d78  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a450  0x88     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x99fe0  0x1d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a6b0  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a4d8  0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a568  0x146    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a6e0  0xa4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x9a788  0x42     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x99e10  0x1cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x99ca0  0x40     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x848a8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x84730  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x8a2c0  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 32x32, 256-colors
+RT_VERSION         0x99928  0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+ShellExecuteA
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6190a      0x62000      6.558805    
+.rdata     0x63000      0x12b00      0x13000      4.458364    
+.data      0x76000      0xb0a8       0x8000       4.235843    
+.rsrc      0x82000      0x187d0      0x19000      5.146036    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2005 Macrovision Corporation
+InternalName: Agent
+FileVersion: 4, 60, 100, 37068
+CompanyName: Macrovision Corporation
+ProductName: InstallShield Update Service
+OLESelfRegister: 
+ProductVersion: 4, 60
+FileDescription: InstallShield Update Service Agent
+OriginalFilename: agent.exe
+Translation: 0x0409 0x04b0
+

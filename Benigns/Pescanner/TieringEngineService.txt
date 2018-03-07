@@ -1,0 +1,57 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    253440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     70147d6f6ba11781fec5eec2b2cd183c
+SHA1:    d8896fac76fa7fc2f89ff2d7fdfa31952d494dea
+ssdeep:  6144:Yu5IiuNr4YfDoN6AqmYpqBH737JxIw38VS7sb:Yu5IJp4YbRAqmZb37krVSwb
+Date:    0x57898F84 [Sat Jul 16 01:36:04 2016 UTC]
+EP:      0x434bc0 .text 0/7
+CRC:     Claimed: 0x418a2, Actual: 0x418a2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x3eb20  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+REGISTRY           0x3d438  0xc      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x3d458  0xc      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+REGISTRY           0x3d448  0xc      LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+WEVT_TEMPLATE      0x3d840  0x12da   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x3d468  0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x3d210  0x221    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+StartServiceCtrlDispatcherW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x36288      0x36400      6.522961    
+.data      0x38000      0x908        0x200        2.847035    
+.idata     0x39000      0x1e0c       0x2000       5.236966    
+.didat     0x3b000      0x8          0x200        0.061163    [SUSPICIOUS]
+.tls       0x3c000      0xb          0x200        0.000000    
+.rsrc      0x3d000      0x1c20       0x1e00       3.768229    
+.reloc     0x3f000      0x31c0       0x3200       6.792724    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: TieringEngineService
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Storage Tiers Management
+OriginalFilename: TieringEngineService.exe
+Translation: 0x0409 0x04b0
+

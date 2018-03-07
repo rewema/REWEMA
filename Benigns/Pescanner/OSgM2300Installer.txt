@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    488038 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     8d97ea9a1100575fcae321fdd17e1404
+SHA1:    1c9edec1353b80d6b2709f530dd80e002b369109
+ssdeep:  12288:ZrXKQ1iNGiaPsQhMx72CUhe8f2KQIJmaFWT+Ov:ZraTaPsyZL0u2MJD8
+Date:    0x47EEBF34 [Sat Mar 29 22:14:12 2008 UTC]
+EP:      0x4030e3 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x78c4b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x39340  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3a3e8  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3b290  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3bb38  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c0a0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c508  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c7f0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3c918  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3c9d0  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3caf0  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ccf8  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3cdf0  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3ce90  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3cf80  0x68     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_MANIFEST        0x3cfe8  0x2dd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5b26       0x5c00       6.475519    
+.rdata     0x7000       0x129c       0x1400       5.049043    
+.data      0x9000       0x25c58      0x400        4.770234    
+.ndata     0x2f000      0xa000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x39000      0x42c8       0x4400       1.684349    
+

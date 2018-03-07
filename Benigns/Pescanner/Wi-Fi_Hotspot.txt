@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    299520 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     50ea726062ef8976e741809cb92e5246
+SHA1:    94882571cbd9074c48e4a257d9c6893c96a16ebb
+ssdeep:  6144:oDSPUIF2WnSUznzb+FB9tSPUIFqWnSUznzhc:oOZdzb+FstdzG
+Date:    0x54DE3A5C [Fri Feb 13 17:54:36 2015 UTC]
+EP:      0x42af6e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x506b5 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2c528  0xc5d3   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x38b00  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x49328  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4a3d0  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x4ad58  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4b1c0  0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0x2c1f0  0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4b210  0xb2e    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x28f74      0x29000      6.307252    
+.rsrc      0x2c000      0x1fd40      0x1fe00      6.365537    
+.reloc     0x4c000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2014 by Gem George
+Assembly Version: 2.2.0.0
+InternalName: Wi-Fi Hotspot.exe
+FileVersion: 2.2.0.0
+CompanyName: Gem's Software Solutions
+Comments: Wi-Fi Hotspot
+ProductVersion: 2.2.0.0
+FileDescription: Wi-Fi Hotspot
+OriginalFilename: Wi-Fi Hotspot.exe
+

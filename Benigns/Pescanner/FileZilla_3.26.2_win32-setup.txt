@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6841424 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7162368757f4ea0d6e99b6076167c572
+SHA1:    bfdae7876b68cc8fa92661e517e5fd2581e0088b
+ssdeep:  196608:MPgy+DBCbbJkv6rXEs2J114IQ48OKA/Hp4G1:M0Dciv6rXEX1OIcMxZ
+Date:    0x584DCA38 [Sun Dec 11 21:50:48 2016 UTC]
+EP:      0x40344a .text 0/5
+CRC:     Claimed: 0x69415d, Actual: 0x69415d 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x633a0  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x63a08  0x485d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x68268  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6a810  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6b6b8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x6bf60  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x6c4c8  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6c580  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6c6a0  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6c7f8  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6ca00  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6caf8  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x6cb98  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x6cc88  0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 16x16, 256-colors
+RT_VERSION         0x6ccd8  0x2a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x6cf78  0x423    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+ShellExecuteW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x61f1       0x6200       6.477075    
+.rdata     0x8000       0x13a4       0x1400       5.163002    
+.data      0xa000       0x20338      0x600        3.974556    
+.ndata     0x2b000      0x38000      0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x63000      0xa3a0       0xa400       6.572852    
+
+Version info
+================================================================================
+LegalCopyright: Tim Kosse
+FileVersion: 3.26.2
+CompanyName: Tim Kosse
+ProductName: FileZilla
+ProductVersion: 3.26.2
+FileDescription: FileZilla FTP Client
+OriginalFilename: FileZilla_3.26.2_win32-setup.exe
+Translation: 0x0409 0x04b0
+

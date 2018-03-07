@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16896 bytes
+Type:    PE32 executable for MS Windows (native) Intel 80386 32-bit
+MD5:     d1e6aebc5f2137b80074a7f2380496dc
+SHA1:    7f9ef1a8812a16e144ccbd39323d6ed7f589026e
+ssdeep:  384:kgc+e2dApmO3DwW1YoM3FhMrYW1eoWzEft:1eGA7vamrK
+Date:    0x57898F3C [Sat Jul 16 01:34:52 2016 UTC]
+EP:      0x403580 .text 0/5
+CRC:     Claimed: 0x11958, Actual: 0x11958 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x6348   0x3ec    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x60a0   0x2a6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2811       0x2a00       6.111034    
+.data      0x4000       0x409        0x200        0.593403    [SUSPICIOUS]
+.idata     0x5000       0x4a6        0x600        4.274537    
+.rsrc      0x6000       0x738        0x800        4.056452    
+.reloc     0x7000       0x280        0x400        4.769986    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: srdelayed.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Microsoft\xae Windows System Restore Delayed File Renamer
+OriginalFilename: srdelayed.exe
+Translation: 0x0409 0x04b0
+

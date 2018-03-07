@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    356352 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     f3024a1fd0a760a165fb6e1f99077df1
+SHA1:    f5ae3f34f8d43dc03bb7d41cc0a9e1f5b53909b7
+ssdeep:  6144:aWeJZGTG+aG9ZZpncZ201iT1m1O1e1S1Oqn7wnS2P6j9uYrmvm1:aWeJZuGOncZ2HI
+Date:    0x58E54BA8 [Wed Apr  5 19:55:20 2017 UTC]
+EP:      0x45087e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x660b4 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x525b8  0xf0f    LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x534c8  0x1628   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x54af0  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x55998  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56240  0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x56908  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x56e70  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0x52220  0x398    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x56ed0  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x4e884      0x4f000      5.670560    
+.rsrc      0x52000      0x50c0       0x6000       4.202184    
+.reloc     0x58000      0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2017
+Assembly Version: 1.9.6304.23260
+InternalName: ChapterMaker.exe
+FileVersion: 1.9.6304.23260
+CompanyName: Bob Swift
+Comments: Create and edit video chapter files.
+ProductName: ChapterMaker
+ProductVersion: 1.9.6304.23260
+FileDescription: ChapterMaker
+OriginalFilename: ChapterMaker.exe
+

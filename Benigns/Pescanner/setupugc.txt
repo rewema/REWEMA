@@ -1,0 +1,61 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    114176 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     50d2a5743caac380ae92e058604e8e74
+SHA1:    aca0e17430f92991d9998e9e31f4080903198002
+ssdeep:  1536:vAbihsTe20W9XFL2UAnJP6BBYNI5N+y52GkP8DRFOi:vATeiXFLknJPezCXVUtFOi
+Date:    0x57899072 [Sat Jul 16 01:40:02 2016 UTC]
+EP:      0x416bf0 .text 0/6
+CRC:     Claimed: 0x1de5a, Actual: 0x1de5a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x1dc28  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x1d510  0x712    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c5d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1c8d0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cbb8  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1cd08  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x1cff0  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1c8b8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x1d118  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x1cce0  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x1d140  0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x1c310  0x2bc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x16c58      0x16e00      5.943150    
+.data      0x18000      0x6c4        0x200        1.919850    
+.idata     0x19000      0x146a       0x1600       5.121909    
+.didat     0x1b000      0x90         0x200        1.054232    
+.rsrc      0x1c000      0x1d20       0x1e00       3.780111    
+.reloc     0x1e000      0x1214       0x1400       6.495407    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: SetupUGC.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Setup Unattend Generic Command Processor
+OriginalFilename: SETUPUGC.EXE
+Translation: 0x0409 0x04b0
+

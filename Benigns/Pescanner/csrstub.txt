@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    46080 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f076ffeb2ca8c283576b727654379aeb
+SHA1:    92b49c4f153fed27b4c26c2a7d68d7609891c881
+ssdeep:  768:nf3MWHJtdxEyI4PrWIsZA7NpmyQ2faUHCqSb8kpAQ4IwL73T15lP56yn3:U8DxEyIsyRb2faUHC3Ykpf7w/F56y3
+Date:    0x57898EEE [Sat Jul 16 01:33:34 2016 UTC]
+EP:      0x402d90 .text 0/5
+CRC:     Claimed: 0x17a77, Actual: 0x17a77 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd778   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xd3b0   0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0xd0f0   0x2ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8bd4       0x8c00       6.471242    
+.data      0xa000       0x14e4       0xa00        2.176219    
+.idata     0xc000       0x6cc        0x800        4.694902    
+.rsrc      0xd000       0x840        0xa00        3.783316    
+.reloc     0xe000       0x7a0        0x800        6.467863    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: csrstub.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: allows lua to launch 16-bit applications
+OriginalFilename: csrstub.exe
+Translation: 0x0409 0x04b0
+

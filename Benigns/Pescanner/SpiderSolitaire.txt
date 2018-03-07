@@ -1,0 +1,62 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    736768 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     39dfc1401b7db273933b5fb08e8394f8
+SHA1:    2974dc74aa1c72dc2f80fbd2caa57aff20a652f9
+ssdeep:  12288:cofN5IV+LGUIEceNY5O/UqSk/klJ6EzB2tGn9OTqh25UAhYTeXGHWNS:DA8GUIEceNY5O/UqSka1isxh3O
+Date:    0x4A5BC63C [Mon Jul 13 23:41:48 2009 UTC]
+EP:      0x1030d3b .text 0/4
+CRC:     Claimed: 0xb6989, Actual: 0xb6989 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xb1fd0  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x98828  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x98e90  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x99178  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x992a0  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9a148  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x9a9f0  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x9af58  0xff7d   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xaaed8  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xad480  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xae528  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xae990  0x92     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 10 icons, 48x48, 16-colors
+RT_VERSION         0xb1bd8  0x3f8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x98380  0x4a1    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+None               0xaea28  0x31af   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 416 x 170, 8-bit/color RGBA, non-interlaced
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8820e      0x88400      6.283313    
+.data      0x8a000      0xd7f4       0x8a00       4.393651    
+.rsrc      0x98000      0x1a0c0      0x1a200      7.454110    [SUSPICIOUS]
+.reloc     0xb3000      0x8716       0x8800       5.121762    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: spidersolitaire.exe
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+OleSelfRegister: 
+ProductVersion: 6.1.7600.16385
+FileDescription: Executable for Spider Solitaire Game
+OriginalFilename: spidersolitaire.exe
+Translation: 0x0409 0x04b0
+

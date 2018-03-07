@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65536 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f9fe120c671913240c5738f1d92d4790
+SHA1:    4d92513efe5fd0d02d31a059183b45e6c0b62d4a
+ssdeep:  768:eGOJm/OAyyxm2/Gy+JooUtK5yM+nlxlD7Iex6bQCfXiS+C4GBfFo:dOOxm2/45wlTI4QOCFB
+Date:    0x3E8C0CFA [Thu Apr  3 10:29:14 2003 UTC]
+EP:      0x409220 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1e07e [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xe250   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe538   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_MENU            0xe920   0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xe690   0x28a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xe978   0x7d8    LANG_ENGLISH SUBLANG_ENGLISH_AUS      data
+RT_DIALOG          0xf150   0x9a     LANG_ENGLISH SUBLANG_ENGLISH_AUS      data
+RT_ACCELERATOR     0xe688   0x8      LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file with memo(s) (40006 records)
+RT_GROUP_ICON      0xe660   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+None               0xf1f0   0xb8     LANG_ENGLISH SUBLANG_ENGLISH_AUS      data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8912       0x9000       6.236114    
+.rdata     0xa000       0x18d2       0x2000       4.066693    
+.data      0xc000       0x1330       0x2000       4.555234    
+.rsrc      0xe000       0x12a8       0x2000       2.447398    
+

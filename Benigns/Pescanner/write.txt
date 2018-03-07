@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    10240 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ed73f0253a4c10f6b7c221ff6e8bd8b4
+SHA1:    406d6704061a52559f056d94bd2f452f93a32897
+ssdeep:  96:lxyZeX932JnXvk7Cc1uDWPTQ+fpH7NHWW2MrTtDJdMi2bKveLrxuJRdFEWFOWwj6:lieXZ2JOT5lWW2MrTFPuxu/sWFOWq
+Date:    0x5789919F [Sat Jul 16 01:45:03 2016 UTC]
+EP:      0x4016f0 .text 0/5
+CRC:     Claimed: 0x5685, Actual: 0x5685 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x45f0   0x2f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x48e0   0x130    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x4a10   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x4a38   0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x4160   0x490    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd24        0xe00        5.501123    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x37e        0x400        4.446950    
+.rsrc      0x4000       0xdb0        0xe00        4.595219    
+.reloc     0x5000       0x13c        0x200        4.477659    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: write
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Write
+OriginalFilename: write
+Translation: 0x0409 0x04b0
+

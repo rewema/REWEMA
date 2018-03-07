@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19608 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ebff599903cf7ed39ecb3069529d3c32
+SHA1:    6e4bec6a8de0490fb28cba6eca4bf5c21a516da4
+ssdeep:  384:ei8X3ziylF+YG1gW4xWOh+Qv1lRDBRJ+5lpfm3r3h:ei88YG1CpdvF1P+9u
+Date:    0x57899146 [Sat Jul 16 01:43:34 2016 UTC]
+EP:      0x4018b0 .text 0/6
+CRC:     Claimed: 0xffc6, Actual: 0xffc6 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x5950   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x5590   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x50f0   0x499    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xee4        0x1000       5.421384    
+.imrsiv    0x2000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0x3000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x4000       0x5c4        0x600        4.694421    
+.rsrc      0x5000       0xa18        0xc00        4.120977    
+.reloc     0x6000       0x160        0x200        4.854174    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: FirstLogonAnimExe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: First Sign-in Animation
+OriginalFilename: FirstLogonAnim.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5337088 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386
+MD5:     f6ee30e88bf1bc024cce601e855138c2
+SHA1:    c92587e7f47dc35c309781673493011943050f86
+ssdeep:  98304:T3iQ5rZdBAe9nqFtjkHgy3FhG4uMo/ShwnohypJdmlK+Lp4la:G0rZdueSqFbuMoa62gQE
+Date:    0x4650B8EC [Sun May 20 21:09:00 2007 UTC]
+EP:      0x401240 .text 0/7
+CRC:     Claimed: 0x6d318, Actual: 0x5190a7 [SUSPICIOUS]
+Packers: FreeBASIC 0.16b
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+JAVA               0x6c07c  0x4af31b LANG_ENGLISH SUBLANG_ENGLISH_US       Zip archive data, at least v1.0 to extract
+JAVA               0x51b3c0 0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII Pascal program text
+RT_ICON            0x51b544 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x51b874 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x61c98      0x61e00      6.339370    
+.data      0x63000      0x1274       0x1400       3.722506    
+.bss       0x65000      0x49e0       0x0          0.000000    [SUSPICIOUS]
+.edata     0x6a000      0x1e1        0x200        5.195366    
+.idata     0x6b000      0xd98        0xe00        4.949651    
+.rsrc      0x6c000      0x4b0000     0x4afa00     7.962069    [SUSPICIOUS]
+.reloc     0x51c000     0x2e7c       0x3000       6.638685    
+

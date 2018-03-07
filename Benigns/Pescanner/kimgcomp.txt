@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    121344 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     492cecf0eb05c68fdbc79ff66f2543a4
+SHA1:    d05f4f0ea101d5c4260fc21d878889c0f4b0ae56
+ssdeep:  3072:jVTHncRn0om2V6k3VFDCTAsCEefHELHx1P5tWrY+/YEks:hzcv9V6kLEh87
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x419008 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x1efd9 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x21218  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x213e8  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x21750  0xf4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x21844  0xc4     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7929953 records)
+RT_STRING          0x21908  0x2e0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x21be8  0x35c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x21f44  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x221f8  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x22208  0xa8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x18db8      0x18e00      6.525297    
+DATA       0x1a000      0x674        0x800        3.329078    
+BSS        0x1b000      0xbc1        0x0          0.000000    [SUSPICIOUS]
+.idata     0x1c000      0xac8        0xc00        4.493227    
+.tls       0x1d000      0xc          0x0          0.000000    [SUSPICIOUS]
+.rdata     0x1e000      0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x1f000      0x1c24       0x1e00       6.520052    
+.rsrc      0x21000      0x1400       0x1400       3.368050    
+

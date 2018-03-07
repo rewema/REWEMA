@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    19445926 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f6b9325da3879f2f86da0e9721e1d18a
+SHA1:    e2bcae459e10601f4357014731ce861031946b1b
+ssdeep:  393216:ihfS3lHXXyEMmYfd1if1kmEqVtz+dCMFAnSf9eBrxkANAkpVpq2:iNWnMhf3zm5udV5sBrCA3pVA2
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4094e4 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x1293440 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1030c  0x128    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x10434  0x568    LANG_DUTCH   SUBLANG_DUTCH            GLS_BINARY_LSB_FIRST
+RT_ICON            0x1099c  0x2e8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_ICON            0x10c84  0x8a8    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0x1152c  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11820  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11b2c  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11dfc  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x11e64  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x11f18  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_GROUP_ICON      0x11fc8  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x12008  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x123b0  0x289    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x8c50       0x8e00       6.556467    
+DATA       0xa000       0x248        0x400        2.721907    
+BSS        0xb000       0xe48        0x0          0.000000    [SUSPICIOUS]
+.idata     0xc000       0x8c8        0xa00        4.250797    
+.tls       0xd000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xe000       0x18         0x200        0.199108    [SUSPICIOUS]
+.reloc     0xf000       0x850        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x10000      0x2800       0x2800       4.280876    
+
+Version info
+================================================================================
+InternalName: 
+FileVersion:                     
+CompanyName: Tamas Zelena                                                
+Comments: This installation was built with Inno Setup: http://www.innosetup.com
+ProductName: 
+ProductVersion: 
+FileDescription: MPlayer Control Setup                                       
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

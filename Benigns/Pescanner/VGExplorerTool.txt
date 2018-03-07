@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    108032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     985cc043f79aa8dd90aa7db410074d49
+SHA1:    6401bf94e500f207fba188c3154a1ee67d462aae
+ssdeep:  1536:yJeDzt4dCfXj5+wiPah5heeVDHYVH1fArvXj5+wiPah5h+e:yJwf7oDPXeVDHEKrroDPPe
+Date:    0x53B34D6B [Wed Jul  2 00:08:11 2014 UTC]
+EP:      0x41369e .text 0/3
+CRC:     Claimed: 0x20efd, Actual: 0x20efd 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x146b8  0x3bd6   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x18290  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1a838  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1b8e0  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1c268  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x1c6d0  0x4c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0x141f0  0x4c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x1c720  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x116a4      0x11800      5.771649    
+.rsrc      0x14000      0x8910       0x8a00       5.230997    
+.reloc     0x1e000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2014
+Assembly Version: 1.0.0.0
+InternalName: VGExplorerTool.exe
+FileVersion: 1.0.0.0
+CompanyName: Corderoski
+Comments: VGExplorer is a liteweight tool for sharing folders structures (views). Your buddy can see your animes, music or the saved episodes from a TV Show.
+
+  - Corderoski.com has a web viewer!
+ProductName: Virtual Ghost Explorer
+ProductVersion: 1.0.0.0
+FileDescription: VGExplorer Win32 Tool
+OriginalFilename: VGExplorerTool.exe
+

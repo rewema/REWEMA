@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    7168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     d755c8345cf98f02967d9be597c850f3
+SHA1:    2ee2b0e3defb914b98fd360cb39d9e2bab0a73d9
+ssdeep:  96:UbTZTI7TpiJZ68XlQxUD5uKq9aPQdhRHVVDpl7gPW47dduzNt:Ub9Ad+6eQk5vq9aPQdX1lkPW4Rdo
+Date:    0x4DD95C0D [Sun May 22 18:55:09 2011 UTC]
+EP:      0x40305e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x5b27 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x2f8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4398   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x1064       0x1200       4.967368    
+.rsrc      0x4000       0x588        0x600        4.024496    
+.reloc     0x6000       0xc          0x200        0.077633    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Microsoft 2011
+Assembly Version: 0.9.0.0
+InternalName: DotNetMQ.exe
+FileVersion: 0.9.0.0
+CompanyName: Microsoft
+ProductName: DotNetMQ
+ProductVersion: 0.9.0.0
+FileDescription: DotNetMQ
+OriginalFilename: DotNetMQ.exe
+

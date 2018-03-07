@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    238176 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     969786b7266373cbaac8a3d85929a2d9
+SHA1:    12c5dbea7898f0f3e51ef84cf20f390059063920
+ssdeep:  3072:0vxyQCcKt8d4v2bOlLZ893MbrUeXmc9c631j9vjiTa4QhvbdYU3B7fAlDD9vPCN9:VZrKcT315vjiTadYU3B8ZXiF8vCfa16d
+Date:    0x4F6BDDC0 [Fri Mar 23 02:19:44 2012 UTC]
+EP:      0x101a6cd .text 0/4
+CRC:     Claimed: 0x4a07f, Actual: 0x4a07f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x38130  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x38418  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x38430  0x318    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x38748  0x3a7    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessAsUserW
+OpenProcessToken
+CreateProcessW
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x32fa8      0x33000      6.326420    
+.data      0x34000      0x363c       0x1600       3.252104    
+.rsrc      0x38000      0xaf0        0xc00        4.402987    
+.reloc     0x39000      0x2f18       0x3000       4.969210    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) SEIKO EPSON CORP. 2012
+InternalName: E_JTACS2
+FileVersion: 7.02
+CompanyName: SEIKO EPSON CORPORATION
+ProductName: EPSON Status Monitor 3
+ProductVersion: 7.02
+FileDescription: EPSON Status Monitor 3
+OriginalFilename: E_JTACS2.EXE
+Translation: 0x0411 0x04b0
+

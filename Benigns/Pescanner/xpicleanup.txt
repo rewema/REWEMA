@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    77824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9e89e622f12ad60ff6a8c9354d067deb
+SHA1:    8d943b4dc28c97c8d0b7621fa3007f9517645a1e
+ssdeep:  1536:RSKXNOuFMNSNZrLkjDfyCTn/dpuFkohU12NRFxoidCoG:t3McZrL0ffuagJoidCoG
+Date:    0x4601A2CF [Wed Mar 21 21:25:35 2007 UTC]
+EP:      0x404c47 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1c4ad [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x14060  0x340    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xbbed       0xc000       6.549462    
+.rdata     0xd000       0x138e       0x2000       3.897052    
+.data      0xf000       0x47dc       0x3000       1.056378    
+.rsrc      0x14000      0x3a0        0x1000       0.943356    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: License: MPL 1.1/GPL 2.0/LGPL 2.1
+InternalName: xpinstall
+FileVersion: Personal
+CompanyName: Mozilla Foundation
+PrivateBuild: 
+LegalTrademarks: Mozilla
+Comments: 
+ProductName: XULRunner
+ProductVersion: Personal
+FileDescription: 
+OriginalFilename: xpicleanup.exe
+Translation: 0x0000 0x04b0
+

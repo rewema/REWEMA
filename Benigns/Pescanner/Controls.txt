@@ -1,0 +1,41 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     9a63e248c87e954c836f82da61ec85f5
+SHA1:    d1951423d20e2d27b629606812590fc52c4ee1ce
+ssdeep:  96:54ffjimYZ/Z2y4AmaxDRG3Sm/5gdxv+tmQYeXTSKe:Cf23ojAxDMim/5gfv+QQ/7
+Date:    0x4836B6D6 [Fri May 23 12:21:42 2008 UTC]
+EP:      0x402d4e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x8a19 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x24c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xd54        0x1000       4.414709    
+.rsrc      0x4000       0x2a8        0x1000       0.676239    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: Controls.exe
+FileVersion: 0.0.0.0
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: Controls.exe
+

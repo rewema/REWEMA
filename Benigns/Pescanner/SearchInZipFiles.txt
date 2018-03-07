@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    191488 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     aa2456abf72ad63ca57c3bf700816844
+SHA1:    38b30a1fd70d18f396e71e33b1cae3a5a315ed25
+ssdeep:  3072:ibmzvVEGUHWg+Nkd89CpsXJOF5toYqbczvVEGUHWg+Nkd89CpsXJwF:fLyZHCw8ksgLyZHCw8a
+Date:    0x53AD967D [Fri Jun 27 16:06:21 2014 UTC]
+EP:      0x41b68e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x35897 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1c5b0  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1c898  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1c9c0  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1d868  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1e110  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0x1e678  0xebef   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x2d268  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x2f810  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x308b8  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x30d20  0x84     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 9 icons, 32x32, 16-colors
+RT_VERSION         0x1c2b0  0x300    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x30da8  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x19694      0x19800      7.340342    [SUSPICIOUS]
+.rsrc      0x1c000      0x14f98      0x15000      7.424075    [SUSPICIOUS]
+.reloc     0x32000      0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2014
+Assembly Version: 1.0.5291.30790
+InternalName: SearchInZipFiles.exe
+FileVersion: 1.0.0.4
+ProductName: SearchInZipFiles
+ProductVersion: 1.0.0.4
+FileDescription: SearchInZipFiles
+OriginalFilename: SearchInZipFiles.exe
+

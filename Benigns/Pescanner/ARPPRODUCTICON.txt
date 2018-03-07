@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    175336 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     bb6c341e654e8093eaa39ec9ec793863
+SHA1:    2d32452a16f4ae3d6821c9e1841ee035483b1aa2
+ssdeep:  1536:m1U81cLGnnFQoOoJko65v+1LnxW6OFCWprwB0A9IOByyhhhhhhhhhhhhhhIhhhhe:yjcgeLoJkNGFnxWY4hZYpa/biNH
+Date:    0x55F7AF31 [Tue Sep 15 05:40:01 2015 UTC]
+EP:      0x401005 .text 0/4
+CRC:     Claimed: 0x35297, Actual: 0x35297 
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x9220   0x6c7b   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xfe9c   0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x206c4  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x248ec  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x26e94  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x27f3c  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x283a4  0x5a     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 256-colors
+RT_VERSION         0x28400  0x370    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x28770  0x38f    LANG_NEUTRAL SUBLANG_NEUTRAL          XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x35ae       0x4000       5.954918    
+.rdata     0x5000       0x7a0        0x1000       3.172768    
+.data      0x6000       0x29dc       0x3000       0.360351    [SUSPICIOUS]
+.rsrc      0x9000       0x1fb00      0x20000      6.131218    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (c) 2015 Flexera Software LLC. All Rights Reserved.
+InternalName: _IsIcoRes.exe
+FileVersion: 22.0.330
+CompanyName: Flexera Software LLC
+Internal Build Number: 158754
+ProductName: InstallShield
+ProductVersion: 22.0
+FileDescription: InstallShield
+OriginalFilename: _IsIcoRes.exe
+Translation: 0x0409 0x04b0
+

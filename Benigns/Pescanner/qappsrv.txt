@@ -1,0 +1,46 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ff6066dc9d9c07324731ddd2337b301b
+SHA1:    90d24b175704a5060af44bc8b5cf0c49f0f402a3
+ssdeep:  384:UyFo0xErt7IRU9CPWb/AeaEXusR3D5N9B9WxlWPaWlW:UyFBSICL/us9Axic
+Date:    0x57898D8B [Sat Jul 16 01:27:39 2016 UTC]
+EP:      0x403c10 .text 0/5
+CRC:     Claimed: 0x8a05, Actual: 0x8a05 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x8780   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x83b0   0x3d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x80f0   0x2ba    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x332c       0x3400       6.208534    
+.data      0x5000       0x1708       0x200        0.849654    [SUSPICIOUS]
+.idata     0x7000       0x85a        0xa00        4.451268    
+.rsrc      0x8000       0x848        0xa00        3.788215    
+.reloc     0x9000       0x388        0x400        6.158007    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: qappsrv
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Query Remote Desktop Session Host Server Utility
+OriginalFilename: qappsrv.exe
+Translation: 0x0409 0x04b0
+

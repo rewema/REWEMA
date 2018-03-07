@@ -1,0 +1,68 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    189824 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     c259a5f2b1405623e6e0010dd166da67
+SHA1:    4130fed0da93a4bc13b84e8a0cd6cb1873ce4441
+ssdeep:  3072:DWkpzYTSzWfWbe8vWXUqzOrYtx9WVko/0mzfbUKWVko/0mzfbU5gFwQ:DWkpziZ+brDqzOs9lo/0mzfIKlo/0mzd
+Date:    0x4B6FBDCD [Mon Feb  8 07:31:25 2010 UTC]
+EP:      0x40aab5 .text 0/4
+CRC:     Claimed: 0x37c41, Actual: 0x37c41 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x204d8  0xea8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x21380  0x8a8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x21c28  0x6c8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x222f0  0x568    LANG_JAPANESE SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x22858  0x25a8   LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x24e00  0x10a8   LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x25ea8  0x988    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x26830  0x468    LANG_JAPANESE SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x26c98  0xea8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x27b40  0x8a8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x283e8  0x6c8    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x28ab0  0x568    LANG_JAPANESE SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x29018  0x25a8   LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x2b5c0  0x10a8   LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x2c668  0x988    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ICON            0x2cff0  0x468    LANG_JAPANESE SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_STRING          0x2d458  0x3c     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_ACCELERATOR     0x2d494  0x10     LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_GROUP_ICON      0x2d4a4  0x76     LANG_JAPANESE SUBLANG_DEFAULT          MS Windows icon resource - 8 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x2d51c  0x76     LANG_JAPANESE SUBLANG_DEFAULT          MS Windows icon resource - 8 icons, 48x48, 256-colors
+RT_VERSION         0x2d594  0x3dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x2d970  0x3dc    LANG_JAPANESE SUBLANG_DEFAULT          data
+RT_MANIFEST        0x2dd4c  0x245    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x15d08      0x16000      6.478065    
+.rdata     0x17000      0x52ba       0x6000       4.364757    
+.data      0x1d000      0x2e28       0x2000       1.357413    
+.rsrc      0x20000      0xdf94       0xe000       4.913118    
+
+Version info
+================================================================================
+LegalCopyright: SEIKO EPSON CORPORATION
+InternalName: Epson Easy Photo Print Plug-in for Windows Live Photo Gallery Setup
+FileVersion: 1, 0, 0, 1
+ProductName: Epson Easy Photo Print Plug-in for Windows Live Photo Gallery Setup
+ProductVersion: 1, 0, 0, 1
+FileDescription: Epson Easy Photo Print Plug-in for Windows Live Photo Gallery
+OriginalFilename: EPPSETUP.EXE
+Translation: 0x0409 0x04b0
+

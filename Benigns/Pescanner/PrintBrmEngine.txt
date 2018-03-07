@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    206336 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     afaeb1dd983cfeb34189288dc8b2494e
+SHA1:    402514412877d39d67f759c6e55dde322e9416a8
+ssdeep:  3072:285JUnMS3GjWMBJ9c2KfjKy+4OcrxKsQNKFwoBUftSJ5rpxGrWJWMN/DxA9fT40D:xH0MZJ9gjust/J5rpurGc
+Date:    0x57899098 [Sat Jul 16 01:40:40 2016 UTC]
+EP:      0x4257e0 .text 0/5
+CRC:     Claimed: 0x35192, Actual: 0x35192 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x32388  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x2a418  0x7bbe   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x31fd8  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x2a160  0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x257f8      0x25800      6.445001    
+.data      0x27000      0x6ec        0x200        1.438426    
+.idata     0x28000      0x1c14       0x1e00       5.328228    
+.rsrc      0x2a000      0x8478       0x8600       4.052570    
+.reloc     0x33000      0x2210       0x2400       6.650721    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: PrintBrmEng.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: PrintBrmEngine EXE
+OriginalFilename: PrintBrmEng.exe
+Translation: 0x0409 0x04b0
+

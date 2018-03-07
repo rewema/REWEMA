@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    15360 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4be416fa0e5620af56fa7c005ddedd76
+SHA1:    ebfe79f8303eacb2149408c8e3474e5bb62bd405
+ssdeep:  192:j2E+WYVUYhuvyaNewQ4FzNQbsBf95XxKDT3G7lwvvyLlqb78CBb8:jqVUUAVQ2z75XnlEvQqkCBb8
+Date:    0x53F67122 [Thu Aug 21 22:22:26 2014 UTC]
+EP:      0x401284 .text 0/9
+CRC:     Claimed: 0x4877, Actual: 0x4877 
+
+TLS callbacks
+================================================================================
+    0x401d30
+    0x401cfc
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_DIALOG          0xa0a0   0x15c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xa1fc   0x28c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1668       0x1800       5.738872    
+.data      0x3000       0x10         0x200        0.143459    [SUSPICIOUS]
+.rdata     0x4000       0x804        0xa00        4.496748    
+.eh_fram   0x5000       0x304        0x400        4.119397    
+.bss       0x6000       0x3b8        0x0          0.000000    [SUSPICIOUS]
+.idata     0x7000       0x55c        0x600        4.228683    
+.CRT       0x8000       0x18         0x200        0.118370    [SUSPICIOUS]
+.tls       0x9000       0x20         0x200        0.224820    [SUSPICIOUS]
+.rsrc      0xa000       0x488        0x600        2.731986    
+
+Version info
+================================================================================
+LegalCopyright: Author: Jelle Geerts
+FileVersion: 1.0.4
+ProductName: ipxemu
+ProductVersion: 1.0.4
+FileDescription: ipxemu (http://purl.org/net/ipxemu)
+OriginalFilename: win_9x-nt4_dpwsockx_patch.exe
+Translation: 0x0409 0x04b0
+

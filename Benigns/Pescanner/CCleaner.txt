@@ -1,0 +1,295 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    4455704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5b1aa494c27cf0bc3b03e8666acb225e
+SHA1:    066f16f8e984324ca59ae22bff3970c12f653459
+ssdeep:  49152:+Pt8asIw9bX+QwOZUU9x2P7xsi2XbiE0wloj3MkDS6SBAPPi+RgwD2j+ry+rPmzh:ctizOQwOSU9x2Pthsiwloj3MkDIMbXr6
+Date:    0x52DE9591 [Tue Jan 21 15:43:13 2014 UTC]
+EP:      0x493e7f .text 0/6
+CRC:     Claimed: 0x44378a, Actual: 0x44378a 
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x33a92eL => This program cannot be run in DOS mode
+YARA: irc
+   0x2852d1L => JOIN
+   0x28534eL => JOIN
+   0x285cc7L => JOIN
+   0x285d03L => JOIN
+   0x285d33L => JOIN
+   0x320372L => JOIN
+   0x321c63L => join
+   0x321cbaL => join
+   0x321d16L => join
+   0x321d2fL => join
+   0x322b63L => join
+   0x31b76dL => msg
+   0x31bb46L => msg
+   0x31bff7L => msg
+   0x31c3caL => msg
+   0x321d9aL => part
+   0x359d12L => Chat
+   0x359d63L => Chat
+
+
+TLS callbacks
+================================================================================
+    0x48ed80
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+BRANDING           0x342ae0 0x9918   LANG_ENGLISH SUBLANG_ENGLISH_UK       PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit
+INI                0x34c3f8 0x2a60   LANG_ENGLISH SUBLANG_ENGLISH_US       ISO-8859 English text, with CRLF line terminators
+INI                0x34ee58 0x701    LANG_ENGLISH SUBLANG_ENGLISH_US       ISO-8859 English text, with CRLF line terminators
+INI                0x34f55c 0x26d44  LANG_ENGLISH SUBLANG_ENGLISH_US       ISO-8859 English text, with CRLF line terminators
+PNG                0x3762a0 0x10d2a  LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 340 x 205, 8-bit/color RGBA, non-interlaced
+PNG                0x386fcc 0x10285  LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 340 x 205, 8-bit/color RGBA, non-interlaced
+PNG                0x397254 0xf0cb   LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 340 x 205, 8-bit/color RGBA, non-interlaced
+PNG                0x3a6320 0xa0e    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 24 x 23, 8-bit/color RGBA, non-interlaced
+PNG                0x3a6d30 0x9d0    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 68 x 22, 8-bit/color RGBA, non-interlaced
+PNG                0x3a7700 0x9a4    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 68 x 22, 8-bit/color RGBA, non-interlaced
+PNG                0x3a80a4 0x427    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 9 x 8, 8-bit/color RGBA, non-interlaced
+PNG                0x3a84cc 0x409    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 9 x 8, 8-bit/color RGBA, non-interlaced
+PNG                0x3a88d8 0x43d    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 14 x 14, 8-bit/color RGBA, non-interlaced
+PNG                0x3a8d18 0x42c    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 14 x 14, 8-bit/color RGBA, non-interlaced
+PNG                0x3a9144 0x13aa1  LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 340 x 205, 8-bit/color RGBA, non-interlaced
+PNG                0x3bcbe8 0x460    LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 14 x 14, 8-bit/color RGBA, non-interlaced
+RT_BITMAP          0x3bd048 0x328    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x3bd370 0x328    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x3bd698 0x328    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x3bd9c0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bda60 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bdb00 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bdba0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bdc40 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bdce0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bdd80 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bde20 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bdec0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3bdf60 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be000 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be0a0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be140 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be1e0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be280 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be320 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be3c0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be460 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be500 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be5a0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be640 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be6e0 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be780 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be820 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3be8c0 0x3c28   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3c24e8 0x2428   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3c4910 0x2428   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3c6d38 0x760    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3c7498 0x2428   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3c98c0 0x2428   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3cbce8 0x3c28   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3cf910 0xd408   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3dcd18 0x3028   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3dfd40 0x328    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x3e0068 0x328    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x3e0390 0x328    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x3e06b8 0x28f0   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3e2fa8 0x28f0   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3e5898 0x1838   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_BITMAP          0x3e70d0 0x2028   LANG_ENGLISH SUBLANG_ENGLISH_CAN      GLS_BINARY_LSB_FIRST
+RT_BITMAP          0x3e90f8 0x1028   LANG_ENGLISH SUBLANG_ENGLISH_CAN      data
+RT_ICON            0x3ea120 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3ea9c8 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3eaf30 0xcd63   LANG_ENGLISH SUBLANG_ENGLISH_UK       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x3f7c94 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3fa23c 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ICON            0x3fb2e4 0x468    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3fb74c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3fbbb4 0x468    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3fc01c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3fc484 0x468    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3fc8ec 0x468    LANG_ENGLISH SUBLANG_ENGLISH_UK       GLS_BINARY_LSB_FIRST
+RT_MENU            0x3fcd54 0x5e     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3fcdb4 0x13c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3fcef0 0x8e     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3fcf80 0xb6     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3fd038 0x164    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3fd19c 0xbe     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3fd25c 0xae     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MENU            0x3fd30c 0xb8     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fd3c4 0x260    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fd624 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fd70c 0x1c8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fd8d4 0x1b8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fda8c 0x1ac    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fdc38 0x21c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fde54 0x184    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fdfd8 0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fe2a4 0x676    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fe91c 0x1a4    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3feac0 0x1ce    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fec90 0x494    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ff124 0x34a    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ff470 0x54     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ff4c4 0xe0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ff5a4 0x29a    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ff840 0xdc     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ff91c 0x70     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ff98c 0x1ce    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ffb5c 0x180    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ffcdc 0x1f0    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3ffecc 0xc4     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x3fff90 0x13c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x4000cc 0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x400474 0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x40081c 0x224    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x400a40 0x286    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x400cc8 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x400eb0 0xc8     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x400f78 0x850    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x4017c8 0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x401b70 0x4aa    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x40201c 0x34     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x402050 0x2de    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x402330 0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x4026d8 0xd6     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x4027b0 0xd4     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x402884 0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_CAN      data
+RT_DIALOG          0x402c4c 0x2c0    LANG_ENGLISH SUBLANG_ENGLISH_CAN      data
+RT_DIALOG          0x402f0c 0x92     LANG_ENGLISH SUBLANG_ENGLISH_CAN      data
+RT_DIALOG          0x402fa0 0x39c    LANG_ENGLISH SUBLANG_ENGLISH_CAN      data
+RT_DIALOG          0x40333c 0x248    LANG_ENGLISH SUBLANG_ENGLISH_CAN      data
+RT_DIALOG          0x403584 0x514    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x403a98 0x268    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x403d00 0x1fc    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x403efc 0x11c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x404018 0x60     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_DIALOG          0x404078 0x334    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4043ac 0x66     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x404414 0x3a6    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4047bc 0xac     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x404868 0x112    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40497c 0x10e    LANG_ENGLISH SUBLANG_ENGLISH_UK       PCX ver. 2.5 image data
+RT_STRING          0x404a8c 0xbc     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x404b48 0x10e    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x404c58 0x64     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x404cbc 0x8c     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x404d48 0xa0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x404de8 0x3e6    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4051d0 0x200    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4053d0 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4054b4 0x40     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4054f4 0xe2     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4055d8 0x342    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40591c 0x4e     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40596c 0x54     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4059c0 0x2ce    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x405c90 0x1ce    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x405e60 0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40613c 0x32e    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40646c 0x306    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x406774 0x88     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4067fc 0x2cc    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x406ac8 0x2e     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x406af8 0x30     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x406b28 0x84     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x406bac 0xb0     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x406c5c 0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x406e0c 0x232    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x407040 0x3d4    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x407414 0x386    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40779c 0x174    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x407910 0x134    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x407a44 0x236    LANG_ENGLISH SUBLANG_ENGLISH_UK       DBase 3 index file
+RT_STRING          0x407c7c 0x37e    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x407ffc 0x1e6    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4081e4 0x24c    LANG_ENGLISH SUBLANG_ENGLISH_UK       DBase 3 index file
+RT_STRING          0x408430 0x128    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x408558 0x15c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4086b4 0x3de    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x408a94 0x1f0    LANG_ENGLISH SUBLANG_ENGLISH_UK       AmigaOS bitmap font
+RT_STRING          0x408c84 0xa8     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x408d2c 0x1c8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x408ef4 0xfc     LANG_ENGLISH SUBLANG_ENGLISH_UK       DBase 3 data file (7929953 records)
+RT_STRING          0x408ff0 0x288    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x409278 0x7c     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4092f4 0x36     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40932c 0x8a     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x4093b8 0x84     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40943c 0x24c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x409688 0x18e    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x409818 0x22c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x409a44 0x46     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x409a8c 0xfa     LANG_ENGLISH SUBLANG_ENGLISH_UK       DBase 3 index file
+RT_STRING          0x409b88 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x409e54 0x192    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x409fe8 0x126    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a110 0x200    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a310 0x7e     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a390 0x5c     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a3ec 0xae     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a49c 0x6c     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a508 0x11c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a624 0x238    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a85c 0x16a    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40a9c8 0x19c    LANG_ENGLISH SUBLANG_ENGLISH_UK       PCX ver. 2.5 image data
+RT_STRING          0x40ab64 0x40     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40aba4 0x568    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40b10c 0x5c     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40b168 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40b350 0x58     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40b3a8 0x1e0    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40b588 0x22a    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40b7b4 0x672    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40be28 0xdb8    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40cbe0 0x108    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_STRING          0x40cce8 0x66     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_ACCELERATOR     0x40cd50 0x70     LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_GROUP_ICON      0x40cdc0 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 6 icons, 32x32, 256-colors
+RT_GROUP_ICON      0x40ce1c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x40ce30 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x40ce44 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x40ce58 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x40ce6c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_UK       MS Windows icon resource - 1 icon
+RT_VERSION         0x40ce80 0x31c    LANG_ENGLISH SUBLANG_ENGLISH_UK       data
+RT_MANIFEST        0x40d19c 0x37b    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x25e6f7     0x25e800     6.711586    
+.rdata     0x260000     0xa9a72      0xa9c00      4.502223    
+.data      0x30a000     0x34f84      0x2f400      5.155828    
+.tls       0x33f000     0x2          0x200        0.000000    
+.rsrc      0x340000     0xcd518      0xcd600      6.731040    
+.reloc     0x40e000     0x38ec6      0x39000      5.898331    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2005-2014 Piriform Ltd
+InternalName: ccleaner
+FileVersion: 4, 10, 00, 4570
+CompanyName: Piriform Ltd
+Comments: CCleaner
+ProductName: CCleaner
+ProductVersion: 4, 10, 00, 4570
+FileDescription: CCleaner
+OriginalFilename: ccleaner.exe
+Translation: 0x0409 0x04b0
+

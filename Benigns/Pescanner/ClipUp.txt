@@ -1,0 +1,59 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1123936 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a35c739516c083d05b7f0281442b94b7
+SHA1:    ea66dbdeb595e58b2b8fb6faf62833a43522801c
+ssdeep:  24576:5bRyv1aFZA0fFUCR06n+ueVJQ11zbEa/k2QQNAhV7PFheDz5d1PC5b:rFZA0fFxIJQvzHQQ+yDz5d1q5b
+Date:    0x57898E1C [Sat Jul 16 01:30:04 2016 UTC]
+EP:      0x469a20 .text 0/6
+CRC:     Claimed: 0x11c369, Actual: 0x11c369 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_STRING          0x10a620 0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10a6d8 0x3e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10aac0 0x1cc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10ac90 0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10acf0 0xca     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10b210 0x8e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10adc0 0xe4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10aea8 0x118    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x10afc0 0x250    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x10a220 0x3fc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x102444     0x102600     7.372856    [SUSPICIOUS]
+.data      0x104000     0x1a7c       0x1000       3.074875    
+.idata     0x106000     0x244a       0x2600       5.142807    
+.didat     0x109000     0x3c         0x200        0.538804    [SUSPICIOUS]
+.rsrc      0x10a000     0x12a0       0x1400       3.147169    
+.reloc     0x10c000     0x66e0       0x6800       6.634175    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Client License Platform migration tool
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Client License Platform migration tool
+OriginalFilename: ClipUp.exe
+Translation: 0x0409 0x04b0
+

@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    40448 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9e1e1154a59fba8ebc65e0e4b91c299a
+SHA1:    f7e8f6cb4cf2631e05ae6d5e0b63b16dcafc5106
+ssdeep:  768:vKAslokfIAj3IYS5PyRX2JQZv8Fy24XiiAz9MHS2:tsl+AjI5YPv8I2nihHS2
+Date:    0x578990E4 [Sat Jul 16 01:41:56 2016 UTC]
+EP:      0x407a70 .text 0/6
+CRC:     Claimed: 0x17f29, Actual: 0x17f29 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xc850   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xc4a8   0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xc0f0   0x3b6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7464       0x7600       6.250624    
+.imrsiv    0x9000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0xa000       0x468        0x200        1.294561    
+.idata     0xb000       0xe5a        0x1000       4.834572    
+.rsrc      0xc000       0x918        0xa00        4.305778    
+.reloc     0xd000       0x648        0x800        5.769124    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: FodHelper
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Features On Demand Helper
+OriginalFilename: FodHelper.EXE
+Translation: 0x0409 0x04b0
+

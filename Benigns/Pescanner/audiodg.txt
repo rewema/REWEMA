@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    313088 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     eeac0a57e81f0b4d32b5073a087fc5a4
+SHA1:    3bd3ad4559d7fa406b1474be2d54ff5c5155a492
+ssdeep:  6144:5ISgaBH0ljpc8VOQ1kYev5Qh/vklJg7MEo:mfaByjm8V9J0Q5oaO
+Date:    0x57898EBD [Sat Jul 16 01:32:45 2016 UTC]
+EP:      0x41cea0 .text 0/10
+CRC:     Claimed: 0x57314, Actual: 0x57314 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x4b768  0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x4b3a0  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x4b0f0  0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x41aac      0x41c00      6.412474    
+RT_CODE    0x43000      0x328        0x400        5.018835    
+RT_BSS     0x44000      0x28         0x0          0.000000    [SUSPICIOUS]
+.data      0x45000      0x96c        0x400        2.499241    
+.idata     0x46000      0x1914       0x1a00       5.161719    
+.didat     0x48000      0xac         0x200        1.404300    
+RT_DATA    0x49000      0xb0         0x200        3.276465    
+RT_CONST   0x4a000      0x238        0x400        2.390234    
+.rsrc      0x4b000      0x830        0xa00        3.759284    
+.reloc     0x4c000      0x4554       0x4600       6.725712    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: audioadg.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Audio Device Graph Isolation 
+OriginalFilename: audioadg.exe
+Translation: 0x0409 0x04b0
+

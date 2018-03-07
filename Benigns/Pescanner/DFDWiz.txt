@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    46080 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d0d296bec7ee006162d0ba854cd3e21f
+SHA1:    9845977f90f35107f9e176d3a833819bdb73f5cc
+ssdeep:  768:4gkeEU/n4ZsQajVhY+QvhT9WbioQgPlhQ3rEEhGFNWz:lkxUwZLeVhY+Q1AbVBLQ/hGS
+Date:    0x57898F3A [Sat Jul 16 01:34:50 2016 UTC]
+EP:      0x407e90 .text 0/5
+CRC:     Claimed: 0xe420, Actual: 0xe420 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xcb08   0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xba88   0xc42    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc6d0   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xc9b8   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xcae0   0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0xb6c8   0x3c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb220   0x4a2    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x791c       0x7a00       6.261001    
+.data      0x9000       0x3e4        0x200        0.285782    [SUSPICIOUS]
+.idata     0xa000       0xc24        0xe00        4.805018    
+.rsrc      0xb000       0x1c00       0x1c00       4.294562    
+.reloc     0xd000       0x934        0xa00        6.501250    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: DFDWiz.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Disk Diagnostic User Resolver
+OriginalFilename: DFDWiz.exe
+Translation: 0x0409 0x04b0
+

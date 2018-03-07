@@ -1,0 +1,251 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    872448 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     dce04edcb6c284d48fb05646d1bf333b
+SHA1:    a79622f850609e50f6e0a32302ab02eeab181002
+ssdeep:  12288:HVNxZoj8ecalus3uD2pWuGwASLzfjmFIeEZF7HCJQVJ38TzrTTgAqn6ZG0P+:HVNxZoj8echseDZtwHCw8TXT0A+6Z6
+Date:    0x45485E78 [Wed Nov  1 08:44:40 2006 UTC]
+EP:      0x481716 .text 0/4
+CRC:     Claimed: 0xd6039, Actual: 0xd6039 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x9d7b9L => deflate
+   0x9d7dbL => Jean-loup Gailly
+   0x9d919L => inflate
+   0x9d93bL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xbca80  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbcbb4  0xb4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbcc68  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0xbcd9c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbced0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       PCX ver. 2.5 image data
+RT_CURSOR          0xbd004  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbd138  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbd26c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbd3a0  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbd4d4  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbd608  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbd73c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbd870  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       AmigaOS bitmap font
+RT_CURSOR          0xbd9a4  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbdad8  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0xbdc0c  0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xbdd40  0xb8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xbddf8  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xbdf3c  0x368    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xbe2a4  0xca8    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xbef4c  0x25a8   LANG_POLISH  SUBLANG_DEFAULT          data
+RT_ICON            0xc14f4  0x568    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xc1a5c  0x568    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xc1fc4  0x568    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xc252c  0x568    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xc2a94  0x568    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0xc2ffc  0x568    LANG_POLISH  SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_DIALOG          0xc3564  0x184    LANG_NEUTRAL SUBLANG_DEFAULT          data
+RT_DIALOG          0xc36e8  0x386    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0xc3a70  0x392    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0xc3e04  0x34a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc4150  0x3a6    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0xc44f8  0x376    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xc4870  0x392    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0xc4c04  0x39a    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_DIALOG          0xc4fa0  0x372    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_DIALOG          0xc5314  0x37a    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0xc5690  0x37a    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_DIALOG          0xc5a0c  0x356    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0xc5d64  0x35e    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_DIALOG          0xc60c4  0x376    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xc643c  0x392    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_DIALOG          0xc67d0  0x39a    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xc6b6c  0x38e    LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+RT_DIALOG          0xc6efc  0x502    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0xc7400  0x53c    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0xc793c  0x510    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xc7e4c  0x564    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0xc83b0  0x4f2    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xc88a4  0x56c    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0xc8e10  0x556    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_DIALOG          0xc9368  0x508    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_DIALOG          0xc9870  0x54c    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0xc9dbc  0x516    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_DIALOG          0xca2d4  0x51c    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0xca7f0  0x506    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_DIALOG          0xcacf8  0x528    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xcb220  0x536    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_DIALOG          0xcb758  0x534    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xcbc8c  0x54c    LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+RT_DIALOG          0xcc1d8  0x100    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0xcc2d8  0x118    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0xcc3f0  0x10c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcc4fc  0x124    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0xcc620  0x100    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xcc720  0x124    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0xcc844  0x128    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_DIALOG          0xcc96c  0xf8     LANG_POLISH  SUBLANG_DEFAULT          data
+RT_DIALOG          0xcca64  0xfc     LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0xccb60  0x110    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_DIALOG          0xccc70  0x118    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0xccd88  0x10c    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_DIALOG          0xcce94  0x114    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xccfa8  0x120    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_DIALOG          0xcd0c8  0x128    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xcd1f0  0x124    LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+RT_DIALOG          0xcd314  0x9a     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0xcd3b0  0x9e     LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0xcd450  0x98     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xcd4e8  0x9a     LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0xcd584  0xa0     LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xcd624  0xae     LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0xcd6d4  0x94     LANG_DUTCH   SUBLANG_DUTCH            data
+RT_DIALOG          0xcd768  0xa0     LANG_POLISH  SUBLANG_DEFAULT          data
+RT_DIALOG          0xcd808  0x94     LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0xcd89c  0xa6     LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_DIALOG          0xcd944  0xa0     LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0xcd9e4  0x9c     LANG_TURKISH SUBLANG_DEFAULT          data
+RT_DIALOG          0xcda80  0xa6     LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xcdb28  0xa2     LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_DIALOG          0xcdbcc  0xaa     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xcdc78  0xa8     LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+RT_DIALOG          0xcdd20  0x340    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0xce060  0x388    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_DIALOG          0xce3e8  0x344    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xce72c  0x358    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_DIALOG          0xcea84  0x344    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xcedc8  0x344    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_DIALOG          0xcf10c  0x344    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_DIALOG          0xcf450  0x36c    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_DIALOG          0xcf7bc  0x344    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_DIALOG          0xcfb00  0x344    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_DIALOG          0xcfe44  0x350    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_DIALOG          0xd0194  0x358    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_DIALOG          0xd04ec  0x344    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_DIALOG          0xd0830  0x344    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_DIALOG          0xd0b74  0x344    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_DIALOG          0xd0eb8  0x344    LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+RT_DIALOG          0xd11fc  0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd12e4  0x34     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1318  0x302    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0xd161c  0x3de    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0xd19fc  0x30a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd1d08  0x35a    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0xd2064  0x336    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_STRING          0xd239c  0x3ec    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0xd2788  0x3a4    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0xd2b2c  0x376    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_STRING          0xd2ea4  0x31c    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0xd31c0  0x38c    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_STRING          0xd354c  0x318    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_STRING          0xd3864  0x394    LANG_TURKISH SUBLANG_DEFAULT          data
+RT_STRING          0xd3bf8  0x31a    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_STRING          0xd3f14  0x386    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_STRING          0xd429c  0x372    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0xd4610  0x3a2    LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+RT_STRING          0xd49b4  0x396    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0xd4d4c  0x42e    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_STRING          0xd517c  0x3aa    LANG_ENGLISH SUBLANG_ENGLISH_US       Sendmail frozen configuration  - version f
+RT_STRING          0xd5528  0x42a    LANG_FRENCH  SUBLANG_FRENCH           data
+RT_STRING          0xd5954  0x3b0    LANG_HUNGARIAN SUBLANG_DEFAULT          data
+RT_STRING          0xd5d04  0x404    LANG_ITALIAN SUBLANG_ITALIAN          data
+RT_STRING          0xd6108  0x3de    LANG_DUTCH   SUBLANG_DUTCH            data
+RT_STRING          0xd64e8  0x3de    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_STRING          0xd68c8  0x3b8    LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+RT_STRING          0xd6c80  0x3b0    LANG_ROMANIAN SUBLANG_ROMANIAN         data
+RT_STRING          0xd7030  0x3b4    LANG_SWEDISH SUBLANG_SWEDISH          data
+RT_STRING          0xd73e4  0x3d0    LANG_TURKISH SUBLANG_DEFAULT          Sendmail frozen configuration  - version n
+RT_STRING          0xd77b4  0x3b4    LANG_ESTONIAN SUBLANG_DEFAULT          data
+RT_STRING          0xd7b68  0x3de    LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+RT_STRING          0xd7f48  0x3c0    LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+RT_STRING          0xd8308  0x3da    LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+RT_STRING          0xd86e4  0x82     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd8768  0x2a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd8794  0x192    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd8928  0x4e2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd8e0c  0x31a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd9128  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd9404  0x8a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd9490  0xac     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd953c  0xde     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd961c  0x4c4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd9ae0  0x264    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xd9d44  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_STRING          0xd9d70  0x42     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0xd9db4  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9dd8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9dec  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e00  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e14  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e28  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e3c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e50  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e64  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e78  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9e8c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9ea0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9eb4  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9ec8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0xd9edc  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0xd9ef0  0x30     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 3 icons, 16x16, 256-colors
+RT_GROUP_ICON      0xd9f20  0x14     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xd9f34  0x14     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xd9f48  0x14     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xd9f5c  0x14     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xd9f70  0x14     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0xd9f84  0x14     LANG_POLISH  SUBLANG_DEFAULT          MS Windows icon resource - 1 icon
+RT_VERSION         0xd9f98  0x344    LANG_POLISH  SUBLANG_DEFAULT          data
+RT_MANIFEST        0xda2dc  0x20d    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+RT_MANIFEST        0xda4ec  0x2c5    LANG_POLISH  SUBLANG_DEFAULT          XML  document text
+None               0xda7b4  0x49     LANG_CZECH   SUBLANG_DEFAULT          data
+None               0xda800  0x64     LANG_GERMAN  SUBLANG_GERMAN           data
+None               0xda864  0x54     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+None               0xda8b8  0x67     LANG_FRENCH  SUBLANG_FRENCH           data
+None               0xda920  0x64     LANG_HUNGARIAN SUBLANG_DEFAULT          data
+None               0xda984  0x65     LANG_ITALIAN SUBLANG_ITALIAN          data
+None               0xda9ec  0x58     LANG_DUTCH   SUBLANG_DUTCH            data
+None               0xdaa44  0x66     LANG_POLISH  SUBLANG_DEFAULT          data
+None               0xdaaac  0x5d     LANG_PORTUGUESE SUBLANG_PORTUGUESE_BRAZILIAN data
+None               0xdab0c  0x5a     LANG_ROMANIAN SUBLANG_ROMANIAN         data
+None               0xdab68  0x58     LANG_SWEDISH SUBLANG_SWEDISH          data
+None               0xdabc0  0x60     LANG_TURKISH SUBLANG_DEFAULT          data
+None               0xdac20  0x5d     LANG_ESTONIAN SUBLANG_DEFAULT          data
+None               0xdac80  0x4f     LANG_LITHUANIAN SUBLANG_LITHUANIAN       data
+None               0xdacd0  0x6b     LANG_SPANISH SUBLANG_SPANISH_MODERN   data
+None               0xdad3c  0x57     LANG_SPANISH SUBLANG_SPANISH_CHILE    data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x98296      0x99000      6.290305    
+.rdata     0x9a000      0x152f8      0x16000      5.704592    
+.data      0xb0000      0xa95c       0x5000       3.404891    
+.rsrc      0xbb000      0x1fd94      0x20000      4.166167    
+
+Version info
+================================================================================
+LegalCopyright: \xa92005-2006 Tomasz Pawlak. Spread under GNU GPL v2 license
+InternalName: kgb_arch_decompress.exe
+FileVersion: 1.2.1.24
+CompanyName: Tomasz Pawlak
+ProductName: KGB Archiver
+ProductVersion: 1.2.1.24
+FileDescription: KGB Archiver
+OriginalFilename: kgb_arch_decompress.exe
+Translation: 0x0000 0x04e2
+

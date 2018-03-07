@@ -1,0 +1,58 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    58368 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9d69473a54b200870a407b0e7103ee28
+SHA1:    d910f5acb00767cef0a6d1b1b809b33a47cd00ad
+ssdeep:  768:hH8sHQPTB4LH2jHs6LjutUEmvMOgHCdOVSDpa0vsvpmmXiumMBxJMLaxo4NTPB:QTB4LWxLjutGUYr0vJyEqH4x
+Date:    0x57899002 [Sat Jul 16 01:38:10 2016 UTC]
+EP:      0x408f20 .text 0/6
+CRC:     Claimed: 0x1b3f2, Actual: 0x1b3f2 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x10e40  0xd0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xfbe0   0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0xfd08   0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x10270  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x10558  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x10e00  0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0xf868   0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf210   0x656    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+StartServiceCtrlDispatcherW
+OpenProcessToken
+OpenProcess
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x91dc       0x9200       6.233250    
+.data      0xb000       0x1ff4       0x1200       0.244153    [SUSPICIOUS]
+.idata     0xd000       0xdf0        0xe00        5.330269    
+.didat     0xe000       0x4c         0x200        0.794126    [SUSPICIOUS]
+.rsrc      0xf000       0x1f10       0x2000       4.677135    
+.reloc     0x11000      0xa8c        0xc00        6.351315    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: msiexec
+FileVersion: 5.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Windows Installer - Unicode
+ProductVersion: 5.0.14393.0
+FileDescription: Windows\xae installer
+OriginalFilename: msiexec.exe
+Translation: 0x0409 0x04b0
+

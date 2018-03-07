@@ -1,0 +1,70 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    542096 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     cca0c5482b8a6a275d9d49433f435dfa
+SHA1:    a72ae8621386e13c34055f612ae7612b8a18a39e
+ssdeep:  12288:6c9iJafmm2VYK+UNo0RweQfoAxHv9sN4A4H9J618UtQ43iUa:yVm2VZQwy9E1Vf3M
+Date:    0x4850CBA6 [Thu Jun 12 07:09:26 2008 UTC]
+EP:      0x45134c .text 0/5
+CRC:     Claimed: 0x9057a, Actual: 0x9057a 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x792d8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x79740  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x79ba8  0x11c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x79cc4  0x14e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x79e14  0x5e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x79e74  0x5e     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x79ed4  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x79ee8  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x79efc  0x6d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x7a5d0  0x2f2    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+InternetConnectA
+HttpSendRequestA
+HttpSendRequestExA
+InternetReadFile
+OpenProcessToken
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5b761      0x5c000      6.345207    
+.rdata     0x5d000      0x18d10      0x19000      4.876511    
+.data      0x76000      0x27fc       0x2000       4.722031    
+.rsrc      0x79000      0x18c4       0x2000       5.182080    
+.reloc     0x7b000      0x8906       0x9000       5.309514    
+
+Version info
+================================================================================
+LegalCopyright: Copyright 1984-2008 Adobe Systems Incorporated and its licensors. All rights reserved.
+FileVersion: 9.0.0.2008061200
+LanguageId: 0409
+CompanyName: Adobe Systems Incorporated
+Signature: Read
+ProductVersion: 9.0.0.2008061200
+FileDescription: Adobe Collaboration Synchronizer 9.0
+EnglishName: English
+OriginalFilename: AdobeCollabSync.exe
+LegalCopyright: Copyright 1984-2008 Adobe Systems Incorporated and its licensors. All rights reserved.
+FileVersion: 9.0.0.2008061200
+CompanyName: Adobe Systems Incorporated
+ProductName: Adobe Collaboration Synchronizer
+ProductVersion: 9.0.0.2008061200
+FileDescription: Adobe Collaboration Synchronizer 9.0
+OriginalFilename: AdobeCollabSync.exe
+Translation: 0x0409 0x04e4
+

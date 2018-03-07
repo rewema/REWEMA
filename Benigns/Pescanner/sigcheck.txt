@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    369824 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ad10f1bd4ca390915807b8a8ba2ea145
+SHA1:    64682726e01966fd7238afe90af8e8f8f4c59e73
+ssdeep:  6144:jQxGr6jocjmR5AQNFb4byFurcj6Ftk5ObkFhemU:8kr6tmR5ZFbjKtBbshe1
+Date:    0x58FE5746 [Mon Apr 24 19:51:34 2017 UTC]
+EP:      0x41a0fb .text 0/5
+CRC:     Claimed: 0x63013, Actual: 0x63013 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x570a0  0x348    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x573e8  0x67f    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x32fac      0x33000      6.603392    
+.rdata     0x34000      0x19490      0x19600      4.729573    
+.data      0x4e000      0x8a88       0x5800       2.306373    
+.rsrc      0x57000      0xa68        0xc00        4.405275    
+.reloc     0x58000      0x37bc       0x3800       6.685582    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2004-2017 Mark Russinovich
+InternalName: Sigcheck
+FileVersion: 2.55
+CompanyName: Sysinternals - www.sysinternals.com
+ProductName: Sysinternals Sigcheck
+ProductVersion: 2.55
+FileDescription: File version and signature viewer
+OriginalFilename: sigcheck.exe
+Translation: 0x0409 0x04b0
+

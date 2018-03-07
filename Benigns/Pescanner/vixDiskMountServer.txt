@@ -1,0 +1,60 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    442560 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     ca74699aaf46e9c4f93dc50fc1289efd
+SHA1:    e1d0c11f18ee3789e487208415fcb8feb714bae4
+ssdeep:  6144:/RfByVr0WEbQ3Gharrj/WWeFe6WqIgc+BZb5Bk25F1hLPBp6qoBkxhtD:ppQr4bQ3Gs8fPY+z5BD5dhomtD
+Date:    0x55BD52D9 [Sat Aug  1 23:14:33 2015 UTC]
+EP:      0x4012a2 .text 0/5
+CRC:     Claimed: 0x71bfc, Actual: 0x71bfc 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x4a5b4L => OpenSSL
+   0x4a9abL => OpenSSL
+   0x4c52cL => OpenSSL
+   0x4c544L => OpenSSL
+   0x4c7cfL => OpenSSL
+   0x4a858L => SSLeay
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x670a0  0x380    LANG_ENGLISH SUBLANG_ENGLISH_US       8086 relocatable (Microsoft)
+RT_MANIFEST        0x67420  0x305    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x385c1      0x38600      6.625219    
+.rdata     0x3a000      0x1a5d2      0x1a600      5.344476    
+.data      0x55000      0x11b30      0xe800       1.620851    
+.rsrc      0x67000      0x728        0x800        4.857542    
+.reloc     0x68000      0x80c8       0x8200       4.567639    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2013 VMware, Inc.
+InternalName: vixDiskMountServer
+FileVersion: 5.5.3 build-2949415
+CompanyName: VMware, Inc.
+ProductName: VMware vCenter Converter Standalone
+ProductVersion: 5.5.3 build-2949415
+FileDescription: Virtual disk mount utility
+OriginalFilename: vixDiskMountServer.EXE
+Translation: 0x0409 0x04b0
+

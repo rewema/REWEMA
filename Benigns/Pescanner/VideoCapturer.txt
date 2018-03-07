@@ -1,0 +1,114 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6513152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     50f41070d8e330a4bad589b1e8fdccc8
+SHA1:    4c9e76283ba87e42a5756a0d3e207ba2585408e2
+ssdeep:  49152:bm+xbDoSktOpmLhgt3f47rDIb4CdZNWrVfYNHdAaIyogDod8Aokmu:JytUw7rDw4CgYFlI5V8u
+Date:    0x57FF2CCD [Thu Oct 13 06:42:21 2016 UTC]
+EP:      0x8f8c80 .itext 1/11 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x644c7b [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0x5a4e28 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0x5a4f5c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x5a5090 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x5a51c4 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x5a52f8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x5a542c 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x5a5560 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_CURSOR          0x5a5694 0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          PCX ver. 2.5 image data
+RT_CURSOR          0x5a57c8 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5a58fc 0x4066   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x5a9964 0x2668   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5abfcc 0x1128   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5ad0f4 0x9b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x5adaac 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x5adf14 0x15c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5ae070 0x298    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x5ae308 0x52c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5ae834 0x400    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5aec34 0x274    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7602293 records)
+RT_STRING          0x5aeea8 0x12c    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x5aefd4 0x338    LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration  - version t
+RT_STRING          0x5af30c 0x46c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5af778 0x5a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5afd1c 0x3bc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b00d8 0x2b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b0388 0xc8     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x5b0450 0x118    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b0568 0x484    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b09ec 0x394    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b0d80 0x444    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b11c4 0x330    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b14f4 0x5a0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b1a94 0x40c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b1ea0 0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b21ac 0x364    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b2510 0x420    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b2930 0x2b0    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 index file
+RT_STRING          0x5b2be0 0xb8     LANG_NEUTRAL SUBLANG_NEUTRAL          Hitachi SH big-endian COFF object, not stripped
+RT_STRING          0x5b2c98 0xd0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b2d68 0x354    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b30bc 0x3a4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b3460 0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x5b37c8 0x314    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x5b3adc 0x627e   LANG_ENGLISH SUBLANG_ENGLISH_US       JPEG image data, JFIF standard 1.01
+RT_RCDATA          0x5b9d5c 0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          Sendmail frozen configuration 
+RT_RCDATA          0x5b9d6c 0x104c   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x5badb8 0x2      LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 data file
+RT_RCDATA          0x5badbc 0x434    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x5bb1f0 0xe77    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x5bc068 0x10e    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x5bc178 0x6f7    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0x5bc870 0x47f96  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_RCDATA          0x604808 0x5144a  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_CURSOR    0x655c54 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x655c68 0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          Lotus 1-2-3
+RT_GROUP_CURSOR    0x655c7c 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x655c90 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x655ca4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x655cb8 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x655ccc 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x655ce0 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_CURSOR    0x655cf4 0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       Lotus 1-2-3
+RT_GROUP_ICON      0x655d08 0x4c     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 5 icons, 256-colors
+RT_VERSION         0x655d54 0x13c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x655e90 0x2ca    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteA
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x4f4140     0x4f4200     6.384826    
+.itext     0x4f6000     0x2e24       0x3000       6.245827    
+.data      0x4f9000     0x6fa0       0x7000       4.644839    
+.bss       0x500000     0x19cdc      0x0          0.000000    [SUSPICIOUS]
+.idata     0x51a000     0x5556       0x5600       5.280618    
+.didata    0x520000     0x1c98       0x1e00       4.613109    
+.edata     0x522000     0x66         0x200        1.232311    
+.tls       0x523000     0x44         0x0          0.000000    [SUSPICIOUS]
+.rdata     0x524000     0x5d         0x200        1.365756    
+.reloc     0x525000     0x7e084      0x7e200      6.699616    
+.rsrc      0x5a4000     0xb2200      0xb2200      6.202277    
+
+Version info
+================================================================================
+FileVersion: 1.0.0.3
+ProductVersion: 1.0.0
+Translation: 0x0804 0x03a8
+

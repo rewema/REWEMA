@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    332800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4f05a0fb9279ac4dd3d3454dc5be57d7
+SHA1:    97495d8734d7c7c0db144105ae8d5b1bc9ec2459
+ssdeep:  6144:LjVwq1lk+y+9/TJla013/nABOnVKXl0JXG/lWVbPyNpFU/LJ5:Xrlk+ySTLa01PnDnVml0JXG/lMbPyNkr
+Date:    0x57898D8F [Sat Jul 16 01:27:43 2016 UTC]
+EP:      0x4476f0 .text 0/6
+CRC:     Claimed: 0x579de, Actual: 0x579de 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x53dd0  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0x53988  0x442    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x535e8  0x3a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x53160  0x485    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x47848      0x47a00      6.496307    
+.data      0x49000      0x55d4       0x200        1.842588    
+.idata     0x4f000      0x249c       0x2600       5.537854    
+.tls       0x52000      0x9          0x200        0.000000    
+.rsrc      0x53000      0xec0        0x1000       4.262957    
+.reloc     0x54000      0x5b34       0x5c00       6.816162    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: rdpclip.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: RDP Clipboard Monitor
+OriginalFilename: rdpclip.exe
+Translation: 0x0409 0x04b0
+

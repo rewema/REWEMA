@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    65024 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     f947248406f262a426efccb945eca635
+SHA1:    f568789d5ea4d86645dd2c6dda36f52e2ed8d4d4
+ssdeep:  1536:1pkDEMe6iXYVHOyjw8Mojw8vPioPoN0XjKNCC6OKJhe6hyBri14pmc:1pMnYM9MywAgGX+NCC6O2Ij7pmc
+Date:    0x5789916D [Sat Jul 16 01:44:13 2016 UTC]
+EP:      0x40d6d0 .text 0/6
+CRC:     Claimed: 0x1b032, Actual: 0x1b032 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x11380  0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x110a0  0x2dc    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xcf84       0xd000       5.536740    
+.data      0xe000       0x604        0x200        0.183339    [SUSPICIOUS]
+.idata     0xf000       0xfe8        0x1000       5.025685    
+.didat     0x10000      0x14         0x200        0.213101    [SUSPICIOUS]
+.rsrc      0x11000      0x730        0x800        4.117334    
+.reloc     0x12000      0xd70        0xe00        6.400592    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MuiUnattend.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: MUI unattend action
+OriginalFilename: MuiUnattend.exe
+Translation: 0x0409 0x04b0
+

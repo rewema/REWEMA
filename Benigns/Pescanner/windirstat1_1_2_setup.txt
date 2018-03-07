@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    645729 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     3abf1c149873e25d4e266225fbf37cbf
+SHA1:    6fa92dd2ca691c11dfbfc0a239e34369897a7fab
+ssdeep:  12288:yCjeMsiGVBKvjxTNlZaLlcMj+wXZvQpd9nP2+ZMU2tYspZcMwr/GNd35:yCjeTZa7BTsxewXZUTP2HU2yawjY5
+Date:    0x46D055C4 [Sat Aug 25 16:16:04 2007 UTC]
+EP:      0x403265 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0xa6596 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x2e328  0x666    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e990  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2eef8  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f7a0  0x120    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2f8c0  0x158    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fa18  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fc20  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fd18  0xa0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fdb8  0xd4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x2fe90  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2ff80  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 16x16, 256-colors
+RT_VERSION         0x2ffa8  0x19c    LANG_GERMAN  SUBLANG_GERMAN           data
+RT_VERSION         0x30148  0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       DOS executable (COM)
+RT_MANIFEST        0x304d8  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5966       0x5a00       6.453660    
+.rdata     0x7000       0x1190       0x1200       5.180946    
+.data      0x9000       0x1aff8      0x400        5.065884    
+.ndata     0x24000      0xa000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x2e000      0x26f0       0x2800       4.098716    
+
+Version info
+================================================================================
+Comments: Diese Datei enth\xe4lt sowohl die Unicode- als auch die ANSI-Version von WinDirStat
+Translation: 0x0409 0x0000
+

@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    61440 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     54889c8a366733c5d8fb302386e9b4c3
+SHA1:    6d7c6e8117c87aeb001c9d72a755780ba6c67602
+ssdeep:  768:o/h5HTVd7dFUYeVGse15I8TJhg/PklD3WiYhJ5v7V1WFbNsb:o/nz77dFUYTI8TkP/XhJBV1WzQ
+Date:    0x4EF9FF9C [Tue Dec 27 17:25:48 2011 UTC]
+EP:      0x40fafe .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1009a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x12478  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x129e0  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x12130  0x348    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x129f8  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xdb04       0xdc00       5.427221    
+.sdata     0x10000      0x74         0x200        1.655346    
+.rsrc      0x12000      0xbe8        0xc00        2.961557    
+.reloc     0x14000      0xc          0x200        0.061163    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 1.0.0.0
+InternalName: io_workload_generation.exe
+FileVersion: 1.0.0.0
+Comments: workload analysis tool
+ProductName: workload analysis tool
+ProductVersion: 1.0.0.0
+FileDescription: i/o workload generation
+OriginalFilename: io_workload_generation.exe
+

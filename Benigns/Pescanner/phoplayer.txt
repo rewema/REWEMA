@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    121344 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     330d081a4b17170eed7415d0aaeb8cb4
+SHA1:    47964cd8e1eb6bc151e8f3a20b37ce92e6636d06
+ssdeep:  1536:GoLo71otewt8OtJvhSMQMIKNu+mnv0vzETjreCWc/Wna/mcfLeXgtHew:P87Gt7RtJp9MKNeozETjCCOWHfOgdew
+Date:    0x360899C0 [Wed Sep 23 06:48:32 1998 UTC] [SUSPICIOUS]
+EP:      0x402650 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x23807 [SUSPICIOUS]
+Packers: InstallShield 2000
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x24160  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x24448  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_STRING          0x24928  0x218    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x24570  0x22     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x24594  0x394    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x13032      0x13200      6.538170    
+.rdata     0x15000      0x40c0       0x4200       4.058353    
+.data      0x1a000      0x7034       0x3c00       1.784953    
+.idata     0x22000      0x195e       0x1a00       5.494203    
+.rsrc      0x24000      0xb40        0xc00        3.641279    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1997-1998 Facult\xe9 Polytechnique de Mons - TCTS Lab
+InternalName: PhoPlayer
+FileVersion: 1, 3, 0, 0
+CompanyName: Facult\xe9 Polytechnique de Mons - TCTS Lab
+Comments: Author : Alain Ruelle
+ProductName: PhoPlayer
+ProductVersion: 1, 3, 0, 0
+FileDescription: PhoPlayer
+OriginalFilename: PhoPlayer.exe
+Translation: 0x0409 0x04b0
+

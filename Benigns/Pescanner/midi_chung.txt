@@ -1,0 +1,41 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1254912 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9da1f07fd04eb7648fa58a53bbfdaf71
+SHA1:    e7ba6e66a9932c75cae886447e339308349d8eab
+ssdeep:  12288:x0jlRaDEsiyAWY95I+ArFGAzjtbkjxWQmgd4uAsXjqwmqYT2XstF:x0fxsiytYrIxrFzbktWmAsXjJYTJt
+Date:    0x2BE99131 [Thu May  6 22:29:05 1993 UTC] [SUSPICIOUS]
+EP:      0x410210 .text 0/8
+CRC:     Claimed: 0x0, Actual: 0x13a1dc [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x600e8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x603d0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_MANIFEST        0x603e4  0x173    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with CRLF line terminators
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x10000      0x2591       0x2600       6.317913    
+.bss       0x20000      0x1470       0x0          0.000000    [SUSPICIOUS]
+.rdata     0x30000      0xc          0x200        0.180244    [SUSPICIOUS]
+.data      0x40000      0x220c       0x2400       1.852987    
+.idata     0x50000      0x3da        0x400        4.947270    
+.rsrc      0x60000      0x557        0x600        3.960601    
+.reloc     0x70000      0x6dc        0x800        2.935467    
+.vimage    0x80000      0x12c400     0x12c400     5.360188    
+

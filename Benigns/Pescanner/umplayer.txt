@@ -1,0 +1,74 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    3696632 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d0dd5d3f56fea79c479c52bed6707705
+SHA1:    c9746b76fbee9bba78b9e39de4ffc75f16e81bce
+ssdeep:  98304:fUvdNCp6Bs3cFIY2jqq0ONTzFJBVQ1qAz2XUfyENLkTE3dWYTXXB3ngPG6itEn9w:MFNbBmcbq0ONTzFtQXz2XUfPCgdWqHBJ
+Date:    0x4DDA33CF [Mon May 23 10:15:43 2011 UTC]
+EP:      0x4012a0 .text 0/6
+CRC:     Claimed: 0x3956b0, Actual: 0x3956b0 
+Packers: MinGW GCC 3.x
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x3121a1L => deflate
+   0x3121c3L => Jean-loup Gailly
+   0x3122c1L => inflate
+   0x3122e3L => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x35267c 0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x352ce4 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x352fcc 0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3531b4 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3532dc 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x354184 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x354a2c 0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3550f4 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x35565c 0xa875   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x35fed4 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x36247c 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x363524 0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x363eac 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x364314 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3651bc 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x365a64 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x365fcc 0x8c69   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x36ec38 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x372e60 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x375408 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3764b0 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x376918 0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3777c0 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x378068 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3785d0 0x9cd3   LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x3822a4 0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3864cc 0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x388a74 0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x389b1c 0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x389f84 0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_GROUP_ICON      0x38a040 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 48x48, 256-colors
+RT_GROUP_ICON      0x38a0b8 0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 48x48, 256-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2100f4     0x210200     6.074560    
+.data      0x212000     0x10d624     0x10d800     7.609525    [SUSPICIOUS]
+.rdata     0x320000     0x1c3f4      0x1c400      4.577269    
+.bss       0x33d000     0x554        0x0          0.000000    [SUSPICIOUS]
+.idata     0x33e000     0x13bb0      0x13c00      5.928261    
+.rsrc      0x352000     0x38130      0x38200      7.427270    [SUSPICIOUS]
+

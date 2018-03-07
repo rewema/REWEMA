@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20992 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     8d63da95248dca40c07468381742685f
+SHA1:    5a64435ec19e3e37602c0a6d324e6878fb2fb736
+ssdeep:  384:ooSa9oNwCUEZ+QuZV9bwjzq5ddVWvNzLW:Y2EMNsYzY
+Date:    0x4A5BCB06 [Tue Jul 14 00:02:14 2009 UTC]
+EP:      0x1003d0d .text 0/4
+CRC:     Claimed: 0xbfa5, Actual: 0xbfa5 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x7748   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x73a8   0x39c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x70f0   0x2b4    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x38dc       0x3a00       6.252982    
+.data      0x5000       0x18d4       0x400        5.268023    
+.rsrc      0x7000       0x810        0xa00        3.762395    
+.reloc     0x8000       0x410        0x600        3.544396    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: shadow
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Session Remote Control Utility
+OriginalFilename: shadow.exe
+Translation: 0x0409 0x04b0
+

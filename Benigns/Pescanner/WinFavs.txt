@@ -1,0 +1,54 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    893952 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     595de93e069c25f6cd82cc2f8d054039
+SHA1:    4c71aa26c9bf09c7c9e5cc1ee93048f5764a3e8d
+ssdeep:  12288:qP1N+9mcmwF8eFFMA8GmZpcFGA7fNuNpSLOj3n:qP1N+x8eFeJQUKuw
+Date:    0x5450F328 [Wed Oct 29 14:01:12 2014 UTC]
+EP:      0x4c0eee .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xe8cf4 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xc25f8  0x17b9   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xc3db8  0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xd45e0  0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xd8808  0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdadb0  0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdbe58  0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdc7e0  0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0xdcc48  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 7 icons, 256-colors
+RT_VERSION         0xc2250  0x3a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xdccb0  0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xbeef4      0xbf000      6.802426    
+.rsrc      0xc2000      0x1aea0      0x1b000      2.724403    
+.reloc     0xde000      0xc          0x200        0.077633    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 2011-2014
+Assembly Version: 1.2.6.0
+InternalName: WinFavs.exe
+FileVersion: 1.2.6.0
+CompanyName: VBTheory Programs
+LegalTrademarks: You choose what we make
+Comments: Easily manage your Windows favorites
+ProductName: WinFavs
+ProductVersion: 1.2.6.0
+FileDescription: WinFavs
+OriginalFilename: WinFavs.exe
+

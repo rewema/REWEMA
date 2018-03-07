@@ -1,0 +1,99 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1196032 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     17fb377264039c7e42b2abc9fb2b0acf
+SHA1:    ad80a5f8890d9d9d5a5c21112bb1e5307415e4c8
+ssdeep:  24576:WHLmtauFLDTmcPyx80y5qlyAog8hQRUSMkmV2knK1djeigEvfR++L:WHEDycqLbZJjyEt
+Date:    0x3F0380C4 [Thu Jul  3 01:03:00 2003 UTC]
+EP:      0x404164 .text 0/3
+CRC:     Claimed: 0x13292e, Actual: 0x13292e 
+
+Signature scans
+================================================================================
+YARA: irc
+   0x16284L => Join
+   0x42100L => Join
+   0x42a9eL => join
+   0x55a2dL => join
+   0x5c1a4L => Join
+   0x2124L => mSG
+   0x2128L => mSG
+   0x5be28L => Msg
+   0x1fc60L => Nick
+   0x422d4L => Nick
+   0x5c1c8L => Nick
+   0x427c4L => Notice
+   0x5c20cL => Notice
+   0x1628cL => Part
+   0x4219cL => Part
+   0x49bc4L => part
+   0x49be8L => part
+   0x4befdL => part
+   0x4bf21L => part
+   0x4e7a0L => part
+   0x4e7c4L => part
+   0x50ec0L => part
+   0x50ee4L => part
+   0x53362L => part
+   0x53386L => part
+   0x5c1b0L => Part
+   0x42238L => Quit
+   0x5c1bcL => Quit
+   0xfb74L => Chat
+   0x55e2fL => chat
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0x1279cc 0x1fd0   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1259fc 0x1fd0   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x123a2c 0x1fd0   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xfdeb8  0x25b74  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xfc974  0x1544   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xfb430  0x1544   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xf9eec  0x1544   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xf90b0  0xe3c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xf6654  0x2a5c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xf3bf8  0x2a5c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xf119c  0x2a5c   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xeb188  0x6014   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xe5174  0x6014   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xdf160  0x6014   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xdebf8  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xde890  0x368    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xddfe8  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdd340  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdc498  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xda7f0  0x1ca8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xda794  0x5c     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0xda490  0x304    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xd1e9c      0xd2000      6.052468    
+.data      0xd3000      0x6b2c       0x1000       0.000000    
+.rsrc      0xda000      0x4f99c      0x50000      4.886891    
+
+Version info
+================================================================================
+Translation: 0x0409 0x04b0
+LegalCopyright: Copyright \xa9 2000-2003 Kim Tore Jensen
+InternalName: airc2
+FileVersion: 2.00.0004
+CompanyName: Kim Tore Jensen
+Comments: airc
+ProductName: Advanced IRC
+ProductVersion: 2.00.0004
+FileDescription: Advanced IRC
+OriginalFilename: airc2.exe
+

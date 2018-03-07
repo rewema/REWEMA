@@ -1,0 +1,55 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    212992 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     99a291b0f96f338f4997a86370ddcf52
+SHA1:    6320cec1d5df01c8db1339a6896e6b24ff3e9ebd
+ssdeep:  3072:lAWJ1PbMdvHRGECo3a8iqiR9WtlappqxnRgbQlMG:hJJMd5iR+oppmRgbFG
+Date:    0x408A61BA [Sat Apr 24 12:46:50 2004 UTC]
+EP:      0x41167c .text 1/6
+CRC:     Claimed: 0x0, Actual: 0x3a250 [SUSPICIOUS]
+Packers: Microsoft Visual C++ V8.0 (Debug)
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x376c0  0x2e8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x379a8  0x128    LANG_CZECH   SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x37ad0  0xea8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x38978  0x8a8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x39220  0x568    LANG_CZECH   SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x39788  0x25a8   LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x3bd30  0xca8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x3c9d8  0x468    LANG_CZECH   SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x3ceb8  0x2e8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x3d1a0  0x128    LANG_CZECH   SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x3d2c8  0xea8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x3e170  0x8a8    LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x3ea18  0x568    LANG_CZECH   SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_ICON            0x3ef80  0x25a8   LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x41528  0x10a8   LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ICON            0x425d0  0x468    LANG_CZECH   SUBLANG_DEFAULT          GLS_BINARY_LSB_FIRST
+RT_MENU            0x42ab0  0x4a     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_DIALOG          0x42b10  0xee     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_STRING          0x42c00  0x3c     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_ACCELERATOR     0x42b00  0x10     LANG_CZECH   SUBLANG_DEFAULT          data
+RT_GROUP_ICON      0x3ce40  0x76     LANG_CZECH   SUBLANG_DEFAULT          MS Windows icon resource - 8 icons, 32x32, 16-colors
+RT_GROUP_ICON      0x42a38  0x76     LANG_CZECH   SUBLANG_DEFAULT          MS Windows icon resource - 8 icons, 32x32, 16-colors
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.textbss   0x1000       0x10000      0x0          0.000000    [SUSPICIOUS]
+.text      0x11000      0x1b964      0x1c000      5.513434    
+.rdata     0x2d000      0x313c       0x4000       3.347385    
+.data      0x31000      0x35e8       0x2000       1.788313    
+.idata     0x35000      0x11f2       0x2000       3.171636    
+.rsrc      0x37000      0xe18c       0xf000       3.539309    
+

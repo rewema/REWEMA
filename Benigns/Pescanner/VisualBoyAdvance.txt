@@ -1,0 +1,123 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1757264 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     a75bd3433e4447a609af0411d68f5261
+SHA1:    789fefa5cfe136624c01e51d1d4a2fbcb13b3ce3
+ssdeep:  24576:aDX6pyEbbB+FX213B51TdDJD3XvHMG2h05mhJi9TlfLrjqPDWi1UYxf3gmjwypwF:22yEbbB+FoxbD5xlj3qPDWPYtg2hSd
+Date:    0x40B3DB1F [Tue May 25 23:47:43 2004 UTC]
+EP:      0x54bc88 .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x1b3a13 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x15afa1L => deflate
+   0x15afc3L => Jean-loup Gailly
+   0x15bacdL => inflate
+   0x15baefL => Mark Adler
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x3950c8 0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x3951f0 0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x395758 0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x395a40 0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0x39d778 0x1ace   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x396520 0x22e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x396ef0 0x528    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x397418 0x2c0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x396750 0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x396ad8 0x418    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3976d8 0x2f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3979d0 0x1e6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x397bb8 0x2d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x397e90 0x440    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3982d0 0x24c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x398520 0x11a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x398640 0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3987d8 0x196    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x398970 0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x398af8 0xc6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x396328 0x1f6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x398bc0 0x6c2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x399288 0x436    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3996c0 0x29e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x399960 0x4fe    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x399e60 0x29c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39a100 0x4b6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39a5b8 0x292    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39a850 0x722    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39af78 0x10a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39b088 0xe6     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39b170 0x2b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39b428 0x186    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39b5b0 0x134    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39b6e8 0x102    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39b7f0 0xfe     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39b8f0 0x10e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39ba00 0x3b2    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39bdb8 0x480    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39c238 0x430    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39c668 0x4ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39cb28 0x42a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39cf58 0x116    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39d070 0x182    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39d1f8 0x322    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39d520 0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39d690 0xe8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x39f688 0x482    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x39fb10 0x43a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a0fb8 0x384    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x39ff50 0x4d0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a0420 0x258    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a0678 0x204    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a0880 0x1a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a0a28 0x58c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a1340 0x578    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a18b8 0x464    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x3a1d20 0x308    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ACCELERATOR     0x39f248 0x1a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3962e8 0x3e     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 4 icons, 16x16, 16-colors
+RT_VERSION         0x394c70 0x454    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x39f3e8 0x2a0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0xd000       0x149f55     0x14a000     6.538903    
+.rdata     0x157000     0x9bab       0xa000       5.850810    
+.data      0x161000     0x208310     0x13000      4.705817    
+.data1     0x36a000     0x29680      0x2a000      4.564896    
+.rsrc      0x394000     0xe028       0xf000       3.684763    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2004 Forgotten and the VBA team
+InternalName: VisualBoyAdvance
+FileVersion: 1, 7, 2, 560
+CompanyName: None
+PrivateBuild: 0
+LegalTrademarks: 
+Comments: VisualBoyAdvance comes with NO WARRANTY. Use it at your own risk.
+ProductName: VisualBoyAdvance emulator
+SpecialBuild: 0
+ProductVersion: 1, 7, 2, 560
+FileDescription: VisualBoyAdvance emulator
+OriginalFilename: VisualBoyAdvance.exe
+Translation: 0x0409 0x04b0
+

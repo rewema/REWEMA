@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    16384 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit Mono/.Net assembly
+MD5:     9666fc8afa23c5ee67eb24cdec0036ec
+SHA1:    1cb9977b16f88c525e9ef0f3ee635de64b376659
+ssdeep:  48:6tQzgomg8DMNTimFbclm6IEX/E2Rlw3ntJT2gPpOPulX/0MZYKq:WbIclmnRzqgRN0M
+Date:    0x40957958 [Sun May  2 22:42:32 2004 UTC]
+EP:      0x40278e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x4cd2 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4058   0x2cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x794        0x1000       2.662227    
+.rsrc      0x4000       0x328        0x1000       0.804188    [SUSPICIOUS]
+.reloc     0x6000       0xc          0x1000       0.013127    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright:  
+Assembly Version: 0.0.0.0
+InternalName: Audio.exe
+FileVersion: 0.0.0.0
+CompanyName:  
+LegalTrademarks:  
+Comments:  
+ProductName:  
+ProductVersion: 0.0.0.0
+FileDescription:  
+OriginalFilename: Audio.exe
+

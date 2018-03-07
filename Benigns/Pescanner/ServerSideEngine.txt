@@ -1,0 +1,40 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    21504 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     114f358aa85c12cbbd69ba5979753d8c
+SHA1:    475cc2d18ae0f557f890b4b9c66a138104008330
+ssdeep:  384:yDOvKKaZMp81YyWJ0mABZKBZRTMBsbL2RC0rh+FXepxN7RTkOTaNEU7:yDLpZJ1rBZKBZR4B1Drh+2xN9TkOTaNZ
+Date:    0x4595038D [Fri Dec 29 12:01:17 2006 UTC]
+EP:      0x40278a .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1373a [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+PYTHONSCRIPT       0x60bc   0x1c49   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_VERSION         0x7d08   0x1c0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1a6a       0x1c00       6.077407    
+.rdata     0x3000       0x63a        0x800        4.058621    
+.data      0x4000       0x12dc       0xc00        4.420800    
+.rsrc      0x6000       0x1ec8       0x2000       4.933090    
+
+Version info
+================================================================================
+ProductVersion: 1
+FileVersion: 1
+OriginalFilename: ServerSideEngine.exe
+ProductName: ServerSideEngine
+Translation: 0x0409 0x04b0
+

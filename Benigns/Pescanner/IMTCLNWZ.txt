@@ -1,0 +1,73 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    73728 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     4ac577aa97f4b3322fe5dd84abccf7eb
+SHA1:    d4e34bd1449caa5bf4ec887a2e6187741efe8a76
+ssdeep:  1536:7+fVB6Anwd2N6S716+sEN7Mn+isRoXtTmEoBAETqbboxjNqcG5yObqB:7+tAAnwd3y16+sEN7Mn+isRSTJoBAETh
+Date:    0x57899143 [Sat Jul 16 01:43:31 2016 UTC]
+EP:      0x409af0 .text 0/5
+CRC:     Claimed: 0x13d85, Actual: 0x13d85 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0xea88   0xe1c    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_BITMAP          0xf8a8   0x1428   LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_ICON            0x10cd0  0x2e8    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_ICON            0x10fb8  0x8a8    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_ICON            0x11860  0x128    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL GLS_BINARY_LSB_FIRST
+RT_ICON            0x11988  0x568    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x12068  0x170    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x125f0  0x170    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x121d8  0x1d6    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x12760  0x1d6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x123b0  0x72     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x12938  0x72     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12428  0xfa     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x129b0  0x12e    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x12528  0xc8     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_DIALOG          0x12ae0  0x106    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x11f30  0x138    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x12be8  0x1a8    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x13198  0x4ba    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x12d90  0x3de    LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x13658  0x6f4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x13170  0x24     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL data
+RT_STRING          0x13d50  0x2c     LANG_ENGLISH SUBLANG_ENGLISH_US       DBase 3 index file
+RT_GROUP_ICON      0x11ef0  0x3e     LANG_CHINESE SUBLANG_CHINESE_TRADITIONAL MS Windows icon resource - 4 icons, 32x32, 16-colors
+RT_VERSION         0xe6f0   0x398    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xe540   0x1b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x9a54       0x9c00       6.254264    
+.data      0xb000       0x8fc        0x400        2.803491    
+.idata     0xc000       0x100c       0x1200       5.000245    
+.rsrc      0xe000       0x5d80       0x5e00       4.723034    
+.reloc     0x14000      0xa98        0xc00        6.299334    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: IMTCLNWZ.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: IMTCLNWZ.exe
+OriginalFilename: IMTCLNWZ.exe
+Translation: 0x0409 0x04b0
+

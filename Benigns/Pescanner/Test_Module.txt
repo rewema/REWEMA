@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    55200 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     9840c61de1090124f2d03b7b201a7c0c
+SHA1:    124464bb629ebe983b66325bee6e27659489ba34
+ssdeep:  768:gIkWVJfqrRknRtk+Q/MjAe+Z+fSW7Icfz0D3zVhFS6sekJcagO:Jfrk+cM8+gcfz0DjVVkJrgO
+Date:    0x43D67530 [Tue Jan 24 18:42:56 2006 UTC]
+EP:      0x40316d .text 0/5
+CRC:     Claimed: 0x0, Actual: 0x15d20 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x381f0  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3c418  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x3d4c0  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_DIALOG          0x3d928  0x202    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3db30  0xf8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x3dc28  0xee     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x3dd18  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 64x64, 256-colors
+RT_MANIFEST        0x3dd48  0x215    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c00       0x5c00       6.491026    
+.rdata     0x7000       0x11fa       0x1200       5.272693    
+.data      0x9000       0x260d4      0x400        5.214486    
+.ndata     0x30000      0x8000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x38000      0x6000       0x6000       3.161901    
+

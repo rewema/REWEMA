@@ -1,0 +1,240 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    5311168 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     deaf3a934bdd919ab4efaf63e6996c4a
+SHA1:    0e540f6c7d4e4e926b078c9efbc47352ffe26529
+ssdeep:  98304:8d9p33viTsp7xYBBlWVTVQet2uBsMfZuj2evK4qmihYer:8T1ABBlWVTVQet2uBsM+vK4fiDr
+Date:    0x562445B7 [Mon Oct 19 01:21:59 2015 UTC]
+EP:      0x69727a99 .text 0/5
+CRC:     Claimed: 0x51cc9e, Actual: 0x51cc9e 
+
+Signature scans
+================================================================================
+YARA: encoding
+   0x33c440L => deflate
+   0x34f3b1L => deflate
+   0x34f3d3L => Jean-loup Gailly
+   0x33c669L => inflate
+   0x34bdd8L => inflate
+   0x3509b1L => inflate
+   0x3509d3L => Mark Adler
+   0x31a2fbL => OpenSSL
+   0x31a6f8L => OpenSSL
+   0x31a710L => OpenSSL
+   0x31acb7L => OpenSSL
+   0x31a168L => SSLeay
+YARA: irc
+   0x2ce180L => msg
+   0x2d0d25L => msg
+   0x2f0348L => msg
+   0x2f036cL => msg
+   0x2f0390L => msg
+   0x2f03a8L => msg
+   0x2f03ccL => msg
+   0x2f03f0L => msg
+   0x2f0408L => msg
+   0x2f0430L => msg
+   0x2f0458L => msg
+   0x2f0474L => msg
+   0x2f0498L => msg
+   0x2f04c0L => msg
+   0x2f07b0L => msg
+   0x2f0ac8L => msg
+   0x2f0d18L => msg
+   0x2f0d68L => msg
+   0x2f0d98L => msg
+   0x2f5b88L => msg
+   0x2f7a00L => msg
+   0x2f89f6L => msg
+   0x2f9540L => msg
+   0x2f9fd0L => msg
+   0x2fa048L => msg
+   0x2fa3f0L => msg
+   0x2fa730L => msg
+   0x2fe0f0L => msg
+   0x2fe320L => msg
+   0x2fe340L => msg
+   0x2fe4b8L => msg
+   0x2fe4e0L => msg
+   0x2fe548L => msg
+   0x2fe63cL => msg
+   0x2feb98L => msg
+   0x30bb18L => msg
+   0x30bb80L => msg
+   0x30bbd0L => msg
+   0x30bc08L => msg
+   0x30bc54L => msg
+   0x30bc84L => msg
+   0x30bcbcL => msg
+   0x30bcf0L => msg
+   0x30bd20L => msg
+   0x30bd68L => msg
+   0x30bda8L => msg
+   0x30bdd8L => msg
+   0x30be0cL => msg
+   0x30be40L => msg
+   0x30d238L => msg
+   0x30d2a8L => msg
+   0x30e214L => msg
+   0x30e27cL => msg
+   0x30e2bcL => msg
+   0x30e2fcL => msg
+   0x30e32cL => msg
+   0x30e368L => msg
+   0x30e3b0L => msg
+   0x30e3e8L => msg
+   0x30e428L => msg
+   0x30e458L => msg
+   0x30e48cL => msg
+   0x30e4b0L => msg
+   0x30e4f4L => msg
+   0x30e5e8L => msg
+   0x311a70L => msg
+   0x311ae0L => msg
+   0x314b0aL => msg
+   0x315088L => msg
+   0x3150d0L => msg
+   0x320888L => msg
+   0x32e540L => msg
+   0x32e544L => msg
+   0x32e574L => msg
+   0x32e578L => msg
+   0x32e5b4L => msg
+   0x32e5b8L => msg
+   0x32e5ecL => msg
+   0x32e5f0L => msg
+   0x32e620L => msg
+   0x32e624L => msg
+   0x32e654L => msg
+   0x32e658L => msg
+   0x32e670L => msg
+   0x32e674L => msg
+   0x32e690L => msg
+   0x32e694L => msg
+   0x32e7beL => msg
+   0x32e7fcL => Msg
+   0x32e840L => msg
+   0x32e8c8L => msg
+   0x32e8ccL => msg
+   0x32e904L => msg
+   0x32e908L => msg
+   0x32e928L => msg
+   0x32e92cL => msg
+   0x32e9e8L => Msg
+   0x32ea00L => msg
+   0x32ea04L => msg
+   0x32ea2cL => msg
+   0x32ea30L => msg
+   0x32ea68L => MSG
+   0x32ea74L => msg
+   0x32ea88L => msg
+   0x32ea94L => Msg
+   0x32ed88L => msg
+   0x32ee00L => msg
+   0x32ee78L => msg
+   0x32eee0L => msg
+   0x32ef50L => msg
+   0x32efb8L => msg
+   0x32f030L => msg
+   0x32f0a0L => msg
+   0x32f0f0L => msg
+   0x32f148L => msg
+   0x32f1c8L => msg
+   0x32f2b0L => msg
+   0x32f2f8L => msg
+   0x32f338L => msg
+   0x32f398L => msg
+   0x32f410L => msg
+   0x32f488L => msg
+   0x32f4f8L => msg
+   0x32f550L => msg
+   0x32f5a0L => msg
+   0x32f5f8L => msg
+   0x32f670L => msg
+   0x32f6d8L => msg
+   0x32f750L => msg
+   0x32f7a0L => msg
+   0x32f7e8L => msg
+   0x32f850L => msg
+   0x32f8b0L => msg
+   0x32f910L => msg
+   0x32fa50L => msg
+   0x32faa0L => msg
+   0x32faf8L => msg
+   0x32fb3cL => msg
+   0x32fbe0L => msg
+   0x32fd58L => msg
+   0x32fdb8L => msg
+   0x32fe48L => msg
+   0x335fa4L => msg
+   0x4c7544L => msg
+   0x4c7574L => msg
+   0x4c75acL => msg
+   0x4c75e4L => msg
+   0x4c7610L => msg
+   0x4c7630L => msg
+   0x4c7668L => msg
+   0x4c76a4L => msg
+   0x4c76ccL => msg
+   0x4c76fcL => msg
+   0x4c7740L => msg
+   0x4c7780L => msg
+   0x4c77c0L => msg
+   0x4c7868L => msg
+   0x4c9420L => msg
+   0x4c9450L => msg
+   0x4c9480L => msg
+   0x4c94a4L => msg
+   0x4c94e0L => msg
+   0x4c952cL => msg
+   0x4c9558L => msg
+   0x4c95a0L => msg
+   0x4c95dcL => msg
+   0x4c960cL => msg
+   0x4c9638L => msg
+   0x30fc08L => notice
+   0x31b9a3L => part
+   0x2f68f3L => Ping
+   0x33b174L => ping
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x5e70a0 0x33c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5e73dc 0x393    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text, with very long lines, with no line terminators
+
+Suspicious IAT alerts
+================================================================================
+OpenProcess
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2cbc4a     0x2cbe00     6.649435    
+.rdata     0x2cd000     0x20443c     0x204600     3.214286    
+.data      0x4d2000     0x114d9c     0xf600       3.666957    
+.rsrc      0x5e7000     0x770        0x800        4.915583    
+.reloc     0x5e8000     0x2e41a      0x2e600      6.212838    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1998-2015 VMware, Inc.
+InternalName: remotemks
+FileVersion: 12.0.1 build-3160714
+CompanyName: VMware, Inc.
+ProductName: VMware Workstation
+ProductVersion: 12.0.1 build-3160714
+FileDescription: VMware Remote MKS
+OriginalFilename: vmware-remoteMKS.exe
+Translation: 0x0409 0x04b0
+

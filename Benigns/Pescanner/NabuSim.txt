@@ -1,0 +1,63 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1909770 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     1979afc6028a3cd2f89dfb7237dec43a
+SHA1:    f9c6a9eb925811c81342d4336cd652c1b55d77f9
+ssdeep:  24576:mC+9WVbZ1RStKpEK6l0F4Fc1zGiDnVVXkq+KtiJQ3fEMnM9SYmHNs/w:mIp96l0F4FcX30q+KtiJQ3fEMp
+Date:    0x44BC13CC [Mon Jul 17 22:48:44 2006 UTC]
+EP:      0x401240 .text 0/8
+CRC:     Claimed: 0x1d30bf, Actual: 0x1d30bf 
+Packers: MinGW GCC 3.x
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x79284  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7a12c  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x7a9d4  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x7af3c  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8b764  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8dd0c  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8edb4  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x8f73c  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x8fba4  0x76     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 8 icons, 48x48, 256-colors
+RT_VERSION         0x8fc1c  0x2a0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x8febc  0x292    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x67638      0x67800      5.980899    
+.data      0x69000      0x280        0x400        0.982253    [SUSPICIOUS]
+.rdata     0x6a000      0x2d70       0x2e00       5.351591    
+.bss       0x6d000      0x9e70       0x0          0.000000    [SUSPICIOUS]
+.idata     0x77000      0x13c0       0x1400       5.068099    
+.rsrc      0x79000      0x17150      0x17200      6.593631    
+.stab      0x91000      0xfc60       0xfe00       4.079652    
+.stabstr   0xa1000      0xf2735      0xf2800      5.492508    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: nabusim
+FileVersion: 2.0.73
+CompanyName: 
+LegalTrademarks: 
+ProductName: NabuSim
+ProductVersion: 2.0.73
+FileDescription: Nabu Benchmark
+OriginalFilename: nabusim.exe
+Translation: 0x0415 0x04e4
+

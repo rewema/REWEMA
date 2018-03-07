@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    560480 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e9561b85d10ab524c23229534c2d36c8
+SHA1:    fb82352658b9d60f01dcaf17548495fd14aa277a
+ssdeep:  6144:n18r8C8yq7Rv4uGiOITw+jxjCKSjPvubSEmVBggW7yepu:n18r8vmuGxQ+KSrvubSdB1W7lp
+Date:    0x578990B7 [Sat Jul 16 01:41:11 2016 UTC]
+EP:      0x455890 .text 0/5
+CRC:     Claimed: 0x90cd7, Actual: 0x90cd7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x80060  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5dbaa      0x5dc00      6.224091    
+.rdata     0x5f000      0x1b81a      0x1ba00      4.416196    
+.data      0x7b000      0x4ad0       0x4600       5.441352    
+.rsrc      0x80000      0x428        0x600        2.485880    
+.reloc     0x81000      0x8438       0x8600       6.682122    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: BioEnrollmentHost
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Biometric Enrollment Host
+OriginalFilename: BioEnrollmentHost.exe
+Translation: 0x0409 0x04b0
+

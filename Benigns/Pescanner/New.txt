@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    6656 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     3341d8ca64593e2a5305d304a0192729
+SHA1:    b820316f7e42fba25fb9176a7587370b66d67b69
+ssdeep:  96:QLoSKa97nyX4bcoKFUqtRZHc8SNzXk0/jqMt0izNt:QLmUGI2UqtRZHcxAgeE
+Date:    0x4942A871 [Fri Dec 12 18:07:45 2008 UTC]
+EP:      0x402d2e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0xefa0 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x40a0   0x3ec    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x4490   0x1ea    LANG_NEUTRAL SUBLANG_NEUTRAL          XML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xd34        0xe00        4.933609    
+.rsrc      0x4000       0x680        0x800        3.582973    
+.reloc     0x6000       0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9  2007 Daywest Management, Inc.
+Assembly Version: 0.71.0.0
+InternalName: Bootstrap.exe
+FileVersion: 0.71.0.0
+CompanyName: Daywest Management, Inc.
+Comments: A sample bootstrap application for DDay.Update
+ProductName: DDay.Update.Bootstrap
+ProductVersion: 0.71.0.0
+FileDescription: DDay.Update.Bootstrap
+OriginalFilename: Bootstrap.exe
+

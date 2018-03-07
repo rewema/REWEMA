@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    451584 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386
+MD5:     d1795ecc50d3911e24c317868c142424
+SHA1:    99e7ee00ac43868491044dd00c35855bb8bc7b79
+ssdeep:  6144:L2SLTbTi75fJyCmOYy20UK/HpATS43i4mpjTJrRjIfVRY/+ZimmPEPFSS:L2S/ifyCmMf/JATS4SJJrRjm5v
+Date:    0x4650B8ED [Sun May 20 21:09:01 2007 UTC]
+EP:      0x401240 .text 0/7
+CRC:     Claimed: 0x73662, Actual: 0x79d7b [SUSPICIOUS]
+Packers: FreeBASIC 0.16b
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+JAVA               0x6f084  0x2691   LANG_ENGLISH SUBLANG_ENGLISH_US       Zip archive data, at least v1.0 to extract
+JAVA               0x71740  0x1b9    LANG_ENGLISH SUBLANG_ENGLISH_US       ASCII text
+JAVA               0x71924  0xb45    LANG_ENGLISH SUBLANG_ENGLISH_US       Zip archive data, at least v1.0 to extract
+RT_ICON            0x724b4  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x727c4  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x730b8  0x16     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_GROUP_ICON      0x73100  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x64624      0x64800      6.328787    
+.data      0x66000      0x1274       0x1400       3.695232    
+.bss       0x68000      0x49f0       0x0          0.000000    [SUSPICIOUS]
+.edata     0x6d000      0x1d8        0x200        5.108820    
+.idata     0x6e000      0xfd0        0x1000       5.075468    
+.rsrc      0x6f000      0x5000       0x4200       7.103034    [SUSPICIOUS]
+.reloc     0x74000      0x2f9c       0x3000       6.709897    
+

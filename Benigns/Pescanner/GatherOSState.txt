@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    564936 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     69a435aed59a6ea812882f17f841b81a
+SHA1:    eb0f946515f17a80ac8edb7a6e1aca9864801fa5
+ssdeep:  12288:mvUazhiSTe+ZqBDE6s6afXWDTyoiIKLhKDwaeuWWZNM0c5rPPjQijaYqAjgS6D9V:mvUazhiSTe+ZME6s6afXWvyBIKLhu3JH
+Date:    0x56EAA85E [Thu Mar 17 12:51:42 2016 UTC]
+EP:      0x4454de .text 0/5
+CRC:     Claimed: 0x93ac8, Actual: 0x93ac8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x84060  0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x80ccd      0x80e00      7.718868    [SUSPICIOUS]
+.data      0x82000      0x590        0x600        1.671998    
+.idata     0x83000      0xc14        0xe00        4.977793    
+.rsrc      0x84000      0x438        0x600        2.643714    
+.reloc     0x85000      0x33c4       0x3400       4.721147    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: GatherOsState
+FileVersion: 6.2.9200.17258 (win8_gdr_xp(liansun).151013-1830)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.2.9200.17258
+FileDescription: Gather Downlevel OS Activation State
+OriginalFilename: GatherOsState.EXE
+Translation: 0x0409 0x04b0
+

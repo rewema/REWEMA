@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    27848 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     282eb88049d5cec9b7f22d5e6afcb564
+SHA1:    03d2e3ad308b686bac64a86fc57f7298ebef4350
+ssdeep:  384:pFuLsAuXBJU+qa0Q1fU/WccSiW3FWT+10vq0GftpBjP+xT4bHRN7iXlgaX4t3:LuwAuxT2XxiiF+6bi/O
+Date:    0x5918D930 [Sun May 14 22:24:48 2017 UTC]
+EP:      0x401308 .text 0/5
+CRC:     Claimed: 0xbc93, Actual: 0x82a5 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x50a0   0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x5508   0x213    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1348       0x1400       6.175732    
+.rdata     0x3000       0x90e        0xa00        4.507982    
+.data      0x4000       0x3b0        0x200        0.323446    [SUSPICIOUS]
+.rsrc      0x5000       0x720        0x800        3.906369    
+.reloc     0x6000       0x1f4        0x200        6.223024    
+
+Version info
+================================================================================
+InternalName: smarttaginstall
+FileVersion: 16.0.8201.2025
+CompanyName: Microsoft Corporation
+LegalTrademarks1: Microsoft\xae is a registered trademark of Microsoft Corporation.
+LegalTrademarks2: Windows\xae is a registered trademark of Microsoft Corporation.
+ProductName: Microsoft Office 2016
+ProductVersion: 16.0.8201.2025
+FileDescription: Microsoft Office 2016 component
+MOSEVersion: BETA
+OriginalFilename: SmartTagInstall.exe
+Translation: 0x0000 0x04e4
+

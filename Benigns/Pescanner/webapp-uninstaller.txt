@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    86880 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     54faf9e6affa6ad27e305d8be13ec99c
+SHA1:    b3e7d48a1a82484add272fe9b5a48143f4116030
+ssdeep:  1536:x8DE/p+FNX2AdvND8fKb0DlXJEJnpWclF5mlIOy0kBVk8a2rZPAjGYhuM:x8Dsp+FNX1dFOvDlXJunpWclXmlOtLv4
+Date:    0x54336EB7 [Tue Oct  7 04:40:23 2014 UTC]
+EP:      0x4030e2 .text 0/5
+CRC:     Claimed: 0x161cc, Actual: 0x161cc 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x391a8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39490  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x39590  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x395f0  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0x39608  0x314    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x39920  0x305    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5df4       0x5e00       6.509628    
+.rdata     0x7000       0x12da       0x1400       5.100506    
+.data      0x9000       0x254b8      0x400        5.130222    
+.ndata     0x2f000      0xa000       0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x39000      0xc28        0xe00        4.037435    
+
+Version info
+================================================================================
+LegalCopyright: Mozilla Corporation
+FileVersion: 47.0.2
+CompanyName: Mozilla Corporation
+ProductName: Mozilla Webapp Runtime App Uninstaller
+ProductVersion: 47.0.2
+FileDescription: Mozilla Webapp Runtime App Uninstaller
+OriginalFilename: webapp-uninstaller.exe
+Translation: 0x0409 0x04e4
+

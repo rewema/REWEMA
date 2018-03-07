@@ -1,0 +1,64 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    179712 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d378bffb70923139d6a4f546864aa61c
+SHA1:    f00aa51c2ed8b2f656318fdc01ee1cf5441011a4
+ssdeep:  3072:9VexzTMlI0frxJLgf7nDVF6PUp1Yo3ICgxgV:9ExJex5gfzDVlVXgaV
+Date:    0x4A5BC60F [Mon Jul 13 23:41:03 2009 UTC]
+EP:      0x1003689 .text 0/4
+CRC:     Claimed: 0x39741, Actual: 0x39741 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x2e070  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0xf8a8   0x561a   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14ec8  0x668    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15530  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15818  0x1e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x15a00  0x128    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x15b28  0xea8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x169d0  0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17278  0x6c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x17940  0x568    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x17ea8  0x11958  LANG_ENGLISH SUBLANG_ENGLISH_US       PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x29800  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2bda8  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2ce50  0x988    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2d7d8  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x2dc40  0xbc     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 13 icons, 48x48, 16-colors
+RT_VERSION         0x2dd00  0x36c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf410   0x492    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteExW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa68c       0xa800       6.281718    
+.data      0xc000       0x2164       0x1000       0.761755    [SUSPICIOUS]
+.rsrc      0xf000       0x1f160      0x1f200      7.365259    [SUSPICIOUS]
+.reloc     0x2f000      0xe34        0x1000       6.432564    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: Notepad
+FileVersion: 6.1.7600.16385 (win7_rtm.090713-1255)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 6.1.7600.16385
+FileDescription: Notepad
+OriginalFilename: NOTEPAD.EXE
+Translation: 0x0409 0x04b0
+

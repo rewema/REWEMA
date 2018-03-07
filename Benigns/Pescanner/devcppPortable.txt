@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    174592 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     69c6f85696c5542e5596dc8c51262845
+SHA1:    48664047a2642cf3e3a0cb17033b992e22fddd1e
+ssdeep:  1536:MUbt4vOBit6TAHTGUrBtxE/TBvV8YuwTamg1+cVPMFc0SythGJeUXPOT7Zro:1bt6eiQ8HhBtxO9tg1lVPG7h1UXPkVr
+Date:    0x550EB0F0 [Sun Mar 22 12:09:20 2015 UTC]
+EP:      0x4014e0 .text 0/8
+CRC:     Claimed: 0x3610a, Actual: 0x3610a 
+
+TLS callbacks
+================================================================================
+    0x409310
+    0x4092c0
+    0x40d330
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x2d100  0x368    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x2d468  0xca8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x2e110  0x1ca8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x2fdb8  0x30     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 3 icons, 16x16, 256-colors
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1e12c      0x1e200      6.119472    
+.data      0x20000      0x4aa8       0x4c00       0.023792    [SUSPICIOUS]
+.rdata     0x25000      0x3638       0x3800       5.162125    
+.bss       0x29000      0x478        0x0          0.000000    [SUSPICIOUS]
+.idata     0x2a000      0xc3c        0xe00        4.809373    
+.CRT       0x2b000      0x38         0x200        0.318832    [SUSPICIOUS]
+.tls       0x2c000      0x20         0x200        0.224820    [SUSPICIOUS]
+.rsrc      0x2d000      0x2de8       0x2e00       7.225121    [SUSPICIOUS]
+

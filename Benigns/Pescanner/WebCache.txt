@@ -1,0 +1,44 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    8704 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     d6b58def928a11bee32779c95a3f7017
+SHA1:    bd4617725af8f16bee67c86fee9e0ac3fbc5d1ee
+ssdeep:  96:2Gt42az+r5hwiTxXsNLgryIRoUe8ADWPTo+qRfMBBrEFcBW9SjrEWgFfx2vv0MU:2a4Ly5DX2IRoqTkMBBrEF8WQMWgFfxF
+Date:    0x5789918F [Sat Jul 16 01:44:47 2016 UTC]
+EP:      0x401800 .text 0/5
+CRC:     Claimed: 0x5884, Actual: 0x5884 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4060   0x364    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xe2c        0x1000       5.338543    
+.data      0x2000       0x370        0x200        0.183339    [SUSPICIOUS]
+.idata     0x3000       0x586        0x600        4.460458    
+.rsrc      0x4000       0x3c8        0x400        3.187993    
+.reloc     0x5000       0x150        0x200        4.717333    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: webcache
+FileVersion: 11.00.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Internet Explorer
+ProductVersion: 11.00.14393.0
+FileDescription: Microsoft Web Cache
+OriginalFilename: webcache.exe
+Translation: 0x0409 0x04b0
+

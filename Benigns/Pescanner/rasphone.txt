@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    32256 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     83f6f730b1a8a81234fca28107cbc280
+SHA1:    4a6eb6235501a10f8e196763f79ac7820c477449
+ssdeep:  384:c1mvVaob2amAp3PPyiGi71/vm7VtXjVaRA4eZQpXs8MTnJ0PvMrFjZzWHBWKTY:mjoyamAlOi7d+ptXJg8ZQ2HnIUJjZo
+Date:    0x57899108 [Sat Jul 16 01:42:32 2016 UTC]
+EP:      0x4061e0 .text 0/5
+CRC:     Claimed: 0xaacd, Actual: 0xaacd 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x98b8   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0x9508   0x3ac    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x90f0   0x412    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5a84       0x5c00       6.142375    
+.data      0x7000       0x444        0x200        0.315443    [SUSPICIOUS]
+.idata     0x8000       0x872        0xa00        4.591032    
+.rsrc      0x9000       0x980        0xa00        4.373264    
+.reloc     0xa000       0x71c        0x800        6.367233    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: rasphone.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Remote Access Phonebook
+OriginalFilename: rasphone.exe
+Translation: 0x0409 0x04b0
+

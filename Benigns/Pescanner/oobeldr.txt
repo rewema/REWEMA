@@ -1,0 +1,51 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    57856 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     ca1741f7d3af6264bbb67d894e7ae724
+SHA1:    6b1b84417bc96b18aa1f37345738b854e6d33ac4
+ssdeep:  768:xY3O5BBbV5U9Fn4Qdno3KVKis8NgYaFL7mNcCDydXsr0:uSBnAuoo36Kis8jaFL7mmCmxsY
+Date:    0x57899115 [Sat Jul 16 01:42:45 2016 UTC]
+EP:      0x40b0b0 .text 0/5
+CRC:     Claimed: 0x1deb4, Actual: 0x1deb4 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0x10028  0xf0     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+WEVT_TEMPLATE      0xf7b0   0x872    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xf420   0x38c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xf160   0x2be    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xa97c       0xaa00       6.020365    
+.data      0xc000       0x52c        0x200        0.794609    [SUSPICIOUS]
+.idata     0xd000       0x1324       0x1400       4.957245    
+.rsrc      0xf000       0x1118       0x1200       4.220435    
+.reloc     0x11000      0xa84        0xc00        6.358027    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: OOBELdr.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: OOBE Loader
+OriginalFilename: OOBELDR.EXE
+Translation: 0x0409 0x04b0
+

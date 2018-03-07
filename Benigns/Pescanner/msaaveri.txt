@@ -1,0 +1,53 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    49152 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     96091c9667c22cf047da4cc963aaec71
+SHA1:    c06203b3f337b218548c1040dbc85067c039fd67
+ssdeep:  768:QAko4o6OjQi1lU1QIE8h0o+l8z8cWsu46WBkxw:QAko4oL3U/EML+l8IAu46WOi
+Date:    0x39D83956 [Mon Oct  2 07:29:26 2000 UTC]
+EP:      0x406a6c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x145de [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xd250   0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xd550   0x2c6    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xd818   0xea     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xdc80   0x4f0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe170   0x276    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe3e8   0x2ee    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0xe6d8   0x1d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xd538   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xd908   0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x5c02       0x6000       6.054228    
+.rdata     0x7000       0x9e6        0x1000       3.558701    
+.data      0x8000       0x47e4       0x2000       4.214750    
+.rsrc      0xd000       0x18b0       0x2000       3.037426    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1994-2000
+InternalName: MSAAVERI
+FileVersion: 4.02.4602.0
+CompanyName: Microsoft Corporation
+SpecialBuild: Active Accessibility SDK
+ProductName: Microsoft Active Accessibility
+ProductVersion: 4.02.4602.0
+FileDescription: MSAA Verifier SDK Component
+OriginalFilename: MSAAVERI.EXE
+Translation: 0x0409 0x04b0
+

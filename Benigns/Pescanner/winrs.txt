@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    42496 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     750273dff598600b3c18ffd0a785e25b
+SHA1:    235196a846b81187614b404497da493c600ce667
+ssdeep:  768:aPYS96uoVdczsATsv2holTameJMjUOYX2/EDpKeDeixju:aA06uoVdMG2hoGyULXfpKeD7y
+Date:    0x57898FFC [Sat Jul 16 01:38:04 2016 UTC]
+EP:      0x407600 .text 0/6
+CRC:     Claimed: 0x163a7, Actual: 0x163a7 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xd718   0xc8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_VERSION         0xd3a0   0x378    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xd0f0   0x2b0    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7293       0x7400       6.203629    
+.data      0x9000       0x858        0x600        2.608727    
+.idata     0xa000       0x11c4       0x1200       5.209948    
+.didat     0xc000       0x18         0x200        0.158427    [SUSPICIOUS]
+.rsrc      0xd000       0x7e0        0x800        4.316468    
+.reloc     0xe000       0xa30        0xc00        6.187700    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: winrs.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: winrs
+OriginalFilename: winrs.exe
+Translation: 0x0409 0x04b0
+

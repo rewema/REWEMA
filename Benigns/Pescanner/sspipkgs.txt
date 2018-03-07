@@ -1,0 +1,43 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    20480 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     a530588a768c4a06d513c8ec013c9ecb
+SHA1:    51a0738f38700da4e227772c8528babc4ffa0d69
+ssdeep:  48:SqnkWzYSqn+0m+w77W7uwC+9P4oyl1zF6r9f+4in/6pmJ58Pld5p:xkWzYSoC7auwC+9P4oynp6E4i/6OC/5
+Date:    0x446B695E [Wed May 17 18:20:14 2006 UTC]
+EP:      0x401110 .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x13ad2 [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x4060   0x330    LANG_ENGLISH SUBLANG_ENGLISH_AUS      data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x25c        0x1000       1.273806    
+.rdata     0x2000       0x21a        0x1000       0.872126    [SUSPICIOUS]
+.data      0x3000       0xfc         0x1000       0.466043    [SUSPICIOUS]
+.rsrc      0x4000       0x390        0x1000       0.957895    [SUSPICIOUS]
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 1999-2006 Tim Costello
+InternalName: sspipkgs
+FileVersion: 1.0.4.0
+Comments: Visit http://mod-auth-sspi.sf.net/ for the latest version.
+ProductName: sspipkgs
+FileDescription: SSPI security package tool for Apache 2.x
+OriginalFilename: sspipkgs.exe
+Translation: 0x0c09 0x04b0
+

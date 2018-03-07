@@ -1,0 +1,71 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    131072 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     7780d7f5c6455f4643917fc4f07acd51
+SHA1:    8da4b7b4a8a4c19e8a87a0a9f752228f48a3ccda
+ssdeep:  1536:fEtqUkFMHGSVKcY050wKwyAD5pAW4zsR:fEtqUk4YuNND5q
+Date:    0x3DE745D0 [Fri Nov 29 10:47:44 2002 UTC]
+EP:      0x40686c .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x2ae4e [SUSPICIOUS]
+Packers: Armadillo v1.71
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_BITMAP          0xf8f0   0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x108d0  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x118b0  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x12890  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x13870  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x14850  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x15830  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x16810  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x177f0  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x187d0  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x197b0  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1a790  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1b770  0xfe0    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_BITMAP          0x1c750  0x4ad8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0xe510   0x8a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xedd0   0x38     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MENU            0xee08   0x62     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xee70   0x15a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xefd0   0x3b8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0xf388   0x28a    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x21228  0x3a     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0xedb8   0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+RT_VERSION         0xf618   0x2d4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+ShellExecuteA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x6112       0x7000       5.629633    
+.rdata     0x8000       0x2218       0x3000       3.645550    
+.data      0xb000       0x3000       0x1000       2.801669    
+.rsrc      0xe000       0x13268      0x14000      3.206233    
+
+Version info
+================================================================================
+LegalCopyright: Copyright (C) 2002
+InternalName: arp
+FileVersion: 1, 0, 0, 1
+CompanyName: 
+LegalTrademarks: 
+ProductName: arp Application
+ProductVersion: 1, 0, 0, 1
+FileDescription: arp MFC Application
+OriginalFilename: arp.EXE
+Translation: 0x0409 0x04b0
+

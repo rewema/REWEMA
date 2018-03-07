@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    98304 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     c3474f40b5aeb5e35fa77f8265a7da8f
+SHA1:    ed35ccc1d0aedfddec6e45662d67087b94ec1071
+ssdeep:  768:TB2ZsB2ZqAB2ZCxB2ZxOlr75mnooqHd+yIgtGIT6kWOIMMPxbyu:pENlPFkbgtp6kWzb5
+Date:    0x40B81AF0 [Sat May 29 05:09:04 2004 UTC]
+EP:      0x1101576e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x1cda7 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x184a0  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x18788  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x188b0  0x22     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 2 icons, 32x32, 16-colors
+RT_VERSION         0x18118  0x388    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0x13774      0x14000      5.203843    
+.sdata     0x16000      0x7d         0x1000       0.312026    [SUSPICIOUS]
+.rsrc      0x18000      0x8d8        0x1000       2.179553    
+.reloc     0x1a000      0xc          0x1000       0.016408    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: :)
+Assembly Version: 1.0.1609.40484
+InternalName: mkisofsFE.exe
+FileVersion: 1.0.1609.40484
+CompanyName: Scorpio Designs
+LegalTrademarks: :)
+Comments: Front End for mkisofs
+ProductName: mkisofsFE
+ProductVersion: 1.0.1609.40484
+FileDescription: mkisofs Front End
+OriginalFilename: mkisofsFE.exe
+

@@ -1,0 +1,45 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    42496 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     e1b552e02291688cd4366f6f164ee42a
+SHA1:    6fed508c868768f7577912a9d3bb532103f25db4
+ssdeep:  768:Sz0lUFoFtS7EWOi8Q+gZRLzFVveWAEubtM48Z7qG84XVsU:Sz0+FoPXWO6tLH9AEKw7qG84XVsU
+Date:    0x57899158 [Sat Jul 16 01:43:52 2016 UTC]
+EP:      0x4070d0 .text 0/5
+CRC:     Claimed: 0x1437f, Actual: 0x1437f 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xb540   0x3b4    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0xb0a0   0x499    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x7a40       0x7c00       6.223775    
+.data      0x9000       0x5d4        0x200        2.579787    
+.idata     0xa000       0xee4        0x1000       5.062110    
+.rsrc      0xb000       0x8f8        0xa00        4.385799    
+.reloc     0xc000       0x8ac        0xa00        6.161426    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: User OOBE Broker
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: User OOBE Broker
+OriginalFilename: UserOOBEBroker.exe
+Translation: 0x0409 0x04b0
+

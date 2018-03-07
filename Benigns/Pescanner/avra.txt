@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    108497 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3a2e701f33c7c8804f5aad86644848f8
+SHA1:    fb7ae2ceb53cda4ba92b6599954e60521ed44d24
+ssdeep:  3072:yrcs0chW41jLM+izC7AIIieA2bbJ73diOPCp5A:y40hW4/EIJSJ0umA
+Date:    0x45326856 [Sun Oct 15 16:56:54 2006 UTC]
+EP:      0x401220 .text 0/6
+CRC:     Claimed: 0x1a8d2, Actual: 0x1a8d2 
+Packers: Dev-C++ 4.9.9.2 -> Bloodshed Software
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x18058  0x284    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0xfbb4       0xfc00       5.635574    
+.data      0x11000      0xc10        0xe00        2.905427    
+.rdata     0x12000      0x3350       0x3400       5.238226    
+.bss       0x16000      0xd0         0x0          0.000000    [SUSPICIOUS]
+.idata     0x17000      0x5d0        0x600        4.315088    
+.rsrc      0x18000      0x2dc        0x400        2.418473    
+
+Version info
+================================================================================
+LegalCopyright: 
+InternalName: 
+FileVersion: 
+CompanyName: 
+LegalTrademarks: 
+ProductName: avra
+ProductVersion: 
+FileDescription: Developed using the Dev-C++ IDE
+OriginalFilename: 
+Translation: 0x0409 0x04e4
+

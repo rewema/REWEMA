@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    48128 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     23382067a1686cb82f77a10fde5d3bae
+SHA1:    59b374fd141fadb7caa515d1ca727ef16b9bcdcb
+ssdeep:  768:F5mTJByR6d1J+AsYpjl2PyP0+3O8VPML0tnF92bGrbG7b5UZGGilnXast:F5yJA6dvJsCLXO8Zk0VWbGrbGp4GGilj
+Date:    0x57898F70 [Sat Jul 16 01:35:44 2016 UTC]
+EP:      0x4085c0 .text 0/6
+CRC:     Claimed: 0x10560, Actual: 0x10560 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+MUI                0xe608   0xd8     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+UIFILE             0xe100   0x12e    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+RT_VERSION         0xe230   0x3d8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x8f3c       0x9000       6.324598    
+.imrsiv    0xa000       0x4          0x0          0.000000    [SUSPICIOUS]
+.data      0xb000       0x6fc        0x400        3.867971    
+.idata     0xc000       0x1154       0x1200       5.300240    
+.rsrc      0xe000       0x6e0        0x800        3.512503    
+.reloc     0xf000       0x8c4        0xa00        6.267582    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WindowsActionDialog
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Windows Action Dialog Broker
+OriginalFilename: WindowsActionDialog.exe
+Translation: 0x0409 0x04b0
+

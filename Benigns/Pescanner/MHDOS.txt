@@ -1,0 +1,89 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    203225 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     b6f59681676f49f4103e6ff1ed179f7d
+SHA1:    fffa580468f63bfe65c656c933e8eb2d7203fc7e
+ssdeep:  6144:tWia4H6oy2LcyphV06MNStssIWClk6OdFpv6IMmy5re4n:YivH5X5366McssI7k6Ofp3iem
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x4dacb0 UPX1 1/3 [SUSPICIOUS]
+CRC:     Claimed: 0x0, Actual: 0x40afc [SUSPICIOUS]
+Packers: UPX 2.90 [LZMA] -> Markus Oberhumer, Laszlo Molnar & John Reiser
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_CURSOR          0xd2dac  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xd2ee0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xd3014  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xd3148  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xd327c  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xd33b0  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_CURSOR          0xd34e4  0x134    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd3618  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd37e8  0x1e4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd39cc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd3b9c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (15291666 records)
+RT_BITMAP          0xd3d6c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd3f3c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd410c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          Dyalog APL component file 64-bit level 2 journaled checksummed
+RT_BITMAP          0xd42dc  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd44ac  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd467c  0x1d0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd484c  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd490c  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd49e4  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd4ac4  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd4ba4  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          Dyalog APL version 96 .76
+RT_BITMAP          0xd4c84  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd4d44  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd4e04  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd4ee4  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd4fbc  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd5094  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd5154  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd522c  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd530c  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd53e4  0xc0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_BITMAP          0xd54a4  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xdbdb0  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_CAN      data
+RT_STRING          0xd586c  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd5a54  0x2cc    LANG_NEUTRAL SUBLANG_NEUTRAL          DOS executable (COM)
+RT_STRING          0xd5d20  0xd8     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd5df8  0x198    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd5f90  0x1b8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6148  0x408    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6550  0x3dc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd692c  0x3c4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6cf0  0x2b4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd6fa4  0xe0     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd7084  0xbc     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd7140  0x334    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd7474  0x3b0    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0xd7824  0x2d4    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd7af8  0x10     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd7b08  0x1cc    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_RCDATA          0xd7cd4  0xef     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd7dc4  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          8086 relocatable (Microsoft)
+RT_GROUP_CURSOR    0xd7dd8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd7dec  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd7e00  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd7e14  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd7e28  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_CURSOR    0xd7e3c  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0xdc09c  0x14     LANG_ENGLISH SUBLANG_ENGLISH_CAN      MS Windows icon resource - 1 icon
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+UPX0       0x1000       0xac000      0x0          0.000000    [SUSPICIOUS]
+UPX1       0xad000      0x2e000      0x2e000      7.914598    [SUSPICIOUS]
+.rsrc      0xdb000      0x2000       0x1400       3.542809    
+

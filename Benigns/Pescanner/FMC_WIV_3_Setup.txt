@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    2532640 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     f662c10d4b0375dee795e37bff3668a9
+SHA1:    a89b84dbeebd88312ed812748a2109cd7e12a0a7
+ssdeep:  49152:NasoD+uD/jhhatxabGwVJVmYV+47ySGsYUsFEz:8s4h4xaK6JVmYglxshsez
+Date:    0x2A425E19 [Fri Jun 19 22:22:17 1992 UTC] [SUSPICIOUS]
+EP:      0x409c40 CODE 0/8
+CRC:     Claimed: 0x0, Actual: 0x275ce8 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x113b4  0x468    LANG_ENGLISH SUBLANG_ENGLISH_US       GLS_BINARY_LSB_FIRST
+RT_ICON            0x1181c  0x10a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x128c4  0x25a8   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x14e6c  0x4228   LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x19094  0x10828  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_ICON            0x298bc  0x42028  LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_STRING          0x6b8e4  0x2f2    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6bbd8  0x30c    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6bee4  0x2ce    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6c1b4  0x68     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209057 records)
+RT_STRING          0x6c21c  0xb4     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_STRING          0x6c2d0  0xae     LANG_NEUTRAL SUBLANG_NEUTRAL          DBase 3 data file (7209077 records)
+RT_RCDATA          0x6c380  0x2c     LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x6c3ac  0x5a     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 6 icons, 16x16, 256-colors
+RT_VERSION         0x6c408  0x4b8    LANG_ENGLISH SUBLANG_ENGLISH_US       COM executable for DOS
+RT_MANIFEST        0x6c8c0  0x560    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+CODE       0x1000       0x9364       0x9400       6.562232    
+DATA       0xb000       0x24c        0x400        2.753482    
+BSS        0xc000       0xe4c        0x0          0.000000    [SUSPICIOUS]
+.idata     0xd000       0x950        0xa00        4.430733    
+.tls       0xe000       0x8          0x0          0.000000    [SUSPICIOUS]
+.rdata     0xf000       0x18         0x200        0.204488    [SUSPICIOUS]
+.reloc     0x10000      0x8b4        0x0          0.000000    [SUSPICIOUS]
+.rsrc      0x11000      0x5be20      0x5c000      4.200289    
+
+Version info
+================================================================================
+LegalCopyright:                                                                                                     
+FileVersion:                     
+CompanyName: FMC Software Solutions \xa9 2016                               
+Comments: This installation was built with Inno Setup.
+ProductName: FMC Windows Image Viewer 3                                  
+ProductVersion: 3.18.3              
+FileDescription: FMC Windows Image Viewer 3 Setup                            
+Translation: 0x0000 0x04b0
+

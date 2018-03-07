@@ -1,0 +1,52 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    328712 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     cffcb4bd61e2884d9715efada977c844
+SHA1:    c8fef082aad97615465c8f347cff8910e46ec356
+ssdeep:  6144:cdDf9Bp4vr1tkv1zMNTSc6UQWENxd58FIhjS8Bw0:cs1ixMNTSjU4Dd2kv
+Date:    0x57899031 [Sat Jul 16 01:38:57 2016 UTC]
+EP:      0x43df60 .text 0/6
+CRC:     Claimed: 0x5dc86, Actual: 0x5dc86 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x49680  0x3c8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_MANIFEST        0x490a0  0x5dd    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+CreateProcessAsUserW
+StartServiceW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x413f8      0x41400      6.083571    
+.data      0x43000      0x2c68       0x2800       5.053668    
+.idata     0x46000      0x1ebe       0x2000       5.373618    
+.didat     0x48000      0x28         0x200        0.394141    [SUSPICIOUS]
+.rsrc      0x49000      0xa48        0xc00        4.378004    
+.reloc     0x4a000      0x42cc       0x4400       6.754791    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: MpCmdRun
+FileVersion: 4.10.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 4.10.14393.0
+FileDescription: Microsoft Malware Protection Command Line Utility
+OriginalFilename: MpCmdRun.exe
+Translation: 0x0409 0x04b0
+

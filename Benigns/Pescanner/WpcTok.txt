@@ -1,0 +1,49 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    164352 bytes
+Type:    PE32 executable for MS Windows (console) Intel 80386 32-bit
+MD5:     3d6daf9e07d7125523164b89a77e088a
+SHA1:    37ae11b338b3b6ef15f162d921492ae1b4dffd2f
+ssdeep:  3072:TR+qeIdqegss8/22Nb/P0Wsd5Xlpn4d7TfeQV5BZW7iKh7Bz:F+Iqdn8/BNb9svXlp4deu5BZW7tB
+Date:    0x578990CE [Sat Jul 16 01:41:34 2016 UTC]
+EP:      0x419df0 .text 0/6
+CRC:     Claimed: 0x34da8, Actual: 0x34da8 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0x28060  0x3a8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+
+Suspicious IAT alerts
+================================================================================
+OpenProcessToken
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x1df14      0x1e000      6.116333    
+.data      0x1f000      0x5dfc       0x5000       4.726362    
+.idata     0x25000      0x1e38       0x2000       5.208859    
+.didat     0x27000      0x8          0x200        0.061163    [SUSPICIOUS]
+.rsrc      0x28000      0x408        0x600        2.441050    
+.reloc     0x29000      0x25f0       0x2600       6.592071    
+
+Version info
+================================================================================
+LegalCopyright: \xa9 Microsoft Corporation. All rights reserved.
+InternalName: WpcTok.exe
+FileVersion: 10.0.14393.0 (rs1_release.160715-1616)
+CompanyName: Microsoft Corporation
+ProductName: Microsoft\xae Windows\xae Operating System
+ProductVersion: 10.0.14393.0
+FileDescription: Family Safety Token Auth
+OriginalFilename: WpcTok.exe
+Translation: 0x0409 0x04b0
+

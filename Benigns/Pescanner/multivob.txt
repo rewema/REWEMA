@@ -1,0 +1,48 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    38525 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     6fbec63fa766eda1490d1ac039ddf5d8
+SHA1:    07bb6f80ac4b0445ec8586baef596b916cc76cf2
+ssdeep:  768:qOj3KU5C57L8MJZu+zP0hQYMZO9/vqVM6ZgJRnS:HDi3ZuzhHMwnY7V
+Date:    0x3F5789E1 [Thu Sep  4 18:52:17 2003 UTC]
+EP:      0x401e7d .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x134ae [SUSPICIOUS]
+
+Signature scans
+================================================================================
+YARA: embedded_exe
+   0x4eL => This program cannot be run in DOS mode
+   0x4f20L => This program cannot be run in DOS mode
+
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x1e1a8  0x2e8    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1e490  0x144    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1e5d8  0x100    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1e6d8  0x15c    LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1e838  0xc4     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_DIALOG          0x1e900  0x60     LANG_ENGLISH SUBLANG_ENGLISH_US       data
+RT_GROUP_ICON      0x1e960  0x14     LANG_ENGLISH SUBLANG_ENGLISH_US       MS Windows icon resource - 1 icon
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessA
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x2819       0x2a00       6.135932    
+.rdata     0x4000       0xd1e        0xe00        4.993524    
+.data      0x5000       0x18b38      0x200        2.657631    
+.rsrc      0x1e000      0x1000       0xa00        3.112222    
+

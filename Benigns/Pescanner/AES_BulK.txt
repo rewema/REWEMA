@@ -1,0 +1,47 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    50688 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     7f29585c1b84c3ac24f0afde7c5252d4
+SHA1:    7d1504df1ed28ad3fb7077b6c10f54662430dcdc
+ssdeep:  768:gYUuBZ2GNq1e2wBmC65O3GwmDNrGEXUkXdElPBYUzzYcCe:gmVNEGlENpXdENB/
+Date:    0x4937D255 [Thu Dec  4 12:51:33 2008 UTC]
+EP:      0x40c69e .text 0/4
+CRC:     Claimed: 0x0, Actual: 0x11ac6 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0x10430  0xca8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_GROUP_ICON      0x110d8  0x14     LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 1 icon
+RT_VERSION         0x10130  0x300    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0x110f0  0x4d3    LANG_NEUTRAL SUBLANG_NEUTRAL          exported SGML document text
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xa6a4       0xa800       5.683521    
+.sdata     0xe000       0xa9         0x200        2.427263    
+.rsrc      0x10000      0x15c8       0x1600       5.591826    
+.reloc     0x12000      0xc          0x200        0.081539    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Claus Regenbrecht 2008
+Assembly Version: 1.0.2.0
+InternalName: AES_BulK.exe
+FileVersion: 1.0.2.0
+CompanyName: Claus Regenbrecht
+ProductName: AES_BulK
+ProductVersion: 1.0.2.0
+FileDescription: AES_BulK
+OriginalFilename: AES_BulK.exe
+

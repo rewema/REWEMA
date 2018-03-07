@@ -1,0 +1,50 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    52800 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit
+MD5:     5f2d0025cb3c078e0aab83e1430827c6
+SHA1:    88576ad11db3fa88662d2ac822df50fe813fdc9e
+ssdeep:  1536:BGIofovBbS9KMvMK0cz6QsTPOXi2Ug9NK:UIYpYA0cz6QsTPOX/UkNK
+Date:    0x57E48FF5 [Fri Sep 23 02:14:13 2016 UTC]
+EP:      0x4069b8 .text 0/5
+CRC:     Claimed: 0x1ac49, Actual: 0x1ac49 
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_VERSION         0xd478   0x364    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_MANIFEST        0xd0a0   0x3d6    LANG_ENGLISH SUBLANG_ENGLISH_US       XML  document text
+
+Suspicious IAT alerts
+================================================================================
+CreateProcessW
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x1000       0x65d1       0x6600       6.432385    
+.rdata     0x8000       0x3508       0x3600       4.477163    
+.data      0xc000       0x618        0x200        4.057760    
+.rsrc      0xd000       0x7e0        0x800        4.637439    
+.reloc     0xe000       0xad6        0xc00        5.385464    
+
+Version info
+================================================================================
+LegalCopyright: Copyright \xa9 2016
+InternalName: Java SSV Agent Process
+FileVersion: 11.111.2.14
+Full Version: 11.111.2.14
+CompanyName: Oracle Corporation
+ProductName: Java(TM) Platform SE 8 U111
+ProductVersion: 8.0.1110.14
+FileDescription: Java(TM) Platform SE binary
+OriginalFilename: ssvagent.exe
+Translation: 0x0000 0x04b0
+

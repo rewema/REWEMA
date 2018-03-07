@@ -1,0 +1,66 @@
+################################################################################
+Record 0
+################################################################################
+
+Meta-data
+================================================================================
+File:    temp.exe
+Size:    1237504 bytes
+Type:    PE32 executable for MS Windows (GUI) Intel 80386 32-bit Mono/.Net assembly
+MD5:     05f86bfb5f6774fc28f020f8a8c8d781
+SHA1:    4c9e54996230747c3a4bf3d8e5906bfc082a372d
+ssdeep:  12288:q8uA21pdU4eUvnnPrsQGv/z6MCDX+y4cDU2RS+oEt28D60yNqaztQ2KAi3W:/j21pdUInPNGnOcwUWDtay2K53W
+Date:    0x4D6AF535 [Mon Feb 28 01:07:01 2011 UTC]
+EP:      0x4eae0e .text 0/3
+CRC:     Claimed: 0x0, Actual: 0x12e4e7 [SUSPICIOUS]
+
+Resource entries
+================================================================================
+Name               RVA      Size     Lang         Sublang                  Type
+--------------------------------------------------------------------------------
+RT_ICON            0xec8a0  0x55d6   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xf1e78  0x668    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf24e0  0x2e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf27c8  0x1e8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xf29b0  0x128    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xf2ad8  0x7d10   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0xfa7e8  0xea8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xfb690  0x8a8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xfbf38  0x6c8    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0xfc600  0x568    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_ICON            0xfcb68  0x614d   LANG_NEUTRAL SUBLANG_NEUTRAL          PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+RT_ICON            0x102cb8 0x10828  LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1134e0 0x94a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x11c988 0x67e8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x123170 0x5488   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1285f8 0x4228   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12c820 0x25a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12edc8 0x10a8   LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x12fe70 0x988    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+RT_ICON            0x1307f8 0x468    LANG_NEUTRAL SUBLANG_NEUTRAL          GLS_BINARY_LSB_FIRST
+RT_GROUP_ICON      0x130c60 0x11e    LANG_NEUTRAL SUBLANG_NEUTRAL          MS Windows icon resource - 20 icons, 16-colors
+RT_VERSION         0xec478  0x424    LANG_NEUTRAL SUBLANG_NEUTRAL          data
+
+Sections
+================================================================================
+Name       VirtAddr     VirtSize     RawSize      Entropy     
+--------------------------------------------------------------------------------
+.text      0x2000       0xe8e14      0xe9000      7.327441    [SUSPICIOUS]
+.rsrc      0xec000      0x44d80      0x44e00      6.252463    
+.reloc     0x132000     0xc          0x200        0.101910    [SUSPICIOUS]
+
+Version info
+================================================================================
+Translation: 0x0000 0x04b0
+LegalCopyright: Copyright \xa9 Burak Sarac 2011
+Assembly Version: 1.0.0.0
+InternalName: OutlookArchiver.exe
+FileVersion: 1.0.0.0
+CompanyName: Burak Sarac  - burak@u-db.com
+LegalTrademarks: Apache License 2.0
+Comments: An easy way of archiving emails.
+ProductName: Microsoft Outlook Archiver
+ProductVersion: 1.0.0.0
+FileDescription: Outlook Archiver Beta
+OriginalFilename: OutlookArchiver.exe
+
