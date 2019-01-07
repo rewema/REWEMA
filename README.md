@@ -1,4 +1,5 @@
 # REWEMA
+######(Retrieval Windows Executables Malware Analysis)
 
 ## Commercial Antivirus Limitation
 Technically, the modus operandi for the identification of malicious files and servers refers to consult in named blacklist databases. The VirusTotal platform issues the diagnoses regarding malignant characteristics related to files and web servers.
@@ -30,8 +31,6 @@ As for the false negatives, the Zoner, Malwarebytes and SUPERAntiSpyware antivir
 VirusBuster, NOD32, eSafe, eTrust-Vet, Authentium, Prevx, Sunbelt, PCTools, a-squared, WhiteArmor, Command, SAVMail, FileAdvisor,Ewido and Webwasher-Gateway antivirus companies have not omitted opinion on any of the 3136 samples malicious. Therefore, about 17% of antivirus softwares were not able to diagnose any of the malicious samples. On average, the antiviruses were missing in 30.82% of the cases, with a standard deviation of 40.97. The omission of the diagnosis points to the limitation of these antiviruses that have limited blacklists for detection of malware in real time.
 
 It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 3. We choose 3 of 3136 REWEMA malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are Backdoor.IRC.Darkirc.exe, Backdoor.Win32.Zomby.exe e Constructor.VBS.Alamar.20.exe. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no a pattern, antiviruses give the names that they want, for example, a company can identify a malware as "Malware.1" and a second company identify it as "Malware12310". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
-
-![Figura 1 VirusTotal API Diagram](file:///C:/Users/hkls/Pictures/asda.png)
 
 ###### Table 2 Results of 86 commercial antiviruses:
 
