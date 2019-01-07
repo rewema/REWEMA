@@ -1,5 +1,5 @@
 # REWEMA
-###### (Retrieval Windows Executables Malware Analysis)
+(Retrieval Windows Executables Malware Analysis)
 
 ## Commercial Antivirus Limitation
 Technically, the modus operandi for the identification of malicious files and servers refers to consult in named blacklist databases. The VirusTotal platform issues the diagnoses regarding malignant characteristics related to files and web servers.
