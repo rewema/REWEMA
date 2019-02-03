@@ -1,5 +1,5 @@
 # About .header files 
-  The .head file type is a file type created by the Pexplorer tool that was used to execute and unmount the executables contained in the REWEMA database. Please send an email to the maximum file available on Github. The texts included in this link: [benign download headers](wwww.google.com).
+  The header file type is a file type created by the Pexplorer tool that was used to perform the disassembler of the executables contained in the REWEMA database. Because the headers files exceed the maximum file size for upload available by Github. This way the headers are accessible in this link: [benigns download headers](wwww.google.com).
  
 ## Disassembler tool Pexplorer
 #### What is Pexplorer all about?
